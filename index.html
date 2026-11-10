@@ -37,14 +37,16 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .dot.off{background:var(--y)}
 @keyframes ping{0%{box-shadow:0 0 0 0 currentColor}70%{box-shadow:0 0 0 8px transparent}100%{box-shadow:0 0 0 0 transparent}}
 .hero-c{position:relative;z-index:2;text-align:center;padding:0 20px;max-width:980px;pointer-events:none}
-.hero-c>*{pointer-events:auto}
+.hero-c>*{pointer-events:auto;position:relative}
+.hero-c:before{content:"";position:absolute;left:50%;top:50%;width:120%;height:115%;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(7,6,15,.62),rgba(7,6,15,.35) 55%,transparent);pointer-events:none;z-index:0}
+.sub{text-shadow:0 2px 12px rgba(7,6,15,.9)}
 .kicker{display:inline-flex;gap:8px;align-items:center;font-size:13px;color:#d9d3ff;letter-spacing:.06em;margin-bottom:22px}
 .greet{font-size:clamp(15px,2.2vw,20px);color:var(--mut);margin-bottom:10px;min-height:1.6em}
 h1{font-size:clamp(46px,11vw,132px);line-height:1.02;font-weight:900;letter-spacing:-.02em;margin-bottom:22px}
 h1 .grad{background:linear-gradient(100deg,#fff 0%,#e9d5ff 20%,#f0abfc 40%,#67e8f9 60%,#fff 80%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 7s linear infinite;filter:drop-shadow(0 6px 40px rgba(139,92,246,.45))}
 @keyframes shine{to{background-position:-250% 0}}
 .sub{font-size:clamp(15px,2.1vw,20px);color:#cfc9ea;max-width:680px;margin:0 auto 34px}
-.sub b{color:#fff;font-weight:700}
+.sub b{color:#fff;font-weight:700}.nw{white-space:nowrap}
 .cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .btn{position:relative;display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:16px;font-weight:800;font-size:16px;transition:transform .2s,box-shadow .2s,background .2s}
 .btn:active{transform:scale(.97)}
@@ -56,6 +58,33 @@ h1 .grad{background:linear-gradient(100deg,#fff 0%,#e9d5ff 20%,#f0abfc 40%,#67e8
 .scroll-hint span{width:22px;height:36px;border:2px solid rgba(255,255,255,.25);border-radius:12px;position:relative}
 .scroll-hint span:after{content:"";position:absolute;left:50%;top:7px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:#fff;animation:wheel 1.8s infinite}
 @keyframes wheel{0%{opacity:0;transform:translateY(-3px)}30%{opacity:1}100%{opacity:0;transform:translateY(12px)}}
+/* ---------- ambient aurora behind the content */
+.aurora{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;opacity:0;transition:opacity 1.2s}
+.aurora.on{opacity:1}
+.aurora i{position:absolute;width:60vmax;height:60vmax;border-radius:50%;filter:blur(90px);opacity:.22;animation:float 26s ease-in-out infinite alternate}
+.aurora i:nth-child(1){left:-15vmax;top:10vh;background:#7c3aed}
+.aurora i:nth-child(2){right:-20vmax;top:40vh;background:#db2777;animation-duration:32s;animation-delay:-8s}
+.aurora i:nth-child(3){left:20vw;bottom:-30vmax;background:#0891b2;animation-duration:38s;animation-delay:-15s}
+@keyframes float{to{transform:translate(8vmax,-6vmax) scale(1.15)}}
+/* ---------- headline wall */
+.wall{position:relative;z-index:3;padding:30px 0 10px;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.wall-h{text-align:center;margin-bottom:26px;padding:0 16px}
+.wrow{display:flex;white-space:nowrap;gap:18px;padding:9px 0;width:max-content;will-change:transform}
+.wrow a{display:inline-flex;align-items:center;gap:12px;padding:14px 22px;border-radius:18px;font-size:clamp(16px,2vw,22px);font-weight:800;background:rgba(255,255,255,.045);border:1px solid var(--line);transition:background .2s,border-color .2s,transform .2s}
+.wrow a:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.22);transform:translateY(-2px)}
+.wrow a em{font-style:normal;font-size:12px;padding:3px 8px;border-radius:8px;font-weight:800}
+.wrow.r1{animation:marq 70s linear infinite}.wrow.r2{animation:marqr 90s linear infinite}.wrow.r3{animation:marq 110s linear infinite}
+.wrow.r1 a em{background:rgba(239,68,68,.18);color:#fecaca}.wrow.r2 a em{background:rgba(139,92,246,.2);color:#ddd6fe}.wrow.r3 a em{background:rgba(34,211,238,.16);color:#a5f3fc}
+@keyframes marqr{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+.wall:hover .wrow{animation-play-state:paused}
+.wall-fade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,var(--bg),transparent 12%,transparent 88%,var(--bg))}
+/* chat bubbles in the drawing card */
+.board{position:relative;flex:none;width:210px;height:170px;border-radius:16px;background:rgba(255,255,255,.94);box-shadow:0 20px 50px -20px rgba(139,92,246,.7);overflow:hidden}
+.board svg{position:absolute;inset:0}
+.board .bub{position:absolute;right:8px;font-size:12px;font-weight:700;padding:5px 9px;border-radius:10px 10px 2px 10px;background:#1e1b4b;color:#fff;opacity:0;transform:translateY(8px);animation:bub 9s infinite}
+.board .b1{bottom:62px;animation-delay:2.2s}.board .b2{bottom:36px;animation-delay:3.6s}.board .b3{bottom:10px;background:linear-gradient(135deg,#10b981,#059669);animation-delay:5s}
+@keyframes bub{0%{opacity:0;transform:translateY(8px)}6%,70%{opacity:1;transform:none}80%,100%{opacity:0}}
+.board .hint{position:absolute;left:10px;top:8px;font:800 12px/1 var(--font);color:#6d28d9;letter-spacing:.3em}
 /* ---------- ticker */
 .ticker{position:relative;z-index:3;border-block:1px solid var(--line);background:rgba(255,255,255,.025);overflow:hidden;white-space:nowrap;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
 .ticker-in{display:inline-flex;gap:38px;padding:14px 0;animation:marq 80s linear infinite;will-change:transform}
@@ -69,7 +98,7 @@ h1 .grad{background:linear-gradient(100deg,#fff 0%,#e9d5ff 20%,#f0abfc 40%,#67e8
 section{position:relative;z-index:3;padding:clamp(64px,10vw,120px) clamp(16px,4vw,40px);max-width:1240px;margin:0 auto}
 .sec-h{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:34px;flex-wrap:wrap}
 .eyebrow{font-size:12px;letter-spacing:.28em;color:var(--c);font-weight:800;margin-bottom:10px}
-h2{font-size:clamp(30px,5vw,52px);line-height:1.1;font-weight:900;letter-spacing:-.01em}
+h2{text-wrap:balance;font-size:clamp(28px,5vw,52px);line-height:1.1;font-weight:900;letter-spacing:-.01em}
 h2 .g2{background:linear-gradient(90deg,var(--v),var(--p),var(--y));-webkit-background-clip:text;background-clip:text;color:transparent}
 .sec-h p{color:var(--mut);max-width:420px}
 /* ---------- bento */
@@ -91,6 +120,7 @@ h2 .g2{background:linear-gradient(90deg,var(--v),var(--p),var(--y));-webkit-back
 .go .arr{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.08);transition:transform .25s,background .25s}
 .card:hover .arr{transform:translateX(4px) rotate(-45deg);background:linear-gradient(135deg,var(--a),var(--b))}
 .stat{font-size:13px;color:#cfc9ea;display:flex;align-items:center;gap:8px;margin-top:12px}
+.stat strong{color:#fff;font-weight:800}
 .stat b{font-size:22px;font-weight:900;color:#fff;font-variant-numeric:tabular-nums}
 .c-hot{grid-column:span 2;grid-row:span 2;--a:#f97316;--b:#ef4444}
 .c-draw{grid-column:span 2;--a:#8b5cf6;--b:#ec4899}
@@ -159,11 +189,12 @@ footer a.pill:hover{color:#fff;border-color:rgba(255,255,255,.25)}
 .rv{opacity:0;transform:translateY(34px) scale(.98);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
 .rv.in{opacity:1;transform:none}
 @media (max-width:980px){.bento{grid-template-columns:repeat(2,1fr)}.c-hot,.c-deal,.c-draw,.c-type{grid-column:span 2}.c-hot,.c-deal{grid-row:auto}.nums{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:560px){.bento{grid-template-columns:1fr;gap:14px}.c-hot,.c-deal,.c-draw,.c-type{grid-column:auto}.card{padding:20px}.doodle{width:110px;height:100px}.top-r .hide-m{display:none}.btn{padding:14px 20px;font-size:15px}.hl{min-height:0}.scroll-hint{display:none}.nums{gap:12px}.num{padding:18px}}
+@media (max-width:560px){#hero{align-items:flex-end}.hero-c{padding-bottom:max(9vh,40px)}h1{margin-bottom:16px}.sub{margin-bottom:26px}.bento{grid-template-columns:1fr 1fr;gap:12px;grid-auto-rows:auto}.c-hot,.c-deal,.c-draw,.c-type{grid-column:span 2}.card{padding:20px}.c-daka,.c-radio,.c-tool,.c-moyu{padding:16px}.c-daka h3,.c-radio h3,.c-tool h3,.c-moyu h3{font-size:17px}.c-daka p,.c-radio p,.c-tool p,.c-moyu p{font-size:12.5px}.c-daka .orb,.c-radio .orb,.c-tool .orb,.c-moyu .orb{width:42px;height:42px;font-size:21px;margin-bottom:12px}.c-tool .chips{display:none}.bigclock{font-size:26px}.c-daka .stat,.c-radio .stat{font-size:12px}.draw-row{flex-direction:column;align-items:stretch}.board{width:100%;height:170px}.top-r .hide-m{display:none}.btn{padding:14px 20px;font-size:15px}.hl{min-height:0}.scroll-hint{display:none}.nums{gap:12px}.num{padding:18px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 </style>
 </head>
 <body>
+<div class="aurora" id="aurora"><i></i><i></i><i></i></div>
 <header class="topbar" id="top">
   <a class="logo" href="#"><i>玩</i>玩点啥</a>
   <div class="top-r">
@@ -180,7 +211,7 @@ footer a.pill:hover{color:#fff;border-color:rgba(255,255,255,.25)}
     <div class="kicker pill"><span class="dot on"></span><span id="today">今天</span></div>
     <div class="greet" id="greet">&nbsp;</div>
     <h1><span class="grad">今天，玩点啥？</span></h1>
-    <p class="sub">全网<b>热榜</b>一页看完 · 和朋友开一局<b>你画我猜</b> · 边打字边<b>背单词</b> · 100+ <b>在线工具</b> · 每天更新的 <b>AI 羊毛</b>。<br>免费，免登录，手机电脑都能玩。</p>
+    <p class="sub"><span class="nw">全网<b>热榜</b>一页看完</span> · <span class="nw">和朋友开一局<b>你画我猜</b></span> · <span class="nw">边打字边<b>背单词</b></span> · <span class="nw">100+ <b>在线工具</b></span> · <span class="nw">每天更新的 <b>AI 羊毛</b></span><br>免费，免登录，手机电脑都能玩。</p>
     <div class="cta">
       <a class="btn pri" href="https://huahua.is-my.app/">🎨 开一局你画我猜</a>
       <a class="btn sec" href="#play">🔥 看看今天有什么</a>
@@ -213,11 +244,9 @@ footer a.pill:hover{color:#fff;border-color:rgba(255,255,255,.25)}
           <div class="stat" id="drawStat"><span class="dot"></span><span>正在查看房间…</span></div>
           <div class="go"><span class="mini-btn">开一局 →</span></div>
         </div>
-        <svg class="doodle" viewBox="0 0 170 150" aria-hidden="true"><defs><linearGradient id="dg" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
-          <path stroke="url(#dg)" d="M40 95c-12-30 10-60 45-60s57 30 45 60c-8 20-30 32-45 32s-37-12-45-32z"/>
-          <path stroke="#fff" d="M48 52c-10-14-2-26 10-22M122 52c10-14 2-26-10-22"/>
-          <path stroke="#fff" d="M66 80c4-8 14-8 16 0M92 80c4-8 14-8 16 0M78 100c6 6 14 6 20 0"/>
-        </svg>
+        <div class="board" aria-hidden="true"><span class="hint">_ _ _</span>
+          <svg viewBox="0 0 210 170"><g class="doodle" style="width:auto;height:auto"><path stroke="#7c3aed" d="M62 112c-14-30 8-62 43-62s57 32 43 62c-8 18-26 28-43 28s-35-10-43-28z"/><path stroke="#7c3aed" d="M70 62c-9-16 0-28 12-22M140 62c9-16 0-28-12-22"/><path stroke="#db2777" d="M86 94c3-6 10-6 13 0M112 94c3-6 10-6 13 0M98 112c5 5 11 5 15 0"/><path stroke="#f59e0b" d="M60 100h-22M60 108l-20 6M150 100h22M150 108l20 6"/></g></svg>
+          <span class="bub b1">是老鼠吗？</span><span class="bub b2">小狗！</span><span class="bub b3">✅ 小红猜对了：猫</span></div>
       </div>
     </a>
 
@@ -269,6 +298,11 @@ footer a.pill:hover{color:#fff;border-color:rgba(255,255,255,.25)}
   </div>
 </section>
 
+<div class="wall" id="wall" hidden>
+  <div class="wall-h rv"><div class="eyebrow">LIVE · 每分钟刷新</div><h2>此刻，<span class="g2">全网都在聊</span></h2></div>
+  <div class="wrow r1" id="w1"></div><div class="wrow r2" id="w2"></div><div class="wrow r3" id="w3"></div>
+</div>
+
 <section>
   <div class="nums">
     <div class="num rv"><b data-n="50">0</b><span>个热榜来源，实时汇总</span></div>
@@ -313,7 +347,7 @@ var g=(function(h){return h<5?['夜深了，还在冲浪的你最酷 🌙','凌�
 $('#greet').textContent=g[0];tick();setInterval(tick,1000);
 
 /* ---------- topbar */
-var tb=$('#top');function onScroll(){tb.classList.toggle('solid',scrollY>40)}addEventListener('scroll',onScroll,{passive:true});onScroll();
+var tb=$('#top'),au=$('#aurora');function onScroll(){tb.classList.toggle('solid',scrollY>40);au.classList.toggle('on',scrollY>innerHeight*.5)}addEventListener('scroll',onScroll,{passive:true});onScroll();
 
 /* ---------- reveal + counters */
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);var b=e.target.querySelector('b[data-n]');if(b)count(b)}})},{threshold:.12});
@@ -338,7 +372,7 @@ var WORDS=[['serendipity','意外发现美好事物的运气'],['procrastinate',
 
 /* ---------- deals (static site, independent of the game server) */
 function deals(){fetch('https://aiym168.github.io/api/latest.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){
- var it=(d.items||[]).filter(function(x){return x.title&&x.path&&x.status!=='expired'}).slice(0,MOBILE?3:4);
+ var it=(d.items||[]).filter(function(x){return x.title&&x.path&&!x.pinned&&x.status!=='expired'&&x.status_label!=='未核实'});it.sort(function(a,b){return (a.status==='available'?0:1)-(b.status==='available'?0:1)});it=it.slice(0,MOBILE?3:5);
  $('#deals').innerHTML=it.map(function(x){return '<li><a href="https://aiym168.github.io/'+esc(x.path)+'"><div class="t">'+esc(x.title)+'</div><div class="m"><span class="st">'+esc(x.status_label||'可领')+'</span>'+esc(x.module_name||x.category||'')+'</div></a></li>'}).join('')||'<div class="note">今天的羊毛还在路上，晚点再来看看。</div>';
 }).catch(function(){$('#deals').innerHTML='<div class="note">羊毛清单暂时打不开，点下面直接去看。</div>'})}
 deals();
@@ -362,8 +396,8 @@ function setStatus(on,txt){$('#sdot').className='dot '+(on?'on':'off');$('#stext
 function render(d){HOT=d.hot||{};
  var on=(d.draw&&d.draw.players)||0,rooms=(d.draw&&d.draw.lobbies)||[];
  setStatus(true,'实时在线');
- $('#drawStat').innerHTML='<span class="dot on"></span>'+(rooms.length?'<b>'+rooms.length+'</b> 个房间在玩 · <b>'+on+'</b> 人在画':'现在没人开房，<b>你来当第一个房主</b>');
- var dk=d.daka||{};$('#dakaStat').innerHTML='<span class="dot on"></span>'+(dk.users!=null?'<b>'+dk.users+'</b> 人已打卡'+(dk.online?' · '+dk.online+' 人在线':''):'实时在线');
+ $('#drawStat').innerHTML='<span class="dot on"></span>'+(rooms.length?'<b>'+rooms.length+'</b> 个房间在玩 · <b>'+on+'</b> 人在画':'现在没人开房，<strong>你来当第一个房主</strong>');
+ var dk=d.daka||{};$('#dakaStat').innerHTML='<span class="dot on"></span>'+(dk.users?'<b>'+dk.users+'</b> 人已打卡'+(dk.online?' · '+dk.online+' 人在线':''):'刚开张，<strong>来当第一个点亮的人</strong>');
  var rd=d.radio||{};$('#radioStat').innerHTML='<div class="eq"><i></i><i></i><i></i><i></i><i></i></div><span>'+(rd.title?esc(rd.title).slice(0,22):'正在直播')+(rd.listeners?' · '+rd.listeners+' 人在听':'')+'</span>';
  tabs();list();ticker();}
 function tabs(){var h='';TABS.forEach(function(t){if(HOT[t[0]]&&HOT[t[0]].length)h+='<button class="tab'+(t[0]===TAB?' on':'')+'" data-k="'+t[0]+'">'+t[1]+'</button>'});$('#hotTabs').innerHTML=h;
@@ -372,7 +406,11 @@ function list(){var it=(HOT[TAB]||[]).slice(0,MOBILE?6:8);
  $('#hotList').innerHTML=it.length?it.map(function(x,i){return '<li><a href="'+esc(x.u)+'" target="_blank" rel="noreferrer"><span class="rk">'+(i+1)+'</span><span class="tt">'+esc(x.t)+'</span>'+(x.e?'<span class="ex">'+esc(x.e)+'</span>':'')+'</a></li>'}).join(''):'<div class="note">这个榜单暂时没拿到，换一个看看。</div>'}
 function ticker(){var src={weibo:'微博',zhihu:'知乎',douyin:'抖音',bilibili:'B站',baidu:'百度',toutiao:'头条'},a=[];
  for(var r=0;r<5;r++)for(var k in src){var x=(HOT[k]||[])[r];if(x)a.push('<a class="tk" href="'+esc(x.u)+'" target="_blank" rel="noreferrer"><em>'+src[k]+'</em><span class="n">'+(r+1)+'</span>'+esc(x.t)+'</a>')}
- if(a.length){var h=a.join('');$('#ticker').innerHTML=h+h}}
+ if(a.length){var h=a.join('');$('#ticker').innerHTML=h+h}
+ var rows=[['weibo','zhihu'],['douyin','bilibili'],['baidu','toutiao']],any=false;
+ rows.forEach(function(ks,ri){var it=[];for(var r=0;r<10;r++)ks.forEach(function(k){var x=(HOT[k]||[])[r];if(x)it.push('<a href="'+esc(x.u)+'" target="_blank" rel="noreferrer"><em>'+src[k]+' #'+(r+1)+'</em>'+esc(x.t)+'</a>')});
+  if(it.length){any=true;var h=it.join('');$('#w'+(ri+1)).innerHTML=h+h}});
+ $('#wall').hidden=!any}
 function offline(){setStatus(false,'服务器休息中');
  $('#hotList').innerHTML='<div class="note">热榜服务器正在休息或更换地址，通常几分钟内自动恢复。可以先点下面打开完整热榜试试。</div>';$('#hotTabs').innerHTML='';
  $('#drawStat').innerHTML='<span class="dot off"></span>服务器休息中，稍后再来';$('#dakaStat').innerHTML='<span class="dot off"></span>稍后恢复';
@@ -383,49 +421,49 @@ function load(){
 load();setInterval(function(){if(!document.hidden)load()},60000);
 document.addEventListener('visibilitychange',function(){if(!document.hidden)load()});
 
-/* ---------- hero: WebGL particles that morph between 「玩」, a galaxy and a planet */
+/* ---------- hero: WebGL particles that morph between a galaxy, a ringed planet and a knot */
 var cv=$('#gl'),gl=null;
 if(!RM){try{gl=cv.getContext('webgl',{antialias:false,alpha:true,premultipliedAlpha:false,powerPreference:'high-performance'})}catch(e){}}
 if(!gl){cv.style.display='none';return}
-var N=MOBILE?5200:11000;
-function textPts(n){var c=document.createElement('canvas'),S=220;c.width=c.height=S;var x=c.getContext('2d');x.fillStyle='#fff';x.textAlign='center';x.textBaseline='middle';
- x.font='900 190px '+getComputedStyle(document.body).fontFamily;x.fillText('玩',S/2,S/2+8);var d=x.getImageData(0,0,S,S).data,p=[];
- for(var y=0;y<S;y+=2)for(var i=0;i<S;i+=2)if(d[(y*S+i)*4+3]>128)p.push([i/S-.5,.5-y/S]);
- if(p.length<50)for(var k=0;k<2000;k++){var a=Math.random()*6.283;p.push([Math.cos(a)*.35,Math.sin(a)*.35])}
- var o=new Float32Array(n*3);for(var j=0;j<n;j++){var q=p[(Math.random()*p.length)|0];o[j*3]=q[0]*2.3+(Math.random()-.5)*.012;o[j*3+1]=q[1]*2.3+(Math.random()-.5)*.012;o[j*3+2]=(Math.random()-.5)*.16}return o}
-function galaxy(n){var o=new Float32Array(n*3);for(var j=0;j<n;j++){var arm=j%3,r=Math.pow(Math.random(),.6)*1.55,a=r*3.4+arm*2.094+(Math.random()-.5)*.55/(r+.3);
- o[j*3]=Math.cos(a)*r;o[j*3+1]=(Math.random()-.5)*.12*(1.6-r);o[j*3+2]=Math.sin(a)*r}return o}
-function planet(n){var o=new Float32Array(n*3);for(var j=0;j<n;j++){if(j%5<3){var u=Math.random()*2-1,t=Math.random()*6.283,s=Math.sqrt(1-u*u),R=.72;o[j*3]=s*Math.cos(t)*R;o[j*3+1]=u*R;o[j*3+2]=s*Math.sin(t)*R}
- else{var a=Math.random()*6.283,r=1.05+Math.random()*.5;o[j*3]=Math.cos(a)*r;o[j*3+1]=(Math.random()-.5)*.03;o[j*3+2]=Math.sin(a)*r}}return o}
-var VS='attribute vec3 a0,a1,a2;attribute float rnd;uniform float t,m,asp,px;uniform vec2 mo;varying float vr,vg;'+
+var N=MOBILE?6000:14000;
+function gs(){return(Math.random()+Math.random()+Math.random()-1.5)/1.5}
+function galaxy(n){var o=new Float32Array(n*3);for(var j=0;j<n;j++){if(j%100<17){var r0=Math.abs(gs())*.5,a0=Math.random()*6.283;o[j*3]=Math.cos(a0)*r0;o[j*3+1]=gs()*.12;o[j*3+2]=Math.sin(a0)*r0;continue}
+ var arm=j%4,r=.15+Math.pow(Math.random(),.7)*1.55,a=r*2.4+arm*1.5708+gs()*.5/(r+.35),w=gs()*.09*(1+r*.6);
+ o[j*3]=Math.cos(a)*r+w;o[j*3+1]=gs()*.07*(1.8-r);o[j*3+2]=Math.sin(a)*r+gs()*.09*(1+r*.6)}return o}
+function planet(n){var o=new Float32Array(n*3);for(var j=0;j<n;j++){if(j%5<3){var u=Math.random()*2-1,t=Math.random()*6.283,s=Math.sqrt(1-u*u),R=.78;o[j*3]=s*Math.cos(t)*R;o[j*3+1]=u*R;o[j*3+2]=s*Math.sin(t)*R}
+ else{var a=Math.random()*6.283,r=1.1+Math.pow(Math.random(),1.5)*.65;o[j*3]=Math.cos(a)*r;o[j*3+1]=(Math.random()-.5)*.025;o[j*3+2]=Math.sin(a)*r}}return o}
+function knot(n){var o=new Float32Array(n*3),P=2,Q=3;for(var j=0;j<n;j++){var t=Math.random()*6.283,r=.62+.28*Math.cos(Q*t),x=r*Math.cos(P*t),y=r*Math.sin(P*t),z=-.28*Math.sin(Q*t);
+ var a=Math.random()*6.283,b=Math.random()*.085;o[j*3]=x*1.35+Math.cos(a)*b;o[j*3+1]=y*1.35+Math.sin(a)*b;o[j*3+2]=z*1.35+Math.cos(a+1.3)*b}return o}
+var VS='attribute vec3 a0,a1,a2;attribute float rnd;uniform float t,m,asp,px;uniform vec2 mo;varying float vr,vd;'+
 'mat3 ry(float a){float c=cos(a),s=sin(a);return mat3(c,0.,-s,0.,1.,0.,s,0.,c);}mat3 rx(float a){float c=cos(a),s=sin(a);return mat3(1.,0.,0.,0.,c,s,0.,-s,c);}'+
 'void main(){float k=clamp(m*1.25-rnd*.25,0.,2.);float e1=smoothstep(0.,1.,k),e2=smoothstep(1.,2.,k);'+
-'vec3 p=mix(mix(a0,a1,e1),a2,e2);float wob=sin(t*.9+rnd*40.)*.012;p+=vec3(wob,cos(t*.7+rnd*31.)*.012,0.);'+
-'float spin=t*.08*(e1)+mo.x*.5;p=ry(spin+ (1.-e1)*sin(t*.3)*.25)*p;p=rx(.35*e1+mo.y*.35 + (1.-e1)*.0)*p;'+
-'float z=p.z+2.6;vec2 s=p.xy/z*2.4;s.x/=asp;float sc=asp<1.?1.25:1.;gl_Position=vec4(s*sc,0.,1.);'+
-'gl_PointSize=px*(1.5+rnd*2.2)*(2.6/z);vr=rnd;vg=e1;}';
-var FS='precision mediump float;uniform float t;varying float vr,vg;void main(){vec2 c=gl_PointCoord-.5;float d=length(c);if(d>.5)discard;float a=smoothstep(.5,0.,d);a*=a;'+
-'vec3 c1=vec3(.62,.42,1.),c2=vec3(.98,.36,.66),c3=vec3(.26,.86,.96),c4=vec3(1.,.8,.35);float h=fract(vr*3.7+t*.03);'+
-'vec3 col=h<.4?mix(c1,c2,h/.4):h<.75?mix(c2,c3,(h-.4)/.35):mix(c3,c4,(h-.75)/.25);col=mix(col,vec3(1.),.18*(1.-vg));float tw=.65+.35*sin(t*2.+vr*60.);gl_FragColor=vec4(col,a*.85*tw);}';
+'vec3 p=mix(mix(a0,a1,e1),a2,e2);float burst=sin(3.14159*fract(k))*.35*step(.001,fract(k))*step(fract(k),.999);p*=1.+burst*(rnd-.3);'+
+'p+=vec3(sin(t*.9+rnd*40.),cos(t*.7+rnd*31.),sin(t*.5+rnd*17.))*.01;'+
+'p=ry(t*.12+mo.x*.8)*p;p=rx(.42+mo.y*.5)*p;'+
+'float z=p.z+3.6;vec2 s=p.xy/z*2.05;if(asp>=1.){s.x/=asp;s.y+=.04;}else{s=vec2(s.x,s.y*asp)*1.05;s.y+=.5;}gl_Position=vec4(s,0.,1.);'+
+'gl_PointSize=px*(1.3+rnd*rnd*rnd*7.)*(3.6/z);vr=rnd;vd=clamp((4.4-z)/1.6,0.,1.);}';
+var FS='precision mediump float;uniform float tf;varying float vr,vd;void main(){vec2 c=gl_PointCoord-.5;float d=length(c);if(d>.5)discard;float a=1.-smoothstep(0.,.5,d);a*=a;'+
+'vec3 c1=vec3(.62,.42,1.),c2=vec3(.98,.36,.66),c3=vec3(.26,.86,.96),c4=vec3(1.,.8,.35);float h=fract(vr*3.7+tf*.03);'+
+'vec3 col=h<.4?mix(c1,c2,h/.4):h<.75?mix(c2,c3,(h-.4)/.35):mix(c3,c4,(h-.75)/.25);float tw=.6+.4*sin(tf*2.+vr*60.);gl_FragColor=vec4(col,min(1.,a*(.55+.6*vd)*tw*1.15));}';
 function sh(type,src){var s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw gl.getShaderInfoLog(s);return s}
-var pr;try{pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS));gl.linkProgram(pr);gl.useProgram(pr)}catch(e){cv.style.display='none';return}
+var pr;try{pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS));gl.linkProgram(pr);if(!gl.getProgramParameter(pr,gl.LINK_STATUS))throw gl.getProgramInfoLog(pr);gl.useProgram(pr)}catch(e){cv.style.display='none';return}
 function attr(name,data,size){var b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,data,gl.STATIC_DRAW);var l=gl.getAttribLocation(pr,name);gl.enableVertexAttribArray(l);gl.vertexAttribPointer(l,size,gl.FLOAT,false,0,0)}
 var R=new Float32Array(N);for(var i=0;i<N;i++)R[i]=Math.random();
-attr('a0',textPts(N),3);attr('a1',galaxy(N),3);attr('a2',planet(N),3);attr('rnd',R,1);
-var U={};['t','m','asp','px','mo'].forEach(function(n){U[n]=gl.getUniformLocation(pr,n)});
+attr('a0',galaxy(N),3);attr('a1',planet(N),3);attr('a2',knot(N),3);attr('rnd',R,1);
+var U={};['t','tf','m','asp','px','mo'].forEach(function(n){U[n]=gl.getUniformLocation(pr,n)});
 gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE);gl.clearColor(0,0,0,0);
 var DPR=Math.min(window.devicePixelRatio||1,MOBILE?1.5:2);
-function size(){var w=cv.clientWidth,h=cv.clientHeight;cv.width=w*DPR;cv.height=h*DPR;gl.viewport(0,0,cv.width,cv.height);gl.uniform1f(U.asp,w/h);gl.uniform1f(U.px,DPR*(MOBILE?1.15:1.35))}
+function size(){var w=cv.clientWidth,h=cv.clientHeight;cv.width=w*DPR;cv.height=h*DPR;gl.viewport(0,0,cv.width,cv.height);gl.uniform1f(U.asp,w/h);gl.uniform1f(U.px,DPR*(MOBILE?1.7:1.9))}
 size();addEventListener('resize',size);
 var mx=0,my=0,tx=0,ty=0;addEventListener('pointermove',function(e){tx=(e.clientX/innerWidth-.5);ty=(e.clientY/innerHeight-.5)},{passive:true});
 if(window.DeviceOrientationEvent)addEventListener('deviceorientation',function(e){if(e.gamma!=null){tx=Math.max(-.5,Math.min(.5,e.gamma/60));ty=Math.max(-.5,Math.min(.5,(e.beta-45)/90))}},{passive:true});
 var vis=true;new IntersectionObserver(function(es){vis=es[0].isIntersecting},{threshold:0}).observe(cv);
 var t0=performance.now(),m=0,running=false;
-/* timeline: hold 「玩」 3.2 s -> galaxy 5 s -> planet 5 s -> back to 「玩」 */
-function target(s){var c=s%16;return c<3.2?0:c<4.6?(c-3.2)/1.4:c<9.6?1:c<11?1+(c-9.6)/1.4:c<14.6?2:2-(c-14.6)/1.4*2}
+/* timeline: galaxy -> ringed planet -> knot -> back, ~7 s each */
+function target(s){var c=s%21;return c<5.5?0:c<7?(c-5.5)/1.5:c<12.5?1:c<14?1+(c-12.5)/1.5:c<19?2:2-(c-19)/2*2}
 function frame(now){if(!vis||document.hidden){running=false;return}running=true;var s=(now-t0)/1000;
  var tg=target(s);m+=(tg-m)*.06;mx+=(tx-mx)*.05;my+=(ty-my)*.05;
- gl.clear(gl.COLOR_BUFFER_BIT);gl.uniform1f(U.t,s);gl.uniform1f(U.m,m);gl.uniform2f(U.mo,mx,my);gl.drawArrays(gl.POINTS,0,N);requestAnimationFrame(frame)}
+ gl.clear(gl.COLOR_BUFFER_BIT);gl.uniform1f(U.t,s);gl.uniform1f(U.tf,s);gl.uniform1f(U.m,m);gl.uniform2f(U.mo,mx,my);gl.drawArrays(gl.POINTS,0,N);requestAnimationFrame(frame)}
 function kick(){if(!running&&vis&&!document.hidden)requestAnimationFrame(frame)}
 document.addEventListener('visibilitychange',kick);setInterval(kick,500);kick();
 })();
