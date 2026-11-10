@@ -436,6 +436,15 @@
 
 ## 网络工具
 
+- [我的 IP 地址](https://wan.is-my.app/wode-ip/): 查看本机公网 IP 和浏览器信息
+- [DNS 查询](https://wan.is-my.app/dns-chaxun/): 查询域名解析记录 A、CNAME、MX、TXT
+- [HTTP 状态码检测](https://wan.is-my.app/http-tou/): 查看网址状态码、响应头和跳转
+- [SSL 证书检测](https://wan.is-my.app/ssl-zhengshu/): 查 HTTPS 证书有效期、颁发机构
+- [域名 Whois 查询](https://wan.is-my.app/whois-chaxun/): 查域名注册商、注册和到期时间
+- [网站延迟测试](https://wan.is-my.app/tcping/): TCP Ping 测试网站和端口延迟
+- [端口检测](https://wan.is-my.app/duankou-jiance/): 检测服务器端口是否开放
+- [网速测试](https://wan.is-my.app/wangsu-ceshi/): 测下载速度和延迟
+- [HTTP 状态码大全](https://wan.is-my.app/http-zhuangtaima/): 200、301、404、502 含义速查
 - [Ipv4地址转换器](https://wan.is-my.app/ipv4-address-converter/): 在ipv6中，将ip地址转换为十进制、二进
 - [IPv4范围扩展器](https://wan.is-my.app/ipv4-range-expander/): 给定起始和结束IPv4地址，此工具使用其C
 - [IPv4子网计算器](https://wan.is-my.app/ipv4-subnet-calculator/): 解析IPv4 CIDR块，并获取有关子网络
@@ -696,6 +705,8 @@
 - [SKU 组合生成器](https://wan.is-my.app/sku-zuhe/): 颜色尺码规格自动排列组合
 - [库存周转 / 补货计算](https://wan.is-my.app/kucun-zhouzhuan/): 周转天数、安全库存、补货点
 - [个体户税费估算](https://wan.is-my.app/getihu-shuifei/): 增值税、附加税、经营所得个税
+- [商品标题字数检测](https://wan.is-my.app/biaoti-zishu/): 标题字数、字节数和关键词组合
+- [快递查询官方入口](https://wan.is-my.app/kuaidi-chaxun/): 顺丰、中通、圆通等官网查件
 
 ## 直播工具
 
@@ -822,6 +833,33 @@
 
 ## 系统与软件下载
 
+- [360安全卫士官方下载](https://wan.is-my.app/360-anquanweishi-download/): 国产杀毒和电脑清理软件
+- [腾讯电脑管家官方下载](https://wan.is-my.app/tencent-guanjia-download/): 腾讯出品的电脑安全管理软件
+- [微软电脑管家官方下载](https://wan.is-my.app/ms-pcmanager-download/): 微软官方的系统清理工具
+- [酷狗音乐官方下载](https://wan.is-my.app/kugou-download/): 老牌音乐播放器
+- [芒果TV官方下载](https://wan.is-my.app/mgtv-download/): 湖南卫视综艺和剧集
+- [优酷官方下载](https://wan.is-my.app/youku-download/): 优酷视频客户端
+- [哔哩哔哩官方下载](https://wan.is-my.app/bilibili-pc-download/): B 站电脑客户端和手机 App
+- [必剪官方下载](https://wan.is-my.app/bijian-download/): B 站官方剪辑软件
+- [抖音电脑版官方下载](https://wan.is-my.app/douyin-pc-download/): 在电脑上刷抖音
+- [阿里云盘官方下载](https://wan.is-my.app/alipan-download/): 阿里巴巴网盘
+- [123云盘官方下载](https://wan.is-my.app/123pan-download/): 大空间网盘
+- [坚果云官方下载](https://wan.is-my.app/jianguoyun-download/): 文件同步网盘
+- [有道翻译官方下载](https://wan.is-my.app/youdao-fanyi-download/): 网易有道翻译和词典
+- [有道云笔记官方下载](https://wan.is-my.app/youdao-note-download/): 网易云笔记
+- [腾讯文档官方下载](https://wan.is-my.app/tencent-docs-download/): 在线协作文档
+- [Foxmail官方下载](https://wan.is-my.app/foxmail-download/): 免费邮件客户端
+- [网易邮箱大师官方下载](https://wan.is-my.app/dashi-163-download/): 网易出品的邮箱客户端
+- [QQ输入法官方下载](https://wan.is-my.app/qq-pinyin-download/): 腾讯输入法
+- [百度输入法官方下载](https://wan.is-my.app/baidu-shurufa-download/): 百度中文输入法
+- [福昕PDF阅读器官方下载](https://wan.is-my.app/foxit-reader-download/): 轻量 PDF 阅读器
+- [Adobe Acrobat Reader官方下载](https://wan.is-my.app/adobe-reader-download/): Adobe 官方 PDF 阅读器
+- [企业微信官方下载](https://wan.is-my.app/wecom-download/): 企业办公沟通
+- [爱思助手官方下载](https://wan.is-my.app/i4-download/): 苹果手机电脑管理工具
+- [RustDesk官方下载](https://wan.is-my.app/rustdesk-download/): 开源远程桌面
+- [XMind官方下载](https://wan.is-my.app/xmind-download/): 思维导图软件
+- [Notion官方下载](https://wan.is-my.app/notion-download/): 笔记、文档和知识库
+- [Zotero官方下载](https://wan.is-my.app/zotero-download/): 免费文献管理
 - [Windows 11官方下载](https://wan.is-my.app/windows11-download/): 微软官方 ISO 镜像和安装助手
 - [Windows 10官方下载](https://wan.is-my.app/windows10-download/): 微软官方媒体创建工具
 - [macOS官方下载](https://wan.is-my.app/macos-download/): 苹果官方 macOS 下载与升级方法

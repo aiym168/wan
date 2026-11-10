@@ -436,6 +436,15 @@
 
 ## 网络工具
 
+- [我的 IP 地址](https://wan.is-my.app/wode-ip/): 查看本机公网 IP 和浏览器信息
+- [DNS 查询](https://wan.is-my.app/dns-chaxun/): 查询域名解析记录 A、CNAME、MX、TXT
+- [HTTP 状态码检测](https://wan.is-my.app/http-tou/): 查看网址状态码、响应头和跳转
+- [SSL 证书检测](https://wan.is-my.app/ssl-zhengshu/): 查 HTTPS 证书有效期、颁发机构
+- [域名 Whois 查询](https://wan.is-my.app/whois-chaxun/): 查域名注册商、注册和到期时间
+- [网站延迟测试](https://wan.is-my.app/tcping/): TCP Ping 测试网站和端口延迟
+- [端口检测](https://wan.is-my.app/duankou-jiance/): 检测服务器端口是否开放
+- [网速测试](https://wan.is-my.app/wangsu-ceshi/): 测下载速度和延迟
+- [HTTP 状态码大全](https://wan.is-my.app/http-zhuangtaima/): 200、301、404、502 含义速查
 - [Ipv4地址转换器](https://wan.is-my.app/ipv4-address-converter/): 在ipv6中，将ip地址转换为十进制、二进
 - [IPv4范围扩展器](https://wan.is-my.app/ipv4-range-expander/): 给定起始和结束IPv4地址，此工具使用其C
 - [IPv4子网计算器](https://wan.is-my.app/ipv4-subnet-calculator/): 解析IPv4 CIDR块，并获取有关子网络
@@ -696,6 +705,8 @@
 - [SKU 组合生成器](https://wan.is-my.app/sku-zuhe/): 颜色尺码规格自动排列组合
 - [库存周转 / 补货计算](https://wan.is-my.app/kucun-zhouzhuan/): 周转天数、安全库存、补货点
 - [个体户税费估算](https://wan.is-my.app/getihu-shuifei/): 增值税、附加税、经营所得个税
+- [商品标题字数检测](https://wan.is-my.app/biaoti-zishu/): 标题字数、字节数和关键词组合
+- [快递查询官方入口](https://wan.is-my.app/kuaidi-chaxun/): 顺丰、中通、圆通等官网查件
 
 ## 直播工具
 
@@ -822,6 +833,33 @@
 
 ## 系统与软件下载
 
+- [360安全卫士官方下载](https://wan.is-my.app/360-anquanweishi-download/): 国产杀毒和电脑清理软件
+- [腾讯电脑管家官方下载](https://wan.is-my.app/tencent-guanjia-download/): 腾讯出品的电脑安全管理软件
+- [微软电脑管家官方下载](https://wan.is-my.app/ms-pcmanager-download/): 微软官方的系统清理工具
+- [酷狗音乐官方下载](https://wan.is-my.app/kugou-download/): 老牌音乐播放器
+- [芒果TV官方下载](https://wan.is-my.app/mgtv-download/): 湖南卫视综艺和剧集
+- [优酷官方下载](https://wan.is-my.app/youku-download/): 优酷视频客户端
+- [哔哩哔哩官方下载](https://wan.is-my.app/bilibili-pc-download/): B 站电脑客户端和手机 App
+- [必剪官方下载](https://wan.is-my.app/bijian-download/): B 站官方剪辑软件
+- [抖音电脑版官方下载](https://wan.is-my.app/douyin-pc-download/): 在电脑上刷抖音
+- [阿里云盘官方下载](https://wan.is-my.app/alipan-download/): 阿里巴巴网盘
+- [123云盘官方下载](https://wan.is-my.app/123pan-download/): 大空间网盘
+- [坚果云官方下载](https://wan.is-my.app/jianguoyun-download/): 文件同步网盘
+- [有道翻译官方下载](https://wan.is-my.app/youdao-fanyi-download/): 网易有道翻译和词典
+- [有道云笔记官方下载](https://wan.is-my.app/youdao-note-download/): 网易云笔记
+- [腾讯文档官方下载](https://wan.is-my.app/tencent-docs-download/): 在线协作文档
+- [Foxmail官方下载](https://wan.is-my.app/foxmail-download/): 免费邮件客户端
+- [网易邮箱大师官方下载](https://wan.is-my.app/dashi-163-download/): 网易出品的邮箱客户端
+- [QQ输入法官方下载](https://wan.is-my.app/qq-pinyin-download/): 腾讯输入法
+- [百度输入法官方下载](https://wan.is-my.app/baidu-shurufa-download/): 百度中文输入法
+- [福昕PDF阅读器官方下载](https://wan.is-my.app/foxit-reader-download/): 轻量 PDF 阅读器
+- [Adobe Acrobat Reader官方下载](https://wan.is-my.app/adobe-reader-download/): Adobe 官方 PDF 阅读器
+- [企业微信官方下载](https://wan.is-my.app/wecom-download/): 企业办公沟通
+- [爱思助手官方下载](https://wan.is-my.app/i4-download/): 苹果手机电脑管理工具
+- [RustDesk官方下载](https://wan.is-my.app/rustdesk-download/): 开源远程桌面
+- [XMind官方下载](https://wan.is-my.app/xmind-download/): 思维导图软件
+- [Notion官方下载](https://wan.is-my.app/notion-download/): 笔记、文档和知识库
+- [Zotero官方下载](https://wan.is-my.app/zotero-download/): 免费文献管理
 - [Windows 11官方下载](https://wan.is-my.app/windows11-download/): 微软官方 ISO 镜像和安装助手
 - [Windows 10官方下载](https://wan.is-my.app/windows10-download/): 微软官方媒体创建工具
 - [macOS官方下载](https://wan.is-my.app/macos-download/): 苹果官方 macOS 下载与升级方法
@@ -1462,6 +1500,60 @@
 用法: 记下蓝屏上的「终止代码」和可能显示的出错文件名（如 xxx.sys）。 在下面搜索框输入代码（可以只输一部分，如 IRQL）或十六进制编号。 按建议从简单到复杂排查：先更新或回滚驱动、修复系统文件，再检查内存和硬盘。重要数据先备份。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
+## 我的 IP 地址
+网址: https://wan.is-my.app/wode-ip/
+说明: 免费查询我的 IP 地址：一键查看本机公网 IP（IPv4 或 IPv6），以及浏览器、系统、屏幕分辨率、语言和时区信息，排查网络、远程协助时直接复制。
+用法: 打开页面会自动显示你的公网 IP。 点「复制 IP」发给需要的人，比如远程协助、设置白名单。 如果开了代理或 VPN，显示的是代理出口的 IP。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## DNS 查询
+网址: https://wan.is-my.app/dns-chaxun/
+说明: 免费在线 DNS 查询：查询域名的 A、AAAA、CNAME、MX、TXT、NS、CAA 解析记录。
+用法: 输入要查询的域名（不用带 https://）。 选择记录类型：网站一般看 A / CNAME，邮箱看 MX，域名验证看 TXT。 点「开始查询」，对比国内和海外两个 DNS 的结果。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## HTTP 状态码检测
+网址: https://wan.is-my.app/http-tou/
+说明: 免费 HTTP 状态码检测：输入网址查看返回的状态码（200、301、302、404、500）、完整响应头、跳转链路和响应时间，检查 301 重定向。
+用法: 输入完整网址，比如 http://example.com（不写 http 会自动补上）。 点「开始查询」，最多跟踪 5 次跳转。 查看每一步的状态码和响应头，比如 Location（跳转到哪）、Cache-Control（缓存）、Server。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## SSL 证书检测
+网址: https://wan.is-my.app/ssl-zhengshu/
+说明: 免费 SSL 证书检测：输入域名查看 HTTPS 证书是否有效、还有多少天到期、颁发机构、绑定的域名列表、TLS 版本，提前发现证书过期和配置错误。
+用法: 输入域名（不用带 https://），默认检测 443 端口。 点「开始查询」。 看「剩余天数」，少于 15 天就要尽快续期；「包含域名」里要有你访问的域名。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 域名 Whois 查询
+网址: https://wan.is-my.app/whois-chaxun/
+说明: 免费域名 Whois 查询：查看域名的注册商、注册时间、到期时间、状态和 DNS 服务器，判断域名是否已注册、什么时候到期。
+用法: 输入域名，例如 example.com（输入子域名会自动取主域名）。 点「开始查询」。 查看注册商和到期时间；域名快到期记得在注册商处续费。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 网站延迟测试
+网址: https://wan.is-my.app/tcping/
+说明: 免费在线 TCP Ping：从服务器测试网站或 IP 某个端口的连接延迟和丢包，连测 4 次显示最快、平均和最慢时间，判断网站或服务器是否能连通。
+用法: 输入域名或公网 IP，网站一般用 443 端口。 点「开始查询」，等待几秒。 看平均延迟和丢包率：丢包 100% 说明从服务器无法连接该端口。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 端口检测
+网址: https://wan.is-my.app/duankou-jiance/
+说明: 免费在线端口检测：输入服务器域名或公网 IP，检测 22、80、443、3389、3306、8080 等端口是否对外开放，一次最多 12 个。
+用法: 输入你的服务器域名或公网 IP。 填写要检测的端口，或点「网站」「远程」「数据库」快速填入。 点「开始查询」，查看每个端口是否开放。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 网速测试
+网址: https://wan.is-my.app/wangsu-ceshi/
+说明: 免费在线网速测试：一键测试当前网络到本站 CDN 的下载速度和延迟，结果以 Mbps 显示并换算成 MB/s，手机电脑都能用，排查网卡、Wi-Fi 慢的问题。
+用法: 关掉正在下载、看视频的程序，点「开始测速」。 等待约 10 秒，先测延迟再测下载速度。 Mbps 除以 8 约等于下载软件里显示的 MB/s；100M 宽带满速约 11—12 MB/s。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## HTTP 状态码大全
+网址: https://wan.is-my.app/http-zhuangtaima/
+说明: HTTP 状态码大全：200、301、302、304、403、404、429、500、502、503、504 等常见状态码的含义和常见原因，可搜索。
+用法: 在搜索框输入状态码数字，比如 502。 看含义判断是你这边的问题（4xx）还是服务器的问题（5xx）。 需要检测具体网址时，用本站的 HTTP 状态码检测工具。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
 ## 电商利润计算器
 网址: https://wan.is-my.app/dianshang-lirun/
 说明: 免费电商利润计算器：输入售价、商品成本、运费、包装、平台佣金、推广费、退货率和税点，算出每单毛利、净利润、毛利率和净利率，淘宝、天猫、京东、拼多多。
@@ -1544,6 +1636,18 @@
 网址: https://wan.is-my.app/zhibo-huashu/
 说明: 免费直播话术模板大全：开场欢迎、商品介绍、价格福利、互动留人、合规促单、售后信任和下播话术，填写商品名、卖点、价格后一键生成整套口播稿。
 用法: 填写店铺名、商品名、两个核心卖点、直播价和福利。 勾选需要的话术环节：开场、介绍、福利、留人、促单、售后、下播。 复制生成的话术，补全花括号里的内容，也可以放进「直播间提词器」照着读。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 商品标题字数检测
+网址: https://wan.is-my.app/biaoti-zishu/
+说明: 免费商品标题字数检测：实时统计标题的汉字、字母、字符数和字节数（1 个汉字算 2 个字符），对照淘宝 60 字符上限，还能把关键词批量组合成标题、检查重复词。
+用法: 把商品标题粘贴到上面的输入框，实时看到字符数和剩余空间。 检查「重复的词」，删掉重复的词给新关键词腾位置。 在「关键词组合」里每行写一组同义词，点「生成组合」批量得到标题或关键词。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 快递查询官方入口
+网址: https://wan.is-my.app/kuaidi-chaxun/
+说明: 快递单号查询官方入口：顺丰、京东、极兔、中通、圆通、韵达、申通、德邦、中国邮政 EMS 官网查件链接，输入单号自动识别可能的快递公司，复制单号直接去官网查。
+用法: 把快递单号粘贴到输入框，页面会按格式推测快递公司。 点「复制单号」，再点对应快递公司的官网链接。 在官网查件页粘贴单号查询；淘宝、拼多多、京东订单也可以直接在订单详情里看物流。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## 直播间提词器
@@ -2714,6 +2818,168 @@
 网址: https://wan.is-my.app/twitch-zhibo/
 说明: Twitch 直播官网入口：Twitch 是全球最大的游戏直播平台之一，官方帮助中心提供推荐的推流码率、分辨率和编码设置。
 用法: 打开 Twitch 直播 官方网站（help.twitch.tv），查看最新的产品介绍、价格和可用地区。 按官网说明注册账号或下载官方客户端，付费前先确认订阅价格和退款规则。 不要购买来路不明的「共享账号」「破解版」，账号安全和隐私无法保证。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 360安全卫士官方下载
+网址: https://wan.is-my.app/360-anquanweishi-download/
+说明: 360安全卫士官方下载：360安全卫士是国内用户量很大的电脑安全软件，提供木马查杀、漏洞修复、垃圾清理、开机加速和软件管家等功能。
+用法: 打开 360安全卫士 官方网站（weishi.360.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 腾讯电脑管家官方下载
+网址: https://wan.is-my.app/tencent-guanjia-download/
+说明: 腾讯电脑管家官方下载：腾讯电脑管家提供病毒查杀、垃圾清理、电脑加速、软件管理和 QQ 微信账号保护等功能。
+用法: 打开 腾讯电脑管家 官方网站（guanjia.qq.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 微软电脑管家官方下载
+网址: https://wan.is-my.app/ms-pcmanager-download/
+说明: 微软电脑管家官方下载：微软电脑管家（Microsoft PC Manager）是微软官方出品的 Windows 清理加速工具，没有广告弹窗，能一键清理垃圾…
+用法: 打开 微软电脑管家 官方网站（pcmanager.microsoft.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 酷狗音乐官方下载
+网址: https://wan.is-my.app/kugou-download/
+说明: 酷狗音乐官方下载：酷狗音乐是腾讯音乐旗下的音乐播放器，曲库大，支持歌词、K 歌、音效和本地音乐管理。
+用法: 打开 酷狗音乐 官方网站（download.kugou.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 芒果TV官方下载
+网址: https://wan.is-my.app/mgtv-download/
+说明: 芒果TV官方下载：芒果TV 是湖南广电旗下的视频平台，独播湖南卫视综艺和自制剧，有电脑客户端和手机 App。
+用法: 打开 芒果TV 官方网站（mgtv.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 优酷官方下载
+网址: https://wan.is-my.app/youku-download/
+说明: 优酷官方下载：优酷是阿里巴巴旗下的视频平台，提供电视剧、电影、综艺和动漫，支持电脑客户端、手机和电视。
+用法: 打开 优酷 官方网站（youku.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 哔哩哔哩官方下载
+网址: https://wan.is-my.app/bilibili-pc-download/
+说明: 哔哩哔哩官方下载：哔哩哔哩官方客户端，在电脑上看视频、追番、看直播更流畅，支持离线缓存。
+用法: 打开 哔哩哔哩 官方网站（app.bilibili.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 必剪官方下载
+网址: https://wan.is-my.app/bijian-download/
+说明: 必剪官方下载：必剪是 B 站官方推出的视频剪辑软件，素材、字体和音乐丰富，剪完可以一键投稿到 B 站。
+用法: 打开 必剪 官方网站（bcut.bilibili.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 抖音电脑版官方下载
+网址: https://wan.is-my.app/douyin-pc-download/
+说明: 抖音电脑版官方下载：抖音电脑版是抖音官方 PC 客户端，可以在电脑上刷视频、看直播、发私信和上传作品。
+用法: 打开 抖音电脑版 官方网站（douyin.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 阿里云盘官方下载
+网址: https://wan.is-my.app/alipan-download/
+说明: 阿里云盘官方下载：阿里云盘是阿里巴巴推出的个人网盘，可以备份照片、文件，支持手机相册自动备份和多端同步。
+用法: 打开 阿里云盘 官方网站（alipan.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 123云盘官方下载
+网址: https://wan.is-my.app/123pan-download/
+说明: 123云盘官方下载：123云盘是一款国产网盘，免费空间较大，支持文件分享、直链和离线下载。
+用法: 打开 123云盘 官方网站（123pan.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 坚果云官方下载
+网址: https://wan.is-my.app/jianguoyun-download/
+说明: 坚果云官方下载：坚果云是专注文件同步的网盘，电脑文件夹自动同步，支持历史版本和 WebDAV，适合办公和笔记软件同步。
+用法: 打开 坚果云 官方网站（jianguoyun.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 有道翻译官方下载
+网址: https://wan.is-my.app/youdao-fanyi-download/
+说明: 有道翻译官方下载：网易有道翻译（含有道词典）提供划词、截图、文档翻译和 AI 翻译，电脑和手机都能用。
+用法: 打开 有道翻译 官方网站（fanyi.youdao.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 有道云笔记官方下载
+网址: https://wan.is-my.app/youdao-note-download/
+说明: 有道云笔记官方下载：有道云笔记是网易有道的云端笔记软件，支持 Markdown、网页剪藏、文档扫描和多端同步。
+用法: 打开 有道云笔记 官方网站（note.youdao.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 腾讯文档官方下载
+网址: https://wan.is-my.app/tencent-docs-download/
+说明: 腾讯文档官方下载：腾讯文档是在线协作文档工具，支持文档、表格、幻灯片、收集表，多人实时编辑，微信 QQ 直接分享。
+用法: 打开 腾讯文档 官方网站（docs.qq.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Foxmail官方下载
+网址: https://wan.is-my.app/foxmail-download/
+说明: Foxmail官方下载：Foxmail 是腾讯旗下的老牌邮件客户端，可以同时管理 QQ 邮箱、网易邮箱、企业邮箱和 Gmail 等多个邮箱账号。
+用法: 打开 Foxmail 官方网站（foxmail.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 网易邮箱大师官方下载
+网址: https://wan.is-my.app/dashi-163-download/
+说明: 网易邮箱大师官方下载：网易邮箱大师可以统一管理网易、QQ、企业邮箱等多个账号，电脑和手机都有客户端。
+用法: 打开 网易邮箱大师 官方网站（dashi.163.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## QQ输入法官方下载
+网址: https://wan.is-my.app/qq-pinyin-download/
+说明: QQ输入法官方下载：QQ输入法是腾讯推出的中文输入法，词库丰富，支持云输入和多端词库同步。
+用法: 打开 QQ输入法 官方网站（qq.pinyin.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 百度输入法官方下载
+网址: https://wan.is-my.app/baidu-shurufa-download/
+说明: 百度输入法官方下载：百度输入法是百度推出的中文输入法，支持拼音、五笔、语音输入和 AI 助写。
+用法: 打开 百度输入法 官方网站（shurufa.baidu.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 福昕PDF阅读器官方下载
+网址: https://wan.is-my.app/foxit-reader-download/
+说明: 福昕PDF阅读器官方下载：福昕 PDF 阅读器是国产的 PDF 阅读软件，打开速度快，支持注释、填写表单和签名。
+用法: 打开 福昕PDF阅读器 官方网站（foxitsoftware.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Adobe Acrobat Reader官方下载
+网址: https://wan.is-my.app/adobe-reader-download/
+说明: Adobe Acrobat Reader官方下载：Adobe Acrobat Reader 是 PDF 格式发明者 Adobe 的官方免费阅读器，兼容性最…
+用法: 打开 Adobe Acrobat Reader 官方网站（get.adobe.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 企业微信官方下载
+网址: https://wan.is-my.app/wecom-download/
+说明: 企业微信官方下载：企业微信是腾讯推出的企业通讯与办公工具，可以和微信互通，支持审批、打卡、会议和客户管理。
+用法: 打开 企业微信 官方网站（work.weixin.qq.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 爱思助手官方下载
+网址: https://wan.is-my.app/i4-download/
+说明: 爱思助手官方下载：爱思助手是国内常用的 iPhone / iPad 电脑管理工具，可以备份、刷机、查验机报告、导出照片和管理文件。
+用法: 打开 爱思助手 官方网站（i4.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## RustDesk官方下载
+网址: https://wan.is-my.app/rustdesk-download/
+说明: RustDesk官方下载：RustDesk 是开源的远程控制软件，可以作为 TeamViewer、ToDesk 的替代，支持自建中继服务器，数据更可控。
+用法: 打开 RustDesk 官方网站（rustdesk.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## XMind官方下载
+网址: https://wan.is-my.app/xmind-download/
+说明: XMind官方下载：XMind 是常用的思维导图软件，可以做脑图、鱼骨图、组织结构图和时间线，支持导出图片和 PDF。
+用法: 打开 XMind 官方网站（xmind.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Notion官方下载
+网址: https://wan.is-my.app/notion-download/
+说明: Notion官方下载：Notion 是集笔记、文档、数据库、项目管理于一体的工具，内置 AI 写作，适合个人知识库和团队协作。
+用法: 打开 Notion 官方网站（notion.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Zotero官方下载
+网址: https://wan.is-my.app/zotero-download/
+说明: Zotero官方下载：Zotero 是开源免费的文献管理软件，浏览器一键抓取论文信息，配合 Word / WPS 插件自动生成参考文献。
+用法: 打开 Zotero 官方网站（zotero.org），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## Mac 必装软件推荐

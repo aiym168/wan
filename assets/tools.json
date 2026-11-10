@@ -870,6 +870,96 @@
 "new": true
 },
 {
+"slug": "wode-ip",
+"name": "我的 IP 地址",
+"short": "查看本机公网 IP 和浏览器信息",
+"cat": "net",
+"title": "我的IP地址查询 - 免费查看本机公网IP",
+"keywords": "我的ip,ip地址查询,本机ip,查看ip地址,公网ip查询,我的ip地址是多少,ip查询",
+"url": "/wode-ip/",
+"new": true
+},
+{
+"slug": "dns-chaxun",
+"name": "DNS 查询",
+"short": "查询域名解析记录 A、CNAME、MX、TXT",
+"cat": "net",
+"title": "DNS查询 - 免费在线域名解析记录查询",
+"keywords": "dns查询,域名解析查询,dns解析,在线dns查询,mx记录查询,txt记录查询,cname查询,dns检测",
+"url": "/dns-chaxun/",
+"new": true
+},
+{
+"slug": "http-tou",
+"name": "HTTP 状态码检测",
+"short": "查看网址状态码、响应头和跳转",
+"cat": "net",
+"title": "HTTP状态码检测 - 免费查看网页响应头和301跳转",
+"keywords": "http状态码查询,网页状态码检测,响应头查看,301跳转检测,重定向检测,http header查看,网站状态检测",
+"url": "/http-tou/",
+"new": true
+},
+{
+"slug": "ssl-zhengshu",
+"name": "SSL 证书检测",
+"short": "查 HTTPS 证书有效期、颁发机构",
+"cat": "net",
+"title": "SSL证书检测 - 免费查询HTTPS证书到期时间",
+"keywords": "ssl证书检测,ssl证书查询,https证书检测,证书到期查询,ssl检测,证书有效期查询,https检测",
+"url": "/ssl-zhengshu/",
+"new": true
+},
+{
+"slug": "whois-chaxun",
+"name": "域名 Whois 查询",
+"short": "查域名注册商、注册和到期时间",
+"cat": "net",
+"title": "域名Whois查询 - 免费查询域名注册信息和到期时间",
+"keywords": "whois查询,域名查询,域名注册信息查询,域名到期查询,域名whois,域名注册商查询,域名是否注册",
+"url": "/whois-chaxun/",
+"new": true
+},
+{
+"slug": "tcping",
+"name": "网站延迟测试",
+"short": "TCP Ping 测试网站和端口延迟",
+"cat": "net",
+"title": "网站延迟测试 - 免费在线TCP Ping测速",
+"keywords": "在线ping,tcping,网站延迟测试,ping测试,服务器延迟检测,网站连通性测试,在线ping工具",
+"url": "/tcping/",
+"new": true
+},
+{
+"slug": "duankou-jiance",
+"name": "端口检测",
+"short": "检测服务器端口是否开放",
+"cat": "net",
+"title": "端口检测 - 免费在线检测服务器端口是否开放",
+"keywords": "端口检测,在线端口检测,端口是否开放,端口扫描,服务器端口检测,3389端口检测,安全组端口检测",
+"url": "/duankou-jiance/",
+"new": true
+},
+{
+"slug": "wangsu-ceshi",
+"name": "网速测试",
+"short": "测下载速度和延迟",
+"cat": "net",
+"title": "网速测试 - 免费在线测网速 下载速度延迟",
+"keywords": "网速测试,测网速,在线测速,网速测试在线,wifi测速,宽带测速,下载速度测试",
+"url": "/wangsu-ceshi/",
+"new": true
+},
+{
+"slug": "http-zhuangtaima",
+"name": "HTTP 状态码大全",
+"short": "200、301、404、502 含义速查",
+"cat": "net",
+"title": "HTTP状态码大全 - 免费查询404 502 301含义",
+"keywords": "http状态码,http状态码大全,404是什么意思,502错误,301和302区别,503错误,状态码查询",
+"url": "/http-zhuangtaima/",
+"new": true
+},
+{
 "slug": "dianshang-lirun",
 "name": "电商利润计算器",
 "short": "毛利、净利、利润率一键算",
@@ -1007,6 +1097,26 @@
 "title": "直播话术模板大全 - 免费带货开场白 留人话术",
 "keywords": "直播话术,直播话术模板,带货直播话术,直播开场白,直播留人话术,直播间话术大全,抖音直播话术,新手直播话术,卖点话术",
 "url": "/zhibo-huashu/",
+"new": true
+},
+{
+"slug": "biaoti-zishu",
+"name": "商品标题字数检测",
+"short": "标题字数、字节数和关键词组合",
+"cat": "ecom",
+"title": "商品标题字数检测 - 免费淘宝标题字符计算",
+"keywords": "淘宝标题字数,标题字数检测,标题字符计算,商品标题优化,淘宝标题60字符,关键词组合,标题生成",
+"url": "/biaoti-zishu/",
+"new": true
+},
+{
+"slug": "kuaidi-chaxun",
+"name": "快递查询官方入口",
+"short": "顺丰、中通、圆通等官网查件",
+"cat": "ecom",
+"title": "快递查询 - 顺丰中通圆通韵达官网查件入口 免费",
+"keywords": "快递查询,快递单号查询,顺丰快递查询,中通快递查询,圆通快递查询,韵达快递查询,极兔快递查询,京东快递查询",
+"url": "/kuaidi-chaxun/",
 "new": true
 },
 {
@@ -2770,6 +2880,249 @@
 "title": "Twitch直播教程 - 官方推流设置指南 免费",
 "keywords": "twitch直播,twitch推流设置,twitch obs,twitch码率",
 "url": "/twitch-zhibo/"
+},
+{
+"slug": "360-anquanweishi-download",
+"name": "360安全卫士官方下载",
+"short": "国产杀毒和电脑清理软件",
+"cat": "soft",
+"title": "360安全卫士官方下载 - 免费国产杀毒和电脑清理软件",
+"keywords": "360安全卫士下载,360安全卫士官网,360杀毒,电脑清理软件,360官方下载",
+"url": "/360-anquanweishi-download/"
+},
+{
+"slug": "tencent-guanjia-download",
+"name": "腾讯电脑管家官方下载",
+"short": "腾讯出品的电脑安全管理软件",
+"cat": "soft",
+"title": "腾讯电脑管家官方下载 - 免费腾讯出品的电脑安全管理软件",
+"keywords": "腾讯电脑管家下载,电脑管家官网,电脑管家官方下载,杀毒软件",
+"url": "/tencent-guanjia-download/"
+},
+{
+"slug": "ms-pcmanager-download",
+"name": "微软电脑管家官方下载",
+"short": "微软官方的系统清理工具",
+"cat": "soft",
+"title": "微软电脑管家官方下载 - 免费微软官方的系统清理工具",
+"keywords": "微软电脑管家下载,microsoft pc manager,微软电脑管家官网,电脑清理",
+"url": "/ms-pcmanager-download/"
+},
+{
+"slug": "kugou-download",
+"name": "酷狗音乐官方下载",
+"short": "老牌音乐播放器",
+"cat": "soft",
+"title": "酷狗音乐官方下载 - 免费老牌音乐播放器",
+"keywords": "酷狗音乐下载,酷狗音乐电脑版,酷狗官网,酷狗音乐官方下载",
+"url": "/kugou-download/"
+},
+{
+"slug": "mgtv-download",
+"name": "芒果TV官方下载",
+"short": "湖南卫视综艺和剧集",
+"cat": "soft",
+"title": "芒果TV官方下载 - 免费湖南卫视综艺和剧集",
+"keywords": "芒果tv下载,芒果tv电脑版,芒果tv官网,芒果tv客户端",
+"url": "/mgtv-download/"
+},
+{
+"slug": "youku-download",
+"name": "优酷官方下载",
+"short": "优酷视频客户端",
+"cat": "soft",
+"title": "优酷官方下载 - 免费优酷视频客户端",
+"keywords": "优酷下载,优酷电脑版,优酷客户端,优酷官网",
+"url": "/youku-download/"
+},
+{
+"slug": "bilibili-pc-download",
+"name": "哔哩哔哩官方下载",
+"short": "B 站电脑客户端和手机 App",
+"cat": "soft",
+"title": "哔哩哔哩官方下载 - 免费B 站电脑客户端和手机 App",
+"keywords": "哔哩哔哩电脑版,b站客户端,bilibili下载,b站电脑版下载",
+"url": "/bilibili-pc-download/"
+},
+{
+"slug": "bijian-download",
+"name": "必剪官方下载",
+"short": "B 站官方剪辑软件",
+"cat": "soft",
+"title": "必剪官方下载 - 免费B 站官方剪辑软件",
+"keywords": "必剪下载,必剪电脑版,b站剪辑软件,必剪官网",
+"url": "/bijian-download/"
+},
+{
+"slug": "douyin-pc-download",
+"name": "抖音电脑版官方下载",
+"short": "在电脑上刷抖音",
+"cat": "soft",
+"title": "抖音电脑版官方下载 - 免费在电脑上刷抖音",
+"keywords": "抖音电脑版下载,抖音pc版,抖音客户端,抖音电脑版官网",
+"url": "/douyin-pc-download/"
+},
+{
+"slug": "alipan-download",
+"name": "阿里云盘官方下载",
+"short": "阿里巴巴网盘",
+"cat": "soft",
+"title": "阿里云盘官方下载 - 免费阿里巴巴网盘",
+"keywords": "阿里云盘下载,阿里云盘电脑版,阿里云盘官网,网盘",
+"url": "/alipan-download/"
+},
+{
+"slug": "123pan-download",
+"name": "123云盘官方下载",
+"short": "大空间网盘",
+"cat": "soft",
+"title": "123云盘官方下载 - 免费大空间网盘",
+"keywords": "123云盘下载,123云盘电脑版,123云盘官网,123pan",
+"url": "/123pan-download/"
+},
+{
+"slug": "jianguoyun-download",
+"name": "坚果云官方下载",
+"short": "文件同步网盘",
+"cat": "soft",
+"title": "坚果云官方下载 - 免费文件同步网盘",
+"keywords": "坚果云下载,坚果云官网,坚果云webdav,文件同步",
+"url": "/jianguoyun-download/"
+},
+{
+"slug": "youdao-fanyi-download",
+"name": "有道翻译官方下载",
+"short": "网易有道翻译和词典",
+"cat": "soft",
+"title": "有道翻译官方下载 - 免费网易有道翻译和词典",
+"keywords": "有道翻译下载,有道词典下载,有道翻译电脑版,有道官网",
+"url": "/youdao-fanyi-download/"
+},
+{
+"slug": "youdao-note-download",
+"name": "有道云笔记官方下载",
+"short": "网易云笔记",
+"cat": "soft",
+"title": "有道云笔记官方下载 - 免费网易云笔记",
+"keywords": "有道云笔记下载,有道云笔记电脑版,有道云笔记官网,笔记软件",
+"url": "/youdao-note-download/"
+},
+{
+"slug": "tencent-docs-download",
+"name": "腾讯文档官方下载",
+"short": "在线协作文档",
+"cat": "soft",
+"title": "腾讯文档官方下载 - 免费在线协作文档",
+"keywords": "腾讯文档下载,腾讯文档电脑版,腾讯文档官网,在线文档",
+"url": "/tencent-docs-download/"
+},
+{
+"slug": "foxmail-download",
+"name": "Foxmail官方下载",
+"short": "免费邮件客户端",
+"cat": "soft",
+"title": "Foxmail官方下载 - 免费邮件客户端",
+"keywords": "foxmail下载,foxmail官网,邮件客户端,foxmail官方下载",
+"url": "/foxmail-download/"
+},
+{
+"slug": "dashi-163-download",
+"name": "网易邮箱大师官方下载",
+"short": "网易出品的邮箱客户端",
+"cat": "soft",
+"title": "网易邮箱大师官方下载 - 免费网易出品的邮箱客户端",
+"keywords": "网易邮箱大师下载,邮箱大师电脑版,网易邮箱大师官网",
+"url": "/dashi-163-download/"
+},
+{
+"slug": "qq-pinyin-download",
+"name": "QQ输入法官方下载",
+"short": "腾讯输入法",
+"cat": "soft",
+"title": "QQ输入法官方下载 - 免费腾讯输入法",
+"keywords": "qq输入法下载,qq输入法官网,qq拼音,输入法下载",
+"url": "/qq-pinyin-download/"
+},
+{
+"slug": "baidu-shurufa-download",
+"name": "百度输入法官方下载",
+"short": "百度中文输入法",
+"cat": "soft",
+"title": "百度输入法官方下载 - 免费百度中文输入法",
+"keywords": "百度输入法下载,百度输入法电脑版,百度输入法官网",
+"url": "/baidu-shurufa-download/"
+},
+{
+"slug": "foxit-reader-download",
+"name": "福昕PDF阅读器官方下载",
+"short": "轻量 PDF 阅读器",
+"cat": "soft",
+"title": "福昕PDF阅读器官方下载 - 免费轻量 PDF 阅读器",
+"keywords": "福昕pdf阅读器下载,福昕阅读器官网,pdf阅读器,福昕官方下载",
+"url": "/foxit-reader-download/"
+},
+{
+"slug": "adobe-reader-download",
+"name": "Adobe Acrobat Reader官方下载",
+"short": "Adobe 官方 PDF 阅读器",
+"cat": "soft",
+"title": "Adobe Acrobat Reader官方下载 免费",
+"keywords": "adobe reader下载,acrobat reader官方下载,pdf阅读器,adobe pdf",
+"url": "/adobe-reader-download/"
+},
+{
+"slug": "wecom-download",
+"name": "企业微信官方下载",
+"short": "企业办公沟通",
+"cat": "soft",
+"title": "企业微信官方下载 - 免费企业办公沟通",
+"keywords": "企业微信下载,企业微信电脑版,企业微信官网,企业微信官方下载",
+"url": "/wecom-download/"
+},
+{
+"slug": "i4-download",
+"name": "爱思助手官方下载",
+"short": "苹果手机电脑管理工具",
+"cat": "soft",
+"title": "爱思助手官方下载 - 免费苹果手机电脑管理工具",
+"keywords": "爱思助手下载,爱思助手官网,iphone管理软件,苹果刷机",
+"url": "/i4-download/"
+},
+{
+"slug": "rustdesk-download",
+"name": "RustDesk官方下载",
+"short": "开源远程桌面",
+"cat": "soft",
+"title": "RustDesk官方下载 - 免费开源远程桌面",
+"keywords": "rustdesk下载,rustdesk官网,开源远程桌面,远程控制软件",
+"url": "/rustdesk-download/"
+},
+{
+"slug": "xmind-download",
+"name": "XMind官方下载",
+"short": "思维导图软件",
+"cat": "soft",
+"title": "XMind官方下载 - 思维导图软件",
+"keywords": "xmind下载,xmind官网,思维导图软件,xmind中文版",
+"url": "/xmind-download/"
+},
+{
+"slug": "notion-download",
+"name": "Notion官方下载",
+"short": "笔记、文档和知识库",
+"cat": "soft",
+"title": "Notion官方下载 - 免费笔记、文档和知识库",
+"keywords": "notion下载,notion官网,notion中文,notion电脑版",
+"url": "/notion-download/"
+},
+{
+"slug": "zotero-download",
+"name": "Zotero官方下载",
+"short": "免费文献管理",
+"cat": "soft",
+"title": "Zotero官方下载 - 免费文献管理",
+"keywords": "zotero下载,zotero官网,文献管理软件,zotero中文",
+"url": "/zotero-download/"
 },
 {
 "slug": "mac-bizhuang-ruanjian",

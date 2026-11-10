@@ -92,6 +92,15 @@
   <url><loc>https://wan.is-my.app/cmd-mingling/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/linux-mingling/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/lanping-daima/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/wode-ip/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/dns-chaxun/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/http-tou/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/ssl-zhengshu/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/whois-chaxun/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/tcping/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/duankou-jiance/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/wangsu-ceshi/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/http-zhuangtaima/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/dianshang-lirun/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/dingjia-zhekou/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/manjian/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -106,6 +115,8 @@
   <url><loc>https://wan.is-my.app/kucun-zhouzhuan/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/getihu-shuifei/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/zhibo-huashu/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/biaoti-zishu/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/kuaidi-chaxun/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/zhibo-tici/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/zhibo-choujiang/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/obs-malv/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -301,6 +312,33 @@
   <url><loc>https://wan.is-my.app/tiktok-live-studio/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/youtube-zhibo/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/twitch-zhibo/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/360-anquanweishi-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/tencent-guanjia-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/ms-pcmanager-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/kugou-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/mgtv-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/youku-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/bilibili-pc-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/bijian-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/douyin-pc-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/alipan-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/123pan-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/jianguoyun-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/youdao-fanyi-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/youdao-note-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/tencent-docs-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/foxmail-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/dashi-163-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/qq-pinyin-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/baidu-shurufa-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/foxit-reader-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/adobe-reader-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/wecom-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/i4-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/rustdesk-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/xmind-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/notion-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/zotero-download/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/mac-bizhuang-ruanjian/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/windows-zhuangji-bibei/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/bendi-damoxing/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
