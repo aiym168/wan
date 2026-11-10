@@ -1,8 +1,10 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>玩点啥</title>
 <script>
-// /dazi/* deep links are served by the single-page app in /dazi/ (path is carried in the query string); everything else goes home
+// /dazi/* and /tools/* deep links are served by the single-page apps in /dazi/ and /tools/ (path is carried in the query string); everything else goes home
 (function(){var l=window.location;
 if(/^\/dazi(\/|$)/.test(l.pathname)){l.replace(l.protocol+'//'+l.hostname+(l.port?':'+l.port:'')+'/dazi/?/'+l.pathname.slice(1).split('/').slice(1).join('/').replace(/&/g,'~and~')+(l.search?'&'+l.search.slice(1).replace(/&/g,'~and~'):'')+l.hash)}
+else if(/^\/tools(\/|$)/.test(l.pathname)){l.replace(l.protocol+'//'+l.hostname+(l.port?':'+l.port:'')+'/tools/?/'+l.pathname.slice(1).split('/').slice(1).join('/').replace(/&/g,'~and~')+(l.search?'&'+l.search.slice(1).replace(/&/g,'~and~'):'')+l.hash)}
 else if(/^\/moyu(\/|$)/.test(l.pathname)){l.replace('/moyu/')}
+else if(/^\/huahua(\/|$)/.test(l.pathname)){l.replace('/huahua/'+l.search)}
 else{l.replace('/')}})();
 </script></head><body></body></html>

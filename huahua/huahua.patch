@@ -1,0 +1,942 @@
+diff --git a/internal/frontend/lobby.go b/internal/frontend/lobby.go
+index 27d2c96..debf1d2 100644
+--- a/internal/frontend/lobby.go
++++ b/internal/frontend/lobby.go
+@@ -124,6 +124,9 @@ func (handler *SSRHandler) ssrEnterLobbyNoChecks(
+ }
+ 
+ func determineTranslation(r *http.Request) (*translations.Translation, string) {
++	if zh := translations.GetLanguage("zh"); zh != nil {
++		return zh, "zh"
++	}
+ 	languageTags, _, err := language.ParseAcceptLanguage(r.Header.Get("Accept-Language"))
+ 	if err == nil {
+ 		for _, languageTag := range languageTags {
+@@ -143,5 +146,8 @@ func determineTranslation(r *http.Request) (*translations.Translation, string) {
+ 		}
+ 	}
+ 
++	if zh := translations.GetLanguage("zh"); zh != nil {
++		return zh, "zh"
++	}
+ 	return translations.DefaultTranslation, "en-us"
+ }
+diff --git a/internal/frontend/lobby.js b/internal/frontend/lobby.js
+index 247ac51..23ae4be 100644
+--- a/internal/frontend/lobby.js
++++ b/internal/frontend/lobby.js
+@@ -5,6 +5,11 @@ String.prototype.format = function () {
+ };
+ 
+ const rootPath = `{{.RootPath}}`;
++// let an embedding page know which room this is, so it can offer an invite link
++try {
++    const m = location.pathname.match(/\/lobby\/([^/?#]+)/);
++    if (m && window.parent !== window) window.parent.postMessage({ app: "huahua", lobby: m[1] }, "*");
++} catch (e) { }
+ const keyboardManager = new KeyboardManager();
+ 
+ let socketIsConnecting = false;
+diff --git a/internal/frontend/templates/error.html b/internal/frontend/templates/error.html
+index 62e3683..6668fce 100644
+--- a/internal/frontend/templates/error.html
++++ b/internal/frontend/templates/error.html
+@@ -3,7 +3,7 @@
+ <html lang="en">
+ 
+ <head>
+-    <title>Scribble.rs - Error</title>
++    <title>你画我猜 · 出错了</title>
+     <meta charset="UTF-8" />
+     {{template "non-static-css-decl" .}}
+     <link rel="stylesheet" type="text/css" href='{{.RootPath}}/resources/{{.WithCacheBust "root.css"}}' />
+diff --git a/internal/frontend/templates/index.html b/internal/frontend/templates/index.html
+index 2f437ce..2fb69d2 100644
+--- a/internal/frontend/templates/index.html
++++ b/internal/frontend/templates/index.html
+@@ -3,7 +3,7 @@
+ <html lang="{{.Locale}}">
+ 
+ <head>
+-    <title>Scribble.rs</title>
++    <title>你画我猜 · 和朋友一起画画猜词</title>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description"
+diff --git a/internal/frontend/templates/lobby.html b/internal/frontend/templates/lobby.html
+index ec35478..9e8129b 100644
+--- a/internal/frontend/templates/lobby.html
++++ b/internal/frontend/templates/lobby.html
+@@ -3,7 +3,7 @@
+ <html lang="{{.Locale}}">
+ 
+ <head>
+-    <title>Scribble.rs - Game</title>
++    <title>你画我猜 · 游戏中</title>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=0">
+     {{template "non-static-css-decl" .}}
+@@ -383,6 +383,16 @@
+ 
+     <script type="text/javascript" src='{{.RootPath}}/resources/{{.WithCacheBust "draw.js"}}'></script>
+     <script type="module" src='{{.RootPath}}/{{.WithCacheBust "lobby.js"}}'></script>
++<div id="hh-invite" style="position:fixed;right:12px;bottom:12px;z-index:50;display:flex;gap:8px;font:14px/1.2 system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif">
++  <a href="https://wan.is-my.app/" style="padding:9px 12px;border-radius:999px;background:rgba(20,16,40,.78);color:#fff;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.25)">← 玩点啥</a>
++  <button type="button" id="hh-invite-btn" style="padding:9px 14px;border:0;border-radius:999px;background:linear-gradient(135deg,#8b5cf6,#ec4899);color:#fff;font-weight:700;cursor:pointer;box-shadow:0 6px 20px rgba(139,92,246,.45)">📨 复制邀请链接</button>
++</div>
++<script>
++(function(){var m=location.pathname.match(/\/lobby\/([^/?#]+)/);var b=document.getElementById('hh-invite-btn');if(!m){b.style.display='none';return}
++var link='https://wan.is-my.app/huahua/?r='+m[1];
++b.onclick=function(){var t='来和我一起玩「你画我猜」！点开直接进房间：'+link;function ok(){b.textContent='✅ 已复制，发给朋友吧';setTimeout(function(){b.textContent='📨 复制邀请链接'},2500)}
++if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,function(){prompt('复制这个链接发给朋友：',link)})}else{prompt('复制这个链接发给朋友：',link)}};})();
++</script>
+ </body>
+ 
+ </html>
+diff --git a/internal/game/lobby.go b/internal/game/lobby.go
+index b7466de..63cdac2 100644
+--- a/internal/game/lobby.go
++++ b/internal/game/lobby.go
+@@ -26,6 +26,7 @@ var SupportedScoreCalculations = []string{
+ }
+ 
+ var SupportedLanguages = map[string]string{
++	"chinese":    "中文",
+ 	"custom":     "Custom words only",
+ 	"english_gb": "English (GB)",
+ 	"english":    "English (US)",
+diff --git a/internal/game/words.go b/internal/game/words.go
+index 0e9b966..51b7b8a 100644
+--- a/internal/game/words.go
++++ b/internal/game/words.go
+@@ -26,6 +26,10 @@ var (
+ 			LanguageCode: "en_gb",
+ 			Lowercaser:   func() cases.Caser { return cases.Lower(language.BritishEnglish) },
+ 		},
++		"chinese": {
++			LanguageCode: "zh",
++			Lowercaser:   func() cases.Caser { return cases.Lower(language.Chinese) },
++		},
+ 		"english_gb": {
+ 			LanguageCode: "en_gb",
+ 			Lowercaser:   func() cases.Caser { return cases.Lower(language.BritishEnglish) },
+diff --git a/internal/game/words/zh b/internal/game/words/zh
+new file mode 100644
+index 0000000..63599c3
+--- /dev/null
++++ b/internal/game/words/zh
+@@ -0,0 +1,649 @@
++猫
++狗
++熊猫
++老虎
++狮子
++大象
++长颈鹿
++斑马
++猴子
++兔子
++老鼠
++松鼠
++刺猬
++狐狸
++狼
++熊
++北极熊
++考拉
++袋鼠
++河马
++犀牛
++骆驼
++马
++驴
++牛
++羊
++猪
++鸡
++鸭
++鹅
++鸽子
++麻雀
++乌鸦
++老鹰
++猫头鹰
++孔雀
++鹦鹉
++企鹅
++火烈鸟
++天鹅
++蝙蝠
++青蛙
++乌龟
++蛇
++鳄鱼
++恐龙
++蜥蜴
++鲨鱼
++鲸鱼
++海豚
++章鱼
++螃蟹
++龙虾
++虾
++金鱼
++水母
++海星
++海马
++贝壳
++蜗牛
++蚂蚁
++蜜蜂
++蝴蝶
++蜻蜓
++蚊子
++苍蝇
++蜘蛛
++毛毛虫
++瓢虫
++萤火虫
++蚯蚓
++独角兽
++龙
++凤凰
++美人鱼
++苹果
++香蕉
++橙子
++西瓜
++葡萄
++草莓
++菠萝
++芒果
++樱桃
++桃子
++梨
++柠檬
++椰子
++猕猴桃
++榴莲
++荔枝
++石榴
++甘蔗
++玉米
++土豆
++胡萝卜
++西红柿
++黄瓜
++茄子
++白菜
++南瓜
++洋葱
++大蒜
++辣椒
++蘑菇
++花生
++豆腐
++鸡蛋
++米饭
++面条
++饺子
++包子
++馒头
++粽子
++月饼
++汤圆
++油条
++煎饼
++火锅
++烤鸭
++烤串
++麻辣烫
++小龙虾
++寿司
++披萨
++汉堡
++薯条
++热狗
++三明治
++面包
++蛋糕
++饼干
++甜甜圈
++冰淇淋
++棒棒糖
++巧克力
++爆米花
++奶茶
++咖啡
++可乐
++果汁
++牛奶
++啤酒
++红酒
++茶
++酸奶
++糖葫芦
++臭豆腐
++螺蛳粉
++肉夹馍
++凉皮
++鸡腿
++牛排
++方便面
++荷包蛋
++粥
++手机
++电脑
++键盘
++鼠标
++耳机
++电视
++遥控器
++冰箱
++洗衣机
++空调
++电风扇
++微波炉
++电饭锅
++吹风机
++台灯
++灯泡
++插座
++充电宝
++相机
++手表
++闹钟
++眼镜
++墨镜
++帽子
++围巾
++手套
++袜子
++鞋子
++拖鞋
++高跟鞋
++雨伞
++背包
++钱包
++口红
++戒指
++项链
++耳环
++领带
++裙子
++衬衫
++外套
++牛仔裤
++短裤
++泳衣
++睡衣
++牙刷
++牙膏
++毛巾
++肥皂
++镜子
++梳子
++剪刀
++尺子
++铅笔
++钢笔
++橡皮
++书
++笔记本
++书包
++地球仪
++黑板
++粉笔
++钥匙
++锁
++门
++窗户
++椅子
++桌子
++沙发
++床
++枕头
++被子
++衣柜
++楼梯
++电梯
++马桶
++浴缸
++花瓶
++蜡烛
++杯子
++碗
++筷子
++勺子
++叉子
++刀
++盘子
++锅
++水壶
++保温杯
++扫把
++拖把
++垃圾桶
++篮子
++箱子
++礼物
++气球
++风筝
++灯笼
++鞭炮
++红包
++对联
++扇子
++雨衣
++口罩
++体温计
++针
++药
++创可贴
++轮椅
++汽车
++公交车
++出租车
++自行车
++摩托车
++电动车
++火车
++高铁
++地铁
++飞机
++直升机
++火箭
++飞船
++轮船
++帆船
++潜水艇
++救护车
++消防车
++警车
++卡车
++挖掘机
++拖拉机
++坦克
++热气球
++滑板
++红绿灯
++斑马线
++加油站
++停车场
++高速公路
++桥
++隧道
++太阳
++月亮
++星星
++云
++彩虹
++闪电
++下雨
++下雪
++雪人
++冰雹
++台风
++龙卷风
++火山
++地震
++山
++河
++湖
++大海
++沙滩
++沙漠
++森林
++草原
++瀑布
++岛屿
++冰山
++洞穴
++树
++花
++草
++仙人掌
++荷花
++玫瑰
++向日葵
++竹子
++松树
++枫叶
++蒲公英
++四叶草
++种子
++石头
++钻石
++黄金
++长城
++故宫
++天安门
++东方明珠
++埃菲尔铁塔
++金字塔
++自由女神像
++兵马俑
++布达拉宫
++西湖
++黄山
++泰山
++桂林山水
++熊猫基地
++迪士尼
++学校
++医院
++银行
++超市
++图书馆
++博物馆
++动物园
++游乐园
++电影院
++公园
++餐厅
++机场
++火车站
++寺庙
++教堂
++城堡
++灯塔
++摩天轮
++过山车
++旋转木马
++帐篷
++风车
++烟囱
++喷泉
++雕像
++秋千
++滑梯
++医生
++护士
++警察
++消防员
++老师
++学生
++厨师
++司机
++飞行员
++宇航员
++农民
++渔夫
++程序员
++画家
++歌手
++魔术师
++小丑
++海盗
++忍者
++超人
++蜘蛛侠
++机器人
++外星人
++僵尸
++吸血鬼
++圣诞老人
++孙悟空
++猪八戒
++哪吒
++葫芦娃
++奥特曼
++新娘
++婴儿
++老爷爷
++双胞胎
++跑步
++游泳
++跳舞
++唱歌
++睡觉
++吃饭
++喝水
++洗澡
++刷牙
++打哈欠
++打喷嚏
++哭
++笑
++生气
++害怕
++惊讶
++思考
++拥抱
++握手
++鼓掌
++点赞
++比心
++自拍
++打电话
++发短信
++打游戏
++看书
++写字
++画画
++钓鱼
++爬山
++骑车
++开车
++放风筝
++堆雪人
++打雪仗
++跳绳
++踢毽子
++打篮球
++踢足球
++打乒乓球
++打羽毛球
++打网球
++下棋
++打麻将
++打太极
++瑜伽
++拳击
++举重
++滑雪
++冲浪
++潜水
++蹦极
++跳伞
++射箭
++排队
++加班
++摸鱼
++熬夜
++减肥
++剪头发
++化妆
++遛狗
++购物
++搬家
++做饭
++洗碗
++扫地
++晒太阳
++许愿
++吹蜡烛
++放烟花
++划龙舟
++赏月
++包饺子
++足球
++篮球
++排球
++乒乓球
++羽毛球
++网球
++高尔夫
++保龄球
++棒球
++奖杯
++金牌
++哨子
++跑道
++擂台
++骰子
++扑克牌
++魔方
++积木
++拼图
++陀螺
++溜溜球
++弹弓
++水枪
++泡泡
++玩偶
++木马
++望远镜
++显微镜
++放大镜
++指南针
++地图
++宝藏
++皇冠
++宝剑
++盾牌
++弓箭
++魔法棒
++水晶球
++飞毯
++扫帚
++南瓜灯
++圣诞树
++雪花
++鞭子
++钢琴
++吉他
++小提琴
++鼓
++喇叭
++笛子
++二胡
++古筝
++麦克风
++音符
++心
++爱心
++笑脸
++哭脸
++骷髅
++幽灵
++天使
++恶魔
++眼睛
++鼻子
++嘴巴
++耳朵
++牙齿
++舌头
++头发
++胡子
++手
++脚
++手指
++指纹
++肌肉
++骨头
++大脑
++心脏
++肚子
++酒窝
++伤口
++汗水
++眼泪
++口水
++二维码
++无线网
++电池
++充电器
++云盘
++表情包
++地铁卡
++外卖
++快递
++共享单车
++直播
++弹幕
++网红
++点外卖
++抢红包
++扫码
++刷卡
++密码
++验证码
++广场舞
++春晚
++春节
++中秋节
++端午节
++元宵节
++情人节
++万圣节
++圣诞节
++生日
++婚礼
++毕业
++高考
++年终奖
++双十一
++画饼
++吃瓜
++躺平
++内卷
++打工人
++社恐
++背锅
++甩锅
++种草
++拔草
++薅羊毛
++熊猫眼
++鸡飞狗跳
++对牛弹琴
++画蛇添足
++守株待兔
++亡羊补牢
++井底之蛙
++狐假虎威
++掩耳盗铃
++拔苗助长
++杯弓蛇影
++一箭双雕
++鹤立鸡群
++盲人摸象
++叶公好龙
++九牛一毛
++如鱼得水
++三心二意
++七上八下
++鸡同鸭讲
++天外有天
++火上浇油
++雪中送炭
++锦上添花
++对症下药
++刻舟求剑
++望梅止渴
++胸有成竹
++虎头蛇尾
+\ No newline at end of file
+diff --git a/internal/translations/translations.go b/internal/translations/translations.go
+index cfbe391..de352f2 100644
+--- a/internal/translations/translations.go
++++ b/internal/translations/translations.go
+@@ -20,6 +20,7 @@ func init() {
+ 	initPersianTranslation()
+ 	initFrenchTranslation()
+ 	initIndonesianTranslation()
++	initChineseTranslation()
+ }
+ 
+ var translationRegistry = make(map[string]*Translation)
+diff --git a/internal/translations/zh_CN.go b/internal/translations/zh_CN.go
+new file mode 100644
+index 0000000..0442bfb
+--- /dev/null
++++ b/internal/translations/zh_CN.go
+@@ -0,0 +1,146 @@
++package translations
++
++func initChineseTranslation() *Translation {
++	translation := createTranslation()
++
++	translation.put("requires-js", "本网站需要开启 JavaScript 才能正常运行。")
++
++	translation.put("start-the-game", "准备好了！")
++	translation.put("force-start", "强制开始")
++	translation.put("force-restart", "强制重开")
++	translation.put("game-not-started-title", "游戏还没开始")
++	translation.put("waiting-for-host-to-start", "请等待房主开始游戏。")
++	translation.put("click-to-homepage", "点这里返回首页")
++
++	translation.put("now-spectating-title", "你现在是观众")
++	translation.put("now-spectating-text", "点击顶部的眼睛按钮可以退出观战。")
++	translation.put("now-participating-title", "你现在加入了游戏")
++	translation.put("now-participating-text", "点击顶部的眼睛按钮可以切换为观战。")
++
++	translation.put("spectation-requested-title", "已申请观战")
++	translation.put("spectation-requested-text", "这一轮结束后你会变成观众。")
++	translation.put("participation-requested-title", "已申请加入")
++	translation.put("participation-requested-text", "这一轮结束后你会加入游戏。")
++
++	translation.put("spectation-request-cancelled-title", "已取消观战申请")
++	translation.put("spectation-request-cancelled-text", "观战申请已取消，你会继续参与游戏。")
++	translation.put("participation-request-cancelled-title", "已取消加入申请")
++	translation.put("participation-request-cancelled-text", "加入申请已取消，你会继续观战。")
++
++	translation.put("round", "回合")
++	translation.put("toggle-soundeffects", "开关音效")
++	translation.put("toggle-pen-pressure", "开关压感")
++	translation.put("change-your-name", "昵称")
++	translation.put("randomize", "随机")
++	translation.put("apply", "应用")
++	translation.put("save", "保存")
++	translation.put("toggle-fullscreen", "全屏")
++	translation.put("toggle-spectate", "切换观战模式")
++	translation.put("show-help", "帮助")
++	translation.put("votekick-a-player", "投票踢人")
++
++	translation.put("last-turn", "（上一轮：%s）")
++
++	translation.put("drawer-kicked", "被踢的玩家正在画画，所以本轮大家都不得分。")
++	translation.put("self-kicked", "你被踢出了房间")
++	translation.put("kick-vote", "（%s/%s）名玩家投票要踢出 %s。")
++	translation.put("player-kicked", "玩家已被踢出。")
++	translation.put("owner-change", "%s 成为新房主。")
++
++	translation.put("change-lobby-settings-tooltip", "修改房间设置")
++	translation.put("change-lobby-settings-title", "房间设置")
++	translation.put("lobby-settings-changed", "房间设置已更新")
++	translation.put("advanced-settings", "高级设置")
++	translation.put("chill", "休闲")
++	translation.put("competitive", "竞技")
++	translation.put("chill-alt", "猜得快有奖励，慢一点也没关系。\n基础分较高，开心最重要！")
++	translation.put("competitive-alt", "猜得越快分越高。\n基础分低很多，分数下降也更快。")
++	translation.put("score-calculation", "计分方式")
++	translation.put("word-language", "词库")
++	translation.put("drawing-time-setting", "每轮作画时间（秒）")
++	translation.put("rounds-setting", "回合数")
++	translation.put("max-players-setting", "最多人数")
++	translation.put("public-lobby-setting", "公开房间")
++	translation.put("custom-words", "自定义词语")
++	translation.put("custom-words-info", "输入你想加的词，用逗号隔开")
++	translation.put("custom-words-placeholder", "火锅, 熊猫, 长城, 奶茶")
++	translation.put("custom-words-per-turn-setting", "每轮自定义词数量")
++	translation.put("players-per-ip-limit-setting", "同一 IP 最多人数")
++	translation.put("words-per-turn-setting", "每轮可选词数")
++	translation.put("save-settings", "保存设置")
++	translation.put("input-contains-invalid-data", "你填写的内容有误：")
++	translation.put("please-fix-invalid-input", "请改正后再试一次。")
++	translation.put("create-lobby", "创建房间")
++	translation.put("create-public-lobby", "创建公开房间")
++	translation.put("create-private-lobby", "创建私密房间")
++	translation.put("no-lobbies-yet", "现在还没有公开房间，创建一个吧！")
++	translation.put("lobby-full", "抱歉，房间已满。")
++	translation.put("lobby-ip-limit-excceeded", "抱歉，同一网络进入这个房间的人数已达上限。")
++	translation.put("lobby-open-tab-exists", "你好像已经在另一个标签页打开了这个房间。")
++	translation.put("lobby-doesnt-exist", "这个房间不存在或已解散")
++
++	translation.put("refresh", "刷新")
++	translation.put("join-lobby", "加入房间")
++
++	translation.put("message-input-placeholder", "在这里输入你的答案或聊天")
++
++	translation.put("word-choice-warning", "不及时选择将自动使用这个词")
++	translation.put("choose-a-word", "选一个词来画")
++	translation.put("waiting-for-word-selection", "等待选词")
++	translation.put("is-choosing-word", "正在选词。")
++
++	translation.put("close-guess", "「%s」非常接近了！")
++	translation.put("correct-guess", "恭喜，你猜对了！")
++	translation.put("correct-guess-other-player", "「%s」猜对了！")
++	translation.put("round-over", "本轮结束，没有选词。")
++	translation.put("round-over-no-word", "本轮结束，答案是「%s」。")
++	translation.put("game-over-win", "恭喜你，赢了！")
++	translation.put("game-over-tie", "平局！")
++	translation.put("game-over", "你获得第 %s 名，共 %s 分")
++	translation.put("drawer-disconnected", "画手掉线了，本轮提前结束。")
++	translation.put("guessers-disconnected", "猜的人都掉线了，本轮提前结束。")
++	translation.put("word-hint-revealed", "揭晓了一个字的提示！")
++
++	translation.put("change-active-color", "更换颜色")
++	translation.put("use-pencil", "画笔")
++	translation.put("use-eraser", "橡皮擦")
++	translation.put("use-fill-bucket", "油漆桶（用当前颜色填充区域）")
++	translation.put("change-pencil-size-to", "把画笔 / 橡皮擦大小改为 %s")
++	translation.put("clear-canvas", "清空画布")
++	translation.put("undo", "撤销上一步（清空画布后不能撤销）")
++
++	translation.put("connection-lost", "连接断开了！")
++	translation.put("connection-lost-text", "正在重新连接……\n\n请检查你的网络。")
++	translation.put("error-connecting", "连接服务器失败")
++	translation.put("error-connecting-text", "无法和游戏服务器建立实时连接。\n\n请刷新页面重试。")
++	translation.put("message-too-long", "消息太长了。")
++	translation.put("server-shutting-down-title", "服务器维护中")
++	translation.put("server-shutting-down-text", "抱歉，服务器即将重启，请稍后再来。")
++
++	translation.put("controls", "操作说明")
++	translation.put("pencil", "画笔")
++	translation.put("eraser", "橡皮擦")
++	translation.put("fill-bucket", "油漆桶")
++	translation.put("switch-pencil-sizes", "笔刷大小")
++	translation.put("undo-help-message", "撤销")
++
++	translation.put("close", "关闭")
++	translation.put("no", "否")
++	translation.put("yes", "是")
++	translation.put("system", "系统")
++	translation.put("confirm", "好的")
++	translation.put("ready", "已准备")
++	translation.put("join", "加入")
++	translation.put("ongoing", "进行中")
++	translation.put("game-over-lobby", "已结束")
++
++	translation.put("source-code", "源代码")
++	translation.put("help", "帮助")
++	translation.put("submit-feedback", "反馈")
++	translation.put("stats", "状态")
++
++	translation.put("forbidden", "禁止访问")
++
++	RegisterTranslation("zh", translation)
++	return translation
++}
