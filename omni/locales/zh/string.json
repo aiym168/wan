@@ -323,5 +323,101 @@
       "shortDescription": "快速对字符串进行 URL 转义。",
       "title": "字符串 URL 编码器"
     }
+  },
+  "emailExtractor": {
+    "description": "从任意文本中提取全部邮箱地址，粘贴即得干净的邮箱列表。",
+    "shortDescription": "从文本提取邮箱",
+    "title": "邮箱提取",
+    "options": {
+      "title": "Extraction options",
+      "uniqueDesc": "Keep only unique email addresses in the results",
+      "uniqueTitle": "Remove duplicates"
+    }
+  },
+  "slugGenerator": {
+    "description": "把任意文字转换成适合网址的 slug。",
+    "inputTitle": "输入文字",
+    "resultTitle": "网址 Slug",
+    "shortDescription": "生成网址 Slug",
+    "title": "Slug 生成器",
+    "longDescription": "Convert any text into clean, SEO-friendly slugs for use in URLs. The tool handles spaces, special characters, accented letters, and multiple lines at once — making it easy to batch-process blog post titles, product names, or page headings into consistent, readable URL segments.",
+    "options": {
+      "caseDescription": "Preserve the original casing of the input instead of converting to lowercase",
+      "caseLabel": "Case Sensitive",
+      "title": "Slug Options"
+    }
+  },
+  "tableTextConverter": {
+    "title": "表格格式转换",
+    "description": "在 Markdown、CSV、TSV、HTML、MySQL 输出和 JSON 之间转换表格。",
+    "shortDescription": "表格在 Markdown/CSV/HTML/JSON 间互转",
+    "inputTitle": "输入表格",
+    "resultTitle": "转换后的表格",
+    "longDescription": "This tool converts tabular text between multiple formats, including Markdown tables, CSV, TSV, HTML tables, MySQL/CLI query result output, and JSON arrays. Paste your table in any supported format, choose the output format (or let the tool auto-detect the input format), and get the converted table instantly. Useful for turning a MySQL query result into a Markdown table for documentation, converting an HTML table into CSV for spreadsheets, or transforming JSON data into a readable table.",
+    "options": "Conversion Options",
+    "inputFormat": "Input format",
+    "outputFormat": "Output format",
+    "autoDetect": "Auto-detect Input format (recommanded)",
+    "error": "Error"
+  },
+  "textCompare": {
+    "description": "对比两段文字，高亮新增、删除和修改的内容。",
+    "inputTitle": "输入文字",
+    "resultTitle": "差异高亮",
+    "shortDescription": "对比两段文字的差异",
+    "title": "文本对比",
+    "longDescription": "This tool helps you quickly identify differences between two versions of a text. It highlights inserted, removed, and modified content, making it ideal for reviewing edits, tracking changes, or comparing documents. You can choose the level of precision to detect differences at the word or character level depending on your needs.",
+    "options": {
+      "charLevel": "Character level",
+      "levelDesc": "Choose how detailed the comparison should be. Word level highlights changes by words, while character level detects more granular differences.",
+      "title": "Comparison Settings",
+      "wordLevel": "Word level"
+    }
+  },
+  "urlEditor": {
+    "inputTitle": "输入网址",
+    "addParameter": "Add Parameter",
+    "credentialsNotSupported": "URLs with username or password are not supported.",
+    "delete": "Delete",
+    "deleteParamAriaLabel": "Delete parameter row {{row}}",
+    "generatedUrl": "Generated URL",
+    "hash": "Fragment",
+    "hashPlaceholder": "section",
+    "host": "Host",
+    "hostPlaceholder": "example.com",
+    "invalidUrl": "Invalid URL",
+    "key": "Key",
+    "noParameters": "No query parameters",
+    "paramKeyAriaLabel": "Parameter key, row {{row}}",
+    "paramValueAriaLabel": "Parameter value, row {{row}}",
+    "parseButton": "Parse URL",
+    "path": "Path",
+    "pathPlaceholder": "search",
+    "protocol": "Protocol",
+    "queryParameters": "Query Parameters",
+    "toolInfo": {
+      "description": "Paste a URL and click \"Parse URL\" to inspect and edit its components.",
+      "longDescription": "This tool parses a URL into its components and lets you edit the protocol, host, path, fragment, and query parameters visually. After changing the input URL, click \"Parse URL\" again to refresh the parsed details. You can add, remove, or modify any part and copy the generated URL. No server requests.",
+      "shortDescription": "Inspect and edit URL components and query parameters.",
+      "title": "URL Editor"
+    },
+    "urlDetails": "URL Details",
+    "value": "Value"
+  },
+  "bcrypt": {
+    "title": "Bcrypt 加密",
+    "inputTitle": "输入字符串",
+    "resultTitle": "哈希结果",
+    "shortDescription": "用 Bcrypt 计算哈希",
+    "description": "用 Bcrypt 算法安全地计算字符串哈希。",
+    "options": {
+      "title": "Options",
+      "saltTitle": "Salt Rounds",
+      "saltDesc": "Set the number of salt rounds used for hashing."
+    },
+    "toolInfo": {
+      "title": "What is Bcrypt?",
+      "longDescription": "Bcrypt is a password hashing algorithm designed to securely hash passwords and other sensitive strings. The number of salt rounds controls the computational cost of the hashing process."
+    }
   }
 }

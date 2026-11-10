@@ -7,12 +7,31 @@
   "escapeJson": {
     "description": "转义 JSON 字符串中的特殊字符。将 JSON 数据转换为正确的转义格式，以便安全传输或存储。",
     "shortDescription": "转义 JSON 中的特殊字符",
-    "title": "转义 JSON"
+    "title": "转义 JSON",
+    "inputTitle": "输入 JSON",
+    "resultTitle": "转义后的 JSON 字符串",
+    "longDescription": "JSON escaping converts special characters inside JSON data into escaped sequences that can be safely stored, transmitted, or embedded inside another JSON document or programming language string. This tool escapes characters such as double quotes, backslashes, and line breaks while preserving the original data structure. Use it when you need to transform JSON into a string-safe representation for APIs, configuration files, databases, or source code.",
+    "wrapOutputDescription": "Add double quotes around the escaped JSON output to create a JSON string.",
+    "wrapOutputTitle": "Wrap Output In Quotes"
   },
   "jsonToXml": {
     "description": "将 JSON 数据转换为 XML 格式。将结构化的 JSON 对象转换为格式良好的 XML 文档。",
     "shortDescription": "将 JSON 转换为 XML 格式",
-    "title": "JSON 到 XML"
+    "title": "JSON 到 XML",
+    "inputTitle": "输入 JSON",
+    "options": {
+      "addMetaTagDesc": "Add a meta tag at the beginning of the XML output",
+      "addMetaTagTitle": "Add an XML Meta Tag",
+      "indentationTitle": "Indentation Options",
+      "metaInfoTitle": "XML Meta Information",
+      "noIdentDesc": "Output XML without any indentation.",
+      "noIdentTitle": "No indentation",
+      "useSpaceDesc": "Use spaces to visualize the hierarchical structure of XML.",
+      "useSpaceTitle": "Use Spaces for indentation",
+      "useTabDesc": "Use tabs to visualize the hierarchical structure of XML.",
+      "useTabTitle": "Use Tabs for indentation"
+    },
+    "outputTitle": "Output XML"
   },
   "minify": {
     "description": "从 JSON 中删除所有不必要的空格。",
@@ -44,7 +63,23 @@
   "stringify": {
     "description": "将 JavaScript 对象转换为 JSON 字符串格式。将数据结构序列化为 JSON 字符串以便存储或传输。",
     "shortDescription": "将对象转换为 JSON 字符串",
-    "title": "字符串化 JSON"
+    "title": "字符串化 JSON",
+    "inputTitle": "JavaScript 对象/数组",
+    "resultTitle": "JSON 字符串",
+    "options": {
+      "escapeHtmlDesc": "Convert HTML special characters to their entity references",
+      "escapeHtmlTitle": "Escape HTML Characters",
+      "indentationTitle": "Indentation Options",
+      "optionsTitle": "Options",
+      "useSpaceDesc": "Indent output with spaces",
+      "useSpaceTitle": "Use Spaces",
+      "useTabDesc": "Indent output with tabs",
+      "useTabTitle": "Use Tabs for indentation"
+    },
+    "toolInfo": {
+      "description": "JSON Stringify is a tool that converts JavaScript objects and arrays into their JSON string representation. It properly formats the output with customizable indentation and offers the option to escape HTML special characters, making it safe for web usage. This tool is particularly useful when you need to serialize data structures for storage or transmission, or when you need to prepare JSON data for HTML embedding.",
+      "title": "What Is JSON Stringify ?"
+    }
   },
   "validateJson": {
     "description": "检查 JSON 是否有效且格式正确。",
@@ -58,5 +93,53 @@
       "title": "什么是 JSON 验证？"
     },
     "validJson": "✅ 有效的 JSON"
+  },
+  "jsonToCsv": {
+    "description": "把 JSON 数据转换成 CSV，支持嵌套对象和数组，可直接用 Excel 打开。",
+    "inputTitle": "输入 JSON",
+    "shortDescription": "JSON 转 CSV",
+    "title": "JSON 转 CSV",
+    "delimiterOption": "Delimiter",
+    "headerOption": "Headers",
+    "options": {
+      "alwaysQuote": {
+        "description": "Wrap every cell in double-quotes, regardless of its content.",
+        "label": "Always quote"
+      },
+      "autoQuote": {
+        "description": "Only quote cells that contain the delimiter, a double-quote, or a newline. Keeps output clean and minimal.",
+        "label": "Auto (recommended)"
+      },
+      "delimiter": "Character used to separate values in each row (e.g. comma, semicolon, tab)",
+      "header": {
+        "description": "Use JSON keys as column names in the first row. Recommended for readability and import compatibility.",
+        "label": "Include header row"
+      }
+    },
+    "outputTitle": "Output CSV",
+    "quotingOption": "String Quoting"
+  },
+  "sortJson": {
+    "description": "按指定字段给 JSON 对象数组排序，或按字母顺序排列对象的键。",
+    "inputTitle": "输入 JSON",
+    "resultTitle": "排序后的 JSON",
+    "shortDescription": "JSON 排序",
+    "title": "JSON 排序",
+    "longDescription": "This tool allows you to easily sort JSON data in a structured and predictable way. You can sort an array of objects by any key, choosing either ascending or descending order, which is useful for organizing data such as lists of users, products, or records. Alternatively, you can sort the keys of a JSON object alphabetically to improve readability and consistency. The tool supports flexible sorting modes and handles common JSON structures, making it ideal for developers, data analysts, and anyone working with JSON data who needs clean, ordered output.",
+    "options": {
+      "ascending": "Ascending (A → Z)",
+      "descending": "Descending (Z → A)",
+      "keyDescription": "Select the key to sort by",
+      "modeDescription": "Choose whether to sort array items by a key's value, or sort the keys of an object alphabetically",
+      "orderDescription": "Choose the sort order",
+      "sortByKey": "Sort object keys alphabetically",
+      "sortByValue": "Sort array by key value",
+      "title": "Sorting Options"
+    }
+  },
+  "tsvToJson": {
+    "description": "把 TSV（制表符分隔）数据转换成 JSON。",
+    "shortDescription": "TSV 转 JSON",
+    "title": "TSV 转 JSON"
   }
 }

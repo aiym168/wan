@@ -24,12 +24,26 @@
   "convertToPdf": {
     "description": "将各种图像格式（PNG, GIF, JPG, TIF, PSD, SVG, WEBP, HEIC, RAW）转换为 PDF，并可调整图像大小和页面方向。",
     "shortDescription": "将图像转换为 PDF，可调整大小和方向",
-    "title": "将图像转换为 PDF"
+    "title": "将图像转换为 PDF",
+    "inputTitle": "输入图片",
+    "resultTitle": "输出 PDF",
+    "options": {
+      "a4": "A4 Page",
+      "fullsize": "Full Size (Image size)",
+      "image": "Image",
+      "landscape": "Landscape (Horizontal)",
+      "orientation": "Orientation",
+      "portrait": "Portrait (Vertical)",
+      "scale": "Scale",
+      "type": "PDF Type"
+    }
   },
   "editor": {
     "description": "高级 PDF 编辑器，具备注释、表单填写、高亮显示和导出功能。您可以使用专业级工具（包括文本插入、绘图、高亮显示、签名和表单填写）直接在浏览器中编辑 PDF。",
     "shortDescription": "使用高级注释、签名和编辑工具编辑 PDF",
-    "title": "PDF编辑器"
+    "title": "PDF编辑器",
+    "upload": "Upload PDF",
+    "clear": "Clear Input"
   },
   "merge": {
     "inputTitle": "输入 PDF",
@@ -115,5 +129,31 @@
       "description": "此工具允许您从 PDF 文档中提取特定页面。您可以指定要提取的单个页面或页面范围。",
       "title": "拆分 PDF"
     }
+  },
+  "formBuilder": {
+    "title": "PDF 表单制作",
+    "description": "在浏览器里制作可填写的 PDF 表单，支持文本框、复选框、单选按钮等，可拖拽排版。",
+    "shortDescription": "拖拽制作可填写的 PDF 表单",
+    "toolbox": {
+      "title": "Toolbox",
+      "checkbox": "Checkbox",
+      "radio": "Radio",
+      "label": "Label / Text",
+      "text": "Text",
+      "textarea": "Textarea"
+    },
+    "file": {
+      "upload": "Upload PDF",
+      "export": "Export & Download",
+      "clear": "Clear Input"
+    }
+  },
+  "extractImagesFromPdf": {
+    "description": "按原始画质提取 PDF 里的全部图片。",
+    "inputTitle": "输入 PDF",
+    "resultTitle": "提取的图片",
+    "shortDescription": "提取 PDF 中的图片",
+    "title": "PDF 提取图片",
+    "longDescription": "Upload a PDF document to automatically extract all embedded images. The tool preserves the original image quality and supports common formats such as JPG, PNG, and more. Ideal for recovering illustrations, photos, scanned pages, or assets from PDF documents."
   }
 }

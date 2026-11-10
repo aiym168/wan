@@ -150,5 +150,72 @@
     "zeroPaddingDescription": "使所有时间部分始终为两位数宽度。",
     "zeroPrintDescription": "将删除的部分显示为零值“00”。",
     "zeroPrintTruncatedParts": "零打印截断部件"
+  },
+  "convertDateToUnix": {
+    "description": "把日期时间转换成 Unix 时间戳。",
+    "shortDescription": "日期转时间戳",
+    "title": "日期转时间戳",
+    "options": "Options",
+    "outputOptions": "Output Options",
+    "toolInfo": {
+      "description": "This tool converts a human-readable date format (e.g., YYYY-MM-DD HH:MM:SS) into a Unix Timestamp. The user can choose to specify a given UTC offset (e.g., YYYY-MM-DD HH:MM:SS +XX:XX) or use the local timezone. If the user doesn't provide either an offset or choose to use the local timezone, the result is given with an offset of +00:00. ",
+      "title": "Convert Date to Unix"
+    },
+    "useLocalTime": "Use Local Time",
+    "useLocalTimeDescription": "The input time and date is processed as your browser's time zone. Additional specifications will be ignored."
+  },
+  "dateWeekdayCalculator": {
+    "description": "找出某个日期落在指定星期几的所有年份。",
+    "resultTitle": "符合的年份",
+    "shortDescription": "查某天是星期几的年份",
+    "title": "日期星期计算",
+    "dateSelection": "Date",
+    "dayDescription": "Day",
+    "endYearDescription": "End year",
+    "errors": {
+      "emptyInput": "All fields are required",
+      "fallback": "Invalid input",
+      "invalidDate": "Invalid day for the selected month",
+      "invalidDay": "Day must be between 1 and 31",
+      "invalidMonth": "Month must be between 1 and 12",
+      "invalidWeekday": "Invalid weekday",
+      "invalidYear": "Years must be integers between 1 and 9999",
+      "invalidYearRange": "Start year must be less than or equal to end year"
+    },
+    "foundMatches_one": "Found {{count}} matching year",
+    "foundMatches_other": "Found {{count}} matching years",
+    "longDescription": "Select a month, day, and target weekday, then choose a start and end year. The calculator scans each year in the range and lists every match as a full formatted date. February 29 is supported: non-leap years are skipped automatically. Invalid dates (such as April 31) and invalid year ranges show clear error messages.",
+    "monthDescription": "Month",
+    "months": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    },
+    "noMatches": "No matching years found in the selected range.",
+    "startYearDescription": "Start year",
+    "toolInfo": {
+      "title": "What is a {{title}}?"
+    },
+    "weekdayDescription": "Target weekday",
+    "weekdaySelection": "Weekday",
+    "weekdays": {
+      "friday": "Friday",
+      "monday": "Monday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "thursday": "Thursday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday"
+    },
+    "yearRange": "Year range"
   }
 }

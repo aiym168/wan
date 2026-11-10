@@ -130,7 +130,8 @@
     "buyMeACoffee": "请我喝杯咖啡",
     "hireMe": "雇用我",
     "home": "家",
-    "tools": "工具"
+    "tools": "工具",
+    "helpTranslate": "Help translate"
   },
   "number": {
     "generate": {
@@ -235,7 +236,10 @@
   "toolMultipleInput": {
     "deleteFile": "删除文件",
     "inputTitle": "输入 {{type}}",
-    "noFilesSelected": "未选择任何文件"
+    "noFilesSelected": "未选择任何文件",
+    "dropFilesHere": "把文件拖到这里",
+    "invalidFileType": "Invalid file type. Please select files of a supported type.",
+    "selectFilesDescription": "Click here to select files from your device, or drag and drop files here"
   },
   "toolOptions": {
     "title": "工具选项"
@@ -259,5 +263,13 @@
   "userTypes": {
     "developers": "开发人员",
     "generalUsers": "普通用户"
+  },
+  "converters": {
+    "audioconverter": {
+      "description": "Convert audio files between different formats.",
+      "longDescription": "This tool allows you to convert audio files from one format to another, supporting a wide range of audio formats for seamless conversion.",
+      "shortDescription": "Convert audio files to various formats.",
+      "title": "Audio Converter"
+    }
   }
 }

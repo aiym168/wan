@@ -188,5 +188,36 @@
     "longDescription": "这款计算器可帮助计算双芯电缆的电压降和功率损耗。它考虑了电缆长度、线规（横截面积）、材料电阻率和电流。该工具可计算往返电压降、电缆总电阻以及以热量形式耗散的功率。这对于电气工程师、电工和业余爱好者在设计电气系统时尤其有用，可确保负载下的电压水平保持在可接受的范围内。",
     "shortDescription": "根据长度、材料和电流计算电缆的电压降和功率损耗",
     "title": "电缆往返电压降"
+  },
+  "byteConverter": {
+    "description": "在 B、KB、MB、GB 等字节单位之间换算，支持十进制（SI）和二进制（IEC），可多行转换。",
+    "inputTitle": "输入数值",
+    "shortDescription": "字节单位换算",
+    "title": "字节单位换算",
+    "outputTitle": "Converted Output",
+    "unit": {
+      "from": "Select the unit of the input values you are providing (e.g., KB, MB, GiB).",
+      "precision": "Number of decimal places to display in the converted output.",
+      "title": "Conversion Options",
+      "to": "Select the unit you want the input values to be converted into."
+    }
+  },
+  "numberToWords": {
+    "description": "把数字转换成文字写法。",
+    "inputTitle": "数字",
+    "shortDescription": "数字转文字",
+    "title": "数字转文字",
+    "options": {
+      "title": "Options",
+      "uppercase": "Uppercase",
+      "uppercaseDescription": "Display the converted words in uppercase, commonly used for cheques, invoices, and legal documents.",
+      "useAnd": "Include \"and\"",
+      "useAndDescription": "Insert \"and\" where appropriate (for example, \"One Hundred and Twenty\" in English)."
+    },
+    "outputTitle": "Words",
+    "toolInfo": {
+      "description": "This tool converts numeric values into their written form. The output automatically follows your current app language, so no additional configuration is required. Enter one number per line to convert multiple values independently.",
+      "title": "What Is a Number to Words Converter?"
+    }
   }
 }

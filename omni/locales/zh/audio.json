@@ -50,7 +50,21 @@
     "timeSettings": "时间设置",
     "title": "修剪音频",
     "toolInfo": {
-      "title": "什么是 {{title}}？"
+      "title": "什么是 {{title}}？",
+      "longDescription": "This tool allows you to trim audio files by specifying start and end times with sub-second precision. You can extract specific segments from longer audio files, remove unwanted parts, or create shorter clips. Supports various audio formats including MP3, AAC, and WAV. Perfect for podcast editing, music production, or any audio editing needs."
+    }
+  },
+  "loop": {
+    "description": "把音频重复多次，生成循环播放的音频文件。",
+    "inputTitle": "输入音频",
+    "resultTitle": "循环后的音频",
+    "shortDescription": "生成循环音频",
+    "title": "音频循环",
+    "loops": "循环",
+    "numberOfLoops": "循环次数",
+    "toolInfo": {
+      "description": "This tool allows you to create a looping audio file by repeating the original audio multiple times. You can specify how many times the audio should loop.",
+      "title": "What is {{title}}?"
     }
   }
 }

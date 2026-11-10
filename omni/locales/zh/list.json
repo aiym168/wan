@@ -223,5 +223,36 @@
       "title": "列表包装"
     },
     "wrapOptions": "包装选项"
+  },
+  "chunk": {
+    "description": "把列表按固定数量分组，可补齐不足的组并自定义分隔符。",
+    "inputTitle": "输入列表",
+    "resultTitle": "分组结果",
+    "shortDescription": "列表按固定数量分组",
+    "title": "列表分组",
+    "deleteEmptyItems": "Delete Empty Items",
+    "deleteEmptyItemsDescription": "Ignore empty items and exclude them from the result.",
+    "emptyItemsAndPadding": "Empty Items and Padding",
+    "groupNumberDescription": "Number of items per group",
+    "groupSeparatorDescription": "Separator placed between groups",
+    "groupSizeAndSeparators": "Group Size and Output Format",
+    "inputItemSeparator": "Input Item Separator",
+    "itemSeparatorDescription": "Separator placed between items inside a group",
+    "leftWrapDescription": "Symbol added before each group",
+    "padNonFullGroups": "Pad Incomplete Groups",
+    "padNonFullGroupsDescription": "Fill the last group if it has fewer items than required.",
+    "paddingCharDescription": "Character or value used to pad incomplete groups.",
+    "rightWrapDescription": "Symbol added after each group",
+    "splitOperators": {
+      "regex": {
+        "description": "Split input items using a regular expression.",
+        "title": "Use Regex Splitting"
+      },
+      "symbol": {
+        "description": "Split input items using a single character.",
+        "title": "Use Symbol Splitting"
+      }
+    },
+    "splitSeparatorDescription": "Delimiter symbol or regular expression used to split input items."
   }
 }

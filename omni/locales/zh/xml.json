@@ -13,7 +13,12 @@
     "useSpaces": "使用空格",
     "useSpacesDescription": "使用空格缩进输出",
     "useTabs": "使用标签",
-    "useTabsDescription": "使用制表符缩进输出。"
+    "useTabsDescription": "使用制表符缩进输出。",
+    "options": {
+      "title": "Options",
+      "preserveAttributesTitle": "Preserve Attributes",
+      "preserveAttributesDesc": "Preserve the original XML attribute formatting and order."
+    }
   },
   "xmlValidator": {
     "description": "验证 XML 语法和结构。",

@@ -22,5 +22,36 @@
     "resultTitle": "WEBP 图像",
     "shortDescription": "使用质量控制将图像转换为 WebP 格式。",
     "title": "将图像转换为 WebP"
+  },
+  "convertToJPG": {
+    "description": "把各种格式的图片转换成 JPG，可调质量和透明背景颜色。",
+    "inputTitle": "输入图片",
+    "resultTitle": "JPG 图片",
+    "shortDescription": "图片转 JPG，可调质量",
+    "title": "图片转 JPG",
+    "failedToConvert": "图片转 JPG 失败，请重试。",
+    "options": {
+      "colorDescription": "背景颜色（用于透明图片）",
+      "quality": "转换质量：",
+      "qualityDescription": "数值越高质量越好，文件也越大",
+      "title": "转换设置"
+    }
+  },
+  "videoToGif": {
+    "description": "把视频转换成 GIF 动图，可截取指定时间段。",
+    "inputTitle": "输入视频",
+    "resultTitle": "输出 GIF",
+    "shortDescription": "视频转 GIF 动图",
+    "title": "视频转 GIF",
+    "options": {
+      "endTime": "结束时间",
+      "high": "高",
+      "low": "低",
+      "mid": "中",
+      "quality": "质量",
+      "startTime": "开始时间",
+      "timestamps": "时间段",
+      "ultra": "超高"
+    }
   }
 }
