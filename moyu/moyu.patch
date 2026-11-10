@@ -1,0 +1,31 @@
+diff --git a/internal/glance/glance.go b/internal/glance/glance.go
+index 054387f..fa6351b 100644
+--- a/internal/glance/glance.go
++++ b/internal/glance/glance.go
+@@ -497,9 +497,25 @@ func (a *application) server() (func() error, func() error) {
+ 		mux.Handle("/assets/{path...}", http.StripPrefix("/assets/", assetsFS))
+ 	}
+ 
++	var handler http.Handler = mux
++	if bp := strings.TrimRight(a.Config.Server.BaseURL, "/"); strings.HasPrefix(bp, "/") && bp != "" {
++		inner := http.StripPrefix(bp, mux)
++		handler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
++			if r.URL.Path == bp {
++				http.Redirect(w, r, bp+"/", http.StatusFound)
++				return
++			}
++			if strings.HasPrefix(r.URL.Path, bp+"/") {
++				inner.ServeHTTP(w, r)
++				return
++			}
++			mux.ServeHTTP(w, r)
++		})
++	}
++
+ 	server := http.Server{
+ 		Addr:              fmt.Sprintf("%s:%d", a.Config.Server.Host, a.Config.Server.Port),
+-		Handler:           mux,
++		Handler:           handler,
+ 		ReadHeaderTimeout: 5 * time.Second,
+ 		ReadTimeout:       10 * time.Second,
+ 	}
