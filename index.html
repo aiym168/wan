@@ -75,6 +75,23 @@ h1.big .hl{color:var(--acc);position:relative}
 .sres a.on,.sres a:hover{background:var(--card2)}
 .sres a b{font-weight:700}.sres a span{color:var(--tx3);font-size:13px;margin-left:auto;text-align:right}
 .sres .none{padding:12px;color:var(--tx2);font-size:14px}
+.mtabs{display:inline-flex;gap:4px;margin-top:30px;padding:4px;border:1px solid var(--line2);border-radius:12px;background:var(--bg2)}
+.mtabs button{height:36px;padding:0 18px;border-radius:9px;font-size:14.5px;font-weight:800;color:var(--tx2)}
+.mtabs button.on{background:var(--acc);color:#000}
+.dlbox,.mtabs+.dlbox+.search{margin-top:12px;max-width:640px}
+.mtabs~.search{margin-top:12px}
+.sbox.big{height:70px;border-color:var(--acc);box-shadow:0 0 0 4px rgba(200,255,46,.08),0 0 50px rgba(200,255,46,.08)}
+.sbox.big>svg{width:22px;height:22px;flex:none;color:var(--acc)}
+.sbox.big input{font-size:17px}
+.sbox.big button{height:52px;padding:0 24px;font-size:16px}
+.sbox button.ghost{background:transparent;color:var(--tx2);border:1px solid var(--line2);margin-right:8px;padding:0 14px}
+.sbox button.ghost:hover{background:var(--card2);color:var(--tx)}
+.dlhint{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px;font-size:13px}
+.dlhint .pf{padding:3px 10px;border-radius:7px;border:1px solid var(--line2);color:var(--tx2);transition:all .2s}
+.dlhint .pf.on{background:var(--acc);border-color:var(--acc);color:#000;font-weight:800}
+.dlhint em{font-style:normal;color:var(--tx3)}
+.dlhint em.ok{color:var(--acc)}.dlhint em.bad{color:#ffb020}
+.hot0 a.dlq{color:var(--acc);border-color:rgba(200,255,46,.5);font-weight:700}
 .hot0{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:16px;font-size:13.5px;color:var(--tx3)}
 .hot0 a{color:var(--tx2);border-bottom:1px dashed var(--line2)}
 .hot0 a:hover{color:var(--acc);border-color:var(--acc)}
@@ -208,13 +225,13 @@ body .seo-x p{color:var(--tx2)!important}body .seo-x a{color:var(--tx2)!importan
  .wrap{padding:0 18px}
  .top .wrap{height:56px;gap:12px}.kbd span{display:none}
  .hero{min-height:auto;align-items:flex-start}
- .hero .wrap{padding-top:calc(44vh + 30px);padding-bottom:40px}
- .hero .shade{background:linear-gradient(180deg,rgba(10,11,12,0) 0%,rgba(10,11,12,.2) 30%,var(--bg) 46%)}
+ .hero .wrap{padding-top:calc(17vh + 52px);padding-bottom:36px}.chips0{display:none}h1.big{font-size:min(8.2vw,40px)}.sub{font-size:14.5px;margin-top:12px}
+ .hero .shade{background:linear-gradient(180deg,rgba(10,11,12,0) 0%,rgba(10,11,12,.25) 20%,var(--bg) 30%)}
  .hero .fb{-webkit-mask:radial-gradient(90% 40% at 50% 22%,#000,transparent);mask:radial-gradient(90% 40% at 50% 22%,#000,transparent)}
  .chips0{margin-bottom:18px}
  h1.big{font-size:min(9.4vw,46px)}
  .sub{font-size:15.5px;margin-top:16px}
- .sbox{height:56px;padding-left:16px}.sbox button{height:42px;padding:0 16px}
+ .sbox{height:56px;padding-left:16px}.sbox button{height:42px;padding:0 16px}.sbox.big{height:62px;padding-left:14px}.sbox.big button{height:46px;padding:0 14px;font-size:15px}.sbox.big>svg{display:none}.sbox.big input{font-size:15.5px;padding:0 8px}.sbox button.ghost{display:none}.mtabs{margin-top:22px}
  .stats{grid-template-columns:1fr 1fr}.stat{padding:20px 16px}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
  .sec{padding-top:60px}.sh{flex-direction:column;align-items:flex-start}.sh p{text-align:left}
  .cats{grid-template-columns:1fr 1fr;gap:10px}.cat{padding:16px;min-height:0}.cat.big{grid-column:span 2}.cat .ic{width:38px;height:38px;margin-bottom:12px}.cat h3{font-size:18px}.cat p{display:none}.cat .ls a:nth-child(n+4){display:none}.cat .arr{display:none}
@@ -242,10 +259,16 @@ body .seo-x{background:var(--bg)!important;color:var(--tx2)!important;border-top
   <div class="shade"></div>
   <div class="wrap">
     <div class="hcopy">
-      <div class="chips0"><span>全部免费</span><span>不用登录</span><span>不加水印</span><span>文件不上传</span></div>
+      <div class="chips0"><span>全部免费</span><span>无水印</span><span>不用登录</span><span>不限次数</span></div>
       <h1 class="big"><span class="l"><span>别处要付费的工具，</span></span><span class="l"><span>这里<span class="hl">全部免费</span>。</span></span></h1>
-      <p class="sub">图片压缩、证件照换底色、PDF 合并拆分、二维码、房贷个税计算……<b>不限次数、不用开会员</b>，文件只在你自己的浏览器里处理。</p>
-      <div class="search" id="search">
+      <p class="sub"><b>抖音、X、B 站、微博视频无水印下载</b>，还有图片压缩、证件照、PDF 合并、房贷个税计算……不限次数、不用开会员。</p>
+      <div class="mtabs" role="tablist"><button class="on" data-m="dl" role="tab" aria-selected="true">视频下载</button><button data-m="q" role="tab" aria-selected="false">搜工具</button></div>
+      <div class="dlbox" id="dlbox">
+        <div class="sbox big"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+          <input id="dl" type="text" inputmode="url" autocomplete="off" placeholder="粘贴抖音 / X / B站 / 微博 链接或分享文字" aria-label="粘贴视频分享链接"><button id="dlpaste" class="ghost" type="button">粘贴</button><button id="dlgo" type="button">解析下载</button></div>
+        <div class="dlhint" id="dlhint"><span class="pf" data-p="douyin">抖音</span><span class="pf" data-p="x">X / 推特</span><span class="pf" data-p="bili">B 站</span><span class="pf" data-p="weibo">微博</span><span class="pf" data-p="other">更多网站</span><em id="dlst">自动识别平台，去水印、高清</em></div>
+      </div>
+      <div class="search" id="search" hidden>
         <div class="sbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
           <input id="q" type="search" autocomplete="off" placeholder="搜工具：图片压缩、PDF 合并、证件照…" aria-label="搜索工具"><button id="qgo">搜索</button></div>
         <div class="sres" id="sres" role="listbox"></div>
@@ -256,15 +279,15 @@ body .seo-x{background:var(--bg)!important;color:var(--tx2)!important;border-top
 </section>
 
 <div class="wrap"><div class="stats" id="stats">
+  <a class="stat rv" href="https://wan.is-my.app/douyin-download/"><b>无水印</b><span>抖音 / X / B站 / 微博 视频免费下载</span></a>
   <div class="stat rv"><b data-n="0" id="nTools">0</b><span>个免费在线工具</span></div>
-  <div class="stat rv"><b><em>¥</em>0</b><span>不收费、不开会员</span></div>
-  <div class="stat rv"><b>0<em>次</em></b><span>不用注册登录</span></div>
-  <div class="stat rv"><b>100<em>%</em></b><span>图片和文件在本地处理</span></div>
+  <div class="stat rv"><b><em>¥</em>0</b><span>不收费、不开会员、不用登录</span></div>
+  <div class="stat rv"><b>本地</b><span>图片和文档在你的浏览器里处理，不上传</span></div>
 </div></div>
 
 <main>
 <section class="sec wrap" id="cats">
-  <div class="sh rv"><div><div class="k">01 / CATEGORIES</div><h2>按用途找工具</h2></div><p>办公、图片、视频、生活、文本、开发、娱乐，七大类，点进去就能用。</p></div>
+  <div class="sh rv"><div><div class="k">01 / CATEGORIES</div><h2>按用途找工具</h2></div><p>视频下载、音视频、办公、图片、生活、文本、开发、娱乐，八大类，点进去就能用。</p></div>
   <div class="cats" id="catGrid"></div>
 </section>
 
@@ -335,24 +358,25 @@ function toast(t){var e=$('#toast');e.textContent=t;e.classList.add('on');clearT
 var tb=$('#top');function sc(){tb.classList.toggle('solid',scrollY>30)}addEventListener('scroll',sc,{passive:true});sc();
 
 /* ---------- tools: read the shared list, map to the seven groups */
-var ICON={office:'<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/>',image:'<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/>',video:'<rect x="3" y="5" width="14" height="14" rx="2"/><path d="m17 10 4-2v8l-4-2M10 9v6M7 12l3 3 3-3"/>',life:'<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12 12h2M16 12h0M8 16h2M12 16h2"/>',text:'<path d="M4 6V4h16v2M12 4v16M8 20h8"/>',dev:'<path d="m8 8-4 4 4 4M16 8l4 4-4 4M13 6l-2 12"/>',fun:'<circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h0M15 9h0"/>'};
+var ICON={office:'<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/>',image:'<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/>',media:'<path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>',video:'<rect x="3" y="5" width="14" height="14" rx="2"/><path d="m17 10 4-2v8l-4-2M10 9v6M7 12l3 3 3-3"/>',life:'<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12 12h2M16 12h0M8 16h2M12 16h2"/>',text:'<path d="M4 6V4h16v2M12 4v16M8 20h8"/>',dev:'<path d="m8 8-4 4 4 4M16 8l4 4-4 4M13 6l-2 12"/>',fun:'<circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h0M15 9h0"/>'};
 var GROUPS=[
+ {k:'video',n:'视频下载',d:'抖音、X、B 站、微博视频无水印下载，粘贴链接就能解析',from:['video']},
+ {k:'media',n:'音视频处理',d:'视频转文字、生成字幕、提取音频、封面提取',from:['media','audio']},
  {k:'office',n:'办公文档',d:'PDF 合并、拆分、转图片，图片转 PDF，二维码',from:['pdf','qr','office']},
  {k:'image',n:'图片处理',d:'压缩、格式转换、改尺寸、裁剪、证件照换底色',from:['image']},
- {k:'video',n:'视频解析下载',d:'抖音、快手、B 站、X 视频去水印解析',from:['video'],soon:'建设中'},
- {k:'life',n:'生活计算',d:'房贷、个税、BMI、日期、单位换算、番茄钟',from:['calc','life']},
+  {k:'life',n:'生活计算',d:'房贷、个税、BMI、日期、单位换算、番茄钟',from:['calc','life']},
  {k:'text',n:'文本工具',d:'字数统计、繁简转换、拼音、去重、金额大写',from:['text']},
  {k:'dev',n:'开发站长',d:'JSON、Base64、正则、时间戳、URL 编码',from:['dev','seo','web']},
  {k:'fun',n:'娱乐',d:'今日热榜、你画我猜、打字背单词、摸鱼首页',from:['fun']}];
 var FUN=[{slug:'',url:'https://hot.is-my.app/',name:'今日热榜',short:'50 个热搜榜一页看完',g:'fun'},{url:'https://wan.is-my.app/huahua/',name:'你画我猜',short:'多人联机画画猜词',g:'fun'},{url:'https://wan.is-my.app/dazi/',name:'打字背单词',short:'四六级考研雅思词库',g:'fun'},{url:'https://wan.is-my.app/moyu/',name:'摸鱼首页',short:'时钟天气热搜一屏看完',g:'fun'},{url:'https://wan.is-my.app/tools/',name:'开发者工具箱',short:'100+ 程序员小工具',g:'dev',kw:'md5 sha uuid cron jwt 哈希 颜色'}];
-var POP=['image-compress','id-photo','pdf-merge','pdf-to-image','image-convert','qrcode','geshui','fangdai'];
-var HOTQ=['图片压缩','证件照','PDF 合并','二维码','个税','繁简转换'];
-var TOOLS=[],G2={};
+var POP=['douyin-download','x-video-download','bilibili-download','video-download','image-compress','id-photo','pdf-merge','video-to-text'];
+var HOTQ=[['抖音无水印下载','/douyin-download/'],['X视频下载','/x-video-download/'],['B站视频下载','/bilibili-download/'],['微博视频下载','/video-download/'],'图片压缩','证件照','PDF 合并','二维码','个税'];
+var TOOLS=[],G2={},NJSON=0,ABS=location.hostname==='wan.is-my.app'?'':'https://wan.is-my.app';
 GROUPS.forEach(function(g){g.from.forEach(function(c){G2[c]=g.k})});
 function norm(t){var g=t.group||G2[t.cat]||'dev';return{url:t.url||('/'+t.slug+'/'),name:t.name,short:t.short||t.desc||'',g:g,kw:[t.title,Array.isArray(t.keywords)?t.keywords.join(' '):(t.keywords||''),t.kw||'',t.cat||''].join(' '),slug:t.slug,isNew:!!t.new}}
 function render(){
  var by={};TOOLS.forEach(function(t){(by[t.g]=by[t.g]||[]).push(t)});
- $('#nTools').dataset.n=TOOLS.filter(function(t){return t.g!=='fun'}).length+100;count($('#nTools'),'+');
+ $('#nTools').dataset.n=NJSON;count($('#nTools'),'');
  $('#catGrid').innerHTML=GROUPS.map(function(g,i){var ls=by[g.k]||[];var first=ls[0]?ls[0].url:'#all';
   return '<div class="cat rv'+(i===0?' big':'')+'"><a href="'+(g.soon&&!ls.length?'#all':'#all')+'" data-g="'+g.k+'" class="catlink" aria-label="'+g.n+'" style="position:absolute;inset:0"></a><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICON[g.k]+'</svg></div>'+
   (g.soon&&!ls.length?'<span class="soon">'+g.soon+'</span>':'')+'<h3>'+g.n+' <small>'+(ls.length?ls.length+' 个':'即将上线')+'</small></h3><p>'+g.d+'</p><div class="ls" style="position:relative">'+
@@ -361,8 +385,8 @@ function render(){
  var pm={};TOOLS.forEach(function(t){if(t.slug)pm[t.slug]=t});
  var pops=POP.map(function(s){return pm[s]}).filter(Boolean);if(pops.length<4)pops=pops.concat(TOOLS.filter(function(t){return pops.indexOf(t)<0&&t.g!=='fun'}).slice(0,8-pops.length));
  $('#pop').innerHTML=pops.slice(0,8).map(function(t,i){return '<a class="pt rv" href="'+esc(t.url)+'"><span class="n">'+(i<9?'0':'')+(i+1)+'</span><b>'+esc(t.name)+'</b><span>'+esc(t.short)+'</span></a>'}).join('');
- $('#hot0').innerHTML='<span>大家在用：</span>'+HOTQ.map(function(q){return '<a href="#" data-q="'+q+'">'+q+'</a>'}).join('');
- $('#hot0').querySelectorAll('a').forEach(function(a){a.onclick=function(e){e.preventDefault();$('#q').value=a.dataset.q;find();$('#q').focus()}});
+ $('#hot0').innerHTML='<span>大家在用：</span>'+HOTQ.map(function(q){return Array.isArray(q)?'<a class="dlq" href="'+ABS+q[1]+'">'+q[0]+'</a>':'<a href="#" data-q="'+q+'">'+q+'</a>'}).join('');
+ $('#hot0').querySelectorAll('a[data-q]').forEach(function(a){a.onclick=function(e){e.preventDefault();mode('q');$('#q').value=a.dataset.q;find();$('#q').focus()}});
  $('#filters').innerHTML='<button class="on" data-g="">全部<i>'+TOOLS.length+'</i></button>'+GROUPS.map(function(g){var n=(by[g.k]||[]).length;return n?'<button data-g="'+g.k+'">'+g.n+'<i>'+n+'</i></button>':''}).join('');
  $('#filters').querySelectorAll('button').forEach(function(b){b.onclick=function(){setF(b.dataset.g)}});
  setF('');observe();
@@ -387,10 +411,28 @@ $('#q').addEventListener('keydown',function(e){var a=sres.querySelectorAll('a');
  else if(e.key==='Enter'){e.preventDefault();if(hits[sel])location.href=hits[sel].url;else find()}else if(e.key==='Escape'){sres.classList.remove('on');this.blur()}});
 $('#qgo').onclick=function(){if(hits[sel]&&$('#q').value.trim())location.href=hits[sel].url;else{find();$('#q').focus()}};
 document.addEventListener('click',function(e){if(!$('#search').contains(e.target))sres.classList.remove('on')});
-function focusQ(){window.scrollTo({top:0,behavior:RM?'auto':'smooth'});setTimeout(function(){$('#q').focus()},RM?0:350)}
+function focusQ(){mode('q');window.scrollTo({top:0,behavior:RM?'auto':'smooth'});setTimeout(function(){$('#q').focus()},RM?0:350)}
+/* video download box: detect platform from pasted share text, hand the link to the right parser page */
+function mode(m){document.querySelectorAll('.mtabs button').forEach(function(b){var on=b.dataset.m===m;b.classList.toggle('on',on);b.setAttribute('aria-selected',on)});
+ $('#dlbox').hidden=m!=='dl';$('#search').hidden=m!=='q';$('#hot0').classList.toggle('qmode',m==='q')}
+document.querySelectorAll('.mtabs button').forEach(function(b){b.onclick=function(){mode(b.dataset.m);(b.dataset.m==='q'?$('#q'):$('#dl')).focus()}});
+var DLP={douyin:['抖音','/douyin-download/'],x:['X / 推特','/x-video-download/'],bili:['B 站','/bilibili-download/'],weibo:['微博','/video-download/'],other:['其他网站','/video-download/']};
+function dlParse(t){t=(t||'').trim();if(!t)return null;var m=t.match(/https?:\/\/[^\s\u3000-\u303f\uff00-\uffef"'<>]+/i),u=m?m[0].replace(/[),.;!?]+$/,''):'';
+ if(!u){var bv=t.match(/\bBV[0-9A-Za-z]{10}\b/);if(bv)u='https://www.bilibili.com/video/'+bv[0];else if(/^[\w.-]+\.[a-z]{2,}\//i.test(t))u='https://'+t.split(/\s/)[0]}
+ if(!u)return {p:null,u:''};var h='';try{h=new URL(u).hostname.toLowerCase()}catch(e){return {p:null,u:''}}
+ var p=/(^|\.)(douyin\.com|iesdouyin\.com|douyinvod\.com)$/.test(h)?'douyin':/(^|\.)(x\.com|twitter\.com|t\.co|fxtwitter\.com|vxtwitter\.com)$/.test(h)?'x':/(^|\.)(bilibili\.com|b23\.tv|bili2233\.cn)$/.test(h)?'bili':/(^|\.)(weibo\.com|weibo\.cn)$/.test(h)?'weibo':'other';
+ return {p:p,u:u}}
+function dlShow(){var r=dlParse($('#dl').value),st=$('#dlst');document.querySelectorAll('#dlhint .pf').forEach(function(x){x.classList.toggle('on',!!(r&&r.p===x.dataset.p))});
+ if(!r){st.className='';st.textContent='自动识别平台，去水印、高清';return r}
+ if(!r.p){st.className='bad';st.textContent='没找到链接，请粘贴完整的分享文字或链接';return r}
+ st.className='ok';st.textContent='识别为：'+DLP[r.p][0]+'，点「解析下载」';return r}
+function dlGo(){var r=dlShow();if(!r||!r.p){$('#dl').focus();return}location.href=ABS+DLP[r.p][1]+'?url='+encodeURIComponent(r.u)}
+$('#dl').addEventListener('input',dlShow);$('#dl').addEventListener('paste',function(){setTimeout(function(){var r=dlShow();if(r&&r.p)$('#dlgo').focus()},0)});
+$('#dl').addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();dlGo()}});$('#dlgo').onclick=dlGo;
+$('#dlpaste').onclick=function(){if(navigator.clipboard&&navigator.clipboard.readText)navigator.clipboard.readText().then(function(t){$('#dl').value=t;if((dlShow()||{}).p)dlGo()}).catch(function(){$('#dl').focus()});else $('#dl').focus()};
 $('#kbd').onclick=focusQ;document.addEventListener('keydown',function(e){if(e.key==='/'&&document.activeElement.tagName!=='INPUT'){e.preventDefault();focusQ()}});
 function loadTools(){fetch('/assets/tools.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){var a=Array.isArray(d)?d:(d.tools||[]);return a}).catch(function(){return fetch('https://wan.is-my.app/assets/tools.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){return Array.isArray(d)?d:(d.tools||[])}).catch(function(){return[]})})
- .then(function(a){var abs=location.hostname==='wan.is-my.app'?'':'https://wan.is-my.app';TOOLS=a.filter(function(t){return t&&t.name&&(t.slug||t.url)}).map(norm).map(function(t){if(t.url.charAt(0)==='/')t.url=abs+t.url;return t}).concat(FUN.map(function(f){return{url:f.url,name:f.name,short:f.short,g:f.g,kw:f.kw||'',slug:''}}));render()})}
+ .then(function(a){var abs=location.hostname==='wan.is-my.app'?'':'https://wan.is-my.app';var A=a.filter(function(t){return t&&t.name&&(t.slug||t.url)});NJSON=A.length;TOOLS=A.map(norm).map(function(t){if(t.url.charAt(0)==='/')t.url=abs+t.url;return t}).concat(FUN.map(function(f){return{url:f.url,name:f.name,short:f.short,g:f.g,kw:f.kw||'',slug:''}}));render()})}
 loadTools();
 
 /* ---------- reveal + counters */
@@ -449,7 +491,7 @@ if(!RM){try{gl=cv.getContext('webgl',{antialias:true,alpha:true,premultipliedAlp
 function staticHero(){var c=cv.getContext&&cv.getContext('2d');if(!c)return;var w=cv.clientWidth,h=cv.clientHeight,d=Math.min(devicePixelRatio||1,2);cv.width=w*d;cv.height=h*d;c.scale(d,d);
  var pos=layout(w,h);c.fillStyle='#c8ff2e';c.font='900 '+pos.fs+'px '+getComputedStyle(document.body).fontFamily;c.textAlign='center';c.textBaseline='middle';
  if(pos.two){c.fillText('免费',pos.cx,pos.cy-pos.fs*.55);c.fillText('工具',pos.cx,pos.cy+pos.fs*.55)}else c.fillText('免费工具',pos.cx,pos.cy)}
-function layout(w,h){var m=w<640;if(m)return{cx:w/2,cy:h*.2,fs:Math.min(w*.3,140),two:true,m:true};return{cx:w*.72,cy:h*.5,fs:Math.min(w*.13,200),two:true,m:false}}
+function layout(w,h){var m=w<640;if(m)return{cx:w/2,cy:h*.14,fs:Math.min(w*.19,92),two:false,m:true};return{cx:w*.72,cy:h*.5,fs:Math.min(w*.13,200),two:true,m:false}}
 if(!gl){if(RM)setTimeout(staticHero,60);return}
 var W=0,H=0,DPR=Math.min(window.devicePixelRatio||1,MOBILE?1.6:2);
 /* sample text into target points (in pixels) */
