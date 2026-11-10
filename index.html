@@ -425,7 +425,7 @@ function race(){return new Promise(function(res,rej){var seen={},left=0,lists=2,
  probe('https://aiym.dpdns.org');
  list(SAME?'https://wan.is-my.app/live.json':new URL('live.json',location.href).href);list('https://aiym168.github.io/api/live.json');
 })}
-var BAD=/(肛门|毒品|冰毒|吸毒|色情|裸|性侵|强奸|嫖|卖淫|约炮|成人|情色|黄片|AV女|艳照|自杀|跳楼|杀人|尸|血腥|赌博|博彩|习近平|总书记|政治局|中央|国务院|人大|政协|外交部|台独|台湾|香港|新疆|西藏|藏独|法轮|六四|游行|抗议|示威|军方|战争|导弹|核武|以色列|巴勒斯坦|乌克兰|俄罗斯|特朗普|拜登|选举|总统|政府|官员|落马|纪委|反腐|宗教|恐袭|爆炸|porn|sex|nude)/i;function cleanHot(o){var r={};for(var k in o){r[k]=(o[k]||[]).filter(function(x){return x&&x.t&&!BAD.test(x.t)})}return r}
+var BAD=/(肛门|毒品|冰毒|吸毒|色情|裸|性侵|强奸|嫖|卖淫|约炮|成人|情色|黄片|AV女|艳照|自杀|跳楼|杀人|尸|血腥|赌博|博彩|习近平|总书记|政治局|中央|国务院|人大|政协|外交部|台独|台湾|香港|新疆|西藏|藏独|法轮|六四|游行|抗议|示威|军方|战争|导弹|核武|以色列|巴勒斯坦|乌克兰|俄罗斯|特朗普|拜登|选举|总统|政府|官员|落马|纪委|反腐|宗教|恐袭|爆炸|我军|外机|军机|战斗|战备|演习|海警|边境|国防|进博会|APEC|峰会|会见|会谈|讲话|致辞|开放纵深|联合国|外长|大使|领导|主权|统一|美军|日本首相|首相|间谍|外遇|出轨|离婚|嫖|婚外|失踪|遇害|身亡|坠楼|猥|porn|sex|nude)/i;function cleanHot(o){var r={};for(var k in o){r[k]=(o[k]||[]).filter(function(x){return x&&x.t&&!BAD.test(x.t)})}return r}
 function renderHot(d){HOT=cleanHot(d.hot||{});var on=(d.draw&&d.draw.players)||0,rooms=(d.draw&&d.draw.lobbies)||[];
  $('#live').textContent='实时';
  $('#drawStat').innerHTML='<span class="dot on"></span>'+(rooms.length?rooms.length+' 个房间在玩 · '+on+' 人在画':'现在没人开房，你来当第一个房主');
