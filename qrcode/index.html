@@ -8,12 +8,12 @@
 <meta name="keywords" content="免费二维码生成器,二维码生成,在线制作二维码,网址二维码,wifi二维码,二维码制作">
 <link rel="canonical" href="https://wan.is-my.app/qrcode/">
 <meta property="og:type" content="website"><meta property="og:site_name" content="工具站大全"><meta property="og:title" content="免费二维码生成器 - 在线制作网址文字二维码 - 工具站大全"><meta property="og:description" content="免费二维码生成器：网址、文字、名片、WiFi 密码在线生成二维码，可调大小、颜色和容错率，下载高清 PNG，永久有效、无水印、免登录。"><meta property="og:url" content="https://wan.is-my.app/qrcode/"><meta property="og:locale" content="zh_CN">
-<meta name="theme-color" content="#f5f1e8">
+<meta name="theme-color" content="#0a0b0c">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/t.css">
+<link rel="stylesheet" href="/design/tokens-v4.css"><link rel="stylesheet" href="/assets/t.css">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "免费二维码生成器", "url": "https://wan.is-my.app/qrcode/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web 浏览器（Windows、macOS、Android、iOS）", "inLanguage": "zh-CN", "isAccessibleForFree": true, "description": "免费二维码生成器：网址、文字、名片、WiFi 密码在线生成二维码，可调大小、颜色和容错率，下载高清 PNG，永久有效、无水印、免登录。", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "这个工具免费吗？", "acceptedAnswer": {"@type": "Answer", "text": "完全免费。二维码生成器不收费、不限次数、不用注册登录，也没有水印。"}}, {"@type": "Question", "name": "生成的二维码会过期吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会。内容直接编码在图案里，不依赖任何服务器，永久有效。"}}, {"@type": "Question", "name": "WiFi 二维码怎么用？", "acceptedAnswer": {"@type": "Answer", "text": "填好 WiFi 名称和密码生成后，朋友用手机相机扫一扫就能直接连上网络。"}}, {"@type": "Question", "name": "容错率选哪个？", "acceptedAnswer": {"@type": "Answer", "text": "打印后要贴在容易磨损的地方选「高」；内容很长时选「低」，图案会更简单。"}}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "工具站大全", "item": "https://wan.is-my.app/gongju/"}, {"@type": "ListItem", "position": 2, "name": "二维码生成器", "item": "https://wan.is-my.app/qrcode/"}]}]</script>
 </head><body>
-<header class="top"><div class="wrap"><a class="logo" href="/gongju/">工具站<b>大全</b></a><nav class="nav"><a href="/gongju/">全部工具</a><a href="/gongju/#video">视频下载</a><a href="/gongju/#image">图片工具</a><a href="/gongju/#pdf">PDF 工具</a><a href="/gongju/#text">文字工具</a><a href="/gongju/#qr" class=on>二维码</a><a href="/gongju/#calc">计算器</a><a href="/gongju/#life">效率小工具</a><a href="/gongju/#dev">开发工具</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="logo" href="/gongju/"><i><svg viewBox="0 0 24 24" fill="none" stroke="#0a0b0c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></i><b>工具站大全</b></a><nav class="nav"><a href="/gongju/">全部工具</a><a href="/gongju/#video">视频下载</a><a href="/gongju/#media">自媒体工具</a><a href="/gongju/#image">图片工具</a><a href="/gongju/#pdf">PDF 工具</a><a href="/gongju/#text">文字工具</a><a href="/gongju/#qr" class=on>二维码</a><a href="/gongju/#calc">计算器</a><a href="/gongju/#life">效率小工具</a><a href="/gongju/#dev">开发工具</a></nav></div></header>
 <main class="wrap">
 <p class="crumb"><a href="/gongju/">工具站大全</a> › <a href="/gongju/#qr">二维码</a> › 二维码生成器</p>
 <h1>免费二维码生成器</h1>
@@ -22,7 +22,7 @@
 <section class="box" id="app"><div class="row"><div><label>类型</label><select id="ty"><option value="text">网址 / 文字</option><option value="wifi">WiFi 连接</option></select></div><div><label>容错率</label><select id="ec"><option value="L">低 7%</option><option value="M" selected>中 15%</option><option value="Q">较高 25%</option><option value="H">高 30%</option></select></div><div><label>大小（像素）</label><input type="number" id="sz" value="400" min="100" max="2000"></div><div><label>前景色</label><input type="color" id="fg" value="#141414" style="width:100%;height:40px"></div></div>
 <div id="tx"><label>内容</label><textarea id="i" style="min-height:90px">https://wan.is-my.app/</textarea></div>
 <div id="wf" hidden class="row"><div><label>WiFi 名称</label><input type="text" id="ss"></div><div><label>密码</label><input type="text" id="pw"></div><div><label>加密</label><select id="en"><option>WPA</option><option>WEP</option><option value="nopass">无密码</option></select></div></div>
-<div class="out" style="text-align:center"><canvas id="c" style="background:#fff;border:1px solid #141414;max-width:320px"></canvas><br><button class="btn" id="dl">下载 PNG</button></div>
+<div class="out" style="text-align:center"><canvas id="c" style="background:#fff;border:1px solid var(--line2);border-radius:10px;max-width:320px"></canvas><br><button class="btn" id="dl">下载 PNG</button></div>
 <noscript><p class="err">这个免费工具需要开启浏览器的 JavaScript 才能使用。</p></noscript></section>
 <div class="ad" data-ad="content" aria-hidden="true"></div>
 <h2>怎么用二维码生成器</h2>
@@ -30,7 +30,7 @@
 <h2>二维码生成器常见问题</h2>
 <dl class="faq"><dt>这个工具免费吗？</dt><dd>完全免费。二维码生成器不收费、不限次数、不用注册登录，也没有水印。</dd><dt>生成的二维码会过期吗？</dt><dd>不会。内容直接编码在图案里，不依赖任何服务器，永久有效。</dd><dt>WiFi 二维码怎么用？</dt><dd>填好 WiFi 名称和密码生成后，朋友用手机相机扫一扫就能直接连上网络。</dd><dt>容错率选哪个？</dt><dd>打印后要贴在容易磨损的地方选「高」；内容很长时选「低」，图案会更简单。</dd></dl>
 <h2>更多免费在线工具</h2>
-<div class="rel"><a href="/qr-decode/">二维码识别<small>上传图片解析二维码内容</small></a><a href="/pomodoro/">番茄钟计时器<small>番茄工作法、倒计时、秒表</small></a><a href="/douyin-download/">抖音无水印下载<small>抖音视频、图集无水印解析</small></a><a href="/image-crop/">图片裁剪<small>按 1:1、4:3、一寸照比例裁剪</small></a><a href="/fanjian/">繁简转换<small>简体繁体互转，含台湾香港用词</small></a><a href="/bmi/">BMI 计算器<small>身体质量指数、标准体重</small></a><a href="/base64/">Base64 编码解码<small>文字、图片 Base64 互转</small></a><a href="/gongju/">全部免费工具<small>图片、PDF、文字、计算器、开发工具</small></a></div>
+<div class="rel"><a href="/qr-decode/">二维码识别<small>上传图片解析二维码内容</small></a><a href="/douyin-download/">抖音无水印下载<small>抖音视频、图集无水印解析</small></a><a href="/video-to-srt/">视频生成字幕<small>自动生成 SRT 字幕文件</small></a><a href="/image-crop/">图片裁剪<small>按 1:1、4:3、一寸照比例裁剪</small></a><a href="/fanjian/">繁简转换<small>简体繁体互转，含台湾香港用词</small></a><a href="/bmi/">BMI 计算器<small>身体质量指数、标准体重</small></a><a href="/base64/">Base64 编码解码<small>文字、图片 Base64 互转</small></a><a href="/gongju/">全部免费工具<small>图片、PDF、文字、计算器、开发工具</small></a></div>
 <div class="ad" data-ad="footer" aria-hidden="true"></div>
 </main>
 <footer class="foot"><div class="wrap">

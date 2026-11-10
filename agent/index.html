@@ -3,21 +3,30 @@
 <meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="applicable-device" content="pc,mobile"><meta name="renderer" content="webkit">
 <title>免费工具接口 - AI助手和命令行接入 - 工具站大全</title><meta name="description" content="工具站大全免费开放 llms.txt、工具清单 JSON、OpenAPI 接口和 gjz 命令行，让你的 AI 助手和脚本直接调用视频解析下载等免费工具。"><meta name="keywords" content="llms.txt,openapi,免费api,视频解析api,命令行工具,ai助手接入"><link rel="canonical" href="https://wan.is-my.app/agent/">
 <meta property="og:type" content="website"><meta property="og:site_name" content="工具站大全"><meta property="og:title" content="免费工具接口 - AI助手和命令行接入 - 工具站大全"><meta property="og:description" content="工具站大全免费开放 llms.txt、工具清单 JSON、OpenAPI 接口和 gjz 命令行，让你的 AI 助手和脚本直接调用视频解析下载等免费工具。"><meta property="og:url" content="https://wan.is-my.app/agent/"><meta property="og:locale" content="zh_CN">
-<meta name="theme-color" content="#f5f1e8"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/t.css">
+<meta name="theme-color" content="#0a0b0c"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/design/tokens-v4.css"><link rel="stylesheet" href="/assets/t.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "工具站大全 AI 助手 / 命令行接入", "url": "https://wan.is-my.app/agent/"}</script></head><body>
-<header class="top"><div class="wrap"><a class="logo" href="/gongju/">工具站<b>大全</b></a><nav class="nav"><a href="/gongju/">全部工具</a><a href="/gongju/#video">视频下载</a><a href="/gongju/#image">图片工具</a><a href="/gongju/#pdf">PDF 工具</a><a href="/gongju/#text">文字工具</a><a href="/gongju/#qr">二维码</a><a href="/gongju/#calc">计算器</a><a href="/gongju/#life">效率小工具</a><a href="/gongju/#dev">开发工具</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="logo" href="/gongju/"><i><svg viewBox="0 0 24 24" fill="none" stroke="#0a0b0c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></i><b>工具站大全</b></a><nav class="nav"><a href="/gongju/">全部工具</a><a href="/gongju/#video">视频下载</a><a href="/gongju/#media">自媒体工具</a><a href="/gongju/#image">图片工具</a><a href="/gongju/#pdf">PDF 工具</a><a href="/gongju/#text">文字工具</a><a href="/gongju/#qr">二维码</a><a href="/gongju/#calc">计算器</a><a href="/gongju/#life">效率小工具</a><a href="/gongju/#dev">开发工具</a></nav></div></header>
 <main class="wrap"><p class="crumb"><a href="/gongju/">工具站大全</a> › AI 助手 / 命令行接入</p><h1>AI 助手 / 命令行接入（免费）</h1>
-<p class="lead">让你自己的 AI 助手、脚本或命令行直接使用工具站大全的 34 个免费工具。全部免费，不用申请密钥；公开接口有频率限制（每个 IP 每分钟 20 次解析）。</p>
+<p class="lead">让你自己的 AI 助手、脚本或命令行直接使用工具站大全的 41 个免费工具。全部免费，不用申请密钥；公开接口有频率限制（每个 IP 每分钟 20 次解析）。</p>
 <h2>给 AI 助手看的说明文件</h2><p>把下面的地址发给你的 AI 助手（ChatGPT、Claude、Kimi、豆包等支持读取网页的都可以），它就知道每个工具是做什么的、怎么调用：</p>
 <pre class="box mono" style="white-space:pre-wrap;padding:12px;margin:8px 0">https://wan.is-my.app/llms.txt
 https://wan.is-my.app/llms-full.txt</pre>
 <h2>机器可读的工具列表和接口</h2><p>工具清单：<a href="/api/tools.json">/api/tools.json</a>；服务器接口（视频解析下载）OpenAPI 描述：<a href="/api/openapi.json">/api/openapi.json</a>，可以直接导入 GPTs 动作、Dify、Coze 等平台。</p><p class="note">服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。</p>
+<h2>MCP 接入（Claude、Cursor、Cherry Studio 等）</h2><p>支持 MCP 的 AI 客户端可以直接添加工具站大全的 MCP 服务（Streamable HTTP，无需密钥）：</p>
+<pre class="box mono" style="white-space:pre-wrap;padding:12px;margin:8px 0">{
+  &quot;mcpServers&quot;: {
+    &quot;gongjuzhan&quot;: { &quot;type&quot;: &quot;http&quot;, &quot;url&quot;: &quot;https://aiym.dpdns.org/dl/mcp&quot; }
+  }
+}</pre>
+<p>提供 6 个工具：<b>search_tools</b>（搜索全站工具）、<b>parse_video</b>（抖音 / X / B站等视频解析）、<b>video_to_text</b>（视频转文字）、<b>video_script</b>（视频拆解脚本）、<b>video_to_mp3</b>、<b>media_job_status</b>。</p>
 <h2>命令行工具 gjz</h2><p>单个 Python 文件，不需要安装任何依赖：</p>
 <pre class="box mono" style="white-space:pre-wrap;padding:12px;margin:8px 0">curl -fsSLo gjz.py https://wan.is-my.app/cli/gjz.py
 python3 gjz.py list
 python3 gjz.py search 图片
 python3 gjz.py video &#x27;https://v.douyin.com/xxxx/&#x27;
-python3 gjz.py download &#x27;https://x.com/用户名/status/123&#x27; -o ~/Downloads</pre>
+python3 gjz.py download &#x27;https://x.com/用户名/status/123&#x27; -o ~/Downloads
+python3 gjz.py text 口播.mp4        # 视频转文字，保存 txt + srt
+python3 gjz.py script &#x27;https://v.douyin.com/xxxx/&#x27;   # 拆解脚本</pre>
 <h2>直接调用接口</h2><pre class="box mono" style="white-space:pre-wrap;padding:12px;margin:8px 0">BASE=$(curl -s https://wan.is-my.app/live.json | python3 -c &#x27;import json,sys;print(json.load(sys.stdin)[&quot;urls&quot;][0])&#x27;)
 curl &quot;$BASE/dl/api/parse?url=https://www.bilibili.com/video/BV199tjztE6M/&quot;</pre>
 <h2>常见问题</h2><dl class="faq"><dt>接口收费吗？</dt><dd>免费，不需要注册或密钥。请合理使用，过于频繁会被暂时限流。</dd><dt>可以商用吗？</dt><dd>视频解析结果仅供个人学习使用，请尊重原作者版权。</dd></dl>

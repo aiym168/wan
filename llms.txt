@@ -6,6 +6,7 @@
 - 服务器接口（OpenAPI）: https://wan.is-my.app/api/openapi.json
 - 命令行: https://wan.is-my.app/cli/gjz.py
 - 接入说明: https://wan.is-my.app/agent/
+- MCP（Streamable HTTP）: https://aiym.dpdns.org/dl/mcp
 
 服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。
 
@@ -15,6 +16,16 @@
 - [X / Twitter 视频下载](https://wan.is-my.app/x-video-download/): 推特视频、GIF 高清下载
 - [B站视频下载](https://wan.is-my.app/bilibili-download/): 哔哩哔哩视频 MP4 下载
 - [万能视频解析下载](https://wan.is-my.app/video-download/): 微博、Vimeo 等上千网站
+
+## 自媒体工具
+
+- [视频转文字](https://wan.is-my.app/video-to-text/): 视频提取文案、口播转文字
+- [音频转文字](https://wan.is-my.app/audio-to-text/): 录音、口播、会议转文字
+- [视频拆解脚本](https://wan.is-my.app/video-script/): 自动分镜、关键帧、逐镜头台词
+- [视频生成字幕](https://wan.is-my.app/video-to-srt/): 自动生成 SRT 字幕文件
+- [视频提取音频](https://wan.is-my.app/video-to-mp3/): 视频转 MP3、提取背景音乐
+- [视频封面提取](https://wan.is-my.app/video-cover/): 视频截图、取第一帧和最清晰帧
+- [字幕格式转换](https://wan.is-my.app/srt-tools/): SRT 平移时间轴、SRT↔VTT、转文本
 
 ## 图片工具
 

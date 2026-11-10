@@ -4,6 +4,13 @@ https://wan.is-my.app/douyin-download/
 https://wan.is-my.app/x-video-download/
 https://wan.is-my.app/bilibili-download/
 https://wan.is-my.app/video-download/
+https://wan.is-my.app/video-to-text/
+https://wan.is-my.app/audio-to-text/
+https://wan.is-my.app/video-script/
+https://wan.is-my.app/video-to-srt/
+https://wan.is-my.app/video-to-mp3/
+https://wan.is-my.app/video-cover/
+https://wan.is-my.app/srt-tools/
 https://wan.is-my.app/image-compress/
 https://wan.is-my.app/image-convert/
 https://wan.is-my.app/image-resize/

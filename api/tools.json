@@ -1,7 +1,7 @@
 {
  "name": "工具站大全",
  "url": "https://wan.is-my.app/gongju/",
- "count": 34,
+ "count": 41,
  "note": "全部免费；runs=browser 的工具在网页里本地运行，runs=server 的工具可通过 OpenAPI 调用。服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。",
  "openapi": "https://wan.is-my.app/api/openapi.json",
  "tools": [
@@ -47,6 +47,83 @@
    "url": "https://wan.is-my.app/video-download/",
    "runs": "server",
    "api": "/dl/api/parse",
+   "free": true
+  },
+  {
+   "slug": "video-to-text",
+   "name": "视频转文字",
+   "category": "自媒体工具",
+   "description": "免费视频转文字工具：上传视频或粘贴抖音、B站链接，AI 自动把口播语音转成文字文案，带标点，可下载 TXT 和 SRT 字幕，免登录免费用。",
+   "keywords": "视频转文字,视频提取文案,视频文案提取,抖音文案提取,口播转文字,视频语音转文字,免费视频转文字在线",
+   "url": "https://wan.is-my.app/video-to-text/",
+   "runs": "server",
+   "api": "/dl/api/media",
+   "free": true
+  },
+  {
+   "slug": "audio-to-text",
+   "name": "音频转文字",
+   "category": "自媒体工具",
+   "description": "免费音频转文字：上传 MP3、M4A、WAV、AMR 录音或口播音频，AI 自动识别成带标点的文字，支持普通话粤语英语，可下载 TXT 和字幕，免登录。",
+   "keywords": "音频转文字,录音转文字,语音转文字,mp3转文字,口播转文字,会议录音转文字,免费语音识别",
+   "url": "https://wan.is-my.app/audio-to-text/",
+   "runs": "server",
+   "api": "/dl/api/media",
+   "free": true
+  },
+  {
+   "slug": "video-script",
+   "name": "视频拆解脚本",
+   "category": "自媒体工具",
+   "description": "免费视频拆解脚本工具：自动识别视频镜头切换，截取每个镜头的关键帧，配上逐镜头口播台词，一键生成分镜脚本表格，学习爆款短视频结构。",
+   "keywords": "视频拆解,拆解脚本,分镜脚本,爆款视频拆解,镜头分析,短视频脚本提取,视频分镜提取,免费拆片工具",
+   "url": "https://wan.is-my.app/video-script/",
+   "runs": "server",
+   "api": "/dl/api/media",
+   "free": true
+  },
+  {
+   "slug": "video-to-srt",
+   "name": "视频生成字幕",
+   "category": "自媒体工具",
+   "description": "免费自动生成字幕：上传视频，AI 识别语音并按时间轴生成 SRT / VTT 字幕文件，可直接导入剪映、Premiere、PR，支持普通话粤语英语。",
+   "keywords": "自动生成字幕,视频加字幕,srt字幕生成,字幕提取,语音生成字幕,免费字幕生成器,视频转srt",
+   "url": "https://wan.is-my.app/video-to-srt/",
+   "runs": "server",
+   "api": "/dl/api/media",
+   "free": true
+  },
+  {
+   "slug": "video-to-mp3",
+   "name": "视频提取音频",
+   "category": "自媒体工具",
+   "description": "免费视频提取音频：上传视频或粘贴抖音、B站链接，一键把视频里的声音提取成高品质 MP3，背景音乐、口播都能提取，免登录不限格式。",
+   "keywords": "视频转mp3,视频提取音频,提取背景音乐,mp4转mp3,抖音音乐提取,视频转音频,免费音频提取",
+   "url": "https://wan.is-my.app/video-to-mp3/",
+   "runs": "server",
+   "api": "/dl/api/media",
+   "free": true
+  },
+  {
+   "slug": "video-cover",
+   "name": "视频封面提取",
+   "category": "自媒体工具",
+   "description": "免费视频封面提取：上传视频或粘贴链接，自动截取第一帧、最清晰画面和按时间均匀分布的 9 张截图，原尺寸 JPG 下载，做封面、配图都方便。",
+   "keywords": "视频封面提取,视频截图,视频取帧,视频第一帧,提取视频封面,抖音封面下载,免费视频截图工具",
+   "url": "https://wan.is-my.app/video-cover/",
+   "runs": "server",
+   "api": "/dl/api/media",
+   "free": true
+  },
+  {
+   "slug": "srt-tools",
+   "name": "字幕格式转换",
+   "category": "自媒体工具",
+   "description": "免费在线字幕工具：SRT 字幕时间轴整体平移、SRT 转 VTT、VTT 转 SRT、字幕转纯文本、重新编号，浏览器本地处理，不上传文件。",
+   "keywords": "srt字幕转换,字幕时间轴调整,srt转vtt,vtt转srt,字幕平移,字幕转文本,免费字幕工具",
+   "url": "https://wan.is-my.app/srt-tools/",
+   "runs": "browser",
+   "api": null,
    "free": true
   },
   {

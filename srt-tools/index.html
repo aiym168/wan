@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="applicable-device" content="pc,mobile"><meta name="renderer" content="webkit">
+<title>免费SRT字幕工具 - 时间轴平移格式转换 - 工具站大全</title>
+<meta name="description" content="免费在线字幕工具：SRT 字幕时间轴整体平移、SRT 转 VTT、VTT 转 SRT、字幕转纯文本、重新编号，浏览器本地处理，不上传文件。">
+<meta name="keywords" content="srt字幕转换,字幕时间轴调整,srt转vtt,vtt转srt,字幕平移,字幕转文本,免费字幕工具">
+<link rel="canonical" href="https://wan.is-my.app/srt-tools/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="工具站大全"><meta property="og:title" content="免费SRT字幕工具 - 时间轴平移格式转换 - 工具站大全"><meta property="og:description" content="免费在线字幕工具：SRT 字幕时间轴整体平移、SRT 转 VTT、VTT 转 SRT、字幕转纯文本、重新编号，浏览器本地处理，不上传文件。"><meta property="og:url" content="https://wan.is-my.app/srt-tools/"><meta property="og:locale" content="zh_CN">
+<meta name="theme-color" content="#0a0b0c">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/design/tokens-v4.css"><link rel="stylesheet" href="/assets/t.css">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "免费 SRT 字幕工具 · 平移 / 转换", "url": "https://wan.is-my.app/srt-tools/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web 浏览器（Windows、macOS、Android、iOS）", "inLanguage": "zh-CN", "isAccessibleForFree": true, "description": "免费在线字幕工具：SRT 字幕时间轴整体平移、SRT 转 VTT、VTT 转 SRT、字幕转纯文本、重新编号，浏览器本地处理，不上传文件。", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "这个工具免费吗？", "acceptedAnswer": {"@type": "Answer", "text": "完全免费。字幕格式转换不收费、不限次数、不用注册登录，也没有水印。"}}, {"@type": "Question", "name": "字幕会上传吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会，全部在你的浏览器里处理。"}}, {"@type": "Question", "name": "提前还是延后？", "acceptedAnswer": {"@type": "Answer", "text": "字幕比声音晚就填负数（比如 -1.5），比声音早就填正数。"}}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "工具站大全", "item": "https://wan.is-my.app/gongju/"}, {"@type": "ListItem", "position": 2, "name": "字幕格式转换", "item": "https://wan.is-my.app/srt-tools/"}]}]</script>
+</head><body>
+<header class="top"><div class="wrap"><a class="logo" href="/gongju/"><i><svg viewBox="0 0 24 24" fill="none" stroke="#0a0b0c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></i><b>工具站大全</b></a><nav class="nav"><a href="/gongju/">全部工具</a><a href="/gongju/#video">视频下载</a><a href="/gongju/#media" class=on>自媒体工具</a><a href="/gongju/#image">图片工具</a><a href="/gongju/#pdf">PDF 工具</a><a href="/gongju/#text">文字工具</a><a href="/gongju/#qr">二维码</a><a href="/gongju/#calc">计算器</a><a href="/gongju/#life">效率小工具</a><a href="/gongju/#dev">开发工具</a></nav></div></header>
+<main class="wrap">
+<p class="crumb"><a href="/gongju/">工具站大全</a> › <a href="/gongju/#media">自媒体工具</a> › 字幕格式转换</p>
+<h1>免费 SRT 字幕工具 · 平移 / 转换</h1>
+<p class="lead">字幕和声音对不上？把 SRT 粘进来<strong>整体平移时间轴</strong>；还能 SRT↔VTT 互转、导出纯文本。全部在浏览器本地完成。</p>
+<div class="tags"><span>免费</span><span>免登录</span><span>不限次数</span><span>浏览器本地计算</span><span>手机电脑都能用</span></div>
+<section class="box" id="app"><div class="row"><div><label>操作</label><select id="op"><option value="shift">时间轴整体平移</option><option value="s2v">SRT 转 VTT</option><option value="v2s">VTT 转 SRT</option><option value="txt">字幕转纯文本</option><option value="renum">重新编号 / 清理空行</option></select></div><div><label>平移秒数（可为负，如 -1.5）</label><input type="number" id="sec" value="1" step="0.1"></div></div>
+<label>粘贴字幕内容（或拖入 .srt / .vtt 文件）</label><textarea id="i" placeholder="1&#10;00:00:01,000 --> 00:00:03,000&#10;字幕内容"></textarea><input type="file" id="fi" accept=".srt,.vtt,.txt" hidden>
+<button class="btn" id="go">转换</button><button class="btn ghost" id="of">打开文件</button><label>结果</label><textarea id="o"></textarea><button class="btn" id="cp">复制</button><button class="btn ghost" id="dl">下载</button>
+<noscript><p class="err">这个免费工具需要开启浏览器的 JavaScript 才能使用。</p></noscript></section>
+<div class="ad" data-ad="content" aria-hidden="true"></div>
+<h2>怎么用字幕格式转换</h2>
+<ol class="steps"><li>粘贴字幕或打开 .srt / .vtt 文件。</li><li>选择操作，平移的话填秒数（提前用负数）。</li><li>点「转换」，复制或下载结果。</li></ol>
+<h2>字幕格式转换常见问题</h2>
+<dl class="faq"><dt>这个工具免费吗？</dt><dd>完全免费。字幕格式转换不收费、不限次数、不用注册登录，也没有水印。</dd><dt>字幕会上传吗？</dt><dd>不会，全部在你的浏览器里处理。</dd><dt>提前还是延后？</dt><dd>字幕比声音晚就填负数（比如 -1.5），比声音早就填正数。</dd></dl>
+<h2>更多免费在线工具</h2>
+<div class="rel"><a href="/video-to-text/">视频转文字<small>视频提取文案、口播转文字</small></a><a href="/audio-to-text/">音频转文字<small>录音、口播、会议转文字</small></a><a href="/video-script/">视频拆解脚本<small>自动分镜、关键帧、逐镜头台词</small></a><a href="/video-to-srt/">视频生成字幕<small>自动生成 SRT 字幕文件</small></a><a href="/video-to-mp3/">视频提取音频<small>视频转 MP3、提取背景音乐</small></a><a href="/video-cover/">视频封面提取<small>视频截图、取第一帧和最清晰帧</small></a><a href="/base64/">Base64 编码解码<small>文字、图片 Base64 互转</small></a><a href="/video-download/">万能视频解析下载<small>微博、Vimeo 等上千网站</small></a><a href="/pdf-split/">PDF 拆分<small>提取指定页、逐页拆开</small></a><a href="/gongju/">全部免费工具<small>图片、PDF、文字、计算器、开发工具</small></a></div>
+<div class="ad" data-ad="footer" aria-hidden="true"></div>
+</main>
+<footer class="foot"><div class="wrap">
+<p><a href="/gongju/">工具站大全</a> · <a href="/">首页</a> · <a href="/tools/">开发者工具箱</a> · <a href="https://hot.is-my.app/">今日热榜</a> · <a href="https://aiym168.github.io/">AI大模型免费资源导航</a> · <a href="/sitemap.html">网站地图</a></p>
+<p>这个工具在你的浏览器里运行，文件和输入内容不会上传到服务器。</p>
+</div></footer>
+<script src="/assets/t.js"></script><script src="/assets/ads-config.js" defer></script><script src="/assets/ads.js" defer></script>
+<script>function P(t){var m=t.match(/(\d+):(\d\d):(\d\d)[,.](\d{1,3})/)||t.match(/()(\d+):(\d\d)[,.](\d{1,3})/);if(!m)return 0;return (+(m[1]||0))*3600+(+m[2])*60+(+m[3])+(+(m[4]+'00').slice(0,3))/1000}
+function S(x,sep){x=Math.max(0,x);var h=Math.floor(x/3600),m=Math.floor(x%3600/60),s=Math.floor(x%60),ms=Math.round((x-Math.floor(x))*1000);if(ms==1000){ms=999}return [h,m,s].map(function(v){return ('0'+v).slice(-2)}).join(':')+sep+('00'+ms).slice(-3)}
+function cues(t){var out=[];t.replace(/\r/g,'').split(/\n\s*\n/).forEach(function(b){var L=b.split('\n').filter(function(x){return x.trim()!==''});var k=L.findIndex(function(x){return x.indexOf('-->')>0});if(k<0)return;var p=L[k].split('-->');out.push({a:P(p[0]),b:P(p[1]),t:L.slice(k+1).join('\n')})});return out}
+var ext='srt';$('#go').onclick=function(){var c=cues($('#i').value),op=$('#op').value,d=+$('#sec').value||0,r='';
+ if(op==='shift'){c.forEach(function(x){x.a+=d;x.b+=d})}
+ if(op==='s2v'){ext='vtt';r='WEBVTT\n\n'+c.map(function(x){return S(x.a,'.')+' --> '+S(x.b,'.')+'\n'+x.t}).join('\n\n')+'\n'}
+ else if(op==='txt'){ext='txt';r=c.map(function(x){return x.t}).join('\n')+'\n'}
+ else{ext='srt';r=c.map(function(x,i){return (i+1)+'\n'+S(x.a,',')+' --> '+S(x.b,',')+'\n'+x.t}).join('\n\n')+'\n'}
+ $('#o').value=c.length?r:'没有识别到字幕，请检查格式'};
+$('#cp').onclick=function(){T.copy($('#o').value,$('#cp'))};$('#dl').onclick=function(){T.dl(new Blob([$('#o').value],{type:'text/plain;charset=utf-8'}),'字幕.'+ext)};
+$('#of').onclick=function(){$('#fi').click()};$('#fi').onchange=function(){var f=this.files[0];if(f)f.text().then(function(t){$('#i').value=t})};
+$('#i').addEventListener('drop',function(v){v.preventDefault();var f=v.dataTransfer.files[0];if(f)f.text().then(function(t){$('#i').value=t})});</script>
+</body></html>

@@ -6,6 +6,7 @@
 - 服务器接口（OpenAPI）: https://wan.is-my.app/api/openapi.json
 - 命令行: https://wan.is-my.app/cli/gjz.py
 - 接入说明: https://wan.is-my.app/agent/
+- MCP（Streamable HTTP）: https://aiym.dpdns.org/dl/mcp
 
 服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。
 
@@ -15,6 +16,16 @@
 - [X / Twitter 视频下载](https://wan.is-my.app/x-video-download/): 推特视频、GIF 高清下载
 - [B站视频下载](https://wan.is-my.app/bilibili-download/): 哔哩哔哩视频 MP4 下载
 - [万能视频解析下载](https://wan.is-my.app/video-download/): 微博、Vimeo 等上千网站
+
+## 自媒体工具
+
+- [视频转文字](https://wan.is-my.app/video-to-text/): 视频提取文案、口播转文字
+- [音频转文字](https://wan.is-my.app/audio-to-text/): 录音、口播、会议转文字
+- [视频拆解脚本](https://wan.is-my.app/video-script/): 自动分镜、关键帧、逐镜头台词
+- [视频生成字幕](https://wan.is-my.app/video-to-srt/): 自动生成 SRT 字幕文件
+- [视频提取音频](https://wan.is-my.app/video-to-mp3/): 视频转 MP3、提取背景音乐
+- [视频封面提取](https://wan.is-my.app/video-cover/): 视频截图、取第一帧和最清晰帧
+- [字幕格式转换](https://wan.is-my.app/srt-tools/): SRT 平移时间轴、SRT↔VTT、转文本
 
 ## 图片工具
 
@@ -93,6 +104,48 @@
 说明: 免费万能视频解析下载：支持抖音、X/Twitter、B站、微博、Vimeo、Reddit 等上千个网站，粘贴链接解析视频直接下载，免登录。
 用法: 复制视频的分享链接或网址。 粘贴后点「解析视频」，系统会自动识别平台。 在结果里选择清晰度下载，也可以下载音频和封面。
 接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名> 下载。命令行: python3 gjz.py download <分享链接>
+
+## 视频转文字
+网址: https://wan.is-my.app/video-to-text/
+说明: 免费视频转文字工具：上传视频或粘贴抖音、B站链接，AI 自动把口播语音转成文字文案，带标点，可下载 TXT 和 SRT 字幕，免登录免费用。
+用法: 点「上传视频或音频」选择文件，或点「粘贴视频链接」粘贴抖音 / B站 / X 的分享链接。 等待几秒到几十秒，进度条走完就出结果。 在文本框里修改错字，点「复制文案」，或下载 TXT / SRT。
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+
+## 音频转文字
+网址: https://wan.is-my.app/audio-to-text/
+说明: 免费音频转文字：上传 MP3、M4A、WAV、AMR 录音或口播音频，AI 自动识别成带标点的文字，支持普通话粤语英语，可下载 TXT 和字幕，免登录。
+用法: 点「上传音频文件」选择录音（手机录音、微信语音导出的文件都可以）。 等待识别完成。 复制文字，或下载 TXT / SRT。
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+
+## 视频拆解脚本
+网址: https://wan.is-my.app/video-script/
+说明: 免费视频拆解脚本工具：自动识别视频镜头切换，截取每个镜头的关键帧，配上逐镜头口播台词，一键生成分镜脚本表格，学习爆款短视频结构。
+用法: 上传视频或粘贴抖音 / B站 / X 链接。 可选调整「镜头灵敏度」：快节奏混剪调低，访谈类调高。 等处理完成，查看分镜表，下载 ZIP（含 CSV 表格、Markdown、全部关键帧和字幕）。
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+
+## 视频生成字幕
+网址: https://wan.is-my.app/video-to-srt/
+说明: 免费自动生成字幕：上传视频，AI 识别语音并按时间轴生成 SRT / VTT 字幕文件，可直接导入剪映、Premiere、PR，支持普通话粤语英语。
+用法: 上传视频或粘贴视频链接。 等待识别完成，检查并修改字幕文字。 下载 SRT 导入剪辑软件。
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+
+## 视频提取音频
+网址: https://wan.is-my.app/video-to-mp3/
+说明: 免费视频提取音频：上传视频或粘贴抖音、B站链接，一键把视频里的声音提取成高品质 MP3，背景音乐、口播都能提取，免登录不限格式。
+用法: 上传视频或粘贴视频链接。 等几秒钟。 在线试听，点「下载 MP3」保存。
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+
+## 视频封面提取
+网址: https://wan.is-my.app/video-cover/
+说明: 免费视频封面提取：上传视频或粘贴链接，自动截取第一帧、最清晰画面和按时间均匀分布的 9 张截图，原尺寸 JPG 下载，做封面、配图都方便。
+用法: 上传视频或粘贴视频链接。 等几秒钟。 挑选喜欢的画面点「下载」。
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+
+## 字幕格式转换
+网址: https://wan.is-my.app/srt-tools/
+说明: 免费在线字幕工具：SRT 字幕时间轴整体平移、SRT 转 VTT、VTT 转 SRT、字幕转纯文本、重新编号，浏览器本地处理，不上传文件。
+用法: 粘贴字幕或打开 .srt / .vtt 文件。 选择操作，平移的话填秒数（提前用负数）。 点「转换」，复制或下载结果。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## 图片压缩
 网址: https://wan.is-my.app/image-compress/

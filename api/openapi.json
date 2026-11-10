@@ -125,6 +125,146 @@
     }
    }
   },
+  "/dl/api/media": {
+   "post": {
+    "summary": "创建自媒体处理任务（上传文件）：视频/音频转文字、拆解脚本、提取 MP3、截取封面",
+    "operationId": "createMediaJobUpload",
+    "parameters": [
+     {
+      "name": "task",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "enum": [
+        "asr",
+        "script",
+        "mp3",
+        "cover",
+        "frames"
+       ]
+      }
+     }
+    ],
+    "requestBody": {
+     "content": {
+      "multipart/form-data": {
+       "schema": {
+        "type": "object",
+        "properties": {
+         "file": {
+          "type": "string",
+          "format": "binary"
+         }
+        }
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "{ok, id}"
+     },
+     "429": {
+      "description": "超出频率（每 IP 每小时 8 个任务）"
+     }
+    }
+   },
+   "get": {
+    "summary": "创建自媒体处理任务（视频链接）",
+    "operationId": "createMediaJobFromUrl",
+    "parameters": [
+     {
+      "name": "task",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "enum": [
+        "asr",
+        "script",
+        "mp3",
+        "cover",
+        "frames"
+       ]
+      }
+     },
+     {
+      "name": "url",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "抖音 / B站 / X 等分享链接"
+     },
+     {
+      "name": "scene",
+      "in": "query",
+      "schema": {
+       "type": "number",
+       "default": 0.3
+      },
+      "description": "拆解脚本的镜头灵敏度 0.1–0.9"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "{ok, id, queue, limit_seconds}"
+     }
+    }
+   }
+  },
+  "/dl/api/media/{id}": {
+   "get": {
+    "summary": "查询任务进度和结果（state: queued/running/done/error；done 时含 text、segments、shots、files）",
+    "operationId": "getMediaJob",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "状态"
+     }
+    }
+   }
+  },
+  "/dl/api/media/{id}/{file}": {
+   "get": {
+    "summary": "下载任务结果文件（transcript.txt/srt/vtt、script.zip/csv/md、audio.mp3、*.jpg）",
+    "operationId": "getMediaFile",
+    "parameters": [
+     {
+      "name": "id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      }
+     },
+     {
+      "name": "file",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "文件"
+     }
+    }
+   }
+  },
   "/dl/healthz": {
    "get": {
     "summary": "健康检查",
