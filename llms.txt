@@ -108,6 +108,42 @@
 - [NotebookLM官网入口](https://wan.is-my.app/notebooklm/): Google AI 笔记和音频概览
 - [沉浸式翻译官网入口](https://wan.is-my.app/immersive-translate/): AI 双语网页和 PDF 翻译
 - [DeepL官方下载](https://wan.is-my.app/deepl-download/): 高质量 AI 翻译桌面版
+- [扣子 Coze官网入口](https://wan.is-my.app/coze-download/): 零代码搭建 AI 智能体
+- [Manus官网入口](https://wan.is-my.app/manus-download/): 能自己执行任务的通用 AI 智能体
+- [Genspark官网入口](https://wan.is-my.app/genspark-download/): 一站式 AI 工作空间
+- [Monica官网入口](https://wan.is-my.app/monica-download/): 浏览器侧边栏 AI 助手
+- [商汤小浣熊官网入口](https://wan.is-my.app/xiaohuanxiong-download/): 办公数据分析 AI 助手
+- [Napkin AI官网入口](https://wan.is-my.app/napkin-download/): 把文字变成信息图
+- [讯飞听见官网入口](https://wan.is-my.app/iflyrec-download/): 录音转文字和会议纪要
+- [美图 WHEE官网入口](https://wan.is-my.app/whee-download/): 美图出品的 AI 绘画
+- [美图设计室官网入口](https://wan.is-my.app/designkit-download/): 电商作图和 AI 商品图
+- [稿定设计官网入口](https://wan.is-my.app/gaoding-download/): 在线设计和 AI 作图
+- [堆友官网入口](https://wan.is-my.app/duiyou-download/): 阿里出品的 AI 设计平台
+- [Ideogram官网入口](https://wan.is-my.app/ideogram-download/): 擅长文字排版的 AI 绘画
+- [Recraft官网入口](https://wan.is-my.app/recraft-download/): 生成矢量图和品牌素材
+- [Leonardo.Ai官网入口](https://wan.is-my.app/leonardo-download/): 游戏和插画 AI 绘图
+- [Krea官网入口](https://wan.is-my.app/krea-download/): 实时 AI 绘画和图片增强
+- [FLUX（Black Forest Labs）官网入口](https://wan.is-my.app/flux-bfl/): FLUX 图像模型官方
+- [HeyGen官网入口](https://wan.is-my.app/heygen-download/): AI 数字人视频
+- [Hedra官网入口](https://wan.is-my.app/hedra-download/): 让照片开口说话
+- [OpenAI Codex官网入口](https://wan.is-my.app/openai-codex/): OpenAI 的 AI 编程智能体
+- [Gemini CLI官方下载](https://wan.is-my.app/gemini-cli/): Google 开源命令行 AI 编程助手
+- [Qwen Code官方下载](https://wan.is-my.app/qwen-code/): 通义千问命令行编程助手
+- [Qoder官方下载](https://wan.is-my.app/qoder-download/): 智能体编程 IDE
+- [Kiro官方下载](https://wan.is-my.app/kiro-download/): 规格驱动的 AI IDE
+- [Zed官方下载](https://wan.is-my.app/zed-download/): 高性能开源编辑器，内置 AI
+- [Bolt.new官网入口](https://wan.is-my.app/bolt-new/): 一句话生成全栈网页应用
+- [v0官网入口](https://wan.is-my.app/v0-download/): AI 生成网页界面和应用
+- [Lovable官网入口](https://wan.is-my.app/lovable-download/): 对话式网站和 App 生成
+- [Replit官网入口](https://wan.is-my.app/replit-download/): 在线编程和 AI 智能体
+- [LocalAI官方下载](https://wan.is-my.app/localai-download/): 本地兼容 OpenAI 接口的 AI 服务
+- [KoboldCpp官方下载](https://wan.is-my.app/koboldcpp-download/): 单文件运行本地大模型
+- [Text Generation WebUI官方下载](https://wan.is-my.app/textgen-webui/): 本地大模型网页界面
+- [SillyTavern官方下载](https://wan.is-my.app/sillytavern-download/): AI 角色扮演聊天前端
+- [Xinference官方下载](https://wan.is-my.app/xinference-download/): 企业级本地模型推理平台
+- [SGLang官方下载](https://wan.is-my.app/sglang-download/): 高性能大模型推理引擎
+- [n8n官方下载](https://wan.is-my.app/n8n-download/): AI 工作流自动化
+- [Flowise官方下载](https://wan.is-my.app/flowise-download/): 拖拽搭建 AI 应用
 - [大模型本地部署全套软件](https://wan.is-my.app/bendi-damoxing/): 大模型本地部署全套软件
 - [AI 软件怎么选](https://wan.is-my.app/ai-ruanjian-xuanze/): AI 软件怎么选
 

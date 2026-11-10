@@ -2000,6 +2000,330 @@
 "url": "/deepl-download/"
 },
 {
+"slug": "coze-download",
+"name": "扣子 Coze官网入口",
+"short": "零代码搭建 AI 智能体",
+"cat": "ai",
+"title": "扣子Coze官网入口 - 免费搭建AI智能体",
+"keywords": "扣子,coze,coze官网,扣子官网,ai智能体,智能体搭建,coze studio",
+"url": "/coze-download/"
+},
+{
+"slug": "manus-download",
+"name": "Manus官网入口",
+"short": "能自己执行任务的通用 AI 智能体",
+"cat": "ai",
+"title": "Manus官网入口 - 通用AI智能体 免费试用",
+"keywords": "manus,manus官网,manus ai,通用智能体,ai agent",
+"url": "/manus-download/"
+},
+{
+"slug": "genspark-download",
+"name": "Genspark官网入口",
+"short": "一站式 AI 工作空间",
+"cat": "ai",
+"title": "Genspark官网入口 - 免费一站式 AI 工作空间",
+"keywords": "genspark,genspark官网,ai幻灯片,ai搜索,ai agent",
+"url": "/genspark-download/"
+},
+{
+"slug": "monica-download",
+"name": "Monica官网入口",
+"short": "浏览器侧边栏 AI 助手",
+"cat": "ai",
+"title": "Monica官网入口 - 免费浏览器侧边栏 AI 助手",
+"keywords": "monica,monica插件,monica ai,浏览器ai插件,网页总结",
+"url": "/monica-download/"
+},
+{
+"slug": "xiaohuanxiong-download",
+"name": "商汤小浣熊官网入口",
+"short": "办公数据分析 AI 助手",
+"cat": "ai",
+"title": "商汤小浣熊官网入口 - 免费办公数据分析 AI 助手",
+"keywords": "小浣熊,商汤小浣熊,小浣熊官网,ai数据分析,ai办公",
+"url": "/xiaohuanxiong-download/"
+},
+{
+"slug": "napkin-download",
+"name": "Napkin AI官网入口",
+"short": "把文字变成信息图",
+"cat": "ai",
+"title": "Napkin AI官网入口 - 免费把文字变成信息图",
+"keywords": "napkin ai,napkin官网,ai信息图,文字转图表,ai配图",
+"url": "/napkin-download/"
+},
+{
+"slug": "iflyrec-download",
+"name": "讯飞听见官网入口",
+"short": "录音转文字和会议纪要",
+"cat": "ai",
+"title": "讯飞听见官网入口 - 录音转文字和会议纪要",
+"keywords": "讯飞听见,讯飞听见官网,录音转文字,语音转文字,会议纪要",
+"url": "/iflyrec-download/"
+},
+{
+"slug": "whee-download",
+"name": "美图 WHEE官网入口",
+"short": "美图出品的 AI 绘画",
+"cat": "ai",
+"title": "美图WHEE官网入口 - 免费AI绘画 AI扩图",
+"keywords": "whee,美图whee,whee官网,ai绘画,ai扩图",
+"url": "/whee-download/"
+},
+{
+"slug": "designkit-download",
+"name": "美图设计室官网入口",
+"short": "电商作图和 AI 商品图",
+"cat": "ai",
+"title": "美图设计室官网入口 - 免费电商作图和 AI 商品图",
+"keywords": "美图设计室,designkit,ai商品图,电商作图,一键抠图",
+"url": "/designkit-download/"
+},
+{
+"slug": "gaoding-download",
+"name": "稿定设计官网入口",
+"short": "在线设计和 AI 作图",
+"cat": "ai",
+"title": "稿定设计官网入口 - 免费在线设计和 AI 作图",
+"keywords": "稿定设计,稿定官网,在线设计,海报模板,ai设计",
+"url": "/gaoding-download/"
+},
+{
+"slug": "duiyou-download",
+"name": "堆友官网入口",
+"short": "阿里出品的 AI 设计平台",
+"cat": "ai",
+"title": "堆友官网入口 - 阿里免费AI设计平台",
+"keywords": "堆友,堆友官网,d.design,阿里设计,ai设计",
+"url": "/duiyou-download/"
+},
+{
+"slug": "ideogram-download",
+"name": "Ideogram官网入口",
+"short": "擅长文字排版的 AI 绘画",
+"cat": "ai",
+"title": "Ideogram官网入口 - 免费擅长文字排版的 AI 绘画",
+"keywords": "ideogram,ideogram官网,ai海报,ai生成文字,ai绘画",
+"url": "/ideogram-download/"
+},
+{
+"slug": "recraft-download",
+"name": "Recraft官网入口",
+"short": "生成矢量图和品牌素材",
+"cat": "ai",
+"title": "Recraft官网入口 - 免费生成矢量图和品牌素材",
+"keywords": "recraft,recraft官网,ai矢量图,ai图标,svg生成",
+"url": "/recraft-download/"
+},
+{
+"slug": "leonardo-download",
+"name": "Leonardo.Ai官网入口",
+"short": "游戏和插画 AI 绘图",
+"cat": "ai",
+"title": "Leonardo.Ai官网入口 - AI绘画 免费额度",
+"keywords": "leonardo ai,leonardo官网,ai绘画,游戏素材生成",
+"url": "/leonardo-download/"
+},
+{
+"slug": "krea-download",
+"name": "Krea官网入口",
+"short": "实时 AI 绘画和图片增强",
+"cat": "ai",
+"title": "Krea官网入口 - 免费实时 AI 绘画和图片增强",
+"keywords": "krea,krea ai,krea官网,实时ai绘画,图片增强",
+"url": "/krea-download/"
+},
+{
+"slug": "flux-bfl",
+"name": "FLUX（Black Forest Labs）官网入口",
+"short": "FLUX 图像模型官方",
+"cat": "ai",
+"title": "FLUX模型官网入口 - 本地运行和在线使用教程 免费",
+"keywords": "flux,flux模型,black forest labs,flux下载,flux comfyui",
+"url": "/flux-bfl/"
+},
+{
+"slug": "heygen-download",
+"name": "HeyGen官网入口",
+"short": "AI 数字人视频",
+"cat": "ai",
+"title": "HeyGen官网入口 - AI数字人视频 免费试用",
+"keywords": "heygen,heygen官网,ai数字人,数字人视频,视频翻译",
+"url": "/heygen-download/"
+},
+{
+"slug": "hedra-download",
+"name": "Hedra官网入口",
+"short": "让照片开口说话",
+"cat": "ai",
+"title": "Hedra官网入口 - 照片说话AI视频 免费试用",
+"keywords": "hedra,hedra官网,照片说话,ai对口型,ai角色视频",
+"url": "/hedra-download/"
+},
+{
+"slug": "openai-codex",
+"name": "OpenAI Codex官网入口",
+"short": "OpenAI 的 AI 编程智能体",
+"cat": "ai",
+"title": "OpenAI Codex官网入口 - AI编程智能体教程",
+"keywords": "codex,openai codex,codex cli,ai编程,编程智能体",
+"url": "/openai-codex/"
+},
+{
+"slug": "gemini-cli",
+"name": "Gemini CLI官方下载",
+"short": "Google 开源命令行 AI 编程助手",
+"cat": "ai",
+"title": "Gemini CLI官方下载 - 免费下载与安装教程",
+"keywords": "gemini cli,gemini命令行,google ai编程,gemini cli安装",
+"url": "/gemini-cli/"
+},
+{
+"slug": "qwen-code",
+"name": "Qwen Code官方下载",
+"short": "通义千问命令行编程助手",
+"cat": "ai",
+"title": "Qwen Code官方下载 - 免费通义千问命令行编程助手",
+"keywords": "qwen code,通义千问编程,qwen3 coder,命令行ai编程",
+"url": "/qwen-code/"
+},
+{
+"slug": "qoder-download",
+"name": "Qoder官方下载",
+"short": "智能体编程 IDE",
+"cat": "ai",
+"title": "Qoder官方下载 - 免费智能体编程 IDE",
+"keywords": "qoder,qoder下载,qoder官网,阿里ai编程,ai ide",
+"url": "/qoder-download/"
+},
+{
+"slug": "kiro-download",
+"name": "Kiro官方下载",
+"short": "规格驱动的 AI IDE",
+"cat": "ai",
+"title": "Kiro官方下载 - 免费规格驱动的 AI IDE",
+"keywords": "kiro,kiro下载,kiro ide,aws ai编程,kiro官网",
+"url": "/kiro-download/"
+},
+{
+"slug": "zed-download",
+"name": "Zed官方下载",
+"short": "高性能开源编辑器，内置 AI",
+"cat": "ai",
+"title": "Zed官方下载 - 免费高性能开源编辑器 内置 AI",
+"keywords": "zed,zed编辑器,zed下载,zed ai,rust编辑器",
+"url": "/zed-download/"
+},
+{
+"slug": "bolt-new",
+"name": "Bolt.new官网入口",
+"short": "一句话生成全栈网页应用",
+"cat": "ai",
+"title": "Bolt.new官网入口 - 免费一句话生成全栈网页应用",
+"keywords": "bolt.new,bolt官网,ai生成网站,ai做网页,零代码开发",
+"url": "/bolt-new/"
+},
+{
+"slug": "v0-download",
+"name": "v0官网入口",
+"short": "AI 生成网页界面和应用",
+"cat": "ai",
+"title": "v0官网入口 - AI生成网页和应用 免费试用",
+"keywords": "v0,v0.dev,v0官网,vercel v0,ai生成网页",
+"url": "/v0-download/"
+},
+{
+"slug": "lovable-download",
+"name": "Lovable官网入口",
+"short": "对话式网站和 App 生成",
+"cat": "ai",
+"title": "Lovable官网入口 - 免费对话式网站和 App 生成",
+"keywords": "lovable,lovable官网,ai建站,ai生成app",
+"url": "/lovable-download/"
+},
+{
+"slug": "replit-download",
+"name": "Replit官网入口",
+"short": "在线编程和 AI 智能体",
+"cat": "ai",
+"title": "Replit官网入口 - 免费在线编程和 AI 智能体",
+"keywords": "replit,replit官网,在线编程,replit agent",
+"url": "/replit-download/"
+},
+{
+"slug": "localai-download",
+"name": "LocalAI官方下载",
+"short": "本地兼容 OpenAI 接口的 AI 服务",
+"cat": "ai",
+"title": "LocalAI官方下载 - 免费下载与安装教程",
+"keywords": "localai,localai部署,本地openai接口,本地大模型api",
+"url": "/localai-download/"
+},
+{
+"slug": "koboldcpp-download",
+"name": "KoboldCpp官方下载",
+"short": "单文件运行本地大模型",
+"cat": "ai",
+"title": "KoboldCpp官方下载 - 免费单文件运行本地大模型",
+"keywords": "koboldcpp,koboldcpp下载,本地大模型,gguf运行",
+"url": "/koboldcpp-download/"
+},
+{
+"slug": "textgen-webui",
+"name": "Text Generation WebUI官方下载",
+"short": "本地大模型网页界面",
+"cat": "ai",
+"title": "Text Generation WebUI官方下载 免费",
+"keywords": "text generation webui,oobabooga,本地大模型界面,textgen",
+"url": "/textgen-webui/"
+},
+{
+"slug": "sillytavern-download",
+"name": "SillyTavern官方下载",
+"short": "AI 角色扮演聊天前端",
+"cat": "ai",
+"title": "SillyTavern官方下载 - 免费下载与安装教程",
+"keywords": "sillytavern,酒馆ai,sillytavern下载,ai角色扮演",
+"url": "/sillytavern-download/"
+},
+{
+"slug": "xinference-download",
+"name": "Xinference官方下载",
+"short": "企业级本地模型推理平台",
+"cat": "ai",
+"title": "Xinference官方下载 - 免费企业级本地模型推理平台",
+"keywords": "xinference,xinference部署,本地模型推理,embedding部署",
+"url": "/xinference-download/"
+},
+{
+"slug": "sglang-download",
+"name": "SGLang官方下载",
+"short": "高性能大模型推理引擎",
+"cat": "ai",
+"title": "SGLang官方下载 - 免费高性能大模型推理引擎",
+"keywords": "sglang,sglang部署,大模型推理框架,deepseek部署",
+"url": "/sglang-download/"
+},
+{
+"slug": "n8n-download",
+"name": "n8n官方下载",
+"short": "AI 工作流自动化",
+"cat": "ai",
+"title": "n8n官方下载 - 免费开源AI工作流自动化",
+"keywords": "n8n,n8n部署,n8n中文,工作流自动化,ai工作流",
+"url": "/n8n-download/"
+},
+{
+"slug": "flowise-download",
+"name": "Flowise官方下载",
+"short": "拖拽搭建 AI 应用",
+"cat": "ai",
+"title": "Flowise官方下载 - 免费开源拖拽搭建AI应用",
+"keywords": "flowise,flowise部署,低代码ai,ai应用搭建",
+"url": "/flowise-download/"
+},
+{
 "slug": "powertoys-download",
 "name": "PowerToys官方下载",
 "short": "微软官方 Windows 效率工具集",

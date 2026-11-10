@@ -108,6 +108,42 @@
 - [NotebookLM官网入口](https://wan.is-my.app/notebooklm/): Google AI 笔记和音频概览
 - [沉浸式翻译官网入口](https://wan.is-my.app/immersive-translate/): AI 双语网页和 PDF 翻译
 - [DeepL官方下载](https://wan.is-my.app/deepl-download/): 高质量 AI 翻译桌面版
+- [扣子 Coze官网入口](https://wan.is-my.app/coze-download/): 零代码搭建 AI 智能体
+- [Manus官网入口](https://wan.is-my.app/manus-download/): 能自己执行任务的通用 AI 智能体
+- [Genspark官网入口](https://wan.is-my.app/genspark-download/): 一站式 AI 工作空间
+- [Monica官网入口](https://wan.is-my.app/monica-download/): 浏览器侧边栏 AI 助手
+- [商汤小浣熊官网入口](https://wan.is-my.app/xiaohuanxiong-download/): 办公数据分析 AI 助手
+- [Napkin AI官网入口](https://wan.is-my.app/napkin-download/): 把文字变成信息图
+- [讯飞听见官网入口](https://wan.is-my.app/iflyrec-download/): 录音转文字和会议纪要
+- [美图 WHEE官网入口](https://wan.is-my.app/whee-download/): 美图出品的 AI 绘画
+- [美图设计室官网入口](https://wan.is-my.app/designkit-download/): 电商作图和 AI 商品图
+- [稿定设计官网入口](https://wan.is-my.app/gaoding-download/): 在线设计和 AI 作图
+- [堆友官网入口](https://wan.is-my.app/duiyou-download/): 阿里出品的 AI 设计平台
+- [Ideogram官网入口](https://wan.is-my.app/ideogram-download/): 擅长文字排版的 AI 绘画
+- [Recraft官网入口](https://wan.is-my.app/recraft-download/): 生成矢量图和品牌素材
+- [Leonardo.Ai官网入口](https://wan.is-my.app/leonardo-download/): 游戏和插画 AI 绘图
+- [Krea官网入口](https://wan.is-my.app/krea-download/): 实时 AI 绘画和图片增强
+- [FLUX（Black Forest Labs）官网入口](https://wan.is-my.app/flux-bfl/): FLUX 图像模型官方
+- [HeyGen官网入口](https://wan.is-my.app/heygen-download/): AI 数字人视频
+- [Hedra官网入口](https://wan.is-my.app/hedra-download/): 让照片开口说话
+- [OpenAI Codex官网入口](https://wan.is-my.app/openai-codex/): OpenAI 的 AI 编程智能体
+- [Gemini CLI官方下载](https://wan.is-my.app/gemini-cli/): Google 开源命令行 AI 编程助手
+- [Qwen Code官方下载](https://wan.is-my.app/qwen-code/): 通义千问命令行编程助手
+- [Qoder官方下载](https://wan.is-my.app/qoder-download/): 智能体编程 IDE
+- [Kiro官方下载](https://wan.is-my.app/kiro-download/): 规格驱动的 AI IDE
+- [Zed官方下载](https://wan.is-my.app/zed-download/): 高性能开源编辑器，内置 AI
+- [Bolt.new官网入口](https://wan.is-my.app/bolt-new/): 一句话生成全栈网页应用
+- [v0官网入口](https://wan.is-my.app/v0-download/): AI 生成网页界面和应用
+- [Lovable官网入口](https://wan.is-my.app/lovable-download/): 对话式网站和 App 生成
+- [Replit官网入口](https://wan.is-my.app/replit-download/): 在线编程和 AI 智能体
+- [LocalAI官方下载](https://wan.is-my.app/localai-download/): 本地兼容 OpenAI 接口的 AI 服务
+- [KoboldCpp官方下载](https://wan.is-my.app/koboldcpp-download/): 单文件运行本地大模型
+- [Text Generation WebUI官方下载](https://wan.is-my.app/textgen-webui/): 本地大模型网页界面
+- [SillyTavern官方下载](https://wan.is-my.app/sillytavern-download/): AI 角色扮演聊天前端
+- [Xinference官方下载](https://wan.is-my.app/xinference-download/): 企业级本地模型推理平台
+- [SGLang官方下载](https://wan.is-my.app/sglang-download/): 高性能大模型推理引擎
+- [n8n官方下载](https://wan.is-my.app/n8n-download/): AI 工作流自动化
+- [Flowise官方下载](https://wan.is-my.app/flowise-download/): 拖拽搭建 AI 应用
 - [大模型本地部署全套软件](https://wan.is-my.app/bendi-damoxing/): 大模型本地部署全套软件
 - [AI 软件怎么选](https://wan.is-my.app/ai-ruanjian-xuanze/): AI 软件怎么选
 
@@ -2230,6 +2266,222 @@
 网址: https://wan.is-my.app/deepl-download/
 说明: DeepL官方下载：DeepL 是以翻译质量著称的 AI 翻译工具，提供 Windows、Mac 桌面应用，Ctrl+C 两次即可翻译选中文本，也能翻译整…
 用法: 打开 DeepL 官方网站（deepl.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 扣子 Coze官网入口
+网址: https://wan.is-my.app/coze-download/
+说明: 扣子 Coze官网入口：扣子（Coze）是字节跳动的 AI 智能体开发平台，不写代码就能用插件、知识库、工作流搭建聊天机器人，并发布到豆包、飞书、微信公众…
+用法: 打开 扣子 Coze 官方网站（coze.cn），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Manus官网入口
+网址: https://wan.is-my.app/manus-download/
+说明: Manus官网入口：Manus 是通用型 AI 智能体，给它一个目标，它会自己规划步骤、浏览网页、写代码、生成文件，最后交付调研报告、网页或表格等成果。
+用法: 打开 Manus 官方网站（manus.im），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Genspark官网入口
+网址: https://wan.is-my.app/genspark-download/
+说明: Genspark官网入口：Genspark 是集 AI 搜索、AI 幻灯片、AI 表格、AI 文档和智能体于一体的工作空间，可以一句话生成 PPT 和调研…
+用法: 打开 Genspark 官方网站（genspark.ai），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Monica官网入口
+网址: https://wan.is-my.app/monica-download/
+说明: Monica官网入口：Monica 是一款浏览器插件和桌面 AI 助手，在任意网页上调用多种大模型聊天、翻译、总结网页和视频、改写文案。
+用法: 打开 Monica 官方网站（monica.im），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 商汤小浣熊官网入口
+网址: https://wan.is-my.app/xiaohuanxiong-download/
+说明: 商汤小浣熊官网入口：商汤小浣熊是商汤科技的 AI 办公助手，擅长上传 Excel 做数据分析和图表、读文档写报告，也有代码助手版本。
+用法: 打开 商汤小浣熊 官方网站（xiaohuanxiong.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Napkin AI官网入口
+网址: https://wan.is-my.app/napkin-download/
+说明: Napkin AI官网入口：Napkin AI 可以把一段文字自动变成流程图、对比图、思维图等信息图，适合做 PPT、文章配图。
+用法: 打开 Napkin AI 官方网站（napkin.ai），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 讯飞听见官网入口
+网址: https://wan.is-my.app/iflyrec-download/
+说明: 讯飞听见官网入口：讯飞听见是科大讯飞的语音转文字服务，可以上传录音或实时转写，自动区分说话人、生成会议纪要，也支持翻译和人工精转。
+用法: 打开 讯飞听见 官方网站（iflyrec.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 美图 WHEE官网入口
+网址: https://wan.is-my.app/whee-download/
+说明: 美图 WHEE官网入口：WHEE 是美图公司推出的 AI 绘画和图片编辑平台，支持文生图、图生图、AI 扩图、AI 消除和风格模型。
+用法: 打开 美图 WHEE 官方网站（whee.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 美图设计室官网入口
+网址: https://wan.is-my.app/designkit-download/
+说明: 美图设计室官网入口：美图设计室（DesignKit）是面向电商和自媒体的 AI 设计工具，提供 AI 商品图、一键抠图、海报模板和批量处理。
+用法: 打开 美图设计室 官方网站（designkit.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 稿定设计官网入口
+网址: https://wan.is-my.app/gaoding-download/
+说明: 稿定设计官网入口：稿定设计是在线平面设计平台，海量模板覆盖海报、电商、新媒体配图，内置 AI 抠图、AI 商品图、AI 文案等功能。
+用法: 打开 稿定设计 官方网站（gaoding.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 堆友官网入口
+网址: https://wan.is-my.app/duiyou-download/
+说明: 堆友官网入口：堆友是阿里巴巴旗下的设计平台，提供 AI 生图、AI 电商设计、3D 素材和设计师作品社区。
+用法: 打开 堆友 官方网站（d.design），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Ideogram官网入口
+网址: https://wan.is-my.app/ideogram-download/
+说明: Ideogram官网入口：Ideogram 是海外 AI 绘画工具，最大特点是能在图片里准确生成文字，适合做海报、Logo 和封面。
+用法: 打开 Ideogram 官方网站（ideogram.ai），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Recraft官网入口
+网址: https://wan.is-my.app/recraft-download/
+说明: Recraft官网入口：Recraft 是面向设计师的 AI 绘图工具，可以直接生成 SVG 矢量图、图标和统一风格的品牌插画。
+用法: 打开 Recraft 官方网站（recraft.ai），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Leonardo.Ai官网入口
+网址: https://wan.is-my.app/leonardo-download/
+说明: Leonardo.Ai官网入口：Leonardo.Ai 是海外 AI 图片和视频生成平台，模型风格丰富，适合游戏素材、角色设计和插画。
+用法: 打开 Leonardo.Ai 官方网站（leonardo.ai），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Krea官网入口
+网址: https://wan.is-my.app/krea-download/
+说明: Krea官网入口：Krea 是海外 AI 创作平台，支持边画边实时生成、图片超清放大、视频生成，还聚合了多家图片和视频模型。
+用法: 打开 Krea 官方网站（krea.ai），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## FLUX（Black Forest Labs）官网入口
+网址: https://wan.is-my.app/flux-bfl/
+说明: FLUX（Black Forest Labs）官网入口：FLUX 是 Black Forest Labs 推出的图像生成模型系列，部分模型开源可在 Com…
+用法: 打开 FLUX（Black Forest Labs） 官方网站（bfl.ai），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## HeyGen官网入口
+网址: https://wan.is-my.app/heygen-download/
+说明: HeyGen官网入口：HeyGen 是海外 AI 数字人视频平台，可以用照片或视频创建数字分身，输入文案生成口播视频，还能把视频翻译成多语言并对口型。
+用法: 打开 HeyGen 官方网站（heygen.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Hedra官网入口
+网址: https://wan.is-my.app/hedra-download/
+说明: Hedra官网入口：Hedra 是海外 AI 角色视频工具，上传一张人物图片和一段音频，就能生成表情自然、口型同步的说话视频。
+用法: 打开 Hedra 官方网站（hedra.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## OpenAI Codex官网入口
+网址: https://wan.is-my.app/openai-codex/
+说明: OpenAI Codex官网入口：Codex 是 OpenAI 的 AI 编程智能体，有命令行 CLI、IDE 插件、桌面 App 和云端版本，可以读懂代…
+用法: 打开 OpenAI Codex 官方网站（openai.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Gemini CLI官方下载
+网址: https://wan.is-my.app/gemini-cli/
+说明: Gemini CLI官方下载：Gemini CLI 是 Google 开源的终端 AI 助手，在命令行里用 Gemini 模型读代码、改代码、执行命令，支…
+用法: 打开 Gemini CLI 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Qwen Code官方下载
+网址: https://wan.is-my.app/qwen-code/
+说明: Qwen Code官方下载：Qwen Code 是通义千问团队开源的命令行 AI 编程工具，基于 Qwen3-Coder 等模型，可以在终端里理解和修改代…
+用法: 打开 Qwen Code 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Qoder官方下载
+网址: https://wan.is-my.app/qoder-download/
+说明: Qoder官方下载：Qoder 是阿里推出的 AI 编程 IDE，强调智能体自主完成开发任务，能理解整个代码库、拆解需求并自动编写和测试代码。
+用法: 打开 Qoder 官方网站（qoder.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Kiro官方下载
+网址: https://wan.is-my.app/kiro-download/
+说明: Kiro官方下载：Kiro 是亚马逊 AWS 推出的 AI 编程 IDE，先把需求整理成规格文档和任务清单，再由智能体逐步实现，适合中大型功能开发。
+用法: 打开 Kiro 官方网站（kiro.dev），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Zed官方下载
+网址: https://wan.is-my.app/zed-download/
+说明: Zed官方下载：Zed 是用 Rust 编写的高性能开源代码编辑器，启动快、支持多人协作，内置 AI 助手和智能体，可接入多家模型或本地 Ollama。
+用法: 打开 Zed 官方网站（zed.dev），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Bolt.new官网入口
+网址: https://wan.is-my.app/bolt-new/
+说明: Bolt.new官网入口：Bolt.new 是在浏览器里运行的 AI 开发工具，用自然语言描述需求就能生成可运行的网页应用，并一键部署。
+用法: 打开 Bolt.new 官方网站（bolt.new），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## v0官网入口
+网址: https://wan.is-my.app/v0-download/
+说明: v0官网入口：v0 是 Vercel 推出的 AI 应用生成工具，描述需求或上传设计图即可生成 React 网页界面和完整应用，可直接部署到 Vercel。
+用法: 打开 v0 官方网站（v0.app），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Lovable官网入口
+网址: https://wan.is-my.app/lovable-download/
+说明: Lovable官网入口：Lovable 是 AI 应用构建平台，用聊天的方式描述想要的网站或 App，自动生成前后端代码并上线，适合做原型和小项目。
+用法: 打开 Lovable 官方网站（lovable.dev），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Replit官网入口
+网址: https://wan.is-my.app/replit-download/
+说明: Replit官网入口：Replit 是在线编程平台，内置 Replit Agent，可以用自然语言生成并部署完整应用，也能直接在浏览器里写代码、运行。
+用法: 打开 Replit 官方网站（replit.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## LocalAI官方下载
+网址: https://wan.is-my.app/localai-download/
+说明: LocalAI官方下载：LocalAI 是开源的本地 AI 推理服务，提供和 OpenAI 一样的 API 接口，可以在自己的电脑或服务器上运行大模型、生…
+用法: 打开 LocalAI 官方网站（localai.io），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## KoboldCpp官方下载
+网址: https://wan.is-my.app/koboldcpp-download/
+说明: KoboldCpp官方下载：KoboldCpp 是基于 llama.cpp 的本地大模型运行工具，下载一个 exe 就能加载 GGUF 模型，自带网页界面…
+用法: 打开 KoboldCpp 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Text Generation WebUI官方下载
+网址: https://wan.is-my.app/textgen-webui/
+说明: Text Generation WebUI官方下载：Text Generation WebUI（原 text-generation-webui）是老牌开源…
+用法: 打开 Text Generation WebUI 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## SillyTavern官方下载
+网址: https://wan.is-my.app/sillytavern-download/
+说明: SillyTavern官方下载：SillyTavern（酒馆）是开源的 AI 聊天前端，可接入本地模型或各家 API，支持角色卡、世界书和丰富的扩展。
+用法: 打开 SillyTavern 官方网站（sillytavern.app），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Xinference官方下载
+网址: https://wan.is-my.app/xinference-download/
+说明: Xinference官方下载：Xinference（Xorbits Inference）是开源的模型推理平台，一条命令部署大模型、Embedding、Re…
+用法: 打开 Xinference 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## SGLang官方下载
+网址: https://wan.is-my.app/sglang-download/
+说明: SGLang官方下载：SGLang 是开源的高性能大模型推理框架，和 vLLM 类似，适合在 GPU 服务器上高并发部署 DeepSeek、Qwen 等模…
+用法: 打开 SGLang 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## n8n官方下载
+网址: https://wan.is-my.app/n8n-download/
+说明: n8n官方下载：n8n 是可自托管的工作流自动化工具，拖拽节点连接数百种应用，内置 AI 智能体节点，可以搭建自动回复、数据同步等 AI 流程。
+用法: 打开 n8n 官方网站（n8n.io），进入下载页面。 选择与你电脑系统对应的版本：。 双击 .dmg 把应用拖进「应用程序」文件夹，首次打开按提示授予所需权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Flowise官方下载
+网址: https://wan.is-my.app/flowise-download/
+说明: Flowise官方下载：Flowise 是开源的低代码 AI 应用搭建工具，拖拽节点就能组合大模型、知识库和工具，做出聊天机器人和智能体。
+用法: 打开 Flowise 官方网站（flowiseai.com），进入下载页面。 选择与你电脑系统对应的版本：。 双击 .dmg 把应用拖进「应用程序」文件夹，首次打开按提示授予所需权限。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## PowerToys官方下载
