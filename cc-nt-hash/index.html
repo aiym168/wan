@@ -19,7 +19,7 @@
 <h1>免费NTLM 哈希</h1>
 <p class="lead">计算 Windows NT 哈希。<strong>免费、免登录、浏览器本地运行</strong>。</p>
 <div class="tags"><span>免费</span><span>免登录</span><span>不限次数</span><span>浏览器本地计算</span><span>手机电脑都能用</span></div>
-<section class="box" id="app"><div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin:-6px 0 10px"><span class="note">下面就是NTLM 哈希，直接在框里使用</span><a class="btn ghost" style="height:36px" href="/cyberchef/#recipe=NT_Hash()" target="_blank" rel="noopener">全屏打开 ↗</a></div><iframe src="/cyberchef/#recipe=NT_Hash()" title="NTLM 哈希" loading="lazy" style="width:100%;height:78vh;min-height:620px;border:1px solid var(--line2);border-radius:var(--r-sm);background:var(--bg)" allow="clipboard-read; clipboard-write; camera"></iframe>
+<section class="box" id="app"><div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin:-6px 0 10px"><span class="note">下面就是NTLM 哈希，直接在框里使用</span><a class="btn ghost" style="height:36px" href="/cyberchef/#recipe=NT_Hash()" target="_blank" rel="noopener">全屏打开 ↗</a></div><div id="ccm" hidden><label>输入内容</label><textarea id="cci" placeholder="把要处理的文字粘贴到这里"></textarea><button class="btn" id="ccr">运行</button><button class="btn ghost" id="ccc">复制结果</button><p id="ccs" class="note"></p><label>结果</label><textarea id="cco" readonly></textarea><p class="note">手机版使用默认参数运行。需要修改参数、处理文件或组合多个步骤，请点「全屏打开」使用完整版（建议横屏或在电脑上使用）。</p></div><iframe id="suite" src="/cyberchef/#recipe=NT_Hash()" title="NTLM 哈希" loading="lazy" style="width:100%;height:78vh;min-height:620px;border:1px solid var(--line2);border-radius:var(--r-sm);background:var(--bg)" allow="clipboard-read; clipboard-write; camera"></iframe>
 <noscript><p class="err">这个免费工具需要开启浏览器的 JavaScript 才能使用。</p></noscript></section>
 <div class="ad" data-ad="content" aria-hidden="true"></div>
 <h2>怎么用NTLM 哈希</h2>
@@ -35,5 +35,16 @@
 <p>这个工具在你的浏览器里运行，文件和输入内容不会上传到服务器。本工具基于英国政府通信总部开源的 CyberChef（Apache-2.0）。</p>
 </div></footer>
 <script src="/assets/t.js"></script><script src="/assets/ads-config.js" defer></script><script src="/assets/ads.js" defer></script>
-<script></script>
+<script>(function(){var fr=$('#suite');if(!fr||!(window.MOB||innerWidth<760))return;
+$('#ccm').hidden=false;var SRC=fr.getAttribute('src');fr.removeAttribute('loading');fr.setAttribute('aria-hidden','true');fr.tabIndex=-1;
+fr.style.cssText='position:fixed;left:-3000px;top:0;width:1000px;height:700px;border:0;visibility:hidden';fr.src='about:blank';var loaded=false;
+function b64(s){return btoa(unescape(encodeURIComponent(s))).replace(/=+$/,'')}
+function out(){try{var e=fr.contentDocument.querySelector('#output-text .cm-content');return e?e.innerText:null}catch(x){return null}}
+function busy(){try{return fr.contentWindow.app.baking}catch(x){return true}}
+function wait(prev,t0,cb){var o=out();if(o!==null&&!busy()&&o!==prev&&o.trim())return setTimeout(function(){cb(out())},150);if(Date.now()-t0>40000)return cb(o);setTimeout(function(){wait(prev,t0,cb)},250)}
+$('#ccr').onclick=function(){var s=$('#cci').value,btn=this;$('#cco').value='';btn.disabled=true;
+ $('#ccs').textContent=loaded?'正在计算…':'首次使用需要加载组件（约 3MB），请稍候几秒…';var prev=loaded?out():null;
+ if(loaded){try{fr.contentWindow.app.manager.input.setInput(s)}catch(x){fr.src=SRC+'&input='+b64(s);prev=null}}else{fr.src=SRC+'&input='+b64(s);loaded=true}
+ wait(prev,Date.now(),function(o){btn.disabled=false;$('#cco').value=o||'';$('#ccs').textContent=(o&&o.trim())?'完成':'没有得到结果：请检查输入内容，或点「全屏打开」用完整版调整参数。'})};
+$('#ccc').onclick=function(){T.copy($('#cco').value,this)}})();</script>
 </body></html>

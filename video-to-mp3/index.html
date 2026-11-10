@@ -39,9 +39,12 @@
 <p>上传的文件只用于这次处理，结果在服务器上保存 2 小时后自动删除，不会公开、不会用于其他用途。语音识别基于开源模型 <a href="https://github.com/FunAudioLLM/SenseVoice">SenseVoice</a> 和 <a href="https://github.com/k2-fsa/sherpa-onnx">sherpa-onnx</a>，音视频处理基于 FFmpeg。</p>
 </div></footer>
 <script src="/assets/t.js"></script><script src="/assets/ads-config.js" defer></script><script src="/assets/ads.js" defer></script>
-<script>var TASKID='mp3';var BE=null,K='be_dl';function pick(){if(BE)return Promise.resolve(BE);var c=[];try{var s=localStorage.getItem(K);if(s)c.push(s)}catch(e){}c.push('https://aiym.dpdns.org');
- return Promise.all(['/live.json','https://aiym168.github.io/api/live.json'].map(function(u){return fetch(u+'?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){(d.urls||[]).concat(d.primary?[d.primary]:[],d.mirrors||[]).forEach(function(x){x=String(x).replace(/\/$/,'');if(c.indexOf(x)<0)c.push(x)})}).catch(function(){})})).then(function(){
- return new Promise(function(ok,no){var left=c.length,done=false;c.forEach(function(u){var ctl=window.AbortController?new AbortController():null;setTimeout(function(){ctl&&ctl.abort()},9000);fetch(u+'/dl/healthz',{cache:'no-store',signal:ctl&&ctl.signal}).then(function(r){if(!r.ok)throw 0;if(!done){done=true;BE=u;try{localStorage.setItem(K,u)}catch(e){}ok(u)}}).catch(function(){if(--left===0&&!done)no()})})})})}
+<script>var TASKID='mp3';var BE=null,K='be_dl',PRI='https://aiym.dpdns.org';
+function hz(u){var ctl=window.AbortController?new AbortController():null;setTimeout(function(){ctl&&ctl.abort()},9000);return fetch(u+'/dl/healthz',{cache:'no-store',signal:ctl&&ctl.signal}).then(function(r){if(!r.ok)throw 0;return u})}
+function any(l){return new Promise(function(ok,no){var left=l.length,done=false;if(!left)return no();l.forEach(function(u){hz(u).then(function(x){if(!done){done=true;ok(x)}}).catch(function(){if(--left===0&&!done)no()})})})}
+function pick(){if(BE)return Promise.resolve(BE);var c=[PRI];try{var s=localStorage.getItem(K);if(s&&s!==PRI)c.unshift(s)}catch(e){}
+ return any(c).catch(function(){var more=[];return Promise.all(['/live.json','https://aiym168.github.io/api/live.json'].map(function(u){return fetch(u+'?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){(d.urls||[]).concat(d.primary?[d.primary]:[],d.mirrors||[]).forEach(function(x){x=String(x).replace(/\/$/,'');if(c.indexOf(x)<0&&more.indexOf(x)<0)more.push(x)})}).catch(function(){})})).then(function(){return any(more)})})
+ .then(function(u){BE=u;try{localStorage.setItem(K,u)}catch(e){}return u})}
 function e(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
 var TASK=document.currentScript?0:0,JOB=null,BASE=null;
 $('#m1').onclick=function(){$('#pf').hidden=false;$('#pl').hidden=true;$('#m1').className='btn';$('#m2').className='btn ghost'};

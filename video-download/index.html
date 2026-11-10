@@ -37,9 +37,12 @@
 <p>视频解析由服务器完成，不保存任何视频文件。视频解析部分基于开源项目 <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a>（Unlicense）。</p>
 </div></footer>
 <script src="/assets/t.js"></script><script src="/assets/ads-config.js" defer></script><script src="/assets/ads.js" defer></script>
-<script>var BE=null,K='be_dl';function pick(){if(BE)return Promise.resolve(BE);var c=[];try{var s=localStorage.getItem(K);if(s)c.push(s)}catch(e){}c.push('https://aiym.dpdns.org');
- return Promise.all(['/live.json','https://aiym168.github.io/api/live.json'].map(function(u){return fetch(u+'?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){(d.urls||[]).concat(d.primary?[d.primary]:[],d.mirrors||[]).forEach(function(x){x=String(x).replace(/\/$/,'');if(c.indexOf(x)<0)c.push(x)})}).catch(function(){})})).then(function(){
- return new Promise(function(ok,no){var left=c.length,done=false;c.forEach(function(u){var ctl=window.AbortController?new AbortController():null;setTimeout(function(){ctl&&ctl.abort()},9000);fetch(u+'/dl/healthz',{cache:'no-store',signal:ctl&&ctl.signal}).then(function(r){if(!r.ok)throw 0;if(!done){done=true;BE=u;try{localStorage.setItem(K,u)}catch(e){}ok(u)}}).catch(function(){if(--left===0&&!done)no()})})})})}
+<script>var BE=null,K='be_dl',PRI='https://aiym.dpdns.org';
+function hz(u){var ctl=window.AbortController?new AbortController():null;setTimeout(function(){ctl&&ctl.abort()},9000);return fetch(u+'/dl/healthz',{cache:'no-store',signal:ctl&&ctl.signal}).then(function(r){if(!r.ok)throw 0;return u})}
+function any(l){return new Promise(function(ok,no){var left=l.length,done=false;if(!left)return no();l.forEach(function(u){hz(u).then(function(x){if(!done){done=true;ok(x)}}).catch(function(){if(--left===0&&!done)no()})})})}
+function pick(){if(BE)return Promise.resolve(BE);var c=[PRI];try{var s=localStorage.getItem(K);if(s&&s!==PRI)c.unshift(s)}catch(e){}
+ return any(c).catch(function(){var more=[];return Promise.all(['/live.json','https://aiym168.github.io/api/live.json'].map(function(u){return fetch(u+'?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){(d.urls||[]).concat(d.primary?[d.primary]:[],d.mirrors||[]).forEach(function(x){x=String(x).replace(/\/$/,'');if(c.indexOf(x)<0&&more.indexOf(x)<0)more.push(x)})}).catch(function(){})})).then(function(){return any(more)})})
+ .then(function(u){BE=u;try{localStorage.setItem(K,u)}catch(e){}return u})}
 function e(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
 function fname(d,ext){return (String(d.title||d.platform||'video').replace(/[\\\/:*?"<>|#\s]+/g,' ').trim().slice(0,40)||'video')+'.'+(ext||'mp4')}
 function go(){var t=$('#i').value.trim();if(!t){$('#st').textContent='请先粘贴链接';return}$('#st').textContent='正在连接解析服务器…';$('#o').innerHTML='';
@@ -51,6 +54,8 @@ function go(){var t=$('#i').value.trim();if(!t){$('#st').textContent='请先粘�
   if(d.audio)h+='<a class="btn ghost" href="'+u+'/dl/api/file?u='+encodeURIComponent(d.audio)+'&name='+encodeURIComponent(fname(d,'mp3'))+'">下载音频 / 背景音乐</a>';
   if(d.cover)h+='<a class="btn ghost" href="'+u+'/dl/api/file?u='+encodeURIComponent(d.cover)+'&name='+encodeURIComponent(fname(d,'jpg'))+'">下载封面</a>';
   h+='<button class="btn ghost" id="ct">复制文案</button>';
+  if((d.videos||[]).length&&window.MOB)h+='<video class="pv" controls playsinline preload="none" poster="'+(d.cover?u+'/dl/api/file?u='+encodeURIComponent(d.cover):'')+'" src="'+u+'/dl/api/file?u='+encodeURIComponent(d.videos[0].url)+'"></video>';
+  h+='<div class="mtip">'+(window.INAPP?'<b>微信 / QQ 里无法直接下载：</b>请点右上角「···」→「在浏览器打开」，再点「下载」。<br>':'')+'<b>手机保存到相册：</b>安卓点「下载」后在通知栏或「文件管理 → Download」里找到视频，打开后可「保存到相册」；iPhone 用 Safari 点「下载」，在「文件」App →「下载」里打开视频，点分享 →「存储视频」。也可以播放上方视频后<b>长按 / 点右下角菜单</b>直接保存。'+((d.images||[]).length?'<br><b>图集：</b>长按图片即可保存到相册。':'')+'</div>';
   if((d.images||[]).length){h+='<h3>图集（'+d.images.length+' 张）</h3><div class="list">'+d.images.map(function(x,i){return '<div class="it"><img src="'+e(x)+'" referrerpolicy="no-referrer"><a class="btn ghost" href="'+u+'/dl/api/file?u='+encodeURIComponent(x)+'&name='+encodeURIComponent(fname(d,'jpg').replace('.jpg','-'+(i+1)+'.jpg'))+'">下载</a></div>'}).join('')+'</div>'}
   h+='</div></div>';$('#o').innerHTML=h;var ct=$('#ct');if(ct)ct.onclick=function(){T.copy(d.title||'',ct)}})}).catch(function(){$('#st').innerHTML='<span class="err">解析服务器正在休息或更换地址，通常几分钟内恢复，请稍后再试。</span>'})}
 $('#go').onclick=go;$('#pa').onclick=function(){navigator.clipboard&&navigator.clipboard.readText().then(function(t){$('#i').value=t;go()}).catch(function(){$('#i').focus()})};

@@ -1,4 +1,10 @@
-window.$=function(s,r){return (r||document).querySelector(s)};window.$$=function(s,r){return Array.from((r||document).querySelectorAll(s))};
+window.$=function(s,r){return (r||document).querySelector(s)};
+window.MOB=/Android|iPhone|iPad|iPod|Mobile|HarmonyOS/i.test(navigator.userAgent)||matchMedia('(pointer:coarse)').matches;
+window.INAPP=/MicroMessenger|QQ\/|Weibo|DingTalk|Lark|aweme|NewsArticle/i.test(navigator.userAgent);
+document.addEventListener('DOMContentLoaded',function(){
+ if(INAPP){var w=document.createElement('div');w.className='wxtip';w.textContent='当前在 App 内置浏览器中，可能无法下载或保存文件：请点右上角「···」→「在浏览器打开」';document.body.insertBefore(w,document.body.firstChild)}
+ if(MOB)$$('.drop b').forEach(function(b){b.textContent=b.textContent.replace(/点击选择、拖入或粘贴|点击选择或拖入/,'点击从相册、相机或文件选择')});
+});window.$$=function(s,r){return Array.from((r||document).querySelectorAll(s))};
 window.T={
  drop:function(el,input,cb){el.addEventListener('click',function(){input.click()});
   ['dragenter','dragover'].forEach(function(e){el.addEventListener(e,function(v){v.preventDefault();el.classList.add('on')})});
