@@ -4,7 +4,7 @@
 
 - 工具列表（JSON）: https://wan.is-my.app/api/tools.json
 - 服务器接口（OpenAPI）: https://wan.is-my.app/api/openapi.json
-- 命令行: https://wan.is-my.app/cli/gjz.py
+- 命令行: https://wan.is-my.app/cli/gjz.py（源码：https://github.com/aiym168/gjz）
 - 接入说明: https://wan.is-my.app/agent/
 - MCP（Streamable HTTP）: https://aiym.dpdns.org/dl/mcp
 

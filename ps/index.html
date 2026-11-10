@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+<title>免费在线PS - 网页版PS图片编辑器 - 工具站大全</title><meta name="description" content="免费在线 PS：打开网页就能用的图片编辑器，支持图层、抠图魔棒、裁剪、调色、滤镜、文字、马赛克、去背景，中文界面，免下载免登录，图片不上传。"><meta name="keywords" content="在线ps,ps在线,免费在线ps,网页版ps,在线图片编辑器,在线修图,ps网页版免费">
+<link rel="canonical" href="https://wan.is-my.app/ps/"><meta name="applicable-device" content="pc,mobile"><meta http-equiv="Cache-Control" content="no-transform">
+<meta property="og:title" content="免费在线PS - 网页版PS图片编辑器 - 工具站大全"><meta property="og:description" content="免费在线 PS：打开网页就能用的图片编辑器，支持图层、抠图魔棒、裁剪、调色、滤镜、文字、马赛克、去背景，中文界面，免下载免登录，图片不上传。"><meta property="og:url" content="https://wan.is-my.app/ps/"><meta property="og:site_name" content="工具站大全">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#0a0b0c">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"免费在线PS","url":"https://wan.is-my.app/ps/","applicationCategory":"MultimediaApplication","operatingSystem":"Web","inLanguage":"zh-CN","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"}}</script>
+<script>if(document.cookie.indexOf('config=')<0)document.cookie='config={"language":"zh","theme":"dark"}; expires='+new Date(Date.now()+180*864e5).toGMTString();</script>
+<style>.submenu .logo{font-size:0!important}.submenu .logo::after{content:"在线PS";font-size:16px}body>.gz-foot{display:none!important}.main_menu>ul>li>a{white-space:nowrap}body>.gzh.gz-bar{position:fixed!important;top:0!important;left:0;right:0}.gz-bar~.wrapper{top:61px!important;transform:translateZ(0)}@media(max-width:900px){.gz-bar~.wrapper{top:57px!important}.gz-bar~.mobile_menu{top:57px!important}}</style>
+<script src="dist/bundle.js"></script><script src="/assets/gz-chrome.js" defer></script>
+</head>
+<body>
+	<div class="wrapper">
+
+		<nav aria-label="Main Menu" class="main_menu" id="main_menu"></nav>
+		
+		<div class="submenu">
+			<a class="logo" href="#">miniPaint</a>
+			<div class="block attributes" id="action_attributes"></div>
+			<button class="undo_button" id="undo_button" type="button">
+				<span class="sr_only">Undo</span>
+			</button>
+		</div>
+		
+		<div class="sidebar_left" id="tools_container"></div>
+
+
+		<div class="middle_area" id="middle_area">
+
+			<canvas class="ruler_left" id="ruler_left"></canvas>
+			<canvas class="ruler_top" id="ruler_top"></canvas>
+
+			<div class="main_wrapper" id="main_wrapper">
+				<div class="canvas_wrapper" id="canvas_wrapper">
+					<div id="mouse"></div>
+					<div class="transparent-grid" id="canvas_minipaint_background"></div>
+					<canvas id="canvas_minipaint">
+						<div class="trn error">
+							Your browser does not support canvas or JavaScript is not enabled.
+						</div>
+					</canvas>
+				</div>
+			</div>
+		</div>
+
+		<div class="sidebar_right">
+			<div class="preview block">
+				<h2 class="trn toggle" data-target="toggle_preview">Preview</h2>
+				<div id="toggle_preview"></div>
+			</div>
+			
+			<div class="colors block">
+				<h2 class="trn toggle" data-target="toggle_colors">Colors</h2>
+				<div class="content" id="toggle_colors"></div>
+			</div>
+			
+			<div class="block" id="info_base">
+				<h2 class="trn toggle toggle-full" data-target="toggle_info">Information</h2>
+				<div class="content" id="toggle_info"></div>
+			</div>
+			
+			<div class="details block" id="details_base">
+				<h2 class="trn toggle toggle-full" data-target="toggle_details">Layer details</h2>
+				<div class="content details-content" id="toggle_details"></div>
+			</div>
+			
+			<div class="layers block">
+				<h2 class="trn">Layers</h2>
+				<div class="content" id="layers_base"></div>
+			</div>
+		</div>
+	</div>
+	<div class="mobile_menu">
+		<button class="left_mobile_menu" id="left_mobile_menu_button" type="button">
+			<span class="sr_only">Toggle Menu</span>
+		</button>
+		<button class="right_mobile_menu" id="mobile_menu_button" type="button">
+			<span class="sr_only">Toggle Menu</span>
+		</button>
+	</div>
+	<div class="hidden" id="tmp"></div>
+	<div id="popups"></div>
+</body>
+</html>
