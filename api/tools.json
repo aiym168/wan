@@ -1,7 +1,7 @@
 {
  "name": "工具站大全",
  "url": "https://wan.is-my.app/gongju/",
- "count": 546,
+ "count": 554,
  "note": "全部免费；runs=browser 的工具在网页里本地运行，runs=server 的工具可通过 OpenAPI 调用。服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。",
  "openapi": "https://wan.is-my.app/api/openapi.json",
  "tools": [
@@ -39,10 +39,21 @@
    "free": true
   },
   {
+   "slug": "kuaishou-download",
+   "name": "快手无水印下载",
+   "category": "视频下载",
+   "description": "免费快手无水印视频下载：粘贴快手分享链接或整段分享文字，一键解析无水印原画视频和封面，支持 v.kuaishou.com 短链，免登录不限次数。",
+   "keywords": "快手无水印下载,快手去水印,快手视频下载,快手解析,快手视频去水印在线,快手作品下载",
+   "url": "https://wan.is-my.app/kuaishou-download/",
+   "runs": "server",
+   "api": "/dl/api/parse",
+   "free": true
+  },
+  {
    "slug": "video-download",
    "name": "万能视频解析下载",
    "category": "视频下载",
-   "description": "免费万能视频解析下载：支持抖音、X/Twitter、B站、微博、Vimeo、Reddit 等上千个网站，粘贴链接解析视频直接下载，免登录。",
+   "description": "免费万能视频解析下载：支持抖音、快手、X/Twitter、B站、微博、Vimeo 等上千个网站，粘贴链接解析视频直接下载，免登录。",
    "keywords": "视频解析,视频下载,短视频去水印,万能视频下载器,微博视频下载,在线视频下载",
    "url": "https://wan.is-my.app/video-download/",
    "runs": "server",
@@ -232,6 +243,83 @@
    "description": "免费 PDF 转 Word 在线转换：把 PDF 文字按段落转成可编辑的 Word（.docx）文档，保留分页和标题，本地处理不上传，免登录无水印。",
    "keywords": "pdf转word,pdf转word免费,pdf转换成word,pdf转docx,pdf转word在线免费,pdf转可编辑文档",
    "url": "https://wan.is-my.app/pdf-to-word/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "image-ocr",
+   "name": "图片文字识别 OCR",
+   "category": "图片工具",
+   "description": "免费在线 OCR 图片文字识别：截图、照片、扫描件里的中文和英文一键转成可复制的文字，在浏览器本地识别不上传，免登录、不限次数。",
+   "keywords": "图片转文字,ocr文字识别,图片文字识别,在线ocr,截图转文字,照片提取文字,免费ocr",
+   "url": "https://wan.is-my.app/image-ocr/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "pdf-watermark",
+   "name": "PDF 加水印",
+   "category": "PDF 工具",
+   "description": "免费在线 PDF 加水印：给 PDF 每一页添加中文或英文文字水印，可调透明度、角度、大小和平铺，防止资料被盗用，本地处理不上传，免登录。",
+   "keywords": "pdf加水印,pdf添加水印,pdf水印在线,给pdf加水印,pdf文字水印,免费pdf加水印",
+   "url": "https://wan.is-my.app/pdf-watermark/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "pdf-compress",
+   "name": "PDF 压缩",
+   "category": "PDF 工具",
+   "description": "免费在线 PDF 压缩：把扫描件、图片型 PDF 压缩到原来的几分之一，可选清晰度，方便上传报名系统和微信发送，本地处理不上传，免登录无水印。",
+   "keywords": "pdf压缩,pdf压缩在线,pdf文件太大怎么压缩,压缩pdf大小,pdf减小体积,免费pdf压缩",
+   "url": "https://wan.is-my.app/pdf-compress/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "heic-to-jpg",
+   "name": "HEIC 转 JPG",
+   "category": "图片工具",
+   "description": "免费 HEIC 转 JPG 在线转换：iPhone 拍的 HEIC/HEIF 照片批量转成 JPG 或 PNG，电脑安卓都能打开，本地转换不上传，免登录无水印。",
+   "keywords": "heic转jpg,heic转换jpg,heic格式转换,苹果照片转jpg,heif转jpg,heic转png,iphone照片格式转换",
+   "url": "https://wan.is-my.app/heic-to-jpg/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "remove-bg",
+   "name": "人像抠图",
+   "category": "图片工具",
+   "description": "免费在线 AI 抠图：上传人像照片自动识别人物，一键去掉背景生成透明 PNG，或换成白底、蓝底、红底，浏览器本地处理不上传，免登录、无水印。",
+   "keywords": "在线抠图,免费抠图,一键抠图,人像抠图,去背景,ai抠图,透明背景,照片换背景",
+   "url": "https://wan.is-my.app/remove-bg/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "id-photo-maker",
+   "name": "证件照制作",
+   "category": "图片工具",
+   "description": "免费在线证件照制作：任意背景的自拍照，AI 自动抠出人像，换成白底、蓝底、红底，裁成一寸、二寸、身份证、签证等标准尺寸，还能排版打印，不上传、无水印。",
+   "keywords": "证件照制作,免费证件照,证件照换底色,一寸照片,二寸照片,证件照在线制作,蓝底证件照,白底证件照",
+   "url": "https://wan.is-my.app/id-photo-maker/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "image-grid",
+   "name": "九宫格切图",
+   "category": "图片工具",
+   "description": "免费在线九宫格切图：一张图片切成九宫格、四宫格、横向三连图，发朋友圈、微博、小红书拼成完整大图，打包下载，本地处理不上传，免登录无水印。",
+   "keywords": "九宫格切图,朋友圈九宫格,九宫格图片制作,图片切割,四宫格切图,图片分割在线,九宫格拼图",
+   "url": "https://wan.is-my.app/image-grid/",
    "runs": "browser",
    "api": null,
    "free": true

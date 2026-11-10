@@ -15,6 +15,7 @@
 - [抖音无水印下载](https://wan.is-my.app/douyin-download/): 抖音视频、图集无水印解析
 - [X / Twitter 视频下载](https://wan.is-my.app/x-video-download/): 推特视频、GIF 高清下载
 - [B站视频下载](https://wan.is-my.app/bilibili-download/): 哔哩哔哩视频 MP4 下载
+- [快手无水印下载](https://wan.is-my.app/kuaishou-download/): 快手视频无水印解析
 - [万能视频解析下载](https://wan.is-my.app/video-download/): 微博、Vimeo 等上千网站
 
 ## 自媒体工具
@@ -34,6 +35,11 @@
 - [图片改尺寸](https://wan.is-my.app/image-resize/): 按像素或百分比改大小
 - [图片裁剪](https://wan.is-my.app/image-crop/): 按 1:1、4:3、一寸照比例裁剪
 - [证件照换底色](https://wan.is-my.app/id-photo/): 白底、蓝底、红底一键换
+- [图片文字识别 OCR](https://wan.is-my.app/image-ocr/): 截图、照片转文字
+- [HEIC 转 JPG](https://wan.is-my.app/heic-to-jpg/): 苹果照片转 JPG
+- [人像抠图](https://wan.is-my.app/remove-bg/): AI 一键去背景、换背景
+- [证件照制作](https://wan.is-my.app/id-photo-maker/): AI 抠图换底色、标准尺寸
+- [九宫格切图](https://wan.is-my.app/image-grid/): 朋友圈九宫格、长图切分
 - [摄像机记录器](https://wan.is-my.app/camera-recorder/): 从网络摄像头或照相机拍摄照片或录制视频
 - [二维码生成（高级）](https://wan.is-my.app/qrcode-generator/): 生成网址或文字二维码，可自定义前景色、背景
 - [SVG 占位符生成器](https://wan.is-my.app/svg-placeholder-generator/): 生成 svg 图像以用作应用程序中的占位符
@@ -66,6 +72,8 @@
 - [PDF 转图片](https://wan.is-my.app/pdf-to-image/): PDF 每页转成 JPG/PNG
 - [图片转 PDF](https://wan.is-my.app/image-to-pdf/): 多张照片合成一个 PDF
 - [PDF 转 Word](https://wan.is-my.app/pdf-to-word/): PDF 文字转成可编辑 Word
+- [PDF 加水印](https://wan.is-my.app/pdf-watermark/): 给 PDF 每页加文字水印
+- [PDF 压缩](https://wan.is-my.app/pdf-compress/): PDF 变小，方便上传发送
 - [压缩PDF](https://wan.is-my.app/pdf-compress-pdf/): 使用 Ghostscript 减小 PDF
 - [将图像转换为 PDF](https://wan.is-my.app/pdf-convert-to-pdf/): 将各种图像格式（PNG, GIF, JPG
 - [PDF 在线编辑器](https://wan.is-my.app/pdf-editor/): 在 PDF 上添加文字、图片、签名和标注

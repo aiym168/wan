@@ -27,6 +27,15 @@
 "url": "/bilibili-download/"
 },
 {
+"slug": "kuaishou-download",
+"name": "快手无水印下载",
+"short": "快手视频无水印解析",
+"cat": "video",
+"title": "免费快手无水印下载 - 快手视频去水印解析",
+"keywords": "快手无水印下载,快手去水印,快手视频下载,快手解析,快手视频去水印在线,快手作品下载",
+"url": "/kuaishou-download/"
+},
+{
 "slug": "video-download",
 "name": "万能视频解析下载",
 "short": "微博、Vimeo 等上千网站",
@@ -194,6 +203,76 @@
 "title": "免费PDF转Word - 在线PDF转换成Word文档",
 "keywords": "pdf转word,pdf转word免费,pdf转换成word,pdf转docx,pdf转word在线免费,pdf转可编辑文档",
 "url": "/pdf-to-word/",
+"new": true
+},
+{
+"slug": "image-ocr",
+"name": "图片文字识别 OCR",
+"short": "截图、照片转文字",
+"cat": "image",
+"title": "免费图片转文字 - 在线OCR文字识别 中英文",
+"keywords": "图片转文字,ocr文字识别,图片文字识别,在线ocr,截图转文字,照片提取文字,免费ocr",
+"url": "/image-ocr/",
+"new": true
+},
+{
+"slug": "pdf-watermark",
+"name": "PDF 加水印",
+"short": "给 PDF 每页加文字水印",
+"cat": "pdf",
+"title": "免费PDF加水印 - 在线给PDF添加文字水印",
+"keywords": "pdf加水印,pdf添加水印,pdf水印在线,给pdf加水印,pdf文字水印,免费pdf加水印",
+"url": "/pdf-watermark/",
+"new": true
+},
+{
+"slug": "pdf-compress",
+"name": "PDF 压缩",
+"short": "PDF 变小，方便上传发送",
+"cat": "pdf",
+"title": "免费PDF压缩 - 在线压缩PDF文件大小",
+"keywords": "pdf压缩,pdf压缩在线,pdf文件太大怎么压缩,压缩pdf大小,pdf减小体积,免费pdf压缩",
+"url": "/pdf-compress/",
+"new": true
+},
+{
+"slug": "heic-to-jpg",
+"name": "HEIC 转 JPG",
+"short": "苹果照片转 JPG",
+"cat": "image",
+"title": "免费HEIC转JPG - 苹果手机照片格式在线转换",
+"keywords": "heic转jpg,heic转换jpg,heic格式转换,苹果照片转jpg,heif转jpg,heic转png,iphone照片格式转换",
+"url": "/heic-to-jpg/",
+"new": true
+},
+{
+"slug": "remove-bg",
+"name": "人像抠图",
+"short": "AI 一键去背景、换背景",
+"cat": "image",
+"title": "免费在线抠图 - AI人像抠图 一键去背景",
+"keywords": "在线抠图,免费抠图,一键抠图,人像抠图,去背景,ai抠图,透明背景,照片换背景",
+"url": "/remove-bg/",
+"new": true
+},
+{
+"slug": "id-photo-maker",
+"name": "证件照制作",
+"short": "AI 抠图换底色、标准尺寸",
+"cat": "image",
+"title": "免费证件照制作 - 在线换底色 一寸二寸",
+"keywords": "证件照制作,免费证件照,证件照换底色,一寸照片,二寸照片,证件照在线制作,蓝底证件照,白底证件照",
+"url": "/id-photo-maker/",
+"new": true
+},
+{
+"slug": "image-grid",
+"name": "九宫格切图",
+"short": "朋友圈九宫格、长图切分",
+"cat": "image",
+"title": "免费九宫格切图 - 朋友圈九宫格图片在线制作",
+"keywords": "九宫格切图,朋友圈九宫格,九宫格图片制作,图片切割,四宫格切图,图片分割在线,九宫格拼图",
+"url": "/image-grid/",
 "new": true
 },
 {

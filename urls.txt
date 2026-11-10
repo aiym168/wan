@@ -3,6 +3,7 @@ https://wan.is-my.app/gongju/
 https://wan.is-my.app/douyin-download/
 https://wan.is-my.app/x-video-download/
 https://wan.is-my.app/bilibili-download/
+https://wan.is-my.app/kuaishou-download/
 https://wan.is-my.app/video-download/
 https://wan.is-my.app/video-to-text/
 https://wan.is-my.app/audio-to-text/
@@ -21,6 +22,13 @@ https://wan.is-my.app/pdf-split/
 https://wan.is-my.app/pdf-to-image/
 https://wan.is-my.app/image-to-pdf/
 https://wan.is-my.app/pdf-to-word/
+https://wan.is-my.app/image-ocr/
+https://wan.is-my.app/pdf-watermark/
+https://wan.is-my.app/pdf-compress/
+https://wan.is-my.app/heic-to-jpg/
+https://wan.is-my.app/remove-bg/
+https://wan.is-my.app/id-photo-maker/
+https://wan.is-my.app/image-grid/
 https://wan.is-my.app/word-count/
 https://wan.is-my.app/fanjian/
 https://wan.is-my.app/pinyin/
