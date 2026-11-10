@@ -420,6 +420,176 @@
 "url": "/random/"
 },
 {
+"slug": "wannianli",
+"name": "万年历",
+"short": "农历、黄历、节假日调休",
+"cat": "life",
+"title": "免费万年历 - 农历黄历查询 节假日调休日历",
+"keywords": "万年历,农历,黄历,老黄历,万年历查询,农历查询,今天农历几号,节假日安排,调休,黄道吉日,日历",
+"url": "/wannianli/",
+"new": true
+},
+{
+"slug": "qinqi",
+"name": "亲戚称呼计算器",
+"short": "三姑六婆该怎么叫",
+"cat": "life",
+"title": "免费亲戚称呼计算器 - 亲戚关系称谓查询",
+"keywords": "亲戚称呼计算器,亲戚关系计算器,称呼计算器,三姑六婆称呼,亲戚怎么称呼,表哥表姐怎么叫,七大姑八大姨",
+"url": "/qinqi/",
+"new": true
+},
+{
+"slug": "tuixiu",
+"name": "退休年龄计算器",
+"short": "2025 渐进式延迟退休",
+"cat": "calc",
+"title": "免费退休年龄计算器 - 延迟退休时间查询2025新规",
+"keywords": "退休年龄计算器,延迟退休计算器,退休时间计算,延迟退休年龄对照表,2025延迟退休,我什么时候退休,渐进式延迟退休",
+"url": "/tuixiu/",
+"new": true
+},
+{
+"slug": "zhuanpan",
+"name": "大转盘抽奖",
+"short": "自定义转盘，帮你做决定",
+"cat": "life",
+"title": "免费大转盘抽奖 - 在线转盘 今天吃什么转盘",
+"keywords": "大转盘,转盘抽奖,在线转盘,幸运大转盘,今天吃什么转盘,随机转盘,抽奖转盘,做决定转盘",
+"url": "/zhuanpan/",
+"new": true
+},
+{
+"slug": "fenzu",
+"name": "随机分组",
+"short": "名单一键随机分组",
+"cat": "life",
+"title": "免费随机分组工具 - 在线名单随机分组器",
+"keywords": "随机分组,随机分组工具,在线分组,分组器,名单随机分组,随机分队,抽签分组",
+"url": "/fenzu/",
+"new": true
+},
+{
+"slug": "jianpan-ceshi",
+"name": "键盘测试",
+"short": "检测按键是否失灵",
+"cat": "life",
+"title": "免费键盘测试 - 在线键盘按键检测工具",
+"keywords": "键盘测试,键盘检测,键盘测试工具,在线键盘测试,键盘按键测试,键盘失灵检测,键盘连击测试",
+"url": "/jianpan-ceshi/",
+"new": true
+},
+{
+"slug": "huaidian",
+"name": "屏幕坏点检测",
+"short": "纯色全屏查坏点亮点",
+"cat": "life",
+"title": "免费屏幕坏点检测 - 在线显示器坏点漏光测试",
+"keywords": "屏幕坏点检测,坏点检测,显示器坏点测试,屏幕亮点检测,漏光测试,手机屏幕坏点检测,验机",
+"url": "/huaidian/",
+"new": true
+},
+{
+"slug": "luping",
+"name": "在线录屏",
+"short": "电脑屏幕录制带声音",
+"cat": "avtool",
+"title": "免费在线录屏 - 电脑屏幕录制工具 免安装",
+"keywords": "在线录屏,录屏软件,电脑录屏,屏幕录制,免费录屏,录屏工具,网页录屏,录屏无水印",
+"url": "/luping/",
+"new": true
+},
+{
+"slug": "luyin",
+"name": "在线录音",
+"short": "网页录音，导出 WAV",
+"cat": "avtool",
+"title": "免费在线录音 - 网页录音机 录音导出WAV",
+"keywords": "在线录音,录音机,网页录音,在线录音机,电脑录音,录音软件,麦克风录音,录音转wav",
+"url": "/luyin/",
+"new": true
+},
+{
+"slug": "shexiangtou-ceshi",
+"name": "摄像头测试",
+"short": "检测摄像头能否正常使用",
+"cat": "avtool",
+"title": "免费摄像头测试 - 在线检测摄像头 画面分辨率",
+"keywords": "摄像头测试,摄像头检测,在线摄像头测试,电脑摄像头测试,摄像头怎么打开,webcam测试,摄像头分辨率",
+"url": "/shexiangtou-ceshi/",
+"new": true
+},
+{
+"slug": "maikefeng-ceshi",
+"name": "麦克风测试",
+"short": "检测麦克风有没有声音",
+"cat": "avtool",
+"title": "免费麦克风测试 - 在线检测麦克风有没有声音",
+"keywords": "麦克风测试,麦克风检测,在线麦克风测试,麦克风没声音,耳机麦克风测试,话筒测试,mic测试",
+"url": "/maikefeng-ceshi/",
+"new": true
+},
+{
+"slug": "tupian-pinjie",
+"name": "图片拼接",
+"short": "多图拼长图、拼九宫格",
+"cat": "image",
+"title": "免费图片拼接 - 在线拼长图 多张图片合成一张",
+"keywords": "图片拼接,拼长图,长图拼接,图片合成一张,多张图片拼接,拼图,九宫格拼图,截图拼接",
+"url": "/tupian-pinjie/",
+"new": true
+},
+{
+"slug": "wenzi-zhuan-yuyin",
+"name": "文字转语音朗读",
+"short": "输入文字在线朗读",
+"cat": "text",
+"title": "免费文字转语音 - 在线文字朗读 TTS",
+"keywords": "文字转语音,文字朗读,在线朗读,文本转语音,tts,语音合成,文字转声音,朗读软件",
+"url": "/wenzi-zhuan-yuyin/",
+"new": true
+},
+{
+"slug": "chedai",
+"name": "车贷计算器",
+"short": "首付、月供、购置税",
+"cat": "calc",
+"title": "免费车贷计算器 - 买车贷款月供首付计算",
+"keywords": "车贷计算器,汽车贷款计算器,车贷月供计算,买车首付计算,购置税计算,车贷利息计算,新能源购置税",
+"url": "/chedai/",
+"new": true
+},
+{
+"slug": "cunkuan-lixi",
+"name": "存款利息计算器",
+"short": "定期活期利息、到期本息",
+"cat": "calc",
+"title": "免费存款利息计算器 - 银行定期活期利息计算",
+"keywords": "存款利息计算器,利息计算器,定期存款利息计算,银行利息计算,大额存单利息,活期利息计算,复利计算器",
+"url": "/cunkuan-lixi/",
+"new": true
+},
+{
+"slug": "wuxian-yijin",
+"name": "五险一金计算器",
+"short": "社保公积金、税后工资",
+"cat": "calc",
+"title": "免费五险一金计算器 - 税后工资 社保公积金计算",
+"keywords": "五险一金计算器,税后工资计算器,社保计算器,公积金计算器,到手工资计算,工资计算器,社保缴费计算",
+"url": "/wuxian-yijin/",
+"new": true
+},
+{
+"slug": "nianzhongjiang",
+"name": "年终奖个税计算器",
+"short": "单独计税还是合并计税",
+"cat": "calc",
+"title": "免费年终奖个税计算器 - 单独计税合并计税对比",
+"keywords": "年终奖个税计算器,年终奖计税,年终奖怎么扣税,年终奖单独计税,全年一次性奖金,年终奖临界点,奖金个税计算",
+"url": "/nianzhongjiang/",
+"new": true
+},
+{
 "slug": "json",
 "name": "JSON 格式化",
 "short": "JSON 美化、压缩、校验",

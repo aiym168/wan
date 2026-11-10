@@ -40,6 +40,7 @@
 - [人像抠图](https://wan.is-my.app/remove-bg/): AI 一键去背景、换背景
 - [证件照制作](https://wan.is-my.app/id-photo-maker/): AI 抠图换底色、标准尺寸
 - [九宫格切图](https://wan.is-my.app/image-grid/): 朋友圈九宫格、长图切分
+- [图片拼接](https://wan.is-my.app/tupian-pinjie/): 多图拼长图、拼九宫格
 - [摄像机记录器](https://wan.is-my.app/camera-recorder/): 从网络摄像头或照相机拍摄照片或录制视频
 - [二维码生成（高级）](https://wan.is-my.app/qrcode-generator/): 生成网址或文字二维码，可自定义前景色、背景
 - [SVG 占位符生成器](https://wan.is-my.app/svg-placeholder-generator/): 生成 svg 图像以用作应用程序中的占位符
@@ -94,6 +95,7 @@
 - [英文大小写转换](https://wan.is-my.app/case-convert/): 大写、小写、首字母大写
 - [文本去重排序](https://wan.is-my.app/dedupe/): 删除重复行、空行、排序
 - [人民币大写转换](https://wan.is-my.app/rmb-daxie/): 金额数字转中文大写
+- [文字转语音朗读](https://wan.is-my.app/wenzi-zhuan-yuyin/): 输入文字在线朗读
 - [ASCII 艺术字生成](https://wan.is-my.app/ascii-text-drawer/): 把文字转换成各种字体的 ASCII 艺术字
 - [Emoji 选择器](https://wan.is-my.app/emoji-picker/): 轻松复制和粘贴Emoji表情符号，并获得每
 - [Lorem ipsum生成器](https://wan.is-my.app/lorem-ipsum-generator/): Lorem ipsum是一种占位符文本，通
@@ -154,6 +156,11 @@
 - [BMI 计算器](https://wan.is-my.app/bmi/): 身体质量指数、标准体重
 - [日期计算器](https://wan.is-my.app/date-calc/): 相差天数、加减天数、星期几
 - [单位换算](https://wan.is-my.app/unit-convert/): 长度、重量、面积、温度
+- [退休年龄计算器](https://wan.is-my.app/tuixiu/): 2025 渐进式延迟退休
+- [车贷计算器](https://wan.is-my.app/chedai/): 首付、月供、购置税
+- [存款利息计算器](https://wan.is-my.app/cunkuan-lixi/): 定期活期利息、到期本息
+- [五险一金计算器](https://wan.is-my.app/wuxian-yijin/): 社保公积金、税后工资
+- [年终奖个税计算器](https://wan.is-my.app/nianzhongjiang/): 单独计税还是合并计税
 - [基准生成器](https://wan.is-my.app/benchmark-builder/): 简单的在线基准构建器可以轻松比较任务的执行
 - [计时器](https://wan.is-my.app/chronometer/): 监控事物的持续时间。基本上是一种具有简单计
 - [ETA 计算器](https://wan.is-my.app/eta-calculator/): ETA（估计到达时间）计算器，用于知道任务
@@ -186,6 +193,12 @@
 - [随机密码生成器](https://wan.is-my.app/password/): 高强度随机密码
 - [番茄钟计时器](https://wan.is-my.app/pomodoro/): 番茄工作法、倒计时、秒表
 - [随机数生成器 / 抽签](https://wan.is-my.app/random/): 随机数、抽奖、随机分组
+- [万年历](https://wan.is-my.app/wannianli/): 农历、黄历、节假日调休
+- [亲戚称呼计算器](https://wan.is-my.app/qinqi/): 三姑六婆该怎么叫
+- [大转盘抽奖](https://wan.is-my.app/zhuanpan/): 自定义转盘，帮你做决定
+- [随机分组](https://wan.is-my.app/fenzu/): 名单一键随机分组
+- [键盘测试](https://wan.is-my.app/jianpan-ceshi/): 检测按键是否失灵
+- [屏幕坏点检测](https://wan.is-my.app/huaidian/): 纯色全屏查坏点亮点
 
 ## 开发工具
 
@@ -271,6 +284,10 @@
 
 ## 音视频处理
 
+- [在线录屏](https://wan.is-my.app/luping/): 电脑屏幕录制带声音
+- [在线录音](https://wan.is-my.app/luyin/): 网页录音，导出 WAV
+- [摄像头测试](https://wan.is-my.app/shexiangtou-ceshi/): 检测摄像头能否正常使用
+- [麦克风测试](https://wan.is-my.app/maikefeng-ceshi/): 检测麦克风有没有声音
 - [更改音频速度](https://wan.is-my.app/audio-change-speed/): 更改音频文件的播放速度。在保持音调不变的情
 - [从视频中提取音频](https://wan.is-my.app/audio-extract-audio/): 从视频文件中提取音轨
 - [合并音频](https://wan.is-my.app/audio-merge-audio/): 按顺序连接多个音频文件，将其合并为一个音频
