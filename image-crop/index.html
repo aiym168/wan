@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="applicable-device" content="pc,mobile"><meta name="renderer" content="webkit">
+<title>免费图片裁剪 - 在线按比例裁剪照片</title>
+<meta name="description" content="免费在线图片裁剪工具：按 1:1、4:3、16:9、一寸二寸照片比例或自由尺寸裁剪图片，拖动调整位置，本地处理不上传，免登录无水印。">
+<meta name="keywords" content="免费图片裁剪,在线裁剪图片,照片裁剪,头像裁剪,1比1裁剪,一寸照裁剪">
+<link rel="canonical" href="https://wan.is-my.app/image-crop/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="玩点啥 · 免费在线工具大全"><meta property="og:title" content="免费图片裁剪 - 在线按比例裁剪照片"><meta property="og:description" content="免费在线图片裁剪工具：按 1:1、4:3、16:9、一寸二寸照片比例或自由尺寸裁剪图片，拖动调整位置，本地处理不上传，免登录无水印。"><meta property="og:url" content="https://wan.is-my.app/image-crop/"><meta property="og:locale" content="zh_CN">
+<meta name="theme-color" content="#f5f1e8">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/t.css">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "免费在线图片裁剪", "url": "https://wan.is-my.app/image-crop/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web 浏览器（Windows、macOS、Android、iOS）", "inLanguage": "zh-CN", "isAccessibleForFree": true, "description": "免费在线图片裁剪工具：按 1:1、4:3、16:9、一寸二寸照片比例或自由尺寸裁剪图片，拖动调整位置，本地处理不上传，免登录无水印。", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "这个工具免费吗？", "acceptedAnswer": {"@type": "Answer", "text": "完全免费。图片裁剪不收费、不限次数、不用注册登录，也没有水印。"}}, {"@type": "Question", "name": "裁剪会降低清晰度吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会缩放，按原图像素直接裁出选中区域，并以高质量 JPG 保存。"}}, {"@type": "Question", "name": "可以裁成圆形头像吗？", "acceptedAnswer": {"@type": "Answer", "text": "目前输出方形；大多数平台会自动把方形头像显示为圆形。"}}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "玩点啥", "item": "https://wan.is-my.app/"}, {"@type": "ListItem", "position": 2, "name": "免费在线工具大全", "item": "https://wan.is-my.app/gongju/"}, {"@type": "ListItem", "position": 3, "name": "图片裁剪", "item": "https://wan.is-my.app/image-crop/"}]}]</script>
+</head><body>
+<header class="top"><div class="wrap"><a class="logo" href="/">玩点<b>啥</b></a><nav class="nav"><a href="/gongju/">全部工具</a><a href="/gongju/#image" class=on>图片工具</a><a href="/gongju/#pdf">PDF 工具</a><a href="/gongju/#text">文字工具</a><a href="/gongju/#qr">二维码</a><a href="/gongju/#calc">计算器</a><a href="/gongju/#life">效率小工具</a><a href="/gongju/#dev">开发工具</a></nav></div></header>
+<main class="wrap">
+<p class="crumb"><a href="/">玩点啥</a> › <a href="/gongju/">免费在线工具大全</a> › <a href="/gongju/#image">图片工具</a> › 图片裁剪</p>
+<h1>免费在线图片裁剪</h1>
+<p class="lead">选好比例，在图上拖动选框就能裁出头像、封面或证件照尺寸，<strong>免费、不上传</strong>。</p>
+<div class="tags"><span>免费</span><span>免登录</span><span>不限次数</span><span>文件不上传</span><span>手机电脑都能用</span></div>
+<section class="box" id="app"><input type="file" id="f" accept="image/*"  hidden><div class="drop" id="d"><b>点击选择或拖入图片</b><small>选择一张图片</small></div><div class="row"><div><label>比例</label><select id="ra"><option value="1">1:1 头像</option><option value="0.75">3:4</option><option value="1.3333">4:3</option><option value="1.7778">16:9 封面</option><option value="0.5625">9:16 竖屏</option><option value="0.7143">一寸/二寸照（5:7）</option><option value="0">自由</option></select></div><div><label>选框大小 <span id="zv">80</span>%</label><input type="range" id="z" min="10" max="100" value="80" style="width:100%"></div></div>
+<p class="note">在图片上按住拖动可以移动选框。</p><div class="out" style="position:relative;display:inline-block;max-width:100%"><canvas id="c" style="touch-action:none;cursor:move"></canvas></div><br><button class="btn" id="go">裁剪并下载</button>
+<noscript><p class="err">这个免费工具需要开启浏览器的 JavaScript 才能使用。</p></noscript></section>
+<div class="ad" data-ad="content" aria-hidden="true"></div>
+<h2>怎么用图片裁剪</h2>
+<ol class="steps"><li>选择一张图片。</li><li>选择裁剪比例并调整选框大小，在图上拖动选框到合适位置。</li><li>点「裁剪并下载」得到裁好的 JPG。</li></ol>
+<h2>图片裁剪常见问题</h2>
+<dl class="faq"><dt>这个工具免费吗？</dt><dd>完全免费。图片裁剪不收费、不限次数、不用注册登录，也没有水印。</dd><dt>裁剪会降低清晰度吗？</dt><dd>不会缩放，按原图像素直接裁出选中区域，并以高质量 JPG 保存。</dd><dt>可以裁成圆形头像吗？</dt><dd>目前输出方形；大多数平台会自动把方形头像显示为圆形。</dd></dl>
+<h2>更多免费在线工具</h2>
+<div class="rel"><a href="/image-compress/">图片压缩<small>在线把图片变小，不上传</small></a><a href="/image-convert/">图片格式转换<small>PNG、JPG、WebP 互转</small></a><a href="/image-resize/">图片改尺寸<small>按像素或百分比改大小</small></a><a href="/id-photo/">证件照换底色<small>白底、蓝底、红底一键换</small></a><a href="/rmb-daxie/">人民币大写转换<small>金额数字转中文大写</small></a><a href="/unit-convert/">单位换算<small>长度、重量、面积、温度</small></a><a href="/timestamp/">时间戳转换<small>Unix 时间戳与北京时间互转</small></a><a href="/fanjian/">繁简转换<small>简体繁体互转，含台湾香港用词</small></a><a href="/fangdai/">房贷计算器<small>等额本息、等额本金月供</small></a><a href="/gongju/">全部免费工具<small>图片、PDF、文字、计算器、开发工具</small></a></div>
+<div class="ad" data-ad="footer" aria-hidden="true"></div>
+</main>
+<footer class="foot"><div class="wrap">
+<p><a href="/">玩点啥</a> · <a href="/gongju/">免费在线工具大全</a> · <a href="/tools/">开发者工具箱</a> · <a href="https://hot.is-my.app/">今日热榜</a> · <a href="https://aiym168.github.io/">AI大模型免费资源导航</a> · <a href="/sitemap.html">网站地图</a></p>
+<p>所有工具都在你的浏览器里运行，文件和输入内容不会上传到服务器。</p>
+</div></footer>
+<script src="/assets/t.js"></script><script src="/assets/ads-config.js" defer></script><script src="/assets/ads.js" defer></script>
+<script>var im,fn,box={x:0,y:0,w:0,h:0},sc=1;T.drop($('#d'),$('#f'),function(fs){if(!fs[0])return;fn=fs[0].name;T.img(fs[0]).then(function(i){im=i;reset()})});
+function reset(){if(!im)return;var W=im.naturalWidth,H=im.naturalHeight,ra=+$('#ra').value||W/H,z=$('#z').value/100,w=W*z,h=w/ra;if(h>H*z){h=H*z;w=h*ra}box={x:(W-w)/2,y:(H-h)/2,w:w,h:h};$('#zv').textContent=$('#z').value;draw()}
+function draw(){var c=$('#c'),W=im.naturalWidth,H=im.naturalHeight;sc=Math.min(1,900/W);c.width=W*sc;c.height=H*sc;var x=c.getContext('2d');x.drawImage(im,0,0,c.width,c.height);x.fillStyle='rgba(20,20,20,.55)';x.fillRect(0,0,c.width,c.height);x.drawImage(im,box.x,box.y,box.w,box.h,box.x*sc,box.y*sc,box.w*sc,box.h*sc);x.strokeStyle='#d9381e';x.lineWidth=2;x.strokeRect(box.x*sc,box.y*sc,box.w*sc,box.h*sc)}
+$('#ra').onchange=reset;$('#z').oninput=reset;var drag=null;
+$('#c').addEventListener('pointerdown',function(e){if(!im)return;var k=$('#c').getBoundingClientRect().width/$('#c').width;drag={x:e.clientX,y:e.clientY,bx:box.x,by:box.y,k:k};this.setPointerCapture(e.pointerId)});
+$('#c').addEventListener('pointermove',function(e){if(!drag)return;box.x=Math.max(0,Math.min(im.naturalWidth-box.w,drag.bx+(e.clientX-drag.x)/drag.k/sc));box.y=Math.max(0,Math.min(im.naturalHeight-box.h,drag.by+(e.clientY-drag.y)/drag.k/sc));draw()});
+$('#c').addEventListener('pointerup',function(){drag=null});
+$('#go').onclick=function(){if(!im)return alert('请先选择图片');var c=document.createElement('canvas');c.width=Math.round(box.w);c.height=Math.round(box.h);c.getContext('2d').drawImage(im,box.x,box.y,box.w,box.h,0,0,c.width,c.height);c.toBlob(function(b){T.dl(b,T.base(fn)+'-裁剪.jpg')},'image/jpeg',0.92)};</script>
+</body></html>

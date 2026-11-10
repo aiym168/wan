@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="applicable-device" content="pc,mobile"><meta name="renderer" content="webkit">
+<title>免费房贷计算器 - 等额本息等额本金月供计算</title>
+<meta name="description" content="免费房贷计算器：输入贷款金额、年限和利率，计算等额本息与等额本金的每月月供、总利息和还款总额，附逐月还款明细，商贷公积金都能算。">
+<meta name="keywords" content="免费房贷计算器,房贷计算器,月供计算,等额本息计算,等额本金计算,公积金贷款计算器">
+<link rel="canonical" href="https://wan.is-my.app/fangdai/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="玩点啥 · 免费在线工具大全"><meta property="og:title" content="免费房贷计算器 - 等额本息等额本金月供计算"><meta property="og:description" content="免费房贷计算器：输入贷款金额、年限和利率，计算等额本息与等额本金的每月月供、总利息和还款总额，附逐月还款明细，商贷公积金都能算。"><meta property="og:url" content="https://wan.is-my.app/fangdai/"><meta property="og:locale" content="zh_CN">
+<meta name="theme-color" content="#f5f1e8">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/t.css">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "免费房贷计算器（等额本息 / 等额本金）", "url": "https://wan.is-my.app/fangdai/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web 浏览器（Windows、macOS、Android、iOS）", "inLanguage": "zh-CN", "isAccessibleForFree": true, "description": "免费房贷计算器：输入贷款金额、年限和利率，计算等额本息与等额本金的每月月供、总利息和还款总额，附逐月还款明细，商贷公积金都能算。", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "这个工具免费吗？", "acceptedAnswer": {"@type": "Answer", "text": "完全免费。房贷计算器不收费、不限次数、不用注册登录，也没有水印。"}}, {"@type": "Question", "name": "等额本息和等额本金哪个划算？", "acceptedAnswer": {"@type": "Answer", "text": "等额本金总利息更少，但前期月供高；等额本息每月固定，前期压力小。收入稳定、前期资金宽裕可选等额本金。"}}, {"@type": "Question", "name": "公积金贷款怎么算？", "acceptedAnswer": {"@type": "Answer", "text": "把利率改成公积金贷款利率即可；组合贷可分别计算商贷和公积金两部分再相加。"}}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "玩点啥", "item": "https://wan.is-my.app/"}, {"@type": "ListItem", "position": 2, "name": "免费在线工具大全", "item": "https://wan.is-my.app/gongju/"}, {"@type": "ListItem", "position": 3, "name": "房贷计算器", "item": "https://wan.is-my.app/fangdai/"}]}]</script>
+</head><body>
+<header class="top"><div class="wrap"><a class="logo" href="/">玩点<b>啥</b></a><nav class="nav"><a href="/gongju/">全部工具</a><a href="/gongju/#image">图片工具</a><a href="/gongju/#pdf">PDF 工具</a><a href="/gongju/#text">文字工具</a><a href="/gongju/#qr">二维码</a><a href="/gongju/#calc" class=on>计算器</a><a href="/gongju/#life">效率小工具</a><a href="/gongju/#dev">开发工具</a></nav></div></header>
+<main class="wrap">
+<p class="crumb"><a href="/">玩点啥</a> › <a href="/gongju/">免费在线工具大全</a> › <a href="/gongju/#calc">计算器</a> › 房贷计算器</p>
+<h1>免费房贷计算器（等额本息 / 等额本金）</h1>
+<p class="lead">买房前算清楚每月要还多少、一共多付多少利息，两种还款方式并排对比。<strong>免费、即时、数据只在本机计算</strong>。</p>
+<div class="tags"><span>免费</span><span>免登录</span><span>不限次数</span><span>浏览器本地计算</span><span>手机电脑都能用</span></div>
+<section class="box" id="app"><div class="row"><div><label>贷款金额（万元）</label><input type="number" id="p" value="100"></div><div><label>贷款年限（年）</label><input type="number" id="y" value="30"></div><div><label>年利率（%）</label><input type="number" id="r" value="3.5" step="0.01"></div></div><p class="note">利率请以银行合同为准，页面默认值只是示例。</p>
+<div class="out"><table><thead><tr><th></th><th>等额本息</th><th>等额本金</th></tr></thead><tbody id="o"></tbody></table><h3>等额本金前 12 期明细</h3><table><thead><tr><th>期数</th><th>月供</th><th>本金</th><th>利息</th><th>剩余本金</th></tr></thead><tbody id="dt"></tbody></table></div>
+<noscript><p class="err">这个免费工具需要开启浏览器的 JavaScript 才能使用。</p></noscript></section>
+<div class="ad" data-ad="content" aria-hidden="true"></div>
+<h2>怎么用房贷计算器</h2>
+<ol class="steps"><li>填写贷款金额（万元）、贷款年限和年利率。</li><li>表格会立即显示两种还款方式的月供、利息和还款总额。</li><li>下方是等额本金前 12 期的逐月明细。</li></ol>
+<h2>房贷计算器常见问题</h2>
+<dl class="faq"><dt>这个工具免费吗？</dt><dd>完全免费。房贷计算器不收费、不限次数、不用注册登录，也没有水印。</dd><dt>等额本息和等额本金哪个划算？</dt><dd>等额本金总利息更少，但前期月供高；等额本息每月固定，前期压力小。收入稳定、前期资金宽裕可选等额本金。</dd><dt>公积金贷款怎么算？</dt><dd>把利率改成公积金贷款利率即可；组合贷可分别计算商贷和公积金两部分再相加。</dd></dl>
+<h2>更多免费在线工具</h2>
+<div class="rel"><a href="/geshui/">个税计算器<small>工资个税、年终奖个税</small></a><a href="/bmi/">BMI 计算器<small>身体质量指数、标准体重</small></a><a href="/date-calc/">日期计算器<small>相差天数、加减天数、星期几</small></a><a href="/unit-convert/">单位换算<small>长度、重量、面积、温度</small></a><a href="/image-convert/">图片格式转换<small>PNG、JPG、WebP 互转</small></a><a href="/image-to-pdf/">图片转 PDF<small>多张照片合成一个 PDF</small></a><a href="/qrcode/">二维码生成器<small>文字、网址、WiFi 生成二维码</small></a><a href="/regex/">正则表达式测试<small>实时匹配高亮、常用正则</small></a><a href="/id-photo/">证件照换底色<small>白底、蓝底、红底一键换</small></a><a href="/gongju/">全部免费工具<small>图片、PDF、文字、计算器、开发工具</small></a></div>
+<div class="ad" data-ad="footer" aria-hidden="true"></div>
+</main>
+<footer class="foot"><div class="wrap">
+<p><a href="/">玩点啥</a> · <a href="/gongju/">免费在线工具大全</a> · <a href="/tools/">开发者工具箱</a> · <a href="https://hot.is-my.app/">今日热榜</a> · <a href="https://aiym168.github.io/">AI大模型免费资源导航</a> · <a href="/sitemap.html">网站地图</a></p>
+<p>所有工具都在你的浏览器里运行，文件和输入内容不会上传到服务器。</p>
+</div></footer>
+<script src="/assets/t.js"></script><script src="/assets/ads-config.js" defer></script><script src="/assets/ads.js" defer></script>
+<script>function go(){var P=$('#p').value*1e4,n=$('#y').value*12,r=$('#r').value/1200;if(!(P>0&&n>0))return;var a=r?P*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1):P/n,ta=a*n,b1=P/n+P*r,tb=P+P*r*(n+1)/2;
+ $('#o').innerHTML='<tr><td>每月月供</td><td><b class="res" style="font-size:22px">'+T.fmt(a)+'</b> 元</td><td>首月 <b>'+T.fmt(b1)+'</b> 元，每月递减 '+T.fmt(P/n*r)+' 元</td></tr><tr><td>支付利息</td><td>'+T.fmt(ta-P)+' 元</td><td>'+T.fmt(tb-P)+' 元</td></tr><tr><td>还款总额</td><td>'+T.fmt(ta)+' 元</td><td>'+T.fmt(tb)+' 元</td></tr>';
+ var h='',left=P;for(var i=1;i<=Math.min(12,n);i++){var it=left*r,pr=P/n;left-=pr;h+='<tr><td>'+i+'</td><td>'+T.fmt(pr+it)+'</td><td>'+T.fmt(pr)+'</td><td>'+T.fmt(it)+'</td><td>'+T.fmt(Math.max(0,left))+'</td></tr>'}$('#dt').innerHTML=h}
+['p','y','r'].forEach(function(k){$('#'+k).oninput=go});go();</script>
+</body></html>
