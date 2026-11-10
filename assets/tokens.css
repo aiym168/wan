@@ -1,0 +1,15 @@
+/* 工具站大全 shared design tokens — edit here; tool pages (/assets/t.css) and the hub consume these variables */
+:root{
+  --paper:#f5f1e8;
+  --paper2:#ece6d8;
+  --ink:#141414;
+  --mut:#5c574e;
+  --line:#141414;
+  --hair:#cfc6b3;
+  --red:#d9381e;
+  
+--serif:"Songti SC","Noto Serif SC","Source Han Serif SC","STSong","SimSun",serif;
+  
+--sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;
+  
+--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
