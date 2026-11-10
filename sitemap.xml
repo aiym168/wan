@@ -22,6 +22,7 @@
   <url><loc>https://wan.is-my.app/pdf-split/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/pdf-to-image/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/image-to-pdf/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/pdf-to-word/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/word-count/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/fanjian/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/pinyin/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -547,6 +548,22 @@
   <url><loc>https://wan.is-my.app/cc-generate-lorem-ipsum/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/cc-pseudo-random-integer-generator/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://wan.is-my.app/cc-disassemble-x86/</loc><lastmod>2026-11-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/video/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/media/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/image/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/pdf/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/text/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/qr/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/calc/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/life/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/dev/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/avtool/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/crypto/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/net/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/geek/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/soft/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/c/game/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://wan.is-my.app/fun/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://wan.is-my.app/tools/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://wan.is-my.app/dazi/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://wan.is-my.app/huahua/</loc><lastmod>2026-11-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>

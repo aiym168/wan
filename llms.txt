@@ -65,6 +65,7 @@
 - [PDF 拆分](https://wan.is-my.app/pdf-split/): 提取指定页、逐页拆开
 - [PDF 转图片](https://wan.is-my.app/pdf-to-image/): PDF 每页转成 JPG/PNG
 - [图片转 PDF](https://wan.is-my.app/image-to-pdf/): 多张照片合成一个 PDF
+- [PDF 转 Word](https://wan.is-my.app/pdf-to-word/): PDF 文字转成可编辑 Word
 - [压缩PDF](https://wan.is-my.app/pdf-compress-pdf/): 使用 Ghostscript 减小 PDF
 - [将图像转换为 PDF](https://wan.is-my.app/pdf-convert-to-pdf/): 将各种图像格式（PNG, GIF, JPG
 - [PDF 在线编辑器](https://wan.is-my.app/pdf-editor/): 在 PDF 上添加文字、图片、签名和标注

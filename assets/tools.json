@@ -187,6 +187,16 @@
 "url": "/image-to-pdf/"
 },
 {
+"slug": "pdf-to-word",
+"name": "PDF 转 Word",
+"short": "PDF 文字转成可编辑 Word",
+"cat": "pdf",
+"title": "免费PDF转Word - 在线PDF转换成Word文档",
+"keywords": "pdf转word,pdf转word免费,pdf转换成word,pdf转docx,pdf转word在线免费,pdf转可编辑文档",
+"url": "/pdf-to-word/",
+"new": true
+},
+{
 "slug": "word-count",
 "name": "字数统计",
 "short": "中文字数、字符数、段落数",

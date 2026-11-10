@@ -65,6 +65,7 @@
 - [PDF 拆分](https://wan.is-my.app/pdf-split/): 提取指定页、逐页拆开
 - [PDF 转图片](https://wan.is-my.app/pdf-to-image/): PDF 每页转成 JPG/PNG
 - [图片转 PDF](https://wan.is-my.app/image-to-pdf/): 多张照片合成一个 PDF
+- [PDF 转 Word](https://wan.is-my.app/pdf-to-word/): PDF 文字转成可编辑 Word
 - [压缩PDF](https://wan.is-my.app/pdf-compress-pdf/): 使用 Ghostscript 减小 PDF
 - [将图像转换为 PDF](https://wan.is-my.app/pdf-convert-to-pdf/): 将各种图像格式（PNG, GIF, JPG
 - [PDF 在线编辑器](https://wan.is-my.app/pdf-editor/): 在 PDF 上添加文字、图片、签名和标注
@@ -721,6 +722,12 @@
 网址: https://wan.is-my.app/image-to-pdf/
 说明: 免费在线图片转 PDF：把多张 JPG、PNG 照片按顺序合成一个 PDF，可选 A4 或原图尺寸，适合扫描件、作业、证件，本地处理不上传，免登录无水印。
 用法: 选择要合成的图片，可以分几次添加，按添加顺序排列。 选择页面大小：A4 适合打印，「与图片相同」保持原比例。 点「生成 PDF」下载。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## PDF 转 Word
+网址: https://wan.is-my.app/pdf-to-word/
+说明: 免费 PDF 转 Word 在线转换：把 PDF 文字按段落转成可编辑的 Word（.docx）文档，保留分页和标题，本地处理不上传，免登录无水印。
+用法: 点上方选择 PDF（手机可从文件或微信文件里选）。 等待读取完成，下面会显示提取到的文字预览。 点「转换并下载 Word」，得到可编辑的 .docx 文件，用 Word / WPS 打开即可。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## 字数统计

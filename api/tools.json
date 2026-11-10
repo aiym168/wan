@@ -1,7 +1,7 @@
 {
  "name": "工具站大全",
  "url": "https://wan.is-my.app/gongju/",
- "count": 545,
+ "count": 546,
  "note": "全部免费；runs=browser 的工具在网页里本地运行，runs=server 的工具可通过 OpenAPI 调用。服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。",
  "openapi": "https://wan.is-my.app/api/openapi.json",
  "tools": [
@@ -221,6 +221,17 @@
    "description": "免费在线图片转 PDF：把多张 JPG、PNG 照片按顺序合成一个 PDF，可选 A4 或原图尺寸，适合扫描件、作业、证件，本地处理不上传，免登录无水印。",
    "keywords": "免费图片转pdf,jpg转pdf,照片转pdf,多张图片合成pdf,图片合并pdf",
    "url": "https://wan.is-my.app/image-to-pdf/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "pdf-to-word",
+   "name": "PDF 转 Word",
+   "category": "PDF 工具",
+   "description": "免费 PDF 转 Word 在线转换：把 PDF 文字按段落转成可编辑的 Word（.docx）文档，保留分页和标题，本地处理不上传，免登录无水印。",
+   "keywords": "pdf转word,pdf转word免费,pdf转换成word,pdf转docx,pdf转word在线免费,pdf转可编辑文档",
+   "url": "https://wan.is-my.app/pdf-to-word/",
    "runs": "browser",
    "api": null,
    "free": true

@@ -17,3 +17,16 @@ window.T={
  base:function(n){return n.replace(/\.[^.]+$/,'')},
  fmt:function(n,d){return Number(n).toLocaleString('zh-CN',{minimumFractionDigits:d==null?2:d,maximumFractionDigits:d==null?2:d})}
 };
+(function(){var h=document.querySelector('.gzh');if(!h||h.__ok)return;h.__ok=1;
+function closeAll(x){h.querySelectorAll('.gzh-dd.open').forEach(function(d){if(d!==x){d.classList.remove('open');d.querySelector('button').setAttribute('aria-expanded','false')}})}
+h.querySelectorAll('.gzh-dd>button').forEach(function(b){var d=b.parentNode,t;
+ b.addEventListener('click',function(e){e.stopPropagation();var o=!d.classList.contains('open')||Date.now()-(d._h||0)<500;closeAll(d);d.classList.toggle('open',o);b.setAttribute('aria-expanded',o)});
+ if(matchMedia('(hover:hover)').matches){d.addEventListener('mouseenter',function(){clearTimeout(t);if(!d.classList.contains('open'))d._h=Date.now();closeAll(d);d.classList.add('open');b.setAttribute('aria-expanded','true')});d.addEventListener('mouseleave',function(){t=setTimeout(function(){d.classList.remove('open');b.setAttribute('aria-expanded','false')},180)})}});
+document.addEventListener('click',function(e){if(!h.contains(e.target))closeAll()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeAll();dr(false)}});
+var sb=h.querySelector('.gzh-sbar'),dw=h.querySelector('.gzh-drawer');if(dw)document.body.appendChild(dw);
+h.querySelector('.gzh-s').addEventListener('click',function(){if(innerWidth<=900){dr(true);var i=dw.querySelector('input');setTimeout(function(){i&&i.focus()},50);return}sb.classList.toggle('open');if(sb.classList.contains('open'))sb.querySelector('input').focus()});
+function dr(o){if(!dw)return;dw.classList.toggle('open',o);document.documentElement.classList.toggle('gzh-lock',o);h.querySelector('.gzh-burger').setAttribute('aria-expanded',o)}
+h.querySelector('.gzh-burger').addEventListener('click',function(){dr(true)});
+dw.querySelectorAll('[data-close]').forEach(function(x){x.addEventListener('click',function(){dr(false)})});
+})();
