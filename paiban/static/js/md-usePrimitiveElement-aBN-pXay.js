@@ -1,0 +1,1 @@
+import{pt as e,v as t}from"./md-vendor_vue-CbFPEsBK.js";import{h as n}from"./md-vendor_vueuse-BDAllr4x.js";function r(){let r=e();return{primitiveElement:r,currentElement:t(()=>[`#text`,`#comment`].includes(r.value?.$el.nodeName)?r.value?.$el.nextElementSibling:n(r))}}export{r as t};

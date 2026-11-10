@@ -1,0 +1,82 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><link rel="icon" href="/assets/favicon.svg"><title>免费在线思维导图 - 思维导图在线制作 - 工具站大全</title><meta name="description" content="免费在线思维导图：打开网页就能画思维导图、逻辑图、组织结构图、鱼骨图、时间轴，几十套主题，支持导出图片、PDF、XMind 和 Markdown，中文界面，免登录，数据保存在本地浏览器。"><meta name="keywords" content="思维导图,在线思维导图,思维导图在线制作,免费思维导图,脑图在线,思维导图软件,xmind在线">
+<link rel="canonical" href="https://wan.is-my.app/siwei/"><meta name="applicable-device" content="pc,mobile"><meta http-equiv="Cache-Control" content="no-transform">
+<meta property="og:title" content="免费在线思维导图 - 思维导图在线制作 - 工具站大全"><meta property="og:description" content="免费在线思维导图：打开网页就能画思维导图、逻辑图、组织结构图、鱼骨图、时间轴，几十套主题，支持导出图片、PDF、XMind 和 Markdown，中文界面，免登录，数据保存在本地浏览器。"><meta property="og:url" content="https://wan.is-my.app/siwei/"><meta property="og:site_name" content="工具站大全"><meta name="theme-color" content="#0a0b0c">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"免费在线思维导图","url":"https://wan.is-my.app/siwei/","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":"zh-CN","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"}}</script>
+<style>body>.gz-foot{display:none!important}body>.gzh.gz-bar{position:fixed!important;top:0;left:0;right:0}#app{position:fixed!important;top:61px!important;left:0;right:0;bottom:0;height:auto!important;transform:translateZ(0)}@media(max-width:900px){#app{top:57px!important}#app .el-input__inner{height:44px!important;line-height:44px!important}}</style><script>// 自定义静态资源的路径
+      window.externalPublicPath = './dist/'
+      // 接管应用
+      window.takeOverApp = false</script><link href="dist/css/chunk-vendors.css?720fe4d863ea0fdcc0fb" rel="stylesheet"><link href="dist/css/app.css?720fe4d863ea0fdcc0fb" rel="stylesheet"></head><body><noscript><strong>We're sorry but thoughts doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>const getDataFromBackend = () => {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve({
+              mindMapData: {
+                root: {
+                  data: {
+                    text: '根节点'
+                  },
+                  children: []
+                },
+                theme: {
+                  template: 'avocado',
+                  config: {}
+                },
+                layout: 'logicalStructure',
+                config: {},
+                view: null
+              },
+              mindMapConfig: {},
+              lang: 'zh',
+              localConfig: null
+            })
+          }, 200)
+        })
+      }
+      const setTakeOverAppMethods = data => {
+        window.takeOverAppMethods = {}
+        // 获取思维导图数据的函数
+        window.takeOverAppMethods.getMindMapData = () => {
+          return data.mindMapData
+        }
+        // 保存思维导图数据的函数
+        window.takeOverAppMethods.saveMindMapData = data => {
+          console.log(data)
+        }
+        // 获取思维导图配置，也就是实例化时会传入的选项
+        window.takeOverAppMethods.getMindMapConfig = () => {
+          return data.mindMapConfig
+        }
+        // 保存思维导图配置
+        window.takeOverAppMethods.saveMindMapConfig = config => {
+          console.log(config)
+        }
+        // 获取语言的函数
+        window.takeOverAppMethods.getLanguage = () => {
+          return data.lang
+        }
+        // 保存语言的函数
+        window.takeOverAppMethods.saveLanguage = lang => {
+          console.log(lang)
+        }
+        // 获取本地配置的函数
+        window.takeOverAppMethods.getLocalConfig = () => {
+          return data.localConfig
+        }
+        // 保存本地配置的函数
+        window.takeOverAppMethods.saveLocalConfig = config => {
+          console.log(config)
+        }
+      }
+      window.onload = async () => {
+        if (!window.takeOverApp) return
+        // 请求数据
+        const data = await getDataFromBackend()
+        // 设置全局的方法
+        setTakeOverAppMethods(data)
+        // 思维导图实例创建完成事件
+        window.$bus.$on('app_inited', mindMap => {
+          console.log(mindMap)
+        })
+        // 可以通过window.$bus.$on()来监听应用的一些事件
+        // 实例化页面
+        window.initApp()
+      }</script><script src="dist/js/chunk-vendors.js?720fe4d863ea0fdcc0fb"></script><script src="dist/js/app.js?720fe4d863ea0fdcc0fb"></script><script src="/assets/gz-chrome.js" defer></script></body></html>

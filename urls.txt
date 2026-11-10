@@ -616,6 +616,10 @@ https://wan.is-my.app/c/geek/
 https://wan.is-my.app/c/soft/
 https://wan.is-my.app/c/game/
 https://wan.is-my.app/fun/
+https://wan.is-my.app/paiban/
+https://wan.is-my.app/siwei/
+https://wan.is-my.app/yasuo/
+https://wan.is-my.app/huaban/
 https://wan.is-my.app/ps/
 https://wan.is-my.app/tools/
 https://wan.is-my.app/dazi/
