@@ -34,6 +34,30 @@
 - [图片改尺寸](https://wan.is-my.app/image-resize/): 按像素或百分比改大小
 - [图片裁剪](https://wan.is-my.app/image-crop/): 按 1:1、4:3、一寸照比例裁剪
 - [证件照换底色](https://wan.is-my.app/id-photo/): 白底、蓝底、红底一键换
+- [摄像机记录器](https://wan.is-my.app/camera-recorder/): 从网络摄像头或照相机拍摄照片或录制视频
+- [二维码生成（高级）](https://wan.is-my.app/qrcode-generator/): 生成网址或文字二维码，可自定义前景色、背景
+- [SVG 占位符生成器](https://wan.is-my.app/svg-placeholder-generator/): 生成 svg 图像以用作应用程序中的占位符
+- [WiFi 二维码生成](https://wan.is-my.app/wifi-qrcode-generator/): 生成扫码即可连接 WiFi 的二维码
+- [图片转 JPG](https://wan.is-my.app/converters-convert-to-jpg/): 把 PNG、WebP、HEIC 等图片批量
+- [将图像转换为 WebP](https://wan.is-my.app/converters-convert-to-webp/): 使用可自定义的质量和背景颜色设置将各种图像
+- [视频转 GIF 动图](https://wan.is-my.app/converters-video-to-gif/): 把视频片段转换成 GIF 动图，可设置帧率
+- [改变图像的颜色](https://wan.is-my.app/image-change-colors/): 快速准确地将图像中的选定颜色替换为新颜色
+- [更改图像不透明度](https://wan.is-my.app/image-change-opacity/): 轻松调整图片透明度。只需上传图片，使用滑块
+- [压缩图像](https://wan.is-my.app/image-compress-online/): 在保持质量的同时减小图像文件大小
+- [创建透明 PNG](https://wan.is-my.app/image-create-transparent/): 通过移除所选颜色，使图像背景变为透明
+- [裁剪图片](https://wan.is-my.app/image-crop-online/): 裁剪图像以删除不需要的区域
+- [在线图片编辑器](https://wan.is-my.app/image-editor/): 裁剪、旋转、调色、加文字、涂鸦，一站式编辑
+- [图片文字识别 OCR](https://wan.is-my.app/image-image-to-text/): 识别图片中的中英文文字，提取成可复制的文本
+- [二维码生成器](https://wan.is-my.app/image-qr-code/): 为不同数据类型生成二维码：URL、文本、电
+- [AI 智能抠图](https://wan.is-my.app/image-remove-background/): AI 自动去除图片背景，生成透明 PNG
+- [调整图像大小](https://wan.is-my.app/image-resize-online/): 将图像调整为不同的尺寸
+- [旋转图像](https://wan.is-my.app/image-rotate/): 按指定角度旋转图像
+- [长图切分](https://wan.is-my.app/image-split-to-pages/): 把长截图、长图按页面高度切成多张图片
+- [图片加水印](https://wan.is-my.app/image-watermark/): 给图片批量添加文字水印
+- [压缩 png](https://wan.is-my.app/png-compress-png/): 这是一个压缩 PNG 图片的程序。只要您将
+- [JPG 转换为 PNG](https://wan.is-my.app/png-convert-jgp-to-png/): 快速将您的 JPG 图像转换为 PNG。只
+- [更改 GIF 速度](https://wan.is-my.app/gif-change-speed/): 更改 GIF 动画的播放速度。在保持动画流
+- [图片合成 GIF](https://wan.is-my.app/gif-images-to-gif/): 把多张图片合成 GIF 动图
 
 ## PDF 工具
 
@@ -41,6 +65,17 @@
 - [PDF 拆分](https://wan.is-my.app/pdf-split/): 提取指定页、逐页拆开
 - [PDF 转图片](https://wan.is-my.app/pdf-to-image/): PDF 每页转成 JPG/PNG
 - [图片转 PDF](https://wan.is-my.app/image-to-pdf/): 多张照片合成一个 PDF
+- [压缩PDF](https://wan.is-my.app/pdf-compress-pdf/): 使用 Ghostscript 减小 PDF
+- [将图像转换为 PDF](https://wan.is-my.app/pdf-convert-to-pdf/): 将各种图像格式（PNG, GIF, JPG
+- [PDF 在线编辑器](https://wan.is-my.app/pdf-editor/): 在 PDF 上添加文字、图片、签名和标注
+- [PDF 提取图片](https://wan.is-my.app/pdf-extract-image-from-pdf/): 把 PDF 里的所有图片提取出来保存
+- [PDF 表单编辑](https://wan.is-my.app/pdf-form-pdf/): 在 PDF 上添加文字、表单字段和标注
+- [合并 PDF](https://wan.is-my.app/pdf-merge-pdf/): 合并多个 PDF 文件为一个文档
+- [PDF 转 EPUB](https://wan.is-my.app/pdf-pdf-to-epub/): 将 PDF 文档转换为 EPUB 文件，以
+- [PDF 转 PNG](https://wan.is-my.app/pdf-pdf-to-png/): 将 PDF 文档转换为 PNG 面板
+- [保护 PDF](https://wan.is-my.app/pdf-protect-pdf/): 在浏览器中安全地为 PDF 文件添加密码保护
+- [旋转 PDF](https://wan.is-my.app/pdf-rotate-pdf/): 旋转 PDF 文档中的页面
+- [拆分 PDF](https://wan.is-my.app/pdf-split-pdf/): 从 PDF 文档中提取特定页面
 
 ## 文字工具
 
@@ -50,6 +85,53 @@
 - [英文大小写转换](https://wan.is-my.app/case-convert/): 大写、小写、首字母大写
 - [文本去重排序](https://wan.is-my.app/dedupe/): 删除重复行、空行、排序
 - [人民币大写转换](https://wan.is-my.app/rmb-daxie/): 金额数字转中文大写
+- [ASCII 艺术字生成](https://wan.is-my.app/ascii-text-drawer/): 把文字转换成各种字体的 ASCII 艺术字
+- [Emoji 选择器](https://wan.is-my.app/emoji-picker/): 轻松复制和粘贴Emoji表情符号，并获得每
+- [Lorem ipsum生成器](https://wan.is-my.app/lorem-ipsum-generator/): Lorem ipsum是一种占位符文本，通
+- [数字名称生成器](https://wan.is-my.app/numeronym-generator/): 数字名是一个用数字构成缩写的词。例如，“i
+- [字符串混淆器](https://wan.is-my.app/string-obfuscator/): 混淆字符串（如秘密、IBAN 或令牌），使
+- [文本比较](https://wan.is-my.app/text-diff/): 比较两个文本并查看它们之间的差异
+- [文本统计](https://wan.is-my.app/text-statistics/): 获取有关文本、字符数、字数、大小等的信息
+- [列表重复生成](https://wan.is-my.app/list-duplicate/): 把列表内容按次数重复
+- [列表频次统计](https://wan.is-my.app/list-find-most-popular/): 找出列表中出现次数最多的项
+- [列表去重](https://wan.is-my.app/list-find-unique/): 找出列表中不重复的项
+- [列表分组](https://wan.is-my.app/list-chunk/): 把一列数据按固定数量拆成多组
+- [列表倒序](https://wan.is-my.app/list-reverse/): 把列表顺序反转
+- [列表循环移位](https://wan.is-my.app/list-rotate/): 把列表元素整体向前或向后移动
+- [列表随机打乱](https://wan.is-my.app/list-shuffle/): 把列表顺序随机打乱
+- [列表排序](https://wan.is-my.app/list-sort/): 按字母、数字或长度对列表排序
+- [列表截取](https://wan.is-my.app/list-truncate/): 只保留列表的前 N 项
+- [去除包裹符号](https://wan.is-my.app/list-unwrap/): 去掉每行前后的引号、括号等符号
+- [每行加前后缀](https://wan.is-my.app/list-wrap/): 给每一行加上引号、括号或任意前后缀
+- [Base64 编码器/解码器](https://wan.is-my.app/string-base64/): 使用 Base64 编码对文本进行编码或解
+- [敏感词打码](https://wan.is-my.app/string-censor/): 把文本中的指定词语替换成星号
+- [回文生成](https://wan.is-my.app/string-create-palindrome/): 把文字生成回文
+- [邮箱地址提取](https://wan.is-my.app/string-email-extractor/): 从一大段文字中提取所有邮箱地址
+- [提取子字符串](https://wan.is-my.app/string-extract-substring/): 世界上最简单的基于浏览器的文本子字符串提取
+- [隐藏字符检测器](https://wan.is-my.app/string-hidden-character-detector/): 检测隐藏的 Unicode 字符，尤其是可
+- [多行合并](https://wan.is-my.app/string-join/): 把多行文字用指定分隔符合并成一行
+- [回文检测](https://wan.is-my.app/string-palindrome/): 检查一段文字是不是回文
+- [密码生成器](https://wan.is-my.app/string-password-generator/): 生成安全的随机密码，可自定义长度和字符类型
+- [文本加引号](https://wan.is-my.app/string-quote/): 给文字批量加上引号
+- [随机大小写](https://wan.is-my.app/string-randomize-case/): 把英文字母随机转换为大小写
+- [删除重复的行](https://wan.is-my.app/string-remove-duplicate-lines/): 在左侧的输入表单中加载文本，即可立即在输出
+- [重复文本](https://wan.is-my.app/string-repeat/): 使用可自定义的分隔符多次重复文本
+- [文字倒序](https://wan.is-my.app/string-reverse/): 把文字顺序反转
+- [ROT13编码器/解码器](https://wan.is-my.app/string-rot13/): 使用 ROT13 密码对文本进行编码或解码
+- [文字循环移位](https://wan.is-my.app/string-rotate/): 把字符串循环移动若干位
+- [URL 别名生成](https://wan.is-my.app/string-slug-generator/): 把标题转换成适合网址的 slug
+- [文本分割](https://wan.is-my.app/string-split/): 按分隔符把文本拆成多行
+- [文本统计](https://wan.is-my.app/string-statistics/): 分析文本并生成综合统计数据
+- [表格文本转换](https://wan.is-my.app/string-table-text-converter/): Markdown 表格、CSV、制表符文本
+- [文本对比](https://wan.is-my.app/string-text-compare/): 对比两段文字的差异并高亮显示
+- [文本替换器](https://wan.is-my.app/string-replacer/): 用新内容替换文本模式
+- [字符串到莫尔斯](https://wan.is-my.app/string-to-morse/): 将文本转换为摩尔斯电码
+- [截断文本](https://wan.is-my.app/string-truncate/): 将文本缩短至指定长度
+- [Unicode 编码器 / 解码器](https://wan.is-my.app/string-unicode/): 将文本转换为 Unicode 转义序列，或
+- [英文转大写](https://wan.is-my.app/string-uppercase/): 把英文字母全部转换为大写
+- [字符串 URL 解码器](https://wan.is-my.app/string-url-decode-string/): 加载您的字符串，它将自动获得 URL 非转
+- [网址参数编辑](https://wan.is-my.app/string-url-editor/): 拆解网址的各个参数并可视化编辑
+- [字符串 URL 编码器](https://wan.is-my.app/string-url-encode-string/): 加载您的字符串，它将自动进行 URL 转义
 
 ## 二维码
 
@@ -63,6 +145,32 @@
 - [BMI 计算器](https://wan.is-my.app/bmi/): 身体质量指数、标准体重
 - [日期计算器](https://wan.is-my.app/date-calc/): 相差天数、加减天数、星期几
 - [单位换算](https://wan.is-my.app/unit-convert/): 长度、重量、面积、温度
+- [基准生成器](https://wan.is-my.app/benchmark-builder/): 简单的在线基准构建器可以轻松比较任务的执行
+- [计时器](https://wan.is-my.app/chronometer/): 监控事物的持续时间。基本上是一种具有简单计
+- [ETA 计算器](https://wan.is-my.app/eta-calculator/): ETA（估计到达时间）计算器，用于知道任务
+- [数学计算器](https://wan.is-my.app/math-evaluator/): 计算数学表达式的计算器。您可以使用sqrt
+- [百分比计算器](https://wan.is-my.app/percentage-calculator/): 轻松计算从一个值到另一个值的百分比，或从百
+- [温度转换器](https://wan.is-my.app/temperature-converter/): 开尔文、摄氏度、华氏度、兰金、德莱尔、牛顿
+- [等差序列](https://wan.is-my.app/number-arithmetic-sequence/): 生成具有可定制参数的算术序列
+- [字节单位换算](https://wan.is-my.app/number-byte-converter/): B、KB、MB、GB、TB 等存储单位互相
+- [数字序列生成](https://wan.is-my.app/number-generate/): 按起始值和步长批量生成数字序列
+- [公式计算器](https://wan.is-my.app/number-generic-calc/): 常用数学和物理公式在线计算
+- [数字转英文单词](https://wan.is-my.app/number-number-to-words/): 把阿拉伯数字转换成英文大写单词
+- [随机数生成器](https://wan.is-my.app/number-random-number-generator/): 使用可自定义的选项生成指定范围内的随机数
+- [随机端口生成器](https://wan.is-my.app/number-random-port-generator/): 使用可定制的选项在指定范围内生成随机网络端
+- [数字求和](https://wan.is-my.app/number-sum/): 把一列数字快速求和
+- [检查闰年](https://wan.is-my.app/time-check-leap-years/): 检查某一年份是否为闰年并获取闰年信息
+- [将天数转换为小时数](https://wan.is-my.app/time-convert-days-to-hours/): 使用可自定义的选项将天数转换为小时数
+- [将小时转换为天](https://wan.is-my.app/time-convert-hours-to-days/): 使用可自定义的选项将小时转换为天
+- [将秒转换为时间](https://wan.is-my.app/time-convert-seconds-to-time/): 将秒转换为可读的时间格式（小时:分钟:秒）
+- [把时间转换至十进制格式](https://wan.is-my.app/time-convert-time-to-decimal/): 将格式化的时间长度（HH:MM:SS）转换
+- [将时间转换为秒](https://wan.is-my.app/time-convert-time-to-seconds/): 将格式化的时间（HH：MM：SS）转换为秒
+- [转换 Unix ↔ 日期](https://wan.is-my.app/time-convert-unix-to-date/): 将 Unix 时间戳转换为可读日期，并将格
+- [Crontab 表达式解析](https://wan.is-my.app/time-crontab-guru/): 解析和生成 cron 定时任务表达式
+- [星期几查询](https://wan.is-my.app/time-date-weekday-calculator/): 查询任意日期是星期几
+- [Discord 时间戳生成](https://wan.is-my.app/time-discord-timestamp/): 生成 Discord 动态时间戳代码
+- [日期间隔时间](https://wan.is-my.app/time-time-between-dates/): 计算两个日期之间的时差。获取精确的天、小时
+- [截断时钟时间](https://wan.is-my.app/time-truncate-clock-time/): 截断时钟时间以删除秒数或分钟数。将时间四舍
 
 ## 效率小工具
 
@@ -77,3 +185,417 @@
 - [正则表达式测试](https://wan.is-my.app/regex/): 实时匹配高亮、常用正则
 - [时间戳转换](https://wan.is-my.app/timestamp/): Unix 时间戳与北京时间互转
 - [URL 编码解码](https://wan.is-my.app/url-encode/): 中文网址编码、解码
+- [Base64 文件转换器](https://wan.is-my.app/base64-file-converter/): 将字符串、文件或图像转换为其 Base64
+- [Base64 字符串编码/解码](https://wan.is-my.app/base64-string-converter/): 将字符串编码和解码为其 Base64 格式
+- [基本身份验证生成器](https://wan.is-my.app/basic-auth-generator/): 从用户名和密码生成 base64 基本身份
+- [大小写转换](https://wan.is-my.app/case-converter/): 更改字符串的大小写并在不同格式之间进行选择
+- [Chmod 计算器](https://wan.is-my.app/chmod-calculator/): 使用此在线的chmod计算器计算chmod
+- [Color 选择器](https://wan.is-my.app/color-converter/): 在不同格式（十六进制、rgb、hsl和cs
+- [Crontab 表达式生成](https://wan.is-my.app/crontab-generator/): 验证并生成crontab，并获取cron调
+- [日期时间格式转换](https://wan.is-my.app/date-converter/): 在时间戳、ISO 8601、RFC 282
+- [设备信息](https://wan.is-my.app/device-information/): 获取有关当前设备的信息（屏幕大小、像素比率
+- [Docker Run 到 docker-compose 转换器](https://wan.is-my.app/docker-run-to-docker-compose-converter/): 将 docker run 命令行转换为 d
+- [邮箱地址规范化](https://wan.is-my.app/email-normalizer/): 把邮箱地址标准化，去掉别名和点号，便于去重
+- [Git 备忘录](https://wan.is-my.app/git-memo/): Git是一种去中心化的版本管理软件。使用此
+- [转义html实体](https://wan.is-my.app/html-entities/): 转义或unescape html实体（将<
+- [HTML所见即所得编辑器](https://wan.is-my.app/html-wysiwyg-editor/): 在线HTML编辑器具有功能丰富的所见即所得
+- [HTTP 状态码](https://wan.is-my.app/http-status-codes/): 所有HTTP状态的列表对其名称和含义解释
+- [IBAN验证器和解析器](https://wan.is-my.app/iban-validator-and-parser/): 验证和分析IBAN编号。检查IBAN是否有
+- [进制转换器](https://wan.is-my.app/base-converter/): 二进制、八进制、十进制、十六进制等任意进制
+- [JSON 差异比较](https://wan.is-my.app/json-diff/): 比较两个JSON对象并获得它们之间的差异
+- [JSON 压缩](https://wan.is-my.app/json-minify/): 通过删除不必要的空白来缩小和压缩JSON
+- [JSON 转 CSV](https://wan.is-my.app/json-to-csv/): 使用自动标头检测将JSON转换为CSV
+- [JSON 转 TOML](https://wan.is-my.app/json-to-toml/): 解析JSON并将其转换为TOML
+- [JSON 转 XML](https://wan.is-my.app/json-to-xml/): 把 JSON 数据转换成 XML 格式
+- [JSON到YAML转换器](https://wan.is-my.app/json-to-yaml-converter/): 在线转换将JSON转换为YAML
+- [JSON 美化查看](https://wan.is-my.app/json-prettify/): 格式化、美化 JSON，让它更易读
+- [JWT 解析器](https://wan.is-my.app/jwt-parser/): 解析和解码JSON Web Token（j
+- [Keycode 信息](https://wan.is-my.app/keycode-info/): 查找任何按下的键的javascript键代
+- [List 转换器](https://wan.is-my.app/list-converter/): 该工具可以处理基于数组的数据，并将各种更改
+- [Markdown 转 HTML](https://wan.is-my.app/markdown-to-html/): 把 Markdown 文本转换成 HTML
+- [网页 Meta 标签生成](https://wan.is-my.app/og-meta-generator/): 生成网站 SEO 和社交分享用的 meta
+- [mime类型](https://wan.is-my.app/mime-types/): 将mime类型转换为扩展，反之亦然
+- [动态验证码 OTP 生成](https://wan.is-my.app/otp-generator/): 生成和校验基于时间的一次性密码（TOTP）
+- [电话分析器和格式化程序](https://wan.is-my.app/phone-parser-and-formatter/): 解析、验证和格式化电话号码。获取有关电话号
+- [随机端口生成](https://wan.is-my.app/random-port-generator/): 生成“已知”端口范围（0-1023）之外的
+- [正则表达式速查表](https://wan.is-my.app/regex-memo/): 常用正则表达式语法速查手册
+- [正则表达式测试器](https://wan.is-my.app/regex-tester/): 在线测试正则表达式，实时高亮匹配结果和分组
+- [罗马数字转换器](https://wan.is-my.app/roman-numeral-converter/): 将罗马数字转换为数字，并将数字转换为罗马数
+- [Outlook 安全链接解码](https://wan.is-my.app/safelink-decoder/): 把 Outlook SafeLinks 安
+- [打乱字符串](https://wan.is-my.app/slugify-string/): 确保字符串 url、文件名和 id 安全
+- [SQL 美化和格式化](https://wan.is-my.app/sql-prettify/): 在线格式化和美化您的 SQL 查询（它支持
+- [文本到 ASCII 二进制](https://wan.is-my.app/text-to-binary/): 将文本转换为其 ASCII 二进制表示形式
+- [文本转北约字母表](https://wan.is-my.app/text-to-nato-alphabet/): 将文本转换为北约拼音字母以进行口头传播
+- [文本转 Unicode](https://wan.is-my.app/text-to-unicode/): 解析文本并将其转换为 unicode，反之
+- [TOML 到 JSON](https://wan.is-my.app/toml-to-json/): 解析TOML并将其转换为JSON
+- [TOML 到 YAML](https://wan.is-my.app/toml-to-yaml/): Parse and convert TOM
+- [编码/解码url格式的字符串](https://wan.is-my.app/url-encoder/): 编码为url编码格式（也称为“百分比编码”
+- [Url分析器](https://wan.is-my.app/url-parser/): 解析url字符串以获取所有不同的部分（协议
+- [用户代理分析器](https://wan.is-my.app/user-agent-parser/): 从用户代理字符串中检测和分析浏览器、引擎、
+- [XML 格式化](https://wan.is-my.app/xml-formatter/): 将XML字符串修饰为友好的可读格式
+- [XML 转 JSON](https://wan.is-my.app/xml-to-json/): 把 XML 数据转换成 JSON 格式
+- [YAML到JSON转换器](https://wan.is-my.app/yaml-to-json-converter/): 使用此在线转换器将YAML转换为JSON
+- [YAML 到 TOML](https://wan.is-my.app/yaml-to-toml/): 解析YAML并将其转换为TOML
+- [YAML 格式化](https://wan.is-my.app/yaml-prettify/): 格式化、美化 YAML 文本
+- [更改 CSV 分隔符](https://wan.is-my.app/csv-change-csv-separator/): 更改 CSV 文件中的分隔符。在不同的 C
+- [将 CSV 行转换为列](https://wan.is-my.app/csv-csv-rows-to-columns/): 此工具可将 CSV（逗号分隔值）文件的行转
+- [将 CSV 转换为 JSON](https://wan.is-my.app/csv-csv-to-json/): 将 CSV 文件转换为 JSON 格式，并
+- [将 CSV 转换为 TSV](https://wan.is-my.app/csv-csv-to-tsv/): 使用下方表单上传您的 CSV 文件，它将自
+- [将 CSV 转换为 XML](https://wan.is-my.app/csv-csv-to-xml/): 使用可自定义的选项将 CSV 文件转换为
+- [将 CSV 转换为 YAML](https://wan.is-my.app/csv-csv-to-yaml/): 只需在下方表单中上传您的 CSV 文件，它
+- [查找不完整的 CSV 记录](https://wan.is-my.app/csv-find-incomplete-csv-records/): 只需将您的 CSV 文件上传到下方表单，此
+- [插入 CSV 列](https://wan.is-my.app/csv-insert-csv-columns/): 在指定位置向 CSV 数据添加新列
+- [交换 CSV 列](https://wan.is-my.app/csv-swap-csv-columns/): 只需在下方表单中上传您的 CSV 文件，指
+- [转置 CSV](https://wan.is-my.app/csv-transpose-csv/): 只需使用下方表格上传您的 CSV 文件，此
+- [TSV 到 JSON](https://wan.is-my.app/csv-tsv-to-json/): 将 TSV（制表符分隔值）数据转换为 JS
+- [转义 JSON](https://wan.is-my.app/json-escape-json/): 转义 JSON 字符串中的特殊字符。将 J
+- [比较 JSON](https://wan.is-my.app/json-json-comparison/): 比较两个 JSON 对象以识别结构和值的差
+- [JSON 转 CSV](https://wan.is-my.app/json-json-to-csv/): 把 JSON 数组转换成 CSV 表格，E
+- [JSON 到 XML](https://wan.is-my.app/json-json-to-xml/): 将 JSON 数据转换为 XML 格式。将
+- [最小化 JSON](https://wan.is-my.app/json-minify-online/): 从 JSON 中删除所有不必要的空格
+- [美化 JSON](https://wan.is-my.app/json-prettify-online/): 使用适当的缩进和间距来格式化 JSON
+- [JSON 排序](https://wan.is-my.app/json-sort/): 按键名或数值对 JSON 对象和数组排序
+- [字符串化 JSON](https://wan.is-my.app/json-stringify/): 将 JavaScript 对象转换为 JS
+- [验证 JSON](https://wan.is-my.app/json-validatejson/): 检查 JSON 是否有效且格式正确
+- [XML美化器](https://wan.is-my.app/xml-xml-beautifier/): 使用适当的缩进和间距来格式化 XML
+- [XML验证器](https://wan.is-my.app/xml-xml-validator/): 验证 XML 语法和结构
+
+## 音视频处理
+
+- [更改音频速度](https://wan.is-my.app/audio-change-speed/): 更改音频文件的播放速度。在保持音调不变的情
+- [从视频中提取音频](https://wan.is-my.app/audio-extract-audio/): 从视频文件中提取音轨
+- [合并音频](https://wan.is-my.app/audio-merge-audio/): 按顺序连接多个音频文件，将其合并为一个音频
+- [修剪音频](https://wan.is-my.app/audio-trim/): 通过指定开始和结束时间来剪切和修剪音频文件
+- [音频转换器](https://wan.is-my.app/converters-audio-converter/): 在不同格式之间转换音频文件
+- [视频加背景音乐](https://wan.is-my.app/video-add-audio/): 给视频添加或替换背景音乐
+- [更改视频速度](https://wan.is-my.app/video-change-speed/): 更改视频文件的播放速度。在保持音频同步的同
+- [压缩视频](https://wan.is-my.app/video-compress/): 通过将视频缩放到不同的分辨率（例如 240
+- [裁剪视频](https://wan.is-my.app/video-crop-video/): 裁剪视频以删除不需要的区域
+- [翻转视频](https://wan.is-my.app/video-flip/): 水平或垂直翻转视频文件。镜像视频以获得特殊
+- [循环视频](https://wan.is-my.app/video-loop/): 通过多次重复播放原始视频来创建循环视频
+- [合并视频](https://wan.is-my.app/video-merge-video/): 将多个视频文件合并为一个连续的视频
+- [视频改尺寸](https://wan.is-my.app/video-resize/): 修改视频分辨率，缩小视频体积
+- [旋转视频](https://wan.is-my.app/video-rotate/): 将视频文件旋转 90 度、180 度或 2
+- [修剪视频](https://wan.is-my.app/video-trim/): 通过指定开始和结束时间来修剪视频文件。从视
+
+## 加密安全
+
+- [加密](https://wan.is-my.app/bcrypt/): 使用bcrypt对文本字符串进行哈希和比较
+- [BIP39密码生成器](https://wan.is-my.app/bip39-generator/): 从现有或随机助记符生成BIP39密码短语
+- [加密/解密文本](https://wan.is-my.app/encryption/): 使用加密算法（如AES、TripleDES
+- [Hash 文本](https://wan.is-my.app/hash-text/): 使用所需的函数哈希文本字符串：MD5、SH
+- [Hmac 生成器](https://wan.is-my.app/hmac-generator/): 使用密钥和您喜欢的哈希函数计算基于哈希的消
+- [密码强度分析仪](https://wan.is-my.app/password-strength-analyser/): 使用此密码强度分析器和破解时间估计工具来发
+- [PDF签名检查器](https://wan.is-my.app/pdf-signature-checker/): 验证PDF文件的签名。签名的PDF文件包含
+- [RSA密钥对生成器](https://wan.is-my.app/rsa-key-pair-generator/): 生成新的随机RSA私钥和公钥pem证书
+- [Token 生成器](https://wan.is-my.app/token-generator/): 使用您想要的字符、大写或小写字母、数字和/
+- [ULID 生成器](https://wan.is-my.app/ulid-generator/): 生成随机的通用唯一词典可排序标识符（ULI
+- [UUIDs 生成器](https://wan.is-my.app/uuid-generator/): 通用唯一标识符（UUID）是一个128位数
+
+## 网络工具
+
+- [Ipv4地址转换器](https://wan.is-my.app/ipv4-address-converter/): 在ipv6中，将ip地址转换为十进制、二进
+- [IPv4范围扩展器](https://wan.is-my.app/ipv4-range-expander/): 给定起始和结束IPv4地址，此工具使用其C
+- [IPv4子网计算器](https://wan.is-my.app/ipv4-subnet-calculator/): 解析IPv4 CIDR块，并获取有关子网络
+- [IPv6 ULA生成器](https://wan.is-my.app/ipv6-ula-generator/): 根据RFC4193在网络上生成您自己的本地
+- [MAC 地址生成器](https://wan.is-my.app/mac-address-generator/): 输入数量和前缀。MAC地址将以您选择的大小
+- [MAC地址查找](https://wan.is-my.app/mac-address-lookup/): 通过设备的MAC地址查找设备的供应商和制造
+
+## 极客工具
+
+- [十六进制转储 Hexdump](https://wan.is-my.app/cc-to-hexdump/): 把文本或文件显示成十六进制转储格式
+- [Hexdump 还原](https://wan.is-my.app/cc-from-hexdump/): 把十六进制转储还原成原始数据
+- [文本转十六进制](https://wan.is-my.app/cc-to-hex/): 把文字转换成十六进制编码
+- [十六进制转文本](https://wan.is-my.app/cc-from-hex/): 把十六进制编码还原成文字
+- [文本转字符编码](https://wan.is-my.app/cc-to-charcode/): 把文字转换成字符编码数值
+- [字符编码转文本](https://wan.is-my.app/cc-from-charcode/): 把字符编码数值还原成文字
+- [文本转十进制](https://wan.is-my.app/cc-to-decimal/): 把文字的每个字节转换成十进制数字
+- [十进制转文本](https://wan.is-my.app/cc-from-decimal/): 把十进制数字还原成文字
+- [文本转二进制](https://wan.is-my.app/cc-to-binary/): 把文字转换成 0 和 1 的二进制编码
+- [二进制转文本](https://wan.is-my.app/cc-from-binary/): 把二进制编码还原成文字
+- [文本转八进制](https://wan.is-my.app/cc-to-octal/): 把文字转换成八进制编码
+- [八进制转文本](https://wan.is-my.app/cc-from-octal/): 把八进制编码还原成文字
+- [Base32 编码](https://wan.is-my.app/cc-to-base32/): 把文字编码成 Base32
+- [Base32 解码](https://wan.is-my.app/cc-from-base32/): 把 Base32 解码成原文
+- [Base58 编码](https://wan.is-my.app/cc-to-base58/): 比特币等使用的 Base58 编码
+- [Base58 解码](https://wan.is-my.app/cc-from-base58/): 把 Base58 解码成原文
+- [Base62 编码](https://wan.is-my.app/cc-to-base62/): 把数据编码成 Base62
+- [Base62 解码](https://wan.is-my.app/cc-from-base62/): 把 Base62 解码成原文
+- [Base85 编码](https://wan.is-my.app/cc-to-base85/): Ascii85 / Base85 编码
+- [Base85 解码](https://wan.is-my.app/cc-from-base85/): Ascii85 / Base85 解码
+- [Base45 编码](https://wan.is-my.app/cc-to-base45/): 健康码等使用的 Base45 编码
+- [Base45 解码](https://wan.is-my.app/cc-from-base45/): 把 Base45 解码成原文
+- [HTML 实体编码](https://wan.is-my.app/cc-to-html-entity/): 把特殊字符转换成 HTML 实体
+- [HTML 实体解码](https://wan.is-my.app/cc-from-html-entity/): 把 &amp; 等 HTML 实体还原
+- [Unicode 转义](https://wan.is-my.app/cc-escape-unicode-characters/): 把中文等字符转成 \u 转义序列
+- [Unicode 反转义](https://wan.is-my.app/cc-unescape-unicode-characters/): 把 \u4e2d 这样的转义还原成中文
+- [Quoted-Printable 编码](https://wan.is-my.app/cc-to-quoted-printable/): 邮件常用的 QP 编码
+- [Quoted-Printable 解码](https://wan.is-my.app/cc-from-quoted-printable/): 解码邮件里的 QP 编码
+- [Punycode 编码](https://wan.is-my.app/cc-to-punycode/): 把中文域名转换成 Punycode（xn-
+- [Punycode 解码](https://wan.is-my.app/cc-from-punycode/): 把 xn-- 开头的域名还原成中文
+- [文本编码转换](https://wan.is-my.app/cc-encode-text/): 把文字转换成 GBK、UTF-16 等编码
+- [乱码修复 / 文本解码](https://wan.is-my.app/cc-decode-text/): 按 GBK、Big5、UTF-8 等编码重
+- [乱码编码识别](https://wan.is-my.app/cc-text-encoding-brute-force/): 用各种字符编码尝试解码，找出乱码的正确编码
+- [文字转盲文](https://wan.is-my.app/cc-to-braille/): 把英文转换成盲文点字
+- [盲文转文字](https://wan.is-my.app/cc-from-braille/): 把盲文点字还原成英文
+- [CSV 转 JSON（高级）](https://wan.is-my.app/cc-csv-to-json/): 把 CSV 表格转换成 JSON
+- [YAML 转 JSON](https://wan.is-my.app/cc-yaml-to-json/): 把 YAML 配置转换成 JSON
+- [JSON 转 YAML](https://wan.is-my.app/cc-json-to-yaml/): 把 JSON 转换成 YAML
+- [JSON 转 MessagePack](https://wan.is-my.app/cc-to-messagepack/): 把 JSON 编码成 MessagePack
+- [MessagePack 转 JSON](https://wan.is-my.app/cc-from-messagepack/): 把 MessagePack 解码成 JSON
+- [AES 加密](https://wan.is-my.app/cc-aes-encrypt/): AES 对称加密，支持 CBC、ECB、G
+- [AES 解密](https://wan.is-my.app/cc-aes-decrypt/): AES 对称解密，支持多种模式和填充
+- [DES 加密](https://wan.is-my.app/cc-des-encrypt/): DES 对称加密
+- [DES 解密](https://wan.is-my.app/cc-des-decrypt/): DES 对称解密
+- [3DES 加密](https://wan.is-my.app/cc-triple-des-encrypt/): 三重 DES 加密
+- [3DES 解密](https://wan.is-my.app/cc-triple-des-decrypt/): 三重 DES 解密
+- [Blowfish 加密](https://wan.is-my.app/cc-blowfish-encrypt/): Blowfish 对称加密
+- [Blowfish 解密](https://wan.is-my.app/cc-blowfish-decrypt/): Blowfish 对称解密
+- [国密 SM4 加密](https://wan.is-my.app/cc-sm4-encrypt/): 国家商用密码 SM4 分组加密
+- [国密 SM4 解密](https://wan.is-my.app/cc-sm4-decrypt/): 国家商用密码 SM4 解密
+- [RC4 加解密](https://wan.is-my.app/cc-rc4/): RC4 流加密和解密
+- [ChaCha20 加解密](https://wan.is-my.app/cc-chacha/): ChaCha20 流密码加解密
+- [ROT13 编码](https://wan.is-my.app/cc-rot13/): 字母移位 13 位的简单加密
+- [ROT47 编码](https://wan.is-my.app/cc-rot47/): ROT47 字符移位加密
+- [XOR 异或运算](https://wan.is-my.app/cc-xor/): 用密钥对数据做异或加解密
+- [XOR 暴力破解](https://wan.is-my.app/cc-xor-brute-force/): 尝试所有单字节密钥破解异或加密
+- [维吉尼亚密码加密](https://wan.is-my.app/cc-vigen-re-encode/): Vigenère 多表替换加密
+- [维吉尼亚密码解密](https://wan.is-my.app/cc-vigen-re-decode/): Vigenère 密码解密
+- [文字转摩斯密码](https://wan.is-my.app/cc-to-morse-code/): 把英文和数字转换成摩斯电码
+- [摩斯密码翻译](https://wan.is-my.app/cc-from-morse-code/): 把摩斯电码翻译成文字
+- [培根密码加密](https://wan.is-my.app/cc-bacon-cipher-encode/): Bacon 培根密码编码
+- [培根密码解密](https://wan.is-my.app/cc-bacon-cipher-decode/): Bacon 培根密码解码
+- [仿射密码加密](https://wan.is-my.app/cc-affine-cipher-encode/): Affine 仿射密码加密
+- [仿射密码解密](https://wan.is-my.app/cc-affine-cipher-decode/): Affine 仿射密码解密
+- [栅栏密码加密](https://wan.is-my.app/cc-rail-fence-cipher-encode/): Rail Fence 栅栏密码加密
+- [栅栏密码解密](https://wan.is-my.app/cc-rail-fence-cipher-decode/): Rail Fence 栅栏密码解密
+- [埃特巴什码](https://wan.is-my.app/cc-atbash-cipher/): Atbash 字母倒序替换密码
+- [字符替换密码](https://wan.is-my.app/cc-substitute/): 按自定义对照表替换字符
+- [字母转数字 A1Z26](https://wan.is-my.app/cc-a1z26-cipher-encode/): 把字母转换成 1–26 的数字
+- [数字转字母 A1Z26](https://wan.is-my.app/cc-a1z26-cipher-decode/): 把 1–26 的数字还原成字母
+- [Bcrypt 哈希生成](https://wan.is-my.app/cc-bcrypt/): 生成 bcrypt 密码哈希
+- [Bcrypt 校验](https://wan.is-my.app/cc-bcrypt-compare/): 校验密码和 bcrypt 哈希是否匹配
+- [Scrypt 密钥派生](https://wan.is-my.app/cc-scrypt/): 用 scrypt 算法派生密钥
+- [PBKDF2 密钥派生](https://wan.is-my.app/cc-derive-pbkdf2-key/): 用 PBKDF2 从密码派生密钥
+- [JWT 签名生成](https://wan.is-my.app/cc-jwt-sign/): 生成 JSON Web Token
+- [JWT 校验](https://wan.is-my.app/cc-jwt-verify/): 校验 JWT 的签名
+- [JWT 解析](https://wan.is-my.app/cc-jwt-decode/): 解析 JWT 的 Header 和 Pay
+- [恩尼格玛密码机模拟](https://wan.is-my.app/cc-enigma/): 模拟二战德军 Enigma 密码机
+- [SSL 证书解析](https://wan.is-my.app/cc-parse-x-509-certificate/): 解析 X.509 证书的颁发者、有效期、域
+- [CSR 解析](https://wan.is-my.app/cc-parse-csr/): 解析证书签名请求 CSR
+- [RSA 密钥对生成](https://wan.is-my.app/cc-generate-rsa-key-pair/): 生成 RSA 公钥和私钥
+- [RSA 加密](https://wan.is-my.app/cc-rsa-encrypt/): 用 RSA 公钥加密
+- [RSA 解密](https://wan.is-my.app/cc-rsa-decrypt/): 用 RSA 私钥解密
+- [RSA 签名](https://wan.is-my.app/cc-rsa-sign/): 用 RSA 私钥签名
+- [RSA 验签](https://wan.is-my.app/cc-rsa-verify/): 用 RSA 公钥验证签名
+- [PGP 密钥生成](https://wan.is-my.app/cc-generate-pgp-key-pair/): 生成 PGP 公私钥对
+- [PGP 加密](https://wan.is-my.app/cc-pgp-encrypt/): 用 PGP 公钥加密消息
+- [PGP 解密](https://wan.is-my.app/cc-pgp-decrypt/): 用 PGP 私钥解密消息
+- [国密 SM2 加密](https://wan.is-my.app/cc-sm2-encrypt/): 国家商用密码 SM2 公钥加密
+- [国密 SM2 解密](https://wan.is-my.app/cc-sm2-decrypt/): 国家商用密码 SM2 解密
+- [ECDSA 密钥生成](https://wan.is-my.app/cc-generate-ecdsa-key-pair/): 生成椭圆曲线 ECDSA 密钥对
+- [PEM 转 JWK](https://wan.is-my.app/cc-pem-to-jwk/): 把 PEM 密钥转换成 JWK
+- [JWK 转 PEM](https://wan.is-my.app/cc-jwk-to-pem/): 把 JWK 转换成 PEM 密钥
+- [集合并集](https://wan.is-my.app/cc-set-union/): 求两组数据的并集
+- [集合交集](https://wan.is-my.app/cc-set-intersection/): 求两组数据的交集
+- [集合差集](https://wan.is-my.app/cc-set-difference/): 求两组数据的差集
+- [笛卡尔积](https://wan.is-my.app/cc-cartesian-product/): 求多组数据的笛卡尔积
+- [幂集生成](https://wan.is-my.app/cc-power-set/): 生成集合的所有子集
+- [平均数计算](https://wan.is-my.app/cc-mean/): 求一组数字的平均值
+- [中位数计算](https://wan.is-my.app/cc-median/): 求一组数字的中位数
+- [标准差计算](https://wan.is-my.app/cc-standard-deviation/): 求一组数字的标准差
+- [位左移](https://wan.is-my.app/cc-bit-shift-left/): 按位左移运算
+- [位右移](https://wan.is-my.app/cc-bit-shift-right/): 按位右移运算
+- [User-Agent 解析](https://wan.is-my.app/cc-parse-user-agent/): 解析浏览器 UA，识别系统、浏览器和设备
+- [IP 段展开](https://wan.is-my.app/cc-parse-ip-range/): 把 CIDR 或 IP 范围展开成 IP
+- [IPv6 地址解析](https://wan.is-my.app/cc-parse-ipv6-address/): 解析 IPv6 地址的结构和类型
+- [网址结构解析](https://wan.is-my.app/cc-parse-uri/): 拆解网址的协议、域名、路径和参数
+- [MAC 地址格式化](https://wan.is-my.app/cc-format-mac-addresses/): 把 MAC 地址转换成各种格式
+- [IP 格式转换](https://wan.is-my.app/cc-change-ip-format/): IP 地址在点分十进制、十六进制、整数之间
+- [IP 地址分组](https://wan.is-my.app/cc-group-ip-addresses/): 把 IP 列表按网段分组
+- [网址去活化](https://wan.is-my.app/cc-defang-url/): 把恶意网址改写成不可点击形式（hxxp）
+- [网址还原](https://wan.is-my.app/cc-fang-url/): 把 hxxp 去活化网址还原
+- [DNS 查询 DoH](https://wan.is-my.app/cc-dns-over-https/): 通过 DNS over HTTPS 查询域
+- [Protobuf 解码](https://wan.is-my.app/cc-protobuf-decode/): 解码 Protocol Buffers 二
+- [北约音标字母转换](https://wan.is-my.app/cc-convert-to-nato-alphabet/): 把字母转换成 Alpha、Bravo 等北
+- [火星文 Leet 转换](https://wan.is-my.app/cc-convert-leet-speak/): 英文和 Leet（1337）写法互转
+- [去除变音符号](https://wan.is-my.app/cc-remove-diacritics/): 去掉 é、ü 等字母上的变音符号
+- [文本差异对比（高级）](https://wan.is-my.app/cc-diff/): 逐行或逐字对比两段文本
+- [去除空白字符](https://wan.is-my.app/cc-remove-whitespace/): 删除空格、换行、制表符
+- [转大写（高级）](https://wan.is-my.app/cc-to-upper-case/): 把文本转成大写
+- [转小写](https://wan.is-my.app/cc-to-lower-case/): 把文本转成小写
+- [大小写互换](https://wan.is-my.app/cc-swap-case/): 把大写变小写、小写变大写
+- [添加行号](https://wan.is-my.app/cc-add-line-numbers/): 给每一行加上行号
+- [删除行号](https://wan.is-my.app/cc-remove-line-numbers/): 去掉每行开头的行号
+- [文本转表格](https://wan.is-my.app/cc-to-table/): 把 CSV 或分隔文本渲染成表格
+- [文本行排序](https://wan.is-my.app/cc-sort/): 按字母、数字、长度给行排序
+- [文本行去重（高级）](https://wan.is-my.app/cc-unique/): 删除重复的行，可统计次数
+- [统计出现次数](https://wan.is-my.app/cc-count-occurrences/): 统计某个字符串出现了多少次
+- [批量查找替换](https://wan.is-my.app/cc-find-replace/): 支持正则的查找替换
+- [正则提取](https://wan.is-my.app/cc-regular-expression/): 用正则表达式匹配和提取内容
+- [编辑距离计算](https://wan.is-my.app/cc-levenshtein-distance/): 计算两段文字的 Levenshtein 编
+- [汉明距离计算](https://wan.is-my.app/cc-hamming-distance/): 计算两个字符串的汉明距离
+- [距离单位换算](https://wan.is-my.app/cc-convert-distance/): 米、英尺、英里、海里等距离单位换算
+- [面积单位换算](https://wan.is-my.app/cc-convert-area/): 平方米、亩、公顷、英亩等面积换算
+- [重量单位换算](https://wan.is-my.app/cc-convert-mass/): 千克、斤、磅、盎司等重量换算
+- [速度单位换算](https://wan.is-my.app/cc-convert-speed/): 公里/小时、米/秒、节、马赫换算
+- [数据单位换算](https://wan.is-my.app/cc-convert-data-units/): bit、Byte、KB、MB、GB、TB
+- [经纬度格式转换](https://wan.is-my.app/cc-convert-co-ordinate-format/): 度分秒、十进制度等坐标格式互转
+- [Linux 文件权限解析](https://wan.is-my.app/cc-parse-unix-file-permissions/): chmod 数字权限和 rwx 互转
+- [颜色代码转换](https://wan.is-my.app/cc-parse-colour-code/): HEX、RGB、HSL、CMYK 颜色值互转
+- [字符串转义](https://wan.is-my.app/cc-escape-string/): 转义引号、换行等特殊字符
+- [字符串反转义](https://wan.is-my.app/cc-unescape-string/): 把 \n、\t 等转义字符还原
+- [日期时间解析](https://wan.is-my.app/cc-parse-datetime/): 解析各种格式的日期时间
+- [日期格式转换](https://wan.is-my.app/cc-translate-datetime-format/): 把日期从一种格式转换成另一种
+- [时间戳转日期（高级）](https://wan.is-my.app/cc-from-unix-timestamp/): 把 Unix 时间戳转成日期时间
+- [日期转时间戳](https://wan.is-my.app/cc-to-unix-timestamp/): 把日期时间转成 Unix 时间戳
+- [Windows 文件时间转换](https://wan.is-my.app/cc-windows-filetime-to-unix-timestamp/): Windows FILETIME 转 Un
+- [日期加减计算](https://wan.is-my.app/cc-datetime-delta/): 给日期加减若干天、小时、分钟
+- [提取可读字符串](https://wan.is-my.app/cc-strings/): 从二进制文件中提取可读文字
+- [提取 IP 地址](https://wan.is-my.app/cc-extract-ip-addresses/): 从文本中提取所有 IP 地址
+- [提取邮箱（高级）](https://wan.is-my.app/cc-extract-email-addresses/): 从文本中提取所有邮箱地址
+- [提取网址链接](https://wan.is-my.app/cc-extract-urls/): 从文本中提取所有网址
+- [提取域名](https://wan.is-my.app/cc-extract-domains/): 从文本中提取所有域名
+- [提取 MAC 地址](https://wan.is-my.app/cc-extract-mac-addresses/): 从文本中提取 MAC 地址
+- [提取日期](https://wan.is-my.app/cc-extract-dates/): 从文本中提取日期
+- [提取哈希值](https://wan.is-my.app/cc-extract-hashes/): 从文本中找出 MD5、SHA 等哈希值
+- [XPath 查询](https://wan.is-my.app/cc-xpath-expression/): 用 XPath 从 XML/HTML 中提
+- [JSONPath 查询](https://wan.is-my.app/cc-jpath-expression/): 用 JSONPath 从 JSON 中提取
+- [CSS 选择器提取](https://wan.is-my.app/cc-css-selector/): 用 CSS 选择器从 HTML 提取内容
+- [照片 EXIF 信息查看](https://wan.is-my.app/cc-extract-exif/): 读取照片的拍摄时间、相机、GPS 等 EX
+- [删除照片 EXIF](https://wan.is-my.app/cc-remove-exif/): 清除照片里的位置和设备信息，保护隐私
+- [提取嵌入文件](https://wan.is-my.app/cc-extract-files/): 从文件中找出并提取嵌入的其他文件
+- [Gzip 压缩](https://wan.is-my.app/cc-gzip/): 用 Gzip 压缩数据
+- [Gzip 解压](https://wan.is-my.app/cc-gunzip/): 解压 Gzip 数据
+- [在线 ZIP 压缩](https://wan.is-my.app/cc-zip/): 把文件压缩成 ZIP
+- [在线 ZIP 解压](https://wan.is-my.app/cc-unzip/): 在浏览器里解压 ZIP 文件
+- [Bzip2 解压](https://wan.is-my.app/cc-bzip2-decompress/): 解压 bz2 数据
+- [TAR 打包](https://wan.is-my.app/cc-tar/): 把文件打包成 tar
+- [TAR 解包](https://wan.is-my.app/cc-untar/): 解开 tar 包
+- [Zlib 压缩](https://wan.is-my.app/cc-zlib-deflate/): Zlib 压缩
+- [Zlib 解压](https://wan.is-my.app/cc-zlib-inflate/): Zlib 解压
+- [LZString 压缩](https://wan.is-my.app/cc-lzstring-compress/): LZString 压缩
+- [LZString 解压](https://wan.is-my.app/cc-lzstring-decompress/): LZString 解压
+- [哈希类型识别](https://wan.is-my.app/cc-analyse-hash/): 根据长度和格式猜测哈希算法
+- [全部哈希一键生成](https://wan.is-my.app/cc-generate-all-hashes/): 一次性生成 MD5、SHA1、SHA256
+- [全部校验和生成](https://wan.is-my.app/cc-generate-all-checksums/): 一次性生成 CRC32、Adler 等校验和
+- [MD5 加密](https://wan.is-my.app/cc-md5/): 计算文本或文件的 MD5 值
+- [SHA1 加密](https://wan.is-my.app/cc-sha1/): 计算 SHA1 哈希值
+- [SHA256 加密](https://wan.is-my.app/cc-sha2/): 计算 SHA-224/256/384/51
+- [SHA3 哈希](https://wan.is-my.app/cc-sha3/): 计算 SHA3 哈希值
+- [国密 SM3 哈希](https://wan.is-my.app/cc-sm3/): 计算国家商用密码 SM3 摘要
+- [HMAC 计算](https://wan.is-my.app/cc-hmac/): 计算 HMAC-MD5、HMAC-SHA2
+- [RIPEMD 哈希](https://wan.is-my.app/cc-ripemd/): 计算 RIPEMD-160 哈希
+- [BLAKE2b 哈希](https://wan.is-my.app/cc-blake2b/): 计算 BLAKE2b 哈希
+- [BLAKE3 哈希](https://wan.is-my.app/cc-blake3/): 计算 BLAKE3 哈希
+- [Argon2 哈希](https://wan.is-my.app/cc-argon2/): 生成 Argon2 密码哈希
+- [NTLM 哈希](https://wan.is-my.app/cc-nt-hash/): 计算 Windows NT 哈希
+- [MurmurHash3 哈希](https://wan.is-my.app/cc-murmurhash3/): 计算 MurmurHash3
+- [CRC 校验计算](https://wan.is-my.app/cc-crc-checksum/): 计算 CRC8/16/32 等校验值
+- [银行卡号 Luhn 校验](https://wan.is-my.app/cc-luhn-checksum/): 用 Luhn 算法校验卡号是否有效
+- [代码语法高亮](https://wan.is-my.app/cc-syntax-highlighter/): 给代码加上语法高亮
+- [代码格式化](https://wan.is-my.app/cc-generic-code-beautify/): 通用代码美化缩进
+- [JS 代码格式化](https://wan.is-my.app/cc-javascript-beautify/): 美化压缩过的 JavaScript
+- [JS 代码压缩](https://wan.is-my.app/cc-javascript-minify/): 压缩 JavaScript 代码
+- [XML 格式化（高级）](https://wan.is-my.app/cc-xml-beautify/): 美化 XML
+- [XML 压缩](https://wan.is-my.app/cc-xml-minify/): 压缩 XML
+- [SQL 格式化](https://wan.is-my.app/cc-sql-beautify/): 美化 SQL 语句
+- [SQL 压缩](https://wan.is-my.app/cc-sql-minify/): 压缩 SQL
+- [CSS 格式化](https://wan.is-my.app/cc-css-beautify/): 美化 CSS 代码
+- [CSS 压缩](https://wan.is-my.app/cc-css-minify/): 压缩 CSS 代码
+- [JSON 压缩（高级）](https://wan.is-my.app/cc-json-minify/): 去掉 JSON 的空白
+- [jq 查询](https://wan.is-my.app/cc-jq/): 用 jq 表达式处理 JSON
+- [PHP 反序列化](https://wan.is-my.app/cc-php-deserialize/): 把 PHP serialize 字符串转成
+- [去除 HTML 标签](https://wan.is-my.app/cc-strip-html-tags/): 删除 HTML 标签只保留文字
+- [转下划线命名](https://wan.is-my.app/cc-to-snake-case/): 转换成 snake_case
+- [转驼峰命名](https://wan.is-my.app/cc-to-camel-case/): 转换成 camelCase
+- [转短横线命名](https://wan.is-my.app/cc-to-kebab-case/): 转换成 kebab-case
+- [Markdown 预览](https://wan.is-my.app/cc-render-markdown/): 把 Markdown 渲染成网页
+- [文件类型识别](https://wan.is-my.app/cc-detect-file-type/): 根据文件头识别真实的文件类型
+- [图片隐写 LSB 提取](https://wan.is-my.app/cc-extract-lsb/): 提取图片最低有效位中隐藏的数据
+- [图片位平面查看](https://wan.is-my.app/cc-view-bit-plane/): 查看图片各个位平面，用于隐写分析
+- [OCR 文字识别（高级）](https://wan.is-my.app/cc-optical-character-recognition/): 识别图片里的英文文字
+- [图片旋转](https://wan.is-my.app/cc-rotate-image/): 按角度旋转图片
+- [图片模糊](https://wan.is-my.app/cc-blur-image/): 给图片加高斯模糊
+- [图片抖动处理](https://wan.is-my.app/cc-dither-image/): 把图片转换成抖动点阵效果
+- [图片反色](https://wan.is-my.app/cc-invert-image/): 把图片颜色反转
+- [图片翻转](https://wan.is-my.app/cc-flip-image/): 水平或垂直翻转图片
+- [图片亮度对比度](https://wan.is-my.app/cc-image-brightness-contrast/): 调整图片亮度和对比度
+- [图片滤镜](https://wan.is-my.app/cc-image-filter/): 给图片加灰度、复古等滤镜
+- [图片锐化](https://wan.is-my.app/cc-sharpen-image/): 让模糊的图片更清晰
+- [图片格式转换（高级）](https://wan.is-my.app/cc-convert-image-format/): PNG、JPG、BMP、GIF、TIFF
+- [图片加文字](https://wan.is-my.app/cc-add-text-to-image/): 在图片上添加文字
+- [图片色相饱和度](https://wan.is-my.app/cc-image-hue-saturation-lightness/): 调整图片色相、饱和度和亮度
+- [图片通道分离](https://wan.is-my.app/cc-split-colour-channels/): 把图片拆成红、绿、蓝通道
+- [PDF 预览](https://wan.is-my.app/cc-render-pdf/): 在浏览器里预览 PDF
+- [信息熵计算](https://wan.is-my.app/cc-entropy/): 计算数据的香农熵
+- [字符频率统计](https://wan.is-my.app/cc-frequency-distribution/): 统计每个字符出现的频率
+- [UUID 生成（高级）](https://wan.is-my.app/cc-generate-uuid/): 生成 UUID v1/v4
+- [TOTP 动态码生成](https://wan.is-my.app/cc-generate-totp/): 根据密钥生成两步验证动态码
+- [二维码生成（极客版）](https://wan.is-my.app/cc-generate-qr-code/): 把任意数据生成二维码
+- [二维码解析（极客版）](https://wan.is-my.app/cc-parse-qr-code/): 从图片中解析二维码内容
+- [经纬度距离计算](https://wan.is-my.app/cc-haversine-distance/): 根据两点经纬度计算地球表面距离
+- [HTML 转纯文本](https://wan.is-my.app/cc-html-to-text/): 把网页 HTML 转成纯文字
+- [Lorem Ipsum 假文生成](https://wan.is-my.app/cc-generate-lorem-ipsum/): 生成排版用的英文占位文字
+- [随机整数生成](https://wan.is-my.app/cc-pseudo-random-integer-generator/): 生成指定范围的随机整数
+- [x86 反汇编](https://wan.is-my.app/cc-disassemble-x86/): 把机器码反汇编成 x86 汇编
+
+## 系统与软件下载
+
+- [Windows 11官方下载](https://wan.is-my.app/windows11-download/): 微软官方 ISO 镜像和安装助手
+- [Windows 10官方下载](https://wan.is-my.app/windows10-download/): 微软官方媒体创建工具
+- [macOS官方下载](https://wan.is-my.app/macos-download/): 苹果官方 macOS 下载与升级方法
+- [Microsoft Office官方下载](https://wan.is-my.app/office-download/): 微软 Office / Microsoft 365 官方入口
+- [WPS Office官方下载](https://wan.is-my.app/wps-download/): 金山 WPS 官方免费办公软件
+- [Ventoy官方下载](https://wan.is-my.app/ventoy-download/): 开源 U 盘启动盘制作工具
+- [Rufus官方下载](https://wan.is-my.app/rufus-download/): 小巧的 U 盘启动盘制作工具
+- [微PE工具箱官方下载](https://wan.is-my.app/wepe-download/): 纯净无广告的 WinPE 系统维护盘
+- [CPU-Z官方下载](https://wan.is-my.app/cpu-z-download/): 查看 CPU、主板、内存信息
+- [HWiNFO官方下载](https://wan.is-my.app/hwinfo-download/): 专业硬件信息与温度监控
+- [CrystalDiskInfo官方下载](https://wan.is-my.app/crystaldiskinfo-download/): 硬盘健康度检测
+- [DiskGenius官方下载](https://wan.is-my.app/diskgenius-download/): 分区管理与数据恢复
+- [7-Zip官方下载](https://wan.is-my.app/7zip-download/): 开源免费解压缩软件
+- [Everything官方下载](https://wan.is-my.app/everything-download/): 秒搜电脑文件
+- [Geek Uninstaller官方下载](https://wan.is-my.app/geek-uninstaller-download/): 彻底卸载软件和残留
+- [Dism++官方下载](https://wan.is-my.app/dism-plus-download/): 开源系统优化与清理工具
+- [NVIDIA 显卡驱动官方下载](https://wan.is-my.app/nvidia-driver-download/): 英伟达官方显卡驱动
+- [AMD 驱动官方下载](https://wan.is-my.app/amd-driver-download/): AMD 显卡与芯片组官方驱动
+- [Intel 驱动官方下载](https://wan.is-my.app/intel-driver-download/): 英特尔驱动程序与支持助理
+- [VLC 播放器官方下载](https://wan.is-my.app/vlc-download/): 开源全能视频播放器
+- [PotPlayer官方下载](https://wan.is-my.app/potplayer-download/): 高画质本地视频播放器
+- [Google Chrome官方下载](https://wan.is-my.app/chrome-download/): 谷歌浏览器官方版
+- [Microsoft Edge官方下载](https://wan.is-my.app/edge-download/): 微软 Edge 浏览器
+- [Firefox 火狐浏览器官方下载](https://wan.is-my.app/firefox-download/): 火狐浏览器中国版
+- [OBS Studio官方下载](https://wan.is-my.app/obs-download/): 开源免费录屏直播软件
+- [Notepad++官方下载](https://wan.is-my.app/notepad-plus-plus-download/): 开源免费文本编辑器
+- [VS Code官方下载](https://wan.is-my.app/vscode-download/): 微软免费代码编辑器
+- [Python官方下载](https://wan.is-my.app/python-download/): Python 官方安装包
+- [LibreOffice官方下载](https://wan.is-my.app/libreoffice-download/): 开源免费办公套件
+- [WinRAR官方下载](https://wan.is-my.app/winrar-download/): WinRAR 中国官方站
+
+## 游戏客户端下载
+
+- [Steam官方下载](https://wan.is-my.app/steam-download/): 全球最大游戏平台客户端
+- [Epic Games官方下载](https://wan.is-my.app/epic-download/): 每周送免费游戏的平台
+- [战网 Battle.net官方下载](https://wan.is-my.app/battlenet-download/): 暴雪战网客户端
+- [WeGame官方下载](https://wan.is-my.app/wegame-download/): 腾讯游戏平台
+- [EA app官方下载](https://wan.is-my.app/ea-app-download/): EA 官方游戏平台
+- [Ubisoft Connect官方下载](https://wan.is-my.app/ubisoft-connect-download/): 育碧游戏平台
+- [Xbox App官方下载](https://wan.is-my.app/xbox-app-download/): 微软 PC Game Pass 客户端
+- [GOG Galaxy官方下载](https://wan.is-my.app/gog-galaxy-download/): 无 DRM 游戏平台
+- [网易UU加速器官方下载](https://wan.is-my.app/uu-download/): 网易官方游戏加速器
+- [英雄联盟官方下载](https://wan.is-my.app/lol-download/): 腾讯英雄联盟客户端
+- [原神官方下载](https://wan.is-my.app/genshin-download/): 米哈游开放世界游戏
+- [崩坏：星穹铁道官方下载](https://wan.is-my.app/starrail-download/): 米哈游回合制 RPG
+- [王者荣耀官方下载](https://wan.is-my.app/honorofkings-download/): 腾讯 MOBA 手游
+- [和平精英官方下载](https://wan.is-my.app/peacekeeper-download/): 腾讯战术竞技手游
+- [永劫无间官方下载](https://wan.is-my.app/naraka-download/): 网易武侠动作竞技
+- [CS2 反恐精英2官方下载](https://wan.is-my.app/cs2-download/): Valve 免费射击竞技游戏
+- [DOTA2官方下载](https://wan.is-my.app/dota2-download/): Valve MOBA 游戏
+- [我的世界官方下载](https://wan.is-my.app/minecraft-download/): 网易代理中国版
+- [绝地求生 PUBG官方下载](https://wan.is-my.app/pubg-download/): 战术竞技射击游戏
+- [阴阳师官方下载](https://wan.is-my.app/onmyoji-download/): 网易和风回合制手游
+- [无畏契约官方下载](https://wan.is-my.app/valorant-download/): 拳头战术射击游戏
+- [鸣潮官方下载](https://wan.is-my.app/wuthering-waves-download/): 库洛开放世界动作游戏
+- [绝区零官方下载](https://wan.is-my.app/zzz-download/): 米哈游都市动作游戏
+- [三角洲行动官方下载](https://wan.is-my.app/delta-force-download/): 腾讯战术射击游戏

@@ -374,5 +374,4541 @@
 "title": "免费URL编码解码 - 在线中文网址转码工具",
 "keywords": "免费url编码,url解码,urlencode在线,中文网址转码,url乱码还原,网址编码",
 "url": "/url-encode/"
+},
+{
+"slug": "windows11-download",
+"name": "Windows 11官方下载",
+"short": "微软官方 ISO 镜像和安装助手",
+"cat": "soft",
+"title": "Windows 11官方下载 - 免费ISO镜像下载",
+"keywords": "windows11下载,win11官方下载,windows11 iso,win11镜像下载,windows11安装助手,win11官方原版",
+"url": "/windows11-download/"
+},
+{
+"slug": "windows10-download",
+"name": "Windows 10官方下载",
+"short": "微软官方媒体创建工具",
+"cat": "soft",
+"title": "Windows 10官方下载 - 免费镜像和安装工具",
+"keywords": "windows10下载,win10官方下载,win10镜像,windows10 iso下载,媒体创建工具,MediaCreationTool",
+"url": "/windows10-download/"
+},
+{
+"slug": "macos-download",
+"name": "macOS官方下载",
+"short": "苹果官方 macOS 下载与升级方法",
+"cat": "soft",
+"title": "macOS官方下载 - 苹果系统免费下载升级",
+"keywords": "macos下载,mac系统下载,macos官方下载,mac os镜像,macos升级",
+"url": "/macos-download/"
+},
+{
+"slug": "office-download",
+"name": "Microsoft Office官方下载",
+"short": "微软 Office / Microsoft 365 官方入口",
+"cat": "soft",
+"title": "Office官方下载 - 微软Office免费网页版入口",
+"keywords": "office下载,office官方下载,office免费版,microsoft 365下载,word下载,excel下载",
+"url": "/office-download/"
+},
+{
+"slug": "wps-download",
+"name": "WPS Office官方下载",
+"short": "金山 WPS 官方免费办公软件",
+"cat": "soft",
+"title": "WPS Office官方下载 - 免费正版办公软件",
+"keywords": "wps下载,wps官方下载,wps office免费版,wps电脑版下载",
+"url": "/wps-download/"
+},
+{
+"slug": "ventoy-download",
+"name": "Ventoy官方下载",
+"short": "开源 U 盘启动盘制作工具",
+"cat": "soft",
+"title": "Ventoy官方下载 - 免费U盘启动盘制作工具",
+"keywords": "ventoy下载,ventoy官网,u盘启动盘制作,ventoy中文版,多系统启动盘",
+"url": "/ventoy-download/"
+},
+{
+"slug": "rufus-download",
+"name": "Rufus官方下载",
+"short": "小巧的 U 盘启动盘制作工具",
+"cat": "soft",
+"title": "Rufus官方下载 - 免费U盘启动盘工具",
+"keywords": "rufus下载,rufus官网,rufus中文版,u盘启动盘,rufus制作启动盘",
+"url": "/rufus-download/"
+},
+{
+"slug": "wepe-download",
+"name": "微PE工具箱官方下载",
+"short": "纯净无广告的 WinPE 系统维护盘",
+"cat": "soft",
+"title": "微PE工具箱官方下载 - 免费纯净PE系统",
+"keywords": "微pe下载,微pe工具箱官网,winpe下载,pe系统,u盘pe",
+"url": "/wepe-download/"
+},
+{
+"slug": "cpu-z-download",
+"name": "CPU-Z官方下载",
+"short": "查看 CPU、主板、内存信息",
+"cat": "soft",
+"title": "CPU-Z官方下载 - 免费CPU硬件检测工具",
+"keywords": "cpu-z下载,cpuz官方下载,cpu-z中文版,cpu检测工具",
+"url": "/cpu-z-download/"
+},
+{
+"slug": "hwinfo-download",
+"name": "HWiNFO官方下载",
+"short": "专业硬件信息与温度监控",
+"cat": "soft",
+"title": "HWiNFO官方下载 - 免费硬件检测温度监控",
+"keywords": "hwinfo下载,hwinfo64官网,硬件检测,温度监控软件",
+"url": "/hwinfo-download/"
+},
+{
+"slug": "crystaldiskinfo-download",
+"name": "CrystalDiskInfo官方下载",
+"short": "硬盘健康度检测",
+"cat": "soft",
+"title": "CrystalDiskInfo官方下载 - 免费硬盘检测",
+"keywords": "crystaldiskinfo下载,硬盘检测工具,硬盘健康度,ssd检测",
+"url": "/crystaldiskinfo-download/"
+},
+{
+"slug": "diskgenius-download",
+"name": "DiskGenius官方下载",
+"short": "分区管理与数据恢复",
+"cat": "soft",
+"title": "DiskGenius免费官方下载 - 分区与数据恢复",
+"keywords": "diskgenius下载,diskgenius官网,分区工具,数据恢复软件,硬盘分区",
+"url": "/diskgenius-download/"
+},
+{
+"slug": "7zip-download",
+"name": "7-Zip官方下载",
+"short": "开源免费解压缩软件",
+"cat": "soft",
+"title": "7-Zip官方下载 - 免费开源解压缩软件",
+"keywords": "7zip下载,7-zip官网,解压软件,免费解压缩,7z解压",
+"url": "/7zip-download/"
+},
+{
+"slug": "everything-download",
+"name": "Everything官方下载",
+"short": "秒搜电脑文件",
+"cat": "soft",
+"title": "Everything官方下载 - 免费文件秒搜工具",
+"keywords": "everything下载,everything官网,文件搜索工具,voidtools",
+"url": "/everything-download/"
+},
+{
+"slug": "geek-uninstaller-download",
+"name": "Geek Uninstaller官方下载",
+"short": "彻底卸载软件和残留",
+"cat": "soft",
+"title": "Geek Uninstaller官方下载 - 免费卸载工具",
+"keywords": "geek uninstaller下载,卸载工具,软件卸载,清理残留",
+"url": "/geek-uninstaller-download/"
+},
+{
+"slug": "dism-plus-download",
+"name": "Dism++官方下载",
+"short": "开源系统优化与清理工具",
+"cat": "soft",
+"title": "Dism++官方下载 - 免费开源系统维护工具",
+"keywords": "dism++下载,dism++官网,系统优化,垃圾清理",
+"url": "/dism-plus-download/"
+},
+{
+"slug": "nvidia-driver-download",
+"name": "NVIDIA 显卡驱动官方下载",
+"short": "英伟达官方显卡驱动",
+"cat": "soft",
+"title": "NVIDIA驱动免费官方下载 - 英伟达显卡驱动",
+"keywords": "nvidia驱动下载,英伟达驱动,n卡驱动,显卡驱动官方下载,geforce驱动",
+"url": "/nvidia-driver-download/"
+},
+{
+"slug": "amd-driver-download",
+"name": "AMD 驱动官方下载",
+"short": "AMD 显卡与芯片组官方驱动",
+"cat": "soft",
+"title": "AMD驱动免费官方下载 - Radeon显卡驱动",
+"keywords": "amd驱动下载,a卡驱动,radeon驱动,amd芯片组驱动,显卡驱动",
+"url": "/amd-driver-download/"
+},
+{
+"slug": "intel-driver-download",
+"name": "Intel 驱动官方下载",
+"short": "英特尔驱动程序与支持助理",
+"cat": "soft",
+"title": "Intel驱动免费官方下载 - 英特尔驱动支持助理",
+"keywords": "intel驱动下载,英特尔驱动,核显驱动,intel网卡驱动",
+"url": "/intel-driver-download/"
+},
+{
+"slug": "vlc-download",
+"name": "VLC 播放器官方下载",
+"short": "开源全能视频播放器",
+"cat": "soft",
+"title": "VLC播放器官方下载 - 免费开源播放器",
+"keywords": "vlc下载,vlc播放器,vlc官网,视频播放器,免费播放器",
+"url": "/vlc-download/"
+},
+{
+"slug": "potplayer-download",
+"name": "PotPlayer官方下载",
+"short": "高画质本地视频播放器",
+"cat": "soft",
+"title": "PotPlayer官方下载 - 免费视频播放器",
+"keywords": "potplayer下载,potplayer官网,视频播放器",
+"url": "/potplayer-download/"
+},
+{
+"slug": "chrome-download",
+"name": "Google Chrome官方下载",
+"short": "谷歌浏览器官方版",
+"cat": "soft",
+"title": "Chrome官方下载 - 谷歌浏览器免费下载",
+"keywords": "chrome下载,谷歌浏览器下载,chrome官方下载,谷歌浏览器官网",
+"url": "/chrome-download/"
+},
+{
+"slug": "edge-download",
+"name": "Microsoft Edge官方下载",
+"short": "微软 Edge 浏览器",
+"cat": "soft",
+"title": "Edge浏览器官方下载 - 微软免费浏览器",
+"keywords": "edge下载,edge浏览器下载,微软浏览器",
+"url": "/edge-download/"
+},
+{
+"slug": "firefox-download",
+"name": "Firefox 火狐浏览器官方下载",
+"short": "火狐浏览器中国版",
+"cat": "soft",
+"title": "火狐浏览器官方下载 - Firefox免费下载",
+"keywords": "firefox下载,火狐浏览器下载,火狐官网",
+"url": "/firefox-download/"
+},
+{
+"slug": "obs-download",
+"name": "OBS Studio官方下载",
+"short": "开源免费录屏直播软件",
+"cat": "soft",
+"title": "OBS Studio官方下载 - 免费录屏直播软件",
+"keywords": "obs下载,obs studio官网,录屏软件,直播软件,免费录屏",
+"url": "/obs-download/"
+},
+{
+"slug": "notepad-plus-plus-download",
+"name": "Notepad++官方下载",
+"short": "开源免费文本编辑器",
+"cat": "soft",
+"title": "Notepad++官方下载 - 免费文本编辑器",
+"keywords": "notepad++下载,notepad++官网,文本编辑器,代码编辑器",
+"url": "/notepad-plus-plus-download/"
+},
+{
+"slug": "vscode-download",
+"name": "VS Code官方下载",
+"short": "微软免费代码编辑器",
+"cat": "soft",
+"title": "VS Code官方下载 - 免费代码编辑器",
+"keywords": "vscode下载,visual studio code下载,vscode官网,代码编辑器",
+"url": "/vscode-download/"
+},
+{
+"slug": "python-download",
+"name": "Python官方下载",
+"short": "Python 官方安装包",
+"cat": "soft",
+"title": "Python官方下载 - 免费安装包",
+"keywords": "python下载,python官网,python安装包,python官方下载",
+"url": "/python-download/"
+},
+{
+"slug": "libreoffice-download",
+"name": "LibreOffice官方下载",
+"short": "开源免费办公套件",
+"cat": "soft",
+"title": "LibreOffice官方下载 - 免费开源办公软件",
+"keywords": "libreoffice下载,免费office,开源办公软件",
+"url": "/libreoffice-download/"
+},
+{
+"slug": "winrar-download",
+"name": "WinRAR官方下载",
+"short": "WinRAR 中国官方站",
+"cat": "soft",
+"title": "WinRAR官方下载 - 免费试用简体中文版",
+"keywords": "winrar下载,winrar官网,rar解压,压缩软件",
+"url": "/winrar-download/"
+},
+{
+"slug": "steam-download",
+"name": "Steam官方下载",
+"short": "全球最大游戏平台客户端",
+"cat": "game",
+"title": "Steam官方下载 - 免费客户端下载安装",
+"keywords": "steam下载,steam官网,steam客户端,steam安装",
+"url": "/steam-download/"
+},
+{
+"slug": "epic-download",
+"name": "Epic Games官方下载",
+"short": "每周送免费游戏的平台",
+"cat": "game",
+"title": "Epic Games官方下载 - 免费游戏启动器",
+"keywords": "epic下载,epic官网,epic游戏平台,epic喜加一",
+"url": "/epic-download/"
+},
+{
+"slug": "battlenet-download",
+"name": "战网 Battle.net官方下载",
+"short": "暴雪战网客户端",
+"cat": "game",
+"title": "战网免费官方下载 - 暴雪Battle.net客户端",
+"keywords": "战网下载,battle.net下载,暴雪战网,战网客户端",
+"url": "/battlenet-download/"
+},
+{
+"slug": "wegame-download",
+"name": "WeGame官方下载",
+"short": "腾讯游戏平台",
+"cat": "game",
+"title": "WeGame免费官方下载 - 腾讯游戏平台客户端",
+"keywords": "wegame下载,wegame官网,腾讯游戏平台",
+"url": "/wegame-download/"
+},
+{
+"slug": "ea-app-download",
+"name": "EA app官方下载",
+"short": "EA 官方游戏平台",
+"cat": "game",
+"title": "EA app免费官方下载 - EA游戏平台客户端",
+"keywords": "ea app下载,origin下载,ea游戏平台",
+"url": "/ea-app-download/"
+},
+{
+"slug": "ubisoft-connect-download",
+"name": "Ubisoft Connect官方下载",
+"short": "育碧游戏平台",
+"cat": "game",
+"title": "Ubisoft Connect免费官方下载 - 育碧平台",
+"keywords": "ubisoft connect下载,uplay下载,育碧平台",
+"url": "/ubisoft-connect-download/"
+},
+{
+"slug": "xbox-app-download",
+"name": "Xbox App官方下载",
+"short": "微软 PC Game Pass 客户端",
+"cat": "game",
+"title": "Xbox App免费官方下载 - PC游戏客户端",
+"keywords": "xbox app下载,xbox pc客户端,game pass",
+"url": "/xbox-app-download/"
+},
+{
+"slug": "gog-galaxy-download",
+"name": "GOG Galaxy官方下载",
+"short": "无 DRM 游戏平台",
+"cat": "game",
+"title": "GOG Galaxy免费官方下载 - 游戏平台客户端",
+"keywords": "gog下载,gog galaxy,gog游戏平台",
+"url": "/gog-galaxy-download/"
+},
+{
+"slug": "uu-download",
+"name": "网易UU加速器官方下载",
+"short": "网易官方游戏加速器",
+"cat": "game",
+"title": "网易UU加速器免费官方下载 - 游戏加速器",
+"keywords": "uu加速器下载,网易uu官网,游戏加速器,steam加速",
+"url": "/uu-download/"
+},
+{
+"slug": "lol-download",
+"name": "英雄联盟官方下载",
+"short": "腾讯英雄联盟客户端",
+"cat": "game",
+"title": "英雄联盟官方下载 - LOL客户端免费下载",
+"keywords": "英雄联盟下载,lol下载,英雄联盟客户端,lol官网",
+"url": "/lol-download/"
+},
+{
+"slug": "genshin-download",
+"name": "原神官方下载",
+"short": "米哈游开放世界游戏",
+"cat": "game",
+"title": "原神免费官方下载 - PC客户端和手机版",
+"keywords": "原神下载,原神pc版下载,原神官网,原神客户端",
+"url": "/genshin-download/"
+},
+{
+"slug": "starrail-download",
+"name": "崩坏：星穹铁道官方下载",
+"short": "米哈游回合制 RPG",
+"cat": "game",
+"title": "崩坏星穹铁道免费官方下载 - PC和手机版",
+"keywords": "星穹铁道下载,崩坏星穹铁道官网,星铁pc版",
+"url": "/starrail-download/"
+},
+{
+"slug": "honorofkings-download",
+"name": "王者荣耀官方下载",
+"short": "腾讯 MOBA 手游",
+"cat": "game",
+"title": "王者荣耀免费官方下载 - 安卓和苹果版",
+"keywords": "王者荣耀下载,王者荣耀官网,王者荣耀安卓版",
+"url": "/honorofkings-download/"
+},
+{
+"slug": "peacekeeper-download",
+"name": "和平精英官方下载",
+"short": "腾讯战术竞技手游",
+"cat": "game",
+"title": "和平精英免费官方下载 - 安卓和苹果版",
+"keywords": "和平精英下载,和平精英官网,吃鸡手游",
+"url": "/peacekeeper-download/"
+},
+{
+"slug": "naraka-download",
+"name": "永劫无间官方下载",
+"short": "网易武侠动作竞技",
+"cat": "game",
+"title": "永劫无间官方下载 - 免费客户端",
+"keywords": "永劫无间下载,永劫无间官网,永劫无间客户端",
+"url": "/naraka-download/"
+},
+{
+"slug": "cs2-download",
+"name": "CS2 反恐精英2官方下载",
+"short": "Valve 免费射击竞技游戏",
+"cat": "game",
+"title": "CS2官方下载 - 反恐精英2免费下载",
+"keywords": "cs2下载,反恐精英2下载,cs2官网,csgo下载",
+"url": "/cs2-download/"
+},
+{
+"slug": "dota2-download",
+"name": "DOTA2官方下载",
+"short": "Valve MOBA 游戏",
+"cat": "game",
+"title": "DOTA2官方下载 - 免费客户端",
+"keywords": "dota2下载,dota2官网,刀塔2下载",
+"url": "/dota2-download/"
+},
+{
+"slug": "minecraft-download",
+"name": "我的世界官方下载",
+"short": "网易代理中国版",
+"cat": "game",
+"title": "我的世界官方下载 - 中国版免费下载",
+"keywords": "我的世界下载,minecraft下载,我的世界中国版,我的世界官网",
+"url": "/minecraft-download/"
+},
+{
+"slug": "pubg-download",
+"name": "绝地求生 PUBG官方下载",
+"short": "战术竞技射击游戏",
+"cat": "game",
+"title": "绝地求生官方下载 - PUBG免费游玩",
+"keywords": "绝地求生下载,pubg下载,吃鸡下载,pubg官网",
+"url": "/pubg-download/"
+},
+{
+"slug": "onmyoji-download",
+"name": "阴阳师官方下载",
+"short": "网易和风回合制手游",
+"cat": "game",
+"title": "阴阳师免费官方下载 - 手机和电脑版",
+"keywords": "阴阳师下载,阴阳师官网,阴阳师电脑版",
+"url": "/onmyoji-download/"
+},
+{
+"slug": "valorant-download",
+"name": "无畏契约官方下载",
+"short": "拳头战术射击游戏",
+"cat": "game",
+"title": "无畏契约官方下载 - 免费客户端",
+"keywords": "无畏契约下载,valorant下载,瓦罗兰特,无畏契约官网",
+"url": "/valorant-download/"
+},
+{
+"slug": "wuthering-waves-download",
+"name": "鸣潮官方下载",
+"short": "库洛开放世界动作游戏",
+"cat": "game",
+"title": "鸣潮免费官方下载 - PC和手机版",
+"keywords": "鸣潮下载,鸣潮官网,鸣潮pc版",
+"url": "/wuthering-waves-download/"
+},
+{
+"slug": "zzz-download",
+"name": "绝区零官方下载",
+"short": "米哈游都市动作游戏",
+"cat": "game",
+"title": "绝区零免费官方下载 - PC和手机版",
+"keywords": "绝区零下载,绝区零官网,绝区零pc",
+"url": "/zzz-download/"
+},
+{
+"slug": "delta-force-download",
+"name": "三角洲行动官方下载",
+"short": "腾讯战术射击游戏",
+"cat": "game",
+"title": "三角洲行动免费官方下载 - PC和手机版",
+"keywords": "三角洲行动下载,三角洲行动官网,三角洲pc",
+"url": "/delta-force-download/"
+},
+{
+"slug": "ascii-text-drawer",
+"name": "ASCII 艺术字生成",
+"short": "把文字转换成各种字体的 ASCII 艺术字",
+"cat": "text",
+"title": "免费ASCII艺术字生成在线工具",
+"keywords": "ASCII 艺术字生成,在线ASCII 艺术字生成,免费ASCII 艺术字生成,ascii,asciiart,text,drawer",
+"url": "/ascii-text-drawer/"
+},
+{
+"slug": "base64-file-converter",
+"name": "Base64 文件转换器",
+"short": "将字符串、文件或图像转换为其 Base64",
+"cat": "dev",
+"title": "免费Base64文件转换器在线工具",
+"keywords": "Base64 文件转换器,在线Base64 文件转换器,免费Base64 文件转换器,base64,converter,upload,image,file",
+"url": "/base64-file-converter/"
+},
+{
+"slug": "base64-string-converter",
+"name": "Base64 字符串编码/解码",
+"short": "将字符串编码和解码为其 Base64 格式",
+"cat": "dev",
+"title": "免费Base64字符串编码/解码",
+"keywords": "Base64 字符串编码/解码,在线Base64 字符串编码/解码,免费Base64 字符串编码/解码,base64,converter,conversion,web,data",
+"url": "/base64-string-converter/"
+},
+{
+"slug": "basic-auth-generator",
+"name": "基本身份验证生成器",
+"short": "从用户名和密码生成 base64 基本身份",
+"cat": "dev",
+"title": "免费基本身份验证生成器在线工具",
+"keywords": "基本身份验证生成器,在线基本身份验证生成器,免费基本身份验证生成器,basic,auth,generator,username,password",
+"url": "/basic-auth-generator/"
+},
+{
+"slug": "bcrypt",
+"name": "加密",
+"short": "使用bcrypt对文本字符串进行哈希和比较",
+"cat": "crypto",
+"title": "免费加密在线工具",
+"keywords": "加密,在线加密,免费加密,bcrypt,hash,compare,password,salt",
+"url": "/bcrypt/"
+},
+{
+"slug": "benchmark-builder",
+"name": "基准生成器",
+"short": "简单的在线基准构建器可以轻松比较任务的执行",
+"cat": "calc",
+"title": "免费基准生成器在线工具",
+"keywords": "基准生成器,在线基准生成器,免费基准生成器,benchmark,builder,execution,duration,mean",
+"url": "/benchmark-builder/"
+},
+{
+"slug": "bip39-generator",
+"name": "BIP39密码生成器",
+"short": "从现有或随机助记符生成BIP39密码短语",
+"cat": "crypto",
+"title": "免费BIP39密码生成器在线工具",
+"keywords": "BIP39密码生成器,在线BIP39密码生成器,免费BIP39密码生成器,BIP39,passphrase,generator,mnemonic,entropy",
+"url": "/bip39-generator/"
+},
+{
+"slug": "camera-recorder",
+"name": "摄像机记录器",
+"short": "从网络摄像头或照相机拍摄照片或录制视频",
+"cat": "image",
+"title": "免费摄像机记录器在线工具",
+"keywords": "摄像机记录器,在线摄像机记录器,免费摄像机记录器,camera,recoder",
+"url": "/camera-recorder/"
+},
+{
+"slug": "case-converter",
+"name": "大小写转换",
+"short": "更改字符串的大小写并在不同格式之间进行选择",
+"cat": "dev",
+"title": "免费大小写转换在线工具",
+"keywords": "大小写转换,在线大小写转换,免费大小写转换,case,converter,camelCase,capitalCase,constantCase",
+"url": "/case-converter/"
+},
+{
+"slug": "chmod-calculator",
+"name": "Chmod 计算器",
+"short": "使用此在线的chmod计算器计算chmod",
+"cat": "dev",
+"title": "免费Chmod计算器在线工具",
+"keywords": "Chmod 计算器,在线Chmod 计算器,免费Chmod 计算器,chmod,calculator,file,permission,files",
+"url": "/chmod-calculator/"
+},
+{
+"slug": "chronometer",
+"name": "计时器",
+"short": "监控事物的持续时间。基本上是一种具有简单计",
+"cat": "calc",
+"title": "免费计时器在线工具",
+"keywords": "计时器,在线计时器,免费计时器,chronometer,time,lap,duration,measure",
+"url": "/chronometer/"
+},
+{
+"slug": "color-converter",
+"name": "Color 选择器",
+"short": "在不同格式（十六进制、rgb、hsl和cs",
+"cat": "dev",
+"title": "免费Color选择器在线工具",
+"keywords": "Color 选择器,在线Color 选择器,免费Color 选择器,color,converter",
+"url": "/color-converter/"
+},
+{
+"slug": "crontab-generator",
+"name": "Crontab 表达式生成",
+"short": "验证并生成crontab，并获取cron调",
+"cat": "dev",
+"title": "免费Crontab表达式生成在线工具",
+"keywords": "Crontab 表达式生成,在线Crontab 表达式生成,免费Crontab 表达式生成,crontab,generator,cronjob,cron,schedule",
+"url": "/crontab-generator/"
+},
+{
+"slug": "date-converter",
+"name": "日期时间格式转换",
+"short": "在时间戳、ISO 8601、RFC 282",
+"cat": "dev",
+"title": "免费日期时间格式转换在线工具",
+"keywords": "日期时间格式转换,在线日期时间格式转换,免费日期时间格式转换,date,time,converter,iso,utc",
+"url": "/date-converter/"
+},
+{
+"slug": "device-information",
+"name": "设备信息",
+"short": "获取有关当前设备的信息（屏幕大小、像素比率",
+"cat": "dev",
+"title": "免费设备信息在线工具",
+"keywords": "设备信息,在线设备信息,免费设备信息,device,information,screen,pixel,ratio",
+"url": "/device-information/"
+},
+{
+"slug": "docker-run-to-docker-compose-converter",
+"name": "Docker Run 到 docker-compose 转换器",
+"short": "将 docker run 命令行转换为 d",
+"cat": "dev",
+"title": "免费DockerRun到docker-compose转换器",
+"keywords": "Docker Run 到 docker-compose 转换器,在线Docker Run 到 docker-compose 转换器,免费Docker Run 到 docker-compose 转换器,docker,run,compose,yaml,yml",
+"url": "/docker-run-to-docker-compose-converter/"
+},
+{
+"slug": "email-normalizer",
+"name": "邮箱地址规范化",
+"short": "把邮箱地址标准化，去掉别名和点号，便于去重",
+"cat": "dev",
+"title": "免费邮箱地址规范化在线工具",
+"keywords": "邮箱地址规范化,在线邮箱地址规范化,免费邮箱地址规范化,email,normalizer",
+"url": "/email-normalizer/"
+},
+{
+"slug": "emoji-picker",
+"name": "Emoji 选择器",
+"short": "轻松复制和粘贴Emoji表情符号，并获得每",
+"cat": "text",
+"title": "免费Emoji选择器在线工具",
+"keywords": "Emoji 选择器,在线Emoji 选择器,免费Emoji 选择器,emoji,picker,unicode,copy,paste",
+"url": "/emoji-picker/"
+},
+{
+"slug": "encryption",
+"name": "加密/解密文本",
+"short": "使用加密算法（如AES、TripleDES",
+"cat": "crypto",
+"title": "免费加密/解密文本在线工具",
+"keywords": "加密/解密文本,在线加密/解密文本,免费加密/解密文本,cypher,encipher,text,AES,TripleDES",
+"url": "/encryption/"
+},
+{
+"slug": "eta-calculator",
+"name": "ETA 计算器",
+"short": "ETA（估计到达时间）计算器，用于知道任务",
+"cat": "calc",
+"title": "免费ETA计算器在线工具",
+"keywords": "ETA 计算器,在线ETA 计算器,免费ETA 计算器,eta,calculator,estimated,time,arrival",
+"url": "/eta-calculator/"
+},
+{
+"slug": "git-memo",
+"name": "Git 备忘录",
+"short": "Git是一种去中心化的版本管理软件。使用此",
+"cat": "dev",
+"title": "免费Git备忘录在线工具",
+"keywords": "Git 备忘录,在线Git 备忘录,免费Git 备忘录,git,push,force,pull,commit",
+"url": "/git-memo/"
+},
+{
+"slug": "hash-text",
+"name": "Hash 文本",
+"short": "使用所需的函数哈希文本字符串：MD5、SH",
+"cat": "crypto",
+"title": "免费Hash文本在线工具",
+"keywords": "Hash 文本,在线Hash 文本,免费Hash 文本,hash,digest,crypto,security,text",
+"url": "/hash-text/"
+},
+{
+"slug": "hmac-generator",
+"name": "Hmac 生成器",
+"short": "使用密钥和您喜欢的哈希函数计算基于哈希的消",
+"cat": "crypto",
+"title": "免费Hmac生成器在线工具",
+"keywords": "Hmac 生成器,在线Hmac 生成器,免费Hmac 生成器,hmac,generator,MD5,SHA1,SHA256",
+"url": "/hmac-generator/"
+},
+{
+"slug": "html-entities",
+"name": "转义html实体",
+"short": "转义或unescape html实体（将<",
+"cat": "dev",
+"title": "免费转义html实体在线工具",
+"keywords": "转义html实体,在线转义html实体,免费转义html实体,html,entities,escape,unescape,special",
+"url": "/html-entities/"
+},
+{
+"slug": "html-wysiwyg-editor",
+"name": "HTML所见即所得编辑器",
+"short": "在线HTML编辑器具有功能丰富的所见即所得",
+"cat": "dev",
+"title": "免费HTML所见即所得编辑器在线工具",
+"keywords": "HTML所见即所得编辑器,在线HTML所见即所得编辑器,免费HTML所见即所得编辑器,html,wysiwyg,editor,p,ul",
+"url": "/html-wysiwyg-editor/"
+},
+{
+"slug": "http-status-codes",
+"name": "HTTP 状态码",
+"short": "所有HTTP状态的列表对其名称和含义解释",
+"cat": "dev",
+"title": "免费HTTP状态码在线工具",
+"keywords": "HTTP 状态码,在线HTTP 状态码,免费HTTP 状态码,http,status,codes",
+"url": "/http-status-codes/"
+},
+{
+"slug": "iban-validator-and-parser",
+"name": "IBAN验证器和解析器",
+"short": "验证和分析IBAN编号。检查IBAN是否有",
+"cat": "dev",
+"title": "免费IBAN验证器和解析器在线工具",
+"keywords": "IBAN验证器和解析器,在线IBAN验证器和解析器,免费IBAN验证器和解析器,iban,validator,and,parser,bic",
+"url": "/iban-validator-and-parser/"
+},
+{
+"slug": "base-converter",
+"name": "进制转换器",
+"short": "二进制、八进制、十进制、十六进制等任意进制",
+"cat": "dev",
+"title": "免费进制转换器在线工具",
+"keywords": "进制转换器,在线进制转换器,免费进制转换器,integer,number,base,conversion,decimal",
+"url": "/base-converter/"
+},
+{
+"slug": "ipv4-address-converter",
+"name": "Ipv4地址转换器",
+"short": "在ipv6中，将ip地址转换为十进制、二进",
+"cat": "net",
+"title": "免费Ipv4地址转换器在线工具",
+"keywords": "Ipv4地址转换器,在线Ipv4地址转换器,免费Ipv4地址转换器,ipv4,address,converter,decimal,hexadecimal",
+"url": "/ipv4-address-converter/"
+},
+{
+"slug": "ipv4-range-expander",
+"name": "IPv4范围扩展器",
+"short": "给定起始和结束IPv4地址，此工具使用其C",
+"cat": "net",
+"title": "免费IPv4范围扩展器在线工具",
+"keywords": "IPv4范围扩展器,在线IPv4范围扩展器,免费IPv4范围扩展器,ipv4,range,expander,subnet,creator",
+"url": "/ipv4-range-expander/"
+},
+{
+"slug": "ipv4-subnet-calculator",
+"name": "IPv4子网计算器",
+"short": "解析IPv4 CIDR块，并获取有关子网络",
+"cat": "net",
+"title": "免费IPv4子网计算器在线工具",
+"keywords": "IPv4子网计算器,在线IPv4子网计算器,免费IPv4子网计算器,ipv4,subnet,calculator,mask,network",
+"url": "/ipv4-subnet-calculator/"
+},
+{
+"slug": "ipv6-ula-generator",
+"name": "IPv6 ULA生成器",
+"short": "根据RFC4193在网络上生成您自己的本地",
+"cat": "net",
+"title": "免费IPv6ULA生成器在线工具",
+"keywords": "IPv6 ULA生成器,在线IPv6 ULA生成器,免费IPv6 ULA生成器,ipv6,ula,generator,rfc4193,network",
+"url": "/ipv6-ula-generator/"
+},
+{
+"slug": "json-diff",
+"name": "JSON 差异比较",
+"short": "比较两个JSON对象并获得它们之间的差异",
+"cat": "dev",
+"title": "免费JSON差异比较在线工具",
+"keywords": "JSON 差异比较,在线JSON 差异比较,免费JSON 差异比较,json,diff,compare,difference,object",
+"url": "/json-diff/"
+},
+{
+"slug": "json-minify",
+"name": "JSON 压缩",
+"short": "通过删除不必要的空白来缩小和压缩JSON",
+"cat": "dev",
+"title": "免费JSON压缩在线工具",
+"keywords": "JSON 压缩,在线JSON 压缩,免费JSON 压缩,json,minify,format",
+"url": "/json-minify/"
+},
+{
+"slug": "json-to-csv",
+"name": "JSON 转 CSV",
+"short": "使用自动标头检测将JSON转换为CSV",
+"cat": "dev",
+"title": "免费JSON转CSV在线工具",
+"keywords": "JSON 转 CSV,在线JSON 转 CSV,免费JSON 转 CSV,json,to,csv,convert",
+"url": "/json-to-csv/"
+},
+{
+"slug": "json-to-toml",
+"name": "JSON 转 TOML",
+"short": "解析JSON并将其转换为TOML",
+"cat": "dev",
+"title": "免费JSON转TOML在线工具",
+"keywords": "JSON 转 TOML,在线JSON 转 TOML,免费JSON 转 TOML,json,parse,toml,convert,transform",
+"url": "/json-to-toml/"
+},
+{
+"slug": "json-to-xml",
+"name": "JSON 转 XML",
+"short": "把 JSON 数据转换成 XML 格式",
+"cat": "dev",
+"title": "免费JSON转XML在线工具",
+"keywords": "JSON 转 XML,在线JSON 转 XML,免费JSON 转 XML,json,xml",
+"url": "/json-to-xml/"
+},
+{
+"slug": "json-to-yaml-converter",
+"name": "JSON到YAML转换器",
+"short": "在线转换将JSON转换为YAML",
+"cat": "dev",
+"title": "免费JSON到YAML转换器在线工具",
+"keywords": "JSON到YAML转换器,在线JSON到YAML转换器,免费JSON到YAML转换器,yaml,to,json",
+"url": "/json-to-yaml-converter/"
+},
+{
+"slug": "json-prettify",
+"name": "JSON 美化查看",
+"short": "格式化、美化 JSON，让它更易读",
+"cat": "dev",
+"title": "免费JSON美化查看在线工具",
+"keywords": "JSON 美化查看,在线JSON 美化查看,免费JSON 美化查看,json,viewer,prettify,format",
+"url": "/json-prettify/"
+},
+{
+"slug": "jwt-parser",
+"name": "JWT 解析器",
+"short": "解析和解码JSON Web Token（j",
+"cat": "dev",
+"title": "免费JWT解析器在线工具",
+"keywords": "JWT 解析器,在线JWT 解析器,免费JWT 解析器,jwt,parser,decode,typ,alg",
+"url": "/jwt-parser/"
+},
+{
+"slug": "keycode-info",
+"name": "Keycode 信息",
+"short": "查找任何按下的键的javascript键代",
+"cat": "dev",
+"title": "免费Keycode信息在线工具",
+"keywords": "Keycode 信息,在线Keycode 信息,免费Keycode 信息,keycode,info,code,javascript,event",
+"url": "/keycode-info/"
+},
+{
+"slug": "list-converter",
+"name": "List 转换器",
+"short": "该工具可以处理基于数组的数据，并将各种更改",
+"cat": "dev",
+"title": "免费List转换器在线工具",
+"keywords": "List 转换器,在线List 转换器,免费List 转换器,list,converter,sort,reverse,prefix",
+"url": "/list-converter/"
+},
+{
+"slug": "lorem-ipsum-generator",
+"name": "Lorem ipsum生成器",
+"short": "Lorem ipsum是一种占位符文本，通",
+"cat": "text",
+"title": "免费Loremipsum生成器",
+"keywords": "Lorem ipsum生成器,在线Lorem ipsum生成器,免费Lorem ipsum生成器,lorem,ipsum,dolor,sit,amet",
+"url": "/lorem-ipsum-generator/"
+},
+{
+"slug": "mac-address-generator",
+"name": "MAC 地址生成器",
+"short": "输入数量和前缀。MAC地址将以您选择的大小",
+"cat": "net",
+"title": "免费MAC地址生成器在线工具",
+"keywords": "MAC 地址生成器,在线MAC 地址生成器,免费MAC 地址生成器,mac,address,generator,random,prefix",
+"url": "/mac-address-generator/"
+},
+{
+"slug": "mac-address-lookup",
+"name": "MAC地址查找",
+"short": "通过设备的MAC地址查找设备的供应商和制造",
+"cat": "net",
+"title": "免费MAC地址查找在线工具",
+"keywords": "MAC地址查找,在线MAC地址查找,免费MAC地址查找,mac,address,lookup,vendor,parser",
+"url": "/mac-address-lookup/"
+},
+{
+"slug": "markdown-to-html",
+"name": "Markdown 转 HTML",
+"short": "把 Markdown 文本转换成 HTML",
+"cat": "dev",
+"title": "免费Markdown转HTML",
+"keywords": "Markdown 转 HTML,在线Markdown 转 HTML,免费Markdown 转 HTML,markdown,html,converter,pdf",
+"url": "/markdown-to-html/"
+},
+{
+"slug": "math-evaluator",
+"name": "数学计算器",
+"short": "计算数学表达式的计算器。您可以使用sqrt",
+"cat": "calc",
+"title": "免费数学计算器在线工具",
+"keywords": "数学计算器,在线数学计算器,免费数学计算器,math,evaluator,calculator,expression,abs",
+"url": "/math-evaluator/"
+},
+{
+"slug": "og-meta-generator",
+"name": "网页 Meta 标签生成",
+"short": "生成网站 SEO 和社交分享用的 meta",
+"cat": "dev",
+"title": "免费网页Meta标签生成在线工具",
+"keywords": "网页 Meta 标签生成,在线网页 Meta 标签生成,免费网页 Meta 标签生成,meta,tag,generator,social,title",
+"url": "/og-meta-generator/"
+},
+{
+"slug": "mime-types",
+"name": "mime类型",
+"short": "将mime类型转换为扩展，反之亦然",
+"cat": "dev",
+"title": "免费mime类型在线工具",
+"keywords": "mime类型,在线mime类型,免费mime类型,mime,types,extension,content,type",
+"url": "/mime-types/"
+},
+{
+"slug": "numeronym-generator",
+"name": "数字名称生成器",
+"short": "数字名是一个用数字构成缩写的词。例如，“i",
+"cat": "text",
+"title": "免费数字名称生成器在线工具",
+"keywords": "数字名称生成器,在线数字名称生成器,免费数字名称生成器,numeronym,generator,abbreviation,i18n,a11y",
+"url": "/numeronym-generator/"
+},
+{
+"slug": "otp-generator",
+"name": "动态验证码 OTP 生成",
+"short": "生成和校验基于时间的一次性密码（TOTP）",
+"cat": "dev",
+"title": "免费动态验证码OTP生成在线工具",
+"keywords": "动态验证码 OTP 生成,在线动态验证码 OTP 生成,免费动态验证码 OTP 生成,otp,code,generator,validator,one",
+"url": "/otp-generator/"
+},
+{
+"slug": "password-strength-analyser",
+"name": "密码强度分析仪",
+"short": "使用此密码强度分析器和破解时间估计工具来发",
+"cat": "crypto",
+"title": "免费密码强度分析仪在线工具",
+"keywords": "密码强度分析仪,在线密码强度分析仪,免费密码强度分析仪,password,strength,analyser,and,crack",
+"url": "/password-strength-analyser/"
+},
+{
+"slug": "pdf-signature-checker",
+"name": "PDF签名检查器",
+"short": "验证PDF文件的签名。签名的PDF文件包含",
+"cat": "crypto",
+"title": "免费PDF签名检查器在线工具",
+"keywords": "PDF签名检查器,在线PDF签名检查器,免费PDF签名检查器,pdf,signature,checker,verify,validate",
+"url": "/pdf-signature-checker/"
+},
+{
+"slug": "percentage-calculator",
+"name": "百分比计算器",
+"short": "轻松计算从一个值到另一个值的百分比，或从百",
+"cat": "calc",
+"title": "免费百分比计算器在线工具",
+"keywords": "百分比计算器,在线百分比计算器,免费百分比计算器,percentage,calculator,calculate,value,number",
+"url": "/percentage-calculator/"
+},
+{
+"slug": "phone-parser-and-formatter",
+"name": "电话分析器和格式化程序",
+"short": "解析、验证和格式化电话号码。获取有关电话号",
+"cat": "dev",
+"title": "免费电话分析器和格式化程序在线工具",
+"keywords": "电话分析器和格式化程序,在线电话分析器和格式化程序,免费电话分析器和格式化程序,phone,parser,formatter,validate,format",
+"url": "/phone-parser-and-formatter/"
+},
+{
+"slug": "qrcode-generator",
+"name": "二维码生成（高级）",
+"short": "生成网址或文字二维码，可自定义前景色、背景",
+"cat": "image",
+"title": "免费二维码生成（高级）在线工具",
+"keywords": "二维码生成（高级）,在线二维码生成（高级）,免费二维码生成（高级）,qr,code,generator,square,color",
+"url": "/qrcode-generator/"
+},
+{
+"slug": "random-port-generator",
+"name": "随机端口生成",
+"short": "生成“已知”端口范围（0-1023）之外的",
+"cat": "dev",
+"title": "免费随机端口生成在线工具",
+"keywords": "随机端口生成,在线随机端口生成,免费随机端口生成,system,port,lan,generator,random",
+"url": "/random-port-generator/"
+},
+{
+"slug": "regex-memo",
+"name": "正则表达式速查表",
+"short": "常用正则表达式语法速查手册",
+"cat": "dev",
+"title": "免费正则表达式速查表在线工具",
+"keywords": "正则表达式速查表,在线正则表达式速查表,免费正则表达式速查表,regex,regular,expression,javascript,memo",
+"url": "/regex-memo/"
+},
+{
+"slug": "regex-tester",
+"name": "正则表达式测试器",
+"short": "在线测试正则表达式，实时高亮匹配结果和分组",
+"cat": "dev",
+"title": "免费正则表达式测试器在线工具",
+"keywords": "正则表达式测试器,在线正则表达式测试器,免费正则表达式测试器,regex,tester,sample,expression",
+"url": "/regex-tester/"
+},
+{
+"slug": "roman-numeral-converter",
+"name": "罗马数字转换器",
+"short": "将罗马数字转换为数字，并将数字转换为罗马数",
+"cat": "dev",
+"title": "免费罗马数字转换器在线工具",
+"keywords": "罗马数字转换器,在线罗马数字转换器,免费罗马数字转换器,roman,arabic,converter,X,I",
+"url": "/roman-numeral-converter/"
+},
+{
+"slug": "rsa-key-pair-generator",
+"name": "RSA密钥对生成器",
+"short": "生成新的随机RSA私钥和公钥pem证书",
+"cat": "crypto",
+"title": "免费RSA密钥对生成器在线工具",
+"keywords": "RSA密钥对生成器,在线RSA密钥对生成器,免费RSA密钥对生成器,rsa,key,pair,generator,public",
+"url": "/rsa-key-pair-generator/"
+},
+{
+"slug": "safelink-decoder",
+"name": "Outlook 安全链接解码",
+"short": "把 Outlook SafeLinks 安",
+"cat": "dev",
+"title": "免费Outlook安全链接解码",
+"keywords": "Outlook 安全链接解码,在线Outlook 安全链接解码,免费Outlook 安全链接解码,outlook,safelink,decoder",
+"url": "/safelink-decoder/"
+},
+{
+"slug": "slugify-string",
+"name": "打乱字符串",
+"short": "确保字符串 url、文件名和 id 安全",
+"cat": "dev",
+"title": "免费打乱字符串在线工具",
+"keywords": "打乱字符串,在线打乱字符串,免费打乱字符串,slugify,string,escape,emoji,special",
+"url": "/slugify-string/"
+},
+{
+"slug": "sql-prettify",
+"name": "SQL 美化和格式化",
+"short": "在线格式化和美化您的 SQL 查询（它支持",
+"cat": "dev",
+"title": "免费SQL美化和格式化在线工具",
+"keywords": "SQL 美化和格式化,在线SQL 美化和格式化,免费SQL 美化和格式化,sql,prettify,beautify,GCP BigQuery,IBM DB2",
+"url": "/sql-prettify/"
+},
+{
+"slug": "string-obfuscator",
+"name": "字符串混淆器",
+"short": "混淆字符串（如秘密、IBAN 或令牌），使",
+"cat": "text",
+"title": "免费字符串混淆器在线工具",
+"keywords": "字符串混淆器,在线字符串混淆器,免费字符串混淆器,string,obfuscator,secret,token,hide",
+"url": "/string-obfuscator/"
+},
+{
+"slug": "svg-placeholder-generator",
+"name": "SVG 占位符生成器",
+"short": "生成 svg 图像以用作应用程序中的占位符",
+"cat": "image",
+"title": "免费SVG占位符生成器在线工具",
+"keywords": "SVG 占位符生成器,在线SVG 占位符生成器,免费SVG 占位符生成器,svg,placeholder,generator,image,size",
+"url": "/svg-placeholder-generator/"
+},
+{
+"slug": "temperature-converter",
+"name": "温度转换器",
+"short": "开尔文、摄氏度、华氏度、兰金、德莱尔、牛顿",
+"cat": "calc",
+"title": "免费温度转换器在线工具",
+"keywords": "温度转换器,在线温度转换器,免费温度转换器,temperature,converter,degree,Kelvin,Celsius",
+"url": "/temperature-converter/"
+},
+{
+"slug": "text-diff",
+"name": "文本比较",
+"short": "比较两个文本并查看它们之间的差异",
+"cat": "text",
+"title": "免费文本比较在线工具",
+"keywords": "文本比较,在线文本比较,免费文本比较,text,diff,compare,string,text diff",
+"url": "/text-diff/"
+},
+{
+"slug": "text-statistics",
+"name": "文本统计",
+"short": "获取有关文本、字符数、字数、大小等的信息",
+"cat": "text",
+"title": "免费文本统计在线工具",
+"keywords": "文本统计,在线文本统计,免费文本统计,text,statistics,length,characters,count",
+"url": "/text-statistics/"
+},
+{
+"slug": "text-to-binary",
+"name": "文本到 ASCII 二进制",
+"short": "将文本转换为其 ASCII 二进制表示形式",
+"cat": "dev",
+"title": "免费文本到ASCII二进制在线工具",
+"keywords": "文本到 ASCII 二进制,在线文本到 ASCII 二进制,免费文本到 ASCII 二进制,text,to,binary,converter,encode",
+"url": "/text-to-binary/"
+},
+{
+"slug": "text-to-nato-alphabet",
+"name": "文本转北约字母表",
+"short": "将文本转换为北约拼音字母以进行口头传播",
+"cat": "dev",
+"title": "免费文本转北约字母表在线工具",
+"keywords": "文本转北约字母表,在线文本转北约字母表,免费文本转北约字母表,string,nato,alphabet,phonetic,oral",
+"url": "/text-to-nato-alphabet/"
+},
+{
+"slug": "text-to-unicode",
+"name": "文本转 Unicode",
+"short": "解析文本并将其转换为 unicode，反之",
+"cat": "dev",
+"title": "免费文本转Unicode在线工具",
+"keywords": "文本转 Unicode,在线文本转 Unicode,免费文本转 Unicode,text,to,unicode",
+"url": "/text-to-unicode/"
+},
+{
+"slug": "token-generator",
+"name": "Token 生成器",
+"short": "使用您想要的字符、大写或小写字母、数字和/",
+"cat": "crypto",
+"title": "免费Token生成器在线工具",
+"keywords": "Token 生成器,在线Token 生成器,免费Token 生成器,token,random,string,alphanumeric,symbols",
+"url": "/token-generator/"
+},
+{
+"slug": "toml-to-json",
+"name": "TOML 到 JSON",
+"short": "解析TOML并将其转换为JSON",
+"cat": "dev",
+"title": "免费TOML到JSON在线工具",
+"keywords": "TOML 到 JSON,在线TOML 到 JSON,免费TOML 到 JSON,toml,json,convert,online,transform",
+"url": "/toml-to-json/"
+},
+{
+"slug": "toml-to-yaml",
+"name": "TOML 到 YAML",
+"short": "Parse and convert TOM",
+"cat": "dev",
+"title": "免费TOML到YAML在线工具",
+"keywords": "TOML 到 YAML,在线TOML 到 YAML,免费TOML 到 YAML,toml,yaml,convert,online,transform",
+"url": "/toml-to-yaml/"
+},
+{
+"slug": "ulid-generator",
+"name": "ULID 生成器",
+"short": "生成随机的通用唯一词典可排序标识符（ULI",
+"cat": "crypto",
+"title": "免费ULID生成器在线工具",
+"keywords": "ULID 生成器,在线ULID 生成器,免费ULID 生成器,ulid,generator,random,id,alphanumeric",
+"url": "/ulid-generator/"
+},
+{
+"slug": "url-encoder",
+"name": "编码/解码url格式的字符串",
+"short": "编码为url编码格式（也称为“百分比编码”",
+"cat": "dev",
+"title": "免费编码/解码url格式的字符串",
+"keywords": "编码/解码url格式的字符串,在线编码/解码url格式的字符串,免费编码/解码url格式的字符串,url,encode,decode,percent,%20",
+"url": "/url-encoder/"
+},
+{
+"slug": "url-parser",
+"name": "Url分析器",
+"short": "解析url字符串以获取所有不同的部分（协议",
+"cat": "dev",
+"title": "免费Url分析器在线工具",
+"keywords": "Url分析器,在线Url分析器,免费Url分析器,url,parser,protocol,origin,params",
+"url": "/url-parser/"
+},
+{
+"slug": "user-agent-parser",
+"name": "用户代理分析器",
+"short": "从用户代理字符串中检测和分析浏览器、引擎、",
+"cat": "dev",
+"title": "免费用户代理分析器在线工具",
+"keywords": "用户代理分析器,在线用户代理分析器,免费用户代理分析器,user,agent,parser,browser,engine",
+"url": "/user-agent-parser/"
+},
+{
+"slug": "uuid-generator",
+"name": "UUIDs 生成器",
+"short": "通用唯一标识符（UUID）是一个128位数",
+"cat": "crypto",
+"title": "免费UUIDs生成器在线工具",
+"keywords": "UUIDs 生成器,在线UUIDs 生成器,免费UUIDs 生成器,uuid,v4,random,id,alphanumeric",
+"url": "/uuid-generator/"
+},
+{
+"slug": "wifi-qrcode-generator",
+"name": "WiFi 二维码生成",
+"short": "生成扫码即可连接 WiFi 的二维码",
+"cat": "image",
+"title": "免费WiFi二维码生成在线工具",
+"keywords": "WiFi 二维码生成,在线WiFi 二维码生成,免费WiFi 二维码生成,qr,code,generator,square,color",
+"url": "/wifi-qrcode-generator/"
+},
+{
+"slug": "xml-formatter",
+"name": "XML 格式化",
+"short": "将XML字符串修饰为友好的可读格式",
+"cat": "dev",
+"title": "免费XML格式化在线工具",
+"keywords": "XML 格式化,在线XML 格式化,免费XML 格式化,xml,prettify,format",
+"url": "/xml-formatter/"
+},
+{
+"slug": "xml-to-json",
+"name": "XML 转 JSON",
+"short": "把 XML 数据转换成 JSON 格式",
+"cat": "dev",
+"title": "免费XML转JSON在线工具",
+"keywords": "XML 转 JSON,在线XML 转 JSON,免费XML 转 JSON,xml,json",
+"url": "/xml-to-json/"
+},
+{
+"slug": "yaml-to-json-converter",
+"name": "YAML到JSON转换器",
+"short": "使用此在线转换器将YAML转换为JSON",
+"cat": "dev",
+"title": "免费YAML到JSON转换器在线工具",
+"keywords": "YAML到JSON转换器,在线YAML到JSON转换器,免费YAML到JSON转换器,yaml,to,json",
+"url": "/yaml-to-json-converter/"
+},
+{
+"slug": "yaml-to-toml",
+"name": "YAML 到 TOML",
+"short": "解析YAML并将其转换为TOML",
+"cat": "dev",
+"title": "免费YAML到TOML在线工具",
+"keywords": "YAML 到 TOML,在线YAML 到 TOML,免费YAML 到 TOML,yaml,to,toml,convert,transform",
+"url": "/yaml-to-toml/"
+},
+{
+"slug": "yaml-prettify",
+"name": "YAML 格式化",
+"short": "格式化、美化 YAML 文本",
+"cat": "dev",
+"title": "免费YAML格式化在线工具",
+"keywords": "YAML 格式化,在线YAML 格式化,免费YAML 格式化,yaml,viewer,prettify,format",
+"url": "/yaml-prettify/"
+},
+{
+"slug": "audio-change-speed",
+"name": "更改音频速度",
+"short": "更改音频文件的播放速度。在保持音调不变的情",
+"cat": "avtool",
+"title": "免费更改音频速度在线工具",
+"keywords": "更改音频速度,在线更改音频速度,免费更改音频速度,audio,speed,tempo,playback",
+"url": "/audio-change-speed/"
+},
+{
+"slug": "audio-extract-audio",
+"name": "从视频中提取音频",
+"short": "从视频文件中提取音轨",
+"cat": "avtool",
+"title": "免费从视频中提取音频在线工具",
+"keywords": "从视频中提取音频,在线从视频中提取音频,免费从视频中提取音频,extract,audio,video,mp3",
+"url": "/audio-extract-audio/"
+},
+{
+"slug": "audio-merge-audio",
+"name": "合并音频",
+"short": "按顺序连接多个音频文件，将其合并为一个音频",
+"cat": "avtool",
+"title": "免费合并音频在线工具",
+"keywords": "合并音频,在线合并音频,免费合并音频,merge,audio,combine,concatenate",
+"url": "/audio-merge-audio/"
+},
+{
+"slug": "audio-trim",
+"name": "修剪音频",
+"short": "通过指定开始和结束时间来剪切和修剪音频文件",
+"cat": "avtool",
+"title": "免费修剪音频在线工具",
+"keywords": "修剪音频,在线修剪音频,免费修剪音频,trim,audio,cut,segment",
+"url": "/audio-trim/"
+},
+{
+"slug": "converters-audio-converter",
+"name": "音频转换器",
+"short": "在不同格式之间转换音频文件",
+"cat": "avtool",
+"title": "免费音频转换器在线工具",
+"keywords": "音频转换器,在线音频转换器,免费音频转换器,audio,converter",
+"url": "/converters-audio-converter/"
+},
+{
+"slug": "converters-convert-to-jpg",
+"name": "图片转 JPG",
+"short": "把 PNG、WebP、HEIC 等图片批量",
+"cat": "image",
+"title": "免费图片转JPG在线工具",
+"keywords": "图片转 JPG,在线图片转 JPG,免费图片转 JPG,convert,jpg,images,quality",
+"url": "/converters-convert-to-jpg/"
+},
+{
+"slug": "converters-convert-to-webp",
+"name": "将图像转换为 WebP",
+"short": "使用可自定义的质量和背景颜色设置将各种图像",
+"cat": "image",
+"title": "免费将图像转换为WebP在线工具",
+"keywords": "将图像转换为 WebP,在线将图像转换为 WebP,免费将图像转换为 WebP,convert,jpg,jpeg,png",
+"url": "/converters-convert-to-webp/"
+},
+{
+"slug": "converters-video-to-gif",
+"name": "视频转 GIF 动图",
+"short": "把视频片段转换成 GIF 动图，可设置帧率",
+"cat": "image",
+"title": "免费视频转GIF动图在线工具",
+"keywords": "视频转 GIF 动图,在线视频转 GIF 动图,免费视频转 GIF 动图,video,gif,convert,animated",
+"url": "/converters-video-to-gif/"
+},
+{
+"slug": "csv-change-csv-separator",
+"name": "更改 CSV 分隔符",
+"short": "更改 CSV 文件中的分隔符。在不同的 C",
+"cat": "dev",
+"title": "免费更改CSV分隔符在线工具",
+"keywords": "更改 CSV 分隔符,在线更改 CSV 分隔符,免费更改 CSV 分隔符,csv,separator,delimiter,change",
+"url": "/csv-change-csv-separator/"
+},
+{
+"slug": "csv-csv-rows-to-columns",
+"name": "将 CSV 行转换为列",
+"short": "此工具可将 CSV（逗号分隔值）文件的行转",
+"cat": "dev",
+"title": "免费将CSV行转换为列在线工具",
+"keywords": "将 CSV 行转换为列,在线将 CSV 行转换为列,免费将 CSV 行转换为列,csv,rows,columns,transpose",
+"url": "/csv-csv-rows-to-columns/"
+},
+{
+"slug": "csv-csv-to-json",
+"name": "将 CSV 转换为 JSON",
+"short": "将 CSV 文件转换为 JSON 格式，并",
+"cat": "dev",
+"title": "免费将CSV转换为JSON在线工具",
+"keywords": "将 CSV 转换为 JSON,在线将 CSV 转换为 JSON,免费将 CSV 转换为 JSON,csv,json,convert,transform",
+"url": "/csv-csv-to-json/"
+},
+{
+"slug": "csv-csv-to-tsv",
+"name": "将 CSV 转换为 TSV",
+"short": "使用下方表单上传您的 CSV 文件，它将自",
+"cat": "dev",
+"title": "免费将CSV转换为TSV在线工具",
+"keywords": "将 CSV 转换为 TSV,在线将 CSV 转换为 TSV,免费将 CSV 转换为 TSV,csv,tsv,convert,transform",
+"url": "/csv-csv-to-tsv/"
+},
+{
+"slug": "csv-csv-to-xml",
+"name": "将 CSV 转换为 XML",
+"short": "使用可自定义的选项将 CSV 文件转换为",
+"cat": "dev",
+"title": "免费将CSV转换为XML在线工具",
+"keywords": "将 CSV 转换为 XML,在线将 CSV 转换为 XML,免费将 CSV 转换为 XML,convert,transform,parse",
+"url": "/csv-csv-to-xml/"
+},
+{
+"slug": "csv-csv-to-yaml",
+"name": "将 CSV 转换为 YAML",
+"short": "只需在下方表单中上传您的 CSV 文件，它",
+"cat": "dev",
+"title": "免费将CSV转换为YAML在线工具",
+"keywords": "将 CSV 转换为 YAML,在线将 CSV 转换为 YAML,免费将 CSV 转换为 YAML,comma,separated,values,transform",
+"url": "/csv-csv-to-yaml/"
+},
+{
+"slug": "csv-find-incomplete-csv-records",
+"name": "查找不完整的 CSV 记录",
+"short": "只需将您的 CSV 文件上传到下方表单，此",
+"cat": "dev",
+"title": "免费查找不完整的CSV记录在线工具",
+"keywords": "查找不完整的 CSV 记录,在线查找不完整的 CSV 记录,免费查找不完整的 CSV 记录,find,incomplete,csv,records",
+"url": "/csv-find-incomplete-csv-records/"
+},
+{
+"slug": "csv-insert-csv-columns",
+"name": "插入 CSV 列",
+"short": "在指定位置向 CSV 数据添加新列",
+"cat": "dev",
+"title": "免费插入CSV列在线工具",
+"keywords": "插入 CSV 列,在线插入 CSV 列,免费插入 CSV 列,insert,csv,columns,append",
+"url": "/csv-insert-csv-columns/"
+},
+{
+"slug": "csv-swap-csv-columns",
+"name": "交换 CSV 列",
+"short": "只需在下方表单中上传您的 CSV 文件，指",
+"cat": "dev",
+"title": "免费交换CSV列在线工具",
+"keywords": "交换 CSV 列,在线交换 CSV 列,免费交换 CSV 列,csv,swap,columns",
+"url": "/csv-swap-csv-columns/"
+},
+{
+"slug": "csv-transpose-csv",
+"name": "转置 CSV",
+"short": "只需使用下方表格上传您的 CSV 文件，此",
+"cat": "dev",
+"title": "免费转置CSV在线工具",
+"keywords": "转置 CSV,在线转置 CSV,免费转置 CSV,transpose,csv",
+"url": "/csv-transpose-csv/"
+},
+{
+"slug": "csv-tsv-to-json",
+"name": "TSV 到 JSON",
+"short": "将 TSV（制表符分隔值）数据转换为 JS",
+"cat": "dev",
+"title": "免费TSV到JSON在线工具",
+"keywords": "TSV 到 JSON,在线TSV 到 JSON,免费TSV 到 JSON,tsv,json,convert,tabular",
+"url": "/csv-tsv-to-json/"
+},
+{
+"slug": "image-change-colors",
+"name": "改变图像的颜色",
+"short": "快速准确地将图像中的选定颜色替换为新颜色",
+"cat": "image",
+"title": "免费改变图像的颜色在线工具",
+"keywords": "改变图像的颜色,在线改变图像的颜色,免费改变图像的颜色,png,jpg,replace,swap",
+"url": "/image-change-colors/"
+},
+{
+"slug": "image-change-opacity",
+"name": "更改图像不透明度",
+"short": "轻松调整图片透明度。只需上传图片，使用滑块",
+"cat": "image",
+"title": "免费更改图像不透明度在线工具",
+"keywords": "更改图像不透明度,在线更改图像不透明度,免费更改图像不透明度,opacity,transparency,png,alpha",
+"url": "/image-change-opacity/"
+},
+{
+"slug": "image-compress-online",
+"name": "压缩图像",
+"short": "在保持质量的同时减小图像文件大小",
+"cat": "image",
+"title": "免费压缩图像在线工具",
+"keywords": "压缩图像,在线压缩图像,免费压缩图像,image,compress,reduce,quality",
+"url": "/image-compress-online/"
+},
+{
+"slug": "image-create-transparent",
+"name": "创建透明 PNG",
+"short": "通过移除所选颜色，使图像背景变为透明",
+"cat": "image",
+"title": "免费创建透明PNG在线工具",
+"keywords": "创建透明 PNG,在线创建透明 PNG,免费创建透明 PNG,create,transparent",
+"url": "/image-create-transparent/"
+},
+{
+"slug": "image-crop-online",
+"name": "裁剪图片",
+"short": "裁剪图像以删除不需要的区域",
+"cat": "image",
+"title": "免费裁剪图片在线工具",
+"keywords": "裁剪图片,在线裁剪图片,免费裁剪图片,crop,image,edit,resize",
+"url": "/image-crop-online/"
+},
+{
+"slug": "image-editor",
+"name": "在线图片编辑器",
+"short": "裁剪、旋转、调色、加文字、涂鸦，一站式编辑",
+"cat": "image",
+"title": "免费在线图片编辑器在线工具",
+"keywords": "在线图片编辑器,在线在线图片编辑器,免费在线图片编辑器,image,editor,edit,crop",
+"url": "/image-editor/"
+},
+{
+"slug": "image-image-to-text",
+"name": "图片文字识别 OCR",
+"short": "识别图片中的中英文文字，提取成可复制的文本",
+"cat": "image",
+"title": "免费图片文字识别OCR在线工具",
+"keywords": "图片文字识别 OCR,在线图片文字识别 OCR,免费图片文字识别 OCR,optical character recognition,extract,scan,tesseract",
+"url": "/image-image-to-text/"
+},
+{
+"slug": "image-qr-code",
+"name": "二维码生成器",
+"short": "为不同数据类型生成二维码：URL、文本、电",
+"cat": "image",
+"title": "免费二维码生成器在线工具",
+"keywords": "二维码生成器,在线二维码生成器,免费二维码生成器,qrcode,quick,read,generator",
+"url": "/image-qr-code/"
+},
+{
+"slug": "image-remove-background",
+"name": "AI 智能抠图",
+"short": "AI 自动去除图片背景，生成透明 PNG",
+"cat": "image",
+"title": "免费AI智能抠图在线工具",
+"keywords": "AI 智能抠图,在线AI 智能抠图,免费AI 智能抠图,png,transparent,image,ai",
+"url": "/image-remove-background/"
+},
+{
+"slug": "image-resize-online",
+"name": "调整图像大小",
+"short": "将图像调整为不同的尺寸",
+"cat": "image",
+"title": "免费调整图像大小在线工具",
+"keywords": "调整图像大小,在线调整图像大小,免费调整图像大小,resize,image,scale,jpg",
+"url": "/image-resize-online/"
+},
+{
+"slug": "image-rotate",
+"name": "旋转图像",
+"short": "按指定角度旋转图像",
+"cat": "image",
+"title": "免费旋转图像在线工具",
+"keywords": "旋转图像,在线旋转图像,免费旋转图像,rotate,image,angle,jpg",
+"url": "/image-rotate/"
+},
+{
+"slug": "image-split-to-pages",
+"name": "长图切分",
+"short": "把长截图、长图按页面高度切成多张图片",
+"cat": "image",
+"title": "免费长图切分在线工具",
+"keywords": "长图切分,在线长图切分,免费长图切分,split,images,pages,large",
+"url": "/image-split-to-pages/"
+},
+{
+"slug": "image-watermark",
+"name": "图片加水印",
+"short": "给图片批量添加文字水印",
+"cat": "image",
+"title": "免费图片加水印在线工具",
+"keywords": "图片加水印,在线图片加水印,免费图片加水印,watermark,image,text,filename",
+"url": "/image-watermark/"
+},
+{
+"slug": "png-compress-png",
+"name": "压缩 png",
+"short": "这是一个压缩 PNG 图片的程序。只要您将",
+"cat": "image",
+"title": "免费压缩png在线工具",
+"keywords": "压缩 png,在线压缩 png,免费压缩 png,compress,png,optimize,quantize",
+"url": "/png-compress-png/"
+},
+{
+"slug": "png-convert-jgp-to-png",
+"name": "JPG 转换为 PNG",
+"short": "快速将您的 JPG 图像转换为 PNG。只",
+"cat": "image",
+"title": "免费JPG转换为PNG在线工具",
+"keywords": "JPG 转换为 PNG,在线JPG 转换为 PNG,免费JPG 转换为 PNG,convert,jgp,png",
+"url": "/png-convert-jgp-to-png/"
+},
+{
+"slug": "json-escape-json",
+"name": "转义 JSON",
+"short": "转义 JSON 字符串中的特殊字符。将 J",
+"cat": "dev",
+"title": "免费转义JSON在线工具",
+"keywords": "转义 JSON,在线转义 JSON,免费转义 JSON,json,escape,characters,format",
+"url": "/json-escape-json/"
+},
+{
+"slug": "json-json-comparison",
+"name": "比较 JSON",
+"short": "比较两个 JSON 对象以识别结构和值的差",
+"cat": "dev",
+"title": "免费比较JSON在线工具",
+"keywords": "比较 JSON,在线比较 JSON,免费比较 JSON,json,compare,diff,differences",
+"url": "/json-json-comparison/"
+},
+{
+"slug": "json-json-to-csv",
+"name": "JSON 转 CSV",
+"short": "把 JSON 数组转换成 CSV 表格，E",
+"cat": "dev",
+"title": "免费JSON转CSV在线工具",
+"keywords": "JSON 转 CSV,在线JSON 转 CSV,免费JSON 转 CSV",
+"url": "/json-json-to-csv/"
+},
+{
+"slug": "json-json-to-xml",
+"name": "JSON 到 XML",
+"short": "将 JSON 数据转换为 XML 格式。将",
+"cat": "dev",
+"title": "免费JSON到XML在线工具",
+"keywords": "JSON 到 XML,在线JSON 到 XML,免费JSON 到 XML,json,xml,convert,transform",
+"url": "/json-json-to-xml/"
+},
+{
+"slug": "json-minify-online",
+"name": "最小化 JSON",
+"short": "从 JSON 中删除所有不必要的空格",
+"cat": "dev",
+"title": "免费最小化JSON在线工具",
+"keywords": "最小化 JSON,在线最小化 JSON,免费最小化 JSON,json,minify,compress,whitespace",
+"url": "/json-minify-online/"
+},
+{
+"slug": "json-prettify-online",
+"name": "美化 JSON",
+"short": "使用适当的缩进和间距来格式化 JSON",
+"cat": "dev",
+"title": "免费美化JSON在线工具",
+"keywords": "美化 JSON,在线美化 JSON,免费美化 JSON,json,prettify,format,beautify",
+"url": "/json-prettify-online/"
+},
+{
+"slug": "json-sort",
+"name": "JSON 排序",
+"short": "按键名或数值对 JSON 对象和数组排序",
+"cat": "dev",
+"title": "免费JSON排序在线工具",
+"keywords": "JSON 排序,在线JSON 排序,免费JSON 排序,json,sort,order,array",
+"url": "/json-sort/"
+},
+{
+"slug": "json-stringify",
+"name": "字符串化 JSON",
+"short": "将 JavaScript 对象转换为 JS",
+"cat": "dev",
+"title": "免费字符串化JSON在线工具",
+"keywords": "字符串化 JSON,在线字符串化 JSON,免费字符串化 JSON,json,stringify,serialize,convert",
+"url": "/json-stringify/"
+},
+{
+"slug": "json-validatejson",
+"name": "验证 JSON",
+"short": "检查 JSON 是否有效且格式正确",
+"cat": "dev",
+"title": "免费验证JSON在线工具",
+"keywords": "验证 JSON,在线验证 JSON,免费验证 JSON,json,validate,check,syntax",
+"url": "/json-validatejson/"
+},
+{
+"slug": "list-duplicate",
+"name": "列表重复生成",
+"short": "把列表内容按次数重复",
+"cat": "text",
+"title": "免费列表重复生成在线工具",
+"keywords": "列表重复生成,在线列表重复生成,免费列表重复生成,duplicate",
+"url": "/list-duplicate/"
+},
+{
+"slug": "list-find-most-popular",
+"name": "列表频次统计",
+"short": "找出列表中出现次数最多的项",
+"cat": "text",
+"title": "免费列表频次统计在线工具",
+"keywords": "列表频次统计,在线列表频次统计,免费列表频次统计,find,most,popular",
+"url": "/list-find-most-popular/"
+},
+{
+"slug": "list-find-unique",
+"name": "列表去重",
+"short": "找出列表中不重复的项",
+"cat": "text",
+"title": "免费列表去重在线工具",
+"keywords": "列表去重,在线列表去重,免费列表去重,find,unique",
+"url": "/list-find-unique/"
+},
+{
+"slug": "list-chunk",
+"name": "列表分组",
+"short": "把一列数据按固定数量拆成多组",
+"cat": "text",
+"title": "免费列表分组在线工具",
+"keywords": "列表分组,在线列表分组,免费列表分组,chuck,list,partition,split",
+"url": "/list-chunk/"
+},
+{
+"slug": "list-reverse",
+"name": "列表倒序",
+"short": "把列表顺序反转",
+"cat": "text",
+"title": "免费列表倒序在线工具",
+"keywords": "列表倒序,在线列表倒序,免费列表倒序,reverse",
+"url": "/list-reverse/"
+},
+{
+"slug": "list-rotate",
+"name": "列表循环移位",
+"short": "把列表元素整体向前或向后移动",
+"cat": "text",
+"title": "免费列表循环移位在线工具",
+"keywords": "列表循环移位,在线列表循环移位,免费列表循环移位,rotate",
+"url": "/list-rotate/"
+},
+{
+"slug": "list-shuffle",
+"name": "列表随机打乱",
+"short": "把列表顺序随机打乱",
+"cat": "text",
+"title": "免费列表随机打乱在线工具",
+"keywords": "列表随机打乱,在线列表随机打乱,免费列表随机打乱,shuffle",
+"url": "/list-shuffle/"
+},
+{
+"slug": "list-sort",
+"name": "列表排序",
+"short": "按字母、数字或长度对列表排序",
+"cat": "text",
+"title": "免费列表排序在线工具",
+"keywords": "列表排序,在线列表排序,免费列表排序,sort",
+"url": "/list-sort/"
+},
+{
+"slug": "list-truncate",
+"name": "列表截取",
+"short": "只保留列表的前 N 项",
+"cat": "text",
+"title": "免费列表截取在线工具",
+"keywords": "列表截取,在线列表截取,免费列表截取,truncate",
+"url": "/list-truncate/"
+},
+{
+"slug": "list-unwrap",
+"name": "去除包裹符号",
+"short": "去掉每行前后的引号、括号等符号",
+"cat": "text",
+"title": "免费去除包裹符号在线工具",
+"keywords": "去除包裹符号,在线去除包裹符号,免费去除包裹符号,unwrap",
+"url": "/list-unwrap/"
+},
+{
+"slug": "list-wrap",
+"name": "每行加前后缀",
+"short": "给每一行加上引号、括号或任意前后缀",
+"cat": "text",
+"title": "免费每行加前后缀在线工具",
+"keywords": "每行加前后缀,在线每行加前后缀,免费每行加前后缀,wrap",
+"url": "/list-wrap/"
+},
+{
+"slug": "number-arithmetic-sequence",
+"name": "等差序列",
+"short": "生成具有可定制参数的算术序列",
+"cat": "calc",
+"title": "免费等差序列在线工具",
+"keywords": "等差序列,在线等差序列,免费等差序列,arithmetic,sequence,math,progression",
+"url": "/number-arithmetic-sequence/"
+},
+{
+"slug": "number-byte-converter",
+"name": "字节单位换算",
+"short": "B、KB、MB、GB、TB 等存储单位互相",
+"cat": "calc",
+"title": "免费字节单位换算在线工具",
+"keywords": "字节单位换算,在线字节单位换算,免费字节单位换算,byte,converter",
+"url": "/number-byte-converter/"
+},
+{
+"slug": "number-generate",
+"name": "数字序列生成",
+"short": "按起始值和步长批量生成数字序列",
+"cat": "calc",
+"title": "免费数字序列生成在线工具",
+"keywords": "数字序列生成,在线数字序列生成,免费数字序列生成,generate,random,numbers",
+"url": "/number-generate/"
+},
+{
+"slug": "number-generic-calc",
+"name": "公式计算器",
+"short": "常用数学和物理公式在线计算",
+"cat": "calc",
+"title": "免费公式计算器在线工具",
+"keywords": "公式计算器,在线公式计算器,免费公式计算器",
+"url": "/number-generic-calc/"
+},
+{
+"slug": "number-number-to-words",
+"name": "数字转英文单词",
+"short": "把阿拉伯数字转换成英文大写单词",
+"cat": "calc",
+"title": "免费数字转英文单词在线工具",
+"keywords": "数字转英文单词,在线数字转英文单词,免费数字转英文单词,number,words,spell,text",
+"url": "/number-number-to-words/"
+},
+{
+"slug": "number-random-number-generator",
+"name": "随机数生成器",
+"short": "使用可自定义的选项生成指定范围内的随机数",
+"cat": "calc",
+"title": "免费随机数生成器在线工具",
+"keywords": "随机数生成器,在线随机数生成器,免费随机数生成器,random,number,generator,range",
+"url": "/number-random-number-generator/"
+},
+{
+"slug": "number-random-port-generator",
+"name": "随机端口生成器",
+"short": "使用可定制的选项在指定范围内生成随机网络端",
+"cat": "calc",
+"title": "免费随机端口生成器在线工具",
+"keywords": "随机端口生成器,在线随机端口生成器,免费随机端口生成器,random,port,generator,network",
+"url": "/number-random-port-generator/"
+},
+{
+"slug": "number-sum",
+"name": "数字求和",
+"short": "把一列数字快速求和",
+"cat": "calc",
+"title": "免费数字求和在线工具",
+"keywords": "数字求和,在线数字求和,免费数字求和,sum,add,calculate,total",
+"url": "/number-sum/"
+},
+{
+"slug": "pdf-compress-pdf",
+"name": "压缩PDF",
+"short": "使用 Ghostscript 减小 PDF",
+"cat": "pdf",
+"title": "免费压缩PDF在线工具",
+"keywords": "压缩PDF,在线压缩PDF,免费压缩PDF,reduce,size,optimize,shrink",
+"url": "/pdf-compress-pdf/"
+},
+{
+"slug": "pdf-convert-to-pdf",
+"name": "将图像转换为 PDF",
+"short": "将各种图像格式（PNG, GIF, JPG",
+"cat": "pdf",
+"title": "免费将图像转换为PDF在线工具",
+"keywords": "将图像转换为 PDF,在线将图像转换为 PDF,免费将图像转换为 PDF,convert,pdf,image,jpg",
+"url": "/pdf-convert-to-pdf/"
+},
+{
+"slug": "pdf-editor",
+"name": "PDF 在线编辑器",
+"short": "在 PDF 上添加文字、图片、签名和标注",
+"cat": "pdf",
+"title": "免费PDF在线编辑器在线工具",
+"keywords": "PDF 在线编辑器,在线PDF 在线编辑器,免费PDF 在线编辑器,pdf,editor,edit,annotate",
+"url": "/pdf-editor/"
+},
+{
+"slug": "pdf-extract-image-from-pdf",
+"name": "PDF 提取图片",
+"short": "把 PDF 里的所有图片提取出来保存",
+"cat": "pdf",
+"title": "免费PDF提取图片在线工具",
+"keywords": "PDF 提取图片,在线PDF 提取图片,免费PDF 提取图片,pdf,image,extract",
+"url": "/pdf-extract-image-from-pdf/"
+},
+{
+"slug": "pdf-form-pdf",
+"name": "PDF 表单编辑",
+"short": "在 PDF 上添加文字、表单字段和标注",
+"cat": "pdf",
+"title": "免费PDF表单编辑在线工具",
+"keywords": "PDF 表单编辑,在线PDF 表单编辑,免费PDF 表单编辑,pdf,editor,edit,annotate",
+"url": "/pdf-form-pdf/"
+},
+{
+"slug": "pdf-merge-pdf",
+"name": "合并 PDF",
+"short": "合并多个 PDF 文件为一个文档",
+"cat": "pdf",
+"title": "免费合并PDF在线工具",
+"keywords": "合并 PDF,在线合并 PDF,免费合并 PDF,pages,combine,document,join",
+"url": "/pdf-merge-pdf/"
+},
+{
+"slug": "pdf-pdf-to-epub",
+"name": "PDF 转 EPUB",
+"short": "将 PDF 文档转换为 EPUB 文件，以",
+"cat": "pdf",
+"title": "免费PDF转EPUB在线工具",
+"keywords": "PDF 转 EPUB,在线PDF 转 EPUB,免费PDF 转 EPUB,pdf,epub,convert,ebook",
+"url": "/pdf-pdf-to-epub/"
+},
+{
+"slug": "pdf-pdf-to-png",
+"name": "PDF 转 PNG",
+"short": "将 PDF 文档转换为 PNG 面板",
+"cat": "pdf",
+"title": "免费PDF转PNG在线工具",
+"keywords": "PDF 转 PNG,在线PDF 转 PNG,免费PDF 转 PNG,pdf,png,convert,image",
+"url": "/pdf-pdf-to-png/"
+},
+{
+"slug": "pdf-protect-pdf",
+"name": "保护 PDF",
+"short": "在浏览器中安全地为 PDF 文件添加密码保护",
+"cat": "pdf",
+"title": "免费保护PDF在线工具",
+"keywords": "保护 PDF,在线保护 PDF,免费保护 PDF,password,secure,encrypt,lock",
+"url": "/pdf-protect-pdf/"
+},
+{
+"slug": "pdf-rotate-pdf",
+"name": "旋转 PDF",
+"short": "旋转 PDF 文档中的页面",
+"cat": "pdf",
+"title": "免费旋转PDF在线工具",
+"keywords": "旋转 PDF,在线旋转 PDF,免费旋转 PDF,rotation,document,pages,orientation",
+"url": "/pdf-rotate-pdf/"
+},
+{
+"slug": "pdf-split-pdf",
+"name": "拆分 PDF",
+"short": "从 PDF 文档中提取特定页面",
+"cat": "pdf",
+"title": "免费拆分PDF在线工具",
+"keywords": "拆分 PDF,在线拆分 PDF,免费拆分 PDF,extract,pages,range,document",
+"url": "/pdf-split-pdf/"
+},
+{
+"slug": "string-base64",
+"name": "Base64 编码器/解码器",
+"short": "使用 Base64 编码对文本进行编码或解",
+"cat": "text",
+"title": "免费Base64编码器/解码器",
+"keywords": "Base64 编码器/解码器,在线Base64 编码器/解码器,免费Base64 编码器/解码器,b64",
+"url": "/string-base64/"
+},
+{
+"slug": "string-censor",
+"name": "敏感词打码",
+"short": "把文本中的指定词语替换成星号",
+"cat": "text",
+"title": "免费敏感词打码在线工具",
+"keywords": "敏感词打码,在线敏感词打码,免费敏感词打码,text,censor,words,characters",
+"url": "/string-censor/"
+},
+{
+"slug": "string-create-palindrome",
+"name": "回文生成",
+"short": "把文字生成回文",
+"cat": "text",
+"title": "免费回文生成在线工具",
+"keywords": "回文生成,在线回文生成,免费回文生成,create,palindrome",
+"url": "/string-create-palindrome/"
+},
+{
+"slug": "string-email-extractor",
+"name": "邮箱地址提取",
+"short": "从一大段文字中提取所有邮箱地址",
+"cat": "text",
+"title": "免费邮箱地址提取在线工具",
+"keywords": "邮箱地址提取,在线邮箱地址提取,免费邮箱地址提取,email,extract,address,mail",
+"url": "/string-email-extractor/"
+},
+{
+"slug": "string-extract-substring",
+"name": "提取子字符串",
+"short": "世界上最简单的基于浏览器的文本子字符串提取",
+"cat": "text",
+"title": "免费提取子字符串在线工具",
+"keywords": "提取子字符串,在线提取子字符串,免费提取子字符串,extract,substring",
+"url": "/string-extract-substring/"
+},
+{
+"slug": "string-hidden-character-detector",
+"name": "隐藏字符检测器",
+"short": "检测隐藏的 Unicode 字符，尤其是可",
+"cat": "text",
+"title": "免费隐藏字符检测器在线工具",
+"keywords": "隐藏字符检测器,在线隐藏字符检测器,免费隐藏字符检测器,unicode,rtl,override,security",
+"url": "/string-hidden-character-detector/"
+},
+{
+"slug": "string-join",
+"name": "多行合并",
+"short": "把多行文字用指定分隔符合并成一行",
+"cat": "text",
+"title": "免费多行合并在线工具",
+"keywords": "多行合并,在线多行合并,免费多行合并,text,join",
+"url": "/string-join/"
+},
+{
+"slug": "string-palindrome",
+"name": "回文检测",
+"short": "检查一段文字是不是回文",
+"cat": "text",
+"title": "免费回文检测在线工具",
+"keywords": "回文检测,在线回文检测,免费回文检测,palindrome",
+"url": "/string-palindrome/"
+},
+{
+"slug": "string-password-generator",
+"name": "密码生成器",
+"short": "生成安全的随机密码，可自定义长度和字符类型",
+"cat": "text",
+"title": "免费密码生成器在线工具",
+"keywords": "密码生成器,在线密码生成器,免费密码生成器,password,generator,random,secure",
+"url": "/string-password-generator/"
+},
+{
+"slug": "string-quote",
+"name": "文本加引号",
+"short": "给文字批量加上引号",
+"cat": "text",
+"title": "免费文本加引号在线工具",
+"keywords": "文本加引号,在线文本加引号,免费文本加引号,quote",
+"url": "/string-quote/"
+},
+{
+"slug": "string-randomize-case",
+"name": "随机大小写",
+"short": "把英文字母随机转换为大小写",
+"cat": "text",
+"title": "免费随机大小写在线工具",
+"keywords": "随机大小写,在线随机大小写,免费随机大小写,randomize,case",
+"url": "/string-randomize-case/"
+},
+{
+"slug": "string-remove-duplicate-lines",
+"name": "删除重复的行",
+"short": "在左侧的输入表单中加载文本，即可立即在输出",
+"cat": "text",
+"title": "免费删除重复的行在线工具",
+"keywords": "删除重复的行,在线删除重复的行,免费删除重复的行,remove,duplicate,lines",
+"url": "/string-remove-duplicate-lines/"
+},
+{
+"slug": "string-repeat",
+"name": "重复文本",
+"short": "使用可自定义的分隔符多次重复文本",
+"cat": "text",
+"title": "免费重复文本在线工具",
+"keywords": "重复文本,在线重复文本,免费重复文本,text,repeat",
+"url": "/string-repeat/"
+},
+{
+"slug": "string-reverse",
+"name": "文字倒序",
+"short": "把文字顺序反转",
+"cat": "text",
+"title": "免费文字倒序在线工具",
+"keywords": "文字倒序,在线文字倒序,免费文字倒序,reverse",
+"url": "/string-reverse/"
+},
+{
+"slug": "string-rot13",
+"name": "ROT13编码器/解码器",
+"short": "使用 ROT13 密码对文本进行编码或解码",
+"cat": "text",
+"title": "免费ROT13编码器/解码器在线工具",
+"keywords": "ROT13编码器/解码器,在线ROT13编码器/解码器,免费ROT13编码器/解码器,rot13",
+"url": "/string-rot13/"
+},
+{
+"slug": "string-rotate",
+"name": "文字循环移位",
+"short": "把字符串循环移动若干位",
+"cat": "text",
+"title": "免费文字循环移位在线工具",
+"keywords": "文字循环移位,在线文字循环移位,免费文字循环移位,rotate",
+"url": "/string-rotate/"
+},
+{
+"slug": "string-slug-generator",
+"name": "URL 别名生成",
+"short": "把标题转换成适合网址的 slug",
+"cat": "text",
+"title": "免费URL别名生成在线工具",
+"keywords": "URL 别名生成,在线URL 别名生成,免费URL 别名生成,slug,generator,url,seo",
+"url": "/string-slug-generator/"
+},
+{
+"slug": "string-split",
+"name": "文本分割",
+"short": "按分隔符把文本拆成多行",
+"cat": "text",
+"title": "免费文本分割在线工具",
+"keywords": "文本分割,在线文本分割,免费文本分割,split",
+"url": "/string-split/"
+},
+{
+"slug": "string-statistics",
+"name": "文本统计",
+"short": "分析文本并生成综合统计数据",
+"cat": "text",
+"title": "免费文本统计在线工具",
+"keywords": "文本统计,在线文本统计,免费文本统计,text,statistics,count,lines",
+"url": "/string-statistics/"
+},
+{
+"slug": "string-table-text-converter",
+"name": "表格文本转换",
+"short": "Markdown 表格、CSV、制表符文本",
+"cat": "text",
+"title": "免费表格文本转换在线工具",
+"keywords": "表格文本转换,在线表格文本转换,免费表格文本转换,table,text,converter,markdown",
+"url": "/string-table-text-converter/"
+},
+{
+"slug": "string-text-compare",
+"name": "文本对比",
+"short": "对比两段文字的差异并高亮显示",
+"cat": "text",
+"title": "免费文本对比在线工具",
+"keywords": "文本对比,在线文本对比,免费文本对比,text,compare",
+"url": "/string-text-compare/"
+},
+{
+"slug": "string-replacer",
+"name": "文本替换器",
+"short": "用新内容替换文本模式",
+"cat": "text",
+"title": "免费文本替换器在线工具",
+"keywords": "文本替换器,在线文本替换器,免费文本替换器,text,replace",
+"url": "/string-replacer/"
+},
+{
+"slug": "string-to-morse",
+"name": "字符串到莫尔斯",
+"short": "将文本转换为摩尔斯电码",
+"cat": "text",
+"title": "免费字符串到莫尔斯在线工具",
+"keywords": "字符串到莫尔斯,在线字符串到莫尔斯,免费字符串到莫尔斯",
+"url": "/string-to-morse/"
+},
+{
+"slug": "string-truncate",
+"name": "截断文本",
+"short": "将文本缩短至指定长度",
+"cat": "text",
+"title": "免费截断文本在线工具",
+"keywords": "截断文本,在线截断文本,免费截断文本,truncate",
+"url": "/string-truncate/"
+},
+{
+"slug": "string-unicode",
+"name": "Unicode 编码器 / 解码器",
+"short": "将文本转换为 Unicode 转义序列，或",
+"cat": "text",
+"title": "免费Unicode编码器/解码器",
+"keywords": "Unicode 编码器 / 解码器,在线Unicode 编码器 / 解码器,免费Unicode 编码器 / 解码器,unicode,encode,decode,escape",
+"url": "/string-unicode/"
+},
+{
+"slug": "string-uppercase",
+"name": "英文转大写",
+"short": "把英文字母全部转换为大写",
+"cat": "text",
+"title": "免费英文转大写在线工具",
+"keywords": "英文转大写,在线英文转大写,免费英文转大写,uppercase",
+"url": "/string-uppercase/"
+},
+{
+"slug": "string-url-decode-string",
+"name": "字符串 URL 解码器",
+"short": "加载您的字符串，它将自动获得 URL 非转",
+"cat": "text",
+"title": "免费字符串URL解码器在线工具",
+"keywords": "字符串 URL 解码器,在线字符串 URL 解码器,免费字符串 URL 解码器,string,unescape,encoding,percent",
+"url": "/string-url-decode-string/"
+},
+{
+"slug": "string-url-editor",
+"name": "网址参数编辑",
+"short": "拆解网址的各个参数并可视化编辑",
+"cat": "text",
+"title": "免费网址参数编辑在线工具",
+"keywords": "网址参数编辑,在线网址参数编辑,免费网址参数编辑,url,editor,query,parameters",
+"url": "/string-url-editor/"
+},
+{
+"slug": "string-url-encode-string",
+"name": "字符串 URL 编码器",
+"short": "加载您的字符串，它将自动进行 URL 转义",
+"cat": "text",
+"title": "免费字符串URL编码器在线工具",
+"keywords": "字符串 URL 编码器,在线字符串 URL 编码器,免费字符串 URL 编码器,string,encoding,percent,escape",
+"url": "/string-url-encode-string/"
+},
+{
+"slug": "time-check-leap-years",
+"name": "检查闰年",
+"short": "检查某一年份是否为闰年并获取闰年信息",
+"cat": "calc",
+"title": "免费检查闰年在线工具",
+"keywords": "检查闰年,在线检查闰年,免费检查闰年,leap,year,calendar,date",
+"url": "/time-check-leap-years/"
+},
+{
+"slug": "time-convert-days-to-hours",
+"name": "将天数转换为小时数",
+"short": "使用可自定义的选项将天数转换为小时数",
+"cat": "calc",
+"title": "免费将天数转换为小时数在线工具",
+"keywords": "将天数转换为小时数,在线将天数转换为小时数,免费将天数转换为小时数,days,hours,convert,time",
+"url": "/time-convert-days-to-hours/"
+},
+{
+"slug": "time-convert-hours-to-days",
+"name": "将小时转换为天",
+"short": "使用可自定义的选项将小时转换为天",
+"cat": "calc",
+"title": "免费将小时转换为天在线工具",
+"keywords": "将小时转换为天,在线将小时转换为天,免费将小时转换为天,hours,days,convert,time",
+"url": "/time-convert-hours-to-days/"
+},
+{
+"slug": "time-convert-seconds-to-time",
+"name": "将秒转换为时间",
+"short": "将秒转换为可读的时间格式（小时:分钟:秒）",
+"cat": "calc",
+"title": "免费将秒转换为时间在线工具",
+"keywords": "将秒转换为时间,在线将秒转换为时间,免费将秒转换为时间,seconds,time,convert,format",
+"url": "/time-convert-seconds-to-time/"
+},
+{
+"slug": "time-convert-time-to-decimal",
+"name": "把时间转换至十进制格式",
+"short": "将格式化的时间长度（HH:MM:SS）转换",
+"cat": "calc",
+"title": "免费把时间转换至十进制格式在线工具",
+"keywords": "把时间转换至十进制格式,在线把时间转换至十进制格式,免费把时间转换至十进制格式,convert,time,to,decimal",
+"url": "/time-convert-time-to-decimal/"
+},
+{
+"slug": "time-convert-time-to-seconds",
+"name": "将时间转换为秒",
+"short": "将格式化的时间（HH：MM：SS）转换为秒",
+"cat": "calc",
+"title": "免费将时间转换为秒在线工具",
+"keywords": "将时间转换为秒,在线将时间转换为秒,免费将时间转换为秒,time,seconds,convert,format",
+"url": "/time-convert-time-to-seconds/"
+},
+{
+"slug": "time-convert-unix-to-date",
+"name": "转换 Unix ↔ 日期",
+"short": "将 Unix 时间戳转换为可读日期，并将格",
+"cat": "calc",
+"title": "免费转换Unix↔日期在线工具",
+"keywords": "转换 Unix ↔ 日期,在线转换 Unix ↔ 日期,免费转换 Unix ↔ 日期,convert,unix,to,date",
+"url": "/time-convert-unix-to-date/"
+},
+{
+"slug": "time-crontab-guru",
+"name": "Crontab 表达式解析",
+"short": "解析和生成 cron 定时任务表达式",
+"cat": "calc",
+"title": "免费Crontab表达式解析在线工具",
+"keywords": "Crontab 表达式解析,在线Crontab 表达式解析,免费Crontab 表达式解析,crontab,cron,schedule,guru",
+"url": "/time-crontab-guru/"
+},
+{
+"slug": "time-date-weekday-calculator",
+"name": "星期几查询",
+"short": "查询任意日期是星期几",
+"cat": "calc",
+"title": "免费星期几查询在线工具",
+"keywords": "星期几查询,在线星期几查询,免费星期几查询,date,weekday,day of week,calendar",
+"url": "/time-date-weekday-calculator/"
+},
+{
+"slug": "time-discord-timestamp",
+"name": "Discord 时间戳生成",
+"short": "生成 Discord 动态时间戳代码",
+"cat": "calc",
+"title": "免费Discord时间戳生成在线工具",
+"keywords": "Discord 时间戳生成,在线Discord 时间戳生成,免费Discord 时间戳生成,discord,timestamp,time,datetime",
+"url": "/time-discord-timestamp/"
+},
+{
+"slug": "time-time-between-dates",
+"name": "日期间隔时间",
+"short": "计算两个日期之间的时差。获取精确的天、小时",
+"cat": "calc",
+"title": "免费日期间隔时间在线工具",
+"keywords": "日期间隔时间,在线日期间隔时间,免费日期间隔时间,dates,time,difference,duration",
+"url": "/time-time-between-dates/"
+},
+{
+"slug": "time-truncate-clock-time",
+"name": "截断时钟时间",
+"short": "截断时钟时间以删除秒数或分钟数。将时间四舍",
+"cat": "calc",
+"title": "免费截断时钟时间在线工具",
+"keywords": "截断时钟时间,在线截断时钟时间,免费截断时钟时间,time,truncate,clock,round",
+"url": "/time-truncate-clock-time/"
+},
+{
+"slug": "video-add-audio",
+"name": "视频加背景音乐",
+"short": "给视频添加或替换背景音乐",
+"cat": "avtool",
+"title": "免费视频加背景音乐在线工具",
+"keywords": "视频加背景音乐,在线视频加背景音乐,免费视频加背景音乐,add,audio,video,music",
+"url": "/video-add-audio/"
+},
+{
+"slug": "video-change-speed",
+"name": "更改视频速度",
+"short": "更改视频文件的播放速度。在保持音频同步的同",
+"cat": "avtool",
+"title": "免费更改视频速度在线工具",
+"keywords": "更改视频速度,在线更改视频速度,免费更改视频速度,video,speed,playback,fast",
+"url": "/video-change-speed/"
+},
+{
+"slug": "video-compress",
+"name": "压缩视频",
+"short": "通过将视频缩放到不同的分辨率（例如 240",
+"cat": "avtool",
+"title": "免费压缩视频在线工具",
+"keywords": "压缩视频,在线压缩视频,免费压缩视频,compress,video,reduce,size",
+"url": "/video-compress/"
+},
+{
+"slug": "video-crop-video",
+"name": "裁剪视频",
+"short": "裁剪视频以删除不需要的区域",
+"cat": "avtool",
+"title": "免费裁剪视频在线工具",
+"keywords": "裁剪视频,在线裁剪视频,免费裁剪视频,crop,video,trim,aspect ratio",
+"url": "/video-crop-video/"
+},
+{
+"slug": "video-flip",
+"name": "翻转视频",
+"short": "水平或垂直翻转视频文件。镜像视频以获得特殊",
+"cat": "avtool",
+"title": "免费翻转视频在线工具",
+"keywords": "翻转视频,在线翻转视频,免费翻转视频,video,flip,mirror,horizontal",
+"url": "/video-flip/"
+},
+{
+"slug": "gif-change-speed",
+"name": "更改 GIF 速度",
+"short": "更改 GIF 动画的播放速度。在保持动画流",
+"cat": "image",
+"title": "免费更改GIF速度在线工具",
+"keywords": "更改 GIF 速度,在线更改 GIF 速度,免费更改 GIF 速度,gif,speed,animation,fast",
+"url": "/gif-change-speed/"
+},
+{
+"slug": "gif-images-to-gif",
+"name": "图片合成 GIF",
+"short": "把多张图片合成 GIF 动图",
+"cat": "image",
+"title": "免费图片合成GIF在线工具",
+"keywords": "图片合成 GIF,在线图片合成 GIF,免费图片合成 GIF,gif,images,animate,frames",
+"url": "/gif-images-to-gif/"
+},
+{
+"slug": "video-loop",
+"name": "循环视频",
+"short": "通过多次重复播放原始视频来创建循环视频",
+"cat": "avtool",
+"title": "免费循环视频在线工具",
+"keywords": "循环视频,在线循环视频,免费循环视频,video,loop,repeat,continuous",
+"url": "/video-loop/"
+},
+{
+"slug": "video-merge-video",
+"name": "合并视频",
+"short": "将多个视频文件合并为一个连续的视频",
+"cat": "avtool",
+"title": "免费合并视频在线工具",
+"keywords": "合并视频,在线合并视频,免费合并视频,merge,video,append,combine",
+"url": "/video-merge-video/"
+},
+{
+"slug": "video-resize",
+"name": "视频改尺寸",
+"short": "修改视频分辨率，缩小视频体积",
+"cat": "avtool",
+"title": "免费视频改尺寸在线工具",
+"keywords": "视频改尺寸,在线视频改尺寸,免费视频改尺寸,resize,video,scale,resolution",
+"url": "/video-resize/"
+},
+{
+"slug": "video-rotate",
+"name": "旋转视频",
+"short": "将视频文件旋转 90 度、180 度或 2",
+"cat": "avtool",
+"title": "免费旋转视频在线工具",
+"keywords": "旋转视频,在线旋转视频,免费旋转视频,video,rotate,orientation,degrees",
+"url": "/video-rotate/"
+},
+{
+"slug": "video-trim",
+"name": "修剪视频",
+"short": "通过指定开始和结束时间来修剪视频文件。从视",
+"cat": "avtool",
+"title": "免费修剪视频在线工具",
+"keywords": "修剪视频,在线修剪视频,免费修剪视频,video,trim,cut,edit",
+"url": "/video-trim/"
+},
+{
+"slug": "xml-xml-beautifier",
+"name": "XML美化器",
+"short": "使用适当的缩进和间距来格式化 XML",
+"cat": "dev",
+"title": "免费XML美化器在线工具",
+"keywords": "XML美化器,在线XML美化器,免费XML美化器,xml,beautify,format,code",
+"url": "/xml-xml-beautifier/"
+},
+{
+"slug": "xml-xml-validator",
+"name": "XML验证器",
+"short": "验证 XML 语法和结构",
+"cat": "dev",
+"title": "免费XML验证器在线工具",
+"keywords": "XML验证器,在线XML验证器,免费XML验证器,xml,validate,check,syntax",
+"url": "/xml-xml-validator/"
+},
+{
+"slug": "cc-to-hexdump",
+"name": "十六进制转储 Hexdump",
+"short": "把文本或文件显示成十六进制转储格式",
+"cat": "geek",
+"title": "免费十六进制转储Hexdump",
+"keywords": "十六进制转储 Hexdump,在线十六进制转储 Hexdump,免费十六进制转储 Hexdump,To Hexdump",
+"url": "/cc-to-hexdump/"
+},
+{
+"slug": "cc-from-hexdump",
+"name": "Hexdump 还原",
+"short": "把十六进制转储还原成原始数据",
+"cat": "geek",
+"title": "免费Hexdump还原在线工具",
+"keywords": "Hexdump 还原,在线Hexdump 还原,免费Hexdump 还原,From Hexdump",
+"url": "/cc-from-hexdump/"
+},
+{
+"slug": "cc-to-hex",
+"name": "文本转十六进制",
+"short": "把文字转换成十六进制编码",
+"cat": "geek",
+"title": "免费文本转十六进制在线工具",
+"keywords": "文本转十六进制,在线文本转十六进制,免费文本转十六进制,To Hex",
+"url": "/cc-to-hex/"
+},
+{
+"slug": "cc-from-hex",
+"name": "十六进制转文本",
+"short": "把十六进制编码还原成文字",
+"cat": "geek",
+"title": "免费十六进制转文本在线工具",
+"keywords": "十六进制转文本,在线十六进制转文本,免费十六进制转文本,From Hex",
+"url": "/cc-from-hex/"
+},
+{
+"slug": "cc-to-charcode",
+"name": "文本转字符编码",
+"short": "把文字转换成字符编码数值",
+"cat": "geek",
+"title": "免费文本转字符编码在线工具",
+"keywords": "文本转字符编码,在线文本转字符编码,免费文本转字符编码,To Charcode",
+"url": "/cc-to-charcode/"
+},
+{
+"slug": "cc-from-charcode",
+"name": "字符编码转文本",
+"short": "把字符编码数值还原成文字",
+"cat": "geek",
+"title": "免费字符编码转文本在线工具",
+"keywords": "字符编码转文本,在线字符编码转文本,免费字符编码转文本,From Charcode",
+"url": "/cc-from-charcode/"
+},
+{
+"slug": "cc-to-decimal",
+"name": "文本转十进制",
+"short": "把文字的每个字节转换成十进制数字",
+"cat": "geek",
+"title": "免费文本转十进制在线工具",
+"keywords": "文本转十进制,在线文本转十进制,免费文本转十进制,To Decimal",
+"url": "/cc-to-decimal/"
+},
+{
+"slug": "cc-from-decimal",
+"name": "十进制转文本",
+"short": "把十进制数字还原成文字",
+"cat": "geek",
+"title": "免费十进制转文本在线工具",
+"keywords": "十进制转文本,在线十进制转文本,免费十进制转文本,From Decimal",
+"url": "/cc-from-decimal/"
+},
+{
+"slug": "cc-to-binary",
+"name": "文本转二进制",
+"short": "把文字转换成 0 和 1 的二进制编码",
+"cat": "geek",
+"title": "免费文本转二进制在线工具",
+"keywords": "文本转二进制,在线文本转二进制,免费文本转二进制,To Binary",
+"url": "/cc-to-binary/"
+},
+{
+"slug": "cc-from-binary",
+"name": "二进制转文本",
+"short": "把二进制编码还原成文字",
+"cat": "geek",
+"title": "免费二进制转文本在线工具",
+"keywords": "二进制转文本,在线二进制转文本,免费二进制转文本,From Binary",
+"url": "/cc-from-binary/"
+},
+{
+"slug": "cc-to-octal",
+"name": "文本转八进制",
+"short": "把文字转换成八进制编码",
+"cat": "geek",
+"title": "免费文本转八进制在线工具",
+"keywords": "文本转八进制,在线文本转八进制,免费文本转八进制,To Octal",
+"url": "/cc-to-octal/"
+},
+{
+"slug": "cc-from-octal",
+"name": "八进制转文本",
+"short": "把八进制编码还原成文字",
+"cat": "geek",
+"title": "免费八进制转文本在线工具",
+"keywords": "八进制转文本,在线八进制转文本,免费八进制转文本,From Octal",
+"url": "/cc-from-octal/"
+},
+{
+"slug": "cc-to-base32",
+"name": "Base32 编码",
+"short": "把文字编码成 Base32",
+"cat": "geek",
+"title": "免费Base32编码在线工具",
+"keywords": "Base32 编码,在线Base32 编码,免费Base32 编码,To Base32",
+"url": "/cc-to-base32/"
+},
+{
+"slug": "cc-from-base32",
+"name": "Base32 解码",
+"short": "把 Base32 解码成原文",
+"cat": "geek",
+"title": "免费Base32解码在线工具",
+"keywords": "Base32 解码,在线Base32 解码,免费Base32 解码,From Base32",
+"url": "/cc-from-base32/"
+},
+{
+"slug": "cc-to-base58",
+"name": "Base58 编码",
+"short": "比特币等使用的 Base58 编码",
+"cat": "geek",
+"title": "免费Base58编码在线工具",
+"keywords": "Base58 编码,在线Base58 编码,免费Base58 编码,To Base58",
+"url": "/cc-to-base58/"
+},
+{
+"slug": "cc-from-base58",
+"name": "Base58 解码",
+"short": "把 Base58 解码成原文",
+"cat": "geek",
+"title": "免费Base58解码在线工具",
+"keywords": "Base58 解码,在线Base58 解码,免费Base58 解码,From Base58",
+"url": "/cc-from-base58/"
+},
+{
+"slug": "cc-to-base62",
+"name": "Base62 编码",
+"short": "把数据编码成 Base62",
+"cat": "geek",
+"title": "免费Base62编码在线工具",
+"keywords": "Base62 编码,在线Base62 编码,免费Base62 编码,To Base62",
+"url": "/cc-to-base62/"
+},
+{
+"slug": "cc-from-base62",
+"name": "Base62 解码",
+"short": "把 Base62 解码成原文",
+"cat": "geek",
+"title": "免费Base62解码在线工具",
+"keywords": "Base62 解码,在线Base62 解码,免费Base62 解码,From Base62",
+"url": "/cc-from-base62/"
+},
+{
+"slug": "cc-to-base85",
+"name": "Base85 编码",
+"short": "Ascii85 / Base85 编码",
+"cat": "geek",
+"title": "免费Base85编码在线工具",
+"keywords": "Base85 编码,在线Base85 编码,免费Base85 编码,To Base85",
+"url": "/cc-to-base85/"
+},
+{
+"slug": "cc-from-base85",
+"name": "Base85 解码",
+"short": "Ascii85 / Base85 解码",
+"cat": "geek",
+"title": "免费Base85解码在线工具",
+"keywords": "Base85 解码,在线Base85 解码,免费Base85 解码,From Base85",
+"url": "/cc-from-base85/"
+},
+{
+"slug": "cc-to-base45",
+"name": "Base45 编码",
+"short": "健康码等使用的 Base45 编码",
+"cat": "geek",
+"title": "免费Base45编码在线工具",
+"keywords": "Base45 编码,在线Base45 编码,免费Base45 编码,To Base45",
+"url": "/cc-to-base45/"
+},
+{
+"slug": "cc-from-base45",
+"name": "Base45 解码",
+"short": "把 Base45 解码成原文",
+"cat": "geek",
+"title": "免费Base45解码在线工具",
+"keywords": "Base45 解码,在线Base45 解码,免费Base45 解码,From Base45",
+"url": "/cc-from-base45/"
+},
+{
+"slug": "cc-to-html-entity",
+"name": "HTML 实体编码",
+"short": "把特殊字符转换成 HTML 实体",
+"cat": "geek",
+"title": "免费HTML实体编码在线工具",
+"keywords": "HTML 实体编码,在线HTML 实体编码,免费HTML 实体编码,To HTML Entity",
+"url": "/cc-to-html-entity/"
+},
+{
+"slug": "cc-from-html-entity",
+"name": "HTML 实体解码",
+"short": "把 &amp; 等 HTML 实体还原",
+"cat": "geek",
+"title": "免费HTML实体解码在线工具",
+"keywords": "HTML 实体解码,在线HTML 实体解码,免费HTML 实体解码,From HTML Entity",
+"url": "/cc-from-html-entity/"
+},
+{
+"slug": "cc-escape-unicode-characters",
+"name": "Unicode 转义",
+"short": "把中文等字符转成 \\u 转义序列",
+"cat": "geek",
+"title": "免费Unicode转义在线工具",
+"keywords": "Unicode 转义,在线Unicode 转义,免费Unicode 转义,Escape Unicode Characters",
+"url": "/cc-escape-unicode-characters/"
+},
+{
+"slug": "cc-unescape-unicode-characters",
+"name": "Unicode 反转义",
+"short": "把 \\u4e2d 这样的转义还原成中文",
+"cat": "geek",
+"title": "免费Unicode反转义在线工具",
+"keywords": "Unicode 反转义,在线Unicode 反转义,免费Unicode 反转义,Unescape Unicode Characters",
+"url": "/cc-unescape-unicode-characters/"
+},
+{
+"slug": "cc-to-quoted-printable",
+"name": "Quoted-Printable 编码",
+"short": "邮件常用的 QP 编码",
+"cat": "geek",
+"title": "免费Quoted-Printable编码",
+"keywords": "Quoted-Printable 编码,在线Quoted-Printable 编码,免费Quoted-Printable 编码,To Quoted Printable",
+"url": "/cc-to-quoted-printable/"
+},
+{
+"slug": "cc-from-quoted-printable",
+"name": "Quoted-Printable 解码",
+"short": "解码邮件里的 QP 编码",
+"cat": "geek",
+"title": "免费Quoted-Printable解码",
+"keywords": "Quoted-Printable 解码,在线Quoted-Printable 解码,免费Quoted-Printable 解码,From Quoted Printable",
+"url": "/cc-from-quoted-printable/"
+},
+{
+"slug": "cc-to-punycode",
+"name": "Punycode 编码",
+"short": "把中文域名转换成 Punycode（xn-",
+"cat": "geek",
+"title": "免费Punycode编码在线工具",
+"keywords": "Punycode 编码,在线Punycode 编码,免费Punycode 编码,To Punycode",
+"url": "/cc-to-punycode/"
+},
+{
+"slug": "cc-from-punycode",
+"name": "Punycode 解码",
+"short": "把 xn-- 开头的域名还原成中文",
+"cat": "geek",
+"title": "免费Punycode解码在线工具",
+"keywords": "Punycode 解码,在线Punycode 解码,免费Punycode 解码,From Punycode",
+"url": "/cc-from-punycode/"
+},
+{
+"slug": "cc-encode-text",
+"name": "文本编码转换",
+"short": "把文字转换成 GBK、UTF-16 等编码",
+"cat": "geek",
+"title": "免费文本编码转换在线工具",
+"keywords": "文本编码转换,在线文本编码转换,免费文本编码转换,Encode text",
+"url": "/cc-encode-text/"
+},
+{
+"slug": "cc-decode-text",
+"name": "乱码修复 / 文本解码",
+"short": "按 GBK、Big5、UTF-8 等编码重",
+"cat": "geek",
+"title": "免费乱码修复/文本解码在线工具",
+"keywords": "乱码修复 / 文本解码,在线乱码修复 / 文本解码,免费乱码修复 / 文本解码,Decode text",
+"url": "/cc-decode-text/"
+},
+{
+"slug": "cc-text-encoding-brute-force",
+"name": "乱码编码识别",
+"short": "用各种字符编码尝试解码，找出乱码的正确编码",
+"cat": "geek",
+"title": "免费乱码编码识别在线工具",
+"keywords": "乱码编码识别,在线乱码编码识别,免费乱码编码识别,Text Encoding Brute Force",
+"url": "/cc-text-encoding-brute-force/"
+},
+{
+"slug": "cc-to-braille",
+"name": "文字转盲文",
+"short": "把英文转换成盲文点字",
+"cat": "geek",
+"title": "免费文字转盲文在线工具",
+"keywords": "文字转盲文,在线文字转盲文,免费文字转盲文,To Braille",
+"url": "/cc-to-braille/"
+},
+{
+"slug": "cc-from-braille",
+"name": "盲文转文字",
+"short": "把盲文点字还原成英文",
+"cat": "geek",
+"title": "免费盲文转文字在线工具",
+"keywords": "盲文转文字,在线盲文转文字,免费盲文转文字,From Braille",
+"url": "/cc-from-braille/"
+},
+{
+"slug": "cc-csv-to-json",
+"name": "CSV 转 JSON（高级）",
+"short": "把 CSV 表格转换成 JSON",
+"cat": "geek",
+"title": "免费CSV转JSON（高级）在线工具",
+"keywords": "CSV 转 JSON（高级）,在线CSV 转 JSON（高级）,免费CSV 转 JSON（高级）,CSV to JSON",
+"url": "/cc-csv-to-json/"
+},
+{
+"slug": "cc-yaml-to-json",
+"name": "YAML 转 JSON",
+"short": "把 YAML 配置转换成 JSON",
+"cat": "geek",
+"title": "免费YAML转JSON在线工具",
+"keywords": "YAML 转 JSON,在线YAML 转 JSON,免费YAML 转 JSON,YAML to JSON",
+"url": "/cc-yaml-to-json/"
+},
+{
+"slug": "cc-json-to-yaml",
+"name": "JSON 转 YAML",
+"short": "把 JSON 转换成 YAML",
+"cat": "geek",
+"title": "免费JSON转YAML在线工具",
+"keywords": "JSON 转 YAML,在线JSON 转 YAML,免费JSON 转 YAML,JSON to YAML",
+"url": "/cc-json-to-yaml/"
+},
+{
+"slug": "cc-to-messagepack",
+"name": "JSON 转 MessagePack",
+"short": "把 JSON 编码成 MessagePack",
+"cat": "geek",
+"title": "免费JSON转MessagePack",
+"keywords": "JSON 转 MessagePack,在线JSON 转 MessagePack,免费JSON 转 MessagePack,To MessagePack",
+"url": "/cc-to-messagepack/"
+},
+{
+"slug": "cc-from-messagepack",
+"name": "MessagePack 转 JSON",
+"short": "把 MessagePack 解码成 JSON",
+"cat": "geek",
+"title": "免费MessagePack转JSON",
+"keywords": "MessagePack 转 JSON,在线MessagePack 转 JSON,免费MessagePack 转 JSON,From MessagePack",
+"url": "/cc-from-messagepack/"
+},
+{
+"slug": "cc-aes-encrypt",
+"name": "AES 加密",
+"short": "AES 对称加密，支持 CBC、ECB、G",
+"cat": "geek",
+"title": "免费AES加密在线工具",
+"keywords": "AES 加密,在线AES 加密,免费AES 加密,AES Encrypt",
+"url": "/cc-aes-encrypt/"
+},
+{
+"slug": "cc-aes-decrypt",
+"name": "AES 解密",
+"short": "AES 对称解密，支持多种模式和填充",
+"cat": "geek",
+"title": "免费AES解密在线工具",
+"keywords": "AES 解密,在线AES 解密,免费AES 解密,AES Decrypt",
+"url": "/cc-aes-decrypt/"
+},
+{
+"slug": "cc-des-encrypt",
+"name": "DES 加密",
+"short": "DES 对称加密",
+"cat": "geek",
+"title": "免费DES加密在线工具",
+"keywords": "DES 加密,在线DES 加密,免费DES 加密,DES Encrypt",
+"url": "/cc-des-encrypt/"
+},
+{
+"slug": "cc-des-decrypt",
+"name": "DES 解密",
+"short": "DES 对称解密",
+"cat": "geek",
+"title": "免费DES解密在线工具",
+"keywords": "DES 解密,在线DES 解密,免费DES 解密,DES Decrypt",
+"url": "/cc-des-decrypt/"
+},
+{
+"slug": "cc-triple-des-encrypt",
+"name": "3DES 加密",
+"short": "三重 DES 加密",
+"cat": "geek",
+"title": "免费3DES加密在线工具",
+"keywords": "3DES 加密,在线3DES 加密,免费3DES 加密,Triple DES Encrypt",
+"url": "/cc-triple-des-encrypt/"
+},
+{
+"slug": "cc-triple-des-decrypt",
+"name": "3DES 解密",
+"short": "三重 DES 解密",
+"cat": "geek",
+"title": "免费3DES解密在线工具",
+"keywords": "3DES 解密,在线3DES 解密,免费3DES 解密,Triple DES Decrypt",
+"url": "/cc-triple-des-decrypt/"
+},
+{
+"slug": "cc-blowfish-encrypt",
+"name": "Blowfish 加密",
+"short": "Blowfish 对称加密",
+"cat": "geek",
+"title": "免费Blowfish加密在线工具",
+"keywords": "Blowfish 加密,在线Blowfish 加密,免费Blowfish 加密,Blowfish Encrypt",
+"url": "/cc-blowfish-encrypt/"
+},
+{
+"slug": "cc-blowfish-decrypt",
+"name": "Blowfish 解密",
+"short": "Blowfish 对称解密",
+"cat": "geek",
+"title": "免费Blowfish解密在线工具",
+"keywords": "Blowfish 解密,在线Blowfish 解密,免费Blowfish 解密,Blowfish Decrypt",
+"url": "/cc-blowfish-decrypt/"
+},
+{
+"slug": "cc-sm4-encrypt",
+"name": "国密 SM4 加密",
+"short": "国家商用密码 SM4 分组加密",
+"cat": "geek",
+"title": "免费国密SM4加密在线工具",
+"keywords": "国密 SM4 加密,在线国密 SM4 加密,免费国密 SM4 加密,SM4 Encrypt",
+"url": "/cc-sm4-encrypt/"
+},
+{
+"slug": "cc-sm4-decrypt",
+"name": "国密 SM4 解密",
+"short": "国家商用密码 SM4 解密",
+"cat": "geek",
+"title": "免费国密SM4解密在线工具",
+"keywords": "国密 SM4 解密,在线国密 SM4 解密,免费国密 SM4 解密,SM4 Decrypt",
+"url": "/cc-sm4-decrypt/"
+},
+{
+"slug": "cc-rc4",
+"name": "RC4 加解密",
+"short": "RC4 流加密和解密",
+"cat": "geek",
+"title": "免费RC4加解密在线工具",
+"keywords": "RC4 加解密,在线RC4 加解密,免费RC4 加解密,RC4",
+"url": "/cc-rc4/"
+},
+{
+"slug": "cc-chacha",
+"name": "ChaCha20 加解密",
+"short": "ChaCha20 流密码加解密",
+"cat": "geek",
+"title": "免费ChaCha20加解密在线工具",
+"keywords": "ChaCha20 加解密,在线ChaCha20 加解密,免费ChaCha20 加解密,ChaCha",
+"url": "/cc-chacha/"
+},
+{
+"slug": "cc-rot13",
+"name": "ROT13 编码",
+"short": "字母移位 13 位的简单加密",
+"cat": "geek",
+"title": "免费ROT13编码在线工具",
+"keywords": "ROT13 编码,在线ROT13 编码,免费ROT13 编码,ROT13",
+"url": "/cc-rot13/"
+},
+{
+"slug": "cc-rot47",
+"name": "ROT47 编码",
+"short": "ROT47 字符移位加密",
+"cat": "geek",
+"title": "免费ROT47编码在线工具",
+"keywords": "ROT47 编码,在线ROT47 编码,免费ROT47 编码,ROT47",
+"url": "/cc-rot47/"
+},
+{
+"slug": "cc-xor",
+"name": "XOR 异或运算",
+"short": "用密钥对数据做异或加解密",
+"cat": "geek",
+"title": "免费XOR异或运算在线工具",
+"keywords": "XOR 异或运算,在线XOR 异或运算,免费XOR 异或运算,XOR",
+"url": "/cc-xor/"
+},
+{
+"slug": "cc-xor-brute-force",
+"name": "XOR 暴力破解",
+"short": "尝试所有单字节密钥破解异或加密",
+"cat": "geek",
+"title": "免费XOR暴力破解在线工具",
+"keywords": "XOR 暴力破解,在线XOR 暴力破解,免费XOR 暴力破解,XOR Brute Force",
+"url": "/cc-xor-brute-force/"
+},
+{
+"slug": "cc-vigen-re-encode",
+"name": "维吉尼亚密码加密",
+"short": "Vigenère 多表替换加密",
+"cat": "geek",
+"title": "免费维吉尼亚密码加密在线工具",
+"keywords": "维吉尼亚密码加密,在线维吉尼亚密码加密,免费维吉尼亚密码加密,Vigenère Encode",
+"url": "/cc-vigen-re-encode/"
+},
+{
+"slug": "cc-vigen-re-decode",
+"name": "维吉尼亚密码解密",
+"short": "Vigenère 密码解密",
+"cat": "geek",
+"title": "免费维吉尼亚密码解密在线工具",
+"keywords": "维吉尼亚密码解密,在线维吉尼亚密码解密,免费维吉尼亚密码解密,Vigenère Decode",
+"url": "/cc-vigen-re-decode/"
+},
+{
+"slug": "cc-to-morse-code",
+"name": "文字转摩斯密码",
+"short": "把英文和数字转换成摩斯电码",
+"cat": "geek",
+"title": "免费文字转摩斯密码在线工具",
+"keywords": "文字转摩斯密码,在线文字转摩斯密码,免费文字转摩斯密码,To Morse Code",
+"url": "/cc-to-morse-code/"
+},
+{
+"slug": "cc-from-morse-code",
+"name": "摩斯密码翻译",
+"short": "把摩斯电码翻译成文字",
+"cat": "geek",
+"title": "免费摩斯密码翻译在线工具",
+"keywords": "摩斯密码翻译,在线摩斯密码翻译,免费摩斯密码翻译,From Morse Code",
+"url": "/cc-from-morse-code/"
+},
+{
+"slug": "cc-bacon-cipher-encode",
+"name": "培根密码加密",
+"short": "Bacon 培根密码编码",
+"cat": "geek",
+"title": "免费培根密码加密在线工具",
+"keywords": "培根密码加密,在线培根密码加密,免费培根密码加密,Bacon Cipher Encode",
+"url": "/cc-bacon-cipher-encode/"
+},
+{
+"slug": "cc-bacon-cipher-decode",
+"name": "培根密码解密",
+"short": "Bacon 培根密码解码",
+"cat": "geek",
+"title": "免费培根密码解密在线工具",
+"keywords": "培根密码解密,在线培根密码解密,免费培根密码解密,Bacon Cipher Decode",
+"url": "/cc-bacon-cipher-decode/"
+},
+{
+"slug": "cc-affine-cipher-encode",
+"name": "仿射密码加密",
+"short": "Affine 仿射密码加密",
+"cat": "geek",
+"title": "免费仿射密码加密在线工具",
+"keywords": "仿射密码加密,在线仿射密码加密,免费仿射密码加密,Affine Cipher Encode",
+"url": "/cc-affine-cipher-encode/"
+},
+{
+"slug": "cc-affine-cipher-decode",
+"name": "仿射密码解密",
+"short": "Affine 仿射密码解密",
+"cat": "geek",
+"title": "免费仿射密码解密在线工具",
+"keywords": "仿射密码解密,在线仿射密码解密,免费仿射密码解密,Affine Cipher Decode",
+"url": "/cc-affine-cipher-decode/"
+},
+{
+"slug": "cc-rail-fence-cipher-encode",
+"name": "栅栏密码加密",
+"short": "Rail Fence 栅栏密码加密",
+"cat": "geek",
+"title": "免费栅栏密码加密在线工具",
+"keywords": "栅栏密码加密,在线栅栏密码加密,免费栅栏密码加密,Rail Fence Cipher Encode",
+"url": "/cc-rail-fence-cipher-encode/"
+},
+{
+"slug": "cc-rail-fence-cipher-decode",
+"name": "栅栏密码解密",
+"short": "Rail Fence 栅栏密码解密",
+"cat": "geek",
+"title": "免费栅栏密码解密在线工具",
+"keywords": "栅栏密码解密,在线栅栏密码解密,免费栅栏密码解密,Rail Fence Cipher Decode",
+"url": "/cc-rail-fence-cipher-decode/"
+},
+{
+"slug": "cc-atbash-cipher",
+"name": "埃特巴什码",
+"short": "Atbash 字母倒序替换密码",
+"cat": "geek",
+"title": "免费埃特巴什码在线工具",
+"keywords": "埃特巴什码,在线埃特巴什码,免费埃特巴什码,Atbash Cipher",
+"url": "/cc-atbash-cipher/"
+},
+{
+"slug": "cc-substitute",
+"name": "字符替换密码",
+"short": "按自定义对照表替换字符",
+"cat": "geek",
+"title": "免费字符替换密码在线工具",
+"keywords": "字符替换密码,在线字符替换密码,免费字符替换密码,Substitute",
+"url": "/cc-substitute/"
+},
+{
+"slug": "cc-a1z26-cipher-encode",
+"name": "字母转数字 A1Z26",
+"short": "把字母转换成 1–26 的数字",
+"cat": "geek",
+"title": "免费字母转数字A1Z26在线工具",
+"keywords": "字母转数字 A1Z26,在线字母转数字 A1Z26,免费字母转数字 A1Z26,A1Z26 Cipher Encode",
+"url": "/cc-a1z26-cipher-encode/"
+},
+{
+"slug": "cc-a1z26-cipher-decode",
+"name": "数字转字母 A1Z26",
+"short": "把 1–26 的数字还原成字母",
+"cat": "geek",
+"title": "免费数字转字母A1Z26在线工具",
+"keywords": "数字转字母 A1Z26,在线数字转字母 A1Z26,免费数字转字母 A1Z26,A1Z26 Cipher Decode",
+"url": "/cc-a1z26-cipher-decode/"
+},
+{
+"slug": "cc-bcrypt",
+"name": "Bcrypt 哈希生成",
+"short": "生成 bcrypt 密码哈希",
+"cat": "geek",
+"title": "免费Bcrypt哈希生成在线工具",
+"keywords": "Bcrypt 哈希生成,在线Bcrypt 哈希生成,免费Bcrypt 哈希生成,Bcrypt",
+"url": "/cc-bcrypt/"
+},
+{
+"slug": "cc-bcrypt-compare",
+"name": "Bcrypt 校验",
+"short": "校验密码和 bcrypt 哈希是否匹配",
+"cat": "geek",
+"title": "免费Bcrypt校验在线工具",
+"keywords": "Bcrypt 校验,在线Bcrypt 校验,免费Bcrypt 校验,Bcrypt compare",
+"url": "/cc-bcrypt-compare/"
+},
+{
+"slug": "cc-scrypt",
+"name": "Scrypt 密钥派生",
+"short": "用 scrypt 算法派生密钥",
+"cat": "geek",
+"title": "免费Scrypt密钥派生在线工具",
+"keywords": "Scrypt 密钥派生,在线Scrypt 密钥派生,免费Scrypt 密钥派生,Scrypt",
+"url": "/cc-scrypt/"
+},
+{
+"slug": "cc-derive-pbkdf2-key",
+"name": "PBKDF2 密钥派生",
+"short": "用 PBKDF2 从密码派生密钥",
+"cat": "geek",
+"title": "免费PBKDF2密钥派生在线工具",
+"keywords": "PBKDF2 密钥派生,在线PBKDF2 密钥派生,免费PBKDF2 密钥派生,Derive PBKDF2 key",
+"url": "/cc-derive-pbkdf2-key/"
+},
+{
+"slug": "cc-jwt-sign",
+"name": "JWT 签名生成",
+"short": "生成 JSON Web Token",
+"cat": "geek",
+"title": "免费JWT签名生成在线工具",
+"keywords": "JWT 签名生成,在线JWT 签名生成,免费JWT 签名生成,JWT Sign",
+"url": "/cc-jwt-sign/"
+},
+{
+"slug": "cc-jwt-verify",
+"name": "JWT 校验",
+"short": "校验 JWT 的签名",
+"cat": "geek",
+"title": "免费JWT校验在线工具",
+"keywords": "JWT 校验,在线JWT 校验,免费JWT 校验,JWT Verify",
+"url": "/cc-jwt-verify/"
+},
+{
+"slug": "cc-jwt-decode",
+"name": "JWT 解析",
+"short": "解析 JWT 的 Header 和 Pay",
+"cat": "geek",
+"title": "免费JWT解析在线工具",
+"keywords": "JWT 解析,在线JWT 解析,免费JWT 解析,JWT Decode",
+"url": "/cc-jwt-decode/"
+},
+{
+"slug": "cc-enigma",
+"name": "恩尼格玛密码机模拟",
+"short": "模拟二战德军 Enigma 密码机",
+"cat": "geek",
+"title": "免费恩尼格玛密码机模拟在线工具",
+"keywords": "恩尼格玛密码机模拟,在线恩尼格玛密码机模拟,免费恩尼格玛密码机模拟,Enigma",
+"url": "/cc-enigma/"
+},
+{
+"slug": "cc-parse-x-509-certificate",
+"name": "SSL 证书解析",
+"short": "解析 X.509 证书的颁发者、有效期、域",
+"cat": "geek",
+"title": "免费SSL证书解析在线工具",
+"keywords": "SSL 证书解析,在线SSL 证书解析,免费SSL 证书解析,Parse X.509 certificate",
+"url": "/cc-parse-x-509-certificate/"
+},
+{
+"slug": "cc-parse-csr",
+"name": "CSR 解析",
+"short": "解析证书签名请求 CSR",
+"cat": "geek",
+"title": "免费CSR解析在线工具",
+"keywords": "CSR 解析,在线CSR 解析,免费CSR 解析,Parse CSR",
+"url": "/cc-parse-csr/"
+},
+{
+"slug": "cc-generate-rsa-key-pair",
+"name": "RSA 密钥对生成",
+"short": "生成 RSA 公钥和私钥",
+"cat": "geek",
+"title": "免费RSA密钥对生成在线工具",
+"keywords": "RSA 密钥对生成,在线RSA 密钥对生成,免费RSA 密钥对生成,Generate RSA Key Pair",
+"url": "/cc-generate-rsa-key-pair/"
+},
+{
+"slug": "cc-rsa-encrypt",
+"name": "RSA 加密",
+"short": "用 RSA 公钥加密",
+"cat": "geek",
+"title": "免费RSA加密在线工具",
+"keywords": "RSA 加密,在线RSA 加密,免费RSA 加密,RSA Encrypt",
+"url": "/cc-rsa-encrypt/"
+},
+{
+"slug": "cc-rsa-decrypt",
+"name": "RSA 解密",
+"short": "用 RSA 私钥解密",
+"cat": "geek",
+"title": "免费RSA解密在线工具",
+"keywords": "RSA 解密,在线RSA 解密,免费RSA 解密,RSA Decrypt",
+"url": "/cc-rsa-decrypt/"
+},
+{
+"slug": "cc-rsa-sign",
+"name": "RSA 签名",
+"short": "用 RSA 私钥签名",
+"cat": "geek",
+"title": "免费RSA签名在线工具",
+"keywords": "RSA 签名,在线RSA 签名,免费RSA 签名,RSA Sign",
+"url": "/cc-rsa-sign/"
+},
+{
+"slug": "cc-rsa-verify",
+"name": "RSA 验签",
+"short": "用 RSA 公钥验证签名",
+"cat": "geek",
+"title": "免费RSA验签在线工具",
+"keywords": "RSA 验签,在线RSA 验签,免费RSA 验签,RSA Verify",
+"url": "/cc-rsa-verify/"
+},
+{
+"slug": "cc-generate-pgp-key-pair",
+"name": "PGP 密钥生成",
+"short": "生成 PGP 公私钥对",
+"cat": "geek",
+"title": "免费PGP密钥生成在线工具",
+"keywords": "PGP 密钥生成,在线PGP 密钥生成,免费PGP 密钥生成,Generate PGP Key Pair",
+"url": "/cc-generate-pgp-key-pair/"
+},
+{
+"slug": "cc-pgp-encrypt",
+"name": "PGP 加密",
+"short": "用 PGP 公钥加密消息",
+"cat": "geek",
+"title": "免费PGP加密在线工具",
+"keywords": "PGP 加密,在线PGP 加密,免费PGP 加密,PGP Encrypt",
+"url": "/cc-pgp-encrypt/"
+},
+{
+"slug": "cc-pgp-decrypt",
+"name": "PGP 解密",
+"short": "用 PGP 私钥解密消息",
+"cat": "geek",
+"title": "免费PGP解密在线工具",
+"keywords": "PGP 解密,在线PGP 解密,免费PGP 解密,PGP Decrypt",
+"url": "/cc-pgp-decrypt/"
+},
+{
+"slug": "cc-sm2-encrypt",
+"name": "国密 SM2 加密",
+"short": "国家商用密码 SM2 公钥加密",
+"cat": "geek",
+"title": "免费国密SM2加密在线工具",
+"keywords": "国密 SM2 加密,在线国密 SM2 加密,免费国密 SM2 加密,SM2 Encrypt",
+"url": "/cc-sm2-encrypt/"
+},
+{
+"slug": "cc-sm2-decrypt",
+"name": "国密 SM2 解密",
+"short": "国家商用密码 SM2 解密",
+"cat": "geek",
+"title": "免费国密SM2解密在线工具",
+"keywords": "国密 SM2 解密,在线国密 SM2 解密,免费国密 SM2 解密,SM2 Decrypt",
+"url": "/cc-sm2-decrypt/"
+},
+{
+"slug": "cc-generate-ecdsa-key-pair",
+"name": "ECDSA 密钥生成",
+"short": "生成椭圆曲线 ECDSA 密钥对",
+"cat": "geek",
+"title": "免费ECDSA密钥生成在线工具",
+"keywords": "ECDSA 密钥生成,在线ECDSA 密钥生成,免费ECDSA 密钥生成,Generate ECDSA Key Pair",
+"url": "/cc-generate-ecdsa-key-pair/"
+},
+{
+"slug": "cc-pem-to-jwk",
+"name": "PEM 转 JWK",
+"short": "把 PEM 密钥转换成 JWK",
+"cat": "geek",
+"title": "免费PEM转JWK在线工具",
+"keywords": "PEM 转 JWK,在线PEM 转 JWK,免费PEM 转 JWK,PEM to JWK",
+"url": "/cc-pem-to-jwk/"
+},
+{
+"slug": "cc-jwk-to-pem",
+"name": "JWK 转 PEM",
+"short": "把 JWK 转换成 PEM 密钥",
+"cat": "geek",
+"title": "免费JWK转PEM在线工具",
+"keywords": "JWK 转 PEM,在线JWK 转 PEM,免费JWK 转 PEM,JWK to PEM",
+"url": "/cc-jwk-to-pem/"
+},
+{
+"slug": "cc-set-union",
+"name": "集合并集",
+"short": "求两组数据的并集",
+"cat": "geek",
+"title": "免费集合并集在线工具",
+"keywords": "集合并集,在线集合并集,免费集合并集,Set Union",
+"url": "/cc-set-union/"
+},
+{
+"slug": "cc-set-intersection",
+"name": "集合交集",
+"short": "求两组数据的交集",
+"cat": "geek",
+"title": "免费集合交集在线工具",
+"keywords": "集合交集,在线集合交集,免费集合交集,Set Intersection",
+"url": "/cc-set-intersection/"
+},
+{
+"slug": "cc-set-difference",
+"name": "集合差集",
+"short": "求两组数据的差集",
+"cat": "geek",
+"title": "免费集合差集在线工具",
+"keywords": "集合差集,在线集合差集,免费集合差集,Set Difference",
+"url": "/cc-set-difference/"
+},
+{
+"slug": "cc-cartesian-product",
+"name": "笛卡尔积",
+"short": "求多组数据的笛卡尔积",
+"cat": "geek",
+"title": "免费笛卡尔积在线工具",
+"keywords": "笛卡尔积,在线笛卡尔积,免费笛卡尔积,Cartesian Product",
+"url": "/cc-cartesian-product/"
+},
+{
+"slug": "cc-power-set",
+"name": "幂集生成",
+"short": "生成集合的所有子集",
+"cat": "geek",
+"title": "免费幂集生成在线工具",
+"keywords": "幂集生成,在线幂集生成,免费幂集生成,Power Set",
+"url": "/cc-power-set/"
+},
+{
+"slug": "cc-mean",
+"name": "平均数计算",
+"short": "求一组数字的平均值",
+"cat": "geek",
+"title": "免费平均数计算在线工具",
+"keywords": "平均数计算,在线平均数计算,免费平均数计算,Mean",
+"url": "/cc-mean/"
+},
+{
+"slug": "cc-median",
+"name": "中位数计算",
+"short": "求一组数字的中位数",
+"cat": "geek",
+"title": "免费中位数计算在线工具",
+"keywords": "中位数计算,在线中位数计算,免费中位数计算,Median",
+"url": "/cc-median/"
+},
+{
+"slug": "cc-standard-deviation",
+"name": "标准差计算",
+"short": "求一组数字的标准差",
+"cat": "geek",
+"title": "免费标准差计算在线工具",
+"keywords": "标准差计算,在线标准差计算,免费标准差计算,Standard Deviation",
+"url": "/cc-standard-deviation/"
+},
+{
+"slug": "cc-bit-shift-left",
+"name": "位左移",
+"short": "按位左移运算",
+"cat": "geek",
+"title": "免费位左移在线工具",
+"keywords": "位左移,在线位左移,免费位左移,Bit shift left",
+"url": "/cc-bit-shift-left/"
+},
+{
+"slug": "cc-bit-shift-right",
+"name": "位右移",
+"short": "按位右移运算",
+"cat": "geek",
+"title": "免费位右移在线工具",
+"keywords": "位右移,在线位右移,免费位右移,Bit shift right",
+"url": "/cc-bit-shift-right/"
+},
+{
+"slug": "cc-parse-user-agent",
+"name": "User-Agent 解析",
+"short": "解析浏览器 UA，识别系统、浏览器和设备",
+"cat": "geek",
+"title": "免费User-Agent解析在线工具",
+"keywords": "User-Agent 解析,在线User-Agent 解析,免费User-Agent 解析,Parse User Agent",
+"url": "/cc-parse-user-agent/"
+},
+{
+"slug": "cc-parse-ip-range",
+"name": "IP 段展开",
+"short": "把 CIDR 或 IP 范围展开成 IP",
+"cat": "geek",
+"title": "免费IP段展开在线工具",
+"keywords": "IP 段展开,在线IP 段展开,免费IP 段展开,Parse IP range",
+"url": "/cc-parse-ip-range/"
+},
+{
+"slug": "cc-parse-ipv6-address",
+"name": "IPv6 地址解析",
+"short": "解析 IPv6 地址的结构和类型",
+"cat": "geek",
+"title": "免费IPv6地址解析在线工具",
+"keywords": "IPv6 地址解析,在线IPv6 地址解析,免费IPv6 地址解析,Parse IPv6 address",
+"url": "/cc-parse-ipv6-address/"
+},
+{
+"slug": "cc-parse-uri",
+"name": "网址结构解析",
+"short": "拆解网址的协议、域名、路径和参数",
+"cat": "geek",
+"title": "免费网址结构解析在线工具",
+"keywords": "网址结构解析,在线网址结构解析,免费网址结构解析,Parse URI",
+"url": "/cc-parse-uri/"
+},
+{
+"slug": "cc-format-mac-addresses",
+"name": "MAC 地址格式化",
+"short": "把 MAC 地址转换成各种格式",
+"cat": "geek",
+"title": "免费MAC地址格式化在线工具",
+"keywords": "MAC 地址格式化,在线MAC 地址格式化,免费MAC 地址格式化,Format MAC addresses",
+"url": "/cc-format-mac-addresses/"
+},
+{
+"slug": "cc-change-ip-format",
+"name": "IP 格式转换",
+"short": "IP 地址在点分十进制、十六进制、整数之间",
+"cat": "geek",
+"title": "免费IP格式转换在线工具",
+"keywords": "IP 格式转换,在线IP 格式转换,免费IP 格式转换,Change IP format",
+"url": "/cc-change-ip-format/"
+},
+{
+"slug": "cc-group-ip-addresses",
+"name": "IP 地址分组",
+"short": "把 IP 列表按网段分组",
+"cat": "geek",
+"title": "免费IP地址分组在线工具",
+"keywords": "IP 地址分组,在线IP 地址分组,免费IP 地址分组,Group IP addresses",
+"url": "/cc-group-ip-addresses/"
+},
+{
+"slug": "cc-defang-url",
+"name": "网址去活化",
+"short": "把恶意网址改写成不可点击形式（hxxp）",
+"cat": "geek",
+"title": "免费网址去活化在线工具",
+"keywords": "网址去活化,在线网址去活化,免费网址去活化,Defang URL",
+"url": "/cc-defang-url/"
+},
+{
+"slug": "cc-fang-url",
+"name": "网址还原",
+"short": "把 hxxp 去活化网址还原",
+"cat": "geek",
+"title": "免费网址还原在线工具",
+"keywords": "网址还原,在线网址还原,免费网址还原,Fang URL",
+"url": "/cc-fang-url/"
+},
+{
+"slug": "cc-dns-over-https",
+"name": "DNS 查询 DoH",
+"short": "通过 DNS over HTTPS 查询域",
+"cat": "geek",
+"title": "免费DNS查询DoH在线工具",
+"keywords": "DNS 查询 DoH,在线DNS 查询 DoH,免费DNS 查询 DoH,DNS over HTTPS",
+"url": "/cc-dns-over-https/"
+},
+{
+"slug": "cc-protobuf-decode",
+"name": "Protobuf 解码",
+"short": "解码 Protocol Buffers 二",
+"cat": "geek",
+"title": "免费Protobuf解码在线工具",
+"keywords": "Protobuf 解码,在线Protobuf 解码,免费Protobuf 解码,Protobuf Decode",
+"url": "/cc-protobuf-decode/"
+},
+{
+"slug": "cc-convert-to-nato-alphabet",
+"name": "北约音标字母转换",
+"short": "把字母转换成 Alpha、Bravo 等北",
+"cat": "geek",
+"title": "免费北约音标字母转换在线工具",
+"keywords": "北约音标字母转换,在线北约音标字母转换,免费北约音标字母转换,Convert to NATO alphabet",
+"url": "/cc-convert-to-nato-alphabet/"
+},
+{
+"slug": "cc-convert-leet-speak",
+"name": "火星文 Leet 转换",
+"short": "英文和 Leet（1337）写法互转",
+"cat": "geek",
+"title": "免费火星文Leet转换在线工具",
+"keywords": "火星文 Leet 转换,在线火星文 Leet 转换,免费火星文 Leet 转换,Convert Leet Speak",
+"url": "/cc-convert-leet-speak/"
+},
+{
+"slug": "cc-remove-diacritics",
+"name": "去除变音符号",
+"short": "去掉 é、ü 等字母上的变音符号",
+"cat": "geek",
+"title": "免费去除变音符号在线工具",
+"keywords": "去除变音符号,在线去除变音符号,免费去除变音符号,Remove Diacritics",
+"url": "/cc-remove-diacritics/"
+},
+{
+"slug": "cc-diff",
+"name": "文本差异对比（高级）",
+"short": "逐行或逐字对比两段文本",
+"cat": "geek",
+"title": "免费文本差异对比（高级）在线工具",
+"keywords": "文本差异对比（高级）,在线文本差异对比（高级）,免费文本差异对比（高级）,Diff",
+"url": "/cc-diff/"
+},
+{
+"slug": "cc-remove-whitespace",
+"name": "去除空白字符",
+"short": "删除空格、换行、制表符",
+"cat": "geek",
+"title": "免费去除空白字符在线工具",
+"keywords": "去除空白字符,在线去除空白字符,免费去除空白字符,Remove whitespace",
+"url": "/cc-remove-whitespace/"
+},
+{
+"slug": "cc-to-upper-case",
+"name": "转大写（高级）",
+"short": "把文本转成大写",
+"cat": "geek",
+"title": "免费转大写（高级）在线工具",
+"keywords": "转大写（高级）,在线转大写（高级）,免费转大写（高级）,To Upper case",
+"url": "/cc-to-upper-case/"
+},
+{
+"slug": "cc-to-lower-case",
+"name": "转小写",
+"short": "把文本转成小写",
+"cat": "geek",
+"title": "免费转小写在线工具",
+"keywords": "转小写,在线转小写,免费转小写,To Lower case",
+"url": "/cc-to-lower-case/"
+},
+{
+"slug": "cc-swap-case",
+"name": "大小写互换",
+"short": "把大写变小写、小写变大写",
+"cat": "geek",
+"title": "免费大小写互换在线工具",
+"keywords": "大小写互换,在线大小写互换,免费大小写互换,Swap case",
+"url": "/cc-swap-case/"
+},
+{
+"slug": "cc-add-line-numbers",
+"name": "添加行号",
+"short": "给每一行加上行号",
+"cat": "geek",
+"title": "免费添加行号在线工具",
+"keywords": "添加行号,在线添加行号,免费添加行号,Add line numbers",
+"url": "/cc-add-line-numbers/"
+},
+{
+"slug": "cc-remove-line-numbers",
+"name": "删除行号",
+"short": "去掉每行开头的行号",
+"cat": "geek",
+"title": "免费删除行号在线工具",
+"keywords": "删除行号,在线删除行号,免费删除行号,Remove line numbers",
+"url": "/cc-remove-line-numbers/"
+},
+{
+"slug": "cc-to-table",
+"name": "文本转表格",
+"short": "把 CSV 或分隔文本渲染成表格",
+"cat": "geek",
+"title": "免费文本转表格在线工具",
+"keywords": "文本转表格,在线文本转表格,免费文本转表格,To Table",
+"url": "/cc-to-table/"
+},
+{
+"slug": "cc-sort",
+"name": "文本行排序",
+"short": "按字母、数字、长度给行排序",
+"cat": "geek",
+"title": "免费文本行排序在线工具",
+"keywords": "文本行排序,在线文本行排序,免费文本行排序,Sort",
+"url": "/cc-sort/"
+},
+{
+"slug": "cc-unique",
+"name": "文本行去重（高级）",
+"short": "删除重复的行，可统计次数",
+"cat": "geek",
+"title": "免费文本行去重（高级）在线工具",
+"keywords": "文本行去重（高级）,在线文本行去重（高级）,免费文本行去重（高级）,Unique",
+"url": "/cc-unique/"
+},
+{
+"slug": "cc-count-occurrences",
+"name": "统计出现次数",
+"short": "统计某个字符串出现了多少次",
+"cat": "geek",
+"title": "免费统计出现次数在线工具",
+"keywords": "统计出现次数,在线统计出现次数,免费统计出现次数,Count occurrences",
+"url": "/cc-count-occurrences/"
+},
+{
+"slug": "cc-find-replace",
+"name": "批量查找替换",
+"short": "支持正则的查找替换",
+"cat": "geek",
+"title": "免费批量查找替换在线工具",
+"keywords": "批量查找替换,在线批量查找替换,免费批量查找替换,Find / Replace",
+"url": "/cc-find-replace/"
+},
+{
+"slug": "cc-regular-expression",
+"name": "正则提取",
+"short": "用正则表达式匹配和提取内容",
+"cat": "geek",
+"title": "免费正则提取在线工具",
+"keywords": "正则提取,在线正则提取,免费正则提取,Regular expression",
+"url": "/cc-regular-expression/"
+},
+{
+"slug": "cc-levenshtein-distance",
+"name": "编辑距离计算",
+"short": "计算两段文字的 Levenshtein 编",
+"cat": "geek",
+"title": "免费编辑距离计算在线工具",
+"keywords": "编辑距离计算,在线编辑距离计算,免费编辑距离计算,Levenshtein Distance",
+"url": "/cc-levenshtein-distance/"
+},
+{
+"slug": "cc-hamming-distance",
+"name": "汉明距离计算",
+"short": "计算两个字符串的汉明距离",
+"cat": "geek",
+"title": "免费汉明距离计算在线工具",
+"keywords": "汉明距离计算,在线汉明距离计算,免费汉明距离计算,Hamming Distance",
+"url": "/cc-hamming-distance/"
+},
+{
+"slug": "cc-convert-distance",
+"name": "距离单位换算",
+"short": "米、英尺、英里、海里等距离单位换算",
+"cat": "geek",
+"title": "免费距离单位换算在线工具",
+"keywords": "距离单位换算,在线距离单位换算,免费距离单位换算,Convert distance",
+"url": "/cc-convert-distance/"
+},
+{
+"slug": "cc-convert-area",
+"name": "面积单位换算",
+"short": "平方米、亩、公顷、英亩等面积换算",
+"cat": "geek",
+"title": "免费面积单位换算在线工具",
+"keywords": "面积单位换算,在线面积单位换算,免费面积单位换算,Convert area",
+"url": "/cc-convert-area/"
+},
+{
+"slug": "cc-convert-mass",
+"name": "重量单位换算",
+"short": "千克、斤、磅、盎司等重量换算",
+"cat": "geek",
+"title": "免费重量单位换算在线工具",
+"keywords": "重量单位换算,在线重量单位换算,免费重量单位换算,Convert mass",
+"url": "/cc-convert-mass/"
+},
+{
+"slug": "cc-convert-speed",
+"name": "速度单位换算",
+"short": "公里/小时、米/秒、节、马赫换算",
+"cat": "geek",
+"title": "免费速度单位换算在线工具",
+"keywords": "速度单位换算,在线速度单位换算,免费速度单位换算,Convert speed",
+"url": "/cc-convert-speed/"
+},
+{
+"slug": "cc-convert-data-units",
+"name": "数据单位换算",
+"short": "bit、Byte、KB、MB、GB、TB",
+"cat": "geek",
+"title": "免费数据单位换算在线工具",
+"keywords": "数据单位换算,在线数据单位换算,免费数据单位换算,Convert data units",
+"url": "/cc-convert-data-units/"
+},
+{
+"slug": "cc-convert-co-ordinate-format",
+"name": "经纬度格式转换",
+"short": "度分秒、十进制度等坐标格式互转",
+"cat": "geek",
+"title": "免费经纬度格式转换在线工具",
+"keywords": "经纬度格式转换,在线经纬度格式转换,免费经纬度格式转换,Convert co-ordinate format",
+"url": "/cc-convert-co-ordinate-format/"
+},
+{
+"slug": "cc-parse-unix-file-permissions",
+"name": "Linux 文件权限解析",
+"short": "chmod 数字权限和 rwx 互转",
+"cat": "geek",
+"title": "免费Linux文件权限解析在线工具",
+"keywords": "Linux 文件权限解析,在线Linux 文件权限解析,免费Linux 文件权限解析,Parse UNIX file permissions",
+"url": "/cc-parse-unix-file-permissions/"
+},
+{
+"slug": "cc-parse-colour-code",
+"name": "颜色代码转换",
+"short": "HEX、RGB、HSL、CMYK 颜色值互转",
+"cat": "geek",
+"title": "免费颜色代码转换在线工具",
+"keywords": "颜色代码转换,在线颜色代码转换,免费颜色代码转换,Parse colour code",
+"url": "/cc-parse-colour-code/"
+},
+{
+"slug": "cc-escape-string",
+"name": "字符串转义",
+"short": "转义引号、换行等特殊字符",
+"cat": "geek",
+"title": "免费字符串转义在线工具",
+"keywords": "字符串转义,在线字符串转义,免费字符串转义,Escape string",
+"url": "/cc-escape-string/"
+},
+{
+"slug": "cc-unescape-string",
+"name": "字符串反转义",
+"short": "把 \\n、\\t 等转义字符还原",
+"cat": "geek",
+"title": "免费字符串反转义在线工具",
+"keywords": "字符串反转义,在线字符串反转义,免费字符串反转义,Unescape string",
+"url": "/cc-unescape-string/"
+},
+{
+"slug": "cc-parse-datetime",
+"name": "日期时间解析",
+"short": "解析各种格式的日期时间",
+"cat": "geek",
+"title": "免费日期时间解析在线工具",
+"keywords": "日期时间解析,在线日期时间解析,免费日期时间解析,Parse DateTime",
+"url": "/cc-parse-datetime/"
+},
+{
+"slug": "cc-translate-datetime-format",
+"name": "日期格式转换",
+"short": "把日期从一种格式转换成另一种",
+"cat": "geek",
+"title": "免费日期格式转换在线工具",
+"keywords": "日期格式转换,在线日期格式转换,免费日期格式转换,Translate DateTime Format",
+"url": "/cc-translate-datetime-format/"
+},
+{
+"slug": "cc-from-unix-timestamp",
+"name": "时间戳转日期（高级）",
+"short": "把 Unix 时间戳转成日期时间",
+"cat": "geek",
+"title": "免费时间戳转日期（高级）在线工具",
+"keywords": "时间戳转日期（高级）,在线时间戳转日期（高级）,免费时间戳转日期（高级）,From UNIX Timestamp",
+"url": "/cc-from-unix-timestamp/"
+},
+{
+"slug": "cc-to-unix-timestamp",
+"name": "日期转时间戳",
+"short": "把日期时间转成 Unix 时间戳",
+"cat": "geek",
+"title": "免费日期转时间戳在线工具",
+"keywords": "日期转时间戳,在线日期转时间戳,免费日期转时间戳,To UNIX Timestamp",
+"url": "/cc-to-unix-timestamp/"
+},
+{
+"slug": "cc-windows-filetime-to-unix-timestamp",
+"name": "Windows 文件时间转换",
+"short": "Windows FILETIME 转 Un",
+"cat": "geek",
+"title": "免费Windows文件时间转换",
+"keywords": "Windows 文件时间转换,在线Windows 文件时间转换,免费Windows 文件时间转换,Windows Filetime to UNIX Timestamp",
+"url": "/cc-windows-filetime-to-unix-timestamp/"
+},
+{
+"slug": "cc-datetime-delta",
+"name": "日期加减计算",
+"short": "给日期加减若干天、小时、分钟",
+"cat": "geek",
+"title": "免费日期加减计算在线工具",
+"keywords": "日期加减计算,在线日期加减计算,免费日期加减计算,DateTime Delta",
+"url": "/cc-datetime-delta/"
+},
+{
+"slug": "cc-strings",
+"name": "提取可读字符串",
+"short": "从二进制文件中提取可读文字",
+"cat": "geek",
+"title": "免费提取可读字符串在线工具",
+"keywords": "提取可读字符串,在线提取可读字符串,免费提取可读字符串,Strings",
+"url": "/cc-strings/"
+},
+{
+"slug": "cc-extract-ip-addresses",
+"name": "提取 IP 地址",
+"short": "从文本中提取所有 IP 地址",
+"cat": "geek",
+"title": "免费提取IP地址在线工具",
+"keywords": "提取 IP 地址,在线提取 IP 地址,免费提取 IP 地址,Extract IP addresses",
+"url": "/cc-extract-ip-addresses/"
+},
+{
+"slug": "cc-extract-email-addresses",
+"name": "提取邮箱（高级）",
+"short": "从文本中提取所有邮箱地址",
+"cat": "geek",
+"title": "免费提取邮箱（高级）在线工具",
+"keywords": "提取邮箱（高级）,在线提取邮箱（高级）,免费提取邮箱（高级）,Extract email addresses",
+"url": "/cc-extract-email-addresses/"
+},
+{
+"slug": "cc-extract-urls",
+"name": "提取网址链接",
+"short": "从文本中提取所有网址",
+"cat": "geek",
+"title": "免费提取网址链接在线工具",
+"keywords": "提取网址链接,在线提取网址链接,免费提取网址链接,Extract URLs",
+"url": "/cc-extract-urls/"
+},
+{
+"slug": "cc-extract-domains",
+"name": "提取域名",
+"short": "从文本中提取所有域名",
+"cat": "geek",
+"title": "免费提取域名在线工具",
+"keywords": "提取域名,在线提取域名,免费提取域名,Extract domains",
+"url": "/cc-extract-domains/"
+},
+{
+"slug": "cc-extract-mac-addresses",
+"name": "提取 MAC 地址",
+"short": "从文本中提取 MAC 地址",
+"cat": "geek",
+"title": "免费提取MAC地址在线工具",
+"keywords": "提取 MAC 地址,在线提取 MAC 地址,免费提取 MAC 地址,Extract MAC addresses",
+"url": "/cc-extract-mac-addresses/"
+},
+{
+"slug": "cc-extract-dates",
+"name": "提取日期",
+"short": "从文本中提取日期",
+"cat": "geek",
+"title": "免费提取日期在线工具",
+"keywords": "提取日期,在线提取日期,免费提取日期,Extract dates",
+"url": "/cc-extract-dates/"
+},
+{
+"slug": "cc-extract-hashes",
+"name": "提取哈希值",
+"short": "从文本中找出 MD5、SHA 等哈希值",
+"cat": "geek",
+"title": "免费提取哈希值在线工具",
+"keywords": "提取哈希值,在线提取哈希值,免费提取哈希值,Extract hashes",
+"url": "/cc-extract-hashes/"
+},
+{
+"slug": "cc-xpath-expression",
+"name": "XPath 查询",
+"short": "用 XPath 从 XML/HTML 中提",
+"cat": "geek",
+"title": "免费XPath查询在线工具",
+"keywords": "XPath 查询,在线XPath 查询,免费XPath 查询,XPath expression",
+"url": "/cc-xpath-expression/"
+},
+{
+"slug": "cc-jpath-expression",
+"name": "JSONPath 查询",
+"short": "用 JSONPath 从 JSON 中提取",
+"cat": "geek",
+"title": "免费JSONPath查询在线工具",
+"keywords": "JSONPath 查询,在线JSONPath 查询,免费JSONPath 查询,JPath expression",
+"url": "/cc-jpath-expression/"
+},
+{
+"slug": "cc-css-selector",
+"name": "CSS 选择器提取",
+"short": "用 CSS 选择器从 HTML 提取内容",
+"cat": "geek",
+"title": "免费CSS选择器提取在线工具",
+"keywords": "CSS 选择器提取,在线CSS 选择器提取,免费CSS 选择器提取,CSS selector",
+"url": "/cc-css-selector/"
+},
+{
+"slug": "cc-extract-exif",
+"name": "照片 EXIF 信息查看",
+"short": "读取照片的拍摄时间、相机、GPS 等 EX",
+"cat": "geek",
+"title": "免费照片EXIF信息查看在线工具",
+"keywords": "照片 EXIF 信息查看,在线照片 EXIF 信息查看,免费照片 EXIF 信息查看,Extract EXIF",
+"url": "/cc-extract-exif/"
+},
+{
+"slug": "cc-remove-exif",
+"name": "删除照片 EXIF",
+"short": "清除照片里的位置和设备信息，保护隐私",
+"cat": "geek",
+"title": "免费删除照片EXIF在线工具",
+"keywords": "删除照片 EXIF,在线删除照片 EXIF,免费删除照片 EXIF,Remove EXIF",
+"url": "/cc-remove-exif/"
+},
+{
+"slug": "cc-extract-files",
+"name": "提取嵌入文件",
+"short": "从文件中找出并提取嵌入的其他文件",
+"cat": "geek",
+"title": "免费提取嵌入文件在线工具",
+"keywords": "提取嵌入文件,在线提取嵌入文件,免费提取嵌入文件,Extract Files",
+"url": "/cc-extract-files/"
+},
+{
+"slug": "cc-gzip",
+"name": "Gzip 压缩",
+"short": "用 Gzip 压缩数据",
+"cat": "geek",
+"title": "免费Gzip压缩在线工具",
+"keywords": "Gzip 压缩,在线Gzip 压缩,免费Gzip 压缩,Gzip",
+"url": "/cc-gzip/"
+},
+{
+"slug": "cc-gunzip",
+"name": "Gzip 解压",
+"short": "解压 Gzip 数据",
+"cat": "geek",
+"title": "免费Gzip解压在线工具",
+"keywords": "Gzip 解压,在线Gzip 解压,免费Gzip 解压,Gunzip",
+"url": "/cc-gunzip/"
+},
+{
+"slug": "cc-zip",
+"name": "在线 ZIP 压缩",
+"short": "把文件压缩成 ZIP",
+"cat": "geek",
+"title": "免费在线ZIP压缩在线工具",
+"keywords": "在线 ZIP 压缩,在线在线 ZIP 压缩,免费在线 ZIP 压缩,Zip",
+"url": "/cc-zip/"
+},
+{
+"slug": "cc-unzip",
+"name": "在线 ZIP 解压",
+"short": "在浏览器里解压 ZIP 文件",
+"cat": "geek",
+"title": "免费在线ZIP解压在线工具",
+"keywords": "在线 ZIP 解压,在线在线 ZIP 解压,免费在线 ZIP 解压,Unzip",
+"url": "/cc-unzip/"
+},
+{
+"slug": "cc-bzip2-decompress",
+"name": "Bzip2 解压",
+"short": "解压 bz2 数据",
+"cat": "geek",
+"title": "免费Bzip2解压在线工具",
+"keywords": "Bzip2 解压,在线Bzip2 解压,免费Bzip2 解压,Bzip2 Decompress",
+"url": "/cc-bzip2-decompress/"
+},
+{
+"slug": "cc-tar",
+"name": "TAR 打包",
+"short": "把文件打包成 tar",
+"cat": "geek",
+"title": "免费TAR打包在线工具",
+"keywords": "TAR 打包,在线TAR 打包,免费TAR 打包,Tar",
+"url": "/cc-tar/"
+},
+{
+"slug": "cc-untar",
+"name": "TAR 解包",
+"short": "解开 tar 包",
+"cat": "geek",
+"title": "免费TAR解包在线工具",
+"keywords": "TAR 解包,在线TAR 解包,免费TAR 解包,Untar",
+"url": "/cc-untar/"
+},
+{
+"slug": "cc-zlib-deflate",
+"name": "Zlib 压缩",
+"short": "Zlib 压缩",
+"cat": "geek",
+"title": "免费Zlib压缩在线工具",
+"keywords": "Zlib 压缩,在线Zlib 压缩,免费Zlib 压缩,Zlib Deflate",
+"url": "/cc-zlib-deflate/"
+},
+{
+"slug": "cc-zlib-inflate",
+"name": "Zlib 解压",
+"short": "Zlib 解压",
+"cat": "geek",
+"title": "免费Zlib解压在线工具",
+"keywords": "Zlib 解压,在线Zlib 解压,免费Zlib 解压,Zlib Inflate",
+"url": "/cc-zlib-inflate/"
+},
+{
+"slug": "cc-lzstring-compress",
+"name": "LZString 压缩",
+"short": "LZString 压缩",
+"cat": "geek",
+"title": "免费LZString压缩在线工具",
+"keywords": "LZString 压缩,在线LZString 压缩,免费LZString 压缩,LZString Compress",
+"url": "/cc-lzstring-compress/"
+},
+{
+"slug": "cc-lzstring-decompress",
+"name": "LZString 解压",
+"short": "LZString 解压",
+"cat": "geek",
+"title": "免费LZString解压在线工具",
+"keywords": "LZString 解压,在线LZString 解压,免费LZString 解压,LZString Decompress",
+"url": "/cc-lzstring-decompress/"
+},
+{
+"slug": "cc-analyse-hash",
+"name": "哈希类型识别",
+"short": "根据长度和格式猜测哈希算法",
+"cat": "geek",
+"title": "免费哈希类型识别在线工具",
+"keywords": "哈希类型识别,在线哈希类型识别,免费哈希类型识别,Analyse hash",
+"url": "/cc-analyse-hash/"
+},
+{
+"slug": "cc-generate-all-hashes",
+"name": "全部哈希一键生成",
+"short": "一次性生成 MD5、SHA1、SHA256",
+"cat": "geek",
+"title": "免费全部哈希一键生成在线工具",
+"keywords": "全部哈希一键生成,在线全部哈希一键生成,免费全部哈希一键生成,Generate all hashes",
+"url": "/cc-generate-all-hashes/"
+},
+{
+"slug": "cc-generate-all-checksums",
+"name": "全部校验和生成",
+"short": "一次性生成 CRC32、Adler 等校验和",
+"cat": "geek",
+"title": "免费全部校验和生成在线工具",
+"keywords": "全部校验和生成,在线全部校验和生成,免费全部校验和生成,Generate all checksums",
+"url": "/cc-generate-all-checksums/"
+},
+{
+"slug": "cc-md5",
+"name": "MD5 加密",
+"short": "计算文本或文件的 MD5 值",
+"cat": "geek",
+"title": "免费MD5加密在线工具",
+"keywords": "MD5 加密,在线MD5 加密,免费MD5 加密,MD5",
+"url": "/cc-md5/"
+},
+{
+"slug": "cc-sha1",
+"name": "SHA1 加密",
+"short": "计算 SHA1 哈希值",
+"cat": "geek",
+"title": "免费SHA1加密在线工具",
+"keywords": "SHA1 加密,在线SHA1 加密,免费SHA1 加密,SHA1",
+"url": "/cc-sha1/"
+},
+{
+"slug": "cc-sha2",
+"name": "SHA256 加密",
+"short": "计算 SHA-224/256/384/51",
+"cat": "geek",
+"title": "免费SHA256加密在线工具",
+"keywords": "SHA256 加密,在线SHA256 加密,免费SHA256 加密,SHA2",
+"url": "/cc-sha2/"
+},
+{
+"slug": "cc-sha3",
+"name": "SHA3 哈希",
+"short": "计算 SHA3 哈希值",
+"cat": "geek",
+"title": "免费SHA3哈希在线工具",
+"keywords": "SHA3 哈希,在线SHA3 哈希,免费SHA3 哈希,SHA3",
+"url": "/cc-sha3/"
+},
+{
+"slug": "cc-sm3",
+"name": "国密 SM3 哈希",
+"short": "计算国家商用密码 SM3 摘要",
+"cat": "geek",
+"title": "免费国密SM3哈希在线工具",
+"keywords": "国密 SM3 哈希,在线国密 SM3 哈希,免费国密 SM3 哈希,SM3",
+"url": "/cc-sm3/"
+},
+{
+"slug": "cc-hmac",
+"name": "HMAC 计算",
+"short": "计算 HMAC-MD5、HMAC-SHA2",
+"cat": "geek",
+"title": "免费HMAC计算在线工具",
+"keywords": "HMAC 计算,在线HMAC 计算,免费HMAC 计算,HMAC",
+"url": "/cc-hmac/"
+},
+{
+"slug": "cc-ripemd",
+"name": "RIPEMD 哈希",
+"short": "计算 RIPEMD-160 哈希",
+"cat": "geek",
+"title": "免费RIPEMD哈希在线工具",
+"keywords": "RIPEMD 哈希,在线RIPEMD 哈希,免费RIPEMD 哈希,RIPEMD",
+"url": "/cc-ripemd/"
+},
+{
+"slug": "cc-blake2b",
+"name": "BLAKE2b 哈希",
+"short": "计算 BLAKE2b 哈希",
+"cat": "geek",
+"title": "免费BLAKE2b哈希在线工具",
+"keywords": "BLAKE2b 哈希,在线BLAKE2b 哈希,免费BLAKE2b 哈希,BLAKE2b",
+"url": "/cc-blake2b/"
+},
+{
+"slug": "cc-blake3",
+"name": "BLAKE3 哈希",
+"short": "计算 BLAKE3 哈希",
+"cat": "geek",
+"title": "免费BLAKE3哈希在线工具",
+"keywords": "BLAKE3 哈希,在线BLAKE3 哈希,免费BLAKE3 哈希,BLAKE3",
+"url": "/cc-blake3/"
+},
+{
+"slug": "cc-argon2",
+"name": "Argon2 哈希",
+"short": "生成 Argon2 密码哈希",
+"cat": "geek",
+"title": "免费Argon2哈希在线工具",
+"keywords": "Argon2 哈希,在线Argon2 哈希,免费Argon2 哈希,Argon2",
+"url": "/cc-argon2/"
+},
+{
+"slug": "cc-nt-hash",
+"name": "NTLM 哈希",
+"short": "计算 Windows NT 哈希",
+"cat": "geek",
+"title": "免费NTLM哈希在线工具",
+"keywords": "NTLM 哈希,在线NTLM 哈希,免费NTLM 哈希,NT Hash",
+"url": "/cc-nt-hash/"
+},
+{
+"slug": "cc-murmurhash3",
+"name": "MurmurHash3 哈希",
+"short": "计算 MurmurHash3",
+"cat": "geek",
+"title": "免费MurmurHash3哈希",
+"keywords": "MurmurHash3 哈希,在线MurmurHash3 哈希,免费MurmurHash3 哈希,MurmurHash3",
+"url": "/cc-murmurhash3/"
+},
+{
+"slug": "cc-crc-checksum",
+"name": "CRC 校验计算",
+"short": "计算 CRC8/16/32 等校验值",
+"cat": "geek",
+"title": "免费CRC校验计算在线工具",
+"keywords": "CRC 校验计算,在线CRC 校验计算,免费CRC 校验计算,CRC Checksum",
+"url": "/cc-crc-checksum/"
+},
+{
+"slug": "cc-luhn-checksum",
+"name": "银行卡号 Luhn 校验",
+"short": "用 Luhn 算法校验卡号是否有效",
+"cat": "geek",
+"title": "免费银行卡号Luhn校验在线工具",
+"keywords": "银行卡号 Luhn 校验,在线银行卡号 Luhn 校验,免费银行卡号 Luhn 校验,Luhn Checksum",
+"url": "/cc-luhn-checksum/"
+},
+{
+"slug": "cc-syntax-highlighter",
+"name": "代码语法高亮",
+"short": "给代码加上语法高亮",
+"cat": "geek",
+"title": "免费代码语法高亮在线工具",
+"keywords": "代码语法高亮,在线代码语法高亮,免费代码语法高亮,Syntax highlighter",
+"url": "/cc-syntax-highlighter/"
+},
+{
+"slug": "cc-generic-code-beautify",
+"name": "代码格式化",
+"short": "通用代码美化缩进",
+"cat": "geek",
+"title": "免费代码格式化在线工具",
+"keywords": "代码格式化,在线代码格式化,免费代码格式化,Generic Code Beautify",
+"url": "/cc-generic-code-beautify/"
+},
+{
+"slug": "cc-javascript-beautify",
+"name": "JS 代码格式化",
+"short": "美化压缩过的 JavaScript",
+"cat": "geek",
+"title": "免费JS代码格式化在线工具",
+"keywords": "JS 代码格式化,在线JS 代码格式化,免费JS 代码格式化,JavaScript Beautify",
+"url": "/cc-javascript-beautify/"
+},
+{
+"slug": "cc-javascript-minify",
+"name": "JS 代码压缩",
+"short": "压缩 JavaScript 代码",
+"cat": "geek",
+"title": "免费JS代码压缩在线工具",
+"keywords": "JS 代码压缩,在线JS 代码压缩,免费JS 代码压缩,JavaScript Minify",
+"url": "/cc-javascript-minify/"
+},
+{
+"slug": "cc-xml-beautify",
+"name": "XML 格式化（高级）",
+"short": "美化 XML",
+"cat": "geek",
+"title": "免费XML格式化（高级）在线工具",
+"keywords": "XML 格式化（高级）,在线XML 格式化（高级）,免费XML 格式化（高级）,XML Beautify",
+"url": "/cc-xml-beautify/"
+},
+{
+"slug": "cc-xml-minify",
+"name": "XML 压缩",
+"short": "压缩 XML",
+"cat": "geek",
+"title": "免费XML压缩在线工具",
+"keywords": "XML 压缩,在线XML 压缩,免费XML 压缩,XML Minify",
+"url": "/cc-xml-minify/"
+},
+{
+"slug": "cc-sql-beautify",
+"name": "SQL 格式化",
+"short": "美化 SQL 语句",
+"cat": "geek",
+"title": "免费SQL格式化在线工具",
+"keywords": "SQL 格式化,在线SQL 格式化,免费SQL 格式化,SQL Beautify",
+"url": "/cc-sql-beautify/"
+},
+{
+"slug": "cc-sql-minify",
+"name": "SQL 压缩",
+"short": "压缩 SQL",
+"cat": "geek",
+"title": "免费SQL压缩在线工具",
+"keywords": "SQL 压缩,在线SQL 压缩,免费SQL 压缩,SQL Minify",
+"url": "/cc-sql-minify/"
+},
+{
+"slug": "cc-css-beautify",
+"name": "CSS 格式化",
+"short": "美化 CSS 代码",
+"cat": "geek",
+"title": "免费CSS格式化在线工具",
+"keywords": "CSS 格式化,在线CSS 格式化,免费CSS 格式化,CSS Beautify",
+"url": "/cc-css-beautify/"
+},
+{
+"slug": "cc-css-minify",
+"name": "CSS 压缩",
+"short": "压缩 CSS 代码",
+"cat": "geek",
+"title": "免费CSS压缩在线工具",
+"keywords": "CSS 压缩,在线CSS 压缩,免费CSS 压缩,CSS Minify",
+"url": "/cc-css-minify/"
+},
+{
+"slug": "cc-json-minify",
+"name": "JSON 压缩（高级）",
+"short": "去掉 JSON 的空白",
+"cat": "geek",
+"title": "免费JSON压缩（高级）在线工具",
+"keywords": "JSON 压缩（高级）,在线JSON 压缩（高级）,免费JSON 压缩（高级）,JSON Minify",
+"url": "/cc-json-minify/"
+},
+{
+"slug": "cc-jq",
+"name": "jq 查询",
+"short": "用 jq 表达式处理 JSON",
+"cat": "geek",
+"title": "免费jq查询在线工具",
+"keywords": "jq 查询,在线jq 查询,免费jq 查询,Jq",
+"url": "/cc-jq/"
+},
+{
+"slug": "cc-php-deserialize",
+"name": "PHP 反序列化",
+"short": "把 PHP serialize 字符串转成",
+"cat": "geek",
+"title": "免费PHP反序列化在线工具",
+"keywords": "PHP 反序列化,在线PHP 反序列化,免费PHP 反序列化,PHP Deserialize",
+"url": "/cc-php-deserialize/"
+},
+{
+"slug": "cc-strip-html-tags",
+"name": "去除 HTML 标签",
+"short": "删除 HTML 标签只保留文字",
+"cat": "geek",
+"title": "免费去除HTML标签在线工具",
+"keywords": "去除 HTML 标签,在线去除 HTML 标签,免费去除 HTML 标签,Strip HTML tags",
+"url": "/cc-strip-html-tags/"
+},
+{
+"slug": "cc-to-snake-case",
+"name": "转下划线命名",
+"short": "转换成 snake_case",
+"cat": "geek",
+"title": "免费转下划线命名在线工具",
+"keywords": "转下划线命名,在线转下划线命名,免费转下划线命名,To Snake case",
+"url": "/cc-to-snake-case/"
+},
+{
+"slug": "cc-to-camel-case",
+"name": "转驼峰命名",
+"short": "转换成 camelCase",
+"cat": "geek",
+"title": "免费转驼峰命名在线工具",
+"keywords": "转驼峰命名,在线转驼峰命名,免费转驼峰命名,To Camel case",
+"url": "/cc-to-camel-case/"
+},
+{
+"slug": "cc-to-kebab-case",
+"name": "转短横线命名",
+"short": "转换成 kebab-case",
+"cat": "geek",
+"title": "免费转短横线命名在线工具",
+"keywords": "转短横线命名,在线转短横线命名,免费转短横线命名,To Kebab case",
+"url": "/cc-to-kebab-case/"
+},
+{
+"slug": "cc-render-markdown",
+"name": "Markdown 预览",
+"short": "把 Markdown 渲染成网页",
+"cat": "geek",
+"title": "免费Markdown预览在线工具",
+"keywords": "Markdown 预览,在线Markdown 预览,免费Markdown 预览,Render Markdown",
+"url": "/cc-render-markdown/"
+},
+{
+"slug": "cc-detect-file-type",
+"name": "文件类型识别",
+"short": "根据文件头识别真实的文件类型",
+"cat": "geek",
+"title": "免费文件类型识别在线工具",
+"keywords": "文件类型识别,在线文件类型识别,免费文件类型识别,Detect File Type",
+"url": "/cc-detect-file-type/"
+},
+{
+"slug": "cc-extract-lsb",
+"name": "图片隐写 LSB 提取",
+"short": "提取图片最低有效位中隐藏的数据",
+"cat": "geek",
+"title": "免费图片隐写LSB提取在线工具",
+"keywords": "图片隐写 LSB 提取,在线图片隐写 LSB 提取,免费图片隐写 LSB 提取,Extract LSB",
+"url": "/cc-extract-lsb/"
+},
+{
+"slug": "cc-view-bit-plane",
+"name": "图片位平面查看",
+"short": "查看图片各个位平面，用于隐写分析",
+"cat": "geek",
+"title": "免费图片位平面查看在线工具",
+"keywords": "图片位平面查看,在线图片位平面查看,免费图片位平面查看,View Bit Plane",
+"url": "/cc-view-bit-plane/"
+},
+{
+"slug": "cc-optical-character-recognition",
+"name": "OCR 文字识别（高级）",
+"short": "识别图片里的英文文字",
+"cat": "geek",
+"title": "免费OCR文字识别（高级）在线工具",
+"keywords": "OCR 文字识别（高级）,在线OCR 文字识别（高级）,免费OCR 文字识别（高级）,Optical Character Recognition",
+"url": "/cc-optical-character-recognition/"
+},
+{
+"slug": "cc-rotate-image",
+"name": "图片旋转",
+"short": "按角度旋转图片",
+"cat": "geek",
+"title": "免费图片旋转在线工具",
+"keywords": "图片旋转,在线图片旋转,免费图片旋转,Rotate Image",
+"url": "/cc-rotate-image/"
+},
+{
+"slug": "cc-blur-image",
+"name": "图片模糊",
+"short": "给图片加高斯模糊",
+"cat": "geek",
+"title": "免费图片模糊在线工具",
+"keywords": "图片模糊,在线图片模糊,免费图片模糊,Blur Image",
+"url": "/cc-blur-image/"
+},
+{
+"slug": "cc-dither-image",
+"name": "图片抖动处理",
+"short": "把图片转换成抖动点阵效果",
+"cat": "geek",
+"title": "免费图片抖动处理在线工具",
+"keywords": "图片抖动处理,在线图片抖动处理,免费图片抖动处理,Dither Image",
+"url": "/cc-dither-image/"
+},
+{
+"slug": "cc-invert-image",
+"name": "图片反色",
+"short": "把图片颜色反转",
+"cat": "geek",
+"title": "免费图片反色在线工具",
+"keywords": "图片反色,在线图片反色,免费图片反色,Invert Image",
+"url": "/cc-invert-image/"
+},
+{
+"slug": "cc-flip-image",
+"name": "图片翻转",
+"short": "水平或垂直翻转图片",
+"cat": "geek",
+"title": "免费图片翻转在线工具",
+"keywords": "图片翻转,在线图片翻转,免费图片翻转,Flip Image",
+"url": "/cc-flip-image/"
+},
+{
+"slug": "cc-image-brightness-contrast",
+"name": "图片亮度对比度",
+"short": "调整图片亮度和对比度",
+"cat": "geek",
+"title": "免费图片亮度对比度在线工具",
+"keywords": "图片亮度对比度,在线图片亮度对比度,免费图片亮度对比度,Image Brightness / Contrast",
+"url": "/cc-image-brightness-contrast/"
+},
+{
+"slug": "cc-image-filter",
+"name": "图片滤镜",
+"short": "给图片加灰度、复古等滤镜",
+"cat": "geek",
+"title": "免费图片滤镜在线工具",
+"keywords": "图片滤镜,在线图片滤镜,免费图片滤镜,Image Filter",
+"url": "/cc-image-filter/"
+},
+{
+"slug": "cc-sharpen-image",
+"name": "图片锐化",
+"short": "让模糊的图片更清晰",
+"cat": "geek",
+"title": "免费图片锐化在线工具",
+"keywords": "图片锐化,在线图片锐化,免费图片锐化,Sharpen Image",
+"url": "/cc-sharpen-image/"
+},
+{
+"slug": "cc-convert-image-format",
+"name": "图片格式转换（高级）",
+"short": "PNG、JPG、BMP、GIF、TIFF",
+"cat": "geek",
+"title": "免费图片格式转换（高级）在线工具",
+"keywords": "图片格式转换（高级）,在线图片格式转换（高级）,免费图片格式转换（高级）,Convert Image Format",
+"url": "/cc-convert-image-format/"
+},
+{
+"slug": "cc-add-text-to-image",
+"name": "图片加文字",
+"short": "在图片上添加文字",
+"cat": "geek",
+"title": "免费图片加文字在线工具",
+"keywords": "图片加文字,在线图片加文字,免费图片加文字,Add Text To Image",
+"url": "/cc-add-text-to-image/"
+},
+{
+"slug": "cc-image-hue-saturation-lightness",
+"name": "图片色相饱和度",
+"short": "调整图片色相、饱和度和亮度",
+"cat": "geek",
+"title": "免费图片色相饱和度在线工具",
+"keywords": "图片色相饱和度,在线图片色相饱和度,免费图片色相饱和度,Image Hue/Saturation/Lightness",
+"url": "/cc-image-hue-saturation-lightness/"
+},
+{
+"slug": "cc-split-colour-channels",
+"name": "图片通道分离",
+"short": "把图片拆成红、绿、蓝通道",
+"cat": "geek",
+"title": "免费图片通道分离在线工具",
+"keywords": "图片通道分离,在线图片通道分离,免费图片通道分离,Split Colour Channels",
+"url": "/cc-split-colour-channels/"
+},
+{
+"slug": "cc-render-pdf",
+"name": "PDF 预览",
+"short": "在浏览器里预览 PDF",
+"cat": "geek",
+"title": "免费PDF预览在线工具",
+"keywords": "PDF 预览,在线PDF 预览,免费PDF 预览,Render PDF",
+"url": "/cc-render-pdf/"
+},
+{
+"slug": "cc-entropy",
+"name": "信息熵计算",
+"short": "计算数据的香农熵",
+"cat": "geek",
+"title": "免费信息熵计算在线工具",
+"keywords": "信息熵计算,在线信息熵计算,免费信息熵计算,Entropy",
+"url": "/cc-entropy/"
+},
+{
+"slug": "cc-frequency-distribution",
+"name": "字符频率统计",
+"short": "统计每个字符出现的频率",
+"cat": "geek",
+"title": "免费字符频率统计在线工具",
+"keywords": "字符频率统计,在线字符频率统计,免费字符频率统计,Frequency distribution",
+"url": "/cc-frequency-distribution/"
+},
+{
+"slug": "cc-generate-uuid",
+"name": "UUID 生成（高级）",
+"short": "生成 UUID v1/v4",
+"cat": "geek",
+"title": "免费UUID生成（高级）在线工具",
+"keywords": "UUID 生成（高级）,在线UUID 生成（高级）,免费UUID 生成（高级）,Generate UUID",
+"url": "/cc-generate-uuid/"
+},
+{
+"slug": "cc-generate-totp",
+"name": "TOTP 动态码生成",
+"short": "根据密钥生成两步验证动态码",
+"cat": "geek",
+"title": "免费TOTP动态码生成在线工具",
+"keywords": "TOTP 动态码生成,在线TOTP 动态码生成,免费TOTP 动态码生成,Generate TOTP",
+"url": "/cc-generate-totp/"
+},
+{
+"slug": "cc-generate-qr-code",
+"name": "二维码生成（极客版）",
+"short": "把任意数据生成二维码",
+"cat": "geek",
+"title": "免费二维码生成（极客版）在线工具",
+"keywords": "二维码生成（极客版）,在线二维码生成（极客版）,免费二维码生成（极客版）,Generate QR Code",
+"url": "/cc-generate-qr-code/"
+},
+{
+"slug": "cc-parse-qr-code",
+"name": "二维码解析（极客版）",
+"short": "从图片中解析二维码内容",
+"cat": "geek",
+"title": "免费二维码解析（极客版）在线工具",
+"keywords": "二维码解析（极客版）,在线二维码解析（极客版）,免费二维码解析（极客版）,Parse QR Code",
+"url": "/cc-parse-qr-code/"
+},
+{
+"slug": "cc-haversine-distance",
+"name": "经纬度距离计算",
+"short": "根据两点经纬度计算地球表面距离",
+"cat": "geek",
+"title": "免费经纬度距离计算在线工具",
+"keywords": "经纬度距离计算,在线经纬度距离计算,免费经纬度距离计算,Haversine distance",
+"url": "/cc-haversine-distance/"
+},
+{
+"slug": "cc-html-to-text",
+"name": "HTML 转纯文本",
+"short": "把网页 HTML 转成纯文字",
+"cat": "geek",
+"title": "免费HTML转纯文本在线工具",
+"keywords": "HTML 转纯文本,在线HTML 转纯文本,免费HTML 转纯文本,HTML To Text",
+"url": "/cc-html-to-text/"
+},
+{
+"slug": "cc-generate-lorem-ipsum",
+"name": "Lorem Ipsum 假文生成",
+"short": "生成排版用的英文占位文字",
+"cat": "geek",
+"title": "免费LoremIpsum假文生成",
+"keywords": "Lorem Ipsum 假文生成,在线Lorem Ipsum 假文生成,免费Lorem Ipsum 假文生成,Generate Lorem Ipsum",
+"url": "/cc-generate-lorem-ipsum/"
+},
+{
+"slug": "cc-pseudo-random-integer-generator",
+"name": "随机整数生成",
+"short": "生成指定范围的随机整数",
+"cat": "geek",
+"title": "免费随机整数生成在线工具",
+"keywords": "随机整数生成,在线随机整数生成,免费随机整数生成,Pseudo-Random Integer Generator",
+"url": "/cc-pseudo-random-integer-generator/"
+},
+{
+"slug": "cc-disassemble-x86",
+"name": "x86 反汇编",
+"short": "把机器码反汇编成 x86 汇编",
+"cat": "geek",
+"title": "免费x86反汇编在线工具",
+"keywords": "x86 反汇编,在线x86 反汇编,免费x86 反汇编,Disassemble x86",
+"url": "/cc-disassemble-x86/"
 }
 ]

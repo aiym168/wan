@@ -1,0 +1,1 @@
+function r(n){return n[0].map((l,o)=>n.map(e=>e[o]))}function s(n,l,o){const e=Math.max(...n.map(t=>t.length));return n.map(t=>{const a=[...t];for(;a.length<e;)a.push(l);return a})}export{s as n,r as t};

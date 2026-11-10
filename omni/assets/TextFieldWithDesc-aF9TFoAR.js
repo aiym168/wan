@@ -1,0 +1,1 @@
+import{j as r,B as n,T as i}from"./index-CZybyyg9.js";import{T as m}from"./TextField-BAaRYrNT.js";const T=({description:e,value:o,onOwnChange:s,placeholder:t,...a})=>r.jsxs(n,{mb:3,children:[r.jsx(m,{placeholder:t,sx:{backgroundColor:"background.paper"},value:o,onChange:x=>s(x.target.value),...a}),e&&r.jsx(i,{fontSize:12,mt:1,children:e})]});export{T};
