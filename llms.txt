@@ -1,0 +1,68 @@
+# 工具站大全
+
+> 免费在线工具大全：视频解析下载、图片、PDF、文字、二维码、计算器、开发工具。全部免费、免登录。
+
+- 工具列表（JSON）: https://wan.is-my.app/api/tools.json
+- 服务器接口（OpenAPI）: https://wan.is-my.app/api/openapi.json
+- 命令行: https://wan.is-my.app/cli/gjz.py
+- 接入说明: https://wan.is-my.app/agent/
+
+服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。
+
+## 视频下载
+
+- [抖音无水印下载](https://wan.is-my.app/douyin-download/): 抖音视频、图集无水印解析
+- [X / Twitter 视频下载](https://wan.is-my.app/x-video-download/): 推特视频、GIF 高清下载
+- [B站视频下载](https://wan.is-my.app/bilibili-download/): 哔哩哔哩视频 MP4 下载
+- [万能视频解析下载](https://wan.is-my.app/video-download/): 快手、微博、YouTube 等
+
+## 图片工具
+
+- [图片压缩](https://wan.is-my.app/image-compress/): 在线把图片变小，不上传
+- [图片格式转换](https://wan.is-my.app/image-convert/): PNG、JPG、WebP 互转
+- [图片改尺寸](https://wan.is-my.app/image-resize/): 按像素或百分比改大小
+- [图片裁剪](https://wan.is-my.app/image-crop/): 按 1:1、4:3、一寸照比例裁剪
+- [证件照换底色](https://wan.is-my.app/id-photo/): 白底、蓝底、红底一键换
+
+## PDF 工具
+
+- [PDF 合并](https://wan.is-my.app/pdf-merge/): 多个 PDF 合成一个
+- [PDF 拆分](https://wan.is-my.app/pdf-split/): 提取指定页、逐页拆开
+- [PDF 转图片](https://wan.is-my.app/pdf-to-image/): PDF 每页转成 JPG/PNG
+- [图片转 PDF](https://wan.is-my.app/image-to-pdf/): 多张照片合成一个 PDF
+
+## 文字工具
+
+- [字数统计](https://wan.is-my.app/word-count/): 中文字数、字符数、段落数
+- [繁简转换](https://wan.is-my.app/fanjian/): 简体繁体互转，含台湾香港用词
+- [汉字转拼音](https://wan.is-my.app/pinyin/): 带声调拼音、首字母
+- [英文大小写转换](https://wan.is-my.app/case-convert/): 大写、小写、首字母大写
+- [文本去重排序](https://wan.is-my.app/dedupe/): 删除重复行、空行、排序
+- [人民币大写转换](https://wan.is-my.app/rmb-daxie/): 金额数字转中文大写
+
+## 二维码
+
+- [二维码生成器](https://wan.is-my.app/qrcode/): 文字、网址、WiFi 生成二维码
+- [二维码识别](https://wan.is-my.app/qr-decode/): 上传图片解析二维码内容
+
+## 计算器
+
+- [房贷计算器](https://wan.is-my.app/fangdai/): 等额本息、等额本金月供
+- [个税计算器](https://wan.is-my.app/geshui/): 工资个税、年终奖个税
+- [BMI 计算器](https://wan.is-my.app/bmi/): 身体质量指数、标准体重
+- [日期计算器](https://wan.is-my.app/date-calc/): 相差天数、加减天数、星期几
+- [单位换算](https://wan.is-my.app/unit-convert/): 长度、重量、面积、温度
+
+## 效率小工具
+
+- [随机密码生成器](https://wan.is-my.app/password/): 高强度随机密码
+- [番茄钟计时器](https://wan.is-my.app/pomodoro/): 番茄工作法、倒计时、秒表
+- [随机数生成器 / 抽签](https://wan.is-my.app/random/): 随机数、抽奖、随机分组
+
+## 开发工具
+
+- [JSON 格式化](https://wan.is-my.app/json/): JSON 美化、压缩、校验
+- [Base64 编码解码](https://wan.is-my.app/base64/): 文字、图片 Base64 互转
+- [正则表达式测试](https://wan.is-my.app/regex/): 实时匹配高亮、常用正则
+- [时间戳转换](https://wan.is-my.app/timestamp/): Unix 时间戳与北京时间互转
+- [URL 编码解码](https://wan.is-my.app/url-encode/): 中文网址编码、解码

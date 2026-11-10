@@ -39,3 +39,4 @@ https://wan.is-my.app/dazi/
 https://wan.is-my.app/huahua/
 https://wan.is-my.app/moyu/
 https://wan.is-my.app/sitemap.html
+https://wan.is-my.app/agent/

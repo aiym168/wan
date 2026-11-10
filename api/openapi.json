@@ -1,0 +1,140 @@
+{
+ "openapi": "3.0.3",
+ "info": {
+  "title": "工具站大全 免费接口",
+  "version": "1.0",
+  "description": "免费公开接口，每个 IP 每分钟最多 20 次解析请求。服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。"
+ },
+ "servers": [
+  {
+   "url": "{BASE}",
+   "variables": {
+    "BASE": {
+     "default": "https://aiym.dpdns.org",
+     "description": "从 https://wan.is-my.app/live.json 获取"
+    }
+   }
+  }
+ ],
+ "paths": {
+  "/dl/api/parse": {
+   "get": {
+    "summary": "视频解析（抖音无水印、X/Twitter、B站、快手、微博、YouTube 等）",
+    "operationId": "parseVideo",
+    "parameters": [
+     {
+      "name": "url",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "分享链接或整段分享文字"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "解析结果",
+      "content": {
+       "application/json": {
+        "schema": {
+         "type": "object",
+         "properties": {
+          "ok": {
+           "type": "boolean"
+          },
+          "platform": {
+           "type": "string"
+          },
+          "title": {
+           "type": "string"
+          },
+          "author": {
+           "type": "string"
+          },
+          "cover": {
+           "type": "string"
+          },
+          "videos": {
+           "type": "array",
+           "items": {
+            "type": "object",
+            "properties": {
+             "url": {
+              "type": "string"
+             },
+             "label": {
+              "type": "string"
+             },
+             "ext": {
+              "type": "string"
+             }
+            }
+           }
+          },
+          "images": {
+           "type": "array",
+           "items": {
+            "type": "string"
+           }
+          },
+          "audio": {
+           "type": "string"
+          },
+          "error": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "请求太频繁"
+     }
+    }
+   }
+  },
+  "/dl/api/file": {
+   "get": {
+    "summary": "下载解析出的视频/图片/音频（流式转发）",
+    "operationId": "downloadFile",
+    "parameters": [
+     {
+      "name": "u",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "parse 返回的 videos[].url / images[] / audio"
+     },
+     {
+      "name": "name",
+      "in": "query",
+      "schema": {
+       "type": "string"
+      },
+      "description": "保存的文件名"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "文件内容"
+     }
+    }
+   }
+  },
+  "/dl/healthz": {
+   "get": {
+    "summary": "健康检查",
+    "operationId": "health",
+    "responses": {
+     "200": {
+      "description": "ok"
+     }
+    }
+   }
+  }
+ }
+}
