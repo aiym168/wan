@@ -18,6 +18,99 @@
 - [快手无水印下载](https://wan.is-my.app/kuaishou-download/): 快手视频无水印解析
 - [万能视频解析下载](https://wan.is-my.app/video-download/): 微博、Vimeo 等上千网站
 
+## AI 软件大全
+
+- [大模型 API 价格对比](https://wan.is-my.app/damoxing-api-jiage/): DeepSeek、GLM、GPT、Claude 每百万 token 价格
+- [Token 计算 / API 费用估算](https://wan.is-my.app/token-jisuan/): 估算文字 token 数和每月 API 费用
+- [大模型显存需求计算器](https://wan.is-my.app/xiancun-jisuan/): 本地部署需要多少显存、能跑多大模型
+- [豆包官方下载](https://wan.is-my.app/doubao-download/): 字节跳动 AI 助手，电脑版手机版
+- [Kimi官方下载](https://wan.is-my.app/kimi-download/): 长文本 AI 助手，读文档写报告
+- [DeepSeek官方下载](https://wan.is-my.app/deepseek-download/): 深度求索大模型，网页版和 App
+- [千问（原通义）官方下载](https://wan.is-my.app/qianwen-download/): 阿里通义千问 AI 助手
+- [文心（原文心一言 / 文小言）官方下载](https://wan.is-my.app/wenxin-download/): 百度文心大模型 AI 助手
+- [智谱清言官方下载](https://wan.is-my.app/zhipu-qingyan-download/): 智谱 GLM 大模型 AI 助手
+- [腾讯元宝官方下载](https://wan.is-my.app/yuanbao-download/): 腾讯 AI 助手，混元 + DeepSeek
+- [讯飞星火官方下载](https://wan.is-my.app/xinghuo-download/): 科大讯飞 AI 助手，语音能力强
+- [天工 AI官方下载](https://wan.is-my.app/tiangong-download/): AI 搜索、写作、AI 音乐
+- [海螺 AI官方下载](https://wan.is-my.app/hailuo-download/): MiniMax AI 助手和海螺视频
+- [纳米 AI官方下载](https://wan.is-my.app/nami-ai-download/): 360 AI 搜索和智能体
+- [秘塔 AI 搜索官网入口](https://wan.is-my.app/metaso-download/): 没有广告的 AI 搜索
+- [ChatGPT官方下载](https://wan.is-my.app/chatgpt-download/): OpenAI 官方 AI 助手，电脑版下载
+- [Claude官方下载](https://wan.is-my.app/claude-download/): Anthropic AI 助手，桌面版下载
+- [Gemini官网入口](https://wan.is-my.app/gemini-download/): Google AI 助手
+- [Grok官网入口](https://wan.is-my.app/grok-download/): xAI 的 AI 助手
+- [Microsoft Copilot官方下载](https://wan.is-my.app/copilot-download/): 微软 AI 助手
+- [Perplexity官方下载](https://wan.is-my.app/perplexity-download/): 带引用来源的 AI 搜索
+- [Poe官方下载](https://wan.is-my.app/poe-download/): 一个账号用多个 AI 模型
+- [即梦 AI官网入口](https://wan.is-my.app/jimeng-download/): AI 绘画和 AI 视频生成
+- [可灵 AI官网入口](https://wan.is-my.app/kling-download/): 快手 AI 视频和图片生成
+- [通义万相官网入口](https://wan.is-my.app/tongyi-wanxiang/): 阿里 AI 绘画和视频生成
+- [LiblibAI（哩布哩布）官网入口](https://wan.is-my.app/liblib-download/): 国内 AI 绘画模型社区和在线生图
+- [Midjourney官网入口](https://wan.is-my.app/midjourney-download/): 艺术感强的 AI 绘画
+- [Stable Diffusion WebUI官方下载](https://wan.is-my.app/sd-webui-download/): 本地 AI 绘画经典界面
+- [SD WebUI Forge官方下载](https://wan.is-my.app/forge-download/): 更省显存的 WebUI 分支
+- [ComfyUI官方下载](https://wan.is-my.app/comfyui-download/): 节点式 AI 绘画和视频工作流
+- [Fooocus官方下载](https://wan.is-my.app/fooocus-download/): 最简单的本地 AI 绘画
+- [InvokeAI官方下载](https://wan.is-my.app/invokeai-download/): 专业画布式本地 AI 绘画
+- [Krita AI Diffusion官方下载](https://wan.is-my.app/krita-ai-download/): 在 Krita 画图软件里用 AI
+- [海螺视频官网入口](https://wan.is-my.app/hailuo-video/): MiniMax AI 视频生成
+- [Vidu官网入口](https://wan.is-my.app/vidu-download/): 生数科技 AI 视频生成
+- [清影官网入口](https://wan.is-my.app/qingying-video/): 智谱 AI 视频生成
+- [PixVerse 拍我AI官网入口](https://wan.is-my.app/pixverse-download/): 爱诗科技 AI 视频生成
+- [Runway官网入口](https://wan.is-my.app/runway-download/): 专业 AI 视频生成和编辑
+- [Pika官网入口](https://wan.is-my.app/pika-download/): 趣味 AI 视频特效
+- [Luma Dream Machine官网入口](https://wan.is-my.app/luma-download/): Luma AI 视频和图片生成
+- [Sora官网入口](https://wan.is-my.app/sora-info/): 已停止服务，替代工具推荐
+- [剪映官方下载](https://wan.is-my.app/jianying-download/): 免费视频剪辑，内置 AI 功能
+- [Suno官网入口](https://wan.is-my.app/suno-download/): 输入一句话生成整首歌
+- [GPT-SoVITS官方下载](https://wan.is-my.app/gpt-sovits-download/): 几分钟音频克隆声音的开源 TTS
+- [Fish Audio官网入口](https://wan.is-my.app/fish-audio-download/): AI 配音和声音克隆平台
+- [Whisper官方下载](https://wan.is-my.app/whisper-download/): 开源语音识别，音视频转文字
+- [Buzz官方下载](https://wan.is-my.app/buzz-download/): 离线语音转文字桌面软件
+- [RVC 变声官方下载](https://wan.is-my.app/rvc-download/): 开源 AI 变声和翻唱
+- [CosyVoice官方下载](https://wan.is-my.app/cosyvoice-download/): 阿里开源语音合成
+- [ElevenLabs官网入口](https://wan.is-my.app/elevenlabs-download/): 海外 AI 配音和声音克隆
+- [魔音工坊官网入口](https://wan.is-my.app/moyin-download/): 短视频 AI 配音
+- [Cursor官方下载](https://wan.is-my.app/cursor-download/): AI 代码编辑器
+- [Trae官方下载](https://wan.is-my.app/trae-download/): 字节跳动 AI 编程 IDE
+- [通义灵码官方下载](https://wan.is-my.app/lingma-download/): 阿里云 AI 编程助手
+- [GitHub Copilot官网入口](https://wan.is-my.app/github-copilot-download/): GitHub 官方 AI 编程助手
+- [Devin Desktop（原 Windsurf）官方下载](https://wan.is-my.app/devin-desktop-download/): 原 Windsurf / Codeium AI 编辑器
+- [Claude Code官网入口](https://wan.is-my.app/claude-code-download/): 命令行 AI 编程智能体
+- [腾讯云 CodeBuddy官网入口](https://wan.is-my.app/codebuddy-download/): 腾讯 AI 编程助手
+- [Continue官网入口](https://wan.is-my.app/continue-download/): 开源 AI 编程插件，可接本地模型
+- [Cline官网入口](https://wan.is-my.app/cline-download/): 开源 VS Code 编程智能体
+- [Ollama官方下载](https://wan.is-my.app/ollama-download/): 一行命令本地运行大模型
+- [LM Studio官方下载](https://wan.is-my.app/lm-studio-download/): 图形界面本地大模型工具
+- [Jan官方下载](https://wan.is-my.app/jan-download/): 开源离线 ChatGPT 替代
+- [GPT4All官方下载](https://wan.is-my.app/gpt4all-download/): 普通电脑也能跑的本地 AI
+- [llama.cpp官方下载](https://wan.is-my.app/llama-cpp-download/): 本地大模型推理引擎
+- [vLLM官方下载](https://wan.is-my.app/vllm-download/): 高并发大模型推理服务
+- [Open WebUI官方下载](https://wan.is-my.app/open-webui-download/): 自建 ChatGPT 风格网页界面
+- [AnythingLLM官方下载](https://wan.is-my.app/anythingllm-download/): 本地知识库问答桌面版
+- [Cherry Studio官方下载](https://wan.is-my.app/cherry-studio-download/): 多模型 AI 桌面客户端
+- [Chatbox官方下载](https://wan.is-my.app/chatbox-download/): 全平台 AI 聊天客户端
+- [LobeChat（LobeHub）官方下载](https://wan.is-my.app/lobechat-download/): 开源 AI 聊天和智能体平台
+- [NextChat官方下载](https://wan.is-my.app/nextchat-download/): 轻量 AI 聊天网页，一键部署
+- [Dify官方下载](https://wan.is-my.app/dify-download/): AI 应用和智能体开发平台
+- [FastGPT官方下载](https://wan.is-my.app/fastgpt-download/): 知识库问答系统
+- [RAGFlow官方下载](https://wan.is-my.app/ragflow-download/): 深度文档理解 RAG 引擎
+- [MaxKB官方下载](https://wan.is-my.app/maxkb-download/): 开源企业级智能体与知识库
+- [LangChain官网入口](https://wan.is-my.app/langchain-info/): 大模型应用开发框架
+- [LlamaIndex官网入口](https://wan.is-my.app/llamaindex-info/): 数据和知识库 RAG 开发框架
+- [MCP 客户端官网入口](https://wan.is-my.app/mcp-clients/): 支持 MCP 的 AI 客户端汇总
+- [Hugging Face官网入口](https://wan.is-my.app/huggingface/): 全球最大开源模型社区
+- [魔搭 ModelScope官网入口](https://wan.is-my.app/modelscope/): 国内开源模型社区，下载快
+- [hf-mirror官网入口](https://wan.is-my.app/hf-mirror/): Hugging Face 国内镜像
+- [Gamma官网入口](https://wan.is-my.app/gamma-download/): AI 一键生成 PPT 和网页
+- [AiPPT官网入口](https://wan.is-my.app/aippt-download/): 国内 AI 生成 PPT
+- [通义听悟官网入口](https://wan.is-my.app/tingwu-download/): 录音转文字、会议纪要
+- [NotebookLM官网入口](https://wan.is-my.app/notebooklm/): Google AI 笔记和音频概览
+- [沉浸式翻译官网入口](https://wan.is-my.app/immersive-translate/): AI 双语网页和 PDF 翻译
+- [DeepL官方下载](https://wan.is-my.app/deepl-download/): 高质量 AI 翻译桌面版
+- [大模型本地部署全套软件](https://wan.is-my.app/bendi-damoxing/): 大模型本地部署全套软件
+- [AI 软件怎么选](https://wan.is-my.app/ai-ruanjian-xuanze/): AI 软件怎么选
+
 ## 自媒体工具
 
 - [视频转文字](https://wan.is-my.app/video-to-text/): 视频提取文案、口播转文字
@@ -41,6 +134,12 @@
 - [证件照制作](https://wan.is-my.app/id-photo-maker/): AI 抠图换底色、标准尺寸
 - [九宫格切图](https://wan.is-my.app/image-grid/): 朋友圈九宫格、长图切分
 - [图片拼接](https://wan.is-my.app/tupian-pinjie/): 多图拼长图、拼九宫格
+- [图片去水印](https://wan.is-my.app/qushuiyin/): 涂抹去除水印、文字、杂物
+- [图片打码](https://wan.is-my.app/masaike/): 马赛克、模糊遮挡隐私信息
+- [头像制作](https://wan.is-my.app/touxiang/): 圆形头像、加边框、加角标
+- [表情包制作](https://wan.is-my.app/biaoqingbao/): 图片配文字，做搞笑表情包
+- [手写签名生成](https://wan.is-my.app/shouxie-qianming/): 手写电子签名，导出透明 PNG
+- [AI 图片无损放大](https://wan.is-my.app/fangda/): AI 把模糊小图放大 2—4 倍
 - [摄像机记录器](https://wan.is-my.app/camera-recorder/): 从网络摄像头或照相机拍摄照片或录制视频
 - [二维码生成（高级）](https://wan.is-my.app/qrcode-generator/): 生成网址或文字二维码，可自定义前景色、背景
 - [SVG 占位符生成器](https://wan.is-my.app/svg-placeholder-generator/): 生成 svg 图像以用作应用程序中的占位符
@@ -96,6 +195,8 @@
 - [文本去重排序](https://wan.is-my.app/dedupe/): 删除重复行、空行、排序
 - [人民币大写转换](https://wan.is-my.app/rmb-daxie/): 金额数字转中文大写
 - [文字转语音朗读](https://wan.is-my.app/wenzi-zhuan-yuyin/): 输入文字在线朗读
+- [在线 Word 文档](https://wan.is-my.app/zaixian-word/): 在线写文档，导出 Word / PDF
+- [在线 Excel 表格](https://wan.is-my.app/excel/): 在线编辑表格，打开导出 xlsx
 - [ASCII 艺术字生成](https://wan.is-my.app/ascii-text-drawer/): 把文字转换成各种字体的 ASCII 艺术字
 - [Emoji 选择器](https://wan.is-my.app/emoji-picker/): 轻松复制和粘贴Emoji表情符号，并获得每
 - [Lorem ipsum生成器](https://wan.is-my.app/lorem-ipsum-generator/): Lorem ipsum是一种占位符文本，通
@@ -148,6 +249,8 @@
 
 - [二维码生成器](https://wan.is-my.app/qrcode/): 文字、网址、WiFi 生成二维码
 - [二维码识别](https://wan.is-my.app/qr-decode/): 上传图片解析二维码内容
+- [二维码美化](https://wan.is-my.app/erweima-meihua/): 彩色、圆点、加 Logo 的二维码
+- [条形码生成器](https://wan.is-my.app/tiaoxingma/): EAN-13、Code128 条码在线生成
 
 ## 计算器
 
@@ -161,6 +264,11 @@
 - [存款利息计算器](https://wan.is-my.app/cunkuan-lixi/): 定期活期利息、到期本息
 - [五险一金计算器](https://wan.is-my.app/wuxian-yijin/): 社保公积金、税后工资
 - [年终奖个税计算器](https://wan.is-my.app/nianzhongjiang/): 单独计税还是合并计税
+- [汇率换算](https://wan.is-my.app/huilv/): 人民币与 160+ 货币实时换算
+- [年龄计算器](https://wan.is-my.app/nianling/): 周岁、虚岁、生肖星座
+- [尺码换算](https://wan.is-my.app/chima/): 鞋码、衣服尺码对照
+- [基础代谢 / 体脂率计算器](https://wan.is-my.app/jichudaixie/): BMR、每日热量、体脂率
+- [油耗计算器](https://wan.is-my.app/youhao/): 百公里油耗、每公里油费、电车电耗
 - [基准生成器](https://wan.is-my.app/benchmark-builder/): 简单的在线基准构建器可以轻松比较任务的执行
 - [计时器](https://wan.is-my.app/chronometer/): 监控事物的持续时间。基本上是一种具有简单计
 - [ETA 计算器](https://wan.is-my.app/eta-calculator/): ETA（估计到达时间）计算器，用于知道任务
@@ -199,9 +307,17 @@
 - [随机分组](https://wan.is-my.app/fenzu/): 名单一键随机分组
 - [键盘测试](https://wan.is-my.app/jianpan-ceshi/): 检测按键是否失灵
 - [屏幕坏点检测](https://wan.is-my.app/huaidian/): 纯色全屏查坏点亮点
+- [甘特图在线制作](https://wan.is-my.app/gantt/): 填表生成项目进度甘特图
+- [预产期计算器](https://wan.is-my.app/yuchanqi/): 按末次月经算预产期和孕周
+- [排卵期计算器](https://wan.is-my.app/pailuanqi/): 排卵日、易孕期、安全期日历
+- [公历农历转换](https://wan.is-my.app/nongli-zhuanhuan/): 阳历阴历互转，查农历生日
+- [节日倒计时](https://wan.is-my.app/daojishi/): 距离春节、高考、国庆还有几天
+- [世界时间](https://wan.is-my.app/shijie-shijian/): 各国时间、时差换算
+- [身份证号码校验](https://wan.is-my.app/shenfenzheng/): 校验真伪格式，看出生日期性别
 
 ## 开发工具
 
+- [Mermaid 图表编辑器](https://wan.is-my.app/mermaid/): 文字生成流程图、时序图、ER 图
 - [JSON 格式化](https://wan.is-my.app/json/): JSON 美化、压缩、校验
 - [Base64 编码解码](https://wan.is-my.app/base64/): 文字、图片 Base64 互转
 - [正则表达式测试](https://wan.is-my.app/regex/): 实时匹配高亮、常用正则
@@ -566,6 +682,144 @@
 - [随机整数生成](https://wan.is-my.app/cc-pseudo-random-integer-generator/): 生成指定范围的随机整数
 - [x86 反汇编](https://wan.is-my.app/cc-disassemble-x86/): 把机器码反汇编成 x86 汇编
 
+## 电商运营
+
+- [电商利润计算器](https://wan.is-my.app/dianshang-lirun/): 毛利、净利、利润率一键算
+- [定价与折扣反算](https://wan.is-my.app/dingjia-zhekou/): 按利润率定价，折扣反推原价
+- [满减优惠叠加计算器](https://wan.is-my.app/manjian/): 满减、优惠券、折扣叠加怎么最省
+- [ROI / 保本 ROI 计算器](https://wan.is-my.app/roi/): 投放 ROI、ROAS、保本出价
+- [转化率 / 客单价 / UV 价值](https://wan.is-my.app/zhuanhualv/): 店铺核心指标计算与目标反推
+- [平台佣金手续费计算](https://wan.is-my.app/pingtai-yongjin/): 淘宝天猫京东拼多多抖音扣点
+- [体积重 / 运费计算](https://wan.is-my.app/tijizhong/): 跨境物流抛货计费重量
+- [广告法违禁词检测](https://wan.is-my.app/weijinci/): 极限词、虚假宣传词一键排查
+- [电商主图尺寸裁剪 / 白底图](https://wan.is-my.app/zhutu/): 各平台主图尺寸一键裁剪加白底
+- [SKU 组合生成器](https://wan.is-my.app/sku-zuhe/): 颜色尺码规格自动排列组合
+- [库存周转 / 补货计算](https://wan.is-my.app/kucun-zhouzhuan/): 周转天数、安全库存、补货点
+- [个体户税费估算](https://wan.is-my.app/getihu-shuifei/): 增值税、附加税、经营所得个税
+
+## 直播工具
+
+- [直播违禁词检测](https://wan.is-my.app/zhibo-weijinci/): 直播话术敏感词、引流词排查
+- [直播话术模板](https://wan.is-my.app/zhibo-huashu/): 开场、介绍、福利、留人、下播合规话术
+- [直播间提词器](https://wan.is-my.app/zhibo-tici/): 自动滚动、镜像、大字体提词
+- [直播抽奖 / 倒计时](https://wan.is-my.app/zhibo-choujiang/): 评论名单随机抽奖、开奖倒计时
+- [OBS 推流码率计算](https://wan.is-my.app/obs-malv/): 按分辨率帧率和上传带宽推荐码率
+- [绿幕抠像](https://wan.is-my.app/lvmu-koutu/): 摄像头 / 视频绿幕实时抠图换背景
+- [抖音直播伴侣官方下载](https://wan.is-my.app/douyin-zhibo-banlv/): 抖音电脑开播官方软件
+- [快手直播伴侣官方下载](https://wan.is-my.app/kuaishou-zhibo-banlv/): 快手电脑开播官方软件
+- [视频号直播（推流）官网入口](https://wan.is-my.app/shipinhao-zhibo/): 视频号助手电脑推流开播
+- [哔哩哔哩直播姬官方下载](https://wan.is-my.app/bilibili-zhibo-ji/): B 站官方电脑直播软件
+- [淘宝直播官网入口](https://wan.is-my.app/taobao-zhibo/): 淘宝直播中控台和电脑开播
+- [京东直播官网入口](https://wan.is-my.app/jd-zhibo/): 京东直播商家后台
+- [小红书直播助手官方下载](https://wan.is-my.app/xhs-zhibo/): 小红书官方电脑直播
+- [虎牙直播助手官方下载](https://wan.is-my.app/huya-zhibo/): 虎牙官方电脑直播软件
+- [斗鱼直播伴侣官方下载](https://wan.is-my.app/douyu-zhibo/): 斗鱼官方电脑直播软件
+- [YY 开播官网入口](https://wan.is-my.app/yy-kaibo/): YY 直播开播工具
+- [巨量百应官网入口](https://wan.is-my.app/buyin-baiying/): 抖音电商达人和机构后台
+- [抖店官网入口](https://wan.is-my.app/doudian/): 抖音小店商家后台
+- [Streamlabs官方下载](https://wan.is-my.app/streamlabs-download/): 海外主播常用推流软件
+- [TikTok LIVE Studio官方下载](https://wan.is-my.app/tiktok-live-studio/): TikTok 官方电脑直播软件
+- [YouTube 直播官网入口](https://wan.is-my.app/youtube-zhibo/): YouTube 官方直播教程
+- [Twitch 直播官网入口](https://wan.is-my.app/twitch-zhibo/): Twitch 官方推流设置指南
+- [直播伴侣大全](https://wan.is-my.app/zhibo-banlv-daquan/): 直播伴侣大全
+
+## Windows / Mac 软件
+
+- [Windows 快捷键大全](https://wan.is-my.app/windows-kuaijiejian/): Win10 / Win11 常用快捷键速查
+- [Mac 快捷键大全](https://wan.is-my.app/mac-kuaijiejian/): macOS 常用快捷键速查
+- [Windows CMD 常用命令](https://wan.is-my.app/cmd-mingling/): CMD / PowerShell 命令速查
+- [Linux / Mac 终端命令](https://wan.is-my.app/linux-mingling/): Linux 和 macOS 常用命令速查
+- [蓝屏错误代码查询](https://wan.is-my.app/lanping-daima/): Windows 蓝屏代码含义和解决办法
+- [PowerToys官方下载](https://wan.is-my.app/powertoys-download/): 微软官方 Windows 效率工具集
+- [ShareX官方下载](https://wan.is-my.app/sharex-download/): 免费开源截图录屏工具
+- [Snipaste官方下载](https://wan.is-my.app/snipaste-download/): 截图 + 贴图神器
+- [PixPin官方下载](https://wan.is-my.app/pixpin-download/): 截图、贴图、长截图、OCR
+- [Ditto官方下载](https://wan.is-my.app/ditto-download/): Windows 剪贴板历史管理
+- [Listary官方下载](https://wan.is-my.app/listary-download/): Windows 文件搜索和快速启动
+- [Quicker官方下载](https://wan.is-my.app/quicker-download/): Windows 指尖工具箱
+- [uTools官方下载](https://wan.is-my.app/utools-download/): 插件化效率启动器
+- [HiBit Uninstaller官方下载](https://wan.is-my.app/hibit-uninstaller-download/): 免费彻底卸载软件
+- [WizTree官方下载](https://wan.is-my.app/wiztree-download/): 几秒扫描磁盘占用
+- [Bandizip官方下载](https://wan.is-my.app/bandizip-download/): 好用的压缩解压软件
+- [Sysinternals官方下载](https://wan.is-my.app/sysinternals-download/): 微软官方系统诊断工具集
+- [Windows Terminal官方下载](https://wan.is-my.app/windows-terminal-download/): 微软官方新终端
+- [微软常用运行库官方下载](https://wan.is-my.app/vc-runtime-download/): VC++ 运行库官方下载
+- [TrafficMonitor官方下载](https://wan.is-my.app/trafficmonitor-download/): 任务栏显示网速和 CPU
+- [Twinkle Tray官方下载](https://wan.is-my.app/twinkle-tray-download/): 多显示器亮度调节
+- [Files官方下载](https://wan.is-my.app/files-app-download/): 现代化文件管理器
+- [Nilesoft Shell官方下载](https://wan.is-my.app/nilesoft-shell-download/): Windows 11 右键菜单增强
+- [Honeyview官方下载](https://wan.is-my.app/honeyview-download/): 轻快的看图软件
+- [ImageGlass官方下载](https://wan.is-my.app/imageglass-download/): 开源看图软件
+- [Motrix官方下载](https://wan.is-my.app/motrix-download/): 全能下载工具
+- [Free Download Manager官方下载](https://wan.is-my.app/fdm-download/): 免费多线程下载管理器
+- [IDM（Internet Download Manager）官方下载](https://wan.is-my.app/idm-info/): 付费下载加速器，官方试用
+- [LocalSend官方下载](https://wan.is-my.app/localsend-download/): 局域网跨平台传文件
+- [火绒安全官方下载](https://wan.is-my.app/huorong-download/): 轻量无广告杀毒软件
+- [电脑驱动官方下载官网入口](https://wan.is-my.app/driver-official/): 联想惠普华为小米华硕驱动
+- [Homebrew官方下载](https://wan.is-my.app/homebrew/): Mac 软件包管理器
+- [Rectangle官方下载](https://wan.is-my.app/rectangle-mac/): Mac 窗口分屏快捷键
+- [Loop官方下载](https://wan.is-my.app/loop-mac/): 环形菜单窗口管理
+- [Raycast官方下载](https://wan.is-my.app/raycast-mac/): Mac 效率启动器
+- [Alfred官方下载](https://wan.is-my.app/alfred-mac/): 老牌 Mac 效率启动器
+- [Maccy官方下载](https://wan.is-my.app/maccy-mac/): 轻量 Mac 剪贴板历史
+- [IINA官方下载](https://wan.is-my.app/iina-mac/): Mac 最好用的视频播放器
+- [Infuse官方下载](https://wan.is-my.app/infuse-info/): Apple 全家桶影音库播放器
+- [Downie官方下载](https://wan.is-my.app/downie-info/): Mac 网页视频下载
+- [The Unarchiver官方下载](https://wan.is-my.app/the-unarchiver-mac/): Mac 免费解压 RAR / 7Z
+- [Keka官方下载](https://wan.is-my.app/keka-mac/): Mac 压缩解压工具
+- [AppCleaner官方下载](https://wan.is-my.app/appcleaner-mac/): Mac 彻底卸载应用
+- [Pearcleaner官方下载](https://wan.is-my.app/pearcleaner-mac/): 开源 Mac 应用卸载
+- [Stats官方下载](https://wan.is-my.app/stats-mac/): 菜单栏系统监控
+- [iStat Menus官方下载](https://wan.is-my.app/istat-menus-info/): 专业菜单栏系统监控
+- [iTerm2官方下载](https://wan.is-my.app/iterm2-mac/): Mac 经典终端
+- [Warp官方下载](https://wan.is-my.app/warp-download/): AI 智能终端
+- [OrbStack官方下载](https://wan.is-my.app/orbstack-mac/): 轻快的 Docker 和 Linux 虚拟机
+- [Docker Desktop官方下载](https://wan.is-my.app/docker-desktop-download/): 容器开发环境
+- [BetterDisplay官方下载](https://wan.is-my.app/betterdisplay-mac/): 外接显示器 HiDPI 和亮度
+- [MonitorControl官方下载](https://wan.is-my.app/monitorcontrol-mac/): 用键盘调外接显示器亮度
+- [Mos官方下载](https://wan.is-my.app/mos-mac/): 让鼠标滚动变平滑
+- [LinearMouse官方下载](https://wan.is-my.app/linearmouse-mac/): Mac 鼠标和触控板定制
+- [Karabiner-Elements官方下载](https://wan.is-my.app/karabiner-mac/): Mac 键盘改键神器
+- [Input Source Pro官方下载](https://wan.is-my.app/input-source-pro-mac/): 按应用自动切换输入法
+- [Bartender官方下载](https://wan.is-my.app/bartender-info/): 菜单栏图标管理（付费）
+- [Ice官方下载](https://wan.is-my.app/ice-mac/): 开源菜单栏图标管理
+- [Hidden Bar官方下载](https://wan.is-my.app/hidden-bar-mac/): 一键隐藏菜单栏图标
+- [Itsycal官方下载](https://wan.is-my.app/itsycal-mac/): 菜单栏迷你日历
+- [CleanShot X官方下载](https://wan.is-my.app/cleanshot-info/): Mac 专业截图录屏（付费）
+- [Shottr官方下载](https://wan.is-my.app/shottr-mac/): 小巧好用的 Mac 截图
+- [Obsidian官方下载](https://wan.is-my.app/obsidian-download/): 本地 Markdown 双链笔记
+- [Typora官方下载](https://wan.is-my.app/typora-download/): 所见即所得 Markdown 编辑器
+- [Eagle官方下载](https://wan.is-my.app/eagle-download/): 设计师素材管理
+- [PDF Expert官方下载](https://wan.is-my.app/pdf-expert-info/): Mac 专业 PDF 编辑
+- [Easydict官方下载](https://wan.is-my.app/easydict-mac/): 开源划词翻译词典
+- [Bob官方下载](https://wan.is-my.app/bob-mac/): Mac 翻译和 OCR
+- [欧路词典官方下载](https://wan.is-my.app/eudic-download/): 英语词典和翻译
+- [Latest官方下载](https://wan.is-my.app/latest-mac/): 检查 Mac 应用更新
+- [Clop官方下载](https://wan.is-my.app/clop-mac/): 自动压缩图片和视频
+- [AltTab官方下载](https://wan.is-my.app/alttab-mac/): Windows 式窗口切换
+- [KeyCastr官方下载](https://wan.is-my.app/keycastr-mac/): 录屏时显示按键
+- [Mac 必装软件推荐](https://wan.is-my.app/mac-bizhuang-ruanjian/): Mac 必装软件推荐
+- [Windows 装机必备软件](https://wan.is-my.app/windows-zhuangji-bibei/): Windows 装机必备软件
+- [Mac / Windows 免费替代付费软件](https://wan.is-my.app/mianfei-tidai-ruanjian/): Mac / Windows 免费替代付费软件
+
+## 浏览器
+
+- [Arc 浏览器官方下载](https://wan.is-my.app/arc-download/): 侧边栏标签设计的浏览器
+- [Safari 浏览器官网入口](https://wan.is-my.app/safari-info/): 苹果自带浏览器
+- [Brave 浏览器官方下载](https://wan.is-my.app/brave-download/): 自带广告拦截的隐私浏览器
+- [Opera 浏览器官方下载](https://wan.is-my.app/opera-download/): 内置 VPN 和侧边栏的浏览器
+- [Vivaldi 浏览器官方下载](https://wan.is-my.app/vivaldi-download/): 高度可定制的浏览器
+- [360 安全浏览器官方下载](https://wan.is-my.app/360se-download/): 国产双核浏览器
+- [360 极速浏览器官方下载](https://wan.is-my.app/360ee-download/): Chromium 内核双核浏览器
+- [QQ 浏览器官方下载](https://wan.is-my.app/qqbrowser-download/): 腾讯浏览器，文件和 AI 工具
+- [夸克官方下载](https://wan.is-my.app/quark-download/): AI 浏览器和网盘、扫描
+- [搜狗浏览器官方下载](https://wan.is-my.app/sogou-browser-download/): 老牌国产双核浏览器
+- [UC 浏览器官方下载](https://wan.is-my.app/uc-browser-download/): 阿里 UC 浏览器
+- [Zen 浏览器官方下载](https://wan.is-my.app/zen-browser-download/): 基于 Firefox 的开源新浏览器
+- [Comet 浏览器官方下载](https://wan.is-my.app/comet-download/): Perplexity 的 AI 浏览器
+- [Dia 浏览器官方下载](https://wan.is-my.app/dia-download/): Arc 团队的 AI 浏览器
+- [浏览器推荐](https://wan.is-my.app/liulanqi-tuijian/): 浏览器推荐
+
 ## 系统与软件下载
 
 - [Windows 11官方下载](https://wan.is-my.app/windows11-download/): 微软官方 ISO 镜像和安装助手
@@ -606,30 +860,23 @@
 - [百度网盘官方下载](https://wan.is-my.app/baidu-netdisk-download/): 百度网盘电脑版官方下载
 - [网易云音乐官方下载](https://wan.is-my.app/netease-music-download/): 网易云音乐电脑版官方下载
 - [QQ音乐官方下载](https://wan.is-my.app/qq-music-download/): QQ音乐电脑版官方下载
-- [剪映专业版官方下载](https://wan.is-my.app/jianying-download/): 剪映电脑版官方下载
 - [搜狗输入法官方下载](https://wan.is-my.app/sogou-pinyin-download/): 搜狗拼音输入法官方下载
 - [微信输入法官方下载](https://wan.is-my.app/wechat-ime-download/): 微信输入法电脑版、手机版
 - [迅雷官方下载](https://wan.is-my.app/xunlei-download/): 迅雷电脑版官方下载
-- [夸克官方下载](https://wan.is-my.app/quark-download/): 夸克浏览器、夸克网盘官方下载
-- [火绒安全官方下载](https://wan.is-my.app/huorong-download/): 火绒安全软件官方下载
 - [向日葵远程控制官方下载](https://wan.is-my.app/sunlogin-download/): 向日葵远程控制官方下载
 - [ToDesk官方下载](https://wan.is-my.app/todesk-download/): ToDesk 远程控制官方下载
 - [腾讯视频官方下载](https://wan.is-my.app/tencent-video-download/): 腾讯视频电脑版官方下载
 - [爱奇艺官方下载](https://wan.is-my.app/iqiyi-download/): 爱奇艺电脑版官方下载
-- [Bandizip官方下载](https://wan.is-my.app/bandizip-download/): Bandizip 解压缩软件官方下载
 - [Git官方下载](https://wan.is-my.app/git-download/): Git 官方下载（Windows / Mac / Linux）
 - [Node.js官方下载](https://wan.is-my.app/nodejs-download/): Node.js 官方下载 LTS 版
 - [Java JDK官方下载](https://wan.is-my.app/jdk-download/): Java JDK 官方下载
 - [Android Studio官方下载](https://wan.is-my.app/android-studio-download/): Android Studio 官方下载
-- [Docker Desktop官方下载](https://wan.is-my.app/docker-desktop-download/): Docker Desktop 官方下载
-- [PowerToys官方下载](https://wan.is-my.app/powertoys-download/): 微软 PowerToys 效率工具官方下载
 - [Zoom官方下载](https://wan.is-my.app/zoom-download/): Zoom 视频会议官方下载
 - [Telegram官方下载](https://wan.is-my.app/telegram-download/): Telegram 电脑版官方下载
 - [Blender官方下载](https://wan.is-my.app/blender-download/): Blender 3D 建模软件官方下载
 - [GIMP官方下载](https://wan.is-my.app/gimp-download/): GIMP 免费修图软件官方下载
 - [Audacity官方下载](https://wan.is-my.app/audacity-download/): Audacity 音频编辑官方下载
 - [HandBrake官方下载](https://wan.is-my.app/handbrake-download/): HandBrake 视频转码官方下载
-- [Snipaste官方下载](https://wan.is-my.app/snipaste-download/): Snipaste 截图贴图官方下载
 
 ## 游戏客户端下载
 
@@ -1037,14 +1284,308 @@
 
 ## 五险一金计算器
 网址: https://wan.is-my.app/wuxian-yijin/
-说明: 免费五险一金计算器：输入税前工资、社保和公积金缴费基数与比例，算出个人和单位每月缴纳的养老、医疗、失业保险和住房公积金，以及扣税后的到手工资，比例可按当地自行修改。
+说明: 免费五险一金计算器：输入税前工资、社保和公积金缴费基数与比例，算出个人和单位每月缴纳的养老、医疗、失业保险和住房公积金，以及扣税后的到手工资。
 用法: 填写税前月薪，缴费基数会默认等于工资；如果公司按最低基数缴纳，请改成实际基数。 按当地标准核对个人和单位的缴费比例，公积金比例一般在 5%—12% 之间。 有子女教育、房贷利息、赡养老人等专项附加扣除的，填写每月扣除金额。 下方显示个人和单位各项缴费、每月个税和税后到手工资。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## 年终奖个税计算器
 网址: https://wan.is-my.app/nianzhongjiang/
-说明: 免费年终奖个税计算器：输入年终奖和全年工资应纳税所得额，对比年终奖单独计税与并入综合所得计税哪种更省税，自动提示年终奖多发一元多交税的临界点，政策执行至 2027 年底。
+说明: 免费年终奖个税计算器：输入年终奖和全年工资应纳税所得额，对比年终奖单独计税与并入综合所得计税哪种更省税，自动提示年终奖多发一元多交税的临界点。
 用法: 填写年终奖金额和全年工资收入（税前）。 填写全年个人缴纳的社保公积金和专项附加扣除，用于计算工资部分的应纳税所得额。 表格对比两种计税方式的个税和到手金额，高亮的是更省税的方式；在个税 App 年度汇算时可以选择。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 汇率换算
+网址: https://wan.is-my.app/huilv/
+说明: 免费汇率换算器：人民币与美元、欧元、港币、日元、英镑、韩元等 160 多种货币互相换算，汇率每日自动更新，附常用货币速查表，出国旅游、海淘代购换汇前算一算。
+用法: 输入要换算的金额。 选择原货币和目标货币，点「互换」可以反过来算。 下方同时列出该金额对应的常用货币，方便比较。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Mermaid 图表编辑器
+网址: https://wan.is-my.app/mermaid/
+说明: 免费 Mermaid 在线编辑器：用简单的文字语法画流程图、时序图、甘特图、类图、状态图、饼图、思维导图、时间线和 ER 图，实时预览。
+用法: 点上方模板（流程图、时序图、ER 图等）载入示例代码。 在左侧修改文字，右侧实时更新图表；语法有误时下方会提示。 满意后点「下载 PNG」得到高清图片，或下载 SVG 矢量图放进文档和 PPT。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 甘特图在线制作
+网址: https://wan.is-my.app/gantt/
+说明: 免费甘特图在线制作工具：像填表格一样输入任务名称、开始日期和天数，自动生成项目进度甘特图，支持分组、里程碑和跳过周末，一键导出高清 PNG 或 SVG。
+用法: 填写图表标题，在表格里输入每个任务的分组、名称、开始日期和持续天数。 点「添加任务」增加一行，点 ✕ 删除；天数填 0 表示里程碑。 下方实时生成甘特图，点「下载 PNG」放进 PPT、Word 或工作汇报。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 二维码美化
+网址: https://wan.is-my.app/erweima-meihua/
+说明: 免费二维码美化工具：生成带 Logo、彩色渐变、圆点和圆角码眼样式的个性二维码，可调前景色、背景色和容错率，导出高清 PNG 或 SVG，适合名片、海报。
+用法: 输入网址或文字，下方实时生成二维码。 选择码点和码眼样式，设置前景色（可设渐变）、码眼颜色和背景色。 需要 Logo 时上传图片，会自动放在中间并提高容错率。 用手机扫一扫确认能识别，再下载 PNG 或 SVG。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 条形码生成器
+网址: https://wan.is-my.app/tiaoxingma/
+说明: 免费条形码在线生成器：支持 EAN-13 商品条码、EAN-8、UPC-A、Code128、Code39、ITF-14 等格式，可批量生成，自定义尺寸和文字。
+用法: 输入条码内容；批量生成时每行写一个。 选择条码格式：超市商品用 EAN-13，物流和内部编号常用 Code128。 调整条宽、高度和是否显示文字，下载 PNG 或 SVG 用于打印。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 图片去水印
+网址: https://wan.is-my.app/qushuiyin/
+说明: 免费在线图片去水印工具：用画笔涂抹图片上的水印、文字、日期、小杂物，自动用周围的颜色和纹理填补，适合去除截图角标、照片日期和简单背景上的文字，图片不上传。
+用法: 点上方选择图片（手机可从相册选）。 调整画笔大小，在水印或文字上涂抹，涂成红色的区域就是要去除的部分，尽量刚好盖住水印。 点「去除涂抹区域」，程序会用周围的颜色自动填补；可以反复涂抹、去除，不满意就点「撤销」。 完成后点「下载图片」保存。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 图片打码
+网址: https://wan.is-my.app/masaike/
+说明: 免费在线图片打码工具：用画笔或框选给照片、截图加马赛克或模糊，遮挡人脸、手机号、身份证号、聊天记录头像昵称和车牌等隐私信息，可调马赛克大小，图片不上传。
+用法: 点上方选择要处理的图片或截图。 选择马赛克、模糊或黑色遮挡，调整画笔和马赛克大小。 在需要遮挡的位置涂抹，松手后立即打码，可以多次涂抹，点「撤销」回退。 点「下载图片」保存。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 头像制作
+网址: https://wan.is-my.app/touxiang/
+说明: 免费在线头像制作工具：上传照片裁成正方形或圆形头像，可缩放移动、加彩色边框、换背景色、加节日角标文字，导出高清 PNG，适合微信、QQ、抖音。
+用法: 点上方选择一张照片。 选择圆形、圆角方形或方形，用缩放和左右、上下滑块调整构图。 设置边框宽度和颜色；需要节日头像时填写角标文字。 点「下载头像 PNG」，再到微信、QQ 等 App 里更换头像。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 表情包制作
+网址: https://wan.is-my.app/biaoqingbao/
+说明: 免费在线表情包制作器：上传图片或用纯色底图，添加上方、下方文字，自带白字黑边的经典表情包字体效果，可调字号、颜色和位置，导出 PNG 或 JPG，微信。
+用法: 点上方选择一张图片；不选也可以，用纯色底图加文字。 在上方文字、下方文字里写上台词，文字太长会自动换行。 调整字号和颜色，经典表情包用白字黑边。 点「下载 PNG」，在微信或 QQ 里添加到表情。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 手写签名生成
+网址: https://wan.is-my.app/shouxie-qianming/
+说明: 免费在线手写签名工具：用鼠标或手指在屏幕上手写签名，可选黑色、蓝色、红色和笔画粗细，自动裁剪空白并导出透明背景 PNG，可直接贴到 Word。
+用法: 在白色区域用鼠标或手指写下签名，手机横屏书写空间更大。 选择笔画颜色和粗细，写错了点「撤销一笔」或「清空」。 点「下载透明 PNG」，签名会自动裁掉多余空白，背景透明。 在 Word 里插入图片，或用本站「PDF 在线编辑器」贴到 PDF 合同上。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 在线 Word 文档
+网址: https://wan.is-my.app/zaixian-word/
+说明: 免费在线 Word 文档编辑器：打开网页就能写文档，支持标题、加粗、颜色、列表、对齐、表格和插入图片，可导入 docx 文件。
+用法: 直接在白色纸张区域输入文字，内容会自动保存在本机。 用工具栏设置标题、字号、加粗、颜色、列表、对齐，或插入表格、图片和分隔线。 已有 Word 文件可以点「导入 docx / txt」继续编辑。 写完点「下载 Word」得到 .doc 文件，或点「打印 / 存为 PDF」另存为 PDF。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 预产期计算器
+网址: https://wan.is-my.app/yuchanqi/
+说明: 免费预产期计算器：输入末次月经第一天和月经周期，算出预产期、现在怀孕几周几天、孕早中晚期和距离预产期的天数，并列出常规产检时间表，准妈妈备孕孕期必备。
+用法: 选择末次月经的第一天（不是结束那天）。 填写平时的月经周期天数，不确定就保持 28 天。 下方显示预产期、今天怀孕几周几天，以及每个阶段的产检时间。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 排卵期计算器
+网址: https://wan.is-my.app/pailuanqi/
+说明: 免费排卵期计算器：输入最近一次月经第一天、月经周期和经期天数，算出未来三个月的月经期、排卵日、易孕期和相对安全期，用彩色日历标出，备孕和经期管理都能用。
+用法: 选择最近一次月经的第一天。 填写月经周期（两次月经第一天之间的天数）和经期持续天数。 日历用颜色标出月经期、易孕期和排卵日，下方列出三个周期的具体日期。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 公历农历转换
+网址: https://wan.is-my.app/nongli-zhuanhuan/
+说明: 免费公历农历转换器：阳历转阴历、阴历转阳历，支持闰月，同时显示干支、生肖、星座和节气，还能查农历生日在今年和明年对应的公历日期，1901—2099 年都能查。
+用法: 选择转换方向：公历转农历，或农历转公历。 选择日期；农历月份里带「闰」字的是闰月。 下方显示对应日期、干支、生肖、星座，并列出农历生日今后三年对应的公历日期。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 年龄计算器
+网址: https://wan.is-my.app/nianling/
+说明: 免费年龄计算器：输入出生日期，算出周岁、虚岁、精确到天的年龄、已经活了多少天、生肖、星座，以及距离下一次公历和农历生日还有几天，填表、办证、算年龄都方便。
+用法: 选择公历出生日期。 「计算到」默认是今天，也可以改成某个日期（例如入学、退休日期）。 下方显示周岁、虚岁、出生天数、农历生日、生肖星座和下次生日倒计时。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 节日倒计时
+网址: https://wan.is-my.app/daojishi/
+说明: 免费节日倒计时：实时显示距离春节、除夕、元旦、元宵、清明、劳动节、端午、高考、七夕、中秋、国庆、双十一、圣诞节还有多少天，还能自定义倒计时日期，精确到秒。
+用法: 页面下方自动列出各个节日的日期和剩余天数，按时间先后排列。 在上方填写自己的倒计时名称和目标日期时间，例如考试、婚礼、发工资日，会自动保存。 点「全屏显示」可以把倒计时投到大屏幕或直播间。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 世界时间
+网址: https://wan.is-my.app/shijie-shijian/
+说明: 免费世界时间查询和时差换算：实时显示北京、东京、伦敦、纽约、洛杉矶、悉尼等 30 个城市的当前时间和与北京的时差，自动处理夏令时。
+用法: 打开页面即显示 30 个主要城市的实时时间，以及和北京的时差。 需要换算时，选择一个城市并输入该城市的日期时间，表格会显示同一时刻其他城市的时间。 点「用现在时间」回到实时时钟。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 尺码换算
+网址: https://wan.is-my.app/chima/
+说明: 免费尺码换算工具：输入脚长或任意一种鞋码，换算中国码、欧码、美码（男/女）、英码和日本码；输入身高体重推荐衣服尺码（S/M/L/XL 和国标号型）。
+用法: 鞋码：选择输入方式（脚长或某种鞋码），输入数值，立即换算出其他尺码。 量脚长：脚跟贴墙站在白纸上，量墙到最长脚趾的距离，两只脚取较长的一只。 衣服：选择性别，输入身高体重，得到推荐尺码和国标号型。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 基础代谢 / 体脂率计算器
+网址: https://wan.is-my.app/jichudaixie/
+说明: 免费基础代谢和体脂率计算器：输入性别、年龄、身高、体重，算出基础代谢 BMR、每日总消耗 TDEE、减脂和增肌建议摄入热量。
+用法: 选择性别，填写年龄、身高、体重和平时的活动量。 想算得更准的体脂率，用软尺量腰围（肚脐高度）、颈围（喉结下方），女性再量臀围。 下方显示基础代谢、每日总消耗、减脂和增肌的建议热量。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 油耗计算器
+网址: https://wan.is-my.app/youhao/
+说明: 免费油耗计算器：输入行驶里程、加油量和油价，算出百公里油耗、每公里油费和每月油费；新能源车可算百公里电耗和每公里电费，油车电车用车成本一键对比。
+用法: 加满油后把里程表清零，下次再加满时记下行驶里程和这次加油的升数。 填写里程、加油量和油价，得到真实的百公里油耗和每公里油费。 想对比电车，填写百公里电耗、电价和每月里程，看看每月能省多少。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 身份证号码校验
+网址: https://wan.is-my.app/shenfenzheng/
+说明: 免费身份证号码校验工具：检查 18 位身份证号的校验码是否正确，解析发证地省份、出生日期、性别和年龄，支持 15 位老身份证升级为 18 位。
+用法: 输入 18 位身份证号码，或 15 位老身份证号。 立即显示校验结果：校验码、出生日期和地区码是否有效。 15 位号码会自动升级成 18 位并给出新号码。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 在线 Excel 表格
+网址: https://wan.is-my.app/excel/
+说明: 免费在线 Excel：打开即用的网页电子表格，支持公式函数、合并单元格、筛选排序、图表，能打开和导出 xlsx、导出 CSV，数据只在本机浏览器，不上传。
+用法: 直接点击单元格输入内容，或点「打开 Excel 文件」选择本机的 .xlsx。 像在 Excel 里一样输入公式（如 =SUM(A1:A10)），用顶部工具栏设置字体、颜色、合并、筛选和图表。 编辑会自动保存在本机浏览器；完成后点「导出 .xlsx」下载，或导出当前工作表为 CSV。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## AI 图片无损放大
+网址: https://wan.is-my.app/fangda/
+说明: 免费 AI 图片放大：用 ESRGAN 超分辨率模型把小图、模糊图放大 2 倍、3 倍或 4 倍，边缘更清晰，适合头像、截图、老照片，图片不上传。
+用法: 点击或拖入一张图片（JPG、PNG、WebP）。 选择放大倍数和模式：快速模式适合手机和普通电脑，高质量模式细节更好但更慢。 点「开始 AI 放大」，第一次会下载 1—3 MB 的模型；完成后对比原图，点「下载 PNG」保存。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Windows 快捷键大全
+网址: https://wan.is-my.app/windows-kuaijiejian/
+说明: Windows 快捷键大全：Win10 和 Win11 常用快捷键速查，复制粘贴、截图、分屏、虚拟桌面、文件管理器、浏览器和输入法快捷键，支持关键词搜索。
+用法: 在搜索框输入你想做的事，比如「截图」「锁屏」「虚拟桌面」。 按表格里的组合键：先按住前面的键（如 Win、Ctrl），再按后面的键。 常用的几组记下来，比如 Win + E、Win + Shift + S、Win + V，能省很多时间。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Mac 快捷键大全
+网址: https://wan.is-my.app/mac-kuaijiejian/
+说明: Mac 快捷键大全：macOS 常用快捷键速查，拷贝粘贴、截图、强制退出、访达、全屏和调度中心、文字编辑、显示隐藏文件，支持关键词搜索。
+用法: ⌘ 是 Command 键，⌥ 是 Option 键，⇧ 是 Shift 键，Control 是 Control 键。 在搜索框输入想做的事，比如「截图」「隐藏文件」「强制退出」。 习惯以后，Windows 的 Ctrl 快捷键大多对应 Mac 的 ⌘。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Windows CMD 常用命令
+网址: https://wan.is-my.app/cmd-mingling/
+说明: Windows CMD 常用命令大全：网络排查 ipconfig、ping、netstat，系统修复 sfc、DISM、chkdsk。
+用法: 按 Win + R 输入 cmd 回车打开命令提示符；需要管理员权限的命令，在开始菜单搜索「cmd」，右键「以管理员身份运行」。 在下面搜索你要做的事，比如「DNS」「端口」「修复」。 复制命令粘贴到窗口里回车执行；删除类命令执行前务必确认路径。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Linux / Mac 终端命令
+网址: https://wan.is-my.app/linux-mingling/
+说明: Linux 常用命令大全：文件目录、查看搜索、权限、进程、网络命令速查，附 macOS 终端专用命令（pbcopy、caffeinate、显示隐藏文件）。
+用法: Mac 打开「终端」App（在启动台或聚焦搜索 Terminal）；Linux 打开终端或 SSH 登录服务器。 在下面搜索你要做的事，比如「解压」「端口」「磁盘」。 把命令里的中文部分换成你自己的文件名或路径，回车执行。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 蓝屏错误代码查询
+网址: https://wan.is-my.app/lanping-daima/
+说明: Windows 蓝屏错误代码查询：CRITICAL_PROCESS_DIED、IRQL_NOT_LESS_OR_EQUAL。
+用法: 记下蓝屏上的「终止代码」和可能显示的出错文件名（如 xxx.sys）。 在下面搜索框输入代码（可以只输一部分，如 IRQL）或十六进制编号。 按建议从简单到复杂排查：先更新或回滚驱动、修复系统文件，再检查内存和硬盘。重要数据先备份。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 电商利润计算器
+网址: https://wan.is-my.app/dianshang-lirun/
+说明: 免费电商利润计算器：输入售价、商品成本、运费、包装、平台佣金、推广费、退货率和税点，算出每单毛利、净利润、毛利率和净利率，淘宝、天猫、京东、拼多多。
+用法: 填写售价（买家实付）、商品进货成本、快递费和包装费。 填写平台佣金加支付手续费的比例、推广费占销售额的比例、退货率和税点。 下方显示每单毛利、净利润、净利率、月利润和保本售价。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 定价与折扣反算
+网址: https://wan.is-my.app/dingjia-zhekou/
+说明: 免费商品定价与折扣反算工具：按目标毛利率或加价率算出售价，按活动到手价和折扣反推标价，比较加价率和毛利率的区别，算出打几折还能保本，大促报名、定价前必用。
+用法: 按利润定价：填全部成本（含运费佣金）和想要的毛利率，得到售价。 活动报名：填活动要求的到手价、折扣和优惠券，反推商品标价。 清仓打折：填标价、成本和最低要保留的毛利率，算出最多能打几折。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 满减优惠叠加计算器
+网址: https://wan.is-my.app/manjian/
+说明: 免费满减优惠叠加计算器：输入购物车商品价格和满减档位、店铺券、平台券、折扣，自动算出最省的凑单组合、实付金额和每件商品分摊后的到手价，双十一。
+用法: 在文本框里每行写一个商品，格式「名称 价格」或只写价格。 填写满减规则：跨店满减写「每满300减50」，阶梯满减写「满200减20,满400减50」。 如有折扣、店铺券、平台券也填上，下方显示实付金额、每件商品分摊后的到手价和折扣率最高的组合。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## ROI / 保本 ROI 计算器
+网址: https://wan.is-my.app/roi/
+说明: 免费投放 ROI 计算器：输入推广花费、成交金额和毛利率，算出投产比 ROI（ROAS）、保本 ROI、净利润、保本出价和最高可接受的获客成本。
+用法: 填写推广花费、带来的成交金额和订单数（从投放后台数据报表里复制）。 填写毛利率：扣掉商品成本、运费、平台佣金后的利润占售价比例。 填写退款率，下方显示当前 ROI、保本 ROI、是否盈利、保本出价和费比。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 转化率 / 客单价 / UV 价值
+网址: https://wan.is-my.app/zhuanhualv/
+说明: 免费电商转化率计算器：输入访客数、支付买家数、订单数和销售额，算出转化率、客单价、UV 价值、件单价和连带率；也能按目标销售额反推需要多少访客和转化率。
+用法: 从店铺后台（生意参谋、京东商智、抖店罗盘等）复制访客数、支付买家数、订单数、件数和销售额。 下方自动算出转化率、客单价、UV 价值、件单价和连带率。 填写目标销售额，反推需要的访客数、转化率或客单价。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 平台佣金手续费计算
+网址: https://wan.is-my.app/pingtai-yongjin/
+说明: 免费电商平台佣金手续费计算器：选择淘宝、天猫、京东、拼多多、抖音小店、快手、小红书、视频号，输入订单金额和达人佣金比例，算出平台扣点、支付手续费。
+用法: 选择平台，页面会填入该平台常见的扣点参考值并显示说明。 对照商家后台的实际费率修改「平台扣点合计」，有达人带货再填达人佣金比例。 下方显示平台扣点、达人佣金和商家实际到手金额。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 体积重 / 运费计算
+网址: https://wan.is-my.app/tijizhong/
+说明: 免费体积重计算器：输入包裹长宽高和实际重量，按 5000、6000 或 8000 抛比算出体积重和计费重，再按首重续重价格算出运费，适用于国际快递、跨境小包。
+用法: 量出包裹外箱的长、宽、高（厘米）并称出实际重量。 选择物流商使用的抛比，国际快递常用 5000。 填写首重、续重价格，下方显示体积重、计费重量和运费。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 广告法违禁词检测
+网址: https://wan.is-my.app/weijinci/
+说明: 免费广告法违禁词检测工具：粘贴商品标题、详情页、种草笔记或直播文案，自动标红「最、第一、国家级、顶级」等极限用语，以及虚假权威、医疗功效、迷信。
+用法: 把商品标题、详情页文案、小红书笔记或直播话术粘贴到文本框。 下方实时标红可能违规的词，并按类别列出出现次数。 修改文案后再次检测，也可以点「复制去掉违禁词后的文案」快速得到初稿。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 直播违禁词检测
+网址: https://wan.is-my.app/zhibo-weijinci/
+说明: 免费直播违禁词检测：粘贴直播话术或口播稿，自动标红极限用语、站外引流词（加微信、私下交易）、虚假营销（刷单、返现、原价999）、诱导互动和医疗功效等违规词。
+用法: 把准备好的直播话术、口播稿或商品讲解词粘贴进来。 下方实时标红违规词，并按「站外引流、虚假营销、极限用语、医疗功效」等类别列出。 按提示修改话术，直播时尽量用「推荐、好用、性价比高」等中性表达。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 电商主图尺寸裁剪 / 白底图
+网址: https://wan.is-my.app/zhutu/
+说明: 免费电商主图尺寸裁剪工具：内置淘宝、天猫、京东、拼多多、抖音小店、小红书、视频号、亚马逊等平台主图尺寸，上传商品图后自动居中、补白底或裁切铺满，可调整边距。
+用法: 选择要上架的平台尺寸，例如「淘宝 / 天猫主图 800×800」。 上传一张或多张商品图，选择「完整放入，补白底」或「裁切铺满」，调整边距。 确认预览后点「下载全部」，得到对应尺寸的 JPG 图片。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## SKU 组合生成器
+网址: https://wan.is-my.app/sku-zuhe/
+说明: 免费 SKU 组合生成器：输入颜色、尺码、规格等多组属性值，自动生成全部排列组合和 SKU 编码，支持自定义编码前缀和分隔符，一键复制或导出 CSV。
+用法: 每行写一组属性，例如「颜色: 黑色, 白色」「尺码: S, M, L」。 设置编码前缀和分隔符，可填默认价格和库存。 下方自动生成全部组合，点「复制表格」粘贴到 Excel，或导出 CSV。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 库存周转 / 补货计算
+网址: https://wan.is-my.app/kucun-zhouzhuan/
+说明: 免费库存周转计算器：输入期初期末库存、销售成本和日均销量，算出库存周转率、周转天数、可售天数，并按采购周期和波动算出安全库存、补货点和建议补货量。
+用法: 填写统计期的期初、期末库存金额和销售成本，算出周转率和周转天数。 填写当前库存件数、日均销量、最高日销量和供应商到货周期。 下方给出安全库存、补货点和建议补货量。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 个体户税费估算
+网址: https://wan.is-my.app/getihu-shuifei/
+说明: 免费个体工商户税费估算：按小规模纳税人增值税 1% 征收率和月销售额 10 万元以下免征政策、附加税减半。
+用法: 填写一年的含税销售额和可以扣除的成本费用（进货、房租、工资、运费、推广等）。 填写个人缴纳的社保，选择是否有其他工资收入，选择是否按小规模纳税人计算增值税。 下方按现行优惠政策估算增值税、附加税和经营所得个税。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 直播话术模板
+网址: https://wan.is-my.app/zhibo-huashu/
+说明: 免费直播话术模板大全：开场欢迎、商品介绍、价格福利、互动留人、合规促单、售后信任和下播话术，填写商品名、卖点、价格后一键生成整套口播稿。
+用法: 填写店铺名、商品名、两个核心卖点、直播价和福利。 勾选需要的话术环节：开场、介绍、福利、留人、促单、售后、下播。 复制生成的话术，补全花括号里的内容，也可以放进「直播间提词器」照着读。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 直播间提词器
+网址: https://wan.is-my.app/zhibo-tici/
+说明: 免费在线提词器：粘贴口播稿或直播话术，全屏大字自动滚动，可调速度、字号、行距和镜像翻转，支持空格暂停、方向键调速，手机放在镜头旁边或电脑副屏都能用，适合直播。
+用法: 把口播稿或直播话术粘贴到文本框，空行会保留为段落间距。 调整滚动速度、字号，如果配合提词器玻璃使用就选「左右镜像」。 点「全屏开始」，文字从下往上滚动，中间的绿线是当前朗读位置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 直播抽奖 / 倒计时
+网址: https://wan.is-my.app/zhibo-choujiang/
+说明: 免费直播抽奖工具：粘贴评论区或粉丝名单，设置中奖人数和倒计时，大屏滚动后随机抽出中奖者，可去重、排除已中奖、导出结果；也能单独当直播开奖倒计时使用。
+用法: 把参与抽奖的名单粘贴进来，每行一个昵称，可以勾选自动去重。 设置中奖人数和开奖倒计时秒数。 点「开始抽奖」，倒计时结束后显示中奖名单；点「全屏展示」可以投到直播画面上。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## OBS 推流码率计算
+网址: https://wan.is-my.app/obs-malv/
+说明: 免费 OBS 推流码率计算器：选择直播平台、分辨率、帧率和编码器，输入上传带宽，推荐视频码率、关键帧间隔、音频码率和 x264 预设，并检查带宽是否够用。
+用法: 选择推流分辨率、帧率、内容类型和编码器（N 卡选 NVENC）。 填写测速得到的上传带宽，选择推流平台。 按推荐值在 OBS「设置 → 输出（高级）」里填写码率、关键帧间隔和预设。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 绿幕抠像
+网址: https://wan.is-my.app/lvmu-koutu/
+说明: 免费在线绿幕抠像：打开摄像头或上传绿幕视频、图片，实时去除绿色或蓝色背景，调整相似度、平滑度和溢色抑制，换成图片背景或纯色，可截图导出 PNG。
+用法: 点「打开摄像头」，或上传一段绿幕视频 / 图片。 默认抠除纯绿色，如果效果不好，在画面的绿幕区域点一下吸取实际颜色，再调相似度和平滑度。 选择透明、纯色或图片背景，点「截图导出 PNG」；直播时可在 OBS 用窗口捕获这个页面。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 大模型 API 价格对比
+网址: https://wan.is-my.app/damoxing-api-jiage/
+说明: 大模型 API 价格对比表：DeepSeek、智谱 GLM、OpenAI GPT、Anthropic Claude 的输入、输出。
+用法: 在表中找到想用的模型，对比输入、输出和缓存命中价格。 海外模型看「折合人民币」列，汇率按当日参考汇率估算。 用 Token 计算器填入你的用量，估算每月费用；正式使用前到官方价格页确认最新价格。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Token 计算 / API 费用估算
+网址: https://wan.is-my.app/token-jisuan/
+说明: 免费 Token 计算器：粘贴文字估算中英文 token 数，填写每天调用次数和每次输入输出长度，按 DeepSeek、GLM、GPT。
+用法: （可选）粘贴提示词或文档，估算它有多少 tokens。 填写每次调用的输入、输出 tokens 和每天调用次数；有固定系统提示词时可以填缓存命中比例。 下方按价格从低到高列出各模型每天和每月的费用，也可以填自定义单价对比。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 大模型显存需求计算器
+网址: https://wan.is-my.app/xiancun-jisuan/
+说明: 免费大模型显存需求计算器：输入模型参数量、量化精度（FP16、Q8、Q4）、上下文长度和并发数，估算模型权重、KV 缓存和总显存需求，判断 8GB、12GB。
+用法: 选择常见模型大小，或直接填写参数量（例如 DeepSeek-R1 蒸馏 8B 填 8）。 选择量化精度（Ollama 默认多为 Q4_K_M），填写上下文长度和并发数。 查看估算总显存，以及常见显卡和 Mac 能否完整运行。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## JSON 格式化
@@ -1075,6 +1616,1146 @@
 网址: https://wan.is-my.app/url-encode/
 说明: 免费在线 URL 编码解码工具：中文网址 urlencode 编码、%E4%B8%AD 乱码解码还原，支持整条网址和参数两种模式，并可解析网址查询参数。
 用法: 粘贴网址或文字。 点「解码」把 %XX 还原成中文；点「编码」把中文转成 %XX。 「编码（参数）」会连 / ? & 一起编码，适合放进参数里；「整条网址」只编码中文和空格。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 豆包官方下载
+网址: https://wan.is-my.app/doubao-download/
+说明: 豆包官方下载：豆包是字节跳动推出的免费 AI 助手，能聊天问答、写作、翻译、读文档、AI 搜索和生成图片，有网页版、电脑客户端和手机 App。
+用法: 打开 豆包 官方网站（doubao.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Kimi官方下载
+网址: https://wan.is-my.app/kimi-download/
+说明: Kimi官方下载：Kimi 是月之暗面推出的 AI 助手，擅长超长文本阅读、联网搜索和深度研究，可以一次读多份文件、网页并整理成报告。
+用法: 打开 Kimi 官方网站（kimi.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## DeepSeek官方下载
+网址: https://wan.is-my.app/deepseek-download/
+说明: DeepSeek官方下载：DeepSeek（深度求索）提供免费的 AI 对话网页版和手机 App，推理和代码能力强；开发者可以按量付费调用 API，模型权…
+用法: 打开 DeepSeek 官方网站（deepseek.com），进入下载页面。 选择与你电脑系统对应的版本：。 双击 .dmg 把应用拖进「应用程序」文件夹，首次打开按提示授予所需权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 千问（原通义）官方下载
+网址: https://wan.is-my.app/qianwen-download/
+说明: 千问（原通义）官方下载：千问是阿里巴巴的 AI 助手（原「通义」App 和 tongyi.com 已升级为千问），基于通义千问 Qwen 大模型，能对话、…
+用法: 打开 千问（原通义） 官方网站（qianwen.com），进入下载页面。 选择与你电脑系统对应的版本：。 双击 .dmg 把应用拖进「应用程序」文件夹，首次打开按提示授予所需权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 文心（原文心一言 / 文小言）官方下载
+网址: https://wan.is-my.app/wenxin-download/
+说明: 文心（原文心一言 / 文小言）官方下载：文心是百度的 AI 助手，App 由「文心一言」「文小言」更名而来，网页版文心一言也已统一到文心助手，提供 AI …
+用法: 打开 文心（原文心一言 / 文小言） 官方网站（wenxiaoyan.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 智谱清言官方下载
+网址: https://wan.is-my.app/zhipu-qingyan-download/
+说明: 智谱清言官方下载：智谱清言是智谱 AI 基于 GLM 大模型推出的 AI 助手，支持对话、写作、数据分析、AI 搜索和智能体，还集成了「清影」AI 视频生…
+用法: 打开 智谱清言 官方网站（chatglm.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 腾讯元宝官方下载
+网址: https://wan.is-my.app/yuanbao-download/
+说明: 腾讯元宝官方下载：腾讯元宝是腾讯推出的免费 AI 助手，可以切换腾讯混元和 DeepSeek 模型，联网搜索公众号等内容，支持读文件、写作和生图，和微信、…
+用法: 打开 腾讯元宝 官方网站（yuanbao.tencent.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 讯飞星火官方下载
+网址: https://wan.is-my.app/xinghuo-download/
+说明: 讯飞星火官方下载：讯飞星火是科大讯飞的 AI 助手，语音识别和语音交互是强项，支持对话、写作、PPT 生成、文档问答和多语种翻译。
+用法: 打开 讯飞星火 官方网站（xinghuo.xfyun.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 天工 AI官方下载
+网址: https://wan.is-my.app/tiangong-download/
+说明: 天工 AI官方下载：天工 AI 是昆仑万维推出的 AI 助手，提供 AI 搜索、深度研究、写作、文档和 PPT 生成，以及「天工音乐」AI 作曲等功能。
+用法: 打开 天工 AI 官方网站（tiangong.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 海螺 AI官方下载
+网址: https://wan.is-my.app/hailuo-download/
+说明: 海螺 AI官方下载：海螺 AI 是 MiniMax 推出的 AI 助手，能对话、写作、读文件、语音通话，并有海螺视频（AI 视频生成）和语音合成能力。
+用法: 打开 海螺 AI 官方网站（hailuoai.com），进入下载页面。 选择与你电脑系统对应的版本：。 双击 .dmg 把应用拖进「应用程序」文件夹，首次打开按提示授予所需权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 纳米 AI官方下载
+网址: https://wan.is-my.app/nami-ai-download/
+说明: 纳米 AI官方下载：纳米 AI（原 360 AI 搜索）是 360 推出的 AI 搜索和智能体平台，可以调用多个大模型对比回答，生成报告、视频和 PPT。
+用法: 打开 纳米 AI 官方网站（n.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 秘塔 AI 搜索官网入口
+网址: https://wan.is-my.app/metaso-download/
+说明: 秘塔 AI 搜索官网入口：秘塔 AI 搜索是无广告的 AI 搜索引擎，直接给出结构化答案、脑图和参考来源，支持学术、文库搜索和长文研究。
+用法: 打开 秘塔 AI 搜索 官方网站（metaso.cn），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## ChatGPT官方下载
+网址: https://wan.is-my.app/chatgpt-download/
+说明: ChatGPT官方下载：ChatGPT 是 OpenAI 推出的 AI 助手，支持对话、写作、编程、图片生成、语音对话和联网搜索，有网页版、Windows…
+用法: 打开 ChatGPT 官方网站（chatgpt.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Claude官方下载
+网址: https://wan.is-my.app/claude-download/
+说明: Claude官方下载：Claude 是 Anthropic 推出的 AI 助手，擅长长文写作、阅读理解和编程，桌面版支持 MCP 连接本地工具和文件。
+用法: 打开 Claude 官方网站（claude.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Gemini官网入口
+网址: https://wan.is-my.app/gemini-download/
+说明: Gemini官网入口：Gemini 是 Google 的 AI 助手，支持对话、写作、图片和视频生成、深度研究，可以连接 Gmail、Google 文档等…
+用法: 打开 Gemini 官方网站（gemini.google.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Grok官网入口
+网址: https://wan.is-my.app/grok-download/
+说明: Grok官网入口：Grok 是 xAI 推出的 AI 助手，可以联网和读取 X 平台实时信息，支持对话、写作、编程、图片生成和语音模式。
+用法: 打开 Grok 官方网站（grok.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Microsoft Copilot官方下载
+网址: https://wan.is-my.app/copilot-download/
+说明: Microsoft Copilot官方下载：Microsoft Copilot 是微软的免费 AI 助手，可以对话、写作、生成图片，Windows 11 …
+用法: 打开 Microsoft Copilot 官方网站（copilot.microsoft.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Perplexity官方下载
+网址: https://wan.is-my.app/perplexity-download/
+说明: Perplexity官方下载：Perplexity 是一款 AI 搜索引擎，回答问题时附上引用来源，支持深度研究、多模型切换，并推出了 Comet AI …
+用法: 打开 Perplexity 官方网站（perplexity.ai），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Poe官方下载
+网址: https://wan.is-my.app/poe-download/
+说明: Poe官方下载：Poe 是 Quora 推出的 AI 聚合平台，一个账号里可以使用多家公司的大模型和各种机器人，还能自己创建机器人。
+用法: 打开 Poe 官方网站（poe.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 即梦 AI官网入口
+网址: https://wan.is-my.app/jimeng-download/
+说明: 即梦 AI官网入口：即梦是字节跳动剪映团队的 AI 创作平台，可以用文字或图片生成图片和视频，支持海报文字、图片编辑、数字人和对口型，中文提示词效果好。
+用法: 打开 即梦 AI 官方网站（jimeng.jianying.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 可灵 AI官网入口
+网址: https://wan.is-my.app/kling-download/
+说明: 可灵 AI官网入口：可灵 AI 是快手推出的 AI 视频和图片生成平台，支持文生视频、图生视频、多图参考、视频续写和对口型，生成画面的动作自然度在国内处于…
+用法: 打开 可灵 AI 官方网站（klingai.kuaishou.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 通义万相官网入口
+网址: https://wan.is-my.app/tongyi-wanxiang/
+说明: 通义万相官网入口：通义万相是阿里巴巴的 AI 图片和视频生成平台，基于万相（Wan）模型，支持文生图、文生视频、图生视频，万相视频模型还开源可本地部署。
+用法: 打开 通义万相 官方网站（tongyi.aliyun.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## LiblibAI（哩布哩布）官网入口
+网址: https://wan.is-my.app/liblib-download/
+说明: LiblibAI（哩布哩布）官网入口：LiblibAI 是国内大型 AI 绘画模型分享社区，可以下载 Stable Diffusion / Flux 模型…
+用法: 打开 LiblibAI（哩布哩布） 官方网站（liblib.art），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Midjourney官网入口
+网址: https://wan.is-my.app/midjourney-download/
+说明: Midjourney官网入口：Midjourney 是知名的 AI 绘画服务，画面审美和艺术风格突出，现在可以直接在官网网页里生成和编辑图片，也支持图生视…
+用法: 打开 Midjourney 官方网站（midjourney.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Stable Diffusion WebUI官方下载
+网址: https://wan.is-my.app/sd-webui-download/
+说明: Stable Diffusion WebUI官方下载：Stable Diffusion WebUI（A1111）是最经典的本地 AI 绘画开源程序，在自己…
+用法: 确认电脑有 NVIDIA 显卡并安装最新驱动；安装 Python 3.10 和 Git（按仓库 README 说明）。 打开官方 GitHub 仓库，按 README 克隆代码，Windows 运行 webui-user.bat，首次启动会自动下载依赖。 到 LiblibAI、Civitai 或 HuggingFace 下载模型放进 models/Stable-diffusion 目录，浏览器打开 127.0.0.1:7860 开始生图。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## SD WebUI Forge官方下载
+网址: https://wan.is-my.app/forge-download/
+说明: SD WebUI Forge官方下载：Forge 是 ControlNet 作者 lllyasviel 基于 WebUI 打造的分支，界面相同但显存占用更…
+用法: 打开 SD WebUI Forge 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## ComfyUI官方下载
+网址: https://wan.is-my.app/comfyui-download/
+说明: ComfyUI官方下载：ComfyUI 是节点式的开源 AI 生图 / 生视频工具，支持 SD、SDXL、Flux、Wan、混元等最新图片和视频模型，有官…
+用法: 打开 comfy.org 下载页，Windows（NVIDIA 显卡）或 Mac（M 系列芯片）下载桌面版安装包。 也可以在 GitHub Releases 下载 Windows 便携版 7z 压缩包，解压后运行 run_nvidia_gpu.bat。 在模板里选择一个工作流，按提示下载对应模型，点「运行」生成图片或视频。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Fooocus官方下载
+网址: https://wan.is-my.app/fooocus-download/
+说明: Fooocus官方下载：Fooocus 是一款极简的本地 AI 绘画程序，像 Midjourney 一样只需输入提示词，自动优化参数，下载整合包解压就能用。
+用法: 打开 Fooocus 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## InvokeAI官方下载
+网址: https://wan.is-my.app/invokeai-download/
+说明: InvokeAI官方下载：InvokeAI 是面向设计师的开源 AI 绘画工具，提供统一画布、图层和节点工作流，支持 SD、SDXL、Flux 模型，有官…
+用法: 打开 InvokeAI 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Krita AI Diffusion官方下载
+网址: https://wan.is-my.app/krita-ai-download/
+说明: Krita AI Diffusion官方下载：Krita AI Diffusion 是免费绘画软件 Krita 的开源 AI 插件，在画布上直接用 AI …
+用法: 先在 krita.org 下载安装 Krita。 在插件 GitHub Releases 下载 zip，Krita 中选「工具 → 脚本 → 从文件导入 Python 插件」，重启 Krita。 打开 AI Image Generation 面板，选择自动安装本地服务器或连接已有 ComfyUI。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 海螺视频官网入口
+网址: https://wan.is-my.app/hailuo-video/
+说明: 海螺视频官网入口：海螺视频是 MiniMax 的 AI 视频生成平台，支持文生视频、图生视频和主体参考，动作和镜头表现力强。
+用法: 打开 海螺视频 官方网站（hailuoai.video），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Vidu官网入口
+网址: https://wan.is-my.app/vidu-download/
+说明: Vidu官网入口：Vidu 是生数科技与清华大学团队推出的 AI 视频生成平台，支持文生视频、图生视频、多主体参考，适合动漫和短片创作。
+用法: 打开 Vidu 官方网站（vidu.cn），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 清影官网入口
+网址: https://wan.is-my.app/qingying-video/
+说明: 清影官网入口：清影是智谱 AI 基于 CogVideoX 系列模型的 AI 视频生成工具，集成在智谱清言里，可以用文字或图片生成短视频并配音效。
+用法: 打开 清影 官方网站（chatglm.cn），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## PixVerse 拍我AI官网入口
+网址: https://wan.is-my.app/pixverse-download/
+说明: PixVerse 拍我AI官网入口：PixVerse（国内版名为「拍我AI」）是爱诗科技推出的 AI 视频生成工具，模板特效丰富，适合做短视频特效和创意视…
+用法: 打开 PixVerse 拍我AI 官方网站（pixverse.ai），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Runway官网入口
+网址: https://wan.is-my.app/runway-download/
+说明: Runway官网入口：Runway 是海外知名的 AI 视频创作平台，提供 Gen 系列视频生成模型、视频编辑和绿幕抠像等工具，常用于广告和影视前期。
+用法: 打开 Runway 官方网站（runwayml.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Pika官网入口
+网址: https://wan.is-my.app/pika-download/
+说明: Pika官网入口：Pika 是一款 AI 视频生成工具，以趣味特效（如捏扁、膨胀、替换物体）和图生视频著称，操作简单。
+用法: 打开 Pika 官方网站（pika.art），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Luma Dream Machine官网入口
+网址: https://wan.is-my.app/luma-download/
+说明: Luma Dream Machine官网入口：Dream Machine 是 Luma AI 的视频和图片生成平台，基于 Ray 系列模型，画面电影感强，…
+用法: 打开 Luma Dream Machine 官方网站（lumalabs.ai），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Sora官网入口
+网址: https://wan.is-my.app/sora-info/
+说明: Sora官网入口：Sora 是 OpenAI 的 AI 视频生成产品。根据 OpenAI 官方说明，Sora 网页版和 App 已于 2026 年 4 月…
+用法: 打开 OpenAI 官方帮助中心的 Sora 停服说明，了解停服时间和数据删除安排。 如曾使用 Sora，按说明在官方页面导出自己的作品。 需要继续做 AI 视频，可以改用本页推荐的可灵、即梦、海螺视频、Vidu 等工具。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 剪映官方下载
+网址: https://wan.is-my.app/jianying-download/
+说明: 剪映官方下载：剪映是字节跳动的视频剪辑软件，专业版电脑客户端免费下载，内置智能字幕、文字成片、AI 配音、数字人、一键成片等 AI 功能。
+用法: 打开 剪映 官方网站（capcut.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Suno官网入口
+网址: https://wan.is-my.app/suno-download/
+说明: Suno官网入口：Suno 是 AI 音乐生成平台，输入描述或歌词就能生成带人声和伴奏的完整歌曲，支持中文歌词和多种曲风。
+用法: 打开 Suno 官方网站（suno.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## GPT-SoVITS官方下载
+网址: https://wan.is-my.app/gpt-sovits-download/
+说明: GPT-SoVITS官方下载：GPT-SoVITS 是热门的开源语音克隆和文字转语音工具，只需 1 分钟左右的声音素材就能训练出相似音色，支持中文、英文、…
+用法: 打开 GPT-SoVITS 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Fish Audio官网入口
+网址: https://wan.is-my.app/fish-audio-download/
+说明: Fish Audio官网入口：Fish Audio 是 AI 语音平台，提供大量社区音色的文字转语音和声音克隆，背后的 Fish Speech / Ope…
+用法: 打开 Fish Audio 官方网站（fish.audio），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Whisper官方下载
+网址: https://wan.is-my.app/whisper-download/
+说明: Whisper官方下载：Whisper 是 OpenAI 开源的语音识别模型，可以把音频、视频转成文字和字幕，支持中文等近百种语言，可以完全离线运行。
+用法: 安装 Python 和 ffmpeg。 按 GitHub README 运行 pip install -U openai-whisper 安装。 运行 whisper 音频文件.mp3 --language Chinese --model medium 生成文字和字幕。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Buzz官方下载
+网址: https://wan.is-my.app/buzz-download/
+说明: Buzz官方下载：Buzz 是基于 Whisper 的开源桌面软件，有图形界面，可以离线把音频、视频转成文字和字幕，也能实时录音转写。
+用法: 打开 Buzz 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## RVC 变声官方下载
+网址: https://wan.is-my.app/rvc-download/
+说明: RVC 变声官方下载：RVC（Retrieval-based Voice Conversion）是开源的 AI 变声工具，可以训练音色模型做歌声翻唱和实时…
+用法: 打开 RVC 变声 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## CosyVoice官方下载
+网址: https://wan.is-my.app/cosyvoice-download/
+说明: CosyVoice官方下载：CosyVoice 是阿里通义实验室开源的多语言语音合成模型，支持零样本声音克隆、方言和情感控制。
+用法: 打开 CosyVoice 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## ElevenLabs官网入口
+网址: https://wan.is-my.app/elevenlabs-download/
+说明: ElevenLabs官网入口：ElevenLabs 是海外知名的 AI 语音平台，提供高拟真文字转语音、声音克隆、视频配音翻译和音效生成。
+用法: 打开 ElevenLabs 官方网站（elevenlabs.io），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 魔音工坊官网入口
+网址: https://wan.is-my.app/moyin-download/
+说明: 魔音工坊官网入口：魔音工坊是出门问问旗下的 AI 配音平台，提供大量中文主播音色，常用于短视频解说、有声书和广告配音。
+用法: 打开 魔音工坊 官方网站（moyin.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Cursor官方下载
+网址: https://wan.is-my.app/cursor-download/
+说明: Cursor官方下载：Cursor 是基于 VS Code 的 AI 代码编辑器，内置 Agent 可以理解整个项目、跨文件修改代码、运行命令，兼容 VS…
+用法: 打开 Cursor 官方网站（cursor.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Trae官方下载
+网址: https://wan.is-my.app/trae-download/
+说明: Trae官方下载：Trae 是字节跳动推出的 AI 原生 IDE，内置 Builder / SOLO 等智能体模式，可以用自然语言从零生成项目；国际版在 …
+用法: 打开 Trae 官方网站（trae.ai），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 通义灵码官方下载
+网址: https://wan.is-my.app/lingma-download/
+说明: 通义灵码官方下载：通义灵码是阿里云的 AI 编程助手，以插件形式装进 VS Code、JetBrains 等 IDE，也有独立的灵码 IDE，提供补全、问…
+用法: 打开 通义灵码 官方网站（lingma.aliyun.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## GitHub Copilot官网入口
+网址: https://wan.is-my.app/github-copilot-download/
+说明: GitHub Copilot官网入口：GitHub Copilot 是 GitHub 的 AI 编程助手，可在 VS Code、Visual Studio…
+用法: 打开 GitHub Copilot 官方网站（github.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Devin Desktop（原 Windsurf）官方下载
+网址: https://wan.is-my.app/devin-desktop-download/
+说明: Devin Desktop（原 Windsurf）官方下载：Devin Desktop 是 Windsurf 编辑器的新名字（Windsurf 前身为 C…
+用法: 打开 Devin Desktop（原 Windsurf） 官方网站（devin.ai），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Claude Code官网入口
+网址: https://wan.is-my.app/claude-code-download/
+说明: Claude Code官网入口：Claude Code 是 Anthropic 的终端编程智能体，在命令行里读懂代码库、修改文件、运行测试和提交代码，也有…
+用法: 打开 Claude Code 官方网站（anthropic.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 腾讯云 CodeBuddy官网入口
+网址: https://wan.is-my.app/codebuddy-download/
+说明: 腾讯云 CodeBuddy官网入口：CodeBuddy 是腾讯云的 AI 编程助手，提供 IDE 插件和独立 IDE，支持代码补全、对话和智能体开发。
+用法: 打开 腾讯云 CodeBuddy 官方网站（copilot.tencent.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Continue官网入口
+网址: https://wan.is-my.app/continue-download/
+说明: Continue官网入口：Continue 是开源的 AI 编程插件，支持 VS Code 和 JetBrains，可以接入任意模型 API 或本地 Ol…
+用法: 打开 Continue 官方网站（continue.dev），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Cline官网入口
+网址: https://wan.is-my.app/cline-download/
+说明: Cline官网入口：Cline 是开源的 VS Code 编程智能体插件，能创建和修改文件、执行命令、操作浏览器，每一步都需要你确认，可接入各家模型 AP…
+用法: 打开 Cline 官方网站（cline.bot），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Ollama官方下载
+网址: https://wan.is-my.app/ollama-download/
+说明: Ollama官方下载：Ollama 是最流行的本地大模型运行工具，一行命令下载运行 DeepSeek、Qwen、Llama、Gemma 等开源模型，并提供…
+用法: 打开 ollama.com/download，下载 Windows / Mac 安装包，Linux 运行官网的一键安装命令。 安装后打开终端，运行 ollama run qwen3（或 deepseek-r1、gemma3 等）自动下载并开始对话。 需要图形界面可用 Cherry Studio、Chatbox、Open WebUI 等客户端，地址填 http://localhost:11434。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## LM Studio官方下载
+网址: https://wan.is-my.app/lm-studio-download/
+说明: LM Studio官方下载：LM Studio 是图形界面的本地大模型工具，在软件里搜索、下载 GGUF / MLX 模型后直接聊天，还能开启本地 API…
+用法: 打开 LM Studio 官方网站（lmstudio.ai），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Jan官方下载
+网址: https://wan.is-my.app/jan-download/
+说明: Jan官方下载：Jan 是开源的离线 AI 聊天软件，可以下载本地模型运行，也能接入云端 API，界面类似 ChatGPT，数据保存在本机。
+用法: 打开 Jan 官方网站（jan.ai），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## GPT4All官方下载
+网址: https://wan.is-my.app/gpt4all-download/
+说明: GPT4All官方下载：GPT4All 是 Nomic 推出的开源本地大模型桌面应用，主打在普通 CPU 电脑上运行，内置 LocalDocs 可以和本地…
+用法: 打开 GPT4All 官方网站（nomic.ai），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## llama.cpp官方下载
+网址: https://wan.is-my.app/llama-cpp-download/
+说明: llama.cpp官方下载：llama.cpp 是用 C/C++ 编写的开源大模型推理引擎，GGUF 格式就来自这里，Ollama、LM Studio 等…
+用法: 打开 llama.cpp 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## vLLM官方下载
+网址: https://wan.is-my.app/vllm-download/
+说明: vLLM官方下载：vLLM 是开源的高性能大模型推理和服务框架，适合在 GPU 服务器上部署模型对外提供 API，吞吐量高，企业私有化部署常用。
+用法: 准备 Linux GPU 服务器，安装 NVIDIA 驱动和 CUDA。 按官方文档 pip install vllm 或使用官方 Docker 镜像。 运行 vllm serve 模型名 启动 OpenAI 兼容服务，客户端填写服务器地址即可调用。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Open WebUI官方下载
+网址: https://wan.is-my.app/open-webui-download/
+说明: Open WebUI官方下载：Open WebUI 是自托管的 AI 聊天网页界面，连接 Ollama 或任意 OpenAI 兼容 API，支持多用户、知…
+用法: 打开 Open WebUI 官方网站或 GitHub 仓库，阅读部署文档，确认服务器或电脑的配置满足要求。 按官方文档用 Docker / Docker Compose 一键部署（国内服务器可配置镜像加速），或使用官方提供的云端版本。 部署完成后在浏览器打开管理后台，配置大模型 API Key 或连接本地 Ollama 等模型服务。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## AnythingLLM官方下载
+网址: https://wan.is-my.app/anythingllm-download/
+说明: AnythingLLM官方下载：AnythingLLM 是开源的一体化 AI 应用，桌面版装好就能把文档、网页做成知识库来问答，可接入本地 Ollama …
+用法: 打开 AnythingLLM 官方网站（anythingllm.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Cherry Studio官方下载
+网址: https://wan.is-my.app/cherry-studio-download/
+说明: Cherry Studio官方下载：Cherry Studio 是国内开发者做的开源 AI 桌面客户端，一个软件里接入 DeepSeek、Qwen、各家 …
+用法: 打开 Cherry Studio 官方网站（cherry-ai.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Chatbox官方下载
+网址: https://wan.is-my.app/chatbox-download/
+说明: Chatbox官方下载：Chatbox 是跨平台的 AI 聊天客户端，填入自己的 API Key 或连接本地 Ollama 就能使用，支持电脑、手机和网页…
+用法: 打开 Chatbox 官方网站（chatboxai.app），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## LobeChat（LobeHub）官方下载
+网址: https://wan.is-my.app/lobechat-download/
+说明: LobeChat（LobeHub）官方下载：LobeChat 是 LobeHub 开源的现代化 AI 聊天框架，支持多模型、知识库、插件和智能体市场，可以…
+用法: 打开 LobeChat（LobeHub） 官方网站或 GitHub 仓库，阅读部署文档，确认服务器或电脑的配置满足要求。 按官方文档用 Docker / Docker Compose 一键部署（国内服务器可配置镜像加速），或使用官方提供的云端版本。 部署完成后在浏览器打开管理后台，配置大模型 API Key 或连接本地 Ollama 等模型服务。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## NextChat官方下载
+网址: https://wan.is-my.app/nextchat-download/
+说明: NextChat官方下载：NextChat（原 ChatGPT-Next-Web）是轻量的开源 AI 聊天网页，几分钟就能部署到 Vercel 或自己的服…
+用法: 打开 NextChat 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Dify官方下载
+网址: https://wan.is-my.app/dify-download/
+说明: Dify官方下载：Dify 是开源的大模型应用开发平台，用可视化工作流搭建聊天机器人、智能体和知识库应用，可接入几百种模型，支持 Docker 私有化部署。
+用法: 打开 Dify 官方网站或 GitHub 仓库，阅读部署文档，确认服务器或电脑的配置满足要求。 按官方文档用 Docker / Docker Compose 一键部署（国内服务器可配置镜像加速），或使用官方提供的云端版本。 部署完成后在浏览器打开管理后台，配置大模型 API Key 或连接本地 Ollama 等模型服务。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## FastGPT官方下载
+网址: https://wan.is-my.app/fastgpt-download/
+说明: FastGPT官方下载：FastGPT 是开源的知识库问答系统，开箱即用的数据处理、向量检索和可视化工作流，适合搭建企业客服和内部知识库。
+用法: 打开 FastGPT 官方网站或 GitHub 仓库，阅读部署文档，确认服务器或电脑的配置满足要求。 按官方文档用 Docker / Docker Compose 一键部署（国内服务器可配置镜像加速），或使用官方提供的云端版本。 部署完成后在浏览器打开管理后台，配置大模型 API Key 或连接本地 Ollama 等模型服务。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## RAGFlow官方下载
+网址: https://wan.is-my.app/ragflow-download/
+说明: RAGFlow官方下载：RAGFlow 是开源的 RAG 引擎，擅长解析复杂 PDF、表格和扫描件，回答带可追溯引用，适合对准确率要求高的知识库场景。
+用法: 打开 RAGFlow 官方网站或 GitHub 仓库，阅读部署文档，确认服务器或电脑的配置满足要求。 按官方文档用 Docker / Docker Compose 一键部署（国内服务器可配置镜像加速），或使用官方提供的云端版本。 部署完成后在浏览器打开管理后台，配置大模型 API Key 或连接本地 Ollama 等模型服务。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## MaxKB官方下载
+网址: https://wan.is-my.app/maxkb-download/
+说明: MaxKB官方下载：MaxKB 是飞致云（1Panel 团队）开源的企业级智能体平台，内置知识库、工作流，支持接入本地模型，一条 Docker 命令即可部…
+用法: 打开 MaxKB 官方网站或 GitHub 仓库，阅读部署文档，确认服务器或电脑的配置满足要求。 按官方文档用 Docker / Docker Compose 一键部署（国内服务器可配置镜像加速），或使用官方提供的云端版本。 部署完成后在浏览器打开管理后台，配置大模型 API Key 或连接本地 Ollama 等模型服务。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## LangChain官网入口
+网址: https://wan.is-my.app/langchain-info/
+说明: LangChain官网入口：LangChain 是最常用的大模型应用开发框架（Python / JavaScript），提供模型调用、提示词、检索、智能体…
+用法: 安装 Python 3.9+，运行 pip install langchain 和所需模型集成包。 按官方文档快速入门，用几行代码调用模型和构建 RAG。 复杂智能体使用 LangGraph，生产环境用 LangSmith 观察调用链。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## LlamaIndex官网入口
+网址: https://wan.is-my.app/llamaindex-info/
+说明: LlamaIndex官网入口：LlamaIndex 是专注数据接入和检索增强（RAG）的开源开发框架，擅长把文档、数据库接入大模型，并提供 LlamaPa…
+用法: 安装 Python，运行 pip install llama-index。 按官方入门文档加载本地文档、建立索引并提问。 需要更好的 PDF 解析可接入 LlamaParse。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## MCP 客户端官网入口
+网址: https://wan.is-my.app/mcp-clients/
+说明: MCP 客户端官网入口：MCP（模型上下文协议）是让 AI 连接外部工具和数据的开放标准。Claude 桌面版、Cursor、Cherry Studio、…
+用法: 打开 MCP 官网的客户端列表，选择你常用的 AI 软件（如 Claude 桌面版、Cursor、Cherry Studio）。 在客户端的 MCP 设置里添加服务器配置（通常是一段 JSON，填命令或 URL）。 重启客户端，在对话里让 AI 调用工具；只安装来源可信的 MCP 服务器。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Hugging Face官网入口
+网址: https://wan.is-my.app/huggingface/
+说明: Hugging Face官网入口：Hugging Face 是全球最大的开源 AI 模型和数据集社区，几乎所有开源大模型、图片模型和语音模型都在这里发布，…
+用法: 打开 Hugging Face 官方网站（huggingface.co），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 魔搭 ModelScope官网入口
+网址: https://wan.is-my.app/modelscope/
+说明: 魔搭 ModelScope官网入口：魔搭 ModelScope 是阿里巴巴推出的国内开源模型社区，Qwen、DeepSeek、GLM 等主流开源模型都有官…
+用法: 打开 魔搭 ModelScope 官方网站（modelscope.cn），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## hf-mirror官网入口
+网址: https://wan.is-my.app/hf-mirror/
+说明: hf-mirror官网入口：hf-mirror 是 Hugging Face 的公益镜像站，国内下载模型时设置环境变量 HF_ENDPOINT=https…
+用法: Linux / Mac 终端运行 export HF_ENDPOINT=https://hf-mirror.com（Windows PowerShell 用 $env:HF_ENDPOINT="https://hf-mirror.com"）。 再用 huggingface-cli download 模型名 或在 Python 里正常加载模型，就会从镜像下载。 需要授权的模型（如部分 Llama）仍需在 Hugging Face 官网申请并使用 Token。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Gamma官网入口
+网址: https://wan.is-my.app/gamma-download/
+说明: Gamma官网入口：Gamma 是 AI 演示文稿工具，输入主题或粘贴文档就能生成排版好的幻灯片、文档或网页，可导出 PPT 和 PDF。
+用法: 打开 Gamma 官方网站（gamma.app），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## AiPPT官网入口
+网址: https://wan.is-my.app/aippt-download/
+说明: AiPPT官网入口：AiPPT 是国内的 AI 生成 PPT 工具，输入主题或上传 Word 即可生成整套中文 PPT，模板丰富，可导出 PPTX 继续编…
+用法: 打开 AiPPT 官方网站（aippt.cn），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 通义听悟官网入口
+网址: https://wan.is-my.app/tingwu-download/
+说明: 通义听悟官网入口：通义听悟是阿里的音视频转文字工具，实时记录会议和课堂，自动区分发言人、生成摘要、章节和待办，也能转写上传的音视频。
+用法: 打开 通义听悟 官方网站（tingwu.aliyun.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## NotebookLM官网入口
+网址: https://wan.is-my.app/notebooklm/
+说明: NotebookLM官网入口：NotebookLM 是 Google 的 AI 研究笔记工具，上传资料后只根据你的资料回答问题，还能生成播客式的音频概览、…
+用法: 打开 NotebookLM 官方网站（notebooklm.google），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 沉浸式翻译官网入口
+网址: https://wan.is-my.app/immersive-translate/
+说明: 沉浸式翻译官网入口：沉浸式翻译是热门的双语翻译浏览器插件和 App，网页、PDF、电子书、视频字幕都能对照翻译，可接入各家 AI 模型。
+用法: 打开 沉浸式翻译 官方网站（immersivetranslate.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## DeepL官方下载
+网址: https://wan.is-my.app/deepl-download/
+说明: DeepL官方下载：DeepL 是以翻译质量著称的 AI 翻译工具，提供 Windows、Mac 桌面应用，Ctrl+C 两次即可翻译选中文本，也能翻译整…
+用法: 打开 DeepL 官方网站（deepl.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## PowerToys官方下载
+网址: https://wan.is-my.app/powertoys-download/
+说明: PowerToys官方下载：PowerToys 是微软官方开源的 Windows 增强工具集，包含窗口布局 FancyZones、快速启动 PowerTo…
+用法: 打开微软官方 PowerToys 安装说明页，可以选择 Microsoft Store、GitHub Releases 或 winget 安装。 最简单的是在 Microsoft Store 搜索 PowerToys 安装；或在终端运行 winget install Microsoft.PowerToys。 打开 PowerToys 设置，按需开启 FancyZones、PowerToys Run 等模块。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## ShareX官方下载
+网址: https://wan.is-my.app/sharex-download/
+说明: ShareX官方下载：ShareX 是 Windows 上功能最全的开源截图和录屏工具，支持滚动截图、GIF 录制、OCR 文字识别、标注和自动上传。
+用法: 打开 ShareX 官方网站（getsharex.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Snipaste官方下载
+网址: https://wan.is-my.app/snipaste-download/
+说明: Snipaste官方下载：Snipaste 是国人开发的截图工具，F1 截图、F3 把截图「贴」在屏幕上当参考，标注功能好用，个人免费。
+用法: 打开 Snipaste 官方网站（snipaste.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## PixPin官方下载
+网址: https://wan.is-my.app/pixpin-download/
+说明: PixPin官方下载：PixPin 是新一代国产截图工具，在截图贴图的基础上增加了长截图、OCR 文字识别和 GIF 动图录制，界面简洁。
+用法: 打开 PixPin 官方网站（pixpinapp.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Ditto官方下载
+网址: https://wan.is-my.app/ditto-download/
+说明: Ditto官方下载：Ditto 是开源的 Windows 剪贴板增强工具，自动保存复制过的文字和图片，按快捷键调出历史记录搜索粘贴。
+用法: 打开 Ditto 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Listary官方下载
+网址: https://wan.is-my.app/listary-download/
+说明: Listary官方下载：Listary 是 Windows 上的文件搜索与启动工具，双击 Ctrl 搜索文件和程序，还能在「另存为」对话框里快速跳转目录。
+用法: 打开 Listary 官方网站（listary.net），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Quicker官方下载
+网址: https://wan.is-my.app/quicker-download/
+说明: Quicker官方下载：Quicker 是国产 Windows 效率工具，鼠标中键弹出面板，一键执行常用操作，社区有上万个现成「动作」可安装。
+用法: 打开 Quicker 官方网站（getquicker.net），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## uTools官方下载
+网址: https://wan.is-my.app/utools-download/
+说明: uTools官方下载：uTools 是国产的插件化效率工具，Alt+空格呼出搜索框，安装插件就能翻译、取色、OCR、JSON 格式化、剪贴板历史等。
+用法: 打开 uTools 官方网站（u-tools.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## HiBit Uninstaller官方下载
+网址: https://wan.is-my.app/hibit-uninstaller-download/
+说明: HiBit Uninstaller官方下载：HiBit Uninstaller 是免费的 Windows 卸载工具，卸载后扫描残留文件和注册表，支持强制卸…
+用法: 打开 HiBit Uninstaller 官方网站（hibitsoft.ir），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## WizTree官方下载
+网址: https://wan.is-my.app/wiztree-download/
+说明: WizTree官方下载：WizTree 是速度极快的磁盘空间分析工具，直接读取 NTFS 主文件表，几秒钟就能看到哪些文件夹最占空间。
+用法: 打开 WizTree 官方网站（diskanalyzer.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Bandizip官方下载
+网址: https://wan.is-my.app/bandizip-download/
+说明: Bandizip官方下载：Bandizip 是界面友好的压缩解压软件，支持 ZIP、7Z、RAR 等格式，右键菜单解压方便。
+用法: 打开 Bandizip 官方网站（bandisoft.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Sysinternals官方下载
+网址: https://wan.is-my.app/sysinternals-download/
+说明: Sysinternals官方下载：Sysinternals 是微软官方的 Windows 高级诊断工具集，包括 Process Explorer、Auto…
+用法: 打开 Sysinternals 官方网站（learn.microsoft.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Windows Terminal官方下载
+网址: https://wan.is-my.app/windows-terminal-download/
+说明: Windows Terminal官方下载：Windows Terminal 是微软官方的现代终端，多标签同时打开 PowerShell、命令提示符和 WS…
+用法: 打开 Windows Terminal 官方网站（learn.microsoft.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 微软常用运行库官方下载
+网址: https://wan.is-my.app/vc-runtime-download/
+说明: 微软常用运行库官方下载：很多软件和游戏打不开、提示缺少 MSVCP140.dll、VCRUNTIME140.dll，是因为缺少微软 Visual C++ …
+用法: 打开微软官方「最新支持的 Visual C++ 可再发行程序包」页面。 下载 X64 和 X86 两个版本的 vc_redist（64 位系统建议都安装）。 依次运行安装，完成后重启电脑，再打开提示缺少 dll 的软件或游戏。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## TrafficMonitor官方下载
+网址: https://wan.is-my.app/trafficmonitor-download/
+说明: TrafficMonitor官方下载：TrafficMonitor 是开源的 Windows 网速监控悬浮窗，可以在任务栏显示实时网速、CPU 和内存占用…
+用法: 打开 TrafficMonitor 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Twinkle Tray官方下载
+网址: https://wan.is-my.app/twinkle-tray-download/
+说明: Twinkle Tray官方下载：Twinkle Tray 是开源的 Windows 显示器亮度调节工具，在任务栏托盘直接调节外接显示器的亮度，支持多显示…
+用法: 打开 Twinkle Tray 官方网站（twinkletray.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Files官方下载
+网址: https://wan.is-my.app/files-app-download/
+说明: Files官方下载：Files 是开源的现代化 Windows 文件管理器，提供标签页、双栏、预览窗格和标签分类，界面符合 Windows 11 风格。
+用法: 打开 Files 官方网站（files.community），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Nilesoft Shell官方下载
+网址: https://wan.is-my.app/nilesoft-shell-download/
+说明: Nilesoft Shell官方下载：Nilesoft Shell 是开源的 Windows 右键菜单管理工具，可以把 Windows 11 精简右键菜单…
+用法: 打开 Nilesoft Shell 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Honeyview官方下载
+网址: https://wan.is-my.app/honeyview-download/
+说明: Honeyview官方下载：Honeyview 是 Bandisoft 出品的免费看图软件，打开速度快，支持 RAW、HEIC、WebP 等格式，可以直接…
+用法: 打开 Honeyview 官方网站（bandisoft.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## ImageGlass官方下载
+网址: https://wan.is-my.app/imageglass-download/
+说明: ImageGlass官方下载：ImageGlass 是开源的轻量看图软件，支持 80 多种图片格式，界面简洁可换主题。
+用法: 打开 ImageGlass 官方网站（imageglass.org），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Motrix官方下载
+网址: https://wan.is-my.app/motrix-download/
+说明: Motrix官方下载：Motrix 是开源的全能下载工具，支持 HTTP、FTP、BT 和磁力链接下载，界面简洁，无广告。
+用法: 打开 Motrix 官方网站（motrix.app），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Free Download Manager官方下载
+网址: https://wan.is-my.app/fdm-download/
+说明: Free Download Manager官方下载：Free Download Manager（FDM）是免费的下载管理器，支持多线程加速、断点续传、BT…
+用法: 打开 Free Download Manager 官方网站（freedownloadmanager.org），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## IDM（Internet Download Manager）官方下载
+网址: https://wan.is-my.app/idm-info/
+说明: IDM（Internet Download Manager）官方下载：IDM 是老牌付费下载加速器，多线程下载和浏览器视频嗅探很强。官方提供 30 天试用…
+用法: 打开 IDM（Internet Download Manager） 官方网站（internetdownloadmanager.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## LocalSend官方下载
+网址: https://wan.is-my.app/localsend-download/
+说明: LocalSend官方下载：LocalSend 是开源的局域网文件传输工具，手机、电脑之间不需要数据线和网络流量就能互传文件，相当于跨平台的「隔空投送」。
+用法: 打开 LocalSend 官方网站（localsend.org），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 火绒安全官方下载
+网址: https://wan.is-my.app/huorong-download/
+说明: 火绒安全官方下载：火绒安全是国产免费杀毒软件，体积小、无广告弹窗，自带弹窗拦截、启动项管理和右键菜单管理等实用工具。
+用法: 打开 火绒安全 官方网站（huorong.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 电脑驱动官方下载官网入口
+网址: https://wan.is-my.app/driver-official/
+说明: 电脑驱动官方下载官网入口：装完系统驱动不全，最安全的办法是到电脑品牌官网下载驱动或使用官方驱动管理工具，不要用来路不明的「驱动精灵」类软件。本页汇总主流品…
+用法: 在电脑底部标签或「设置 → 系统 → 关于」找到品牌和型号（或序列号）。 打开对应品牌的官方服务支持页，输入型号或序列号，下载芯片组、显卡、网卡、声卡驱动。 显卡驱动也可以到 NVIDIA、AMD、Intel 官网下载最新版。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Homebrew官方下载
+网址: https://wan.is-my.app/homebrew/
+说明: Homebrew官方下载：Homebrew 是 macOS 上最常用的软件包管理器，一行命令安装、更新命令行工具和图形软件（brew install --…
+用法: 打开 brew.sh 官网，复制首页的安装命令，粘贴到「终端」运行（需要先安装 Xcode 命令行工具，脚本会自动提示）。 安装完成后按提示把 brew 加入 PATH（Apple 芯片路径为 /opt/homebrew）。 之后用 brew install 软件名 安装软件，例如 brew install --cask iina。国内网络慢可配置镜像源。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Rectangle官方下载
+网址: https://wan.is-my.app/rectangle-mac/
+说明: Rectangle官方下载：Rectangle 是开源的 Mac 窗口管理工具，用快捷键或拖到屏幕边缘就能把窗口左右分屏、四分屏、最大化。
+用法: 打开 Rectangle 官方网站（rectangleapp.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Loop官方下载
+网址: https://wan.is-my.app/loop-mac/
+说明: Loop官方下载：Loop 是开源的 Mac 窗口管理工具，按住触发键用鼠标方向选择窗口位置，带有好看的环形菜单和动画。
+用法: 打开 Loop 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Raycast官方下载
+网址: https://wan.is-my.app/raycast-mac/
+说明: Raycast官方下载：Raycast 是替代 Spotlight 的 Mac 效率启动器，搜索应用、文件，内置剪贴板历史、窗口管理、计算器、快捷短语，还…
+用法: 打开 Raycast 官方网站（raycast.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Alfred官方下载
+网址: https://wan.is-my.app/alfred-mac/
+说明: Alfred官方下载：Alfred 是老牌 Mac 效率启动器，免费版就能快速搜索应用和文件、做计算，购买 Powerpack 后解锁工作流、剪贴板历史等…
+用法: 打开 Alfred 官方网站（alfredapp.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Maccy官方下载
+网址: https://wan.is-my.app/maccy-mac/
+说明: Maccy官方下载：Maccy 是轻量开源的 Mac 剪贴板管理器，按快捷键调出复制历史，键盘搜索选择后粘贴。
+用法: 打开 Maccy 官方网站（maccy.app），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## IINA官方下载
+网址: https://wan.is-my.app/iina-mac/
+说明: IINA官方下载：IINA 是基于 mpv 的开源 Mac 视频播放器，界面原生，几乎所有格式都能播放，支持在线字幕、画中画和触控板手势。
+用法: 打开 IINA 官方网站（iina.io），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Infuse官方下载
+网址: https://wan.is-my.app/infuse-info/
+说明: Infuse官方下载：Infuse 是苹果设备上的影音库播放器，可以连接 NAS、网盘自动生成海报墙，播放 4K HDR 和杜比视界。
+用法: 打开 Infuse 官方网站（firecore.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Downie官方下载
+网址: https://wan.is-my.app/downie-info/
+说明: Downie官方下载：Downie 是 Mac 上的付费网页视频下载工具，支持上千个网站，官方提供免费试用。
+用法: 打开 Downie 官方网站（software.charliemonroe.net），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## The Unarchiver官方下载
+网址: https://wan.is-my.app/the-unarchiver-mac/
+说明: The Unarchiver官方下载：The Unarchiver 是 Mac 上最常用的免费解压工具，支持 RAR、7Z、ZIP 等几十种格式，能正确处…
+用法: 打开 The Unarchiver 官方网站（theunarchiver.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Keka官方下载
+网址: https://wan.is-my.app/keka-mac/
+说明: Keka官方下载：Keka 是开源的 Mac 压缩解压工具，支持创建 7Z、ZIP 和加密压缩包，官网免费下载，App Store 版付费支持开发者。
+用法: 打开 Keka 官方网站（keka.io），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## AppCleaner官方下载
+网址: https://wan.is-my.app/appcleaner-mac/
+说明: AppCleaner官方下载：AppCleaner 是免费的 Mac 卸载工具，把应用拖进去就能找到它的配置、缓存等残留文件一起删除。
+用法: 打开 AppCleaner 官方网站（freemacsoft.net），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Pearcleaner官方下载
+网址: https://wan.is-my.app/pearcleaner-mac/
+说明: Pearcleaner官方下载：Pearcleaner 是开源的 Mac 应用卸载和残留清理工具，可以查找已删除应用留下的孤立文件。
+用法: 打开 Pearcleaner 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Stats官方下载
+网址: https://wan.is-my.app/stats-mac/
+说明: Stats官方下载：Stats 是开源的 Mac 菜单栏系统监控工具，显示 CPU、GPU、内存、硬盘、网速、电池和温度。
+用法: 打开 GitHub 仓库 Releases，下载 Stats.dmg，或运行 brew install --cask stats。 拖进「应用程序」后打开，在设置里选择要显示的模块。 部分传感器需要授权，按提示允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## iStat Menus官方下载
+网址: https://wan.is-my.app/istat-menus-info/
+说明: iStat Menus官方下载：iStat Menus 是 Mac 上最专业的菜单栏系统监控软件，监控项目丰富、图表精美，付费软件，有免费试用。
+用法: 打开 iStat Menus 官方网站（bjango.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## iTerm2官方下载
+网址: https://wan.is-my.app/iterm2-mac/
+说明: iTerm2官方下载：iTerm2 是 Mac 上最受欢迎的终端替代品，支持分屏、搜索、自动补全、热键窗口和丰富的配色。
+用法: 打开 iTerm2 官方网站（iterm2.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Warp官方下载
+网址: https://wan.is-my.app/warp-download/
+说明: Warp官方下载：Warp 是现代化的 AI 终端，命令输入像编辑器一样方便，内置 AI 帮你写命令、解释报错，也可以作为编程智能体使用。
+用法: 打开 Warp 官方网站（warp.dev），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## OrbStack官方下载
+网址: https://wan.is-my.app/orbstack-mac/
+说明: OrbStack官方下载：OrbStack 是 Mac 上 Docker Desktop 的轻量替代，启动快、占用内存和电量少，还能一键运行 Linux …
+用法: 打开 OrbStack 官方网站（orbstack.dev），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Docker Desktop官方下载
+网址: https://wan.is-my.app/docker-desktop-download/
+说明: Docker Desktop官方下载：Docker Desktop 是 Docker 官方的桌面应用，在 Windows 和 Mac 上运行容器、Comp…
+用法: 打开 Docker Desktop 官方网站（docker.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## BetterDisplay官方下载
+网址: https://wan.is-my.app/betterdisplay-mac/
+说明: BetterDisplay官方下载：BetterDisplay 可以让 Mac 外接的 2K / 4K 显示器开启 HiDPI 清晰显示，并调节外接显示器…
+用法: 打开 BetterDisplay 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## MonitorControl官方下载
+网址: https://wan.is-my.app/monitorcontrol-mac/
+说明: MonitorControl官方下载：MonitorControl 是开源的 Mac 工具，让键盘上的亮度和音量键直接控制外接显示器。
+用法: 打开 MonitorControl 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Mos官方下载
+网址: https://wan.is-my.app/mos-mac/
+说明: Mos官方下载：Mos 是开源的 Mac 小工具，让普通鼠标滚轮像触控板一样平滑滚动，并可以单独反转鼠标滚动方向。
+用法: 打开 Mos 官方网站（mos.caldis.me），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## LinearMouse官方下载
+网址: https://wan.is-my.app/linearmouse-mac/
+说明: LinearMouse官方下载：LinearMouse 是开源的 Mac 鼠标增强工具，可以关闭鼠标加速、设置线性指针速度、反转滚动方向和自定义按键。
+用法: 打开 LinearMouse 官方网站（linearmouse.app），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Karabiner-Elements官方下载
+网址: https://wan.is-my.app/karabiner-mac/
+说明: Karabiner-Elements官方下载：Karabiner-Elements 是开源的 Mac 键盘改键工具，可以把 Caps Lock 改成 Ct…
+用法: 打开 Karabiner-Elements 官方网站（karabiner-elements.pqrs.org），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Input Source Pro官方下载
+网址: https://wan.is-my.app/input-source-pro-mac/
+说明: Input Source Pro官方下载：Input Source Pro 可以让 Mac 按应用或网站自动切换中英文输入法，并在光标旁提示当前输入法。
+用法: 打开 Input Source Pro 官方网站（inputsource.pro），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Bartender官方下载
+网址: https://wan.is-my.app/bartender-info/
+说明: Bartender官方下载：Bartender 是老牌 Mac 菜单栏图标管理工具，隐藏、整理菜单栏图标，付费软件，有免费试用；免费替代可选 Ice 或 …
+用法: 打开 Bartender 官方网站（macbartender.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Ice官方下载
+网址: https://wan.is-my.app/ice-mac/
+说明: Ice官方下载：Ice 是开源免费的 Mac 菜单栏管理工具，可以隐藏菜单栏图标、刘海屏下显示更多图标，是 Bartender 的免费替代。
+用法: 打开 Ice 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Hidden Bar官方下载
+网址: https://wan.is-my.app/hidden-bar-mac/
+说明: Hidden Bar官方下载：Hidden Bar 是简单的开源菜单栏图标隐藏工具，点一下箭头就能收起不常用的菜单栏图标。
+用法: 打开 Hidden Bar 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Itsycal官方下载
+网址: https://wan.is-my.app/itsycal-mac/
+说明: Itsycal官方下载：Itsycal 是免费的 Mac 菜单栏日历，点一下就能看月历和日程，可自定义菜单栏日期格式。
+用法: 打开 Itsycal 官方网站（mowglii.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## CleanShot X官方下载
+网址: https://wan.is-my.app/cleanshot-info/
+说明: CleanShot X官方下载：CleanShot X 是 Mac 上口碑很好的付费截图录屏工具，滚动截图、标注、录屏 GIF、云分享一应俱全；免费替代可…
+用法: 打开 CleanShot X 官方网站（cleanshot.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Shottr官方下载
+网址: https://wan.is-my.app/shottr-mac/
+说明: Shottr官方下载：Shottr 是小巧的 Mac 截图工具，截图速度快，支持滚动截图、OCR、像素测量和标注，基础功能免费。
+用法: 打开 Shottr 官方网站（shottr.cc），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Obsidian官方下载
+网址: https://wan.is-my.app/obsidian-download/
+说明: Obsidian官方下载：Obsidian 是基于本地 Markdown 文件的双链笔记软件，笔记存在自己电脑上，插件生态极其丰富，个人和商业使用都免费。
+用法: 打开 Obsidian 官方网站（obsidian.md），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Typora官方下载
+网址: https://wan.is-my.app/typora-download/
+说明: Typora官方下载：Typora 是所见即所得的 Markdown 编辑器，输入即渲染，支持表格、公式、图表，可导出 PDF 和 Word。付费买断，提…
+用法: 打开 Typora 官方网站（typora.io），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Eagle官方下载
+网址: https://wan.is-my.app/eagle-download/
+说明: Eagle官方下载：Eagle 是图片和设计素材管理软件，收藏网页图片、截图、字体、视频，用标签和颜色检索，设计师常用。付费买断，可免费试用 30 天。
+用法: 打开 Eagle 官方网站（cn.eagle.cool），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## PDF Expert官方下载
+网址: https://wan.is-my.app/pdf-expert-info/
+说明: PDF Expert官方下载：PDF Expert 是 Readdle 出品的 Mac / iPad PDF 阅读和编辑软件，阅读、批注免费，编辑文字、转…
+用法: 打开 PDF Expert 官方网站（pdfexpert.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Easydict官方下载
+网址: https://wan.is-my.app/easydict-mac/
+说明: Easydict官方下载：Easydict 是开源的 Mac 划词翻译和查词工具，同时调用多家翻译服务和大模型对比结果，支持 OCR 截图翻译。
+用法: 打开 Easydict 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Bob官方下载
+网址: https://wan.is-my.app/bob-mac/
+说明: Bob官方下载：Bob 是 Mac 上流行的翻译和 OCR 工具，划词、截图、输入翻译，可接入多家翻译服务和大模型，插件丰富。
+用法: 打开 Bob 官方网站（bobtranslate.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 欧路词典官方下载
+网址: https://wan.is-my.app/eudic-download/
+说明: 欧路词典官方下载：欧路词典是老牌英语词典软件，可以导入 MDX 词库，支持划词查词、生词本和多端同步。
+用法: 打开 欧路词典 官方网站（eudic.net），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Latest官方下载
+网址: https://wan.is-my.app/latest-mac/
+说明: Latest官方下载：Latest 是开源的 Mac 小工具，一键检查所有已安装应用是否有新版本，包括 App Store 和自带更新的应用。
+用法: 打开 Latest 官方网站（max.codes），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Clop官方下载
+网址: https://wan.is-my.app/clop-mac/
+说明: Clop官方下载：Clop 是 Mac 上的自动压缩工具，复制或截图后自动压缩图片，也能压缩视频和 PDF，适合经常发截图的用户。
+用法: 打开 Clop 官方网站（lowtechguys.com），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## AltTab官方下载
+网址: https://wan.is-my.app/alttab-mac/
+说明: AltTab官方下载：AltTab 把 Windows 的 Alt+Tab 窗口切换带到 Mac，切换时显示每个窗口的缩略图，而不只是应用图标。
+用法: 打开 AltTab 官方网站（alt-tab-macos.netlify.app），点击下载按钮获取 .dmg 或 .zip 安装包。 双击打开 .dmg，把应用图标拖进「应用程序」文件夹。 首次打开如提示需要权限（辅助功能、屏幕录制等），按提示到「系统设置 → 隐私与安全性」中勾选允许。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## KeyCastr官方下载
+网址: https://wan.is-my.app/keycastr-mac/
+说明: KeyCastr官方下载：KeyCastr 是开源的 Mac 按键显示工具，录制教程视频时在屏幕上显示你按下的快捷键。
+用法: 打开 KeyCastr 的官方 GitHub 页面，在右侧「Releases」里找到最新版本。 按你的系统下载对应安装包（Windows 一般是 .exe / .msi / .zip，Mac 是 .dmg / .zip）；也可以按 README 里的命令安装。 首次在 Mac 上打开提示「无法验证开发者」时，到「系统设置 → 隐私与安全性」点「仍要打开」。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Arc 浏览器官方下载
+网址: https://wan.is-my.app/arc-download/
+说明: Arc 浏览器官方下载：Arc 是 The Browser Company 推出的 Chromium 内核浏览器，竖向侧边栏标签、空间分组、分屏浏览，设计…
+用法: 打开 Arc 浏览器 官方网站（arc.net），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Safari 浏览器官网入口
+网址: https://wan.is-my.app/safari-info/
+说明: Safari 浏览器官网入口：Safari 是苹果设备自带的浏览器，省电、隐私保护好，和 iPhone、iPad 同步书签、密码和标签页，只能在苹果设备上…
+用法: Safari 随 macOS / iOS 自带，不需要单独下载。 在「系统设置 → 通用 → 软件更新」更新系统即可获得最新版 Safari。 Windows 没有官方最新版 Safari，网上的「Safari Windows 版」都不是苹果官方的。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Brave 浏览器官方下载
+网址: https://wan.is-my.app/brave-download/
+说明: Brave 浏览器官方下载：Brave 是开源的 Chromium 内核隐私浏览器，默认拦截广告和跟踪器，网页加载更快，兼容 Chrome 扩展。
+用法: 打开 Brave 浏览器 官方网站（brave.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Opera 浏览器官方下载
+网址: https://wan.is-my.app/opera-download/
+说明: Opera 浏览器官方下载：Opera 是老牌浏览器，现在基于 Chromium，内置广告拦截、侧边栏即时通讯和 AI 助手，另有面向游戏玩家的 Oper…
+用法: 打开 Opera 浏览器 官方网站（opera.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Vivaldi 浏览器官方下载
+网址: https://wan.is-my.app/vivaldi-download/
+说明: Vivaldi 浏览器官方下载：Vivaldi 是由 Opera 创始人打造的浏览器，标签堆叠、分屏、内置邮件和日历，几乎每个细节都能自定义。
+用法: 打开 Vivaldi 浏览器 官方网站（vivaldi.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 360 安全浏览器官方下载
+网址: https://wan.is-my.app/360se-download/
+说明: 360 安全浏览器官方下载：360 安全浏览器是国内装机量很高的浏览器，提供极速 / 兼容双核模式，兼容老网银和政务网站。
+用法: 打开 360 安全浏览器 官方网站（browser.360.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 360 极速浏览器官方下载
+网址: https://wan.is-my.app/360ee-download/
+说明: 360 极速浏览器官方下载：360 极速浏览器基于 Chromium 内核，同样支持兼容模式，扩展兼容 Chrome，适合既要速度又要兼容老网站的用户。
+用法: 打开 360 极速浏览器 官方网站（browser.360.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## QQ 浏览器官方下载
+网址: https://wan.is-my.app/qqbrowser-download/
+说明: QQ 浏览器官方下载：QQ 浏览器是腾讯出品的浏览器，内置文件格式转换、PDF 工具和 AI 助手，和 QQ、微信账号同步。
+用法: 打开 QQ 浏览器 官方网站（browser.qq.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 夸克官方下载
+网址: https://wan.is-my.app/quark-download/
+说明: 夸克官方下载：夸克是阿里旗下的 AI 浏览器和工具 App，搜索时有 AI 回答，集成夸克网盘、扫描王、文档工具，电脑版和手机版同步。
+用法: 打开 夸克 官方网站（quark.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 搜狗浏览器官方下载
+网址: https://wan.is-my.app/sogou-browser-download/
+说明: 搜狗浏览器官方下载：搜狗浏览器是老牌国产双核浏览器，现在由腾讯运营，支持极速和兼容模式。
+用法: 打开 搜狗浏览器 官方网站（ie.sogou.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## UC 浏览器官方下载
+网址: https://wan.is-my.app/uc-browser-download/
+说明: UC 浏览器官方下载：UC 浏览器是阿里旗下的浏览器，手机端用户多，提供资讯、小说、视频和网盘等功能。
+用法: 打开 UC 浏览器 官方网站（uc.cn），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Zen 浏览器官方下载
+网址: https://wan.is-my.app/zen-browser-download/
+说明: Zen 浏览器官方下载：Zen 是基于 Firefox 的开源浏览器，借鉴 Arc 的竖向标签和工作区设计，同时保留 Firefox 的隐私和扩展生态。
+用法: 打开 Zen 浏览器 官方网站（zen-browser.app），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Comet 浏览器官方下载
+网址: https://wan.is-my.app/comet-download/
+说明: Comet 浏览器官方下载：Comet 是 Perplexity 推出的 AI 浏览器，内置 AI 助手可以总结网页、回答问题，并替你完成多步骤的网页操作。
+用法: 打开 Comet 浏览器 官方网站（perplexity.ai），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Dia 浏览器官方下载
+网址: https://wan.is-my.app/dia-download/
+说明: Dia 浏览器官方下载：Dia 是 Arc 团队 The Browser Company 推出的 AI 浏览器，可以就当前打开的标签页和 AI 对话、写作…
+用法: 打开 Dia 浏览器 官方网站（diabrowser.com），进入下载页面。 选择与你电脑系统对应的版本：Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 双击 .dmg 把应用拖进「应用程序」文件夹，首次打开按提示授予所需权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 抖音直播伴侣官方下载
+网址: https://wan.is-my.app/douyin-zhibo-banlv/
+说明: 抖音直播伴侣官方下载：抖音直播伴侣是抖音官方的电脑直播软件，支持游戏、手游投屏、电商带货、才艺和多场景直播，提供美颜、虚拟背景、贴纸和互动玩法。
+用法: 打开 抖音直播伴侣 官方网站（streamingtool.douyin.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 快手直播伴侣官方下载
+网址: https://wan.is-my.app/kuaishou-zhibo-banlv/
+说明: 快手直播伴侣官方下载：快手直播伴侣是快手官方的电脑直播软件，覆盖秀场、电商、游戏、团购和虚拟直播，支持外接摄像机、声卡和手机投屏。
+用法: 打开 快手直播伴侣 官方网站（live.kuaishou.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 视频号直播（推流）官网入口
+网址: https://wan.is-my.app/shipinhao-zhibo/
+说明: 视频号直播（推流）官网入口：微信视频号可以在手机上直接开播，电脑上则通过「视频号助手」网页创建直播、获取推流地址，再用 OBS 等推流软件开播。
+用法: 在电脑浏览器打开视频号助手 channels.weixin.qq.com，用微信扫码登录。 进入「直播」创建直播，选择推流方式，复制推流地址和推流密钥。 打开 OBS，在「设置 → 直播」选择自定义服务器，粘贴地址和密钥后点「开始推流」，回到视频号助手确认开播。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 哔哩哔哩直播姬官方下载
+网址: https://wan.is-my.app/bilibili-zhibo-ji/
+说明: 哔哩哔哩直播姬官方下载：哔哩哔哩直播姬是 B 站官方直播软件，支持游戏、手游投屏、虚拟主播（VTuber）和摄像头直播，内置弹幕姬和互动玩法。
+用法: 打开 哔哩哔哩直播姬 官方网站（live.bilibili.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 淘宝直播官网入口
+网址: https://wan.is-my.app/taobao-zhibo/
+说明: 淘宝直播官网入口：淘宝直播的主播和商家可以在淘宝直播中控台（主播工作台）管理直播、上架商品、查看数据，电脑开播使用官方推流工具或 OBS 推流。
+用法: 用淘宝 / 千牛账号登录淘宝直播中控台，完成主播入驻或店铺直播权限开通。 在中控台创建直播，选择电脑推流，按页面指引下载官方推流工具或获取推流地址。 添加直播商品后开播，直播中在中控台弹出商品讲解。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 京东直播官网入口
+网址: https://wan.is-my.app/jd-zhibo/
+说明: 京东直播官网入口：京东直播的商家和达人通过京东直播后台创建直播、挂商品和查看数据，电脑开播使用官方工具或推流地址。
+用法: 打开 京东直播 官方网站（jlive.jd.com），查看最新的产品介绍、价格和可用地区。 按官网说明注册账号或下载官方客户端，付费前先确认订阅价格和退款规则。 不要购买来路不明的「共享账号」「破解版」，账号安全和隐私无法保证。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 小红书直播助手官方下载
+网址: https://wan.is-my.app/xhs-zhibo/
+说明: 小红书直播助手官方下载：小红书电脑直播助手是小红书官方的电脑开播工具，配合小红书 App 使用，也支持用 OBS 推流开播。
+用法: 打开 小红书直播助手 官方网站（xiaohongshu.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 虎牙直播助手官方下载
+网址: https://wan.is-my.app/huya-zhibo/
+说明: 虎牙直播助手官方下载：虎牙直播助手是虎牙官方的直播软件，主打游戏直播，支持端游、手游投屏、摄像头和美颜。
+用法: 打开 虎牙直播助手 官方网站（huya.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 斗鱼直播伴侣官方下载
+网址: https://wan.is-my.app/douyu-zhibo/
+说明: 斗鱼直播伴侣官方下载：斗鱼直播伴侣是斗鱼官方的直播工具，支持游戏、摄像头和手游投屏直播，内置弹幕助手。
+用法: 打开 斗鱼直播伴侣 官方网站（douyu.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## YY 开播官网入口
+网址: https://wan.is-my.app/yy-kaibo/
+说明: YY 开播官网入口：YY 开播是 YY 直播的官方开播工具，主打秀场和语音直播，支持美颜、K 歌和多人连麦。
+用法: 打开 YY 开播 官方网站（yy.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 巨量百应官网入口
+网址: https://wan.is-my.app/buyin-baiying/
+说明: 巨量百应官网入口：巨量百应是抖音电商的达人带货和机构管理平台，选品、建联、管理直播商品和佣金，抖音带货直播必用。
+用法: 打开 巨量百应 官方网站（buyin.jinritemai.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 抖店官网入口
+网址: https://wan.is-my.app/doudian/
+说明: 抖店官网入口：抖店是抖音小店商家的官方后台，开店、上架商品、管理订单和售后，也能设置店铺自播。
+用法: 打开 抖店 官方网站（fxg.jinritemai.com），用手机号、微信或邮箱注册登录。 直接在网页里使用；需要手机版时，在官网或手机应用商店搜索官方 App 安装。 如官网提供电脑客户端，在官网首页或「下载」入口选择 Windows / Mac 版本安装。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Streamlabs官方下载
+网址: https://wan.is-my.app/streamlabs-download/
+说明: Streamlabs官方下载：Streamlabs Desktop 是基于 OBS 的推流软件，集成大量主题、提醒、礼物和聊天组件，海外 Twitch、Y…
+用法: 打开 Streamlabs 官方网站（streamlabs.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包，Mac 注意区分 Apple 芯片（M 系列）和 Intel 版本。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## TikTok LIVE Studio官方下载
+网址: https://wan.is-my.app/tiktok-live-studio/
+说明: TikTok LIVE Studio官方下载：TikTok LIVE Studio 是 TikTok 官方的电脑直播软件，满足条件的 TikTok 账号可…
+用法: 打开 TikTok LIVE Studio 官方网站（tiktok.com），进入下载页面。 选择与你电脑系统对应的版本：Windows 下载 .exe 安装包。 运行安装包，安装时留意并取消勾选不需要的附加组件；安装完成后按提示登录或完成初始设置。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## YouTube 直播官网入口
+网址: https://wan.is-my.app/youtube-zhibo/
+说明: YouTube 直播官网入口：YouTube 直播可以用手机、网络摄像头或编码器（OBS 等）推流开播。本页链接 YouTube 官方帮助中心的直播入门说…
+用法: 打开 YouTube 官方帮助「直播入门」，先验证频道并开通直播（首次开通可能需要等待 24 小时）。 在 YouTube Studio 点「创建 → 开始直播」，复制推流网址和串流密钥。 在 OBS「设置 → 直播」选择 YouTube 或自定义，粘贴密钥后开始推流。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Twitch 直播官网入口
+网址: https://wan.is-my.app/twitch-zhibo/
+说明: Twitch 直播官网入口：Twitch 是全球最大的游戏直播平台之一，官方帮助中心提供推荐的推流码率、分辨率和编码设置。
+用法: 打开 Twitch 直播 官方网站（help.twitch.tv），查看最新的产品介绍、价格和可用地区。 按官网说明注册账号或下载官方客户端，付费前先确认订阅价格和退款规则。 不要购买来路不明的「共享账号」「破解版」，账号安全和隐私无法保证。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Mac 必装软件推荐
+网址: https://wan.is-my.app/mac-bizhuang-ruanjian/
+说明: Mac 必装软件推荐清单：效率启动器、窗口分屏、菜单栏、截图、开发、笔记设计、影音、系统增强和免费替代，Raycast、Rectangle、IINA。
+用法: 先按上面的分类找到需要的软件，点进去查看功能、价格和系统要求。 在软件页面点击官方下载按钮，从官网获取安装包。 安装时注意取消捆绑选项，首次打开按提示授予权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Windows 装机必备软件
+网址: https://wan.is-my.app/windows-zhuangji-bibei/
+说明: Windows 装机必备软件清单：Everything、PowerToys、7-Zip、Snipaste、Quicker、Dism++、WizTree。
+用法: 先按上面的分类找到需要的软件，点进去查看功能、价格和系统要求。 在软件页面点击官方下载按钮，从官网获取安装包。 安装时注意取消捆绑选项，首次打开按提示授予权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 大模型本地部署全套软件
+网址: https://wan.is-my.app/bendi-damoxing/
+说明: 大模型本地部署全套软件：运行工具 Ollama、LM Studio、llama.cpp、vLLM，聊天客户端 Cherry Studio、Chatbox。
+用法: 先按上面的分类找到需要的软件，点进去查看功能、价格和系统要求。 在软件页面点击官方下载按钮，从官网获取安装包。 安装时注意取消捆绑选项，首次打开按提示授予权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## Mac / Windows 免费替代付费软件
+网址: https://wan.is-my.app/mianfei-tidai-ruanjian/
+说明: Mac / Windows 免费替代付费软件清单：Bartender 换 Ice、CleanShot 换 Shottr。
+用法: 先按上面的分类找到需要的软件，点进去查看功能、价格和系统要求。 在软件页面点击官方下载按钮，从官网获取安装包。 安装时注意取消捆绑选项，首次打开按提示授予权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## AI 软件怎么选
+网址: https://wan.is-my.app/ai-ruanjian-xuanze/
+说明: AI 软件怎么选：按聊天写作、AI 绘画、AI 视频、AI 配音、AI 编程、本地部署、AI 办公分类对比豆包、DeepSeek、Kimi、ChatGPT。
+用法: 先按上面的分类找到需要的软件，点进去查看功能、价格和系统要求。 在软件页面点击官方下载按钮，从官网获取安装包。 安装时注意取消捆绑选项，首次打开按提示授予权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 浏览器推荐
+网址: https://wan.is-my.app/liulanqi-tuijian/
+说明: 浏览器推荐与对比：Chrome、Edge、Firefox、Safari、Brave、Arc、Zen、Vivaldi、Opera，以及 360、QQ。
+用法: 先按上面的分类找到需要的软件，点进去查看功能、价格和系统要求。 在软件页面点击官方下载按钮，从官网获取安装包。 安装时注意取消捆绑选项，首次打开按提示授予权限。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 直播伴侣大全
+网址: https://wan.is-my.app/zhibo-banlv-daquan/
+说明: 各平台直播伴侣和开播工具大全：抖音直播伴侣、快手直播伴侣、视频号推流、B站直播姬、淘宝直播、小红书直播助手、虎牙、斗鱼、YY、OBS。
+用法: 先按上面的分类找到需要的软件，点进去查看功能、价格和系统要求。 在软件页面点击官方下载按钮，从官网获取安装包。 安装时注意取消捆绑选项，首次打开按提示授予权限。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## Windows 11官方下载
@@ -1449,12 +3130,6 @@
 用法: 打开 QQ音乐 官方网站（y.qq.com），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
-## 剪映专业版官方下载
-网址: https://wan.is-my.app/jianying-download/
-说明: 剪映专业版官方免费下载地址：剪映专业版官方下载，电脑上剪辑短视频，自动字幕、模板、特效齐全。本页提供官网下载入口、安装步骤和常见问题，谨防假冒下载站。
-用法: 打开 剪映专业版 官方网站（capcut.cn），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
-调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
-
 ## 搜狗输入法官方下载
 网址: https://wan.is-my.app/sogou-pinyin-download/
 说明: 搜狗输入法官方免费下载地址：搜狗输入法官方下载，电脑版和手机版都免费。本页提供官网下载入口、安装步骤和常见问题，谨防假冒下载站。
@@ -1471,18 +3146,6 @@
 网址: https://wan.is-my.app/xunlei-download/
 说明: 迅雷官方免费下载地址：迅雷官方下载，支持 BT、磁力链接等下载。本页提供官网下载入口、安装步骤和常见问题，谨防假冒下载站。
 用法: 打开 迅雷 官方网站（xunlei.com），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
-调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
-
-## 夸克官方下载
-网址: https://wan.is-my.app/quark-download/
-说明: 夸克官方免费下载地址：夸克官方下载，包含夸克浏览器和夸克网盘。本页提供官网下载入口、安装步骤和常见问题，谨防假冒下载站。
-用法: 打开 夸克 官方网站（quark.cn），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
-调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
-
-## 火绒安全官方下载
-网址: https://wan.is-my.app/huorong-download/
-说明: 火绒安全官方免费下载地址：火绒安全个人版官方免费下载，轻量杀毒、弹窗拦截。本页提供官网下载入口、安装步骤和常见问题，谨防假冒下载站。
-用法: 打开 火绒安全 官方网站（huorong.cn），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## 向日葵远程控制官方下载
@@ -1509,12 +3172,6 @@
 用法: 打开 爱奇艺 官方网站（iqiyi.com），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
-## Bandizip官方下载
-网址: https://wan.is-my.app/bandizip-download/
-说明: Bandizip官方免费下载地址：Bandizip 官方下载，支持 ZIP、RAR、7Z 等格式的解压缩软件。本页提供官网下载入口、安装步骤和常见问题，谨防
-用法: 打开 Bandizip 官方网站（bandisoft.com），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
-调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
-
 ## Git官方下载
 网址: https://wan.is-my.app/git-download/
 说明: Git官方免费下载地址：Git 官方下载，开源免费的版本控制工具。本页提供官网下载入口、安装步骤和常见问题，谨防假冒下载站。
@@ -1537,18 +3194,6 @@
 网址: https://wan.is-my.app/android-studio-download/
 说明: Android Studio官方免费下载地址：Android Studio 官方下载，谷歌官方安卓开发工具。本页提供官网下载入口、安装步骤和常见问题，谨防假
 用法: 打开 Android Studio 官方网站（developer.android.com），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
-调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
-
-## Docker Desktop官方下载
-网址: https://wan.is-my.app/docker-desktop-download/
-说明: Docker Desktop官方免费下载地址：Docker Desktop 官方下载，个人和小企业免费使用。本页提供官网下载入口、安装步骤和常见问题，谨防假
-用法: 打开 Docker Desktop 官方网站（docker.com），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
-调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
-
-## PowerToys官方下载
-网址: https://wan.is-my.app/powertoys-download/
-说明: PowerToys官方免费下载地址：微软 PowerToys 官方下载，免费开源的 Windows 效率工具集。本页提供官网下载入口、安装步骤和常见问题，谨
-用法: 打开 PowerToys 官方网站（learn.microsoft.com），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## Zoom官方下载
@@ -1585,12 +3230,6 @@
 网址: https://wan.is-my.app/handbrake-download/
 说明: HandBrake官方免费下载地址：HandBrake 官方下载，开源免费的视频格式转换和压缩工具。本页提供官网下载入口、安装步骤和常见问题，谨防假冒下载站
 用法: 打开 HandBrake 官方网站（handbrake.fr），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
-调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
-
-## Snipaste官方下载
-网址: https://wan.is-my.app/snipaste-download/
-说明: Snipaste官方免费下载地址：Snipaste 官方下载，免费好用的截图 + 贴图工具。本页提供官网下载入口、安装步骤和常见问题，谨防假冒下载站。
-用法: 打开 Snipaste 官方网站（snipaste.com），认准官网域名。 在官网首页或「下载」区域选择对应系统的版本（Windows / macOS / 手机）。 下载完成后运行安装程序，按提示选择安装位置；安装时留意不要勾选不需要的附加软件。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## 第五人格官方下载

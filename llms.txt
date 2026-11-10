@@ -18,6 +18,99 @@
 - [快手无水印下载](https://wan.is-my.app/kuaishou-download/): 快手视频无水印解析
 - [万能视频解析下载](https://wan.is-my.app/video-download/): 微博、Vimeo 等上千网站
 
+## AI 软件大全
+
+- [大模型 API 价格对比](https://wan.is-my.app/damoxing-api-jiage/): DeepSeek、GLM、GPT、Claude 每百万 token 价格
+- [Token 计算 / API 费用估算](https://wan.is-my.app/token-jisuan/): 估算文字 token 数和每月 API 费用
+- [大模型显存需求计算器](https://wan.is-my.app/xiancun-jisuan/): 本地部署需要多少显存、能跑多大模型
+- [豆包官方下载](https://wan.is-my.app/doubao-download/): 字节跳动 AI 助手，电脑版手机版
+- [Kimi官方下载](https://wan.is-my.app/kimi-download/): 长文本 AI 助手，读文档写报告
+- [DeepSeek官方下载](https://wan.is-my.app/deepseek-download/): 深度求索大模型，网页版和 App
+- [千问（原通义）官方下载](https://wan.is-my.app/qianwen-download/): 阿里通义千问 AI 助手
+- [文心（原文心一言 / 文小言）官方下载](https://wan.is-my.app/wenxin-download/): 百度文心大模型 AI 助手
+- [智谱清言官方下载](https://wan.is-my.app/zhipu-qingyan-download/): 智谱 GLM 大模型 AI 助手
+- [腾讯元宝官方下载](https://wan.is-my.app/yuanbao-download/): 腾讯 AI 助手，混元 + DeepSeek
+- [讯飞星火官方下载](https://wan.is-my.app/xinghuo-download/): 科大讯飞 AI 助手，语音能力强
+- [天工 AI官方下载](https://wan.is-my.app/tiangong-download/): AI 搜索、写作、AI 音乐
+- [海螺 AI官方下载](https://wan.is-my.app/hailuo-download/): MiniMax AI 助手和海螺视频
+- [纳米 AI官方下载](https://wan.is-my.app/nami-ai-download/): 360 AI 搜索和智能体
+- [秘塔 AI 搜索官网入口](https://wan.is-my.app/metaso-download/): 没有广告的 AI 搜索
+- [ChatGPT官方下载](https://wan.is-my.app/chatgpt-download/): OpenAI 官方 AI 助手，电脑版下载
+- [Claude官方下载](https://wan.is-my.app/claude-download/): Anthropic AI 助手，桌面版下载
+- [Gemini官网入口](https://wan.is-my.app/gemini-download/): Google AI 助手
+- [Grok官网入口](https://wan.is-my.app/grok-download/): xAI 的 AI 助手
+- [Microsoft Copilot官方下载](https://wan.is-my.app/copilot-download/): 微软 AI 助手
+- [Perplexity官方下载](https://wan.is-my.app/perplexity-download/): 带引用来源的 AI 搜索
+- [Poe官方下载](https://wan.is-my.app/poe-download/): 一个账号用多个 AI 模型
+- [即梦 AI官网入口](https://wan.is-my.app/jimeng-download/): AI 绘画和 AI 视频生成
+- [可灵 AI官网入口](https://wan.is-my.app/kling-download/): 快手 AI 视频和图片生成
+- [通义万相官网入口](https://wan.is-my.app/tongyi-wanxiang/): 阿里 AI 绘画和视频生成
+- [LiblibAI（哩布哩布）官网入口](https://wan.is-my.app/liblib-download/): 国内 AI 绘画模型社区和在线生图
+- [Midjourney官网入口](https://wan.is-my.app/midjourney-download/): 艺术感强的 AI 绘画
+- [Stable Diffusion WebUI官方下载](https://wan.is-my.app/sd-webui-download/): 本地 AI 绘画经典界面
+- [SD WebUI Forge官方下载](https://wan.is-my.app/forge-download/): 更省显存的 WebUI 分支
+- [ComfyUI官方下载](https://wan.is-my.app/comfyui-download/): 节点式 AI 绘画和视频工作流
+- [Fooocus官方下载](https://wan.is-my.app/fooocus-download/): 最简单的本地 AI 绘画
+- [InvokeAI官方下载](https://wan.is-my.app/invokeai-download/): 专业画布式本地 AI 绘画
+- [Krita AI Diffusion官方下载](https://wan.is-my.app/krita-ai-download/): 在 Krita 画图软件里用 AI
+- [海螺视频官网入口](https://wan.is-my.app/hailuo-video/): MiniMax AI 视频生成
+- [Vidu官网入口](https://wan.is-my.app/vidu-download/): 生数科技 AI 视频生成
+- [清影官网入口](https://wan.is-my.app/qingying-video/): 智谱 AI 视频生成
+- [PixVerse 拍我AI官网入口](https://wan.is-my.app/pixverse-download/): 爱诗科技 AI 视频生成
+- [Runway官网入口](https://wan.is-my.app/runway-download/): 专业 AI 视频生成和编辑
+- [Pika官网入口](https://wan.is-my.app/pika-download/): 趣味 AI 视频特效
+- [Luma Dream Machine官网入口](https://wan.is-my.app/luma-download/): Luma AI 视频和图片生成
+- [Sora官网入口](https://wan.is-my.app/sora-info/): 已停止服务，替代工具推荐
+- [剪映官方下载](https://wan.is-my.app/jianying-download/): 免费视频剪辑，内置 AI 功能
+- [Suno官网入口](https://wan.is-my.app/suno-download/): 输入一句话生成整首歌
+- [GPT-SoVITS官方下载](https://wan.is-my.app/gpt-sovits-download/): 几分钟音频克隆声音的开源 TTS
+- [Fish Audio官网入口](https://wan.is-my.app/fish-audio-download/): AI 配音和声音克隆平台
+- [Whisper官方下载](https://wan.is-my.app/whisper-download/): 开源语音识别，音视频转文字
+- [Buzz官方下载](https://wan.is-my.app/buzz-download/): 离线语音转文字桌面软件
+- [RVC 变声官方下载](https://wan.is-my.app/rvc-download/): 开源 AI 变声和翻唱
+- [CosyVoice官方下载](https://wan.is-my.app/cosyvoice-download/): 阿里开源语音合成
+- [ElevenLabs官网入口](https://wan.is-my.app/elevenlabs-download/): 海外 AI 配音和声音克隆
+- [魔音工坊官网入口](https://wan.is-my.app/moyin-download/): 短视频 AI 配音
+- [Cursor官方下载](https://wan.is-my.app/cursor-download/): AI 代码编辑器
+- [Trae官方下载](https://wan.is-my.app/trae-download/): 字节跳动 AI 编程 IDE
+- [通义灵码官方下载](https://wan.is-my.app/lingma-download/): 阿里云 AI 编程助手
+- [GitHub Copilot官网入口](https://wan.is-my.app/github-copilot-download/): GitHub 官方 AI 编程助手
+- [Devin Desktop（原 Windsurf）官方下载](https://wan.is-my.app/devin-desktop-download/): 原 Windsurf / Codeium AI 编辑器
+- [Claude Code官网入口](https://wan.is-my.app/claude-code-download/): 命令行 AI 编程智能体
+- [腾讯云 CodeBuddy官网入口](https://wan.is-my.app/codebuddy-download/): 腾讯 AI 编程助手
+- [Continue官网入口](https://wan.is-my.app/continue-download/): 开源 AI 编程插件，可接本地模型
+- [Cline官网入口](https://wan.is-my.app/cline-download/): 开源 VS Code 编程智能体
+- [Ollama官方下载](https://wan.is-my.app/ollama-download/): 一行命令本地运行大模型
+- [LM Studio官方下载](https://wan.is-my.app/lm-studio-download/): 图形界面本地大模型工具
+- [Jan官方下载](https://wan.is-my.app/jan-download/): 开源离线 ChatGPT 替代
+- [GPT4All官方下载](https://wan.is-my.app/gpt4all-download/): 普通电脑也能跑的本地 AI
+- [llama.cpp官方下载](https://wan.is-my.app/llama-cpp-download/): 本地大模型推理引擎
+- [vLLM官方下载](https://wan.is-my.app/vllm-download/): 高并发大模型推理服务
+- [Open WebUI官方下载](https://wan.is-my.app/open-webui-download/): 自建 ChatGPT 风格网页界面
+- [AnythingLLM官方下载](https://wan.is-my.app/anythingllm-download/): 本地知识库问答桌面版
+- [Cherry Studio官方下载](https://wan.is-my.app/cherry-studio-download/): 多模型 AI 桌面客户端
+- [Chatbox官方下载](https://wan.is-my.app/chatbox-download/): 全平台 AI 聊天客户端
+- [LobeChat（LobeHub）官方下载](https://wan.is-my.app/lobechat-download/): 开源 AI 聊天和智能体平台
+- [NextChat官方下载](https://wan.is-my.app/nextchat-download/): 轻量 AI 聊天网页，一键部署
+- [Dify官方下载](https://wan.is-my.app/dify-download/): AI 应用和智能体开发平台
+- [FastGPT官方下载](https://wan.is-my.app/fastgpt-download/): 知识库问答系统
+- [RAGFlow官方下载](https://wan.is-my.app/ragflow-download/): 深度文档理解 RAG 引擎
+- [MaxKB官方下载](https://wan.is-my.app/maxkb-download/): 开源企业级智能体与知识库
+- [LangChain官网入口](https://wan.is-my.app/langchain-info/): 大模型应用开发框架
+- [LlamaIndex官网入口](https://wan.is-my.app/llamaindex-info/): 数据和知识库 RAG 开发框架
+- [MCP 客户端官网入口](https://wan.is-my.app/mcp-clients/): 支持 MCP 的 AI 客户端汇总
+- [Hugging Face官网入口](https://wan.is-my.app/huggingface/): 全球最大开源模型社区
+- [魔搭 ModelScope官网入口](https://wan.is-my.app/modelscope/): 国内开源模型社区，下载快
+- [hf-mirror官网入口](https://wan.is-my.app/hf-mirror/): Hugging Face 国内镜像
+- [Gamma官网入口](https://wan.is-my.app/gamma-download/): AI 一键生成 PPT 和网页
+- [AiPPT官网入口](https://wan.is-my.app/aippt-download/): 国内 AI 生成 PPT
+- [通义听悟官网入口](https://wan.is-my.app/tingwu-download/): 录音转文字、会议纪要
+- [NotebookLM官网入口](https://wan.is-my.app/notebooklm/): Google AI 笔记和音频概览
+- [沉浸式翻译官网入口](https://wan.is-my.app/immersive-translate/): AI 双语网页和 PDF 翻译
+- [DeepL官方下载](https://wan.is-my.app/deepl-download/): 高质量 AI 翻译桌面版
+- [大模型本地部署全套软件](https://wan.is-my.app/bendi-damoxing/): 大模型本地部署全套软件
+- [AI 软件怎么选](https://wan.is-my.app/ai-ruanjian-xuanze/): AI 软件怎么选
+
 ## 自媒体工具
 
 - [视频转文字](https://wan.is-my.app/video-to-text/): 视频提取文案、口播转文字
@@ -41,6 +134,12 @@
 - [证件照制作](https://wan.is-my.app/id-photo-maker/): AI 抠图换底色、标准尺寸
 - [九宫格切图](https://wan.is-my.app/image-grid/): 朋友圈九宫格、长图切分
 - [图片拼接](https://wan.is-my.app/tupian-pinjie/): 多图拼长图、拼九宫格
+- [图片去水印](https://wan.is-my.app/qushuiyin/): 涂抹去除水印、文字、杂物
+- [图片打码](https://wan.is-my.app/masaike/): 马赛克、模糊遮挡隐私信息
+- [头像制作](https://wan.is-my.app/touxiang/): 圆形头像、加边框、加角标
+- [表情包制作](https://wan.is-my.app/biaoqingbao/): 图片配文字，做搞笑表情包
+- [手写签名生成](https://wan.is-my.app/shouxie-qianming/): 手写电子签名，导出透明 PNG
+- [AI 图片无损放大](https://wan.is-my.app/fangda/): AI 把模糊小图放大 2—4 倍
 - [摄像机记录器](https://wan.is-my.app/camera-recorder/): 从网络摄像头或照相机拍摄照片或录制视频
 - [二维码生成（高级）](https://wan.is-my.app/qrcode-generator/): 生成网址或文字二维码，可自定义前景色、背景
 - [SVG 占位符生成器](https://wan.is-my.app/svg-placeholder-generator/): 生成 svg 图像以用作应用程序中的占位符
@@ -96,6 +195,8 @@
 - [文本去重排序](https://wan.is-my.app/dedupe/): 删除重复行、空行、排序
 - [人民币大写转换](https://wan.is-my.app/rmb-daxie/): 金额数字转中文大写
 - [文字转语音朗读](https://wan.is-my.app/wenzi-zhuan-yuyin/): 输入文字在线朗读
+- [在线 Word 文档](https://wan.is-my.app/zaixian-word/): 在线写文档，导出 Word / PDF
+- [在线 Excel 表格](https://wan.is-my.app/excel/): 在线编辑表格，打开导出 xlsx
 - [ASCII 艺术字生成](https://wan.is-my.app/ascii-text-drawer/): 把文字转换成各种字体的 ASCII 艺术字
 - [Emoji 选择器](https://wan.is-my.app/emoji-picker/): 轻松复制和粘贴Emoji表情符号，并获得每
 - [Lorem ipsum生成器](https://wan.is-my.app/lorem-ipsum-generator/): Lorem ipsum是一种占位符文本，通
@@ -148,6 +249,8 @@
 
 - [二维码生成器](https://wan.is-my.app/qrcode/): 文字、网址、WiFi 生成二维码
 - [二维码识别](https://wan.is-my.app/qr-decode/): 上传图片解析二维码内容
+- [二维码美化](https://wan.is-my.app/erweima-meihua/): 彩色、圆点、加 Logo 的二维码
+- [条形码生成器](https://wan.is-my.app/tiaoxingma/): EAN-13、Code128 条码在线生成
 
 ## 计算器
 
@@ -161,6 +264,11 @@
 - [存款利息计算器](https://wan.is-my.app/cunkuan-lixi/): 定期活期利息、到期本息
 - [五险一金计算器](https://wan.is-my.app/wuxian-yijin/): 社保公积金、税后工资
 - [年终奖个税计算器](https://wan.is-my.app/nianzhongjiang/): 单独计税还是合并计税
+- [汇率换算](https://wan.is-my.app/huilv/): 人民币与 160+ 货币实时换算
+- [年龄计算器](https://wan.is-my.app/nianling/): 周岁、虚岁、生肖星座
+- [尺码换算](https://wan.is-my.app/chima/): 鞋码、衣服尺码对照
+- [基础代谢 / 体脂率计算器](https://wan.is-my.app/jichudaixie/): BMR、每日热量、体脂率
+- [油耗计算器](https://wan.is-my.app/youhao/): 百公里油耗、每公里油费、电车电耗
 - [基准生成器](https://wan.is-my.app/benchmark-builder/): 简单的在线基准构建器可以轻松比较任务的执行
 - [计时器](https://wan.is-my.app/chronometer/): 监控事物的持续时间。基本上是一种具有简单计
 - [ETA 计算器](https://wan.is-my.app/eta-calculator/): ETA（估计到达时间）计算器，用于知道任务
@@ -199,9 +307,17 @@
 - [随机分组](https://wan.is-my.app/fenzu/): 名单一键随机分组
 - [键盘测试](https://wan.is-my.app/jianpan-ceshi/): 检测按键是否失灵
 - [屏幕坏点检测](https://wan.is-my.app/huaidian/): 纯色全屏查坏点亮点
+- [甘特图在线制作](https://wan.is-my.app/gantt/): 填表生成项目进度甘特图
+- [预产期计算器](https://wan.is-my.app/yuchanqi/): 按末次月经算预产期和孕周
+- [排卵期计算器](https://wan.is-my.app/pailuanqi/): 排卵日、易孕期、安全期日历
+- [公历农历转换](https://wan.is-my.app/nongli-zhuanhuan/): 阳历阴历互转，查农历生日
+- [节日倒计时](https://wan.is-my.app/daojishi/): 距离春节、高考、国庆还有几天
+- [世界时间](https://wan.is-my.app/shijie-shijian/): 各国时间、时差换算
+- [身份证号码校验](https://wan.is-my.app/shenfenzheng/): 校验真伪格式，看出生日期性别
 
 ## 开发工具
 
+- [Mermaid 图表编辑器](https://wan.is-my.app/mermaid/): 文字生成流程图、时序图、ER 图
 - [JSON 格式化](https://wan.is-my.app/json/): JSON 美化、压缩、校验
 - [Base64 编码解码](https://wan.is-my.app/base64/): 文字、图片 Base64 互转
 - [正则表达式测试](https://wan.is-my.app/regex/): 实时匹配高亮、常用正则
@@ -566,6 +682,144 @@
 - [随机整数生成](https://wan.is-my.app/cc-pseudo-random-integer-generator/): 生成指定范围的随机整数
 - [x86 反汇编](https://wan.is-my.app/cc-disassemble-x86/): 把机器码反汇编成 x86 汇编
 
+## 电商运营
+
+- [电商利润计算器](https://wan.is-my.app/dianshang-lirun/): 毛利、净利、利润率一键算
+- [定价与折扣反算](https://wan.is-my.app/dingjia-zhekou/): 按利润率定价，折扣反推原价
+- [满减优惠叠加计算器](https://wan.is-my.app/manjian/): 满减、优惠券、折扣叠加怎么最省
+- [ROI / 保本 ROI 计算器](https://wan.is-my.app/roi/): 投放 ROI、ROAS、保本出价
+- [转化率 / 客单价 / UV 价值](https://wan.is-my.app/zhuanhualv/): 店铺核心指标计算与目标反推
+- [平台佣金手续费计算](https://wan.is-my.app/pingtai-yongjin/): 淘宝天猫京东拼多多抖音扣点
+- [体积重 / 运费计算](https://wan.is-my.app/tijizhong/): 跨境物流抛货计费重量
+- [广告法违禁词检测](https://wan.is-my.app/weijinci/): 极限词、虚假宣传词一键排查
+- [电商主图尺寸裁剪 / 白底图](https://wan.is-my.app/zhutu/): 各平台主图尺寸一键裁剪加白底
+- [SKU 组合生成器](https://wan.is-my.app/sku-zuhe/): 颜色尺码规格自动排列组合
+- [库存周转 / 补货计算](https://wan.is-my.app/kucun-zhouzhuan/): 周转天数、安全库存、补货点
+- [个体户税费估算](https://wan.is-my.app/getihu-shuifei/): 增值税、附加税、经营所得个税
+
+## 直播工具
+
+- [直播违禁词检测](https://wan.is-my.app/zhibo-weijinci/): 直播话术敏感词、引流词排查
+- [直播话术模板](https://wan.is-my.app/zhibo-huashu/): 开场、介绍、福利、留人、下播合规话术
+- [直播间提词器](https://wan.is-my.app/zhibo-tici/): 自动滚动、镜像、大字体提词
+- [直播抽奖 / 倒计时](https://wan.is-my.app/zhibo-choujiang/): 评论名单随机抽奖、开奖倒计时
+- [OBS 推流码率计算](https://wan.is-my.app/obs-malv/): 按分辨率帧率和上传带宽推荐码率
+- [绿幕抠像](https://wan.is-my.app/lvmu-koutu/): 摄像头 / 视频绿幕实时抠图换背景
+- [抖音直播伴侣官方下载](https://wan.is-my.app/douyin-zhibo-banlv/): 抖音电脑开播官方软件
+- [快手直播伴侣官方下载](https://wan.is-my.app/kuaishou-zhibo-banlv/): 快手电脑开播官方软件
+- [视频号直播（推流）官网入口](https://wan.is-my.app/shipinhao-zhibo/): 视频号助手电脑推流开播
+- [哔哩哔哩直播姬官方下载](https://wan.is-my.app/bilibili-zhibo-ji/): B 站官方电脑直播软件
+- [淘宝直播官网入口](https://wan.is-my.app/taobao-zhibo/): 淘宝直播中控台和电脑开播
+- [京东直播官网入口](https://wan.is-my.app/jd-zhibo/): 京东直播商家后台
+- [小红书直播助手官方下载](https://wan.is-my.app/xhs-zhibo/): 小红书官方电脑直播
+- [虎牙直播助手官方下载](https://wan.is-my.app/huya-zhibo/): 虎牙官方电脑直播软件
+- [斗鱼直播伴侣官方下载](https://wan.is-my.app/douyu-zhibo/): 斗鱼官方电脑直播软件
+- [YY 开播官网入口](https://wan.is-my.app/yy-kaibo/): YY 直播开播工具
+- [巨量百应官网入口](https://wan.is-my.app/buyin-baiying/): 抖音电商达人和机构后台
+- [抖店官网入口](https://wan.is-my.app/doudian/): 抖音小店商家后台
+- [Streamlabs官方下载](https://wan.is-my.app/streamlabs-download/): 海外主播常用推流软件
+- [TikTok LIVE Studio官方下载](https://wan.is-my.app/tiktok-live-studio/): TikTok 官方电脑直播软件
+- [YouTube 直播官网入口](https://wan.is-my.app/youtube-zhibo/): YouTube 官方直播教程
+- [Twitch 直播官网入口](https://wan.is-my.app/twitch-zhibo/): Twitch 官方推流设置指南
+- [直播伴侣大全](https://wan.is-my.app/zhibo-banlv-daquan/): 直播伴侣大全
+
+## Windows / Mac 软件
+
+- [Windows 快捷键大全](https://wan.is-my.app/windows-kuaijiejian/): Win10 / Win11 常用快捷键速查
+- [Mac 快捷键大全](https://wan.is-my.app/mac-kuaijiejian/): macOS 常用快捷键速查
+- [Windows CMD 常用命令](https://wan.is-my.app/cmd-mingling/): CMD / PowerShell 命令速查
+- [Linux / Mac 终端命令](https://wan.is-my.app/linux-mingling/): Linux 和 macOS 常用命令速查
+- [蓝屏错误代码查询](https://wan.is-my.app/lanping-daima/): Windows 蓝屏代码含义和解决办法
+- [PowerToys官方下载](https://wan.is-my.app/powertoys-download/): 微软官方 Windows 效率工具集
+- [ShareX官方下载](https://wan.is-my.app/sharex-download/): 免费开源截图录屏工具
+- [Snipaste官方下载](https://wan.is-my.app/snipaste-download/): 截图 + 贴图神器
+- [PixPin官方下载](https://wan.is-my.app/pixpin-download/): 截图、贴图、长截图、OCR
+- [Ditto官方下载](https://wan.is-my.app/ditto-download/): Windows 剪贴板历史管理
+- [Listary官方下载](https://wan.is-my.app/listary-download/): Windows 文件搜索和快速启动
+- [Quicker官方下载](https://wan.is-my.app/quicker-download/): Windows 指尖工具箱
+- [uTools官方下载](https://wan.is-my.app/utools-download/): 插件化效率启动器
+- [HiBit Uninstaller官方下载](https://wan.is-my.app/hibit-uninstaller-download/): 免费彻底卸载软件
+- [WizTree官方下载](https://wan.is-my.app/wiztree-download/): 几秒扫描磁盘占用
+- [Bandizip官方下载](https://wan.is-my.app/bandizip-download/): 好用的压缩解压软件
+- [Sysinternals官方下载](https://wan.is-my.app/sysinternals-download/): 微软官方系统诊断工具集
+- [Windows Terminal官方下载](https://wan.is-my.app/windows-terminal-download/): 微软官方新终端
+- [微软常用运行库官方下载](https://wan.is-my.app/vc-runtime-download/): VC++ 运行库官方下载
+- [TrafficMonitor官方下载](https://wan.is-my.app/trafficmonitor-download/): 任务栏显示网速和 CPU
+- [Twinkle Tray官方下载](https://wan.is-my.app/twinkle-tray-download/): 多显示器亮度调节
+- [Files官方下载](https://wan.is-my.app/files-app-download/): 现代化文件管理器
+- [Nilesoft Shell官方下载](https://wan.is-my.app/nilesoft-shell-download/): Windows 11 右键菜单增强
+- [Honeyview官方下载](https://wan.is-my.app/honeyview-download/): 轻快的看图软件
+- [ImageGlass官方下载](https://wan.is-my.app/imageglass-download/): 开源看图软件
+- [Motrix官方下载](https://wan.is-my.app/motrix-download/): 全能下载工具
+- [Free Download Manager官方下载](https://wan.is-my.app/fdm-download/): 免费多线程下载管理器
+- [IDM（Internet Download Manager）官方下载](https://wan.is-my.app/idm-info/): 付费下载加速器，官方试用
+- [LocalSend官方下载](https://wan.is-my.app/localsend-download/): 局域网跨平台传文件
+- [火绒安全官方下载](https://wan.is-my.app/huorong-download/): 轻量无广告杀毒软件
+- [电脑驱动官方下载官网入口](https://wan.is-my.app/driver-official/): 联想惠普华为小米华硕驱动
+- [Homebrew官方下载](https://wan.is-my.app/homebrew/): Mac 软件包管理器
+- [Rectangle官方下载](https://wan.is-my.app/rectangle-mac/): Mac 窗口分屏快捷键
+- [Loop官方下载](https://wan.is-my.app/loop-mac/): 环形菜单窗口管理
+- [Raycast官方下载](https://wan.is-my.app/raycast-mac/): Mac 效率启动器
+- [Alfred官方下载](https://wan.is-my.app/alfred-mac/): 老牌 Mac 效率启动器
+- [Maccy官方下载](https://wan.is-my.app/maccy-mac/): 轻量 Mac 剪贴板历史
+- [IINA官方下载](https://wan.is-my.app/iina-mac/): Mac 最好用的视频播放器
+- [Infuse官方下载](https://wan.is-my.app/infuse-info/): Apple 全家桶影音库播放器
+- [Downie官方下载](https://wan.is-my.app/downie-info/): Mac 网页视频下载
+- [The Unarchiver官方下载](https://wan.is-my.app/the-unarchiver-mac/): Mac 免费解压 RAR / 7Z
+- [Keka官方下载](https://wan.is-my.app/keka-mac/): Mac 压缩解压工具
+- [AppCleaner官方下载](https://wan.is-my.app/appcleaner-mac/): Mac 彻底卸载应用
+- [Pearcleaner官方下载](https://wan.is-my.app/pearcleaner-mac/): 开源 Mac 应用卸载
+- [Stats官方下载](https://wan.is-my.app/stats-mac/): 菜单栏系统监控
+- [iStat Menus官方下载](https://wan.is-my.app/istat-menus-info/): 专业菜单栏系统监控
+- [iTerm2官方下载](https://wan.is-my.app/iterm2-mac/): Mac 经典终端
+- [Warp官方下载](https://wan.is-my.app/warp-download/): AI 智能终端
+- [OrbStack官方下载](https://wan.is-my.app/orbstack-mac/): 轻快的 Docker 和 Linux 虚拟机
+- [Docker Desktop官方下载](https://wan.is-my.app/docker-desktop-download/): 容器开发环境
+- [BetterDisplay官方下载](https://wan.is-my.app/betterdisplay-mac/): 外接显示器 HiDPI 和亮度
+- [MonitorControl官方下载](https://wan.is-my.app/monitorcontrol-mac/): 用键盘调外接显示器亮度
+- [Mos官方下载](https://wan.is-my.app/mos-mac/): 让鼠标滚动变平滑
+- [LinearMouse官方下载](https://wan.is-my.app/linearmouse-mac/): Mac 鼠标和触控板定制
+- [Karabiner-Elements官方下载](https://wan.is-my.app/karabiner-mac/): Mac 键盘改键神器
+- [Input Source Pro官方下载](https://wan.is-my.app/input-source-pro-mac/): 按应用自动切换输入法
+- [Bartender官方下载](https://wan.is-my.app/bartender-info/): 菜单栏图标管理（付费）
+- [Ice官方下载](https://wan.is-my.app/ice-mac/): 开源菜单栏图标管理
+- [Hidden Bar官方下载](https://wan.is-my.app/hidden-bar-mac/): 一键隐藏菜单栏图标
+- [Itsycal官方下载](https://wan.is-my.app/itsycal-mac/): 菜单栏迷你日历
+- [CleanShot X官方下载](https://wan.is-my.app/cleanshot-info/): Mac 专业截图录屏（付费）
+- [Shottr官方下载](https://wan.is-my.app/shottr-mac/): 小巧好用的 Mac 截图
+- [Obsidian官方下载](https://wan.is-my.app/obsidian-download/): 本地 Markdown 双链笔记
+- [Typora官方下载](https://wan.is-my.app/typora-download/): 所见即所得 Markdown 编辑器
+- [Eagle官方下载](https://wan.is-my.app/eagle-download/): 设计师素材管理
+- [PDF Expert官方下载](https://wan.is-my.app/pdf-expert-info/): Mac 专业 PDF 编辑
+- [Easydict官方下载](https://wan.is-my.app/easydict-mac/): 开源划词翻译词典
+- [Bob官方下载](https://wan.is-my.app/bob-mac/): Mac 翻译和 OCR
+- [欧路词典官方下载](https://wan.is-my.app/eudic-download/): 英语词典和翻译
+- [Latest官方下载](https://wan.is-my.app/latest-mac/): 检查 Mac 应用更新
+- [Clop官方下载](https://wan.is-my.app/clop-mac/): 自动压缩图片和视频
+- [AltTab官方下载](https://wan.is-my.app/alttab-mac/): Windows 式窗口切换
+- [KeyCastr官方下载](https://wan.is-my.app/keycastr-mac/): 录屏时显示按键
+- [Mac 必装软件推荐](https://wan.is-my.app/mac-bizhuang-ruanjian/): Mac 必装软件推荐
+- [Windows 装机必备软件](https://wan.is-my.app/windows-zhuangji-bibei/): Windows 装机必备软件
+- [Mac / Windows 免费替代付费软件](https://wan.is-my.app/mianfei-tidai-ruanjian/): Mac / Windows 免费替代付费软件
+
+## 浏览器
+
+- [Arc 浏览器官方下载](https://wan.is-my.app/arc-download/): 侧边栏标签设计的浏览器
+- [Safari 浏览器官网入口](https://wan.is-my.app/safari-info/): 苹果自带浏览器
+- [Brave 浏览器官方下载](https://wan.is-my.app/brave-download/): 自带广告拦截的隐私浏览器
+- [Opera 浏览器官方下载](https://wan.is-my.app/opera-download/): 内置 VPN 和侧边栏的浏览器
+- [Vivaldi 浏览器官方下载](https://wan.is-my.app/vivaldi-download/): 高度可定制的浏览器
+- [360 安全浏览器官方下载](https://wan.is-my.app/360se-download/): 国产双核浏览器
+- [360 极速浏览器官方下载](https://wan.is-my.app/360ee-download/): Chromium 内核双核浏览器
+- [QQ 浏览器官方下载](https://wan.is-my.app/qqbrowser-download/): 腾讯浏览器，文件和 AI 工具
+- [夸克官方下载](https://wan.is-my.app/quark-download/): AI 浏览器和网盘、扫描
+- [搜狗浏览器官方下载](https://wan.is-my.app/sogou-browser-download/): 老牌国产双核浏览器
+- [UC 浏览器官方下载](https://wan.is-my.app/uc-browser-download/): 阿里 UC 浏览器
+- [Zen 浏览器官方下载](https://wan.is-my.app/zen-browser-download/): 基于 Firefox 的开源新浏览器
+- [Comet 浏览器官方下载](https://wan.is-my.app/comet-download/): Perplexity 的 AI 浏览器
+- [Dia 浏览器官方下载](https://wan.is-my.app/dia-download/): Arc 团队的 AI 浏览器
+- [浏览器推荐](https://wan.is-my.app/liulanqi-tuijian/): 浏览器推荐
+
 ## 系统与软件下载
 
 - [Windows 11官方下载](https://wan.is-my.app/windows11-download/): 微软官方 ISO 镜像和安装助手
@@ -606,30 +860,23 @@
 - [百度网盘官方下载](https://wan.is-my.app/baidu-netdisk-download/): 百度网盘电脑版官方下载
 - [网易云音乐官方下载](https://wan.is-my.app/netease-music-download/): 网易云音乐电脑版官方下载
 - [QQ音乐官方下载](https://wan.is-my.app/qq-music-download/): QQ音乐电脑版官方下载
-- [剪映专业版官方下载](https://wan.is-my.app/jianying-download/): 剪映电脑版官方下载
 - [搜狗输入法官方下载](https://wan.is-my.app/sogou-pinyin-download/): 搜狗拼音输入法官方下载
 - [微信输入法官方下载](https://wan.is-my.app/wechat-ime-download/): 微信输入法电脑版、手机版
 - [迅雷官方下载](https://wan.is-my.app/xunlei-download/): 迅雷电脑版官方下载
-- [夸克官方下载](https://wan.is-my.app/quark-download/): 夸克浏览器、夸克网盘官方下载
-- [火绒安全官方下载](https://wan.is-my.app/huorong-download/): 火绒安全软件官方下载
 - [向日葵远程控制官方下载](https://wan.is-my.app/sunlogin-download/): 向日葵远程控制官方下载
 - [ToDesk官方下载](https://wan.is-my.app/todesk-download/): ToDesk 远程控制官方下载
 - [腾讯视频官方下载](https://wan.is-my.app/tencent-video-download/): 腾讯视频电脑版官方下载
 - [爱奇艺官方下载](https://wan.is-my.app/iqiyi-download/): 爱奇艺电脑版官方下载
-- [Bandizip官方下载](https://wan.is-my.app/bandizip-download/): Bandizip 解压缩软件官方下载
 - [Git官方下载](https://wan.is-my.app/git-download/): Git 官方下载（Windows / Mac / Linux）
 - [Node.js官方下载](https://wan.is-my.app/nodejs-download/): Node.js 官方下载 LTS 版
 - [Java JDK官方下载](https://wan.is-my.app/jdk-download/): Java JDK 官方下载
 - [Android Studio官方下载](https://wan.is-my.app/android-studio-download/): Android Studio 官方下载
-- [Docker Desktop官方下载](https://wan.is-my.app/docker-desktop-download/): Docker Desktop 官方下载
-- [PowerToys官方下载](https://wan.is-my.app/powertoys-download/): 微软 PowerToys 效率工具官方下载
 - [Zoom官方下载](https://wan.is-my.app/zoom-download/): Zoom 视频会议官方下载
 - [Telegram官方下载](https://wan.is-my.app/telegram-download/): Telegram 电脑版官方下载
 - [Blender官方下载](https://wan.is-my.app/blender-download/): Blender 3D 建模软件官方下载
 - [GIMP官方下载](https://wan.is-my.app/gimp-download/): GIMP 免费修图软件官方下载
 - [Audacity官方下载](https://wan.is-my.app/audacity-download/): Audacity 音频编辑官方下载
 - [HandBrake官方下载](https://wan.is-my.app/handbrake-download/): HandBrake 视频转码官方下载
-- [Snipaste官方下载](https://wan.is-my.app/snipaste-download/): Snipaste 截图贴图官方下载
 
 ## 游戏客户端下载
 

@@ -590,6 +590,496 @@
 "new": true
 },
 {
+"slug": "huilv",
+"name": "汇率换算",
+"short": "人民币与 160+ 货币实时换算",
+"cat": "calc",
+"title": "免费汇率换算 - 人民币美元日元港币实时汇率",
+"keywords": "汇率换算,汇率计算器,人民币汇率,美元汇率,日元汇率,港币汇率,今日汇率,汇率查询,货币换算",
+"url": "/huilv/",
+"new": true
+},
+{
+"slug": "mermaid",
+"name": "Mermaid 图表编辑器",
+"short": "文字生成流程图、时序图、ER 图",
+"cat": "dev",
+"title": "免费Mermaid在线编辑器 - 文字生成流程图时序图",
+"keywords": "mermaid,mermaid在线编辑器,流程图在线制作,时序图,在线画流程图,类图,er图在线,mermaid中文,文字生成流程图",
+"url": "/mermaid/",
+"new": true
+},
+{
+"slug": "gantt",
+"name": "甘特图在线制作",
+"short": "填表生成项目进度甘特图",
+"cat": "life",
+"title": "免费甘特图在线制作 - 项目进度计划表生成",
+"keywords": "甘特图,甘特图在线制作,甘特图制作,项目进度表,甘特图模板,在线甘特图,项目计划表,进度计划图",
+"url": "/gantt/",
+"new": true
+},
+{
+"slug": "erweima-meihua",
+"name": "二维码美化",
+"short": "彩色、圆点、加 Logo 的二维码",
+"cat": "qr",
+"title": "免费二维码美化 - 彩色二维码 带Logo二维码生成",
+"keywords": "二维码美化,二维码美化器,带logo二维码,彩色二维码,个性二维码,艺术二维码,二维码加logo,圆点二维码",
+"url": "/erweima-meihua/",
+"new": true
+},
+{
+"slug": "tiaoxingma",
+"name": "条形码生成器",
+"short": "EAN-13、Code128 条码在线生成",
+"cat": "qr",
+"title": "免费条形码生成器 - EAN13 Code128条码在线生成",
+"keywords": "条形码生成器,条码生成,条形码在线生成,ean13条码生成,code128条码,商品条码生成,条形码制作,批量生成条形码",
+"url": "/tiaoxingma/",
+"new": true
+},
+{
+"slug": "qushuiyin",
+"name": "图片去水印",
+"short": "涂抹去除水印、文字、杂物",
+"cat": "image",
+"title": "免费图片去水印 - 在线涂抹去除图片水印文字",
+"keywords": "图片去水印,去水印,在线去水印,照片去水印,图片去文字,去除水印,水印去除工具,去掉图片上的字",
+"url": "/qushuiyin/",
+"new": true
+},
+{
+"slug": "masaike",
+"name": "图片打码",
+"short": "马赛克、模糊遮挡隐私信息",
+"cat": "image",
+"title": "免费图片打码 - 在线马赛克 模糊遮挡隐私",
+"keywords": "图片打码,马赛克,图片马赛克,在线打码,截图打码,照片打马赛克,模糊处理,隐私遮挡",
+"url": "/masaike/",
+"new": true
+},
+{
+"slug": "touxiang",
+"name": "头像制作",
+"short": "圆形头像、加边框、加角标",
+"cat": "image",
+"title": "免费头像制作 - 在线制作圆形头像 头像加边框",
+"keywords": "头像制作,头像制作在线,圆形头像,头像加边框,微信头像制作,头像生成,头像框,节日头像",
+"url": "/touxiang/",
+"new": true
+},
+{
+"slug": "biaoqingbao",
+"name": "表情包制作",
+"short": "图片配文字，做搞笑表情包",
+"cat": "image",
+"title": "免费表情包制作 - 在线给图片配文字做表情",
+"keywords": "表情包制作,表情包生成器,在线做表情包,图片配文字,斗图表情制作,表情包加字,搞笑表情包,沙雕表情包",
+"url": "/biaoqingbao/",
+"new": true
+},
+{
+"slug": "shouxie-qianming",
+"name": "手写签名生成",
+"short": "手写电子签名，导出透明 PNG",
+"cat": "image",
+"title": "免费手写签名生成 - 在线电子签名 透明背景",
+"keywords": "手写签名,电子签名,在线签名,签名生成,手写签名在线生成,透明签名,电子签名制作,签名图片",
+"url": "/shouxie-qianming/",
+"new": true
+},
+{
+"slug": "zaixian-word",
+"name": "在线 Word 文档",
+"short": "在线写文档，导出 Word / PDF",
+"cat": "text",
+"title": "免费在线Word文档编辑器 - 在线写文档导出Word",
+"keywords": "在线word,在线文档,word在线编辑,在线写文档,在线文档编辑器,网页版word,免费word,在线编辑docx",
+"url": "/zaixian-word/",
+"new": true
+},
+{
+"slug": "yuchanqi",
+"name": "预产期计算器",
+"short": "按末次月经算预产期和孕周",
+"cat": "life",
+"title": "免费预产期计算器 - 怀孕周数 孕周计算",
+"keywords": "预产期计算器,预产期计算,孕周计算器,怀孕几周了,末次月经算预产期,产检时间表,怀孕天数计算",
+"url": "/yuchanqi/",
+"new": true
+},
+{
+"slug": "pailuanqi",
+"name": "排卵期计算器",
+"short": "排卵日、易孕期、安全期日历",
+"cat": "life",
+"title": "免费排卵期计算器 - 排卵日 安全期 易孕期计算",
+"keywords": "排卵期计算器,排卵期计算,安全期计算器,排卵日计算,易孕期,安全期计算,月经周期计算,备孕",
+"url": "/pailuanqi/",
+"new": true
+},
+{
+"slug": "nongli-zhuanhuan",
+"name": "公历农历转换",
+"short": "阳历阴历互转，查农历生日",
+"cat": "life",
+"title": "免费公历农历转换 - 阳历转阴历 农历生日查询",
+"keywords": "公历农历转换,农历转换,阴历阳历转换,阳历转阴历,农历生日查询,农历生日对应阳历,阴历转阳历,农历查询",
+"url": "/nongli-zhuanhuan/",
+"new": true
+},
+{
+"slug": "nianling",
+"name": "年龄计算器",
+"short": "周岁、虚岁、生肖星座",
+"cat": "calc",
+"title": "免费年龄计算器 - 周岁虚岁计算 出生天数",
+"keywords": "年龄计算器,周岁计算,虚岁计算,虚岁周岁计算器,年龄计算,出生天数计算,我今年几岁,算年龄",
+"url": "/nianling/",
+"new": true
+},
+{
+"slug": "daojishi",
+"name": "节日倒计时",
+"short": "距离春节、高考、国庆还有几天",
+"cat": "life",
+"title": "免费节日倒计时 - 距离春节还有多少天",
+"keywords": "倒计时,节日倒计时,距离春节还有多少天,春节倒计时,高考倒计时,国庆倒计时,倒计时器,距离过年还有多少天",
+"url": "/daojishi/",
+"new": true
+},
+{
+"slug": "shijie-shijian",
+"name": "世界时间",
+"short": "各国时间、时差换算",
+"cat": "life",
+"title": "免费世界时间 - 各国时间查询 时差换算",
+"keywords": "世界时间,时差换算,北京时间,各国时间,纽约时间,美国时间,伦敦时间,东京时间,时差计算",
+"url": "/shijie-shijian/",
+"new": true
+},
+{
+"slug": "chima",
+"name": "尺码换算",
+"short": "鞋码、衣服尺码对照",
+"cat": "calc",
+"title": "免费尺码换算 - 鞋码对照表 衣服尺码换算",
+"keywords": "尺码换算,鞋码换算,鞋码对照表,欧码换算,美码换算,衣服尺码对照表,身高体重尺码,尺码表",
+"url": "/chima/",
+"new": true
+},
+{
+"slug": "jichudaixie",
+"name": "基础代谢 / 体脂率计算器",
+"short": "BMR、每日热量、体脂率",
+"cat": "calc",
+"title": "免费基础代谢计算器 - 体脂率 每日热量消耗计算",
+"keywords": "基础代谢计算器,bmr计算,体脂率计算器,每日热量消耗,tdee计算,减肥热量计算,基础代谢率,体脂率计算",
+"url": "/jichudaixie/",
+"new": true
+},
+{
+"slug": "youhao",
+"name": "油耗计算器",
+"short": "百公里油耗、每公里油费、电车电耗",
+"cat": "calc",
+"title": "免费油耗计算器 - 百公里油耗 油费计算",
+"keywords": "油耗计算器,百公里油耗计算,油耗计算,油费计算器,每公里油费,电车电耗计算,用车成本计算,油耗怎么算",
+"url": "/youhao/",
+"new": true
+},
+{
+"slug": "shenfenzheng",
+"name": "身份证号码校验",
+"short": "校验真伪格式，看出生日期性别",
+"cat": "life",
+"title": "免费身份证号码校验 - 身份证号验证 15位转18位",
+"keywords": "身份证号码校验,身份证校验,身份证号验证,身份证号码查询,身份证校验码,15位转18位身份证,身份证号码格式",
+"url": "/shenfenzheng/",
+"new": true
+},
+{
+"slug": "excel",
+"name": "在线 Excel 表格",
+"short": "在线编辑表格，打开导出 xlsx",
+"cat": "text",
+"title": "在线Excel表格 - 免费在线编辑xlsx 无需安装",
+"keywords": "在线excel,在线表格,excel在线编辑,在线编辑xlsx,网页版excel,免费excel,在线电子表格,excel在线版,打开xlsx",
+"url": "/excel/",
+"new": true
+},
+{
+"slug": "fangda",
+"name": "AI 图片无损放大",
+"short": "AI 把模糊小图放大 2—4 倍",
+"cat": "image",
+"title": "AI图片无损放大 - 免费在线高清放大2倍4倍",
+"keywords": "图片无损放大,AI图片放大,图片放大不模糊,图片高清放大,在线图片放大,超分辨率,图片变清晰,ESRGAN",
+"url": "/fangda/",
+"new": true
+},
+{
+"slug": "windows-kuaijiejian",
+"name": "Windows 快捷键大全",
+"short": "Win10 / Win11 常用快捷键速查",
+"cat": "pc",
+"title": "Windows快捷键大全 - Win11常用快捷键 免费",
+"keywords": "windows快捷键大全,win11快捷键,win10快捷键,电脑快捷键大全,截图快捷键,分屏快捷键,电脑常用快捷键",
+"url": "/windows-kuaijiejian/",
+"new": true
+},
+{
+"slug": "mac-kuaijiejian",
+"name": "Mac 快捷键大全",
+"short": "macOS 常用快捷键速查",
+"cat": "pc",
+"title": "Mac快捷键大全 - macOS常用快捷键速查 免费",
+"keywords": "mac快捷键大全,mac截图快捷键,mac强制退出快捷键,macos快捷键,苹果电脑快捷键,mac显示隐藏文件,mac剪切文件",
+"url": "/mac-kuaijiejian/",
+"new": true
+},
+{
+"slug": "cmd-mingling",
+"name": "Windows CMD 常用命令",
+"short": "CMD / PowerShell 命令速查",
+"cat": "pc",
+"title": "CMD常用命令大全 - Windows命令提示符速查 免费",
+"keywords": "cmd命令大全,cmd常用命令,windows命令,ipconfig,sfc scannow,dism修复,运行命令大全,win+r命令",
+"url": "/cmd-mingling/",
+"new": true
+},
+{
+"slug": "linux-mingling",
+"name": "Linux / Mac 终端命令",
+"short": "Linux 和 macOS 常用命令速查",
+"cat": "pc",
+"title": "Linux常用命令大全 - Mac终端命令速查 免费",
+"keywords": "linux常用命令,linux命令大全,mac终端命令,mac终端常用命令,linux查看端口,linux解压命令,shell命令",
+"url": "/linux-mingling/",
+"new": true
+},
+{
+"slug": "lanping-daima",
+"name": "蓝屏错误代码查询",
+"short": "Windows 蓝屏代码含义和解决办法",
+"cat": "pc",
+"title": "蓝屏代码查询 - 免费Windows蓝屏代码大全",
+"keywords": "蓝屏代码查询,蓝屏错误代码,电脑蓝屏怎么办,critical process died,irql not less or equal,memory management蓝屏,蓝屏代码大全",
+"url": "/lanping-daima/",
+"new": true
+},
+{
+"slug": "dianshang-lirun",
+"name": "电商利润计算器",
+"short": "毛利、净利、利润率一键算",
+"cat": "ecom",
+"title": "免费电商利润计算器 - 毛利率 净利润计算",
+"keywords": "电商利润计算器,毛利计算,利润率计算,净利润计算,淘宝利润计算,拼多多利润计算,抖店利润计算,商品利润计算",
+"url": "/dianshang-lirun/",
+"new": true
+},
+{
+"slug": "dingjia-zhekou",
+"name": "定价与折扣反算",
+"short": "按利润率定价，折扣反推原价",
+"cat": "ecom",
+"title": "免费商品定价计算器 - 折扣反算原价 加价率",
+"keywords": "定价计算器,商品定价,折扣计算器,折扣反算,原价计算,加价率计算,毛利率定价,打折计算",
+"url": "/dingjia-zhekou/",
+"new": true
+},
+{
+"slug": "manjian",
+"name": "满减优惠叠加计算器",
+"short": "满减、优惠券、折扣叠加怎么最省",
+"cat": "ecom",
+"title": "免费满减计算器 - 优惠券叠加 凑单实付计算",
+"keywords": "满减计算器,优惠券叠加计算,凑单计算器,双十一满减计算,618满减,到手价计算,跨店满减计算,优惠叠加",
+"url": "/manjian/",
+"new": true
+},
+{
+"slug": "roi",
+"name": "ROI / 保本 ROI 计算器",
+"short": "投放 ROI、ROAS、保本出价",
+"cat": "ecom",
+"title": "免费ROI计算器 - 保本ROI 投产比 千川直通车",
+"keywords": "roi计算器,保本roi计算,投产比计算,roas计算,千川roi,直通车roi,保本出价计算,投放roi",
+"url": "/roi/",
+"new": true
+},
+{
+"slug": "zhuanhualv",
+"name": "转化率 / 客单价 / UV 价值",
+"short": "店铺核心指标计算与目标反推",
+"cat": "ecom",
+"title": "免费转化率计算器 - 客单价 UV价值 销售额公式",
+"keywords": "转化率计算器,转化率计算,客单价计算,uv价值计算,销售额公式,店铺转化率,电商指标计算,连带率",
+"url": "/zhuanhualv/",
+"new": true
+},
+{
+"slug": "pingtai-yongjin",
+"name": "平台佣金手续费计算",
+"short": "淘宝天猫京东拼多多抖音扣点",
+"cat": "ecom",
+"title": "免费电商平台佣金计算器 - 扣点手续费 到手金额",
+"keywords": "平台佣金计算,淘宝扣点,天猫扣点计算,京东佣金,拼多多手续费,抖店技术服务费,达人佣金计算,电商扣点",
+"url": "/pingtai-yongjin/",
+"new": true
+},
+{
+"slug": "tijizhong",
+"name": "体积重 / 运费计算",
+"short": "跨境物流抛货计费重量",
+"cat": "ecom",
+"title": "免费体积重计算器 - 跨境物流运费 抛货计算",
+"keywords": "体积重计算,体积重量计算器,抛货计算,计费重量,国际快递运费计算,跨境物流运费,材积重计算,首重续重计算",
+"url": "/tijizhong/",
+"new": true
+},
+{
+"slug": "weijinci",
+"name": "广告法违禁词检测",
+"short": "极限词、虚假宣传词一键排查",
+"cat": "ecom",
+"title": "免费违禁词检测 - 广告法极限词查询 敏感词检测",
+"keywords": "违禁词检测,广告法违禁词,极限词检测,违禁词查询,敏感词检测,广告法极限词,淘宝违禁词,抖音违禁词,小红书违禁词",
+"url": "/weijinci/",
+"new": true
+},
+{
+"slug": "zhibo-weijinci",
+"name": "直播违禁词检测",
+"short": "直播话术敏感词、引流词排查",
+"cat": "live",
+"title": "免费直播违禁词检测 - 抖音快手直播敏感词查询",
+"keywords": "直播违禁词,直播违禁词检测,抖音直播违禁词,快手直播违禁词,直播敏感词,直播话术违禁词,直播间违规词,带货违禁词",
+"url": "/zhibo-weijinci/",
+"new": true
+},
+{
+"slug": "zhutu",
+"name": "电商主图尺寸裁剪 / 白底图",
+"short": "各平台主图尺寸一键裁剪加白底",
+"cat": "ecom",
+"title": "免费电商主图制作 - 淘宝主图尺寸 白底图 裁剪",
+"keywords": "主图尺寸,淘宝主图尺寸,白底图制作,主图裁剪,电商主图制作,拼多多主图尺寸,抖音主图尺寸,商品图白底,800x800",
+"url": "/zhutu/",
+"new": true
+},
+{
+"slug": "sku-zuhe",
+"name": "SKU 组合生成器",
+"short": "颜色尺码规格自动排列组合",
+"cat": "ecom",
+"title": "免费SKU组合生成器 - 商品规格排列组合 编码生成",
+"keywords": "sku生成器,sku组合,sku编码生成,商品规格组合,排列组合生成,sku批量生成,商品编码,规格表生成",
+"url": "/sku-zuhe/",
+"new": true
+},
+{
+"slug": "kucun-zhouzhuan",
+"name": "库存周转 / 补货计算",
+"short": "周转天数、安全库存、补货点",
+"cat": "ecom",
+"title": "免费库存周转率计算器 - 安全库存 补货点计算",
+"keywords": "库存周转率计算,库存周转天数,安全库存计算,补货点计算,库存计算器,进销存计算,补货量计算,出入库计算",
+"url": "/kucun-zhouzhuan/",
+"new": true
+},
+{
+"slug": "getihu-shuifei",
+"name": "个体户税费估算",
+"short": "增值税、附加税、经营所得个税",
+"cat": "ecom",
+"title": "免费个体户税费计算器 - 经营所得个税 增值税",
+"keywords": "个体户税费计算,个体工商户个税计算,经营所得个税计算,小规模纳税人增值税,个体户交多少税,网店交税计算,个体户税率,经营所得税率表",
+"url": "/getihu-shuifei/",
+"new": true
+},
+{
+"slug": "zhibo-huashu",
+"name": "直播话术模板",
+"short": "开场、介绍、福利、留人、下播合规话术",
+"cat": "live",
+"title": "直播话术模板大全 - 免费带货开场白 留人话术",
+"keywords": "直播话术,直播话术模板,带货直播话术,直播开场白,直播留人话术,直播间话术大全,抖音直播话术,新手直播话术,卖点话术",
+"url": "/zhibo-huashu/",
+"new": true
+},
+{
+"slug": "zhibo-tici",
+"name": "直播间提词器",
+"short": "自动滚动、镜像、大字体提词",
+"cat": "live",
+"title": "在线提词器 - 免费直播提词器 手机电脑都能用",
+"keywords": "提词器,在线提词器,直播提词器,免费提词器,网页提词器,口播提词器,手机提词器,提词器在线使用",
+"url": "/zhibo-tici/",
+"new": true
+},
+{
+"slug": "zhibo-choujiang",
+"name": "直播抽奖 / 倒计时",
+"short": "评论名单随机抽奖、开奖倒计时",
+"cat": "live",
+"title": "直播抽奖工具 - 免费在线随机抽奖 倒计时",
+"keywords": "直播抽奖,在线抽奖,抽奖工具,随机抽奖,名单抽奖,直播间抽奖,抽奖软件,倒计时抽奖,年会抽奖",
+"url": "/zhibo-choujiang/",
+"new": true
+},
+{
+"slug": "obs-malv",
+"name": "OBS 推流码率计算",
+"short": "按分辨率帧率和上传带宽推荐码率",
+"cat": "live",
+"title": "OBS码率设置计算器 - 免费推流码率推荐",
+"keywords": "obs码率设置,推流码率,直播码率,obs设置,直播推流设置,1080p码率,obs推流设置,直播带宽,码率计算",
+"url": "/obs-malv/",
+"new": true
+},
+{
+"slug": "lvmu-koutu",
+"name": "绿幕抠像",
+"short": "摄像头 / 视频绿幕实时抠图换背景",
+"cat": "live",
+"title": "在线绿幕抠像 - 绿幕抠图 换背景 免费",
+"keywords": "绿幕抠像,绿幕抠图,在线绿幕,绿幕换背景,色度抠像,蓝幕抠图,直播绿幕,摄像头换背景",
+"url": "/lvmu-koutu/",
+"new": true
+},
+{
+"slug": "damoxing-api-jiage",
+"name": "大模型 API 价格对比",
+"short": "DeepSeek、GLM、GPT、Claude 每百万 token 价格",
+"cat": "ai",
+"title": "大模型API价格对比 - 每百万token价格表 免费查询",
+"keywords": "大模型api价格,api价格对比,deepseek api价格,gpt api价格,claude api价格,glm价格,token价格,大模型价格表",
+"url": "/damoxing-api-jiage/",
+"new": true
+},
+{
+"slug": "token-jisuan",
+"name": "Token 计算 / API 费用估算",
+"short": "估算文字 token 数和每月 API 费用",
+"cat": "ai",
+"title": "Token计算器 - 免费估算大模型API费用 字数换算",
+"keywords": "token计算,token计算器,token怎么算,api费用计算,大模型费用估算,token字数换算,deepseek费用,gpt费用计算",
+"url": "/token-jisuan/",
+"new": true
+},
+{
+"slug": "xiancun-jisuan",
+"name": "大模型显存需求计算器",
+"short": "本地部署需要多少显存、能跑多大模型",
+"cat": "ai",
+"title": "大模型显存计算器 - 免费估算本地部署显存需求",
+"keywords": "显存计算器,大模型显存,显存需求,本地部署显存,7b模型显存,ollama显存,能跑多大模型,deepseek本地部署配置",
+"url": "/xiancun-jisuan/",
+"new": true
+},
+{
 "slug": "json",
 "name": "JSON 格式化",
 "short": "JSON 美化、压缩、校验",
@@ -633,6 +1123,1716 @@
 "title": "免费URL编码解码 - 在线中文网址转码工具",
 "keywords": "免费url编码,url解码,urlencode在线,中文网址转码,url乱码还原,网址编码",
 "url": "/url-encode/"
+},
+{
+"slug": "doubao-download",
+"name": "豆包官方下载",
+"short": "字节跳动 AI 助手，电脑版手机版",
+"cat": "ai",
+"title": "豆包官方下载 - 免费字节跳动 AI 助手 电脑版手机版",
+"keywords": "豆包下载,豆包电脑版,豆包官网,豆包ai,豆包app下载,豆包官方下载,字节豆包",
+"url": "/doubao-download/"
+},
+{
+"slug": "kimi-download",
+"name": "Kimi官方下载",
+"short": "长文本 AI 助手，读文档写报告",
+"cat": "ai",
+"title": "Kimi官方下载 - 免费长文本 AI 助手 读文档写报告",
+"keywords": "kimi下载,kimi官网,kimi电脑版,kimi智能助手,月之暗面kimi,kimi app",
+"url": "/kimi-download/"
+},
+{
+"slug": "deepseek-download",
+"name": "DeepSeek官方下载",
+"short": "深度求索大模型，网页版和 App",
+"cat": "ai",
+"title": "DeepSeek官方下载 - 免费下载与安装教程",
+"keywords": "deepseek下载,deepseek官网,deepseek电脑版,深度求索,deepseek app,deepseek网页版,deepseek本地部署",
+"url": "/deepseek-download/"
+},
+{
+"slug": "qianwen-download",
+"name": "千问（原通义）官方下载",
+"short": "阿里通义千问 AI 助手",
+"cat": "ai",
+"title": "千问官方下载 - 免费通义千问AI助手 电脑版手机版",
+"keywords": "千问下载,通义千问下载,通义官网,千问app,qwen,通义千问电脑版,阿里千问",
+"url": "/qianwen-download/"
+},
+{
+"slug": "wenxin-download",
+"name": "文心（原文心一言 / 文小言）官方下载",
+"short": "百度文心大模型 AI 助手",
+"cat": "ai",
+"title": "文心一言官方下载 - 免费文心App 文小言电脑版",
+"keywords": "文心一言下载,文心一言官网,文小言下载,文心app,文心一言电脑版,百度文心,百度ai助手",
+"url": "/wenxin-download/"
+},
+{
+"slug": "zhipu-qingyan-download",
+"name": "智谱清言官方下载",
+"short": "智谱 GLM 大模型 AI 助手",
+"cat": "ai",
+"title": "智谱清言官方下载 - 免费智谱 GLM 大模型 AI 助手",
+"keywords": "智谱清言下载,智谱清言官网,chatglm,智谱ai,glm,智谱清言电脑版",
+"url": "/zhipu-qingyan-download/"
+},
+{
+"slug": "yuanbao-download",
+"name": "腾讯元宝官方下载",
+"short": "腾讯 AI 助手，混元 + DeepSeek",
+"cat": "ai",
+"title": "腾讯元宝官方下载 - 免费下载与安装教程",
+"keywords": "腾讯元宝下载,元宝官网,腾讯元宝电脑版,元宝ai,腾讯ai助手,混元",
+"url": "/yuanbao-download/"
+},
+{
+"slug": "xinghuo-download",
+"name": "讯飞星火官方下载",
+"short": "科大讯飞 AI 助手，语音能力强",
+"cat": "ai",
+"title": "讯飞星火官方下载 - 免费科大讯飞 AI 助手 语音能力强",
+"keywords": "讯飞星火下载,星火大模型,讯飞星火官网,星火app,讯飞ai",
+"url": "/xinghuo-download/"
+},
+{
+"slug": "tiangong-download",
+"name": "天工 AI官方下载",
+"short": "AI 搜索、写作、AI 音乐",
+"cat": "ai",
+"title": "天工 AI官方下载 - 免费AI 搜索、写作、AI 音乐",
+"keywords": "天工ai下载,天工ai官网,天工音乐,昆仑万维天工,天工ai搜索",
+"url": "/tiangong-download/"
+},
+{
+"slug": "hailuo-download",
+"name": "海螺 AI官方下载",
+"short": "MiniMax AI 助手和海螺视频",
+"cat": "ai",
+"title": "海螺 AI官方下载 - 免费下载与安装教程",
+"keywords": "海螺ai下载,海螺ai官网,minimax,海螺问问,海螺视频",
+"url": "/hailuo-download/"
+},
+{
+"slug": "nami-ai-download",
+"name": "纳米 AI官方下载",
+"short": "360 AI 搜索和智能体",
+"cat": "ai",
+"title": "纳米 AI官方下载 - 免费360 AI 搜索和智能体",
+"keywords": "纳米ai下载,纳米ai搜索,360ai搜索,纳米搜索,n.cn",
+"url": "/nami-ai-download/"
+},
+{
+"slug": "metaso-download",
+"name": "秘塔 AI 搜索官网入口",
+"short": "没有广告的 AI 搜索",
+"cat": "ai",
+"title": "秘塔 AI 搜索官网入口 - 免费没有广告的 AI 搜索",
+"keywords": "秘塔ai搜索,秘塔搜索,metaso,秘塔ai,ai搜索引擎",
+"url": "/metaso-download/"
+},
+{
+"slug": "chatgpt-download",
+"name": "ChatGPT官方下载",
+"short": "OpenAI 官方 AI 助手，电脑版下载",
+"cat": "ai",
+"title": "ChatGPT官方下载 - 免费下载与安装教程",
+"keywords": "chatgpt下载,chatgpt官网,chatgpt电脑版,chatgpt桌面版,chatgpt app,openai",
+"url": "/chatgpt-download/"
+},
+{
+"slug": "claude-download",
+"name": "Claude官方下载",
+"short": "Anthropic AI 助手，桌面版下载",
+"cat": "ai",
+"title": "Claude官方下载 - 免费下载与安装教程",
+"keywords": "claude下载,claude官网,claude桌面版,claude电脑版,anthropic,claude ai",
+"url": "/claude-download/"
+},
+{
+"slug": "gemini-download",
+"name": "Gemini官网入口",
+"short": "Google AI 助手",
+"cat": "ai",
+"title": "Gemini官网入口 - 免费Google AI 助手",
+"keywords": "gemini官网,gemini下载,google gemini,gemini app,谷歌ai",
+"url": "/gemini-download/"
+},
+{
+"slug": "grok-download",
+"name": "Grok官网入口",
+"short": "xAI 的 AI 助手",
+"cat": "ai",
+"title": "Grok官网入口 - 免费xAI 的 AI 助手",
+"keywords": "grok官网,grok下载,grok ai,xai grok,grok app",
+"url": "/grok-download/"
+},
+{
+"slug": "copilot-download",
+"name": "Microsoft Copilot官方下载",
+"short": "微软 AI 助手",
+"cat": "ai",
+"title": "Microsoft Copilot官方下载 免费",
+"keywords": "copilot下载,microsoft copilot,copilot官网,微软copilot,copilot电脑版",
+"url": "/copilot-download/"
+},
+{
+"slug": "perplexity-download",
+"name": "Perplexity官方下载",
+"short": "带引用来源的 AI 搜索",
+"cat": "ai",
+"title": "Perplexity官方下载 - 免费下载与安装教程",
+"keywords": "perplexity官网,perplexity下载,perplexity ai,ai搜索",
+"url": "/perplexity-download/"
+},
+{
+"slug": "poe-download",
+"name": "Poe官方下载",
+"short": "一个账号用多个 AI 模型",
+"cat": "ai",
+"title": "Poe官方下载 - 免费一个账号用多个 AI 模型",
+"keywords": "poe官网,poe下载,poe ai,quora poe",
+"url": "/poe-download/"
+},
+{
+"slug": "jimeng-download",
+"name": "即梦 AI官网入口",
+"short": "AI 绘画和 AI 视频生成",
+"cat": "ai",
+"title": "即梦 AI官网入口 - 免费AI 绘画和 AI 视频生成",
+"keywords": "即梦ai,即梦官网,即梦下载,即梦ai绘画,即梦视频生成,jimeng",
+"url": "/jimeng-download/"
+},
+{
+"slug": "kling-download",
+"name": "可灵 AI官网入口",
+"short": "快手 AI 视频和图片生成",
+"cat": "ai",
+"title": "可灵 AI官网入口 - 免费快手 AI 视频和图片生成",
+"keywords": "可灵ai,可灵官网,可灵ai下载,可灵视频生成,kling ai,快手可灵",
+"url": "/kling-download/"
+},
+{
+"slug": "tongyi-wanxiang",
+"name": "通义万相官网入口",
+"short": "阿里 AI 绘画和视频生成",
+"cat": "ai",
+"title": "通义万相官网入口 - 免费阿里 AI 绘画和视频生成",
+"keywords": "通义万相,通义万相官网,万相ai,wan模型,阿里ai绘画,通义万相视频",
+"url": "/tongyi-wanxiang/"
+},
+{
+"slug": "liblib-download",
+"name": "LiblibAI（哩布哩布）官网入口",
+"short": "国内 AI 绘画模型社区和在线生图",
+"cat": "ai",
+"title": "LiblibAI（哩布哩布）官网入口 - 免费使用教程",
+"keywords": "liblib,liblibai,哩布哩布,liblib官网,sd模型下载,lora下载,ai绘画模型",
+"url": "/liblib-download/"
+},
+{
+"slug": "midjourney-download",
+"name": "Midjourney官网入口",
+"short": "艺术感强的 AI 绘画",
+"cat": "ai",
+"title": "Midjourney官网入口 - 艺术感强的 AI 绘画",
+"keywords": "midjourney官网,midjourney下载,mj绘画,midjourney中文,midjourney怎么用",
+"url": "/midjourney-download/"
+},
+{
+"slug": "sd-webui-download",
+"name": "Stable Diffusion WebUI官方下载",
+"short": "本地 AI 绘画经典界面",
+"cat": "ai",
+"title": "Stable Diffusion WebUI官方下载 免费",
+"keywords": "stable diffusion下载,sd webui,stable diffusion webui,a1111,sd本地部署,stable diffusion安装教程",
+"url": "/sd-webui-download/"
+},
+{
+"slug": "forge-download",
+"name": "SD WebUI Forge官方下载",
+"short": "更省显存的 WebUI 分支",
+"cat": "ai",
+"title": "SD WebUI Forge官方下载 - 免费下载与安装教程",
+"keywords": "forge下载,sd forge,stable diffusion forge,webui forge,forge整合包",
+"url": "/forge-download/"
+},
+{
+"slug": "comfyui-download",
+"name": "ComfyUI官方下载",
+"short": "节点式 AI 绘画和视频工作流",
+"cat": "ai",
+"title": "ComfyUI官方下载 - 免费下载与安装教程",
+"keywords": "comfyui下载,comfyui官网,comfyui安装,comfyui桌面版,comfyui便携版,comfyui教程",
+"url": "/comfyui-download/"
+},
+{
+"slug": "fooocus-download",
+"name": "Fooocus官方下载",
+"short": "最简单的本地 AI 绘画",
+"cat": "ai",
+"title": "Fooocus官方下载 - 免费最简单的本地 AI 绘画",
+"keywords": "fooocus下载,fooocus安装,fooocus中文,本地ai绘画,fooocus整合包",
+"url": "/fooocus-download/"
+},
+{
+"slug": "invokeai-download",
+"name": "InvokeAI官方下载",
+"short": "专业画布式本地 AI 绘画",
+"cat": "ai",
+"title": "InvokeAI官方下载 - 免费专业画布式本地 AI 绘画",
+"keywords": "invokeai下载,invoke ai,invokeai安装,本地ai绘画工具",
+"url": "/invokeai-download/"
+},
+{
+"slug": "krita-ai-download",
+"name": "Krita AI Diffusion官方下载",
+"short": "在 Krita 画图软件里用 AI",
+"cat": "ai",
+"title": "Krita AI Diffusion官方下载 免费",
+"keywords": "krita ai,krita ai diffusion,krita ai插件,krita下载,ai绘画插件",
+"url": "/krita-ai-download/"
+},
+{
+"slug": "hailuo-video",
+"name": "海螺视频官网入口",
+"short": "MiniMax AI 视频生成",
+"cat": "ai",
+"title": "海螺视频官网入口 - 免费MiniMax AI 视频生成",
+"keywords": "海螺视频,海螺ai视频,hailuo,minimax视频,海螺视频官网",
+"url": "/hailuo-video/"
+},
+{
+"slug": "vidu-download",
+"name": "Vidu官网入口",
+"short": "生数科技 AI 视频生成",
+"cat": "ai",
+"title": "Vidu官网入口 - 免费生数科技 AI 视频生成",
+"keywords": "vidu,vidu官网,vidu视频生成,生数科技,vidu ai",
+"url": "/vidu-download/"
+},
+{
+"slug": "qingying-video",
+"name": "清影官网入口",
+"short": "智谱 AI 视频生成",
+"cat": "ai",
+"title": "清影官网入口 - 免费智谱 AI 视频生成",
+"keywords": "清影,清影ai视频,智谱清影,cogvideox,智谱视频生成",
+"url": "/qingying-video/"
+},
+{
+"slug": "pixverse-download",
+"name": "PixVerse 拍我AI官网入口",
+"short": "爱诗科技 AI 视频生成",
+"cat": "ai",
+"title": "PixVerse 拍我AI官网入口 - 免费使用教程",
+"keywords": "pixverse,拍我ai,pixverse官网,爱诗科技,ai视频特效",
+"url": "/pixverse-download/"
+},
+{
+"slug": "runway-download",
+"name": "Runway官网入口",
+"short": "专业 AI 视频生成和编辑",
+"cat": "ai",
+"title": "Runway官网入口 - 免费专业 AI 视频生成和编辑",
+"keywords": "runway官网,runway ai,runway gen,runwayml,ai视频生成",
+"url": "/runway-download/"
+},
+{
+"slug": "pika-download",
+"name": "Pika官网入口",
+"short": "趣味 AI 视频特效",
+"cat": "ai",
+"title": "Pika官网入口 - 免费趣味 AI 视频特效",
+"keywords": "pika官网,pika ai,pika视频,pika labs",
+"url": "/pika-download/"
+},
+{
+"slug": "luma-download",
+"name": "Luma Dream Machine官网入口",
+"short": "Luma AI 视频和图片生成",
+"cat": "ai",
+"title": "Luma Dream Machine官网入口 免费",
+"keywords": "luma ai,dream machine,luma视频生成,lumalabs",
+"url": "/luma-download/"
+},
+{
+"slug": "sora-info",
+"name": "Sora官网入口",
+"short": "已停止服务，替代工具推荐",
+"cat": "ai",
+"title": "Sora还能用吗 - 停服说明和AI视频替代工具",
+"keywords": "sora,sora官网,sora停服,sora下载,openai sora,sora替代",
+"url": "/sora-info/"
+},
+{
+"slug": "jianying-download",
+"name": "剪映官方下载",
+"short": "免费视频剪辑，内置 AI 功能",
+"cat": "ai",
+"title": "剪映官方下载 - 免费视频剪辑 内置 AI 功能",
+"keywords": "剪映下载,剪映专业版,剪映电脑版,剪映官网,剪映ai,剪映mac版",
+"url": "/jianying-download/"
+},
+{
+"slug": "suno-download",
+"name": "Suno官网入口",
+"short": "输入一句话生成整首歌",
+"cat": "ai",
+"title": "Suno官网入口 - 免费输入一句话生成整首歌",
+"keywords": "suno官网,suno ai,suno音乐,ai写歌,ai作曲,suno中文",
+"url": "/suno-download/"
+},
+{
+"slug": "gpt-sovits-download",
+"name": "GPT-SoVITS官方下载",
+"short": "几分钟音频克隆声音的开源 TTS",
+"cat": "ai",
+"title": "GPT-SoVITS官方下载 - 免费下载与安装教程",
+"keywords": "gpt-sovits,gpt sovits下载,gpt-sovits整合包,声音克隆,ai配音,语音克隆",
+"url": "/gpt-sovits-download/"
+},
+{
+"slug": "fish-audio-download",
+"name": "Fish Audio官网入口",
+"short": "AI 配音和声音克隆平台",
+"cat": "ai",
+"title": "Fish Audio官网入口 - 免费使用教程",
+"keywords": "fish audio,fish speech,ai配音,文字转语音,声音克隆",
+"url": "/fish-audio-download/"
+},
+{
+"slug": "whisper-download",
+"name": "Whisper官方下载",
+"short": "开源语音识别，音视频转文字",
+"cat": "ai",
+"title": "Whisper官方下载 - 免费开源语音识别 音视频转文字",
+"keywords": "whisper下载,openai whisper,whisper安装,语音转文字,whisper中文,音频转文字",
+"url": "/whisper-download/"
+},
+{
+"slug": "buzz-download",
+"name": "Buzz官方下载",
+"short": "离线语音转文字桌面软件",
+"cat": "ai",
+"title": "Buzz官方下载 - 免费离线语音转文字桌面软件",
+"keywords": "buzz下载,buzz语音转文字,whisper图形界面,离线语音识别,字幕生成软件",
+"url": "/buzz-download/"
+},
+{
+"slug": "rvc-download",
+"name": "RVC 变声官方下载",
+"short": "开源 AI 变声和翻唱",
+"cat": "ai",
+"title": "RVC 变声官方下载 - 免费开源 AI 变声和翻唱",
+"keywords": "rvc变声,rvc下载,ai变声器,ai翻唱,rvc整合包,实时变声",
+"url": "/rvc-download/"
+},
+{
+"slug": "cosyvoice-download",
+"name": "CosyVoice官方下载",
+"short": "阿里开源语音合成",
+"cat": "ai",
+"title": "CosyVoice官方下载 - 免费阿里开源语音合成",
+"keywords": "cosyvoice,cosyvoice下载,阿里语音合成,开源tts,声音克隆",
+"url": "/cosyvoice-download/"
+},
+{
+"slug": "elevenlabs-download",
+"name": "ElevenLabs官网入口",
+"short": "海外 AI 配音和声音克隆",
+"cat": "ai",
+"title": "ElevenLabs官网入口 - 免费使用教程",
+"keywords": "elevenlabs,elevenlabs官网,ai配音,文字转语音,声音克隆",
+"url": "/elevenlabs-download/"
+},
+{
+"slug": "moyin-download",
+"name": "魔音工坊官网入口",
+"short": "短视频 AI 配音",
+"cat": "ai",
+"title": "魔音工坊官网入口 - 免费短视频 AI 配音",
+"keywords": "魔音工坊,ai配音,配音软件,短视频配音,文字转语音",
+"url": "/moyin-download/"
+},
+{
+"slug": "cursor-download",
+"name": "Cursor官方下载",
+"short": "AI 代码编辑器",
+"cat": "ai",
+"title": "Cursor官方下载 - 免费AI 代码编辑器",
+"keywords": "cursor下载,cursor官网,cursor编辑器,cursor ai,cursor中文,cursor安装",
+"url": "/cursor-download/"
+},
+{
+"slug": "trae-download",
+"name": "Trae官方下载",
+"short": "字节跳动 AI 编程 IDE",
+"cat": "ai",
+"title": "Trae官方下载 - 免费字节跳动 AI 编程 IDE",
+"keywords": "trae下载,trae官网,trae ide,字节trae,trae中文版,trae国内版",
+"url": "/trae-download/"
+},
+{
+"slug": "lingma-download",
+"name": "通义灵码官方下载",
+"short": "阿里云 AI 编程助手",
+"cat": "ai",
+"title": "通义灵码官方下载 - 免费阿里云 AI 编程助手",
+"keywords": "通义灵码,通义灵码下载,灵码,lingma,阿里ai编程,通义灵码插件",
+"url": "/lingma-download/"
+},
+{
+"slug": "github-copilot-download",
+"name": "GitHub Copilot官网入口",
+"short": "GitHub 官方 AI 编程助手",
+"cat": "ai",
+"title": "GitHub Copilot官网入口 - 免费使用教程",
+"keywords": "github copilot,copilot下载,copilot免费,github copilot插件,ai编程助手",
+"url": "/github-copilot-download/"
+},
+{
+"slug": "devin-desktop-download",
+"name": "Devin Desktop（原 Windsurf）官方下载",
+"short": "原 Windsurf / Codeium AI 编辑器",
+"cat": "ai",
+"title": "Windsurf官方下载 - 免费Devin Desktop",
+"keywords": "windsurf下载,windsurf官网,codeium,devin desktop,windsurf编辑器,codeium下载",
+"url": "/devin-desktop-download/"
+},
+{
+"slug": "claude-code-download",
+"name": "Claude Code官网入口",
+"short": "命令行 AI 编程智能体",
+"cat": "ai",
+"title": "Claude Code官网入口 - 命令行 AI 编程智能体",
+"keywords": "claude code,claude code安装,claude code下载,anthropic claude code,命令行ai编程",
+"url": "/claude-code-download/"
+},
+{
+"slug": "codebuddy-download",
+"name": "腾讯云 CodeBuddy官网入口",
+"short": "腾讯 AI 编程助手",
+"cat": "ai",
+"title": "腾讯云 CodeBuddy官网入口 - 免费使用教程",
+"keywords": "codebuddy,腾讯codebuddy,腾讯云ai编程,ai代码助手",
+"url": "/codebuddy-download/"
+},
+{
+"slug": "continue-download",
+"name": "Continue官网入口",
+"short": "开源 AI 编程插件，可接本地模型",
+"cat": "ai",
+"title": "Continue官网入口 - 免费使用教程",
+"keywords": "continue插件,continue dev,开源ai编程,ollama vscode,本地模型编程",
+"url": "/continue-download/"
+},
+{
+"slug": "cline-download",
+"name": "Cline官网入口",
+"short": "开源 VS Code 编程智能体",
+"cat": "ai",
+"title": "Cline官网入口 - 免费开源 VS Code 编程智能体",
+"keywords": "cline,cline插件,cline vscode,开源ai编程助手,mcp",
+"url": "/cline-download/"
+},
+{
+"slug": "ollama-download",
+"name": "Ollama官方下载",
+"short": "一行命令本地运行大模型",
+"cat": "ai",
+"title": "Ollama官方下载 - 免费一行命令本地运行大模型",
+"keywords": "ollama下载,ollama官网,ollama安装,ollama教程,本地大模型,ollama deepseek,ollama windows",
+"url": "/ollama-download/"
+},
+{
+"slug": "lm-studio-download",
+"name": "LM Studio官方下载",
+"short": "图形界面本地大模型工具",
+"cat": "ai",
+"title": "LM Studio官方下载 - 免费图形界面本地大模型工具",
+"keywords": "lm studio下载,lmstudio官网,lm studio中文,本地大模型软件,lm studio教程",
+"url": "/lm-studio-download/"
+},
+{
+"slug": "jan-download",
+"name": "Jan官方下载",
+"short": "开源离线 ChatGPT 替代",
+"cat": "ai",
+"title": "Jan官方下载 - 免费开源离线 ChatGPT 替代",
+"keywords": "jan下载,jan ai,jan官网,离线ai聊天,本地chatgpt",
+"url": "/jan-download/"
+},
+{
+"slug": "gpt4all-download",
+"name": "GPT4All官方下载",
+"short": "普通电脑也能跑的本地 AI",
+"cat": "ai",
+"title": "GPT4All官方下载 - 免费普通电脑也能跑的本地 AI",
+"keywords": "gpt4all下载,gpt4all官网,gpt4all中文,本地ai,离线大模型",
+"url": "/gpt4all-download/"
+},
+{
+"slug": "llama-cpp-download",
+"name": "llama.cpp官方下载",
+"short": "本地大模型推理引擎",
+"cat": "ai",
+"title": "llama.cpp官方下载 - 免费本地大模型推理引擎",
+"keywords": "llama.cpp,llama cpp下载,gguf,llama-server,本地推理",
+"url": "/llama-cpp-download/"
+},
+{
+"slug": "vllm-download",
+"name": "vLLM官方下载",
+"short": "高并发大模型推理服务",
+"cat": "ai",
+"title": "vLLM官方下载 - 免费高并发大模型推理服务",
+"keywords": "vllm,vllm部署,vllm安装,大模型推理,私有化部署",
+"url": "/vllm-download/"
+},
+{
+"slug": "open-webui-download",
+"name": "Open WebUI官方下载",
+"short": "自建 ChatGPT 风格网页界面",
+"cat": "ai",
+"title": "Open WebUI官方下载 - 免费下载与安装教程",
+"keywords": "open webui,openwebui,open webui部署,ollama网页界面,自建chatgpt",
+"url": "/open-webui-download/"
+},
+{
+"slug": "anythingllm-download",
+"name": "AnythingLLM官方下载",
+"short": "本地知识库问答桌面版",
+"cat": "ai",
+"title": "AnythingLLM官方下载 - 免费本地知识库问答桌面版",
+"keywords": "anythingllm,anythingllm下载,本地知识库,rag,ollama知识库",
+"url": "/anythingllm-download/"
+},
+{
+"slug": "cherry-studio-download",
+"name": "Cherry Studio官方下载",
+"short": "多模型 AI 桌面客户端",
+"cat": "ai",
+"title": "Cherry Studio官方下载 - 免费下载与安装教程",
+"keywords": "cherry studio,cherry studio下载,cherrystudio官网,ai客户端,deepseek客户端,mcp客户端",
+"url": "/cherry-studio-download/"
+},
+{
+"slug": "chatbox-download",
+"name": "Chatbox官方下载",
+"short": "全平台 AI 聊天客户端",
+"cat": "ai",
+"title": "Chatbox官方下载 - 免费全平台 AI 聊天客户端",
+"keywords": "chatbox下载,chatbox ai,chatbox官网,ai聊天客户端,ollama客户端",
+"url": "/chatbox-download/"
+},
+{
+"slug": "lobechat-download",
+"name": "LobeChat（LobeHub）官方下载",
+"short": "开源 AI 聊天和智能体平台",
+"cat": "ai",
+"title": "LobeChat（LobeHub）官方下载 免费",
+"keywords": "lobechat,lobehub,lobechat部署,开源chatgpt,ai聊天框架",
+"url": "/lobechat-download/"
+},
+{
+"slug": "nextchat-download",
+"name": "NextChat官方下载",
+"short": "轻量 AI 聊天网页，一键部署",
+"cat": "ai",
+"title": "NextChat官方下载 - 免费下载与安装教程",
+"keywords": "nextchat,chatgpt next web,nextchat部署,chatgpt网页版部署",
+"url": "/nextchat-download/"
+},
+{
+"slug": "dify-download",
+"name": "Dify官方下载",
+"short": "AI 应用和智能体开发平台",
+"cat": "ai",
+"title": "Dify官方下载 - 免费AI 应用和智能体开发平台",
+"keywords": "dify,dify部署,dify官网,dify教程,ai工作流,智能体平台",
+"url": "/dify-download/"
+},
+{
+"slug": "fastgpt-download",
+"name": "FastGPT官方下载",
+"short": "知识库问答系统",
+"cat": "ai",
+"title": "FastGPT官方下载 - 免费知识库问答系统",
+"keywords": "fastgpt,fastgpt部署,知识库问答,企业知识库,ai客服",
+"url": "/fastgpt-download/"
+},
+{
+"slug": "ragflow-download",
+"name": "RAGFlow官方下载",
+"short": "深度文档理解 RAG 引擎",
+"cat": "ai",
+"title": "RAGFlow官方下载 - 免费深度文档理解 RAG 引擎",
+"keywords": "ragflow,ragflow部署,rag引擎,知识库,文档问答",
+"url": "/ragflow-download/"
+},
+{
+"slug": "maxkb-download",
+"name": "MaxKB官方下载",
+"short": "开源企业级智能体与知识库",
+"cat": "ai",
+"title": "MaxKB官方下载 - 免费开源企业级智能体与知识库",
+"keywords": "maxkb,maxkb部署,飞致云,企业知识库,ai智能体",
+"url": "/maxkb-download/"
+},
+{
+"slug": "langchain-info",
+"name": "LangChain官网入口",
+"short": "大模型应用开发框架",
+"cat": "ai",
+"title": "LangChain官网入口 - 免费大模型应用开发框架",
+"keywords": "langchain,langchain教程,langchain中文,langgraph,大模型开发框架",
+"url": "/langchain-info/"
+},
+{
+"slug": "llamaindex-info",
+"name": "LlamaIndex官网入口",
+"short": "数据和知识库 RAG 开发框架",
+"cat": "ai",
+"title": "LlamaIndex官网入口 - 免费使用教程",
+"keywords": "llamaindex,llama index,llamaindex教程,rag框架,知识库开发",
+"url": "/llamaindex-info/"
+},
+{
+"slug": "mcp-clients",
+"name": "MCP 客户端官网入口",
+"short": "支持 MCP 的 AI 客户端汇总",
+"cat": "ai",
+"title": "MCP客户端有哪些 - 支持MCP的AI软件 免费",
+"keywords": "mcp客户端,mcp是什么,mcp协议,model context protocol,mcp服务器,支持mcp的软件",
+"url": "/mcp-clients/"
+},
+{
+"slug": "huggingface",
+"name": "Hugging Face官网入口",
+"short": "全球最大开源模型社区",
+"cat": "ai",
+"title": "Hugging Face官网入口 - 免费使用教程",
+"keywords": "huggingface,hugging face,huggingface官网,模型下载,hf下载,开源模型",
+"url": "/huggingface/"
+},
+{
+"slug": "modelscope",
+"name": "魔搭 ModelScope官网入口",
+"short": "国内开源模型社区，下载快",
+"cat": "ai",
+"title": "魔搭 ModelScope官网入口 - 免费使用教程",
+"keywords": "魔搭,modelscope,魔搭社区,modelscope下载,国内模型下载,qwen下载",
+"url": "/modelscope/"
+},
+{
+"slug": "hf-mirror",
+"name": "hf-mirror官网入口",
+"short": "Hugging Face 国内镜像",
+"cat": "ai",
+"title": "hf-mirror官网入口 - 免费使用教程",
+"keywords": "hf-mirror,huggingface镜像,hf镜像,huggingface国内,模型下载加速",
+"url": "/hf-mirror/"
+},
+{
+"slug": "gamma-download",
+"name": "Gamma官网入口",
+"short": "AI 一键生成 PPT 和网页",
+"cat": "ai",
+"title": "Gamma官网入口 - 免费AI 一键生成 PPT 和网页",
+"keywords": "gamma,gamma ppt,gamma官网,ai生成ppt,ai做ppt",
+"url": "/gamma-download/"
+},
+{
+"slug": "aippt-download",
+"name": "AiPPT官网入口",
+"short": "国内 AI 生成 PPT",
+"cat": "ai",
+"title": "AiPPT官网入口 - 免费国内 AI 生成 PPT",
+"keywords": "aippt,ai生成ppt,ai做ppt,ppt生成器,一键生成ppt",
+"url": "/aippt-download/"
+},
+{
+"slug": "tingwu-download",
+"name": "通义听悟官网入口",
+"short": "录音转文字、会议纪要",
+"cat": "ai",
+"title": "通义听悟官网入口 - 免费录音转文字、会议纪要",
+"keywords": "通义听悟,听悟,录音转文字,会议纪要,音频转文字",
+"url": "/tingwu-download/"
+},
+{
+"slug": "notebooklm",
+"name": "NotebookLM官网入口",
+"short": "Google AI 笔记和音频概览",
+"cat": "ai",
+"title": "NotebookLM官网入口 - 免费使用教程",
+"keywords": "notebooklm,notebook lm,google notebooklm,ai笔记,ai读论文",
+"url": "/notebooklm/"
+},
+{
+"slug": "immersive-translate",
+"name": "沉浸式翻译官网入口",
+"short": "AI 双语网页和 PDF 翻译",
+"cat": "ai",
+"title": "沉浸式翻译官网入口 - 免费AI 双语网页和 PDF 翻译",
+"keywords": "沉浸式翻译,沉浸式翻译插件,双语翻译,pdf翻译,网页翻译插件",
+"url": "/immersive-translate/"
+},
+{
+"slug": "deepl-download",
+"name": "DeepL官方下载",
+"short": "高质量 AI 翻译桌面版",
+"cat": "ai",
+"title": "DeepL官方下载 - 免费高质量 AI 翻译桌面版",
+"keywords": "deepl下载,deepl翻译,deepl电脑版,deepl官网,ai翻译软件",
+"url": "/deepl-download/"
+},
+{
+"slug": "powertoys-download",
+"name": "PowerToys官方下载",
+"short": "微软官方 Windows 效率工具集",
+"cat": "pc",
+"title": "PowerToys官方下载 - 免费下载与安装教程",
+"keywords": "powertoys下载,powertoys官网,powertoys中文,微软小工具,fancyzones,windows效率工具",
+"url": "/powertoys-download/"
+},
+{
+"slug": "sharex-download",
+"name": "ShareX官方下载",
+"short": "免费开源截图录屏工具",
+"cat": "pc",
+"title": "ShareX官方下载 - 免费开源截图录屏工具",
+"keywords": "sharex下载,sharex官网,sharex中文,截图软件,录屏软件,gif录制",
+"url": "/sharex-download/"
+},
+{
+"slug": "snipaste-download",
+"name": "Snipaste官方下载",
+"short": "截图 + 贴图神器",
+"cat": "pc",
+"title": "Snipaste官方下载 - 免费截图 + 贴图神器",
+"keywords": "snipaste下载,snipaste官网,截图贴图,截图软件,snipaste mac",
+"url": "/snipaste-download/"
+},
+{
+"slug": "pixpin-download",
+"name": "PixPin官方下载",
+"short": "截图、贴图、长截图、OCR",
+"cat": "pc",
+"title": "PixPin官方下载 - 免费截图、贴图、长截图、OCR",
+"keywords": "pixpin下载,pixpin官网,长截图,截图ocr,截图软件",
+"url": "/pixpin-download/"
+},
+{
+"slug": "ditto-download",
+"name": "Ditto官方下载",
+"short": "Windows 剪贴板历史管理",
+"cat": "pc",
+"title": "Ditto官方下载 - 免费Windows 剪贴板历史管理",
+"keywords": "ditto下载,ditto剪贴板,剪贴板工具,剪贴板历史,ditto中文",
+"url": "/ditto-download/"
+},
+{
+"slug": "listary-download",
+"name": "Listary官方下载",
+"short": "Windows 文件搜索和快速启动",
+"cat": "pc",
+"title": "Listary官方下载 - 免费下载与安装教程",
+"keywords": "listary下载,listary官网,listary中文,文件搜索,快速启动工具",
+"url": "/listary-download/"
+},
+{
+"slug": "quicker-download",
+"name": "Quicker官方下载",
+"short": "Windows 指尖工具箱",
+"cat": "pc",
+"title": "Quicker官方下载 - 免费Windows 指尖工具箱",
+"keywords": "quicker下载,quicker官网,quicker软件,windows效率工具,指尖工具箱",
+"url": "/quicker-download/"
+},
+{
+"slug": "utools-download",
+"name": "uTools官方下载",
+"short": "插件化效率启动器",
+"cat": "pc",
+"title": "uTools官方下载 - 免费插件化效率启动器",
+"keywords": "utools下载,utools官网,utools插件,效率工具,快速启动",
+"url": "/utools-download/"
+},
+{
+"slug": "hibit-uninstaller-download",
+"name": "HiBit Uninstaller官方下载",
+"short": "免费彻底卸载软件",
+"cat": "pc",
+"title": "HiBit Uninstaller官方下载 免费",
+"keywords": "hibit uninstaller,hibit卸载,卸载工具,强制卸载,卸载残留清理",
+"url": "/hibit-uninstaller-download/"
+},
+{
+"slug": "wiztree-download",
+"name": "WizTree官方下载",
+"short": "几秒扫描磁盘占用",
+"cat": "pc",
+"title": "WizTree官方下载 - 免费几秒扫描磁盘占用",
+"keywords": "wiztree下载,wiztree中文,磁盘空间分析,c盘满了,大文件查找",
+"url": "/wiztree-download/"
+},
+{
+"slug": "bandizip-download",
+"name": "Bandizip官方下载",
+"short": "好用的压缩解压软件",
+"cat": "pc",
+"title": "Bandizip官方下载 - 免费好用的压缩解压软件",
+"keywords": "bandizip下载,bandizip官网,压缩软件,解压软件,bandizip中文",
+"url": "/bandizip-download/"
+},
+{
+"slug": "sysinternals-download",
+"name": "Sysinternals官方下载",
+"short": "微软官方系统诊断工具集",
+"cat": "pc",
+"title": "Sysinternals官方下载 - 免费下载与安装教程",
+"keywords": "sysinternals,process explorer,autoruns下载,微软工具,系统诊断",
+"url": "/sysinternals-download/"
+},
+{
+"slug": "windows-terminal-download",
+"name": "Windows Terminal官方下载",
+"short": "微软官方新终端",
+"cat": "pc",
+"title": "Windows Terminal官方下载 免费",
+"keywords": "windows terminal下载,windows终端,终端软件,powershell,wsl",
+"url": "/windows-terminal-download/"
+},
+{
+"slug": "vc-runtime-download",
+"name": "微软常用运行库官方下载",
+"short": "VC++ 运行库官方下载",
+"cat": "pc",
+"title": "微软常用运行库官方下载 - VC++运行库 免费",
+"keywords": "vc运行库,微软运行库,vc++下载,msvcp140.dll,vcruntime140.dll,运行库下载",
+"url": "/vc-runtime-download/"
+},
+{
+"slug": "trafficmonitor-download",
+"name": "TrafficMonitor官方下载",
+"short": "任务栏显示网速和 CPU",
+"cat": "pc",
+"title": "TrafficMonitor官方下载 - 免费下载与安装教程",
+"keywords": "trafficmonitor下载,任务栏网速,网速悬浮窗,trafficmonitor,网速显示",
+"url": "/trafficmonitor-download/"
+},
+{
+"slug": "twinkle-tray-download",
+"name": "Twinkle Tray官方下载",
+"short": "多显示器亮度调节",
+"cat": "pc",
+"title": "Twinkle Tray官方下载 - 免费多显示器亮度调节",
+"keywords": "twinkle tray,显示器亮度调节,外接显示器亮度,亮度调节软件",
+"url": "/twinkle-tray-download/"
+},
+{
+"slug": "files-app-download",
+"name": "Files官方下载",
+"short": "现代化文件管理器",
+"cat": "pc",
+"title": "Files官方下载 - 免费现代化文件管理器",
+"keywords": "files文件管理器,files app,windows文件管理器,资源管理器替代",
+"url": "/files-app-download/"
+},
+{
+"slug": "nilesoft-shell-download",
+"name": "Nilesoft Shell官方下载",
+"short": "Windows 11 右键菜单增强",
+"cat": "pc",
+"title": "Nilesoft Shell官方下载 - 免费下载与安装教程",
+"keywords": "nilesoft shell,右键菜单,win11右键菜单,右键菜单管理",
+"url": "/nilesoft-shell-download/"
+},
+{
+"slug": "honeyview-download",
+"name": "Honeyview官方下载",
+"short": "轻快的看图软件",
+"cat": "pc",
+"title": "Honeyview官方下载 - 免费轻快的看图软件",
+"keywords": "honeyview下载,看图软件,图片查看器,heic查看",
+"url": "/honeyview-download/"
+},
+{
+"slug": "imageglass-download",
+"name": "ImageGlass官方下载",
+"short": "开源看图软件",
+"cat": "pc",
+"title": "ImageGlass官方下载 - 免费开源看图软件",
+"keywords": "imageglass下载,看图软件,开源看图,图片浏览器",
+"url": "/imageglass-download/"
+},
+{
+"slug": "motrix-download",
+"name": "Motrix官方下载",
+"short": "全能下载工具",
+"cat": "pc",
+"title": "Motrix官方下载 - 免费全能下载工具",
+"keywords": "motrix下载,motrix官网,下载工具,bt下载,磁力下载",
+"url": "/motrix-download/"
+},
+{
+"slug": "fdm-download",
+"name": "Free Download Manager官方下载",
+"short": "免费多线程下载管理器",
+"cat": "pc",
+"title": "Free Download Manager官方下载 免费",
+"keywords": "fdm下载,free download manager,下载管理器,多线程下载",
+"url": "/fdm-download/"
+},
+{
+"slug": "idm-info",
+"name": "IDM（Internet Download Manager）官方下载",
+"short": "付费下载加速器，官方试用",
+"cat": "pc",
+"title": "IDM官方下载 - 正版试用与价格 免费替代推荐",
+"keywords": "idm下载,idm官网,internet download manager,下载加速器,idm正版",
+"url": "/idm-info/"
+},
+{
+"slug": "localsend-download",
+"name": "LocalSend官方下载",
+"short": "局域网跨平台传文件",
+"cat": "pc",
+"title": "LocalSend官方下载 - 免费局域网跨平台传文件",
+"keywords": "localsend下载,localsend,局域网传文件,手机电脑互传,隔空投送windows",
+"url": "/localsend-download/"
+},
+{
+"slug": "huorong-download",
+"name": "火绒安全官方下载",
+"short": "轻量无广告杀毒软件",
+"cat": "pc",
+"title": "火绒安全官方下载 - 免费轻量无广告杀毒软件",
+"keywords": "火绒下载,火绒安全,火绒官网,杀毒软件,弹窗拦截",
+"url": "/huorong-download/"
+},
+{
+"slug": "driver-official",
+"name": "电脑驱动官方下载官网入口",
+"short": "联想惠普华为小米华硕驱动",
+"cat": "pc",
+"title": "电脑驱动官方下载 - 联想惠普华为驱动 免费",
+"keywords": "驱动下载,电脑驱动,联想驱动,惠普驱动,华为电脑管家,驱动官方下载",
+"url": "/driver-official/"
+},
+{
+"slug": "homebrew",
+"name": "Homebrew官方下载",
+"short": "Mac 软件包管理器",
+"cat": "pc",
+"title": "Homebrew官方下载 - 免费Mac 软件包管理器",
+"keywords": "homebrew安装,homebrew官网,brew安装,mac包管理器,homebrew国内",
+"url": "/homebrew/"
+},
+{
+"slug": "rectangle-mac",
+"name": "Rectangle官方下载",
+"short": "Mac 窗口分屏快捷键",
+"cat": "pc",
+"title": "Rectangle官方下载 - 免费Mac 窗口分屏快捷键",
+"keywords": "rectangle,mac分屏,mac窗口管理,rectangle下载,mac分屏软件",
+"url": "/rectangle-mac/"
+},
+{
+"slug": "loop-mac",
+"name": "Loop官方下载",
+"short": "环形菜单窗口管理",
+"cat": "pc",
+"title": "Loop官方下载 - 免费环形菜单窗口管理",
+"keywords": "loop mac,mac窗口管理,mac分屏,loop下载",
+"url": "/loop-mac/"
+},
+{
+"slug": "raycast-mac",
+"name": "Raycast官方下载",
+"short": "Mac 效率启动器",
+"cat": "pc",
+"title": "Raycast官方下载 - 免费Mac 效率启动器",
+"keywords": "raycast下载,raycast官网,raycast中文,mac启动器,spotlight替代",
+"url": "/raycast-mac/"
+},
+{
+"slug": "alfred-mac",
+"name": "Alfred官方下载",
+"short": "老牌 Mac 效率启动器",
+"cat": "pc",
+"title": "Alfred官方下载 - 免费老牌 Mac 效率启动器",
+"keywords": "alfred下载,alfred官网,alfred mac,mac效率工具,alfred workflow",
+"url": "/alfred-mac/"
+},
+{
+"slug": "maccy-mac",
+"name": "Maccy官方下载",
+"short": "轻量 Mac 剪贴板历史",
+"cat": "pc",
+"title": "Maccy官方下载 - 免费轻量 Mac 剪贴板历史",
+"keywords": "maccy,mac剪贴板,剪贴板历史,maccy下载",
+"url": "/maccy-mac/"
+},
+{
+"slug": "iina-mac",
+"name": "IINA官方下载",
+"short": "Mac 最好用的视频播放器",
+"cat": "pc",
+"title": "IINA官方下载 - 免费Mac 最好用的视频播放器",
+"keywords": "iina下载,iina官网,mac播放器,mac视频播放器,iina中文",
+"url": "/iina-mac/"
+},
+{
+"slug": "infuse-info",
+"name": "Infuse官方下载",
+"short": "Apple 全家桶影音库播放器",
+"cat": "pc",
+"title": "Infuse官方下载 - 免费Apple 全家桶影音库播放器",
+"keywords": "infuse,infuse下载,infuse pro,海报墙,nas播放器",
+"url": "/infuse-info/"
+},
+{
+"slug": "downie-info",
+"name": "Downie官方下载",
+"short": "Mac 网页视频下载",
+"cat": "pc",
+"title": "Downie官方下载 - Mac 网页视频下载",
+"keywords": "downie,downie下载,mac视频下载,downie mac",
+"url": "/downie-info/"
+},
+{
+"slug": "the-unarchiver-mac",
+"name": "The Unarchiver官方下载",
+"short": "Mac 免费解压 RAR / 7Z",
+"cat": "pc",
+"title": "The Unarchiver官方下载 - 免费下载与安装教程",
+"keywords": "the unarchiver,mac解压rar,mac解压软件,mac解压7z",
+"url": "/the-unarchiver-mac/"
+},
+{
+"slug": "keka-mac",
+"name": "Keka官方下载",
+"short": "Mac 压缩解压工具",
+"cat": "pc",
+"title": "Keka官方下载 - 免费Mac 压缩解压工具",
+"keywords": "keka,keka下载,mac压缩软件,mac 7z",
+"url": "/keka-mac/"
+},
+{
+"slug": "appcleaner-mac",
+"name": "AppCleaner官方下载",
+"short": "Mac 彻底卸载应用",
+"cat": "pc",
+"title": "AppCleaner官方下载 - 免费Mac 彻底卸载应用",
+"keywords": "appcleaner,mac卸载软件,mac彻底卸载,appcleaner下载",
+"url": "/appcleaner-mac/"
+},
+{
+"slug": "pearcleaner-mac",
+"name": "Pearcleaner官方下载",
+"short": "开源 Mac 应用卸载",
+"cat": "pc",
+"title": "Pearcleaner官方下载 - 免费下载与安装教程",
+"keywords": "pearcleaner,mac卸载,mac清理,开源卸载工具",
+"url": "/pearcleaner-mac/"
+},
+{
+"slug": "stats-mac",
+"name": "Stats官方下载",
+"short": "菜单栏系统监控",
+"cat": "pc",
+"title": "Stats官方下载 - 免费菜单栏系统监控",
+"keywords": "stats mac,mac系统监控,菜单栏网速,mac温度监控,istat替代",
+"url": "/stats-mac/"
+},
+{
+"slug": "istat-menus-info",
+"name": "iStat Menus官方下载",
+"short": "专业菜单栏系统监控",
+"cat": "pc",
+"title": "iStat Menus官方下载 - 专业菜单栏系统监控",
+"keywords": "istat menus,istat,mac系统监控,istat menus下载",
+"url": "/istat-menus-info/"
+},
+{
+"slug": "iterm2-mac",
+"name": "iTerm2官方下载",
+"short": "Mac 经典终端",
+"cat": "pc",
+"title": "iTerm2官方下载 - 免费Mac 经典终端",
+"keywords": "iterm2下载,iterm2官网,mac终端,iterm2配置",
+"url": "/iterm2-mac/"
+},
+{
+"slug": "warp-download",
+"name": "Warp官方下载",
+"short": "AI 智能终端",
+"cat": "pc",
+"title": "Warp官方下载 - 免费AI 智能终端",
+"keywords": "warp终端,warp下载,ai终端,warp terminal",
+"url": "/warp-download/"
+},
+{
+"slug": "orbstack-mac",
+"name": "OrbStack官方下载",
+"short": "轻快的 Docker 和 Linux 虚拟机",
+"cat": "pc",
+"title": "OrbStack官方下载 - 免费下载与安装教程",
+"keywords": "orbstack,orbstack下载,docker mac,mac docker替代",
+"url": "/orbstack-mac/"
+},
+{
+"slug": "docker-desktop-download",
+"name": "Docker Desktop官方下载",
+"short": "容器开发环境",
+"cat": "pc",
+"title": "Docker Desktop官方下载 - 免费容器开发环境",
+"keywords": "docker desktop下载,docker下载,docker安装,docker windows,docker mac",
+"url": "/docker-desktop-download/"
+},
+{
+"slug": "betterdisplay-mac",
+"name": "BetterDisplay官方下载",
+"short": "外接显示器 HiDPI 和亮度",
+"cat": "pc",
+"title": "BetterDisplay官方下载 - 免费下载与安装教程",
+"keywords": "betterdisplay,mac hidpi,外接显示器模糊,mac外接显示器",
+"url": "/betterdisplay-mac/"
+},
+{
+"slug": "monitorcontrol-mac",
+"name": "MonitorControl官方下载",
+"short": "用键盘调外接显示器亮度",
+"cat": "pc",
+"title": "MonitorControl官方下载 - 免费下载与安装教程",
+"keywords": "monitorcontrol,mac外接显示器亮度,显示器亮度调节mac",
+"url": "/monitorcontrol-mac/"
+},
+{
+"slug": "mos-mac",
+"name": "Mos官方下载",
+"short": "让鼠标滚动变平滑",
+"cat": "pc",
+"title": "Mos官方下载 - 免费让鼠标滚动变平滑",
+"keywords": "mos,mac鼠标平滑,mac鼠标滚动方向,mos下载",
+"url": "/mos-mac/"
+},
+{
+"slug": "linearmouse-mac",
+"name": "LinearMouse官方下载",
+"short": "Mac 鼠标和触控板定制",
+"cat": "pc",
+"title": "LinearMouse官方下载 - 免费下载与安装教程",
+"keywords": "linearmouse,mac鼠标加速,mac鼠标设置,鼠标增强",
+"url": "/linearmouse-mac/"
+},
+{
+"slug": "karabiner-mac",
+"name": "Karabiner-Elements官方下载",
+"short": "Mac 键盘改键神器",
+"cat": "pc",
+"title": "Karabiner-Elements官方下载 免费",
+"keywords": "karabiner,karabiner elements,mac改键,caps lock改键",
+"url": "/karabiner-mac/"
+},
+{
+"slug": "input-source-pro-mac",
+"name": "Input Source Pro官方下载",
+"short": "按应用自动切换输入法",
+"cat": "pc",
+"title": "Input Source Pro官方下载 免费",
+"keywords": "input source pro,mac输入法自动切换,输入法切换",
+"url": "/input-source-pro-mac/"
+},
+{
+"slug": "bartender-info",
+"name": "Bartender官方下载",
+"short": "菜单栏图标管理（付费）",
+"cat": "pc",
+"title": "Bartender官方下载 - 菜单栏图标管理（付费）",
+"keywords": "bartender,bartender mac,菜单栏管理,mac菜单栏图标",
+"url": "/bartender-info/"
+},
+{
+"slug": "ice-mac",
+"name": "Ice官方下载",
+"short": "开源菜单栏图标管理",
+"cat": "pc",
+"title": "Ice官方下载 - 免费开源菜单栏图标管理",
+"keywords": "ice mac,菜单栏管理,bartender替代,mac隐藏图标",
+"url": "/ice-mac/"
+},
+{
+"slug": "hidden-bar-mac",
+"name": "Hidden Bar官方下载",
+"short": "一键隐藏菜单栏图标",
+"cat": "pc",
+"title": "Hidden Bar官方下载 - 免费一键隐藏菜单栏图标",
+"keywords": "hidden bar,mac菜单栏隐藏,菜单栏图标隐藏",
+"url": "/hidden-bar-mac/"
+},
+{
+"slug": "itsycal-mac",
+"name": "Itsycal官方下载",
+"short": "菜单栏迷你日历",
+"cat": "pc",
+"title": "Itsycal官方下载 - 免费菜单栏迷你日历",
+"keywords": "itsycal,mac菜单栏日历,mac日历,itsycal下载",
+"url": "/itsycal-mac/"
+},
+{
+"slug": "cleanshot-info",
+"name": "CleanShot X官方下载",
+"short": "Mac 专业截图录屏（付费）",
+"cat": "pc",
+"title": "CleanShot X官方下载 - 下载与安装教程",
+"keywords": "cleanshot x,cleanshot,mac截图软件,mac录屏",
+"url": "/cleanshot-info/"
+},
+{
+"slug": "shottr-mac",
+"name": "Shottr官方下载",
+"short": "小巧好用的 Mac 截图",
+"cat": "pc",
+"title": "Shottr官方下载 - 免费小巧好用的 Mac 截图",
+"keywords": "shottr,mac截图,shottr下载,滚动截图mac",
+"url": "/shottr-mac/"
+},
+{
+"slug": "obsidian-download",
+"name": "Obsidian官方下载",
+"short": "本地 Markdown 双链笔记",
+"cat": "pc",
+"title": "Obsidian官方下载 - 免费下载与安装教程",
+"keywords": "obsidian下载,obsidian官网,obsidian中文,双链笔记,markdown笔记",
+"url": "/obsidian-download/"
+},
+{
+"slug": "typora-download",
+"name": "Typora官方下载",
+"short": "所见即所得 Markdown 编辑器",
+"cat": "pc",
+"title": "Typora官方下载 - 下载与安装教程",
+"keywords": "typora下载,typora官网,markdown编辑器,typora中文",
+"url": "/typora-download/"
+},
+{
+"slug": "eagle-download",
+"name": "Eagle官方下载",
+"short": "设计师素材管理",
+"cat": "pc",
+"title": "Eagle官方下载 - 设计师素材管理",
+"keywords": "eagle下载,eagle官网,素材管理软件,eagle设计",
+"url": "/eagle-download/"
+},
+{
+"slug": "pdf-expert-info",
+"name": "PDF Expert官方下载",
+"short": "Mac 专业 PDF 编辑",
+"cat": "pc",
+"title": "PDF Expert官方下载 - 免费下载与安装教程",
+"keywords": "pdf expert,pdf expert mac,mac pdf编辑,pdf编辑器",
+"url": "/pdf-expert-info/"
+},
+{
+"slug": "easydict-mac",
+"name": "Easydict官方下载",
+"short": "开源划词翻译词典",
+"cat": "pc",
+"title": "Easydict官方下载 - 免费开源划词翻译词典",
+"keywords": "easydict,mac翻译软件,划词翻译,easydict下载,bob替代",
+"url": "/easydict-mac/"
+},
+{
+"slug": "bob-mac",
+"name": "Bob官方下载",
+"short": "Mac 翻译和 OCR",
+"cat": "pc",
+"title": "Bob官方下载 - 免费Mac 翻译和 OCR",
+"keywords": "bob翻译,bob mac,mac翻译,bob下载,截图翻译",
+"url": "/bob-mac/"
+},
+{
+"slug": "eudic-download",
+"name": "欧路词典官方下载",
+"short": "英语词典和翻译",
+"cat": "pc",
+"title": "欧路词典官方下载 - 免费英语词典和翻译",
+"keywords": "欧路词典,欧路词典下载,eudic,英语词典,mac词典",
+"url": "/eudic-download/"
+},
+{
+"slug": "latest-mac",
+"name": "Latest官方下载",
+"short": "检查 Mac 应用更新",
+"cat": "pc",
+"title": "Latest官方下载 - 免费检查 Mac 应用更新",
+"keywords": "latest mac,mac应用更新,mac软件更新检查",
+"url": "/latest-mac/"
+},
+{
+"slug": "clop-mac",
+"name": "Clop官方下载",
+"short": "自动压缩图片和视频",
+"cat": "pc",
+"title": "Clop官方下载 - 自动压缩图片和视频",
+"keywords": "clop,mac图片压缩,自动压缩,clop mac",
+"url": "/clop-mac/"
+},
+{
+"slug": "alttab-mac",
+"name": "AltTab官方下载",
+"short": "Windows 式窗口切换",
+"cat": "pc",
+"title": "AltTab官方下载 - 免费Windows 式窗口切换",
+"keywords": "alttab,mac窗口切换,alt tab mac,mac切换窗口",
+"url": "/alttab-mac/"
+},
+{
+"slug": "keycastr-mac",
+"name": "KeyCastr官方下载",
+"short": "录屏时显示按键",
+"cat": "pc",
+"title": "KeyCastr官方下载 - 免费录屏时显示按键",
+"keywords": "keycastr,按键显示,录屏显示键盘,mac按键显示",
+"url": "/keycastr-mac/"
+},
+{
+"slug": "arc-download",
+"name": "Arc 浏览器官方下载",
+"short": "侧边栏标签设计的浏览器",
+"cat": "browser",
+"title": "Arc 浏览器官方下载 - 免费侧边栏标签设计的浏览器",
+"keywords": "arc浏览器,arc browser,arc下载,arc浏览器windows",
+"url": "/arc-download/"
+},
+{
+"slug": "safari-info",
+"name": "Safari 浏览器官网入口",
+"short": "苹果自带浏览器",
+"cat": "browser",
+"title": "Safari 浏览器官网入口 - 免费苹果自带浏览器",
+"keywords": "safari浏览器,safari下载,safari windows,苹果浏览器",
+"url": "/safari-info/"
+},
+{
+"slug": "brave-download",
+"name": "Brave 浏览器官方下载",
+"short": "自带广告拦截的隐私浏览器",
+"cat": "browser",
+"title": "Brave 浏览器官方下载 - 免费自带广告拦截的隐私浏览器",
+"keywords": "brave浏览器,brave下载,brave官网,广告拦截浏览器,隐私浏览器",
+"url": "/brave-download/"
+},
+{
+"slug": "opera-download",
+"name": "Opera 浏览器官方下载",
+"short": "内置 VPN 和侧边栏的浏览器",
+"cat": "browser",
+"title": "Opera 浏览器官方下载 - 免费下载与安装教程",
+"keywords": "opera浏览器,opera下载,opera gx,欧朋浏览器",
+"url": "/opera-download/"
+},
+{
+"slug": "vivaldi-download",
+"name": "Vivaldi 浏览器官方下载",
+"short": "高度可定制的浏览器",
+"cat": "browser",
+"title": "Vivaldi 浏览器官方下载 - 免费高度可定制的浏览器",
+"keywords": "vivaldi浏览器,vivaldi下载,vivaldi官网",
+"url": "/vivaldi-download/"
+},
+{
+"slug": "360se-download",
+"name": "360 安全浏览器官方下载",
+"short": "国产双核浏览器",
+"cat": "browser",
+"title": "360 安全浏览器官方下载 - 免费国产双核浏览器",
+"keywords": "360浏览器,360安全浏览器下载,360浏览器官网,兼容模式浏览器",
+"url": "/360se-download/"
+},
+{
+"slug": "360ee-download",
+"name": "360 极速浏览器官方下载",
+"short": "Chromium 内核双核浏览器",
+"cat": "browser",
+"title": "360 极速浏览器官方下载 - 免费下载与安装教程",
+"keywords": "360极速浏览器,360极速浏览器下载,极速浏览器",
+"url": "/360ee-download/"
+},
+{
+"slug": "qqbrowser-download",
+"name": "QQ 浏览器官方下载",
+"short": "腾讯浏览器，文件和 AI 工具",
+"cat": "browser",
+"title": "QQ 浏览器官方下载 - 免费腾讯浏览器 文件和 AI 工具",
+"keywords": "qq浏览器,qq浏览器下载,qq浏览器电脑版,腾讯浏览器",
+"url": "/qqbrowser-download/"
+},
+{
+"slug": "quark-download",
+"name": "夸克官方下载",
+"short": "AI 浏览器和网盘、扫描",
+"cat": "browser",
+"title": "夸克官方下载 - 免费AI 浏览器和网盘、扫描",
+"keywords": "夸克浏览器,夸克下载,夸克电脑版,夸克网盘,夸克ai",
+"url": "/quark-download/"
+},
+{
+"slug": "sogou-browser-download",
+"name": "搜狗浏览器官方下载",
+"short": "老牌国产双核浏览器",
+"cat": "browser",
+"title": "搜狗浏览器官方下载 - 免费老牌国产双核浏览器",
+"keywords": "搜狗浏览器,搜狗浏览器下载,搜狗高速浏览器",
+"url": "/sogou-browser-download/"
+},
+{
+"slug": "uc-browser-download",
+"name": "UC 浏览器官方下载",
+"short": "阿里 UC 浏览器",
+"cat": "browser",
+"title": "UC 浏览器官方下载 - 免费阿里 UC 浏览器",
+"keywords": "uc浏览器,uc浏览器下载,uc浏览器电脑版",
+"url": "/uc-browser-download/"
+},
+{
+"slug": "zen-browser-download",
+"name": "Zen 浏览器官方下载",
+"short": "基于 Firefox 的开源新浏览器",
+"cat": "browser",
+"title": "Zen 浏览器官方下载 - 免费下载与安装教程",
+"keywords": "zen浏览器,zen browser,arc替代,firefox分支",
+"url": "/zen-browser-download/"
+},
+{
+"slug": "comet-download",
+"name": "Comet 浏览器官方下载",
+"short": "Perplexity 的 AI 浏览器",
+"cat": "browser",
+"title": "Comet 浏览器官方下载 - 免费下载与安装教程",
+"keywords": "comet浏览器,comet browser,perplexity comet,ai浏览器",
+"url": "/comet-download/"
+},
+{
+"slug": "dia-download",
+"name": "Dia 浏览器官方下载",
+"short": "Arc 团队的 AI 浏览器",
+"cat": "browser",
+"title": "Dia 浏览器官方下载 - 免费Arc 团队的 AI 浏览器",
+"keywords": "dia浏览器,dia browser,ai浏览器,arc团队",
+"url": "/dia-download/"
+},
+{
+"slug": "douyin-zhibo-banlv",
+"name": "抖音直播伴侣官方下载",
+"short": "抖音电脑开播官方软件",
+"cat": "live",
+"title": "抖音直播伴侣官方下载 - 免费抖音电脑开播官方软件",
+"keywords": "抖音直播伴侣,抖音直播伴侣下载,抖音直播伴侣官网,抖音电脑直播,抖音直播软件",
+"url": "/douyin-zhibo-banlv/"
+},
+{
+"slug": "kuaishou-zhibo-banlv",
+"name": "快手直播伴侣官方下载",
+"short": "快手电脑开播官方软件",
+"cat": "live",
+"title": "快手直播伴侣官方下载 - 免费快手电脑开播官方软件",
+"keywords": "快手直播伴侣,快手直播伴侣下载,快手直播伴侣官网,快手电脑直播",
+"url": "/kuaishou-zhibo-banlv/"
+},
+{
+"slug": "shipinhao-zhibo",
+"name": "视频号直播（推流）官网入口",
+"short": "视频号助手电脑推流开播",
+"cat": "live",
+"title": "视频号直播伴侣 - 视频号电脑推流开播教程 免费",
+"keywords": "视频号直播,视频号推流,视频号助手,视频号直播伴侣,视频号电脑直播,视频号obs",
+"url": "/shipinhao-zhibo/"
+},
+{
+"slug": "bilibili-zhibo-ji",
+"name": "哔哩哔哩直播姬官方下载",
+"short": "B 站官方电脑直播软件",
+"cat": "live",
+"title": "哔哩哔哩直播姬官方下载 - 免费B 站官方电脑直播软件",
+"keywords": "b站直播姬,哔哩哔哩直播姬,直播姬下载,b站直播软件,bilibili直播",
+"url": "/bilibili-zhibo-ji/"
+},
+{
+"slug": "taobao-zhibo",
+"name": "淘宝直播官网入口",
+"short": "淘宝直播中控台和电脑开播",
+"cat": "live",
+"title": "淘宝直播电脑版 - 中控台和推流开播教程 免费",
+"keywords": "淘宝直播,淘宝直播电脑版,淘宝直播中控台,淘宝主播工作台,淘宝直播推流",
+"url": "/taobao-zhibo/"
+},
+{
+"slug": "jd-zhibo",
+"name": "京东直播官网入口",
+"short": "京东直播商家后台",
+"cat": "live",
+"title": "京东直播电脑版 - 商家后台和开播教程 免费",
+"keywords": "京东直播,京东直播电脑版,京东直播后台,京东商家直播",
+"url": "/jd-zhibo/"
+},
+{
+"slug": "xhs-zhibo",
+"name": "小红书直播助手官方下载",
+"short": "小红书官方电脑直播",
+"cat": "live",
+"title": "小红书直播助手官方下载 - 免费小红书官方电脑直播",
+"keywords": "小红书直播伴侣,小红书直播助手,小红书电脑直播,小红书直播下载,小红书obs",
+"url": "/xhs-zhibo/"
+},
+{
+"slug": "huya-zhibo",
+"name": "虎牙直播助手官方下载",
+"short": "虎牙官方电脑直播软件",
+"cat": "live",
+"title": "虎牙直播助手官方下载 - 免费虎牙官方电脑直播软件",
+"keywords": "虎牙直播助手,虎牙直播伴侣,虎牙直播下载,虎牙开播",
+"url": "/huya-zhibo/"
+},
+{
+"slug": "douyu-zhibo",
+"name": "斗鱼直播伴侣官方下载",
+"short": "斗鱼官方电脑直播软件",
+"cat": "live",
+"title": "斗鱼直播伴侣官方下载 - 免费斗鱼官方电脑直播软件",
+"keywords": "斗鱼直播伴侣,斗鱼直播伴侣下载,斗鱼开播,斗鱼直播软件",
+"url": "/douyu-zhibo/"
+},
+{
+"slug": "yy-kaibo",
+"name": "YY 开播官网入口",
+"short": "YY 直播开播工具",
+"cat": "live",
+"title": "YY 开播官网入口 - 免费YY 直播开播工具",
+"keywords": "yy开播,yy直播,yy开播下载,yy语音",
+"url": "/yy-kaibo/"
+},
+{
+"slug": "buyin-baiying",
+"name": "巨量百应官网入口",
+"short": "抖音电商达人和机构后台",
+"cat": "live",
+"title": "巨量百应官网入口 - 免费抖音电商达人和机构后台",
+"keywords": "巨量百应,百应,巨量百应登录,抖音带货后台,精选联盟",
+"url": "/buyin-baiying/"
+},
+{
+"slug": "doudian",
+"name": "抖店官网入口",
+"short": "抖音小店商家后台",
+"cat": "live",
+"title": "抖店官网入口 - 免费抖音小店商家后台",
+"keywords": "抖店,抖店后台,抖音小店,抖店登录,抖店商家后台,抖店电脑版",
+"url": "/doudian/"
+},
+{
+"slug": "streamlabs-download",
+"name": "Streamlabs官方下载",
+"short": "海外主播常用推流软件",
+"cat": "live",
+"title": "Streamlabs官方下载 - 免费海外主播常用推流软件",
+"keywords": "streamlabs,streamlabs下载,streamlabs obs,推流软件",
+"url": "/streamlabs-download/"
+},
+{
+"slug": "tiktok-live-studio",
+"name": "TikTok LIVE Studio官方下载",
+"short": "TikTok 官方电脑直播软件",
+"cat": "live",
+"title": "TikTok LIVE Studio官方下载 免费",
+"keywords": "tiktok live studio,tiktok直播,tiktok直播软件,tiktok电脑直播",
+"url": "/tiktok-live-studio/"
+},
+{
+"slug": "youtube-zhibo",
+"name": "YouTube 直播官网入口",
+"short": "YouTube 官方直播教程",
+"cat": "live",
+"title": "YouTube直播教程 - 官方开播与OBS推流 免费",
+"keywords": "youtube直播,youtube直播教程,youtube推流,youtube obs,油管直播",
+"url": "/youtube-zhibo/"
+},
+{
+"slug": "twitch-zhibo",
+"name": "Twitch 直播官网入口",
+"short": "Twitch 官方推流设置指南",
+"cat": "live",
+"title": "Twitch直播教程 - 官方推流设置指南 免费",
+"keywords": "twitch直播,twitch推流设置,twitch obs,twitch码率",
+"url": "/twitch-zhibo/"
+},
+{
+"slug": "mac-bizhuang-ruanjian",
+"name": "Mac 必装软件推荐",
+"short": "Mac 必装软件推荐",
+"cat": "pc",
+"title": "Mac必装软件推荐 - 2026免费好用的Mac软件清单",
+"keywords": "mac必装软件,mac必备软件,mac软件推荐,mac好用的软件,macbook必装软件,mac效率软件,mac免费软件,mac装机必备",
+"url": "/mac-bizhuang-ruanjian/"
+},
+{
+"slug": "windows-zhuangji-bibei",
+"name": "Windows 装机必备软件",
+"short": "Windows 装机必备软件",
+"cat": "pc",
+"title": "Windows装机必备软件 - 2026电脑必装清单 免费",
+"keywords": "装机必备软件,windows装机必备,电脑必装软件,win11必装软件,电脑装机软件,windows好用的软件,电脑必备软件,装机软件推荐",
+"url": "/windows-zhuangji-bibei/"
+},
+{
+"slug": "bendi-damoxing",
+"name": "大模型本地部署全套软件",
+"short": "大模型本地部署全套软件",
+"cat": "ai",
+"title": "大模型本地部署软件大全 - 免费Ollama教程",
+"keywords": "大模型本地部署,本地部署大模型,deepseek本地部署,ollama,lm studio,本地知识库,私有化部署,本地ai软件",
+"url": "/bendi-damoxing/"
+},
+{
+"slug": "mianfei-tidai-ruanjian",
+"name": "Mac / Windows 免费替代付费软件",
+"short": "Mac / Windows 免费替代付费软件",
+"cat": "pc",
+"title": "免费替代付费软件 - Mac Windows开源替代清单",
+"keywords": "免费替代软件,开源替代,付费软件替代,mac免费软件,免费正版软件,破解软件替代,免费办公软件,开源软件推荐",
+"url": "/mianfei-tidai-ruanjian/"
+},
+{
+"slug": "ai-ruanjian-xuanze",
+"name": "AI 软件怎么选",
+"short": "AI 软件怎么选",
+"cat": "ai",
+"title": "AI软件怎么选 - 2026 AI工具对比推荐 免费",
+"keywords": "ai软件推荐,ai工具推荐,ai软件哪个好,ai工具对比,免费ai软件,国内ai工具,ai软件大全,好用的ai工具",
+"url": "/ai-ruanjian-xuanze/"
+},
+{
+"slug": "liulanqi-tuijian",
+"name": "浏览器推荐",
+"short": "浏览器推荐",
+"cat": "browser",
+"title": "浏览器推荐 - 2026好用的浏览器对比 免费下载",
+"keywords": "浏览器推荐,浏览器哪个好,好用的浏览器,电脑浏览器推荐,浏览器下载,无广告浏览器,ai浏览器,浏览器对比",
+"url": "/liulanqi-tuijian/"
+},
+{
+"slug": "zhibo-banlv-daquan",
+"name": "直播伴侣大全",
+"short": "直播伴侣大全",
+"cat": "live",
+"title": "直播伴侣大全 - 各平台电脑直播软件官方下载 免费",
+"keywords": "直播伴侣,直播伴侣下载,直播软件,电脑直播软件,直播推流软件,各平台直播伴侣,obs直播,直播工具",
+"url": "/zhibo-banlv-daquan/"
 },
 {
 "slug": "windows11-download",
@@ -1193,15 +3393,6 @@
 "url": "/qq-music-download/"
 },
 {
-"slug": "jianying-download",
-"name": "剪映专业版官方下载",
-"short": "剪映电脑版官方下载",
-"cat": "soft",
-"title": "剪映专业版官方下载 - 免费正版下载地址",
-"keywords": "剪映下载,剪映专业版下载,剪映电脑版,剪映官方下载",
-"url": "/jianying-download/"
-},
-{
 "slug": "sogou-pinyin-download",
 "name": "搜狗输入法官方下载",
 "short": "搜狗拼音输入法官方下载",
@@ -1227,24 +3418,6 @@
 "title": "迅雷官方下载 - 免费正版下载地址",
 "keywords": "迅雷下载,迅雷电脑版,迅雷官方下载,迅雷11",
 "url": "/xunlei-download/"
-},
-{
-"slug": "quark-download",
-"name": "夸克官方下载",
-"short": "夸克浏览器、夸克网盘官方下载",
-"cat": "soft",
-"title": "夸克官方下载 - 免费正版下载地址",
-"keywords": "夸克下载,夸克浏览器下载,夸克网盘电脑版,夸克官方下载",
-"url": "/quark-download/"
-},
-{
-"slug": "huorong-download",
-"name": "火绒安全官方下载",
-"short": "火绒安全软件官方下载",
-"cat": "soft",
-"title": "火绒安全官方下载 - 免费正版下载地址",
-"keywords": "火绒下载,火绒安全下载,火绒官方下载,火绒杀毒",
-"url": "/huorong-download/"
 },
 {
 "slug": "sunlogin-download",
@@ -1283,15 +3456,6 @@
 "url": "/iqiyi-download/"
 },
 {
-"slug": "bandizip-download",
-"name": "Bandizip官方下载",
-"short": "Bandizip 解压缩软件官方下载",
-"cat": "soft",
-"title": "Bandizip官方下载 - 免费正版下载地址",
-"keywords": "bandizip下载,bandizip官方下载,解压缩软件下载",
-"url": "/bandizip-download/"
-},
-{
 "slug": "git-download",
 "name": "Git官方下载",
 "short": "Git 官方下载（Windows / Mac / Linux）",
@@ -1326,24 +3490,6 @@
 "title": "Android Studio官方下载 - 免费正版下载地址",
 "keywords": "android studio下载,android studio官方下载,安卓开发工具",
 "url": "/android-studio-download/"
-},
-{
-"slug": "docker-desktop-download",
-"name": "Docker Desktop官方下载",
-"short": "Docker Desktop 官方下载",
-"cat": "soft",
-"title": "Docker Desktop官方下载 - 免费正版下载地址",
-"keywords": "docker下载,docker desktop下载,docker官方下载,docker安装",
-"url": "/docker-desktop-download/"
-},
-{
-"slug": "powertoys-download",
-"name": "PowerToys官方下载",
-"short": "微软 PowerToys 效率工具官方下载",
-"cat": "soft",
-"title": "PowerToys官方下载 - 免费正版下载地址",
-"keywords": "powertoys下载,powertoys官方下载,微软效率工具",
-"url": "/powertoys-download/"
 },
 {
 "slug": "zoom-download",
@@ -1398,15 +3544,6 @@
 "title": "HandBrake官方下载 - 免费正版下载地址",
 "keywords": "handbrake下载,handbrake官方下载,视频转码软件,视频压缩软件",
 "url": "/handbrake-download/"
-},
-{
-"slug": "snipaste-download",
-"name": "Snipaste官方下载",
-"short": "Snipaste 截图贴图官方下载",
-"cat": "soft",
-"title": "Snipaste官方下载 - 免费正版下载地址",
-"keywords": "snipaste下载,snipaste官方下载,截图软件",
-"url": "/snipaste-download/"
 },
 {
 "slug": "identityv-download",
