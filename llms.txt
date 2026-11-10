@@ -14,7 +14,7 @@
 - [抖音无水印下载](https://wan.is-my.app/douyin-download/): 抖音视频、图集无水印解析
 - [X / Twitter 视频下载](https://wan.is-my.app/x-video-download/): 推特视频、GIF 高清下载
 - [B站视频下载](https://wan.is-my.app/bilibili-download/): 哔哩哔哩视频 MP4 下载
-- [万能视频解析下载](https://wan.is-my.app/video-download/): 快手、微博、YouTube 等
+- [万能视频解析下载](https://wan.is-my.app/video-download/): 微博、Vimeo 等上千网站
 
 ## 图片工具
 

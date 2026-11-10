@@ -14,7 +14,7 @@
 - [抖音无水印下载](https://wan.is-my.app/douyin-download/): 抖音视频、图集无水印解析
 - [X / Twitter 视频下载](https://wan.is-my.app/x-video-download/): 推特视频、GIF 高清下载
 - [B站视频下载](https://wan.is-my.app/bilibili-download/): 哔哩哔哩视频 MP4 下载
-- [万能视频解析下载](https://wan.is-my.app/video-download/): 快手、微博、YouTube 等
+- [万能视频解析下载](https://wan.is-my.app/video-download/): 微博、Vimeo 等上千网站
 
 ## 图片工具
 
@@ -90,7 +90,7 @@
 
 ## 万能视频解析下载
 网址: https://wan.is-my.app/video-download/
-说明: 免费万能视频解析下载：支持抖音、X/Twitter、B站、快手、微博、西瓜视频、YouTube 等上千个网站，粘贴链接解析视频直接下载，免登录。
+说明: 免费万能视频解析下载：支持抖音、X/Twitter、B站、微博、Vimeo、Reddit 等上千个网站，粘贴链接解析视频直接下载，免登录。
 用法: 复制视频的分享链接或网址。 粘贴后点「解析视频」，系统会自动识别平台。 在结果里选择清晰度下载，也可以下载音频和封面。
 接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名> 下载。命令行: python3 gjz.py download <分享链接>
 
