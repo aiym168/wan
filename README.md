@@ -1,6 +1,6 @@
-# 玩点啥 · https://wan.is-my.app/
+# 工具站大全 · https://wan.is-my.app/
 
-今日热榜、你画我猜、打字背单词、在线工具箱、摸鱼首页、打卡中国、信号站、AI 羊毛，一个入口全都有。
+免费在线工具大全（图片、PDF、文字、二维码、计算器）、今日热榜、你画我猜、打字背单词、在线工具箱、摸鱼首页、打卡中国、信号站、AI 羊毛，一个入口全都有。
 
 - 今日热榜 https://hot.is-my.app/
 - 你画我猜 https://wan.is-my.app/huahua/ （Scribble.rs，BSD-3-Clause，改动见 huahua/huahua.patch）
