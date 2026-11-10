@@ -581,6 +581,38 @@
 - [Python官方下载](https://wan.is-my.app/python-download/): Python 官方安装包
 - [LibreOffice官方下载](https://wan.is-my.app/libreoffice-download/): 开源免费办公套件
 - [WinRAR官方下载](https://wan.is-my.app/winrar-download/): WinRAR 中国官方站
+- [微信电脑版官方下载](https://wan.is-my.app/wechat-pc-download/): 微信 Windows / Mac 官方客户端
+- [QQ 电脑版官方下载](https://wan.is-my.app/qq-pc-download/): QQ Windows / Mac / Linux 官方版
+- [钉钉官方下载](https://wan.is-my.app/dingtalk-download/): 钉钉电脑版、手机版官方下载
+- [飞书官方下载](https://wan.is-my.app/feishu-download/): 飞书电脑版、手机版官方下载
+- [腾讯会议官方下载](https://wan.is-my.app/tencent-meeting-download/): 腾讯会议电脑版官方下载
+- [百度网盘官方下载](https://wan.is-my.app/baidu-netdisk-download/): 百度网盘电脑版官方下载
+- [网易云音乐官方下载](https://wan.is-my.app/netease-music-download/): 网易云音乐电脑版官方下载
+- [QQ音乐官方下载](https://wan.is-my.app/qq-music-download/): QQ音乐电脑版官方下载
+- [剪映专业版官方下载](https://wan.is-my.app/jianying-download/): 剪映电脑版官方下载
+- [搜狗输入法官方下载](https://wan.is-my.app/sogou-pinyin-download/): 搜狗拼音输入法官方下载
+- [微信输入法官方下载](https://wan.is-my.app/wechat-ime-download/): 微信输入法电脑版、手机版
+- [迅雷官方下载](https://wan.is-my.app/xunlei-download/): 迅雷电脑版官方下载
+- [夸克官方下载](https://wan.is-my.app/quark-download/): 夸克浏览器、夸克网盘官方下载
+- [火绒安全官方下载](https://wan.is-my.app/huorong-download/): 火绒安全软件官方下载
+- [向日葵远程控制官方下载](https://wan.is-my.app/sunlogin-download/): 向日葵远程控制官方下载
+- [ToDesk官方下载](https://wan.is-my.app/todesk-download/): ToDesk 远程控制官方下载
+- [腾讯视频官方下载](https://wan.is-my.app/tencent-video-download/): 腾讯视频电脑版官方下载
+- [爱奇艺官方下载](https://wan.is-my.app/iqiyi-download/): 爱奇艺电脑版官方下载
+- [Bandizip官方下载](https://wan.is-my.app/bandizip-download/): Bandizip 解压缩软件官方下载
+- [Git官方下载](https://wan.is-my.app/git-download/): Git 官方下载（Windows / Mac / Linux）
+- [Node.js官方下载](https://wan.is-my.app/nodejs-download/): Node.js 官方下载 LTS 版
+- [Java JDK官方下载](https://wan.is-my.app/jdk-download/): Java JDK 官方下载
+- [Android Studio官方下载](https://wan.is-my.app/android-studio-download/): Android Studio 官方下载
+- [Docker Desktop官方下载](https://wan.is-my.app/docker-desktop-download/): Docker Desktop 官方下载
+- [PowerToys官方下载](https://wan.is-my.app/powertoys-download/): 微软 PowerToys 效率工具官方下载
+- [Zoom官方下载](https://wan.is-my.app/zoom-download/): Zoom 视频会议官方下载
+- [Telegram官方下载](https://wan.is-my.app/telegram-download/): Telegram 电脑版官方下载
+- [Blender官方下载](https://wan.is-my.app/blender-download/): Blender 3D 建模软件官方下载
+- [GIMP官方下载](https://wan.is-my.app/gimp-download/): GIMP 免费修图软件官方下载
+- [Audacity官方下载](https://wan.is-my.app/audacity-download/): Audacity 音频编辑官方下载
+- [HandBrake官方下载](https://wan.is-my.app/handbrake-download/): HandBrake 视频转码官方下载
+- [Snipaste官方下载](https://wan.is-my.app/snipaste-download/): Snipaste 截图贴图官方下载
 
 ## 游戏客户端下载
 
@@ -608,3 +640,17 @@
 - [鸣潮官方下载](https://wan.is-my.app/wuthering-waves-download/): 库洛开放世界动作游戏
 - [绝区零官方下载](https://wan.is-my.app/zzz-download/): 米哈游都市动作游戏
 - [三角洲行动官方下载](https://wan.is-my.app/delta-force-download/): 腾讯战术射击游戏
+- [第五人格官方下载](https://wan.is-my.app/identityv-download/): 第五人格官方下载（手机 / 电脑）
+- [蛋仔派对官方下载](https://wan.is-my.app/eggy-party-download/): 蛋仔派对官方下载
+- [穿越火线官方下载](https://wan.is-my.app/crossfire-download/): 穿越火线 CF 客户端官方下载
+- [地下城与勇士官方下载](https://wan.is-my.app/dnf-download/): DNF 客户端官方下载
+- [逆水寒官方下载](https://wan.is-my.app/nishuihan-download/): 逆水寒端游官方下载
+- [梦幻西游官方下载](https://wan.is-my.app/mhxy-download/): 梦幻西游电脑版官方下载
+- [崩坏3官方下载](https://wan.is-my.app/honkai3-download/): 崩坏3 官方下载（手机 / 电脑）
+- [金铲铲之战官方下载](https://wan.is-my.app/jcc-download/): 金铲铲之战官方下载
+- [光·遇官方下载](https://wan.is-my.app/sky-download/): 光遇官方下载
+- [黑神话：悟空官方下载](https://wan.is-my.app/wukong-download/): 黑神话悟空 Steam 官方页面
+- [幻兽帕鲁官方下载](https://wan.is-my.app/palworld-download/): 幻兽帕鲁 Steam 官方页面
+- [火影忍者手游官方下载](https://wan.is-my.app/huoying-download/): 火影忍者手游官方下载
+- [QQ飞车官方下载](https://wan.is-my.app/qqspeed-download/): QQ飞车端游官方下载
+- [Apex 英雄官方下载](https://wan.is-my.app/apex-download/): Apex 英雄官方免费下载

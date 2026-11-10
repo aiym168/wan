@@ -951,6 +951,420 @@
 "url": "/delta-force-download/"
 },
 {
+"slug": "wechat-pc-download",
+"name": "微信电脑版官方下载",
+"short": "微信 Windows / Mac 官方客户端",
+"cat": "soft",
+"title": "微信电脑版官方下载 - 免费正版下载地址",
+"keywords": "微信电脑版下载,微信pc版官方下载,微信windows版,微信mac版下载,电脑版微信",
+"url": "/wechat-pc-download/"
+},
+{
+"slug": "qq-pc-download",
+"name": "QQ 电脑版官方下载",
+"short": "QQ Windows / Mac / Linux 官方版",
+"cat": "soft",
+"title": "QQ 电脑版官方下载 - 免费正版下载地址",
+"keywords": "qq下载,qq电脑版下载,qq官方下载,qq pc版,qq最新版下载",
+"url": "/qq-pc-download/"
+},
+{
+"slug": "dingtalk-download",
+"name": "钉钉官方下载",
+"short": "钉钉电脑版、手机版官方下载",
+"cat": "soft",
+"title": "钉钉官方下载 - 免费正版下载地址",
+"keywords": "钉钉下载,钉钉电脑版下载,钉钉官方下载,钉钉pc版",
+"url": "/dingtalk-download/"
+},
+{
+"slug": "feishu-download",
+"name": "飞书官方下载",
+"short": "飞书电脑版、手机版官方下载",
+"cat": "soft",
+"title": "飞书官方下载 - 免费正版下载地址",
+"keywords": "飞书下载,飞书电脑版下载,飞书官方下载,飞书pc版",
+"url": "/feishu-download/"
+},
+{
+"slug": "tencent-meeting-download",
+"name": "腾讯会议官方下载",
+"short": "腾讯会议电脑版官方下载",
+"cat": "soft",
+"title": "腾讯会议官方下载 - 免费正版下载地址",
+"keywords": "腾讯会议下载,腾讯会议电脑版,腾讯会议官方下载,腾讯会议pc版",
+"url": "/tencent-meeting-download/"
+},
+{
+"slug": "baidu-netdisk-download",
+"name": "百度网盘官方下载",
+"short": "百度网盘电脑版官方下载",
+"cat": "soft",
+"title": "百度网盘官方下载 - 免费正版下载地址",
+"keywords": "百度网盘下载,百度网盘电脑版,百度网盘官方下载,百度云盘下载",
+"url": "/baidu-netdisk-download/"
+},
+{
+"slug": "netease-music-download",
+"name": "网易云音乐官方下载",
+"short": "网易云音乐电脑版官方下载",
+"cat": "soft",
+"title": "网易云音乐官方下载 - 免费正版下载地址",
+"keywords": "网易云音乐下载,网易云音乐电脑版,网易云音乐官方下载",
+"url": "/netease-music-download/"
+},
+{
+"slug": "qq-music-download",
+"name": "QQ音乐官方下载",
+"short": "QQ音乐电脑版官方下载",
+"cat": "soft",
+"title": "QQ音乐官方下载 - 免费正版下载地址",
+"keywords": "qq音乐下载,qq音乐电脑版,qq音乐官方下载",
+"url": "/qq-music-download/"
+},
+{
+"slug": "jianying-download",
+"name": "剪映专业版官方下载",
+"short": "剪映电脑版官方下载",
+"cat": "soft",
+"title": "剪映专业版官方下载 - 免费正版下载地址",
+"keywords": "剪映下载,剪映专业版下载,剪映电脑版,剪映官方下载",
+"url": "/jianying-download/"
+},
+{
+"slug": "sogou-pinyin-download",
+"name": "搜狗输入法官方下载",
+"short": "搜狗拼音输入法官方下载",
+"cat": "soft",
+"title": "搜狗输入法官方下载 - 免费正版下载地址",
+"keywords": "搜狗输入法下载,搜狗拼音输入法,搜狗输入法电脑版,搜狗输入法官方下载",
+"url": "/sogou-pinyin-download/"
+},
+{
+"slug": "wechat-ime-download",
+"name": "微信输入法官方下载",
+"short": "微信输入法电脑版、手机版",
+"cat": "soft",
+"title": "微信输入法官方下载 - 免费正版下载地址",
+"keywords": "微信输入法下载,微信输入法电脑版,微信键盘下载",
+"url": "/wechat-ime-download/"
+},
+{
+"slug": "xunlei-download",
+"name": "迅雷官方下载",
+"short": "迅雷电脑版官方下载",
+"cat": "soft",
+"title": "迅雷官方下载 - 免费正版下载地址",
+"keywords": "迅雷下载,迅雷电脑版,迅雷官方下载,迅雷11",
+"url": "/xunlei-download/"
+},
+{
+"slug": "quark-download",
+"name": "夸克官方下载",
+"short": "夸克浏览器、夸克网盘官方下载",
+"cat": "soft",
+"title": "夸克官方下载 - 免费正版下载地址",
+"keywords": "夸克下载,夸克浏览器下载,夸克网盘电脑版,夸克官方下载",
+"url": "/quark-download/"
+},
+{
+"slug": "huorong-download",
+"name": "火绒安全官方下载",
+"short": "火绒安全软件官方下载",
+"cat": "soft",
+"title": "火绒安全官方下载 - 免费正版下载地址",
+"keywords": "火绒下载,火绒安全下载,火绒官方下载,火绒杀毒",
+"url": "/huorong-download/"
+},
+{
+"slug": "sunlogin-download",
+"name": "向日葵远程控制官方下载",
+"short": "向日葵远程控制官方下载",
+"cat": "soft",
+"title": "向日葵远程控制官方下载 - 免费正版下载地址",
+"keywords": "向日葵下载,向日葵远程控制,向日葵官方下载",
+"url": "/sunlogin-download/"
+},
+{
+"slug": "todesk-download",
+"name": "ToDesk官方下载",
+"short": "ToDesk 远程控制官方下载",
+"cat": "soft",
+"title": "ToDesk官方下载 - 免费正版下载地址",
+"keywords": "todesk下载,todesk官方下载,todesk远程控制",
+"url": "/todesk-download/"
+},
+{
+"slug": "tencent-video-download",
+"name": "腾讯视频官方下载",
+"short": "腾讯视频电脑版官方下载",
+"cat": "soft",
+"title": "腾讯视频官方下载 - 免费正版下载地址",
+"keywords": "腾讯视频下载,腾讯视频电脑版,腾讯视频官方下载",
+"url": "/tencent-video-download/"
+},
+{
+"slug": "iqiyi-download",
+"name": "爱奇艺官方下载",
+"short": "爱奇艺电脑版官方下载",
+"cat": "soft",
+"title": "爱奇艺官方下载 - 免费正版下载地址",
+"keywords": "爱奇艺下载,爱奇艺电脑版,爱奇艺官方下载",
+"url": "/iqiyi-download/"
+},
+{
+"slug": "bandizip-download",
+"name": "Bandizip官方下载",
+"short": "Bandizip 解压缩软件官方下载",
+"cat": "soft",
+"title": "Bandizip官方下载 - 免费正版下载地址",
+"keywords": "bandizip下载,bandizip官方下载,解压缩软件下载",
+"url": "/bandizip-download/"
+},
+{
+"slug": "git-download",
+"name": "Git官方下载",
+"short": "Git 官方下载（Windows / Mac / Linux）",
+"cat": "soft",
+"title": "Git官方下载 - 免费正版下载地址",
+"keywords": "git下载,git官方下载,git for windows,git安装",
+"url": "/git-download/"
+},
+{
+"slug": "nodejs-download",
+"name": "Node.js官方下载",
+"short": "Node.js 官方下载 LTS 版",
+"cat": "soft",
+"title": "Node.js官方下载 - 免费正版下载地址",
+"keywords": "nodejs下载,node下载,nodejs官方下载,node.js安装",
+"url": "/nodejs-download/"
+},
+{
+"slug": "jdk-download",
+"name": "Java JDK官方下载",
+"short": "Java JDK 官方下载",
+"cat": "soft",
+"title": "Java JDK官方下载 - 免费正版下载地址",
+"keywords": "jdk下载,java下载,jdk官方下载,java jdk安装,jdk21下载",
+"url": "/jdk-download/"
+},
+{
+"slug": "android-studio-download",
+"name": "Android Studio官方下载",
+"short": "Android Studio 官方下载",
+"cat": "soft",
+"title": "Android Studio官方下载 - 免费正版下载地址",
+"keywords": "android studio下载,android studio官方下载,安卓开发工具",
+"url": "/android-studio-download/"
+},
+{
+"slug": "docker-desktop-download",
+"name": "Docker Desktop官方下载",
+"short": "Docker Desktop 官方下载",
+"cat": "soft",
+"title": "Docker Desktop官方下载 - 免费正版下载地址",
+"keywords": "docker下载,docker desktop下载,docker官方下载,docker安装",
+"url": "/docker-desktop-download/"
+},
+{
+"slug": "powertoys-download",
+"name": "PowerToys官方下载",
+"short": "微软 PowerToys 效率工具官方下载",
+"cat": "soft",
+"title": "PowerToys官方下载 - 免费正版下载地址",
+"keywords": "powertoys下载,powertoys官方下载,微软效率工具",
+"url": "/powertoys-download/"
+},
+{
+"slug": "zoom-download",
+"name": "Zoom官方下载",
+"short": "Zoom 视频会议官方下载",
+"cat": "soft",
+"title": "Zoom官方下载 - 免费正版下载地址",
+"keywords": "zoom下载,zoom官方下载,zoom客户端",
+"url": "/zoom-download/"
+},
+{
+"slug": "telegram-download",
+"name": "Telegram官方下载",
+"short": "Telegram 电脑版官方下载",
+"cat": "soft",
+"title": "Telegram官方下载 - 免费正版下载地址",
+"keywords": "telegram下载,telegram电脑版,telegram官方下载,tg下载",
+"url": "/telegram-download/"
+},
+{
+"slug": "blender-download",
+"name": "Blender官方下载",
+"short": "Blender 3D 建模软件官方下载",
+"cat": "soft",
+"title": "Blender官方下载 - 免费正版下载地址",
+"keywords": "blender下载,blender官方下载,blender中文版,3d建模软件",
+"url": "/blender-download/"
+},
+{
+"slug": "gimp-download",
+"name": "GIMP官方下载",
+"short": "GIMP 免费修图软件官方下载",
+"cat": "soft",
+"title": "GIMP官方下载 - 免费正版下载地址",
+"keywords": "gimp下载,gimp官方下载,免费修图软件,免费ps",
+"url": "/gimp-download/"
+},
+{
+"slug": "audacity-download",
+"name": "Audacity官方下载",
+"short": "Audacity 音频编辑官方下载",
+"cat": "soft",
+"title": "Audacity官方下载 - 免费正版下载地址",
+"keywords": "audacity下载,audacity官方下载,音频编辑软件,录音软件",
+"url": "/audacity-download/"
+},
+{
+"slug": "handbrake-download",
+"name": "HandBrake官方下载",
+"short": "HandBrake 视频转码官方下载",
+"cat": "soft",
+"title": "HandBrake官方下载 - 免费正版下载地址",
+"keywords": "handbrake下载,handbrake官方下载,视频转码软件,视频压缩软件",
+"url": "/handbrake-download/"
+},
+{
+"slug": "snipaste-download",
+"name": "Snipaste官方下载",
+"short": "Snipaste 截图贴图官方下载",
+"cat": "soft",
+"title": "Snipaste官方下载 - 免费正版下载地址",
+"keywords": "snipaste下载,snipaste官方下载,截图软件",
+"url": "/snipaste-download/"
+},
+{
+"slug": "identityv-download",
+"name": "第五人格官方下载",
+"short": "第五人格官方下载（手机 / 电脑）",
+"cat": "game",
+"title": "第五人格官方下载 - 免费游戏客户端下载地址",
+"keywords": "第五人格下载,第五人格官方下载,第五人格电脑版",
+"url": "/identityv-download/"
+},
+{
+"slug": "eggy-party-download",
+"name": "蛋仔派对官方下载",
+"short": "蛋仔派对官方下载",
+"cat": "game",
+"title": "蛋仔派对官方下载 - 免费游戏客户端下载地址",
+"keywords": "蛋仔派对下载,蛋仔派对官方下载,蛋仔派对电脑版",
+"url": "/eggy-party-download/"
+},
+{
+"slug": "crossfire-download",
+"name": "穿越火线官方下载",
+"short": "穿越火线 CF 客户端官方下载",
+"cat": "game",
+"title": "穿越火线官方下载 - 免费游戏客户端下载地址",
+"keywords": "穿越火线下载,cf下载,cf官方下载,穿越火线客户端",
+"url": "/crossfire-download/"
+},
+{
+"slug": "dnf-download",
+"name": "地下城与勇士官方下载",
+"short": "DNF 客户端官方下载",
+"cat": "game",
+"title": "地下城与勇士官方下载 - 免费游戏客户端下载地址",
+"keywords": "dnf下载,地下城与勇士下载,dnf官方下载,dnf客户端",
+"url": "/dnf-download/"
+},
+{
+"slug": "nishuihan-download",
+"name": "逆水寒官方下载",
+"short": "逆水寒端游官方下载",
+"cat": "game",
+"title": "逆水寒官方下载 - 免费游戏客户端下载地址",
+"keywords": "逆水寒下载,逆水寒官方下载,逆水寒客户端",
+"url": "/nishuihan-download/"
+},
+{
+"slug": "mhxy-download",
+"name": "梦幻西游官方下载",
+"short": "梦幻西游电脑版官方下载",
+"cat": "game",
+"title": "梦幻西游官方下载 - 免费游戏客户端下载地址",
+"keywords": "梦幻西游下载,梦幻西游官方下载,梦幻西游客户端",
+"url": "/mhxy-download/"
+},
+{
+"slug": "honkai3-download",
+"name": "崩坏3官方下载",
+"short": "崩坏3 官方下载（手机 / 电脑）",
+"cat": "game",
+"title": "崩坏3官方下载 - 免费游戏客户端下载地址",
+"keywords": "崩坏3下载,崩坏三下载,崩坏3官方下载,崩坏3电脑版",
+"url": "/honkai3-download/"
+},
+{
+"slug": "jcc-download",
+"name": "金铲铲之战官方下载",
+"short": "金铲铲之战官方下载",
+"cat": "game",
+"title": "金铲铲之战官方下载 - 免费游戏客户端下载地址",
+"keywords": "金铲铲之战下载,金铲铲官方下载,金铲铲电脑版",
+"url": "/jcc-download/"
+},
+{
+"slug": "sky-download",
+"name": "光·遇官方下载",
+"short": "光遇官方下载",
+"cat": "game",
+"title": "光·遇官方下载 - 免费游戏客户端下载地址",
+"keywords": "光遇下载,光遇官方下载,光遇电脑版",
+"url": "/sky-download/"
+},
+{
+"slug": "wukong-download",
+"name": "黑神话：悟空官方下载",
+"short": "黑神话悟空 Steam 官方页面",
+"cat": "game",
+"title": "黑神话：悟空正版下载 - 官方购买入口和配置要求",
+"keywords": "黑神话悟空下载,黑神话悟空steam,黑神话悟空正版,黑神话悟空配置",
+"url": "/wukong-download/"
+},
+{
+"slug": "palworld-download",
+"name": "幻兽帕鲁官方下载",
+"short": "幻兽帕鲁 Steam 官方页面",
+"cat": "game",
+"title": "幻兽帕鲁正版下载 - 官方购买入口和配置要求",
+"keywords": "幻兽帕鲁下载,幻兽帕鲁steam,palworld下载,幻兽帕鲁正版",
+"url": "/palworld-download/"
+},
+{
+"slug": "huoying-download",
+"name": "火影忍者手游官方下载",
+"short": "火影忍者手游官方下载",
+"cat": "game",
+"title": "火影忍者手游官方下载 - 免费游戏客户端下载地址",
+"keywords": "火影忍者手游下载,火影忍者官方下载,火影手游",
+"url": "/huoying-download/"
+},
+{
+"slug": "qqspeed-download",
+"name": "QQ飞车官方下载",
+"short": "QQ飞车端游官方下载",
+"cat": "game",
+"title": "QQ飞车官方下载 - 免费游戏客户端下载地址",
+"keywords": "qq飞车下载,qq飞车官方下载,qq飞车客户端",
+"url": "/qqspeed-download/"
+},
+{
+"slug": "apex-download",
+"name": "Apex 英雄官方下载",
+"short": "Apex 英雄官方免费下载",
+"cat": "game",
+"title": "Apex 英雄官方下载 - 免费游戏客户端下载地址",
+"keywords": "apex下载,apex英雄下载,apex官方下载,apex免费",
+"url": "/apex-download/"
+},
+{
 "slug": "ascii-text-drawer",
 "name": "ASCII 艺术字生成",
 "short": "把文字转换成各种字体的 ASCII 艺术字",
