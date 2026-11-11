@@ -1,7 +1,7 @@
 {
  "name": "工具站大全",
  "url": "https://wan.is-my.app/gongju/",
- "count": 925,
+ "count": 926,
  "note": "全部免费；runs=browser 的工具在网页里本地运行，runs=server 的工具可通过 OpenAPI 调用。服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。",
  "openapi": "https://wan.is-my.app/api/openapi.json",
  "tools": [
@@ -1090,6 +1090,17 @@
    "description": "HTTP 状态码大全：200、301、302、304、403、404、429、500、502、503、504 等常见状态码的含义和常见原因，可搜索。",
    "keywords": "http状态码,http状态码大全,404是什么意思,502错误,301和302区别,503错误,状态码查询",
    "url": "https://wan.is-my.app/http-zhuangtaima/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "yonghuming-chaxun",
+   "name": "用户名查询",
+   "category": "网络工具",
+   "description": "免费用户名查询：输入常用用户名，一次查 110 个网站有没有同名公开主页，含B站、贴吧、CSDN、掘金、GitHub等，自查旧账号、起名查重。",
+   "keywords": "用户名查询,ID查询,账号查询,网名查询,用户名注册查询,查用户名在哪些网站注册,用户名在哪些网站注册过,同名账号查询,社交账号查询,whatsmyname,sherlock",
+   "url": "https://wan.is-my.app/yonghuming-chaxun/",
    "runs": "browser",
    "api": null,
    "free": true

@@ -482,6 +482,7 @@
 - [端口检测](https://wan.is-my.app/duankou-jiance/): 检测服务器端口是否开放
 - [网速测试](https://wan.is-my.app/wangsu-ceshi/): 测下载速度和延迟
 - [HTTP 状态码大全](https://wan.is-my.app/http-zhuangtaima/): 200、301、404、502 含义速查
+- [用户名查询](https://wan.is-my.app/yonghuming-chaxun/): 查同一个 ID 在哪些网站有主页
 - [Ipv4地址转换器](https://wan.is-my.app/ipv4-address-converter/): 在ipv6中，将ip地址转换为十进制、二进
 - [IPv4范围扩展器](https://wan.is-my.app/ipv4-range-expander/): 给定起始和结束IPv4地址，此工具使用其C
 - [IPv4子网计算器](https://wan.is-my.app/ipv4-subnet-calculator/): 解析IPv4 CIDR块，并获取有关子网络
@@ -1590,6 +1591,12 @@
 网址: https://wan.is-my.app/http-zhuangtaima/
 说明: HTTP 状态码大全：200、301、302、304、403、404、429、500、502、503、504 等常见状态码的含义和常见原因，可搜索。
 用法: 在搜索框输入状态码数字，比如 502。 看含义判断是你这边的问题（4xx）还是服务器的问题（5xx）。 需要检测具体网址时，用本站的 HTTP 状态码检测工具。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 用户名查询
+网址: https://wan.is-my.app/yonghuming-chaxun/
+说明: 免费用户名查询：输入常用用户名，一次查 110 个网站有没有同名公开主页，含B站、贴吧、CSDN、掘金、GitHub等，自查旧账号、起名查重。
+用法: 在输入框里填你常用的用户名（ID），比如注册网站时常用的英文名；中文昵称只会在支持中文的平台上查。 点「开始查询」，结果会一边查一边出现，一般 10—40 秒查完。 点「找到」筛选出有公开主页的网站，点「打开主页」确认是不是你自己的账号。 「暂时无法检查」表示网站拦截了查询或响应太慢，可以稍后再查，或点进官网自己确认。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## 电商利润计算器

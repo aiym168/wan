@@ -99,6 +99,7 @@ https://wan.is-my.app/tcping/
 https://wan.is-my.app/duankou-jiance/
 https://wan.is-my.app/wangsu-ceshi/
 https://wan.is-my.app/http-zhuangtaima/
+https://wan.is-my.app/yonghuming-chaxun/
 https://wan.is-my.app/dianshang-lirun/
 https://wan.is-my.app/dingjia-zhekou/
 https://wan.is-my.app/manjian/
