@@ -42,7 +42,7 @@
 .unsum{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;color:var(--tx2)}.unsum b{color:var(--acc);font-size:18px}
 .unf{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 4px}.unf button{min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line2);background:var(--card2);color:var(--tx2);font-weight:700;cursor:pointer}.unf button.on{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
 .ung h3{font-size:15px;color:var(--tx3);margin:16px 0 6px;font-weight:800}
-.unr{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px}
+.unr{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px}
 .uni{display:flex;align-items:center;gap:10px;min-height:52px;padding:8px 12px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
 .uni .nm{flex:1;min-width:0;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.uni .nm small{display:block;font-weight:400;font-size:12px;color:var(--tx3)}
 .uni .st{font-size:12px;font-weight:800;padding:3px 8px;border-radius:999px;white-space:nowrap;color:var(--tx3);border:1px solid var(--line2)}
@@ -51,7 +51,7 @@
 @keyframes unp{50%{opacity:.35}}
 .uni a.go{display:inline-flex;align-items:center;min-height:40px;padding:0 10px;border-radius:9px;background:var(--card2);border:1px solid var(--line2);text-decoration:none;font-size:13px;font-weight:700;white-space:nowrap}
 .uni a.go:hover{border-color:var(--acc)}
-.unman{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin-top:6px}.unman a{display:flex;align-items:center;min-height:46px;padding:8px 12px;border:1px dashed var(--line2);border-radius:12px;text-decoration:none;font-size:14px}.unman a:hover{border-color:var(--acc)}
+.unman{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px;margin-top:6px}.unman a{display:flex;align-items:center;min-height:46px;padding:8px 12px;border:1px dashed var(--line2);border-radius:12px;text-decoration:none;font-size:14px}.unman a:hover{border-color:var(--acc)}
 .unwarn{border:1px solid rgba(255,176,32,.35);background:rgba(255,176,32,.06);border-radius:12px;padding:10px 14px;font-size:14px;color:var(--tx2);margin:14px 0 0}.unwarn b{color:var(--warn)}
 .unl{color:var(--tx2);font-size:14px;line-height:1.9}.unmiss{font-size:13px;color:var(--tx3);line-height:1.8;margin:8px 0 0}.ung h3 small{font-weight:600;color:var(--tx3)}
 .unex{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;font-size:13px;color:var(--tx3);align-items:center}.unex button{min-height:36px;padding:0 12px;border-radius:999px;border:1px solid var(--line2);background:none;color:var(--tx2);cursor:pointer}
@@ -59,7 +59,7 @@
 .unhook{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}.unhook span{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:var(--tx);background:var(--card);border:1px solid var(--line2);padding:6px 12px;border-radius:10px}.unhook i{font-style:normal;color:var(--acc-ink);background:var(--acc);border-radius:6px;font-size:12px;font-weight:900;padding:0 6px}
 .uncau{font-size:12.5px;color:var(--tx3);margin:10px 0 0}.uncau b{color:var(--tx2);font-weight:700}
 .unsoc{border:1px solid rgba(200,255,46,.35);border-radius:14px;padding:12px 14px;margin:16px 0 4px;background:linear-gradient(160deg,rgba(200,255,46,.06),transparent 60%)}.unsoc h3{margin:0 0 4px;color:var(--tx)!important;font-size:16px!important}.unsoc p{margin:0 0 8px;font-size:13px;color:var(--tx3)}
-.unman a{border-style:solid;background:var(--bg);justify-content:space-between;font-weight:700}.unman a small{color:var(--acc);font-weight:800;font-size:12px}
+.unman a{border-style:solid;background:var(--bg);justify-content:space-between;font-weight:700}.unman a small{color:var(--acc);font-weight:800;font-size:12px;white-space:nowrap;margin-left:6px}
 .unfeat{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:8px 0}.unfeat div{border:1px solid var(--line);border-radius:14px;padding:14px;background:var(--card)}.unfeat b{display:block;font-size:16px;margin-bottom:4px}.unfeat p{margin:0;color:var(--tx2);font-size:14px}
 @media(max-width:600px){.unbox .btn{flex:1 1 100%}.unr{grid-template-columns:1fr}.unman{grid-template-columns:1fr 1fr}.unfeat{grid-template-columns:1fr}main>.tags{display:none}.kicker{font-size:13px;margin-top:14px}h1{font-size:27px!important}.lead{font-size:15px}}
 </style><div class="unhook"><span><i>1</i>找回忘掉的旧账号</span><span><i>2</i>起名先查重</span><span><i>3</i>防别人抢注冒用</span></div>
@@ -130,7 +130,7 @@ function judge(s,u,st,body){var link=fill(s.p,u);
  if(ec===mc){f=f&&!!es;m=m&&!!s.ms}if(f&&!m)return['found',link];if(m&&!f)return['missing'];return['unknown']}
 function browserCheck(s,u){var ctl=window.AbortController?new AbortController():null,t=setTimeout(function(){ctl&&ctl.abort()},5000);var uu=s.strip?u.split(s.strip).join(''):u;
  return fetch(fill(s.c,uu),{mode:'cors',credentials:'omit',redirect:'manual',cache:'no-store',referrerPolicy:'no-referrer',signal:ctl&&ctl.signal}).then(function(r){if(!r.status)throw 0;return r.text().then(function(b){clearTimeout(t);return judge(s,uu,r.status,b.slice(0,400000))})}).catch(function(){clearTimeout(t);return null})}
-var LB={found:'有公开主页',missing:'没找到',unknown:'暂时无法检查',skip:'不适用',wait:'查询中…'};
+var LB={found:'有公开主页',missing:'没找到',unknown:'无法检查',skip:'不适用',wait:'查询中…'};
 function card(s){var r=ST[s.id];return '<div class="uni '+r.s+'"><span class="nm">'+H(s.n)+(s.note?'<small>'+H(s.note)+'</small>':'')+'</span>'+(r.s==='found'&&r.url?'<a class="go" href="'+H(r.url)+'" target="_blank" rel="noopener noreferrer nofollow">打开主页 ↗</a>':'<span class="st">'+LB[r.s]+'</span>'+(r.s==='unknown'&&U?'<a class="go" href="'+H(fill(s.p,U))+'" target="_blank" rel="noopener noreferrer nofollow" title="打开官网自己确认">去看看 ↗</a>':''))+'</div>'}
 function render(){var h='',o={found:0,wait:1,unknown:2,missing:3,skip:4};GR.forEach(function(g){var l=SITES.filter(function(s){var r=ST[s.id];return s.g===g&&r&&r.s!=='skip'});if(!l.length)return;
  l.sort(function(a,b){return o[ST[a.id].s]-o[ST[b.id].s]});var cards=l.filter(function(s){var x=ST[s.id].s;return F==='all'?x!=='missing':x===F&&x!=='missing'}),miss=l.filter(function(s){return ST[s.id].s==='missing'});
@@ -153,7 +153,7 @@ function go(){var v=valid($('#un').value),u=v[0],cjk=v[1];if(!u){$('#st').innerH
  SITES.forEach(function(s){ST[s.id]={s:applies(s,u,cjk)?'wait':'skip'}});$('#unp').hidden=false;render();
  $('#go').disabled=true;$('#go').textContent='侦查中…';$('#st').textContent=cjk?'中文昵称只在支持中文的平台上查询。':'侦查中，脚印会陆续出现…';
  try{history.replaceState(null,'',location.pathname+'#u='+encodeURIComponent(u))}catch(e){}
- $('#manl').innerHTML=cjk?MAN.filter(function(m){return /微博/.test(m[0])}).map(function(m){return '<a href="'+H(fill(m[1],u))+'" target="_blank" rel="noopener noreferrer nofollow">'+H(m[0])+'<small>点开确认 ↗</small></a>'}).join(''):MAN.map(function(m){return '<a href="'+H(fill(m[1],u))+'" target="_blank" rel="noopener noreferrer nofollow">'+H(m[0])+'<small>点开确认 ↗</small></a>'}).join('');$('#man').hidden=false;$('#unf2').hidden=false;
+ $('#manl').innerHTML=cjk?MAN.filter(function(m){return /微博/.test(m[0])}).map(function(m){return '<a href="'+H(fill(m[1],u))+'" target="_blank" rel="noopener noreferrer nofollow">'+H(m[0])+'<small>去确认 ↗</small></a>'}).join(''):MAN.map(function(m){return '<a href="'+H(fill(m[1],u))+'" target="_blank" rel="noopener noreferrer nofollow">'+H(m[0])+'<small>去确认 ↗</small></a>'}).join('');$('#man').hidden=false;$('#unf2').hidden=false;
  var bs=SITES.filter(function(s){return s.via==='b'&&ST[s.id].s==='wait'}),fails=[],i=0,err=null;
  var pb=new Promise(function(ok){var act=0;function nx(){if(run!==RUN)return ok();if(i>=bs.length){if(!act)ok();return}var s=bs[i++];act++;browserCheck(s,u).then(function(r){act--;if(r&&r[0]!=='unknown')set(s.id,r[0],r[1],run);else fails.push(s.id);nx()})}for(var k=0;k<8;k++)nx();if(!bs.length)ok()});
  var base=pick();
