@@ -1,8 +1,8 @@
 {
-"name": "工具站大全 · 用户名查询网站列表",
+"name": "工具站大全 · 账号侦探网站列表",
 "url": "https://wan.is-my.app/yonghuming-chaxun/",
 "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
-"attribution": "Global site rules adapted from WhatsMyName (https://github.com/WebBreacher/WhatsMyName), Copyright (C) 2015-2026 Micah Hoffman, CC BY-SA 4.0. Rules were re-tested, filtered and modified; Chinese platform rules added by 工具站大全.",
+"attribution": "Global site rules adapted from WhatsMyName (https://github.com/WebBreacher/WhatsMyName), Copyright (C) 2015-2026 Micah Hoffman, CC BY-SA 4.0, and from Sherlock (https://github.com/sherlock-project/sherlock), MIT License, Copyright (c) 2019 Sherlock Project. Rules were re-tested, filtered and modified; Chinese platform rules added by 工具站大全.",
 "sites": [
 {
 "id": "bilibili",
@@ -10,6 +10,7 @@
 "g": "国内平台",
 "p": "https://search.bilibili.com/upuser?keyword={account}",
 "c": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword={account}",
+"src": "own",
 "j": [
 "data",
 "result",
@@ -30,6 +31,7 @@
 "g": "国内平台",
 "p": "https://tieba.baidu.com/home/main?un={account}",
 "c": "https://tieba.baidu.com/home/get/panel?ie=utf-8&un={account}",
+"src": "own",
 "j": [
 "data",
 "name"
@@ -42,6 +44,7 @@
 "g": "国内平台",
 "p": "https://blog.csdn.net/{account}",
 "c": "https://blog.csdn.net/{account}",
+"src": "own",
 "ec": 200,
 "es": "CSDN博客",
 "mc": 404
@@ -52,6 +55,7 @@
 "g": "国内平台",
 "p": "https://www.cnblogs.com/{account}",
 "c": "https://www.cnblogs.com/{account}",
+"src": "own",
 "ec": 200,
 "mc": 404
 },
@@ -61,6 +65,7 @@
 "g": "国内平台",
 "p": "https://juejin.cn/search?query={account}&type=2",
 "c": "https://api.juejin.cn/search_api/v1/search?aid=2608&spider=0",
+"src": "own",
 "m": "POST",
 "b": "{\"key_word\":\"{account}\",\"id_type\":1,\"cursor\":\"0\",\"limit\":20,\"search_type\":0}",
 "h": {
@@ -85,6 +90,7 @@
 "g": "国内平台",
 "p": "https://www.v2ex.com/member/{account}",
 "c": "https://www.v2ex.com/api/members/show.json?username={account}",
+"src": "own",
 "ec": 200,
 "es": "\"username\"",
 "mc": 404
@@ -95,6 +101,7 @@
 "g": "国内平台",
 "p": "https://gitee.com/{account}",
 "c": "https://gitee.com/api/v5/users/{account}",
+"src": "own",
 "ec": 200,
 "es": "\"login\"",
 "mc": 404
@@ -105,6 +112,7 @@
 "g": "国内平台",
 "p": "https://gitcode.com/{account}",
 "c": "https://api.gitcode.com/api/v5/users/{account}",
+"src": "own",
 "ec": 200,
 "es": "\"login\"",
 "mc": 404
@@ -115,6 +123,7 @@
 "g": "国内平台",
 "p": "https://leetcode.cn/u/{account}/",
 "c": "https://leetcode.cn/graphql/",
+"src": "own",
 "m": "POST",
 "h": {
 "Content-Type": "application/json"
@@ -131,6 +140,7 @@
 "g": "国内平台",
 "p": "https://www.luogu.com.cn/user/{account}",
 "c": "https://www.luogu.com.cn/api/user/search?keyword={account}",
+"src": "own",
 "j": [
 "users",
 "*",
@@ -145,6 +155,7 @@
 "g": "国内平台",
 "p": "https://www.douban.com/people/{account}/",
 "c": "https://www.douban.com/people/{account}/",
+"src": "own",
 "ec": 200,
 "es": "的个人主页",
 "mc": 404
@@ -155,6 +166,7 @@
 "g": "国内平台",
 "p": "https://afdian.com/a/{account}",
 "c": "https://afdian.com/api/user/get-profile-by-slug?url_slug={account}",
+"src": "own",
 "ec": 200,
 "es": "\"ec\":200",
 "mc": 200,
@@ -166,6 +178,7 @@
 "g": "国内平台",
 "p": "https://www.yuque.com/{account}",
 "c": "https://www.yuque.com/{account}",
+"src": "own",
 "ec": 200,
 "mc": 404
 },
@@ -175,6 +188,7 @@
 "g": "国内平台",
 "p": "https://sspai.com/u/{account}",
 "c": "https://sspai.com/api/v1/user/slug/info/get?slug={account}",
+"src": "own",
 "ec": 200,
 "es": "\"slug\"",
 "mc": 200,
@@ -186,6 +200,7 @@
 "g": "国内平台",
 "p": "https://{account}.tuchong.com/",
 "c": "https://{account}.tuchong.com/",
+"src": "own",
 "ec": 200,
 "mc": 301,
 "sub": true
@@ -196,6 +211,7 @@
 "g": "国内平台",
 "p": "https://bgm.tv/user/{account}",
 "c": "https://api.bgm.tv/v0/users/{account}",
+"src": "own",
 "ec": 200,
 "es": "\"username\"",
 "mc": 404,
@@ -204,11 +220,70 @@
 }
 },
 {
+"id": "sinablog",
+"n": "新浪博客",
+"g": "国内平台",
+"p": "https://blog.sina.com.cn/{account}",
+"c": "https://blog.sina.com.cn/{account}",
+"src": "own",
+"ec": 200,
+"es": "_新浪博客",
+"mc": 404
+},
+{
+"id": "douyu",
+"n": "斗鱼（直播间别名）",
+"g": "国内平台",
+"p": "https://www.douyu.com/{account}",
+"c": "https://www.douyu.com/{account}",
+"src": "own",
+"ec": 302,
+"mc": 404
+},
+{
+"id": "huya",
+"n": "虎牙（直播间别名）",
+"g": "国内平台",
+"p": "https://www.huya.com/{account}",
+"c": "https://www.huya.com/{account}",
+"src": "own",
+"ec": 200,
+"neg": [
+"<title>官方直播间--虎牙直播"
+]
+},
+{
+"id": "moegirl",
+"n": "萌娘百科",
+"g": "国内平台",
+"p": "https://zh.moegirl.org.cn/User:{account}",
+"c": "https://zh.moegirl.org.cn/api.php?action=query&list=users&ususers={account}&format=json&origin=*",
+"src": "own",
+"ec": 200,
+"es": "\"userid\"",
+"mc": 200,
+"ms": "\"missing\"",
+"cjk": true
+},
+{
+"id": "uoj",
+"n": "UOJ",
+"g": "国内平台",
+"p": "https://uoj.ac/user/profile/{account}",
+"c": "https://uoj.ac/user/profile/{account}",
+"src": "own",
+"ec": 200,
+"neg": [
+"不存在该用户"
+]
+},
+{
 "id": "github",
 "n": "GitHub",
 "g": "程序员与开发",
 "p": "https://github.com/{account}",
 "c": "https://api.github.com/users/{account}",
+"src": "own",
 "ec": 200,
 "es": "\"login\"",
 "mc": 404
@@ -222,7 +297,8 @@
 "ec": 200,
 "es": "\"id\":",
 "mc": 200,
-"ms": "[]"
+"ms": "[]",
+"src": "wmn"
 },
 {
 "id": "bitbucket",
@@ -233,7 +309,8 @@
 "ec": 200,
 "es": "\"full_name\":",
 "mc": 404,
-"ms": "\"message\":\"No workspace with identifier"
+"ms": "\"message\":\"No workspace with identifier",
+"src": "wmn"
 },
 {
 "id": "codeberg",
@@ -244,7 +321,8 @@
 "ec": 200,
 "es": "\"id\":",
 "mc": 404,
-"ms": "user redirect does not exist"
+"ms": "user redirect does not exist",
+"src": "wmn"
 },
 {
 "id": "huggingface",
@@ -252,6 +330,7 @@
 "g": "程序员与开发",
 "p": "https://huggingface.co/{account}",
 "c": "https://huggingface.co/api/users/{account}/overview",
+"src": "own",
 "ec": 200,
 "es": "\"user\"",
 "mc": 404
@@ -265,7 +344,8 @@
 "ec": 200,
 "es": "property=\"og:username\"",
 "mc": 404,
-"ms": "<title>Kaggle: Your Home for Data Science</title>"
+"ms": "<title>Kaggle: Your Home for Data Science</title>",
+"src": "wmn"
 },
 {
 "id": "stackoverflow",
@@ -273,6 +353,7 @@
 "g": "程序员与开发",
 "p": "https://stackoverflow.com/users?tab=Reputation&filter=all&search={account}",
 "c": "https://api.stackexchange.com/2.3/users?order=desc&sort=reputation&inname={account}&site=stackoverflow&pagesize=50",
+"src": "own",
 "j": [
 "items",
 "*",
@@ -291,6 +372,7 @@
 "es": "\"username\":",
 "mc": 200,
 "ms": "\"matchedUser\":null",
+"src": "wmn",
 "m": "POST",
 "b": "{\"query\":\"query userPublicProfile($username: String!) { matchedUser(username: $username) { username } }\",\"variables\":{\"username\":\"{account}\"},\"operationName\":\"userPublicProfile\"}",
 "h": {
@@ -306,7 +388,8 @@
 "ec": 200,
 "es": "\"status\":\"OK\"",
 "mc": 400,
-"ms": "\"status\":\"FAILED\""
+"ms": "\"status\":\"FAILED\"",
+"src": "wmn"
 },
 {
 "id": "atcoder",
@@ -317,7 +400,8 @@
 "ec": 200,
 "es": "<h3>Contest Status</h3>",
 "mc": 404,
-"ms": ">404 Page Not Found</h1>"
+"ms": ">404 Page Not Found</h1>",
+"src": "wmn"
 },
 {
 "id": "codechef",
@@ -328,7 +412,8 @@
 "ec": 200,
 "es": "class=\"user-profile-container\"",
 "mc": 302,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "hackerrank",
@@ -339,7 +424,8 @@
 "ec": 200,
 "es": "\"model\":",
 "mc": 404,
-"ms": "\"error\":\"Not Found\""
+"ms": "\"error\":\"Not Found\"",
+"src": "wmn"
 },
 {
 "id": "codewars",
@@ -350,7 +436,8 @@
 "ec": 200,
 "es": "\"id\":",
 "mc": 404,
-"ms": "\"reason\":\"not found\""
+"ms": "\"reason\":\"not found\"",
+"src": "wmn"
 },
 {
 "id": "devto",
@@ -361,7 +448,8 @@
 "ec": 200,
 "es": "\"id\":",
 "mc": 404,
-"ms": "\"status\":404"
+"ms": "\"status\":404",
+"src": "wmn"
 },
 {
 "id": "dockerhub",
@@ -372,7 +460,8 @@
 "ec": 200,
 "es": "\"uuid\":",
 "mc": 404,
-"ms": "\"message\":\"User not found\""
+"ms": "\"message\":\"User not found\"",
+"src": "wmn"
 },
 {
 "id": "rubygems",
@@ -383,7 +472,8 @@
 "ec": 200,
 "es": "\"id\":",
 "mc": 404,
-"ms": "\"error\":\"Not Found\""
+"ms": "\"error\":\"Not Found\"",
+"src": "wmn"
 },
 {
 "id": "keybase",
@@ -394,7 +484,8 @@
 "ec": 200,
 "es": "\"id\":",
 "mc": 200,
-"ms": "\"them\":[null]"
+"ms": "\"them\":[null]",
+"src": "wmn"
 },
 {
 "id": "hackernews",
@@ -405,7 +496,8 @@
 "ec": 200,
 "es": "\"id\" :",
 "mc": 200,
-"ms": "null"
+"ms": "null",
+"src": "wmn"
 },
 {
 "id": "hackerone",
@@ -417,6 +509,7 @@
 "es": "\"username\":",
 "mc": 200,
 "ms": "\"type\":\"NOT_FOUND\"",
+"src": "wmn",
 "m": "POST",
 "b": "{\"query\":\"query($url: URI!) {\\n        resource(url: $url) {\\n            ... on User { username }\\n        }\\n    }\",\"variables\":{\"url\":\"{account}\"}}",
 "h": {
@@ -432,7 +525,8 @@
 "ec": 200,
 "es": "\"data\":",
 "mc": 404,
-"ms": "\"error\": \"Not found.\""
+"ms": "\"error\": \"Not found.\"",
+"src": "wmn"
 },
 {
 "id": "hackaday",
@@ -444,6 +538,7 @@
 "es": "class=\"following-container \"",
 "mc": 404,
 "ms": "class=\"error-nav\"",
+"src": "wmn",
 "strip": "-"
 },
 {
@@ -455,7 +550,8 @@
 "ec": 200,
 "es": "\"exists\": true",
 "mc": 404,
-"ms": "\"error\": \"Sorry, we couldn't find that one!\""
+"ms": "\"error\": \"Sorry, we couldn't find that one!\"",
+"src": "wmn"
 },
 {
 "id": "arduino",
@@ -466,7 +562,8 @@
 "ec": 200,
 "es": "\"userInfo\":{",
 "mc": 200,
-"ms": "\"userInfo\":null"
+"ms": "\"userInfo\":null",
+"src": "wmn"
 },
 {
 "id": "chocolatey",
@@ -477,7 +574,8 @@
 "ec": 200,
 "es": "id =\"bioSection\"",
 "mc": 404,
-"ms": "id=\"error404Message\""
+"ms": "id=\"error404Message\"",
+"src": "wmn"
 },
 {
 "id": "mslearn",
@@ -488,7 +586,8 @@
 "ec": 200,
 "es": "\"userId\":",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "freecodecamp",
@@ -499,7 +598,8 @@
 "ec": 200,
 "es": "\"user\":",
 "mc": 404,
-"ms": "{}"
+"ms": "{}",
+"src": "wmn"
 },
 {
 "id": "gfg",
@@ -510,7 +610,8 @@
 "ec": 200,
 "es": "\"message\":\"data retrieved successfully\"",
 "mc": 400,
-"ms": "\"message\":\"User not found!\""
+"ms": "\"message\":\"User not found!\"",
+"src": "wmn"
 },
 {
 "id": "monkeytype",
@@ -521,7 +622,8 @@
 "ec": 200,
 "es": "\"message\":\"Profile retrieved\"",
 "mc": 404,
-"ms": "\"message\":\"User not found\""
+"ms": "\"message\":\"User not found\"",
+"src": "wmn"
 },
 {
 "id": "asciinema",
@@ -532,7 +634,8 @@
 "ec": 200,
 "es": "class=\"profile-page\"",
 "mc": 404,
-"ms": "<h1>404 Not Found</h1>"
+"ms": "<h1>404 Not Found</h1>",
+"src": "wmn"
 },
 {
 "id": "speakerdeck",
@@ -543,7 +646,8 @@
 "ec": 200,
 "es": ") on Speaker Deck</title>",
 "mc": 404,
-"ms": "User Not Found - Speaker Deck"
+"ms": "User Not Found - Speaker Deck",
+"src": "wmn"
 },
 {
 "id": "zenn",
@@ -554,7 +658,8 @@
 "ec": 200,
 "es": null,
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "telegram",
@@ -565,7 +670,8 @@
 "ec": 200,
 "es": "tgme_page_title",
 "mc": 200,
-"ms": "noindex, nofollow"
+"ms": "noindex, nofollow",
+"src": "wmn"
 },
 {
 "id": "bluesky",
@@ -576,7 +682,8 @@
 "ec": 200,
 "es": "\"handle\":\"",
 "mc": 400,
-"ms": "\"message\":\"Profile not found\""
+"ms": "\"message\":\"Profile not found\"",
+"src": "wmn"
 },
 {
 "id": "mastodon",
@@ -584,6 +691,7 @@
 "g": "社交与社区",
 "p": "https://mastodon.social/@{account}",
 "c": "https://mastodon.social/api/v1/accounts/lookup?acct={account}",
+"src": "own",
 "ec": 200,
 "es": "\"username\"",
 "mc": 404
@@ -598,6 +706,7 @@
 "es": null,
 "mc": 404,
 "ms": "\"status\":404",
+"src": "wmn",
 "strip": "."
 },
 {
@@ -610,6 +719,7 @@
 "es": null,
 "mc": 404,
 "ms": null,
+"src": "wmn",
 "h": {
 "User-Agent": "Mozilla/5.0 (X11; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0"
 }
@@ -623,7 +733,8 @@
 "ec": 200,
 "es": "is on Snapchat!",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "disqus",
@@ -634,7 +745,8 @@
 "ec": 200,
 "es": "\"code\":0",
 "mc": 400,
-"ms": "\"code\":2"
+"ms": "\"code\":2",
+"src": "wmn"
 },
 {
 "id": "gravatar",
@@ -645,7 +757,8 @@
 "ec": 200,
 "es": "{\"entry\":",
 "mc": 404,
-"ms": "\"User not found\""
+"ms": "\"User not found\"",
+"src": "wmn"
 },
 {
 "id": "flipboard",
@@ -656,7 +769,8 @@
 "ec": 200,
 "es": ") on Flipboard",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "naver",
@@ -667,7 +781,8 @@
 "ec": 200,
 "es": " : 네이버 블로그",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "notejp",
@@ -678,7 +793,8 @@
 "ec": 200,
 "es": "\"data\":{",
 "mc": 404,
-"ms": "\"data\":\"リソースが見つかりません\""
+"ms": "\"data\":\"リソースが見つかりません\"",
+"src": "wmn"
 },
 {
 "id": "livejournal",
@@ -690,6 +806,7 @@
 "es": "<link rel=\"canonical\" href=\"",
 "mc": 404,
 "ms": "<title>Unknown Journal",
+"src": "wmn",
 "strip": "."
 },
 {
@@ -701,7 +818,8 @@
 "ec": 200,
 "es": "\"username\":",
 "mc": 400,
-"ms": "\"error_code\":"
+"ms": "\"error_code\":",
+"src": "wmn"
 },
 {
 "id": "wikimedia",
@@ -713,6 +831,7 @@
 "es": "id='mw-centralauth-info'",
 "mc": 200,
 "ms": "There is no global account for",
+"src": "wmn",
 "h": {
 "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
 }
@@ -726,7 +845,8 @@
 "ec": 200,
 "es": null,
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "trello",
@@ -737,7 +857,8 @@
 "ec": 200,
 "es": "\"id\":",
 "mc": 404,
-"ms": "<h1>Oh no! 404!</h1>"
+"ms": "<h1>Oh no! 404!</h1>",
+"src": "wmn"
 },
 {
 "id": "pastebin",
@@ -748,7 +869,8 @@
 "ec": 200,
 "es": "class=\"user-view\"",
 "mc": 404,
-"ms": "Not Found (#404)"
+"ms": "Not Found (#404)",
+"src": "wmn"
 },
 {
 "id": "youtube",
@@ -759,7 +881,8 @@
 "ec": 200,
 "es": null,
 "mc": 404,
-"ms": "<title>404 Not Found</title>"
+"ms": "<title>404 Not Found</title>",
+"src": "wmn"
 },
 {
 "id": "tiktok",
@@ -770,7 +893,8 @@
 "ec": 200,
 "es": "\"author_url\":",
 "mc": 400,
-"ms": "\"code\":400"
+"ms": "\"code\":400",
+"src": "wmn"
 },
 {
 "id": "kick",
@@ -781,7 +905,8 @@
 "ec": 200,
 "es": "\"id\"",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "vimeo",
@@ -792,7 +917,8 @@
 "ec": 200,
 "es": "og:type",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "dailymotion",
@@ -803,7 +929,8 @@
 "ec": 200,
 "es": "\"id\":",
 "mc": 404,
-"ms": "\"code\":404"
+"ms": "\"code\":404",
+"src": "wmn"
 },
 {
 "id": "twitcast",
@@ -814,7 +941,8 @@
 "ec": 200,
 "es": "\"user\":{",
 "mc": 404,
-"ms": "\"message\":\"User Not Found\""
+"ms": "\"message\":\"User Not Found\"",
+"src": "wmn"
 },
 {
 "id": "soundcloud",
@@ -825,7 +953,8 @@
 "ec": 200,
 "es": "\"hydratable\":\"user\"",
 "mc": 404,
-"ms": "<title>SoundCloud - Hear the world’s sounds</title>"
+"ms": "<title>SoundCloud - Hear the world’s sounds</title>",
+"src": "wmn"
 },
 {
 "id": "bandcamp",
@@ -836,7 +965,8 @@
 "ec": 200,
 "es": " collection | Bandcamp</title>",
 "mc": 404,
-"ms": "<h2>Sorry, that something isn’t here.</h2>"
+"ms": "<h2>Sorry, that something isn’t here.</h2>",
+"src": "wmn"
 },
 {
 "id": "mixcloud",
@@ -847,7 +977,8 @@
 "ec": 200,
 "es": "\"username\":",
 "mc": 404,
-"ms": "\"error\":"
+"ms": "\"error\":",
+"src": "wmn"
 },
 {
 "id": "freesound",
@@ -858,7 +989,8 @@
 "ec": 200,
 "es": "forum posts",
 "mc": 404,
-"ms": "<h1>Page not found</h1>"
+"ms": "<h1>Page not found</h1>",
+"src": "wmn"
 },
 {
 "id": "behance",
@@ -869,7 +1001,8 @@
 "ec": 200,
 "es": null,
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "dribbble",
@@ -880,7 +1013,8 @@
 "ec": 200,
 "es": " | Dribbble",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "artstation",
@@ -891,7 +1025,8 @@
 "ec": 200,
 "es": "\"id\":",
 "mc": 404,
-"ms": "\"message\":\"User with username:"
+"ms": "\"message\":\"User with username:",
+"src": "wmn"
 },
 {
 "id": "flickr",
@@ -902,7 +1037,8 @@
 "ec": 200,
 "es": "| Flickr",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "figma",
@@ -913,7 +1049,8 @@
 "ec": 200,
 "es": "\"status\":200",
 "mc": 404,
-"ms": "\"status\":404"
+"ms": "\"status\":404",
+"src": "wmn"
 },
 {
 "id": "imgur",
@@ -924,7 +1061,8 @@
 "ec": 200,
 "es": "\"username\":",
 "mc": 404,
-"ms": "\"code\":\"404\""
+"ms": "\"code\":\"404\"",
+"src": "wmn"
 },
 {
 "id": "giphy",
@@ -935,7 +1073,8 @@
 "ec": 200,
 "es": "\\\"user_id\\\"",
 "mc": 404,
-"ms": "404 Not Found"
+"ms": "404 Not Found",
+"src": "wmn"
 },
 {
 "id": "steam",
@@ -947,6 +1086,7 @@
 "es": "g_rgProfileData =",
 "mc": 200,
 "ms": "The specified profile could not be found",
+"src": "wmn",
 "h": {
 "Accept-Language": "en-US,en;q=0.9"
 }
@@ -960,7 +1100,8 @@
 "ec": 200,
 "es": "\"player_id\":",
 "mc": 404,
-"ms": "\"code\":0"
+"ms": "\"code\":0",
+"src": "wmn"
 },
 {
 "id": "lichess",
@@ -971,7 +1112,8 @@
 "ec": 200,
 "es": "true",
 "mc": 200,
-"ms": "false"
+"ms": "false",
+"src": "wmn"
 },
 {
 "id": "osu",
@@ -982,7 +1124,8 @@
 "ec": 302,
 "es": null,
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "itchio",
@@ -993,7 +1136,8 @@
 "ec": 200,
 "es": "class=\"user_data\"",
 "mc": 404,
-"ms": "class=\"not_found_page page_widget base_widget\""
+"ms": "class=\"not_found_page page_widget base_widget\"",
+"src": "wmn"
 },
 {
 "id": "gamejolt",
@@ -1004,7 +1148,8 @@
 "ec": 200,
 "es": "created_on",
 "mc": 404,
-"ms": "null,"
+"ms": "null,",
+"src": "wmn"
 },
 {
 "id": "faceit",
@@ -1015,7 +1160,8 @@
 "ec": 200,
 "es": "\"result\":\"OK\"",
 "mc": 404,
-"ms": "\"message\":\"user not found\""
+"ms": "\"message\":\"user not found\"",
+"src": "wmn"
 },
 {
 "id": "minecraft",
@@ -1026,7 +1172,8 @@
 "ec": 200,
 "es": "Successfully found player by given ID.",
 "mc": 400,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "gog",
@@ -1037,7 +1184,8 @@
 "ec": 200,
 "es": null,
 "mc": 302,
-"ms": "href=\"http://www.gog.com/404\""
+"ms": "href=\"http://www.gog.com/404\"",
+"src": "wmn"
 },
 {
 "id": "rsi",
@@ -1048,7 +1196,8 @@
 "ec": 200,
 "es": "Query\",\"creator",
 "mc": 404,
-"ms": "\"/404\",\"query"
+"ms": "\"/404\",\"query",
+"src": "wmn"
 },
 {
 "id": "tetrio",
@@ -1059,7 +1208,8 @@
 "ec": 200,
 "es": "\"success\":true",
 "mc": 404,
-"ms": "\"success\":false"
+"ms": "\"success\":false",
+"src": "wmn"
 },
 {
 "id": "scratch",
@@ -1067,6 +1217,7 @@
 "g": "游戏",
 "p": "https://scratch.mit.edu/users/{account}/",
 "c": "https://api.scratch.mit.edu/users/{account}",
+"src": "own",
 "ec": 200,
 "es": "\"username\"",
 "mc": 404
@@ -1074,13 +1225,14 @@
 {
 "id": "bmac",
 "n": "Buy Me a Coffee",
-"g": "创作者与主页",
+"g": "创作者与电商",
 "p": "https://buymeacoffee.com/{account}",
 "c": "https://app.buymeacoffee.com/api/v1/check_availability",
 "ec": 200,
 "es": "\"available\":false",
 "mc": 200,
 "ms": "\"available\":true",
+"src": "wmn",
 "m": "POST",
 "b": "{\"project_slug\":\"{account}\"}",
 "h": {
@@ -1090,115 +1242,125 @@
 {
 "id": "aboutme",
 "n": "about.me",
-"g": "创作者与主页",
+"g": "创作者与电商",
 "p": "https://about.me/{account}",
 "c": "https://about.me/{account}",
 "ec": 200,
 "es": " | about.me",
 "mc": 404,
-"ms": "<title>about.me</title>"
+"ms": "<title>about.me</title>",
+"src": "wmn"
 },
 {
 "id": "carrd",
 "n": "Carrd",
-"g": "创作者与主页",
+"g": "创作者与电商",
 "p": "https://{account}.carrd.co",
 "c": "https://{account}.carrd.co",
 "ec": 200,
 "es": "( Made with Carrd )",
 "mc": 404,
 "ms": "Sorry, the requested page could not be found.",
+"src": "wmn",
 "strip": "."
 },
 {
 "id": "gumroad",
 "n": "Gumroad",
-"g": "创作者与主页",
+"g": "创作者与电商",
 "p": "https://{account}.gumroad.com/",
 "c": "https://{account}.gumroad.com/",
 "ec": 200,
 "es": "s profile picture",
 "mc": 404,
 "ms": "Page not found",
+"src": "wmn",
 "strip": "."
 },
 {
 "id": "opencollective",
 "n": "Open Collective",
-"g": "创作者与主页",
+"g": "创作者与电商",
 "p": "https://opencollective.com/{account}",
 "c": "https://opencollective.com/{account}",
 "ec": 200,
 "es": "- Open Collective",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "freelancer",
 "n": "Freelancer",
-"g": "创作者与主页",
+"g": "创作者与电商",
 "p": "https://www.freelancer.com/u/{account}",
 "c": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D={account}&compact=true",
 "ec": 200,
 "es": "\"users\":{\"",
 "mc": 200,
-"ms": "\"users\":{}"
+"ms": "\"users\":{}",
+"src": "wmn"
 },
 {
 "id": "omglol",
 "n": "omg.lol",
-"g": "创作者与主页",
+"g": "创作者与电商",
 "p": "https://{account}.omg.lol",
 "c": "https://api.omg.lol/address/{account}/info",
 "ec": 200,
 "es": "\"success\": true",
 "mc": 404,
 "ms": null,
+"src": "wmn",
 "strip": "@."
 },
 {
 "id": "duolingo",
 "n": "Duolingo 多邻国",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://www.duolingo.com/profile/{account}",
 "c": "https://www.duolingo.com/2017-06-30/users?username={account}&_=1628308619574",
 "ec": 200,
 "es": "joinedClassroomIds",
 "mc": 200,
-"ms": "\"users\":[]"
+"ms": "\"users\":[]",
+"src": "wmn"
 },
 {
 "id": "strava",
 "n": "Strava",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://www.strava.com/athletes/{account}",
 "c": "https://www.strava.com/athletes/{account}",
 "ec": 200,
 "es": null,
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "mal",
 "n": "MyAnimeList",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://myanimelist.net/profile/{account}",
 "c": "https://myanimelist.net/profile/{account}",
 "ec": 200,
 "es": "Profile - MyAnimeList.net",
 "mc": 404,
-"ms": "<title>404 Not Found"
+"ms": "<title>404 Not Found",
+"src": "wmn"
 },
 {
 "id": "anilist",
 "n": "AniList",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://anilist.co/user/{account}",
 "c": "https://graphql.anilist.co",
 "ec": 200,
 "es": "\"id\":",
 "mc": 404,
 "ms": "Not Found",
+"src": "wmn",
 "m": "POST",
 "b": "{\"query\":\"query{User(name:\\\"{account}\\\"){id name}}\"}",
 "h": {
@@ -1209,68 +1371,3658 @@
 {
 "id": "codecademy",
 "n": "Codecademy",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://www.codecademy.com/profiles/{account}",
 "c": "https://www.codecademy.com/profiles/{account}",
 "ec": 200,
 "es": "\"type\":\"User\"",
 "mc": 200,
-"ms": "\"type\":\"UserNotFound\""
+"ms": "\"type\":\"UserNotFound\"",
+"src": "wmn"
 },
 {
 "id": "discogs",
 "n": "Discogs",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://www.discogs.com/user/{account}",
 "c": "https://api.discogs.com/users/{account}",
 "ec": 200,
 "es": "\"id\":",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
 },
 {
 "id": "bgg",
 "n": "BoardGameGeek",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://boardgamegeek.com/user/{account}",
 "c": "https://api.geekdo.com/api/accounts/validate/username?username={account}",
 "ec": 200,
 "es": "\"message\":\"Sorry, this username is already taken.\"",
 "mc": 200,
-"ms": "\"isValid\":true"
+"ms": "\"isValid\":true",
+"src": "wmn"
 },
 {
 "id": "geocaching",
 "n": "Geocaching",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://www.geocaching.com/p/?u={account}",
 "c": "https://www.geocaching.com/p/?u={account}",
 "ec": 200,
 "es": "class=\"hax-profile\"",
 "mc": 404,
-"ms": "class=\"callout http-error\""
+"ms": "class=\"callout http-error\"",
+"src": "wmn"
 },
 {
 "id": "inaturalist",
 "n": "iNaturalist",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://inaturalist.nz/people/{account}",
 "c": "https://api.inaturalist.org/v1/users/{account}",
 "ec": 200,
 "es": "\"results\":[{",
 "mc": 404,
-"ms": "\"status\":404"
+"ms": "\"status\":404",
+"src": "wmn"
 },
 {
 "id": "untappd",
 "n": "Untappd",
-"g": "学习与生活",
+"g": "兴趣爱好",
 "p": "https://untappd.com/user/{account}/",
 "c": "https://untappd.com/user/{account}/",
 "ec": 200,
 "es": "class=\"cont user_profile\"",
 "mc": 404,
-"ms": null
+"ms": null,
+"src": "wmn"
+},
+{
+"id": "w_artbreeder",
+"n": "Artbreeder",
+"g": "设计与摄影",
+"p": "https://www.artbreeder.com/{account}",
+"c": "https://www.artbreeder.com/{account}",
+"ec": 200,
+"es": "data-tutorial=\"profile-filter\"",
+"mc": 404,
+"ms": "error: {message:\"User not found\"",
+"src": "wmn"
+},
+{
+"id": "w_7dach",
+"n": "7dach",
+"g": "社交与社区",
+"p": "https://7dach.ru/profile/{account}",
+"c": "https://7dach.ru/profile/{account}",
+"ec": 200,
+"es": "Информация / Профиль",
+"mc": 404,
+"ms": "<title>Ошибка / 7dach.ru",
+"src": "wmn"
+},
+{
+"id": "w_audiojungle",
+"n": "Audiojungle",
+"g": "音乐与播客",
+"p": "https://audiojungle.net/user/{account}",
+"c": "https://audiojungle.net/user/{account}",
+"ec": 200,
+"es": "s profile on AudioJungle",
+"mc": 404,
+"ms": "404 - Nothing to see here",
+"src": "wmn"
+},
+{
+"id": "w_bandlab",
+"n": "Bandlab",
+"g": "音乐与播客",
+"p": "https://www.bandlab.com/{account}",
+"c": "https://www.bandlab.com/api/v1.3/users/{account}",
+"ec": 200,
+"es": "\"username\":",
+"mc": 404,
+"ms": "Couldn’t find any matching element, it might be deleted",
+"src": "wmn"
+},
+{
+"id": "w_alik",
+"n": "alik",
+"g": "社交与社区",
+"p": "https://www.alik.cz/u/{account}",
+"c": "https://www.alik.cz/u/{account}",
+"ec": 200,
+"es": "Vizitka – Alík.cz</title>",
+"mc": 404,
+"ms": "<title>Vizitka nenalezena",
+"src": "wmn"
+},
+{
+"id": "w_35photo",
+"n": "35photo",
+"g": "兴趣爱好",
+"p": "https://35photo.pro/@{account}/",
+"c": "https://35photo.pro/@{account}/",
+"ec": 200,
+"es": "userNameBlock",
+"mc": 302,
+"ms": null,
+"src": "wmn"
+},
+{
+"id": "w_bimpos",
+"n": "Bimpos",
+"g": "程序员与开发",
+"p": "https://ask.bimpos.com/user/{account}",
+"c": "https://ask.bimpos.com/user/{account}",
+"ec": 200,
+"es": "<title>User ",
+"mc": 404,
+"ms": "Page not found",
+"src": "wmn"
+},
+{
+"id": "w_biosite",
+"n": "Bio Site",
+"g": "社交与社区",
+"p": "https://bio.site/{account}",
+"c": "https://bio.site/{account}",
+"ec": 200,
+"es": "— Bio Sites</title>",
+"mc": 404,
+"ms": "This Bio Site doesn’t exist — Bio Site</title>",
+"src": "wmn"
+},
+{
+"id": "w_3dtoday",
+"n": "3dtoday",
+"g": "兴趣爱好",
+"p": "https://3dtoday.ru/blogs/{account}",
+"c": "https://3dtoday.ru/blogs/{account}",
+"ec": 200,
+"es": "class=\"header_user_name",
+"mc": 302,
+"ms": null,
+"src": "wmn"
+},
+{
+"id": "w_blogspot",
+"n": "Blogspot",
+"g": "博客与写作",
+"p": "https://{account}.blogspot.com/?hl=en-US",
+"c": "https://{account}.blogspot.com/?hl=en-US",
+"ec": 200,
+"es": "_WidgetManager._Init",
+"mc": 404,
+"ms": ">Blog not found<",
+"src": "wmn",
+"strip": "."
+},
+{
+"id": "w_bunpro",
+"n": "Bunpro",
+"g": "社交与社区",
+"p": "https://community.bunpro.jp/u/{account}.json",
+"c": "https://community.bunpro.jp/u/{account}.json",
+"ec": 200,
+"es": "username",
+"mc": 404,
+"ms": "The requested URL or resource could not be found.",
+"src": "wmn"
+},
+{
+"id": "w_brickset",
+"n": "Brickset",
+"g": "兴趣爱好",
+"p": "https://brickset.com/profile/{account}",
+"c": "https://brickset.com/profile/{account}",
+"ec": 200,
+"es": "Member since:</dt>",
+"mc": 200,
+"ms": "{name}</h1>",
+"src": "wmn"
+},
+{
+"id": "w_bugcrowd",
+"n": "Bugcrowd",
+"g": "程序员与开发",
+"p": "https://bugcrowd.com/h/{account}",
+"c": "https://bugcrowd.com/profile-service/v1/profiles/{account}",
+"ec": 200,
+"es": "\"username\":",
+"mc": 404,
+"ms": "\"error\":\"Not Found\"",
+"src": "wmn"
+},
+{
+"id": "w_cafecito",
+"n": "cafecito",
+"g": "其他",
+"p": "https://cafecito.app/{account}",
+"c": "https://cafecito.app/{account}",
+"ec": 200,
+"es": " | Cafecito</title>",
+"mc": 404,
+"ms": "Es posible que el enlace que seleccionaste esté roto o que se haya eliminado la página",
+"src": "wmn"
+},
+{
+"id": "w_carbonmade",
+"n": "Carbonmade",
+"g": "创作者与电商",
+"p": "https://{account}.carbonmade.com/",
+"c": "https://{account}.carbonmade.com/",
+"ec": 200,
+"es": "<meta name=\"description\" content=\"",
+"mc": 404,
+"ms": ".carbonmade.com not found",
+"src": "wmn",
+"strip": "."
+},
+{
+"id": "w_calendy",
+"n": "Calendy",
+"g": "其他",
+"p": "https://calendly.com/{account}",
+"c": "https://calendly.com/api/booking/profiles/{account}",
+"ec": 200,
+"es": "\"id\":",
+"mc": 404,
+"ms": "\"message\":\"not found\"",
+"src": "wmn"
+},
+{
+"id": "w_cent",
+"n": "Cent",
+"g": "社交与社区",
+"p": "https://beta.cent.co/{account}/",
+"c": "https://beta.cent.co/data/user/profile?userHandles={account}",
+"ec": 200,
+"es": "\"id\":",
+"mc": 200,
+"ms": "\"results\":[]",
+"src": "wmn"
+},
+{
+"id": "w_boosty",
+"n": "Boosty",
+"g": "社交与社区",
+"p": "https://boosty.to/{account}",
+"c": "https://api.boosty.to/v1/blog/{account}",
+"ec": 200,
+"es": "\"id\":",
+"mc": 404,
+"ms": "\"error\":\"blog_not_found\"",
+"src": "wmn"
+},
+{
+"id": "w_auru",
+"n": "au.ru",
+"g": "其他",
+"p": "https://au.ru/user/{account}/",
+"c": "https://au.ru/user/{account}/",
+"ec": 200,
+"es": "Лоты пользователя ",
+"mc": 404,
+"ms": "Пользователь не найден",
+"src": "wmn"
+},
+{
+"id": "w_clubhouse",
+"n": "Clubhouse",
+"g": "社交与社区",
+"p": "https://www.clubhouse.com/@{account}",
+"c": "https://www.clubhouse.com/@{account}",
+"ec": 200,
+"es": "\"user\":",
+"mc": 404,
+"ms": "404",
+"src": "wmn"
+},
+{
+"id": "w_chokolink",
+"n": "Choko.Link",
+"g": "社交与社区",
+"p": "https://choko.link/{account}",
+"c": "https://choko.link/{account}",
+"ec": 200,
+"es": "--title-font-family: Roboto;",
+"mc": 404,
+"ms": "The link might be incorrect or the profile has been deleted.",
+"src": "wmn"
+},
+{
+"id": "w_cfxre",
+"n": "cfx.re",
+"g": "游戏",
+"p": "https://forum.cfx.re/u/{account}/summary",
+"c": "https://forum.cfx.re/u/{account}.json",
+"ec": 200,
+"es": "created_at",
+"mc": 404,
+"ms": "The requested URL or resource could not be found.",
+"src": "wmn"
+},
+{
+"id": "w_cheezburger",
+"n": "CHEEZburger",
+"g": "博客与写作",
+"p": "https://cheezburger.com/Editor/{account}",
+"c": "https://cheezburger.com/Editor/{account}",
+"ec": 200,
+"es": "<title>Recent Posts from",
+"mc": 404,
+"ms": "<title>404 Not Found</title>",
+"src": "wmn"
+},
+{
+"id": "w_careerhabr",
+"n": "Career.habr",
+"g": "创作者与电商",
+"p": "https://career.habr.com/{account}",
+"c": "https://career.habr.com/{account}",
+"ec": 200,
+"es": "— Хабр Карьера</title>",
+"mc": 404,
+"ms": "Ошибка 404",
+"src": "wmn"
+},
+{
+"id": "w_cnet",
+"n": "cnet",
+"g": "博客与写作",
+"p": "https://www.cnet.com/profiles/{account}/",
+"c": "https://www.cnet.com/profiles/{account}/",
+"ec": 200,
+"es": "class=\"author-header__stat-label\"",
+"mc": 404,
+"ms": "<title>Page Not Found - CNET",
+"src": "wmn"
+},
+{
+"id": "w_crevado",
+"n": "crevado",
+"g": "设计与摄影",
+"p": "https://{account}.crevado.com/",
+"c": "https://{account}.crevado.com/",
+"ec": 200,
+"es": "Portfolio",
+"mc": 404,
+"ms": "Site not found :-(",
+"src": "wmn",
+"strip": "."
+},
+{
+"id": "w_cropty",
+"n": "Cropty",
+"g": "创作者与电商",
+"p": "https://www.cropty.io/@{account}",
+"c": "https://api.cropty.io/v1/auth/{account}",
+"ec": 200,
+"es": "\"name\":",
+"mc": 404,
+"ms": "\"errors\":",
+"src": "wmn"
+},
+{
+"id": "w_devrant",
+"n": "devRant",
+"g": "程序员与开发",
+"p": "https://devrant.com/users/{account}",
+"c": "https://devrant.com/api/get-user-id?app=3&username={account}",
+"ec": 200,
+"es": "\"success\":true",
+"mc": 400,
+"ms": "\"success\":false",
+"src": "wmn"
+},
+{
+"id": "w_commudle",
+"n": "Commudle",
+"g": "程序员与开发",
+"p": "https://www.commudle.com/users/{account}",
+"c": "https://json.commudle.com/api/v2/users?username={account}",
+"ec": 200,
+"es": "\"status\":200",
+"mc": 404,
+"ms": "\"status\":404",
+"src": "wmn"
+},
+{
+"id": "w_destream",
+"n": "destream",
+"g": "创作者与电商",
+"p": "https://destream.net/live/{account}",
+"c": "https://api.destream.net/siteapi/v2/live/details/{account}",
+"ec": 200,
+"es": "\"userName\":",
+"mc": 404,
+"ms": null,
+"src": "wmn"
+},
+{
+"id": "w_diablo",
+"n": "Diablo",
+"g": "游戏",
+"p": "https://diablo2.io/member/{account}/",
+"c": "https://diablo2.io/member/{account}/",
+"ec": 200,
+"es": "Viewing profile - ",
+"mc": 404,
+"ms": "The requested user does not exist",
+"src": "wmn"
+},
+{
+"id": "w_discusselasticco",
+"n": "discuss.elastic.co",
+"g": "程序员与开发",
+"p": "https://discuss.elastic.co/u/{account}",
+"c": "https://discuss.elastic.co/u/{account}",
+"ec": 200,
+"es": "<title>  Profile",
+"mc": 404,
+"ms": "Oops!",
+"src": "wmn"
+},
+{
+"id": "w_donationpay",
+"n": "DonationPay",
+"g": "创作者与电商",
+"p": "https://give.donationpay.org/hopewell-fund/{account}/",
+"c": "https://give.donationpay.org/hopewell-fund/{account}/",
+"ec": 200,
+"es": "id=\"dp-payment-form\"",
+"mc": 404,
+"ms": "<title>404 Not Found</title>",
+"src": "wmn"
+},
+{
+"id": "w_donatello",
+"n": "Donatello",
+"g": "创作者与电商",
+"p": "https://donatello.to/{account}",
+"c": "https://donatello.to/{account}",
+"ec": 200,
+"es": "UserPage.init",
+"mc": 404,
+"ms": "<title>Сторінку не знайдено (404) - Donatello</title>",
+"src": "wmn"
+},
+{
+"id": "w_donatestream",
+"n": "donate.stream",
+"g": "创作者与电商",
+"p": "https://donate.stream/{account}",
+"c": "https://donate.stream/api/v1/streamer.get?path={account}&app=9f4e793cec820015d511dbc77b20c5c1",
+"ec": 200,
+"es": "\"response\":",
+"mc": 200,
+"ms": "\"message\":\"Not found\"",
+"src": "wmn"
+},
+{
+"id": "w_donatty",
+"n": "Donatty",
+"g": "创作者与电商",
+"p": "https://donatty.com/{account}",
+"c": "https://api.donatty.com/users/find/{account}",
+"ec": 200,
+"es": "\"response\":",
+"mc": 404,
+"ms": "\"error\":\"internal error\"",
+"src": "wmn"
+},
+{
+"id": "w_dotcards",
+"n": "dot.cards",
+"g": "创作者与电商",
+"p": "https://dot.cards/{account}",
+"c": "https://dot.cards/{account}",
+"ec": 200,
+"es": "\"user_id\":\"",
+"mc": 200,
+"ms": "\"status\":\"username_not_found",
+"src": "wmn"
+},
+{
+"id": "w_dotafire",
+"n": "DOTAFire",
+"g": "游戏",
+"p": "https://www.dotafire.com/ajax/searchSite?text={account}&search=members",
+"c": "https://www.dotafire.com/ajax/searchSite?text={account}&search=members",
+"ec": 200,
+"es": "href=\"/profile/",
+"mc": 200,
+"ms": ">No results found</span>",
+"src": "wmn"
+},
+{
+"id": "w_dou",
+"n": "DOU",
+"g": "社交与社区",
+"p": "https://dou.ua/users/{account}/",
+"c": "https://dou.ua/users/{account}/",
+"ec": 200,
+"es": "class=\"page-profile\"",
+"mc": 404,
+"ms": "class=\"page-error\"",
+"src": "wmn"
+},
+{
+"id": "w_easyen",
+"n": "easyen",
+"g": "社交与社区",
+"p": "https://easyen.ru/index/8-0-{account}",
+"c": "https://easyen.ru/index/8-0-{account}",
+"ec": 200,
+"es": "День рождения",
+"mc": 200,
+"ms": "Пользователь не найден",
+"src": "wmn"
+},
+{
+"id": "w_electrobel",
+"n": "Electrobel",
+"g": "社交与社区",
+"p": "https://be.electrobel.org/{account}",
+"c": "https://be.electrobel.org/register.ajax",
+"ec": 200,
+"es": "\"html\":\"Username exists<br\\/>Please choose another\"",
+"mc": 200,
+"ms": "\"html\":\"Name is available\"",
+"src": "wmn",
+"m": "POST",
+"b": "action=checkUsername&username={account}",
+"h": {
+"Content-Type": "application/x-www-form-urlencoded"
+}
+},
+{
+"id": "w_donatik",
+"n": "Donatik",
+"g": "创作者与电商",
+"p": "https://{account}.donatik.ua/",
+"c": "https://{account}.donatik.ua/",
+"ec": 200,
+"es": "\\\"__typename\\\":\\\"UserPageOutput\\\"",
+"mc": 500,
+"ms": "id=\"__next_error__\"",
+"src": "wmn"
+},
+{
+"id": "w_expressionalsocialmastod",
+"n": "Expressional.social (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://expressional.social/@{account}",
+"c": "https://expressional.social/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "display_name",
+"mc": 404,
+"ms": "Record not found",
+"src": "wmn"
+},
+{
+"id": "w_donationalerts",
+"n": "Donation Alerts",
+"g": "创作者与电商",
+"p": "https://www.donationalerts.com/r/{account}",
+"c": "https://www.donationalerts.com/api/v1/user/{account}/donationpagesettings",
+"ec": 200,
+"es": "\"data\":",
+"mc": 202,
+"ms": "\"success\":false",
+"src": "wmn"
+},
+{
+"id": "w_flowcode",
+"n": "flowcode",
+"g": "社交与社区",
+"p": "https://www.flow.page/{account}",
+"c": "https://www.flow.page/{account}",
+"ec": 200,
+"es": "\"page\":{",
+"mc": 404,
+"ms": "\"page\":null",
+"src": "wmn"
+},
+{
+"id": "w_filmweb",
+"n": "Filmweb",
+"g": "兴趣爱好",
+"p": "https://www.filmweb.pl/user/{account}",
+"c": "https://www.filmweb.pl/api/v1/users/{account}/id",
+"ec": 200,
+"es": "\"userId\":",
+"mc": 204,
+"ms": null,
+"src": "wmn"
+},
+{
+"id": "w_gitea",
+"n": "Gitea",
+"g": "程序员与开发",
+"p": "https://gitea.com/{account}",
+"c": "https://gitea.com/api/v1/users/{account}",
+"ec": 200,
+"es": "\"id\":",
+"mc": 404,
+"ms": "\"message\":\"user redirect does not exist",
+"src": "wmn"
+},
+{
+"id": "w_gdbrowser",
+"n": "GDBrowser",
+"g": "游戏",
+"p": "https://gdbrowser.com/u/{account}",
+"c": "https://gdbrowser.com/api/profile/{account}",
+"ec": 200,
+"es": "\"accountID\":",
+"mc": 500,
+"ms": "-1",
+"src": "wmn"
+},
+{
+"id": "w_freelanceua",
+"n": "Freelance.ua",
+"g": "社交与社区",
+"p": "https://freelance.ua/user/{account}/",
+"c": "https://freelance.ua/user/{account}/",
+"ec": 200,
+"es": "p-profile-avatar",
+"mc": 404,
+"ms": "Схоже, дана сторінка не знайдена",
+"src": "wmn"
+},
+{
+"id": "w_gnomeshellextensions",
+"n": "GNOME (Shell Extensions)",
+"g": "程序员与开发",
+"p": "https://extensions.gnome.org/accounts/profile/{account}",
+"c": "https://extensions.gnome.org/accounts/profile/{account}",
+"ec": 200,
+"es": "class=\"user-details\"",
+"mc": 404,
+"ms": "<h3>404 - Page not Found</h3>",
+"src": "wmn"
+},
+{
+"id": "w_gpoddernet",
+"n": "gpodder.net",
+"g": "音乐与播客",
+"p": "https://gpodder.net/user/{account}/",
+"c": "https://gpodder.net/user/{account}/",
+"ec": 200,
+"es": "mdash; gpodder.net",
+"mc": 404,
+"ms": "404 - Not found",
+"src": "wmn"
+},
+{
+"id": "w_flru",
+"n": "FL.ru",
+"g": "社交与社区",
+"p": "https://www.fl.ru/users/{account}/portfolio/",
+"c": "https://www.fl.ru/users/{account}/portfolio/",
+"ec": 200,
+"es": "class=\"page-profile\"",
+"mc": 404,
+"ms": "content=\"404 Not Found\"",
+"src": "wmn"
+},
+{
+"id": "w_habrqa",
+"n": "Habr (Q&A)",
+"g": "程序员与开发",
+"p": "https://qna.habr.com/user/{account}",
+"c": "https://qna.habr.com/user/{account}",
+"ec": 200,
+"es": "class=\"page-header__info\"",
+"mc": 404,
+"ms": "icon_error_404",
+"src": "wmn"
+},
+{
+"id": "w_hackster",
+"n": "Hackster",
+"g": "程序员与开发",
+"p": "https://www.hackster.io/{account}",
+"c": "https://www.hackster.io/{account}",
+"ec": 200,
+"es": "data-hypernova-key=\"UserProfile\"",
+"mc": 404,
+"ms": "id=\"error\"",
+"src": "wmn"
+},
+{
+"id": "w_hcommonssocialmastodonin",
+"n": "Hcommons.social (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://hcommons.social/@{account}",
+"c": "https://hcommons.social/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "display_name",
+"mc": 404,
+"ms": "Record not found",
+"src": "wmn"
+},
+{
+"id": "w_hamaha",
+"n": "hamaha",
+"g": "创作者与电商",
+"p": "https://hamaha.net/{account}",
+"c": "https://hamaha.net/{account}",
+"ec": 200,
+"es": "id=\"profile\"",
+"mc": 200,
+"ms": "content=\"HAMAHA  Биткоин форум. Торговля на бирже - ➨ Обучение Криптовалютам, Биткоин и NYSE \"",
+"src": "wmn"
+},
+{
+"id": "w_hackadvisor",
+"n": "HackAdvisor",
+"g": "程序员与开发",
+"p": "https://hackadvisor.io/hacker/{account}",
+"c": "https://hackadvisor.io/api/v2/profile/{account}/",
+"ec": 200,
+"es": "\"username\":",
+"mc": 404,
+"ms": "{\"detail\":\"Username not found\"}",
+"src": "wmn"
+},
+{
+"id": "w_habruser",
+"n": "Habr (User)",
+"g": "社交与社区",
+"p": "https://habr.com/ru/users/{account}/",
+"c": "https://habr.com/ru/users/{account}/",
+"ec": 200,
+"es": "tm-page tm-user",
+"mc": 404,
+"ms": "tm-error-message",
+"src": "wmn"
+},
+{
+"id": "w_holopin",
+"n": "Holopin",
+"g": "兴趣爱好",
+"p": "https://holopin.io/@{account}#",
+"c": "https://www.holopin.io/api/auth/username",
+"ec": 200,
+"es": "\"available\":false",
+"mc": 200,
+"ms": "\"available\":true",
+"src": "wmn",
+"m": "POST",
+"b": "{\"username\":\"{account}\"}",
+"h": {
+"Content-Type": "application/json"
+}
+},
+{
+"id": "w_hometechsocialmastodonin",
+"n": "Hometech.social (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://hometech.social/@{account}",
+"c": "https://hometech.social/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "display_name",
+"mc": 404,
+"ms": "Record not found",
+"src": "wmn"
+},
+{
+"id": "w_ifttt",
+"n": "IFTTT",
+"g": "其他",
+"p": "https://ifttt.com/p/{account}",
+"c": "https://ifttt.com/p/{account}",
+"ec": 200,
+"es": "Joined",
+"mc": 404,
+"ms": "The requested page or file does not exist",
+"src": "wmn"
+},
+{
+"id": "w_habtium",
+"n": "Habtium",
+"g": "游戏",
+"p": "https://habtium.es/{account}",
+"c": "https://habtium.es/{account}",
+"ec": 200,
+"es": "<div class=\"profile-info",
+"mc": 404,
+"ms": "<h1 class=\"section red\">Oops!",
+"src": "wmn"
+},
+{
+"id": "w_jbzd",
+"n": "JBZD",
+"g": "设计与摄影",
+"p": "https://jbzd.com.pl/uzytkownik/{account}",
+"c": "https://jbzd.com.pl/uzytkownik/{account}",
+"ec": 200,
+"es": "Dzidy użytkownika",
+"mc": 404,
+"ms": "Błąd 404",
+"src": "wmn"
+},
+{
+"id": "w_kashipara",
+"n": "kashipara",
+"g": "程序员与开发",
+"p": "https://www.kashipara.com/profile/user/{account}",
+"c": "https://www.kashipara.com/ajax/checkNewUser.php",
+"ec": 200,
+"es": "\"message\":\"UserName already Exist\"",
+"mc": 200,
+"ms": "\"message\":\"UserName avalible\"",
+"src": "wmn",
+"m": "POST",
+"b": "id=UserName&value={account}",
+"h": {
+"Content-Type": "application/x-www-form-urlencoded"
+}
+},
+{
+"id": "w_kik",
+"n": "kik",
+"g": "社交与社区",
+"p": "https://kik.me/{account}",
+"c": "https://kik.me/{account}",
+"ec": 200,
+"es": "/thumb.jpg\"/>",
+"mc": 200,
+"ms": "<h1 class=\"display-name\"> </h1>",
+"src": "wmn"
+},
+{
+"id": "w_kwejkpl",
+"n": "kwejk.pl",
+"g": "设计与摄影",
+"p": "https://kwejk.pl/uzytkownik/{account}#/tablica/",
+"c": "https://kwejk.pl/uzytkownik/{account}#/tablica/",
+"ec": 200,
+"es": "Kwejki użytkownika",
+"mc": 404,
+"ms": "404 - strona nie została znaleziona - KWEJK.pl",
+"src": "wmn"
+},
+{
+"id": "w_learncwonline",
+"n": "Learn CW Online",
+"g": "兴趣爱好",
+"p": "https://lcwo.net/profile/{account}",
+"c": "https://lcwo.net/api/user_exists.php",
+"ec": 200,
+"es": "\"user_exists\": 1",
+"mc": 200,
+"ms": "\"user_exists\": 0",
+"src": "wmn",
+"m": "POST",
+"b": "username={account}",
+"h": {
+"Content-Type": "application/x-www-form-urlencoded"
+}
+},
+{
+"id": "w_kwork",
+"n": "Kwork",
+"g": "社交与社区",
+"p": "https://kwork.ru/user/{account}",
+"c": "https://kwork.ru/user_kworks/{account}",
+"ec": 200,
+"es": "\"success\":true",
+"mc": 200,
+"ms": "\"success\":false",
+"src": "wmn",
+"m": "POST",
+"b": "{\"username\":\"{account}\",\"offset\":0,\"limit\":10}",
+"h": {
+"Content-Type": "application/json"
+}
+},
+{
+"id": "w_intigriti",
+"n": "Intigriti",
+"g": "程序员与开发",
+"p": "https://app.intigriti.com/profile/{account}",
+"c": "https://app.intigriti.com/api/user/public/profile/{account}",
+"ec": 200,
+"es": "\"userName\":",
+"mc": 404,
+"ms": "class=\"error-page-container\"",
+"src": "wmn"
+},
+{
+"id": "w_linuxorgru",
+"n": "linux.org.ru",
+"g": "程序员与开发",
+"p": "https://www.linux.org.ru/people/{account}/profile",
+"c": "https://www.linux.org.ru/people/{account}/profile",
+"ec": 200,
+"es": "Дата регистрации",
+"mc": 404,
+"ms": "Пользователя не существует",
+"src": "wmn"
+},
+{
+"id": "w_line",
+"n": "LINE",
+"g": "社交与社区",
+"p": "https://line.me/R/ti/p/@{account}?from=page",
+"c": "https://line.me/R/ti/p/@{account}?from=page",
+"ec": 200,
+"es": "Add LINE friend",
+"mc": 404,
+"ms": "404 Not Found",
+"src": "wmn"
+},
+{
+"id": "w_mapstodonspacemastodonin",
+"n": "Mapstodon.space (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://mapstodon.space/@{account}",
+"c": "https://mapstodon.space/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "display_name",
+"mc": 404,
+"ms": "Record not found",
+"src": "wmn"
+},
+{
+"id": "w_komi",
+"n": "komi",
+"g": "社交与社区",
+"p": "https://{account}.komi.io",
+"c": "https://api.komi.io/api/talent/usernames/{account}",
+"ec": 200,
+"es": "accountStatus\":\"active",
+"mc": 404,
+"ms": "The talent profile was not found",
+"src": "wmn"
+},
+{
+"id": "w_mastoai",
+"n": "masto.ai",
+"g": "社交与社区",
+"p": "https://masto.ai/@{account}",
+"c": "https://masto.ai/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "\"id\":",
+"mc": 404,
+"ms": "\"error\":\"Record not found\"",
+"src": "wmn"
+},
+{
+"id": "w_mastonycmastodoninstance",
+"n": "Masto.nyc (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://masto.nyc/@{account}",
+"c": "https://masto.nyc/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "display_name",
+"mc": 404,
+"ms": "Record not found",
+"src": "wmn"
+},
+{
+"id": "w_martech",
+"n": "Martech",
+"g": "创作者与电商",
+"p": "https://martech.org/author/{account}/",
+"c": "https://martech.org/author/{account}/",
+"ec": 200,
+"es": "twitter:site",
+"mc": 404,
+"ms": "Page not found",
+"src": "wmn"
+},
+{
+"id": "w_mastodondefcon",
+"n": "Mastodon-Defcon",
+"g": "社交与社区",
+"p": "https://defcon.social/@{account}",
+"c": "https://defcon.social/@{account}",
+"ec": 200,
+"es": "- DEF CON Social</title>",
+"mc": 404,
+"ms": "The page you are looking for isn&#39;t here.",
+"src": "wmn"
+},
+{
+"id": "w_mastodon101010pl",
+"n": "Mastodon-101010.pl",
+"g": "社交与社区",
+"p": "https://101010.pl/@{account}",
+"c": "https://101010.pl/@{account}",
+"ec": 200,
+"es": "@101010.pl",
+"mc": 404,
+"ms": "The page you are looking for isn&#39;t here.",
+"src": "wmn"
+},
+{
+"id": "w_minds",
+"n": "Minds",
+"g": "社交与社区",
+"p": "https://www.minds.com/{account}/",
+"c": "https://www.minds.com/api/v3/register/validate?username={account}",
+"ec": 200,
+"es": "\"valid\":false",
+"mc": 200,
+"ms": "\"valid\":true",
+"src": "wmn"
+},
+{
+"id": "w_mixlr",
+"n": "Mixlr",
+"g": "音乐与播客",
+"p": "https://mixlr.com/{account}/",
+"c": "https://api.mixlr.com/users/{account}",
+"ec": 200,
+"es": "\"id\":",
+"mc": 404,
+"ms": "\"error\":\"Resource not found\"",
+"src": "wmn"
+},
+{
+"id": "w_mintme",
+"n": "mintme",
+"g": "创作者与电商",
+"p": "https://www.mintme.com/token/{account}",
+"c": "https://www.mintme.com/token/{account}",
+"ec": 200,
+"es": "token | mintMe",
+"mc": 404,
+"ms": "Page not found",
+"src": "wmn"
+},
+{
+"id": "w_mylot",
+"n": "MyLot",
+"g": "社交与社区",
+"p": "https://www.mylot.com/{account}",
+"c": "https://www.mylot.com/{account}",
+"ec": 200,
+"es": "on myLot</title>",
+"mc": 404,
+"ms": " / Whoops!",
+"src": "wmn"
+},
+{
+"id": "w_mssgme",
+"n": "mssg.me",
+"g": "社交与社区",
+"p": "https://{account}.mssg.me/",
+"c": "https://{account}.mssg.me/",
+"ec": 200,
+"es": "property=\"og:title\"",
+"mc": 404,
+"ms": "id=\"page_404\"",
+"src": "wmn"
+},
+{
+"id": "w_metacritic",
+"n": "metacritic",
+"g": "兴趣爱好",
+"p": "https://www.metacritic.com/user/{account}/",
+"c": "https://www.metacritic.com/user/{account}/",
+"ec": 200,
+"es": "data-testid=\"profile-name\">",
+"mc": 404,
+"ms": "re looking for. Sorry about that.</p>",
+"src": "wmn"
+},
+{
+"id": "w_nightbot",
+"n": "Nightbot",
+"g": "社交与社区",
+"p": "https://nightbot.tv/t/{account}/commands",
+"c": "https://api.nightbot.tv/1/channels/t/{account}",
+"ec": 200,
+"es": "\"status\":200",
+"mc": 404,
+"ms": "\"status\":404",
+"src": "wmn"
+},
+{
+"id": "w_nihbuatjajan",
+"n": "Nih Buat Jajan",
+"g": "社交与社区",
+"p": "https://www.nihbuatjajan.com/{account}",
+"c": "https://www.nihbuatjajan.com/manifest/{account}.json",
+"ec": 200,
+"es": "\"name\":",
+"mc": 404,
+"ms": "\"error\":\"Creator not found\"",
+"src": "wmn"
+},
+{
+"id": "w_nitecrewmastodoninstance",
+"n": "Nitecrew (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://nitecrew.rip/@{account}",
+"c": "https://nitecrew.rip/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "display_name",
+"mc": 404,
+"ms": "Record not found",
+"src": "wmn"
+},
+{
+"id": "w_neocities",
+"n": "Neocities",
+"g": "社交与社区",
+"p": "https://neocities.org/site/{account}",
+"c": "https://neocities.org/site/{account}",
+"ec": 200,
+"es": "noindex, follow",
+"mc": 404,
+"ms": "- Not Found</title>",
+"src": "wmn"
+},
+{
+"id": "w_oglaszamy24hpl",
+"n": "oglaszamy24h.pl",
+"g": "创作者与电商",
+"p": "https://oglaszamy24h.pl/profil,{account}",
+"c": "https://oglaszamy24h.pl/profil,{account}",
+"ec": 200,
+"es": "Profil użytkownika:",
+"mc": 404,
+"ms": "Nieprawidłowy link, w bazie danych nie istnieje użytkownik o podanym loginie",
+"src": "wmn"
+},
+{
+"id": "w_openstreetmapwiki",
+"n": "OpenStreetMap Wiki",
+"g": "社交与社区",
+"p": "https://wiki.openstreetmap.org/wiki/User:{account}",
+"c": "https://wiki.openstreetmap.org/w/api.php?action=query&format=json&list=users&ususers={account}",
+"ec": 200,
+"es": "\"userid\":",
+"mc": 200,
+"ms": "\"missing\":\"\"",
+"src": "wmn"
+},
+{
+"id": "w_okru",
+"n": "ok.ru",
+"g": "社交与社区",
+"p": "https://ok.ru/{account}",
+"c": "https://ok.ru/{account}",
+"ec": 200,
+"es": "| OK",
+"mc": 404,
+"ms": "class=\"p404_t",
+"src": "wmn"
+},
+{
+"id": "w_operru",
+"n": "Oper.ru",
+"g": "程序员与开发",
+"p": "https://oper.ru/visitors/info.php?t={account}",
+"c": "https://oper.ru/visitors/info.php?t={account}",
+"ec": 200,
+"es": "Информация о пользователе",
+"mc": 200,
+"ms": "Нет такого пользователя",
+"src": "wmn"
+},
+{
+"id": "w_originshabbocom",
+"n": "Origins.Habbo.com",
+"g": "游戏",
+"p": "https://origins.habbo.com/api/public/users?name={account}",
+"c": "https://origins.habbo.com/api/public/users?name={account}",
+"ec": 200,
+"es": "uniqueId",
+"mc": 404,
+"ms": "not-found",
+"src": "wmn"
+},
+{
+"id": "w_originshabbocombr",
+"n": "Origins.Habbo.com.br",
+"g": "游戏",
+"p": "https://origins.habbo.com.br/api/public/users?name={account}",
+"c": "https://origins.habbo.com.br/api/public/users?name={account}",
+"ec": 200,
+"es": "uniqueId",
+"mc": 404,
+"ms": "not-found",
+"src": "wmn"
+},
+{
+"id": "w_originshabboes",
+"n": "Origins.Habbo.es",
+"g": "游戏",
+"p": "https://origins.habbo.es/api/public/users?name={account}",
+"c": "https://origins.habbo.es/api/public/users?name={account}",
+"ec": 200,
+"es": "uniqueId",
+"mc": 404,
+"ms": "not-found",
+"src": "wmn"
+},
+{
+"id": "w_minecraftlist",
+"n": "Minecraft List",
+"g": "游戏",
+"p": "https://minecraftlist.com/players/{account}",
+"c": "https://minecraftlist.com/api/legacy/players/{account}",
+"ec": 200,
+"es": "\"found\":true",
+"mc": 200,
+"ms": "\"found\":false",
+"src": "wmn"
+},
+{
+"id": "w_picsart",
+"n": "Picsart",
+"g": "设计与摄影",
+"p": "https://picsart.com/u/{account}",
+"c": "https://api.picsart.com/users/show/{account}.json",
+"ec": 200,
+"es": "\"status\":\"success\"",
+"mc": 200,
+"ms": "\"status\":\"error\"",
+"src": "wmn"
+},
+{
+"id": "w_paragraph",
+"n": "Paragraph",
+"g": "博客与写作",
+"p": "https://paragraph.com/@{account}",
+"c": "https://paragraph.com/api/blogs/@{account}",
+"ec": 200,
+"es": "\"user\":{",
+"mc": 404,
+"ms": "\"Missing blog\"",
+"src": "wmn",
+"h": {
+"Accept": "application/json"
+}
+},
+{
+"id": "w_pixelfedsocial",
+"n": "pixelfed.social",
+"g": "社交与社区",
+"p": "https://pixelfed.social/{account}",
+"c": "https://pixelfed.social/{account}",
+"ec": 200,
+"es": "- Pixelfed</title>",
+"mc": 404,
+"ms": "<title>pixelfed</title>",
+"src": "wmn"
+},
+{
+"id": "w_pillowfort",
+"n": "Pillowfort",
+"g": "社交与社区",
+"p": "https://www.pillowfort.social/{account}",
+"c": "https://www.pillowfort.social/{account}/json/?p=1",
+"ec": 200,
+"es": "\"posts\":",
+"mc": 404,
+"ms": "<title>(404)</title>",
+"src": "wmn"
+},
+{
+"id": "w_pikabu",
+"n": "Pikabu",
+"g": "社交与社区",
+"p": "https://pikabu.ru/@{account}",
+"c": "https://pikabu.ru/ajax.php",
+"ec": 200,
+"es": "\"result\":false",
+"mc": 200,
+"ms": "\"result\":true",
+"src": "wmn",
+"m": "POST",
+"b": "route=signup/check-username&username={account}",
+"h": {
+"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+}
+},
+{
+"id": "w_poecom",
+"n": "Poe.com",
+"g": "程序员与开发",
+"p": "https://poe.com/profile/{account}",
+"c": "https://poe.com/profile/{account}",
+"ec": 200,
+"es": "\"__isNode\":\"PoeUser\"",
+"mc": 200,
+"ms": "\"user\":null",
+"src": "wmn"
+},
+{
+"id": "w_privacyguides",
+"n": "Privacy Guides",
+"g": "程序员与开发",
+"p": "https://discuss.privacyguides.net/u/{account}/summary",
+"c": "https://discuss.privacyguides.net/u/{account}.json",
+"ec": 200,
+"es": "\"user_badges\":",
+"mc": 404,
+"ms": "The requested URL or resource could not be found.",
+"src": "wmn"
+},
+{
+"id": "w_promodj",
+"n": "PromoDJ",
+"g": "音乐与播客",
+"p": "https://promodj.com/{account}",
+"c": "https://promodj.com/ajax/register.html?lang=en",
+"ec": 200,
+"es": "Address you entered is already taken",
+"mc": 200,
+"ms": "The address is free, it's great;)",
+"src": "wmn",
+"m": "POST",
+"b": "kind=nick&value={account}",
+"h": {
+"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+}
+},
+{
+"id": "w_resumesactorsaccess",
+"n": "resumes_actorsaccess",
+"g": "社交与社区",
+"p": "https://resumes.actorsaccess.com/{account}",
+"c": "https://resumes.actorsaccess.com/{account}",
+"ec": 200,
+"es": "- Resume | Actors Access</title>",
+"mc": 200,
+"ms": "File was not found on this SERVER",
+"src": "wmn"
+},
+{
+"id": "w_riskru",
+"n": "risk.ru",
+"g": "兴趣爱好",
+"p": "https://risk.ru/people/{account}",
+"c": "https://risk.ru/people/{account}",
+"ec": 200,
+"es": "— Люди — Risk.ru",
+"mc": 404,
+"ms": "404 — Risk.ru",
+"src": "wmn"
+},
+{
+"id": "w_ruvoipnet",
+"n": "ruVoIP.net",
+"g": "程序员与开发",
+"p": "https://ruvoip.net/members/{account}/",
+"c": "https://ruvoip.net/members/{account}/",
+"ec": 200,
+"es": "id=\"user-xprofile\"",
+"mc": 200,
+"ms": "Error 404 - Not Found",
+"src": "wmn"
+},
+{
+"id": "w_searchengines",
+"n": "Searchengines",
+"g": "兴趣爱好",
+"p": "https://searchengines.guru/ru/search?keyword=&author={account}&sortByDate=true",
+"c": "https://searchengines.guru/ru/search?keyword=&author={account}&sortByDate=true",
+"ec": 200,
+"es": "class=\"search-result__item\"",
+"mc": 200,
+"ms": "class=\"nothing-found\"",
+"src": "wmn"
+},
+{
+"id": "w_sepiasearchpeertube",
+"n": "Sepia Search (PeerTube)",
+"g": "视频与直播",
+"p": "https://sepiasearch.org/search?search=%22{account}%22&page=1&resultType=channels",
+"c": "https://sepiasearch.org/api/v1/search/video-channels?search=%22{account}%22&start=0&count=10",
+"ec": 200,
+"es": "\"data\":[{",
+"mc": 200,
+"ms": "\"data\":[]",
+"src": "wmn"
+},
+{
+"id": "w_sfd",
+"n": "SFD",
+"g": "兴趣爱好",
+"p": "https://www.sfd.pl/profile/{account}",
+"c": "https://www.sfd.pl/profile/{account}",
+"ec": 200,
+"es": "Tematy użytkownika",
+"mc": 404,
+"ms": "Brak aktywnego profilu na forum",
+"src": "wmn"
+},
+{
+"id": "w_slides",
+"n": "slides",
+"g": "社交与社区",
+"p": "https://slides.com/{account}",
+"c": "https://slides.com/{account}",
+"ec": 200,
+"es": "Presentations by",
+"mc": 404,
+"ms": "You may have mistyped the address",
+"src": "wmn"
+},
+{
+"id": "w_socialbundde",
+"n": "social.bund.de",
+"g": "社交与社区",
+"p": "https://social.bund.de/@{account}",
+"c": "https://social.bund.de/@{account}",
+"ec": 200,
+"es": "@social.bund.de) - social.bund.de</title>",
+"mc": 404,
+"ms": "<title>The page you are looking for isn&#39;t here.",
+"src": "wmn"
+},
+{
+"id": "w_steemit",
+"n": "Steemit",
+"g": "社交与社区",
+"p": "https://steemit.com/@{account}",
+"c": "https://signup.steemit.com/api/check_username",
+"ec": 200,
+"es": "\"type\":\"error_api_username_used\"",
+"mc": 200,
+"ms": "\"success\":true",
+"src": "wmn",
+"m": "POST",
+"b": "{\"username\":\"{account}\"}",
+"h": {
+"Content-Type": "application/json"
+}
+},
+{
+"id": "w_streamelements",
+"n": "StreamElements",
+"g": "创作者与电商",
+"p": "https://streamelements.com/{account}",
+"c": "https://api.streamelements.com/kappa/v2/channels/{account}",
+"ec": 200,
+"es": "\"providerId\"",
+"mc": 404,
+"ms": "error",
+"src": "wmn"
+},
+{
+"id": "w_streamlabs",
+"n": "StreamLabs",
+"g": "创作者与电商",
+"p": "https://streamlabs.com/{account}/tip",
+"c": "https://streamlabs.com/api/v6/user/{account}",
+"ec": 200,
+"es": "\"id\":",
+"mc": 401,
+"ms": "<title>Unauthorized</title>",
+"src": "wmn"
+},
+{
+"id": "w_statsfm",
+"n": "stats.fm",
+"g": "音乐与播客",
+"p": "https://stats.fm/{account}",
+"c": "https://api.stats.fm/api/v1/users/{account}",
+"ec": 200,
+"es": "\"item\":{",
+"mc": 404,
+"ms": "\"status\":404",
+"src": "wmn"
+},
+{
+"id": "w_tanukipl",
+"n": "Tanuki.pl",
+"g": "兴趣爱好",
+"p": "https://tanuki.pl/profil/{account}",
+"c": "https://tanuki.pl/profil/{account}",
+"ec": 200,
+"es": "Dołączył",
+"mc": 404,
+"ms": "Nie ma takiego użytkownika",
+"src": "wmn"
+},
+{
+"id": "w_teletype",
+"n": "Teletype",
+"g": "博客与写作",
+"p": "https://teletype.in/@{account}",
+"c": "https://teletype.in/@{account}",
+"ec": 200,
+"es": "class=\"layout__content m_main blog\"",
+"mc": 404,
+"ms": "class=\"error\"",
+"src": "wmn"
+},
+{
+"id": "w_tenor",
+"n": "Tenor",
+"g": "设计与摄影",
+"p": "https://tenor.com/users/{account}",
+"c": "https://tenor.com/users/{account}",
+"ec": 200,
+"es": "class=\"ProfilePage page\"",
+"mc": 404,
+"ms": "class=\"error-page container page\"",
+"src": "wmn"
+},
+{
+"id": "w_theguardian",
+"n": "theguardian",
+"g": "博客与写作",
+"p": "https://www.theguardian.com/profile/{account}",
+"c": "https://www.theguardian.com/profile/{account}",
+"ec": 200,
+"es": "content=\"&#x3C;p&#x3E;",
+"mc": 404,
+"ms": "<title>Page Not Found | The Guardian</title>",
+"src": "wmn"
+},
+{
+"id": "w_tildezonemastodoninstanc",
+"n": "Tilde.zone (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://tilde.zone/@{account}",
+"c": "https://tilde.zone/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "display_name",
+"mc": 404,
+"ms": "Record not found",
+"src": "wmn"
+},
+{
+"id": "w_tootingchmastodoninstanc",
+"n": "Tooting.ch (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://tooting.ch/@{account}",
+"c": "https://tooting.ch/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "display_name",
+"mc": 404,
+"ms": "Record not found",
+"src": "wmn"
+},
+{
+"id": "w_tipeeestream",
+"n": "TipeeeStream",
+"g": "创作者与电商",
+"p": "https://www.tipeeestream.com/{account}/",
+"c": "https://www.tipeeestream.com/v3.0/pages/{account}",
+"ec": 200,
+"es": "\"id\":",
+"mc": 404,
+"ms": "\"message\":\"Not found\"",
+"src": "wmn"
+},
+{
+"id": "w_traktrain",
+"n": "TRAKTRAIN",
+"g": "音乐与播客",
+"p": "https://traktrain.com/{account}",
+"c": "https://traktrain.com/{account}",
+"ec": 200,
+"es": "id=\"userId\"",
+"mc": 404,
+"ms": "class=\"title-404\"",
+"src": "wmn"
+},
+{
+"id": "w_twpro",
+"n": "twpro",
+"g": "社交与社区",
+"p": "https://twpro.jp/{account}",
+"c": "https://twpro.jp/{account}/q-data.json",
+"ec": 200,
+"es": ",200,\"/",
+"mc": 404,
+"ms": ",404,\"/",
+"src": "wmn"
+},
+{
+"id": "w_ultimateguitar",
+"n": "Ultimate Guitar",
+"g": "兴趣爱好",
+"p": "https://www.ultimate-guitar.com/u/{account}",
+"c": "https://www.ultimate-guitar.com/u/{account}",
+"ec": 200,
+"es": " | Ultimate-Guitar.Com</title>",
+"mc": 410,
+"ms": "Oops! We couldn't find that page.",
+"src": "wmn"
+},
+{
+"id": "w_uwuai",
+"n": "uwu.ai",
+"g": "社交与社区",
+"p": "https://{account}.uwu.ai/",
+"c": "https://{account}.uwu.ai/",
+"ec": 200,
+"es": "property=\"twitter:card\"",
+"mc": 404,
+"ms": "Sorry, the requested page could not be found.",
+"src": "wmn",
+"strip": "."
+},
+{
+"id": "w_uefconnect",
+"n": "UEF CONNECT",
+"g": "创作者与电商",
+"p": "https://uefconnect.uef.fi/en/{account}/",
+"c": "https://uefconnect.uef.fi/en/{account}/",
+"ec": 200,
+"es": "profile-page-header__info",
+"mc": 404,
+"ms": "<title>Page not found - UEFConnect</title>",
+"src": "wmn"
+},
+{
+"id": "w_uwumarket",
+"n": "Uwumarket",
+"g": "创作者与电商",
+"p": "https://uwumarket.us/collections/{account}",
+"c": "https://uwumarket.us/collections/{account}",
+"ec": 200,
+"es": "data-collection-filters",
+"mc": 404,
+"ms": "Page not found",
+"src": "wmn"
+},
+{
+"id": "w_vibilagare",
+"n": "vibilagare",
+"g": "其他",
+"p": "https://www.vibilagare.se/users/{account}",
+"c": "https://www.vibilagare.se/users/{account}",
+"ec": 200,
+"es": "class=\"user-profile\"",
+"mc": 404,
+"ms": "Sidan hittades inte |",
+"src": "wmn"
+},
+{
+"id": "w_vivino",
+"n": "Vivino",
+"g": "创作者与电商",
+"p": "https://www.vivino.com/users/{account}",
+"c": "https://api.vivino.com/users/{account}",
+"ec": 200,
+"es": "\"id\":",
+"mc": 404,
+"ms": "\"error\":{\"message\":\"Record not found\"}",
+"src": "wmn"
+},
+{
+"id": "w_vklworldmastodoninstance",
+"n": "Vkl.world (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://vkl.world/@{account}",
+"c": "https://vkl.world/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"es": "display_name",
+"mc": 404,
+"ms": "Record not found",
+"src": "wmn"
+},
+{
+"id": "w_w3schools",
+"n": "W3Schools",
+"g": "程序员与开发",
+"p": "https://pathfinder-api.kai.w3spaces.com/public-profile-api/{account}",
+"c": "https://pathfinder-api.kai.w3spaces.com/public-profile-api/{account}",
+"ec": 200,
+"es": "\"createdAt\":",
+"mc": 404,
+"ms": "\"message\":\"Profile does not exists or not visible\"",
+"src": "wmn"
+},
+{
+"id": "w_vipblog",
+"n": "VIP-blog",
+"g": "博客与写作",
+"p": "https://{account}.vip-blog.com/",
+"c": "https://{account}.vip-blog.com/",
+"ec": 200,
+"es": "blog : ",
+"mc": 200,
+"ms": "Blog inexistant",
+"src": "wmn",
+"strip": "."
+},
+{
+"id": "w_warmerise",
+"n": "Warmerise",
+"g": "游戏",
+"p": "https://warmerise.com/profile/{account}",
+"c": "https://warmerise.com/profile/{account}",
+"ec": 200,
+"es": "<div id='profile_photo",
+"mc": 404,
+"ms": "<h2>Page Not Found",
+"src": "wmn"
+},
+{
+"id": "w_vsetop",
+"n": "VseTop",
+"g": "程序员与开发",
+"p": "https://vsetop.org/user/{account}/",
+"c": "https://vsetop.org/user/{account}/",
+"ec": 200,
+"es": "class=\"userinfo\"",
+"mc": 404,
+"ms": "<p>Пользователь с таким именем не найден.</p>",
+"src": "wmn"
+},
+{
+"id": "w_wikidot",
+"n": "Wikidot",
+"g": "社交与社区",
+"p": "https://www.wikidot.com/user:info/{account}",
+"c": "https://www.wikidot.com/user:info/{account}",
+"ec": 200,
+"es": "<h1 class=\"profile-title\">",
+"mc": 200,
+"ms": "<div class=\"error-block\">User does not exist.</div>",
+"src": "wmn"
+},
+{
+"id": "w_wetransfer",
+"n": "WeTransfer",
+"g": "设计与摄影",
+"p": "https://wepresent.wetransfer.com/artists/{account}",
+"c": "https://wepresent.wetransfer.com/artists/{account}",
+"ec": 200,
+"es": "name\":\"WePresent | ",
+"mc": 404,
+"ms": "text-display-4\">404 error",
+"src": "wmn"
+},
+{
+"id": "w_ultrasdiary",
+"n": "Ultras Diary",
+"g": "兴趣爱好",
+"p": "http://ultrasdiary.pl/u/{account}/",
+"c": "http://ultrasdiary.pl/u/{account}/",
+"ec": 200,
+"es": "Mecze wyjazdowe:",
+"mc": 404,
+"ms": "Ile masz wyjazdów?",
+"src": "wmn"
+},
+{
+"id": "w_wikimapia",
+"n": "Wikimapia",
+"g": "社交与社区",
+"p": "https://wikimapia.org/user/tools/users_rating/?username={account}",
+"c": "https://wikimapia.org/user/register/?check=username&value={account}",
+"ec": 200,
+"es": "\"ok\":false",
+"mc": 200,
+"ms": "\"ok\":true",
+"src": "wmn"
+},
+{
+"id": "w_wishlistr",
+"n": "Wishlistr",
+"g": "创作者与电商",
+"p": "https://www.wishlistr.com/{account}/",
+"c": "https://www.wishlistr.com/sign-up/?rs=checkUserName&rsargs[]={account}",
+"ec": 200,
+"es": "+:var res = \"",
+"mc": 200,
+"ms": "+:var res = parseInt(0);",
+"src": "wmn"
+},
+{
+"id": "w_warriorforum",
+"n": "warriorforum",
+"g": "兴趣爱好",
+"p": "https://www.warriorforum.com/members/{account}.html",
+"c": "https://www.warriorforum.com/members/{account}.html",
+"ec": 200,
+"es": "Last Activity:",
+"mc": 400,
+"ms": "Oops | Warrior Forum -",
+"src": "wmn"
+},
+{
+"id": "w_younow",
+"n": "YouNow",
+"g": "社交与社区",
+"p": "https://www.younow.com/{account}",
+"c": "https://api.younow.com/php/api/broadcast/info/user={account}",
+"ec": 200,
+"es": "\"userId\":",
+"mc": 200,
+"ms": "\"errorMsg\":\"No users found\"",
+"src": "wmn"
+},
+{
+"id": "w_xanga",
+"n": "Xanga",
+"g": "博客与写作",
+"p": "https://{account}.xanga.com/",
+"c": "https://{account}.xanga.com/",
+"ec": 200,
+"es": "class=\"module module-weblog\"",
+"mc": 302,
+"ms": null,
+"src": "wmn",
+"strip": "."
+},
+{
+"id": "w_wykop",
+"n": "Wykop",
+"g": "社交与社区",
+"p": "https://wykop.pl/ludzie/{account}",
+"c": "https://wykop.pl/ludzie/{account}",
+"ec": 200,
+"es": "<title>Profil:",
+"mc": 404,
+"ms": "Wystąpił błąd 404.",
+"src": "wmn"
+},
+{
+"id": "w_youpic",
+"n": "youpic",
+"g": "兴趣爱好",
+"p": "https://youpic.com/photographer/{account}",
+"c": "https://youpic.com/photographer/{account}",
+"ec": 200,
+"es": "<meta name=\"og:title\"",
+"mc": 404,
+"ms": "<title>YouPic — Not Found</title>",
+"src": "wmn"
+},
+{
+"id": "w_yeswehack",
+"n": "YesWeHack",
+"g": "程序员与开发",
+"p": "https://yeswehack.com/hunters/{account}",
+"c": "https://api.yeswehack.com/hunters/{account}",
+"ec": 200,
+"es": "\"username\":",
+"mc": 404,
+"ms": "\"code\":404",
+"src": "wmn"
+},
+{
+"id": "w_zepeto",
+"n": "Zepeto",
+"g": "社交与社区",
+"p": "https://web.zepeto.me/share/user/profile/{account}?language=en",
+"c": "https://gw-napi.zepeto.io/profiles/{account}",
+"ec": 200,
+"es": "zepetoId\":",
+"mc": 200,
+"ms": "errorCode\":",
+"src": "wmn"
+},
+{
+"id": "w_zhihu",
+"n": "知乎",
+"g": "国内平台",
+"p": "https://www.zhihu.com/people/{account}",
+"c": "https://api.zhihu.com/books/people/{account}/publications?offset=0&limit=5",
+"ec": 200,
+"es": "\"is_start\": true",
+"mc": 404,
+"ms": "\"name\": \"NotFoundException\"",
+"src": "wmn"
+},
+{
+"id": "s_allmylinks",
+"n": "AllMyLinks",
+"g": "社交与社区",
+"p": "https://allmylinks.com/{account}",
+"c": "https://allmylinks.com/{account}",
+"src": "sherlock",
+"re": "^[a-z0-9][a-z0-9-]{2,32}$",
+"ec": 200,
+"neg": [
+"Page not found"
+]
+},
+{
+"id": "w_zomato",
+"n": "Zomato",
+"g": "社交与社区",
+"p": "https://www.zomato.com/{account}/reviews",
+"c": "https://www.zomato.com/{account}/reviews",
+"ec": 200,
+"es": "Activity</h4>",
+"mc": 404,
+"ms": "This is a 404 page and we think it's fairly clear",
+"src": "wmn",
+"h": {
+"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0"
+}
+},
+{
+"id": "s_biohacking",
+"n": "BioHacking",
+"g": "程序员与开发",
+"p": "https://forum.dangerousthings.com/u/{account}",
+"c": "https://forum.dangerousthings.com/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_airbit",
+"n": "Airbit",
+"g": "社交与社区",
+"p": "https://airbit.com/{account}",
+"c": "https://airbit.com/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_blitztactics",
+"n": "Blitz Tactics",
+"g": "社交与社区",
+"p": "https://blitztactics.com/{account}",
+"c": "https://blitztactics.com/{account}",
+"src": "sherlock",
+"ec": 200,
+"neg": [
+"That page doesn't exist"
+]
+},
+{
+"id": "s_bezuzyteczna",
+"n": "Bezuzyteczna",
+"g": "社交与社区",
+"p": "https://bezuzyteczna.pl/uzytkownicy/{account}",
+"c": "https://bezuzyteczna.pl/uzytkownicy/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_blipfoto",
+"n": "Blipfoto",
+"g": "社交与社区",
+"p": "https://www.blipfoto.com/{account}",
+"c": "https://www.blipfoto.com/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_ctan",
+"n": "CTAN",
+"g": "社交与社区",
+"p": "https://ctan.org/author/{account}",
+"c": "https://ctan.org/author/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_caddycommunity",
+"n": "Caddy Community",
+"g": "社交与社区",
+"p": "https://caddy.community/u/{account}/summary",
+"c": "https://caddy.community/u/{account}/summary",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_cartalkcommunity",
+"n": "Car Talk Community",
+"g": "设计与摄影",
+"p": "https://community.cartalk.com/u/{account}/summary",
+"c": "https://community.cartalk.com/u/{account}/summary",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_choicecommunity",
+"n": "Choice Community",
+"g": "社交与社区",
+"p": "https://choice.community/u/{account}/summary",
+"c": "https://choice.community/u/{account}/summary",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_contently",
+"n": "Contently",
+"g": "社交与社区",
+"p": "https://{account}.contently.com/",
+"c": "https://{account}.contently.com/",
+"src": "sherlock",
+"re": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+"ec": 200,
+"mcs": [
+301,
+302,
+303,
+307,
+308
+]
+},
+{
+"id": "s_cryptohack",
+"n": "CryptoHack",
+"g": "程序员与开发",
+"p": "https://cryptohack.org/user/{account}/",
+"c": "https://cryptohack.org/user/{account}/",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+301,
+302,
+303,
+307,
+308
+]
+},
+{
+"id": "s_credly",
+"n": "Credly",
+"g": "社交与社区",
+"p": "https://www.credly.com/users/{account}",
+"c": "https://www.credly.com/users/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_codersrank",
+"n": "Coders Rank",
+"g": "程序员与开发",
+"p": "https://profile.codersrank.io/user/{account}/",
+"c": "https://profile.codersrank.io/user/{account}/",
+"src": "sherlock",
+"re": "^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$",
+"ec": 200,
+"neg": [
+"not a registered member"
+]
+},
+{
+"id": "s_cryptomatorforum",
+"n": "Cryptomator Forum",
+"g": "程序员与开发",
+"p": "https://community.cryptomator.org/u/{account}",
+"c": "https://community.cryptomator.org/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_dealabs",
+"n": "Dealabs",
+"g": "社交与社区",
+"p": "https://www.dealabs.com/profile/{account}",
+"c": "https://www.dealabs.com/profile/{account}",
+"src": "sherlock",
+"re": "[a-z0-9]{4,16}",
+"ec": 200,
+"neg": [
+"La page que vous essayez"
+]
+},
+{
+"id": "s_dcinside",
+"n": "dcinside",
+"g": "社交与社区",
+"p": "https://gallog.dcinside.com/{account}",
+"c": "https://gallog.dcinside.com/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_warframemarket",
+"n": "Warframe Market",
+"g": "游戏",
+"p": "https://warframe.market/profile/{account}",
+"c": "https://api.warframe.market/v2/user/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_framapiaf",
+"n": "Framapiaf",
+"g": "社交与社区",
+"p": "https://framapiaf.org/@{account}",
+"c": "https://framapiaf.org/@{account}",
+"src": "sherlock",
+"re": "^[a-zA-Z0-9_]{1,30}$",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_gradle",
+"n": "Gradle",
+"g": "社交与社区",
+"p": "https://plugins.gradle.org/u/{account}",
+"c": "https://plugins.gradle.org/u/{account}",
+"src": "sherlock",
+"re": "^(?!-)[a-zA-Z0-9-]{3,}(?<!-)$",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_hackersploit",
+"n": "HackerSploit",
+"g": "程序员与开发",
+"p": "https://forum.hackersploit.org/u/{account}",
+"c": "https://forum.hackersploit.org/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_hackthebox",
+"n": "HackTheBox",
+"g": "程序员与开发",
+"p": "https://forum.hackthebox.com/u/{account}",
+"c": "https://forum.hackthebox.com/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_imood",
+"n": "imood",
+"g": "社交与社区",
+"p": "https://www.imood.com/users/{account}",
+"c": "https://www.imood.com/users/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_icons8community",
+"n": "Icons8 Community",
+"g": "社交与社区",
+"p": "https://community.icons8.com/u/{account}/summary",
+"c": "https://community.icons8.com/u/{account}/summary",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_hackmd",
+"n": "HackMD",
+"g": "程序员与开发",
+"p": "https://hackmd.io/@{account}",
+"c": "https://hackmd.io/@{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_itemfix",
+"n": "Itemfix",
+"g": "社交与社区",
+"p": "https://www.itemfix.com/c/{account}",
+"c": "https://www.itemfix.com/c/{account}",
+"src": "sherlock",
+"ec": 200,
+"neg": [
+"<title>ItemFix - Channel: </title>"
+]
+},
+{
+"id": "s_ionicforum",
+"n": "Ionic Forum",
+"g": "程序员与开发",
+"p": "https://forum.ionicframework.com/u/{account}",
+"c": "https://forum.ionicframework.com/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_issuu",
+"n": "Issuu",
+"g": "社交与社区",
+"p": "https://issuu.com/{account}",
+"c": "https://issuu.com/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_joplinforum",
+"n": "Joplin Forum",
+"g": "程序员与开发",
+"p": "https://discourse.joplinapp.org/u/{account}",
+"c": "https://discourse.joplinapp.org/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_jellyfinweblate",
+"n": "Jellyfin Weblate",
+"g": "社交与社区",
+"p": "https://translate.jellyfin.org/user/{account}/",
+"c": "https://translate.jellyfin.org/user/{account}/",
+"src": "sherlock",
+"re": "^[a-zA-Z0-9@._-]{1,150}$",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_laracast",
+"n": "Laracast",
+"g": "社交与社区",
+"p": "https://laracasts.com/@{account}",
+"c": "https://laracasts.com/@{account}",
+"src": "sherlock",
+"re": "^[a-zA-Z0-9_-]{3,}$",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_linuxfrorg",
+"n": "LinuxFR.org",
+"g": "程序员与开发",
+"p": "https://linuxfr.org/users/{account}",
+"c": "https://linuxfr.org/users/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_xakepru",
+"n": "Xakep.ru",
+"g": "程序员与开发",
+"p": "https://xakep.ru/author/{account}/",
+"c": "https://xakep.ru/author/{account}/",
+"ec": 200,
+"es": "authorBlock-avatar",
+"mc": 404,
+"ms": "Страница не найдена",
+"src": "wmn"
+},
+{
+"id": "s_mamot",
+"n": "Mamot",
+"g": "社交与社区",
+"p": "https://mamot.fr/@{account}",
+"c": "https://mamot.fr/@{account}",
+"src": "sherlock",
+"re": "^[a-zA-Z0-9_]{1,30}$",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_lottiefiles",
+"n": "LottieFiles",
+"g": "社交与社区",
+"p": "https://lottiefiles.com/{account}",
+"c": "https://lottiefiles.com/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_opengameart",
+"n": "OpenGameArt",
+"g": "游戏",
+"p": "https://opengameart.org/users/{account}",
+"c": "https://opengameart.org/users/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_packagist",
+"n": "Packagist",
+"g": "社交与社区",
+"p": "https://packagist.org/packages/{account}/",
+"c": "https://packagist.org/packages/{account}/",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+301,
+302,
+303,
+307,
+308
+]
+},
+{
+"id": "s_pentesterlab",
+"n": "PentesterLab",
+"g": "社交与社区",
+"p": "https://pentesterlab.com/profile/{account}",
+"c": "https://pentesterlab.com/profile/{account}",
+"src": "sherlock",
+"re": "^[\\w]{4,30}$",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_nothingcommunity",
+"n": "Nothing Community",
+"g": "社交与社区",
+"p": "https://nothing.community/u/{account}",
+"c": "https://nothing.community/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_mydealz",
+"n": "Mydealz",
+"g": "社交与社区",
+"p": "https://www.mydealz.de/profile/{account}",
+"c": "https://www.mydealz.de/profile/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_peppernl",
+"n": "PepperNL",
+"g": "社交与社区",
+"p": "https://nl.pepper.com/profile/{account}",
+"c": "https://nl.pepper.com/profile/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_launchpad",
+"n": "Launchpad",
+"g": "社交与社区",
+"p": "https://launchpad.net/~{account}",
+"c": "https://launchpad.net/~{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_preisjaeger",
+"n": "Preisjaeger",
+"g": "社交与社区",
+"p": "https://www.preisjaeger.at/profile/{account}",
+"c": "https://www.preisjaeger.at/profile/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_playstrategy",
+"n": "Playstrategy",
+"g": "游戏",
+"p": "https://playstrategy.org/@/{account}",
+"c": "https://playstrategy.org/@/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_promodescuentos",
+"n": "Promodescuentos",
+"g": "游戏",
+"p": "https://www.promodescuentos.com/profile/{account}",
+"c": "https://www.promodescuentos.com/profile/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_pepperpl",
+"n": "PepperPL",
+"g": "社交与社区",
+"p": "https://www.pepper.pl/profile/{account}",
+"c": "https://www.pepper.pl/profile/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_pepperdeals",
+"n": "Pepperdeals",
+"g": "社交与社区",
+"p": "https://www.pepperdeals.se/profile/{account}",
+"c": "https://www.pepperdeals.se/profile/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_rcloneforum",
+"n": "Rclone Forum",
+"g": "程序员与开发",
+"p": "https://forum.rclone.org/u/{account}",
+"c": "https://forum.rclone.org/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_seoforum",
+"n": "SEOForum",
+"g": "程序员与开发",
+"p": "https://seoforum.com/@{account}",
+"c": "https://seoforum.com/@{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_signal",
+"n": "Signal",
+"g": "社交与社区",
+"p": "https://community.signalusers.org/u/{account}",
+"c": "https://community.signalusers.org/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"neg": [
+"Oops! That page doesn’t exist or is private."
+]
+},
+{
+"id": "s_rajcenet",
+"n": "Rajce.net",
+"g": "社交与社区",
+"p": "https://{account}.rajce.idnes.cz/",
+"c": "https://{account}.rajce.idnes.cz/",
+"src": "sherlock",
+"re": "^[\\w@-]+?$",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_slack",
+"n": "Slack",
+"g": "社交与社区",
+"p": "https://{account}.slack.com",
+"c": "https://{account}.slack.com",
+"src": "sherlock",
+"re": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_spells8",
+"n": "Spells8",
+"g": "程序员与开发",
+"p": "https://forum.spells8.com/u/{account}",
+"c": "https://forum.spells8.com/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_spacehey",
+"n": "SpaceHey",
+"g": "社交与社区",
+"p": "https://spacehey.com/{account}",
+"c": "https://spacehey.com/{account}",
+"src": "sherlock",
+"ec": 200,
+"neg": [
+"Not Found (Error 404) | SpaceHey"
+]
+},
+{
+"id": "s_sublimeforum",
+"n": "SublimeForum",
+"g": "程序员与开发",
+"p": "https://forum.sublimetext.com/u/{account}",
+"c": "https://forum.sublimetext.com/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_statuscafe",
+"n": "Status Cafe",
+"g": "社交与社区",
+"p": "https://status.cafe/users/{account}",
+"c": "https://status.cafe/users/{account}",
+"src": "sherlock",
+"ec": 200,
+"neg": [
+"Page Not Found"
+]
+},
+{
+"id": "s_tiendanube",
+"n": "Tiendanube",
+"g": "社交与社区",
+"p": "https://{account}.mitiendanube.com/",
+"c": "https://{account}.mitiendanube.com/",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_soylentnews",
+"n": "SoylentNews",
+"g": "社交与社区",
+"p": "https://soylentnews.org/~{account}",
+"c": "https://soylentnews.org/~{account}",
+"src": "sherlock",
+"ec": 200,
+"neg": [
+"The user you requested does not exist, no matter how much you wish this might be the case."
+]
+},
+{
+"id": "s_soop",
+"n": "SOOP",
+"g": "视频与直播",
+"p": "https://www.sooplive.co.kr/station/{account}",
+"c": "https://api-channel.sooplive.co.kr/v1.1/channel/{account}/station",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_twitch",
+"n": "Twitch",
+"g": "视频与直播",
+"p": "https://www.twitch.tv/{account}",
+"c": "https://www.twitch.tv/{account}",
+"src": "sherlock",
+"ec": 200,
+"neg": [
+"content='Twitch is the world&#39;s leading video platform and community for gamers.'"
+]
+},
+{
+"id": "s_topmate",
+"n": "Topmate",
+"g": "社交与社区",
+"p": "https://topmate.io/{account}",
+"c": "https://topmate.io/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_trawelling",
+"n": "Trawelling",
+"g": "社交与社区",
+"p": "https://traewelling.de/@{account}",
+"c": "https://traewelling.de/@{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_typeracer",
+"n": "Typeracer",
+"g": "社交与社区",
+"p": "https://data.typeracer.com/pit/profile?user={account}",
+"c": "https://data.typeracer.com/pit/profile?user={account}",
+"src": "sherlock",
+"ec": 200,
+"neg": [
+"Profile Not Found"
+]
+},
+{
+"id": "s_valorantforums",
+"n": "Valorant Forums",
+"g": "程序员与开发",
+"p": "https://valorantforums.com/u/{account}",
+"c": "https://valorantforums.com/u/{account}",
+"src": "sherlock",
+"ec": 200,
+"neg": [
+"The page you requested could not be found."
+]
+},
+{
+"id": "s_vlr",
+"n": "VLR",
+"g": "社交与社区",
+"p": "https://www.vlr.gg/user/{account}",
+"c": "https://www.vlr.gg/user/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_velog",
+"n": "Velog",
+"g": "社交与社区",
+"p": "https://velog.io/@{account}/posts",
+"c": "https://velog.io/@{account}/posts",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_webnode",
+"n": "WebNode",
+"g": "社交与社区",
+"p": "https://{account}.webnode.cz/",
+"c": "https://{account}.webnode.cz/",
+"src": "sherlock",
+"re": "^[\\w@-]+?$",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_tistory",
+"n": "tistory",
+"g": "博客与写作",
+"p": "https://{account}.tistory.com/",
+"c": "https://{account}.tistory.com/",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_leasehackr",
+"n": "leasehackr",
+"g": "程序员与开发",
+"p": "https://forum.leasehackr.com/u/{account}/summary/",
+"c": "https://forum.leasehackr.com/u/{account}/summary/",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_mastodoncloud",
+"n": "mastodon.cloud",
+"g": "社交与社区",
+"p": "https://mastodon.cloud/@{account}",
+"c": "https://mastodon.cloud/@{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_irecommend",
+"n": "irecommend",
+"g": "社交与社区",
+"p": "https://irecommend.ru/users/{account}",
+"c": "https://irecommend.ru/users/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_mastodonxyz",
+"n": "mastodon.xyz",
+"g": "社交与社区",
+"p": "https://mastodon.xyz/@{account}",
+"c": "https://mastodon.xyz/@{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_mstdnsocial",
+"n": "mstdn.social",
+"g": "社交与社区",
+"p": "https://mstdn.social/@{account}",
+"c": "https://mstdn.social/@{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_n8ncommunity",
+"n": "n8n Community",
+"g": "社交与社区",
+"p": "https://community.n8n.io/u/{account}/summary",
+"c": "https://community.n8n.io/u/{account}/summary",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_sessionize",
+"n": "sessionize",
+"g": "社交与社区",
+"p": "https://sessionize.com/{account}",
+"c": "https://sessionize.com/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_spletnik",
+"n": "spletnik",
+"g": "社交与社区",
+"p": "https://spletnik.ru/user/{account}",
+"c": "https://spletnik.ru/user/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_addonswagoio",
+"n": "addons.wago.io",
+"g": "程序员与开发",
+"p": "https://addons.wago.io/user/{account}",
+"c": "https://addons.wago.io/user/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_platzi",
+"n": "Platzi",
+"g": "社交与社区",
+"p": "https://platzi.com/p/{account}/",
+"c": "https://platzi.com/p/{account}/",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_biggerpockets",
+"n": "BiggerPockets",
+"g": "创作者与电商",
+"p": "https://www.biggerpockets.com/users/{account}",
+"c": "https://www.biggerpockets.com/users/{account}",
+"ec": 200,
+"es": "| BiggerPockets</title>",
+"mc": 404,
+"ms": "Page not found",
+"src": "wmn"
+},
+{
+"id": "w_dibiz",
+"n": "DIBIZ",
+"g": "创作者与电商",
+"p": "https://www.dibiz.com/{account}",
+"c": "https://www.dibiz.com/{account}",
+"ec": 200,
+"es": "Add to contacts</span>",
+"mc": 404,
+"ms": "An Error Has Occurred",
+"src": "wmn"
+},
+{
+"id": "w_gtainsidecom",
+"n": "GTAinside.com",
+"g": "游戏",
+"p": "https://www.gtainside.com/profile/{account}",
+"c": "https://www.gtainside.com/profile/{account}",
+"ec": 200,
+"es": "class=\"user-profile-name\"",
+"mc": 404,
+"ms": "<title>Page not found - 404</title>",
+"src": "wmn"
+},
+{
+"id": "w_ifunny",
+"n": "ifunny",
+"g": "其他",
+"p": "https://ifunny.co/user/{account}",
+"c": "https://ifunny.co/user/{account}",
+"ec": 200,
+"es": "subscribers",
+"mc": 404,
+"ms": "404 - page not found",
+"src": "wmn"
+},
+{
+"id": "w_mastodoncim",
+"n": "Mastodon-C.IM",
+"g": "社交与社区",
+"p": "https://c.im/@{account}",
+"c": "https://c.im/@{account}",
+"ec": 200,
+"es": "@c.im) - C.IM</title>",
+"mc": 404,
+"ms": "<title>The page you are looking for isn&#39;t here",
+"src": "wmn"
+},
+{
+"id": "w_max",
+"n": "MAX",
+"g": "社交与社区",
+"p": "https://max.ru/{account}",
+"c": "https://max.ru/{account}",
+"ec": 200,
+"es": "в мессенджере MAX</title>",
+"mc": 200,
+"ms": "linkInfo:{}",
+"src": "wmn"
+},
+{
+"id": "w_viewbug",
+"n": "VIEWBUG",
+"g": "兴趣爱好",
+"p": "https://www.viewbug.com/member/{account}",
+"c": "https://www.viewbug.com/member/{account}",
+"ec": 200,
+"es": "class=\"top-profile-membership\"",
+"mc": 404,
+"ms": "id=\"missing-this\"",
+"src": "wmn"
+},
+{
+"id": "w_truckersmpru",
+"n": "TruckersMP.Ru",
+"g": "游戏",
+"p": "https://truckersmp.ru/{account}",
+"c": "https://truckersmp.ru/{account}",
+"ec": 200,
+"es": "class=\"b-user-page\"",
+"mc": 404,
+"ms": "class=\"b-handler-error-404\"",
+"src": "wmn"
+},
+{
+"id": "w_designspriation",
+"n": "Designspriation",
+"g": "设计与摄影",
+"p": "https://www.designspiration.com/{account}/",
+"c": "https://www.designspiration.com/{account}/",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_dojoverse",
+"n": "Dojoverse",
+"g": "兴趣爱好",
+"p": "https://dojoverse.com/members/{account}/",
+"c": "https://dojoverse.com/members/{account}/",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_crowdin",
+"n": "Crowdin",
+"g": "兴趣爱好",
+"p": "https://crowdin.com/profile/{account}",
+"c": "https://crowdin.com/profile/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_hihello",
+"n": "HiHello",
+"g": "创作者与电商",
+"p": "https://www.hihello.com/author/{account}",
+"c": "https://www.hihello.com/author/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_coda",
+"n": "Coda",
+"g": "兴趣爱好",
+"p": "https://coda.io/@{account}/",
+"c": "https://coda.io/@{account}/",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_cdapl",
+"n": "cda.pl",
+"g": "视频与直播",
+"p": "https://www.cda.pl/{account}",
+"c": "https://www.cda.pl/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_coub",
+"n": "Coub",
+"g": "社交与社区",
+"p": "https://coub.com/{account}/",
+"c": "https://coub.com/api/v2/channels/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_hostuxsocialmastodoninst",
+"n": "Hostux.social (Mastodon Instance)",
+"g": "社交与社区",
+"p": "https://hostux.social/@{account}",
+"c": "https://hostux.social/api/v1/accounts/lookup?acct={account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_knowyourmeme",
+"n": "KnowYourMeme",
+"g": "社交与社区",
+"p": "https://knowyourmeme.com/users/{account}",
+"c": "https://knowyourmeme.com/users/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_habbocomtr",
+"n": "Habbo.com.tr",
+"g": "游戏",
+"p": "https://www.habbo.com.tr/profile/{account}",
+"c": "https://www.habbo.com.tr/api/public/users?name={account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_imageshack",
+"n": "ImageShack",
+"g": "设计与摄影",
+"p": "https://imageshack.com/user/{account}",
+"c": "https://imageshack.com/user/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_habbocom",
+"n": "Habbo.com",
+"g": "游戏",
+"p": "https://www.habbo.com/profile/{account}",
+"c": "https://www.habbo.com/api/public/users?name={account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_hoobe",
+"n": "hoo.be",
+"g": "社交与社区",
+"p": "https://hoo.be/{account}",
+"c": "https://hoo.be/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_mastodonmeowsocial",
+"n": "Mastodon-meow.social",
+"g": "社交与社区",
+"p": "https://meow.social/@{account}",
+"c": "https://meow.social/@{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_habbode",
+"n": "Habbo.de",
+"g": "游戏",
+"p": "https://www.habbo.de/profile/{account}",
+"c": "https://www.habbo.de/api/public/users?name={account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_alura",
+"n": "Alura",
+"g": "程序员与开发",
+"p": "https://cursos.alura.com.br/user/{account}",
+"c": "https://cursos.alura.com.br/user/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_opensource",
+"n": "OpenSource",
+"g": "程序员与开发",
+"p": "https://opensource.com/users/{account}",
+"c": "https://opensource.com/users/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_patch",
+"n": "patch",
+"g": "博客与写作",
+"p": "https://patch.com/users/{account}",
+"c": "https://patch.com/users/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_cytoid",
+"n": "Cytoid",
+"g": "游戏",
+"p": "https://cytoid.io/profile/{account}",
+"c": "https://cytoid.io/profile/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_popl",
+"n": "popl",
+"g": "创作者与电商",
+"p": "https://poplme.co/{account}",
+"c": "https://poplme.co/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_freelanceru",
+"n": "Freelance.RU",
+"g": "创作者与电商",
+"p": "https://freelance.ru/{account}",
+"c": "https://freelance.ru/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_plink",
+"n": "Plink",
+"g": "游戏",
+"p": "https://plink.gg/user/{account}",
+"c": "https://plink.gg/user/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_planoly",
+"n": "Planoly",
+"g": "其他",
+"p": "https://planoly.store/{account}",
+"c": "https://planoly.store/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_myfitnesspalcommunity",
+"n": "myfitnesspal Community",
+"g": "兴趣爱好",
+"p": "https://community.myfitnesspal.com/en/profile/{account}",
+"c": "https://community.myfitnesspal.com/en/profile/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_prose",
+"n": "Prose",
+"g": "博客与写作",
+"p": "https://prose.astral.camp/{account}/",
+"c": "https://prose.astral.camp/{account}/",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_patronite",
+"n": "Patronite",
+"g": "创作者与电商",
+"p": "https://patronite.pl/{account}",
+"c": "https://patronite.pl/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_rantli",
+"n": "Rant.li",
+"g": "博客与写作",
+"p": "https://rant.li/{account}/",
+"c": "https://rant.li/{account}/",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_poshmark",
+"n": "Poshmark",
+"g": "创作者与电商",
+"p": "https://poshmark.com/closet/{account}",
+"c": "https://poshmark.com/closet/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_shopify",
+"n": "shopify",
+"g": "创作者与电商",
+"p": "https://{account}.myshopify.com",
+"c": "https://{account}.myshopify.com",
+"ec": 200,
+"src": "wmn",
+"strip": ".",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_themeforest",
+"n": "themeforest",
+"g": "设计与摄影",
+"p": "https://themeforest.net/user/{account}",
+"c": "https://themeforest.net/user/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_shikimori",
+"n": "Shikimori",
+"g": "社交与社区",
+"p": "https://shikimori.io/{account}",
+"c": "https://shikimori.io/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_discordbio",
+"n": "Discord.bio",
+"g": "社交与社区",
+"p": "https://discords.com/api-v2/bio/details/{account}",
+"c": "https://discords.com/api-v2/bio/details/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_smashrun",
+"n": "SmashRun",
+"g": "兴趣爱好",
+"p": "https://smashrun.com/{account}/",
+"c": "https://smashrun.com/{account}/",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_googleplay",
+"n": "Google Play",
+"g": "游戏",
+"p": "https://play.google.com/store/apps/developer?id={account}",
+"c": "https://play.google.com/store/apps/developer?id={account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_seoclerks",
+"n": "SEOClerks",
+"g": "社交与社区",
+"p": "https://www.seoclerks.com/user/{account}",
+"c": "https://www.seoclerks.com/user/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_vero",
+"n": "Vero",
+"g": "设计与摄影",
+"p": "https://vero.co/{account}",
+"c": "https://vero.co/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_jupytercommunityforum",
+"n": "Jupyter Community Forum",
+"g": "程序员与开发",
+"p": "https://discourse.jupyter.org/u/{account}/summary",
+"c": "https://discourse.jupyter.org/u/{account}/summary",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_suzuri",
+"n": "Suzuri",
+"g": "创作者与电商",
+"p": "https://suzuri.jp/{account}",
+"c": "https://suzuri.jp/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_listed",
+"n": "Listed",
+"g": "社交与社区",
+"p": "https://listed.to/@{account}",
+"c": "https://listed.to/@{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_xing",
+"n": "Xing",
+"g": "社交与社区",
+"p": "https://www.xing.com/profile/{account}",
+"c": "https://www.xing.com/profile/{account}",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_pychess",
+"n": "Pychess",
+"g": "游戏",
+"p": "https://www.pychess.org/@/{account}",
+"c": "https://www.pychess.org/@/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_lesswrong",
+"n": "LessWrong",
+"g": "社交与社区",
+"p": "https://www.lesswrong.com/users/{account}",
+"c": "https://www.lesswrong.com/users/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_wordpressorg",
+"n": "WordPressOrg",
+"g": "博客与写作",
+"p": "https://profiles.wordpress.org/{account}/",
+"c": "https://profiles.wordpress.org/{account}/",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_nicommunityforum",
+"n": "NICommunityForum",
+"g": "程序员与开发",
+"p": "https://community.native-instruments.com/profile/{account}",
+"c": "https://community.native-instruments.com/profile/{account}",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "s_football",
+"n": "Football",
+"g": "社交与社区",
+"p": "https://www.rusfootball.info/user/{account}/",
+"c": "https://www.rusfootball.info/user/{account}/",
+"src": "sherlock",
+"ec": 200,
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_nnru",
+"n": "nnru",
+"g": "社交与社区",
+"p": "https://{account}.www.nn.ru",
+"c": "https://{account}.www.nn.ru",
+"ec": 200,
+"src": "wmn",
+"strip": ".",
+"mcs": [
+404,
+410
+]
+},
+{
+"id": "w_soccitizen4eu",
+"n": "soc.citizen4.eu",
+"g": "社交与社区",
+"p": "https://soc.citizen4.eu/profile/{account}/profile",
+"c": "https://soc.citizen4.eu/profile/{account}/profile",
+"ec": 200,
+"src": "wmn",
+"mcs": [
+404,
+410
+]
 }
 ]
 }

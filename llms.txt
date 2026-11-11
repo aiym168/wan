@@ -482,7 +482,7 @@
 - [端口检测](https://wan.is-my.app/duankou-jiance/): 检测服务器端口是否开放
 - [网速测试](https://wan.is-my.app/wangsu-ceshi/): 测下载速度和延迟
 - [HTTP 状态码大全](https://wan.is-my.app/http-zhuangtaima/): 200、301、404、502 含义速查
-- [用户名查询](https://wan.is-my.app/yonghuming-chaxun/): 查同一个 ID 在哪些网站有主页
+- [账号侦探](https://wan.is-my.app/yonghuming-chaxun/): 一键查网名注册过哪些网站
 - [Ipv4地址转换器](https://wan.is-my.app/ipv4-address-converter/): 在ipv6中，将ip地址转换为十进制、二进
 - [IPv4范围扩展器](https://wan.is-my.app/ipv4-range-expander/): 给定起始和结束IPv4地址，此工具使用其C
 - [IPv4子网计算器](https://wan.is-my.app/ipv4-subnet-calculator/): 解析IPv4 CIDR块，并获取有关子网络

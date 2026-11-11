@@ -961,11 +961,11 @@
 },
 {
 "slug": "yonghuming-chaxun",
-"name": "用户名查询",
-"short": "查同一个 ID 在哪些网站有主页",
+"name": "账号侦探",
+"short": "一键查网名注册过哪些网站",
 "cat": "net",
-"title": "用户名查询 - 免费查ID在哪些网站注册过",
-"keywords": "用户名查询,ID查询,账号查询,网名查询,用户名注册查询,查用户名在哪些网站注册,用户名在哪些网站注册过,同名账号查询,社交账号查询,whatsmyname,sherlock",
+"title": "账号侦探 - 免费查你的网名注册过哪些网站",
+"keywords": "账号侦探,用户名查询,查询注册过哪些网站,网名查询,ID查询网站,数字足迹,查自己注册过的网站,id注册查询,网名注册过哪些网站,账号查询,同名账号查询,用户名在哪些网站注册过,whatsmyname,sherlock",
 "url": "/yonghuming-chaxun/",
 "new": true
 },
