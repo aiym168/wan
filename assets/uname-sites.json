@@ -43,7 +43,7 @@
 "p": "https://blog.csdn.net/{account}",
 "c": "https://blog.csdn.net/{account}",
 "ec": 200,
-"es": "-CSDN博客</title>",
+"es": "CSDN博客",
 "mc": 404
 },
 {
@@ -880,7 +880,7 @@
 "ec": 200,
 "es": " | Dribbble",
 "mc": 404,
-"ms": "(404)</title>"
+"ms": null
 },
 {
 "id": "artstation",
