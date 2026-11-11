@@ -81,7 +81,7 @@ def main(a):
         name = re.sub(r'[\\/:*?"<>|\s#]+', " ", d.get("title") or "video").strip()[:40] or "video"
         for i, (u, ext) in enumerate(items):
             fn = os.path.join(out, f"{name}{'-' + str(i + 1) if len(items) > 1 else ''}.{ext}")
-            with get(b + "/dl/api/file?u=" + urllib.parse.quote(u) + "&name=" + urllib.parse.quote(os.path.basename(fn)), 600) as r, open(fn, "wb") as f:
+            with get(b + "/dl/api/file?" + d.get("fq", "") + "&u=" + urllib.parse.quote(u) + "&name=" + urllib.parse.quote(os.path.basename(fn)), 600) as r, open(fn, "wb") as f:
                 while True:
                     c = r.read(1 << 16)
                     if not c: break

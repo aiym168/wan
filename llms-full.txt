@@ -1002,67 +1002,67 @@
 网址: https://wan.is-my.app/douyin-download/
 说明: 免费抖音无水印视频下载：粘贴抖音分享链接，一键解析无水印高清视频、图集原图、背景音乐和封面，手机电脑都能用，免登录不限次数。
 用法: 在抖音 App 里打开视频，点右下角「分享」，选「复制链接」。 回到本页，把复制的整段文字粘贴到输入框（不用删掉多余文字）。 点「解析视频」，选择清晰度点「下载」；图集会列出每一张原图。
-接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名> 下载。命令行: python3 gjz.py download <分享链接>
+接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名>&<fq> 下载（fq 是 parse 返回的下载凭证，与调用者 IP 绑定，15 分钟内有效；非网页调用每 IP 每小时最多解析 30 次）。命令行: python3 gjz.py download <分享链接>
 
 ## X / Twitter 视频下载
 网址: https://wan.is-my.app/x-video-download/
 说明: 免费 X（Twitter）视频下载器：粘贴推文链接，解析推特视频和 GIF 的多种清晰度 MP4 直接下载，无需登录、不限次数，手机电脑都能用。
 用法: 在 X（Twitter）里打开带视频的推文，点「分享 → 复制链接」。 粘贴到输入框，点「解析视频」。 选择清晰度点「下载」，得到 MP4 文件。
-接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名> 下载。命令行: python3 gjz.py download <分享链接>
+接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名>&<fq> 下载（fq 是 parse 返回的下载凭证，与调用者 IP 绑定，15 分钟内有效；非网页调用每 IP 每小时最多解析 30 次）。命令行: python3 gjz.py download <分享链接>
 
 ## B站视频下载
 网址: https://wan.is-my.app/bilibili-download/
 说明: 免费 B 站视频下载：粘贴哔哩哔哩视频链接或 BV 号链接，解析出 MP4 视频直接下载，支持 b23.tv 短链和分 P，免登录、不限次数。
 用法: 在 B 站打开视频，复制浏览器地址或点「分享 → 复制链接」。 粘贴到输入框，点「解析视频」。 选择清晰度下载；多 P 视频在链接后加 ?p=2 即可下载第 2 P。
-接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名> 下载。命令行: python3 gjz.py download <分享链接>
+接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名>&<fq> 下载（fq 是 parse 返回的下载凭证，与调用者 IP 绑定，15 分钟内有效；非网页调用每 IP 每小时最多解析 30 次）。命令行: python3 gjz.py download <分享链接>
 
 ## 快手无水印下载
 网址: https://wan.is-my.app/kuaishou-download/
 说明: 免费快手无水印视频下载：粘贴快手分享链接或整段分享文字，一键解析无水印原画视频和封面，支持 v.kuaishou.com 短链，免登录不限次数。
 用法: 在快手 App 里打开作品，点右侧「分享」，选「复制链接」。 回到本页，把复制的整段文字粘贴到输入框。 点「解析视频」，再点「下载」保存无水印视频。
-接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名> 下载。命令行: python3 gjz.py download <分享链接>
+接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名>&<fq> 下载（fq 是 parse 返回的下载凭证，与调用者 IP 绑定，15 分钟内有效；非网页调用每 IP 每小时最多解析 30 次）。命令行: python3 gjz.py download <分享链接>
 
 ## 万能视频解析下载
 网址: https://wan.is-my.app/video-download/
 说明: 免费万能视频解析下载：支持抖音、快手、X/Twitter、B站、微博、Vimeo 等上千个网站，粘贴链接解析视频直接下载，免登录。
 用法: 复制视频的分享链接或网址。 粘贴后点「解析视频」，系统会自动识别平台。 在结果里选择清晰度下载，也可以下载音频和封面。
-接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名> 下载。命令行: python3 gjz.py download <分享链接>
+接口: GET {BASE}/dl/api/parse?url=<分享链接>，再用 GET {BASE}/dl/api/file?u=<videos[0].url>&name=<文件名>&<fq> 下载（fq 是 parse 返回的下载凭证，与调用者 IP 绑定，15 分钟内有效；非网页调用每 IP 每小时最多解析 30 次）。命令行: python3 gjz.py download <分享链接>
 
 ## 视频转文字
 网址: https://wan.is-my.app/video-to-text/
 说明: 免费视频转文字工具：上传视频或粘贴抖音、B站链接，AI 自动把口播语音转成文字文案，带标点，可下载 TXT 和 SRT 字幕，免登录免费用。
 用法: 点「上传视频或音频」选择文件，或点「粘贴视频链接」粘贴抖音 / B站 / X 的分享链接。 等待几秒到几十秒，进度条走完就出结果。 在文本框里修改错字，点「复制文案」，或下载 TXT / SRT。
-接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>（只限创建任务的同一 IP 下载）。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
 
 ## 音频转文字
 网址: https://wan.is-my.app/audio-to-text/
 说明: 免费音频转文字：上传 MP3、M4A、WAV、AMR 录音或口播音频，AI 自动识别成带标点的文字，支持普通话粤语英语，可下载 TXT 和字幕，免登录。
 用法: 点「上传音频文件」选择录音（手机录音、微信语音导出的文件都可以）。 等待识别完成。 复制文字，或下载 TXT / SRT。
-接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>（只限创建任务的同一 IP 下载）。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
 
 ## 视频拆解脚本
 网址: https://wan.is-my.app/video-script/
 说明: 免费视频拆解脚本工具：自动识别视频镜头切换，截取每个镜头的关键帧，配上逐镜头口播台词，一键生成分镜脚本表格，学习爆款短视频结构。
 用法: 上传视频或粘贴抖音 / B站 / X 链接。 可选调整「镜头灵敏度」：快节奏混剪调低，访谈类调高。 等处理完成，查看分镜表，下载 ZIP（含 CSV 表格、Markdown、全部关键帧和字幕）。
-接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>（只限创建任务的同一 IP 下载）。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
 
 ## 视频生成字幕
 网址: https://wan.is-my.app/video-to-srt/
 说明: 免费自动生成字幕：上传视频，AI 识别语音并按时间轴生成 SRT / VTT 字幕文件，可直接导入剪映、Premiere、PR，支持普通话粤语英语。
 用法: 上传视频或粘贴视频链接。 等待识别完成，检查并修改字幕文字。 下载 SRT 导入剪辑软件。
-接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>（只限创建任务的同一 IP 下载）。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
 
 ## 视频提取音频
 网址: https://wan.is-my.app/video-to-mp3/
 说明: 免费视频提取音频：上传视频或粘贴抖音、B站链接，一键把视频里的声音提取成高品质 MP3，背景音乐、口播都能提取，免登录不限格式。
 用法: 上传视频或粘贴视频链接。 等几秒钟。 在线试听，点「下载 MP3」保存。
-接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>（只限创建任务的同一 IP 下载）。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
 
 ## 视频封面提取
 网址: https://wan.is-my.app/video-cover/
 说明: 免费视频封面提取：上传视频或粘贴链接，自动截取第一帧、最清晰画面和按时间均匀分布的 9 张截图，原尺寸 JPG 下载，做封面、配图都方便。
 用法: 上传视频或粘贴视频链接。 等几秒钟。 挑选喜欢的画面点「下载」。
-接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>（只限创建任务的同一 IP 下载）。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
 
 ## 字幕格式转换
 网址: https://wan.is-my.app/srt-tools/
@@ -1716,7 +1716,7 @@
 网址: https://wan.is-my.app/duanshipin-gongzuotai/
 说明: 免费短视频工作台：作品解析下载、博主主页巡检、直播录制、视频转码剪切合并抽帧和区域去水印、违禁词检测、局域网快传，网页直接用，另有免费桌面版。
 用法: 在上方选择要用的功能：作品解析、主页巡检、直播录制、视频工坊、违禁检测或局域网快传。 作品解析：粘贴作品链接或分享口令，点「解析」后选择清晰度下载视频、音频或封面。 视频工坊：选择本地视频，选功能（转码、压缩、剪切、合并、抽帧、区域去水印、提取音频、转 GIF），处理完直接下载，视频不上传。 需要批量采集、定时监控、整场直播录制，下载免费的 Windows 桌面版。
-接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>（只限创建任务的同一 IP 下载）。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
 
 ## 短视频工作台 Windows 版下载
 网址: https://wan.is-my.app/duanshipin-gongzuotai-download/

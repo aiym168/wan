@@ -83,6 +83,10 @@
           },
           "error": {
            "type": "string"
+          },
+          "fq": {
+           "type": "string",
+           "description": "下载凭证（e=…&s=…），与调用者 IP 绑定，15 分钟内有效；调用 /dl/api/file 时原样附加"
           }
          }
         }
@@ -90,7 +94,7 @@
       }
      },
      "429": {
-      "description": "请求太频繁"
+      "description": "请求太频繁（非网页调用每 IP 每小时 30 次）"
      }
     }
    }
@@ -116,11 +120,32 @@
        "type": "string"
       },
       "description": "保存的文件名"
+     },
+     {
+      "name": "e",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "integer"
+      },
+      "description": "来自 parse 返回的 fq"
+     },
+     {
+      "name": "s",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string"
+      },
+      "description": "来自 parse 返回的 fq"
      }
     ],
     "responses": {
      "200": {
       "description": "文件内容"
+     },
+     "403": {
+      "description": "凭证无效、过期或 IP 不一致：重新调用 parse"
      }
     }
    }
