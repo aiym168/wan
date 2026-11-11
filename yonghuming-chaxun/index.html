@@ -83,7 +83,7 @@
 <h2>数据来源与许可</h2>
 <p class="note">海外网站的检测规则改编自开源项目 <a href="https://github.com/WebBreacher/WhatsMyName" target="_blank" rel="noopener">WhatsMyName</a>（作者 Micah Hoffman 等，采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans" target="_blank" rel="noopener">CC BY-SA 4.0</a> 许可），我们逐个实测筛选并修改了部分规则；国内平台规则由本站整理。改编后的网站列表按同样的 CC BY-SA 4.0 许可公开：<a href="/assets/uname-sites.json">uname-sites.json</a>。</p>
 <h2>怎么用用户名查询</h2>
-<ol class="steps"><li>在输入框里填你常用的用户名（ID），比如注册网站时常用的英文名；中文昵称只会在支持中文的平台上查。</li><li>点「开始查询」，结果会一边查一边出现，一般 10—40 秒查完。</li><li>点「找到」筛选出有公开主页的网站，点「打开主页」确认是不是你自己的账号。</li><li>「暂时无法检查」表示网站拦截了查询或响应太慢，可以稍后再查，或点进官网自己确认。</li></ol>
+<ol class="steps"><li>在输入框里填你常用的用户名（ID），比如注册网站时常用的英文名；中文昵称只会在支持中文的平台上查。</li><li>点「开始查询」，结果会一边查一边出现，一般 10—40 秒查完。</li><li>点「找到」筛选出有公开主页的网站，点「打开主页」确认是不是你自己的账号。</li><li>「暂时无法检查」表示网站拦截了查询或响应太慢，可以稍后再查，或点旁边的「去看看」到官网自己确认。</li></ol>
 <h2>用户名查询常见问题</h2>
 <dl class="faq"><dt>这个工具免费吗？</dt><dd>完全免费。用户名查询不收费、不限次数、不用注册登录，也没有水印。</dd><dt>查到了就说明是同一个人吗？</dt><dd>不是。找到只表示这个用户名在该网站有公开主页，常见的名字很多人都在用，一定要点开主页自己确认。</dd><dt>显示没找到，就是没注册过吗？</dt><dd>不一定。账号可能改过名、已注销、设成了私密，或者网站暂时拦截了查询，结果仅供参考。</dd><dt>能用手机号或邮箱查注册过哪些网站吗？</dt><dd>不能。为了保护隐私、避免被滥用，本工具只查用户名对应的公开主页，不支持手机号和邮箱查询。</dd><dt>为什么没有小红书、抖音、微信？</dt><dd>这些平台没有按用户名访问的公开主页，查看必须登录 App，我们不会用伪造的方式去查。X（推特）、Instagram、知乎、微博等会拦截自动查询，页面里给出了主页链接，可以自己点开看。</dd><dt>会保存我查询的用户名吗？</dt><dd>不会。用户名只用于这一次查询，服务器不写日志、不存数据库，只在内存里缓存十几分钟的查询结果，避免重复访问同一个网站。</dd><dt>为什么提示查询太频繁？</dt><dd>为了不给各网站和本站服务器造成压力，每个 IP 每 10 分钟最多查 4 次，每天最多 20 次左右。</dd><dt>可以用来查别人吗？</dt><dd>请只用于自查、查重和防冒用。不要用查到的信息骚扰、跟踪或人肉他人，这可能违反法律。</dd></dl>
 <h2>更多免费在线工具</h2>
@@ -121,7 +121,7 @@ function browserCheck(s,u){var ctl=window.AbortController?new AbortController():
 var LB={found:'有公开主页',missing:'没找到',unknown:'暂时无法检查',skip:'不适用',wait:'查询中…'};
 function render(){var h='';GR.forEach(function(g){var l=SITES.filter(function(s){return s.g===g&&ST[s.id]&&(F==='all'||ST[s.id].s===F)});if(!l.length)return;
  l.sort(function(a,b){var o={found:0,wait:1,unknown:2,missing:3,skip:4};return o[ST[a.id].s]-o[ST[b.id].s]});
- h+='<h3>'+H(g)+'</h3><div class="unr">'+l.map(function(s){var r=ST[s.id];return '<div class="uni '+r.s+'"><span class="nm">'+H(s.n)+(s.note?'<small>'+H(s.note)+'</small>':'')+'</span>'+(r.s==='found'&&r.url?'<a class="go" href="'+H(r.url)+'" target="_blank" rel="noopener noreferrer nofollow">打开主页 ↗</a>':'<span class="st">'+LB[r.s]+'</span>')+'</div>'}).join('')+'</div>'});
+ h+='<h3>'+H(g)+'</h3><div class="unr">'+l.map(function(s){var r=ST[s.id];return '<div class="uni '+r.s+'"><span class="nm">'+H(s.n)+(s.note?'<small>'+H(s.note)+'</small>':'')+'</span>'+(r.s==='found'&&r.url?'<a class="go" href="'+H(r.url)+'" target="_blank" rel="noopener noreferrer nofollow">打开主页 ↗</a>':'<span class="st">'+LB[r.s]+'</span>'+(r.s==='unknown'&&U?'<a class="go" href="'+H(fill(s.p,U))+'" target="_blank" rel="noopener noreferrer nofollow" title="打开官网自己确认">去看看 ↗</a>':''))+'</div>'}).join('')+'</div>'});
  $('#o').innerHTML=h||'<p class="note">这个分类下没有结果。</p>';var d=0,f=0,u=0,t=0;SITES.forEach(function(s){var r=ST[s.id];if(!r)return;t++;if(r.s!=='wait')d++;if(r.s==='found')f++;if(r.s==='unknown')u++});
  $('#nd').textContent=d;$('#nt').textContent=t;$('#nf').textContent=f;$('#nu').textContent=u?u+' 个暂时无法检查':'';$('#unbar').style.width=(t?d/t*100:0)+'%'}
 var RT=0;function set(id,s,url,run){if(run!==RUN||!BY[id])return;if(ST[id]&&ST[id].s!=='wait')return;if(url&&!/^https:\/\//.test(url))url=null;ST[id]={s:s,url:url};clearTimeout(RT);RT=setTimeout(render,60)}
