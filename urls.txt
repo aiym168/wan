@@ -119,6 +119,8 @@ https://wan.is-my.app/zhibo-tici/
 https://wan.is-my.app/zhibo-choujiang/
 https://wan.is-my.app/obs-malv/
 https://wan.is-my.app/lvmu-koutu/
+https://wan.is-my.app/duanshipin-gongzuotai/
+https://wan.is-my.app/duanshipin-gongzuotai-download/
 https://wan.is-my.app/damoxing-api-jiage/
 https://wan.is-my.app/token-jisuan/
 https://wan.is-my.app/xiancun-jisuan/

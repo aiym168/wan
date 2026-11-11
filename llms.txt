@@ -156,6 +156,7 @@
 - [视频提取音频](https://wan.is-my.app/video-to-mp3/): 视频转 MP3、提取背景音乐
 - [视频封面提取](https://wan.is-my.app/video-cover/): 视频截图、取第一帧和最清晰帧
 - [字幕格式转换](https://wan.is-my.app/srt-tools/): SRT 平移时间轴、SRT↔VTT、转文本
+- [短视频工作台](https://wan.is-my.app/duanshipin-gongzuotai/): 解析下载 · 主页巡检 · 直播录制 · 视频工坊 · 违禁检测 · 快传
 
 ## 图片工具
 
@@ -869,6 +870,7 @@
 
 ## 系统与软件下载
 
+- [短视频工作台 Windows 版下载](https://wan.is-my.app/duanshipin-gongzuotai-download/): 免费 Windows 桌面版：采集、监控、录制、剪辑
 - [360安全卫士官方下载](https://wan.is-my.app/360-anquanweishi-download/): 国产杀毒和电脑清理软件
 - [腾讯电脑管家官方下载](https://wan.is-my.app/tencent-guanjia-download/): 腾讯出品的电脑安全管理软件
 - [微软电脑管家官方下载](https://wan.is-my.app/ms-pcmanager-download/): 微软官方的系统清理工具

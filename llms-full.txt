@@ -156,6 +156,7 @@
 - [视频提取音频](https://wan.is-my.app/video-to-mp3/): 视频转 MP3、提取背景音乐
 - [视频封面提取](https://wan.is-my.app/video-cover/): 视频截图、取第一帧和最清晰帧
 - [字幕格式转换](https://wan.is-my.app/srt-tools/): SRT 平移时间轴、SRT↔VTT、转文本
+- [短视频工作台](https://wan.is-my.app/duanshipin-gongzuotai/): 解析下载 · 主页巡检 · 直播录制 · 视频工坊 · 违禁检测 · 快传
 
 ## 图片工具
 
@@ -869,6 +870,7 @@
 
 ## 系统与软件下载
 
+- [短视频工作台 Windows 版下载](https://wan.is-my.app/duanshipin-gongzuotai-download/): 免费 Windows 桌面版：采集、监控、录制、剪辑
 - [360安全卫士官方下载](https://wan.is-my.app/360-anquanweishi-download/): 国产杀毒和电脑清理软件
 - [腾讯电脑管家官方下载](https://wan.is-my.app/tencent-guanjia-download/): 腾讯出品的电脑安全管理软件
 - [微软电脑管家官方下载](https://wan.is-my.app/ms-pcmanager-download/): 微软官方的系统清理工具
@@ -1708,6 +1710,18 @@
 网址: https://wan.is-my.app/lvmu-koutu/
 说明: 免费在线绿幕抠像：打开摄像头或上传绿幕视频、图片，实时去除绿色或蓝色背景，调整相似度、平滑度和溢色抑制，换成图片背景或纯色，可截图导出 PNG。
 用法: 点「打开摄像头」，或上传一段绿幕视频 / 图片。 默认抠除纯绿色，如果效果不好，在画面的绿幕区域点一下吸取实际颜色，再调相似度和平滑度。 选择透明、纯色或图片背景，点「截图导出 PNG」；直播时可在 OBS 用窗口捕获这个页面。
+调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
+
+## 短视频工作台
+网址: https://wan.is-my.app/duanshipin-gongzuotai/
+说明: 免费短视频工作台：作品解析下载、博主主页巡检、直播录制、视频转码剪切合并抽帧和区域去水印、违禁词检测、局域网快传，网页直接用，另有免费桌面版。
+用法: 在上方选择要用的功能：作品解析、主页巡检、直播录制、视频工坊、违禁检测或局域网快传。 作品解析：粘贴作品链接或分享口令，点「解析」后选择清晰度下载视频、音频或封面。 视频工坊：选择本地视频，选功能（转码、压缩、剪切、合并、抽帧、区域去水印、提取音频、转 GIF），处理完直接下载，视频不上传。 需要批量采集、定时监控、整场直播录制，下载免费的 Windows 桌面版。
+接口: GET {BASE}/dl/api/media?task=<asr|script|mp3|cover>&url=<视频链接>（或 POST multipart 上传 file），返回 id；轮询 GET {BASE}/dl/api/media/<id> 直到 state=done，结果文件用 GET {BASE}/dl/api/media/<id>/<文件名>。转文字/拆解每次最多 5 分钟。命令行: python3 gjz.py text <链接或文件>
+
+## 短视频工作台 Windows 版下载
+网址: https://wan.is-my.app/duanshipin-gongzuotai-download/
+说明: 短视频工作台官方下载，免费 Windows 软件：作品批量采集、博主更新监控、开播自动录制、商品价格监控、本地剪辑去水印、违禁词检测、局域网快传。
+用法: 用电脑浏览器打开本页，点「免费下载 Windows 版」（微信里请先点右上角「在浏览器打开」）。 （可选）核对 SHA256，和本页一致才是官方文件。 右键压缩包 →「全部解压缩」，解压到任意文件夹，例如 D:\短视频工作台。不要在压缩包里直接运行。 双击「短视频工作台.exe」。第一次运行如果出现「Windows 已保护你的电脑」，点「更多信息」→「仍要运行」。 在「设置」里选择保存位置，然后从「作品采集」或「直播录制」开始使用。
 调用方式: 在浏览器打开网址使用（本地运行，不需要接口）。
 
 ## 大模型 API 价格对比

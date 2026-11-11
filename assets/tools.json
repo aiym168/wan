@@ -1160,6 +1160,26 @@
 "new": true
 },
 {
+"slug": "duanshipin-gongzuotai",
+"name": "短视频工作台",
+"short": "解析下载 · 主页巡检 · 直播录制 · 视频工坊 · 违禁检测 · 快传",
+"cat": "media",
+"title": "短视频工作台 - 免费作品采集 直播录制 去水印 违禁词检测",
+"keywords": "短视频工作台,短视频工具箱,作品采集,抖音作品批量下载,直播录制,视频去水印,视频抽帧,违禁词检测,局域网传文件,自媒体工具",
+"url": "/duanshipin-gongzuotai/",
+"new": true
+},
+{
+"slug": "duanshipin-gongzuotai-download",
+"name": "短视频工作台 Windows 版下载",
+"short": "免费 Windows 桌面版：采集、监控、录制、剪辑",
+"cat": "soft",
+"title": "短视频工作台下载 - 免费Windows版 采集录制",
+"keywords": "短视频工作台下载,短视频工作台,作品采集软件,直播录制软件,抖音直播录制,视频批量下载软件,博主作品监控,视频去水印软件,免费短视频软件",
+"url": "/duanshipin-gongzuotai-download/",
+"new": true
+},
+{
 "slug": "damoxing-api-jiage",
 "name": "大模型 API 价格对比",
 "short": "DeepSeek、GLM、GPT、Claude 每百万 token 价格",

@@ -1,7 +1,7 @@
 {
  "name": "工具站大全",
  "url": "https://wan.is-my.app/gongju/",
- "count": 923,
+ "count": 925,
  "note": "全部免费；runs=browser 的工具在网页里本地运行，runs=server 的工具可通过 OpenAPI 调用。服务器接口地址会变化：先读取 https://wan.is-my.app/live.json 的 urls 列表，依次请求 {地址}/dl/healthz，第一个返回 200 的就是当前可用地址（下文记作 {BASE}）。",
  "openapi": "https://wan.is-my.app/api/openapi.json",
  "tools": [
@@ -1310,6 +1310,28 @@
    "description": "免费在线绿幕抠像：打开摄像头或上传绿幕视频、图片，实时去除绿色或蓝色背景，调整相似度、平滑度和溢色抑制，换成图片背景或纯色，可截图导出 PNG。",
    "keywords": "绿幕抠像,绿幕抠图,在线绿幕,绿幕换背景,色度抠像,蓝幕抠图,直播绿幕,摄像头换背景",
    "url": "https://wan.is-my.app/lvmu-koutu/",
+   "runs": "browser",
+   "api": null,
+   "free": true
+  },
+  {
+   "slug": "duanshipin-gongzuotai",
+   "name": "短视频工作台",
+   "category": "自媒体工具",
+   "description": "免费短视频工作台：作品解析下载、博主主页巡检、直播录制、视频转码剪切合并抽帧和区域去水印、违禁词检测、局域网快传，网页直接用，另有免费桌面版。",
+   "keywords": "短视频工作台,短视频工具箱,作品采集,抖音作品批量下载,直播录制,视频去水印,视频抽帧,违禁词检测,局域网传文件,自媒体工具",
+   "url": "https://wan.is-my.app/duanshipin-gongzuotai/",
+   "runs": "server",
+   "api": "/dl/api/media",
+   "free": true
+  },
+  {
+   "slug": "duanshipin-gongzuotai-download",
+   "name": "短视频工作台 Windows 版下载",
+   "category": "系统与软件下载",
+   "description": "短视频工作台官方下载，免费 Windows 软件：作品批量采集、博主更新监控、开播自动录制、商品价格监控、本地剪辑去水印、违禁词检测、局域网快传。",
+   "keywords": "短视频工作台下载,短视频工作台,作品采集软件,直播录制软件,抖音直播录制,视频批量下载软件,博主作品监控,视频去水印软件,免费短视频软件",
+   "url": "https://wan.is-my.app/duanshipin-gongzuotai-download/",
    "runs": "browser",
    "api": null,
    "free": true
