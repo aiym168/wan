@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1a120e">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="applicable-device" content="pc,mobile">
+<title>免费云阶财神殿 - 走进去逛的民俗小游戏 - 工具站大全</title>
+<meta name="description" content="云阶财神殿是一座虚构的民俗小游戏：自己走路穿过山门、庭院和正殿，上香、作揖、敲钟、扫地、擦供桌、添灯油、供花、挂灯笼，坐下接一场金雨。财运只是游戏分数，存在你的浏览器里，不预测发财，也不收款。">
+<meta name="keywords" content="云阶财神殿,财神殿小游戏,线上民俗,上香,作揖,敲钟,祈福签,免费小游戏">
+<link rel="canonical" href="https://wan.is-my.app/caishen/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="工具站大全">
+<meta property="og:title" content="免费云阶财神殿 - 走进去逛的民俗小游戏">
+<meta property="og:description" content="自己走路逛一座虚构的财神殿：上香、敲钟、扫地、贴金、接金雨。财运只是游戏分数，不收款，不预测发财。">
+<meta property="og:url" content="https://wan.is-my.app/caishen/">
+<meta property="og:image" content="https://wan.is-my.app/caishen/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_CN">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a120e'/%3E%3Cpath d='M8 40 L32 14 L56 40 V28 H48 V40 H16 V28 H8 Z' fill='%238e2f32'/%3E%3Cpath d='M12 44 h40 v6 H12z' fill='%23e4c56a'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"云阶财神殿","url":"https://wan.is-my.app/caishen/","applicationCategory":"GameApplication","operatingSystem":"Web","inLanguage":"zh-CN","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},"description":"虚构民俗小游戏。玩家操控角色在殿院里走动，完成上香、洒扫、敲钟和接金雨。财运值是游戏分数。"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"云阶财神殿是真的寺庙吗？","acceptedAnswer":{"@type":"Answer","text":"不是。这是虚构的民俗小游戏，不代表任何真实寺庙、宫观或组织。"}},{"@type":"Question","name":"财运值能换成钱或预测发财吗？","acceptedAnswer":{"@type":"Answer","text":"不能。财运只是游戏分数，不能换钱，也不预测收入、债务或抽奖结果。签文是祝福，不是吉凶。"}},{"@type":"Question","name":"需要付钱或上香火钱吗？","acceptedAnswer":{"@type":"Answer","text":"不需要。没有功德箱、内购或广告催付。"}},{"@type":"Question","name":"愿望存在哪里？","acceptedAnswer":{"@type":"Answer","text":"只存在你这台浏览器的本地存储里，不会上传。"}}]}</script>
+<style>
+:root { color-scheme: dark; --gold:#f0d48a; --red:#8e2a2a; --ink:#1a120e; --paper:#f6efe2; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #120e0c; color: var(--paper); font-family: "PingFang SC","Noto Sans SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif; overflow: hidden; touch-action: none; }
+button, input, textarea { font: inherit; color: inherit; }
+#view { position: fixed; inset: 0; width: 100%; height: 100%; display: block; cursor: crosshair; }
+#top { position: fixed; top: 0; left: 0; right: 0; z-index: 4; display: flex; align-items: center; gap: 8px; padding: calc(8px + env(safe-area-inset-top)) 12px 8px; background: linear-gradient(#1a120ee6, #1a120e00); pointer-events: none; }
+#top a, #top button { pointer-events: auto; }
+#top a { color: var(--gold); text-decoration: none; font-weight: 700; min-height: 44px; display: inline-flex; align-items: center; padding: 0 8px; white-space: nowrap; }
+#score b { font-size: 18px; letter-spacing: .04em; }
+#score small { display: block; color: #e7d7b8; font-size: 12px; opacity: .9; white-space: nowrap; }
+#top .spacer { flex: 1; }
+#top button, #act, .sheet button, .row button { min-height: 44px; border-radius: 999px; border: 1px solid rgba(240,212,138,.45); background: rgba(26,18,14,.72); color: var(--paper); padding: 0 14px; font-weight: 700; }
+#top button[aria-pressed="true"] { background: var(--gold); color: #1a120e; }
+#act { position: fixed; z-index: 5; right: 16px; bottom: calc(18px + env(safe-area-inset-bottom)); min-width: 132px; padding: 0 18px; background: var(--red); border: 0; box-shadow: 0 8px 24px rgba(0,0,0,.28); }
+#act[hidden] { display: none; }
+#joy { position: fixed; z-index: 5; left: calc(14px + env(safe-area-inset-left)); bottom: calc(14px + env(safe-area-inset-bottom)); width: 128px; height: 128px; border-radius: 50%; background: rgba(20,14,10,.38); border: 2px solid rgba(240,212,138,.45); touch-action: none; display: none; }
+body.touch #joy { display: block; }
+#knob { position: absolute; left: 36px; top: 36px; width: 56px; height: 56px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #fff6d4, #e4c56a 45%, #a37b2c); }
+#live { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+#sheet { position: fixed; inset: 0; z-index: 8; background: rgba(12,8,6,.46); display: flex; align-items: flex-end; justify-content: center; }
+#sheet[hidden] { display: none; }
+.sheet { width: min(520px, 100%); max-height: min(86vh, 760px); overflow: auto; background: #f6efe2; color: #24180f; border-radius: 18px 18px 0 0; padding: 16px 16px calc(18px + env(safe-area-inset-bottom)); box-shadow: 0 -12px 40px rgba(0,0,0,.3); }
+.sheet h2 { font-family: "Songti SC","Noto Serif SC","STSong",serif; margin: 0 0 6px; font-size: 22px; }
+.sheet p, .sheet li { line-height: 1.55; font-size: 15px; }
+.sheet .muted { color: #6d5844; font-size: 13px; }
+.row { display: flex; gap: 8px; align-items: center; margin: 8px 0; }
+.row b { flex: 1; }
+.sheet textarea { width: 100%; min-height: 76px; border-radius: 12px; border: 1px solid #d9c7a4; padding: 10px; background: #fffaf2; color: #24180f; }
+.sheet .bar { height: 8px; border-radius: 99px; background: #e6d8c0; overflow: hidden; }
+.sheet .bar i { display: block; height: 100%; background: linear-gradient(90deg, #8e2a2a, #e4c56a); }
+.keys { font-size: 13px; color: #6d5844; }
+@media (min-width: 800px) {
+  #sheet { align-items: center; }
+  .sheet { border-radius: 18px; }
+  #act { left: 50%; right: auto; transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}
+.seo { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+button:focus-visible, a:focus-visible, textarea:focus-visible { outline: 3px solid #e4c56a; outline-offset: 2px; }
+</style>
+</head>
+<body>
+<canvas id="view" aria-label="云阶财神殿，可走动的庭院和正殿"></canvas>
+<header id="top">
+  <a href="/fun/">← 返回</a>
+  <div id="score"><b>财运 0</b><small>游戏分数 · 今日 0/18</small></div>
+  <div class="spacer"></div>
+  <button type="button" id="btn-book">手帐</button>
+  <button type="button" id="btn-mute" aria-pressed="false">声音</button>
+</header>
+<button type="button" id="act" hidden>走近一点</button>
+<div id="joy" aria-hidden="true"><div id="knob"></div></div>
+<div id="sheet" hidden></div>
+<p id="live" aria-live="polite"></p>
+<section class="seo">
+  <h1>云阶财神殿</h1>
+  <p>一座虚构的民俗小游戏。用键盘或摇杆走进山门、侧殿、殿后和正殿，靠近香炉、钟、供桌和蒲团才会出现对应的事。财运值是游戏分数，存在本地，不能换成钱，也不预测发财、还债或中奖。没有功德箱。</p>
+</section>
+<noscript><p>云阶财神殿需要打开 JavaScript。这是免费的民俗小游戏，财运只是游戏分数。</p></noscript>
+<script src="economy.js"></script>
+<script src="world.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
