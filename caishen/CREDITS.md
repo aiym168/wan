@@ -9,16 +9,11 @@
 - 页面：https://3dassets.dev/packs/imperial-china-palace-and-garden
 - 文件：https://cdn.3dassets.dev/assets/36222/v1/model.glb
 - 授权：CC0 1.0 Universal（https://creativecommons.org/publicdomain/zero/1.0/）
-- 说明：作者标明几何由 Claude Opus 5 辅助生成，纹样是虚构的，不对应任何真实宫殿。原文件没有贴图，只有分色材质（琉璃、漆、石、青铜）。本页加上环境光、阴影和灯笼自发光。
+- 说明：作者标明几何由 Claude Opus 5 辅助生成，纹样是虚构的，不对应任何真实宫殿。原文件没有贴图。本页把琉璃改成青绿、立柱改成朱红，并加了云海、远山和一座远桥的剪影，以及环境光、阴影和灯笼自发光。
 
-## 行人
+## 不再出场的角色文件
 
-- 名称：Ultimate Modular Men Pack 里的 King；Ultimate Modular Women Pack 里的 Witch
-- 作者：Quaternius（https://quaternius.com）
-- 页面：https://quaternius.com/packs/ultimatemodularcharacters.html 与 https://quaternius.com/packs/ultimatemodularwomen.html
-- 授权：CC0 1.0。官方说明可商用，不要求署名；这里仍写出作者。
-- 文件来源：官方 Google Drive 在抓取时提示下载超额。用的是公开镜像里同一套 CC0 模型：https://github.com/trebeljahr/quaternius-showcase （`public/glb/modular_men/King.glb`、`public/glb/modular_women/Witch.glb`）。镜像作者声明模型版权仍归 Quaternius，授权跟随上游 CC0。
-- 动画：这两份 glb 带骨骼，但不带动画片段。走、站、作揖是本页按骨骼名（UpperLeg、Chest、Head 等）驱动的，不是买来的动作捕捉。
+仓库里还留着 Quaternius 的 King.glb 与 Witch.glb（CC0，https://quaternius.com/packs/ultimatemodularcharacters.html 与 ultimatemodularwomen.html）。官方网盘当时超额，文件来自 https://github.com/trebeljahr/quaternius-showcase 。当前页面不再加载它们。出场的是本页原创汉服。
 
 ## 环境光
 
@@ -35,6 +30,10 @@
 - 文件：`caishen/vendor/three.module.min.js` 与 `caishen/vendor/three/` 下的加载器和辉光通道
 - 许可全文：`caishen/vendor/LICENSE-three.txt`
 - 版权：2010–2024 three.js authors
+
+## 汉服行人与财神
+
+没有找到可下载、授权合适、又够细致的汉服角色或财神雕塑。Sketchfab 上的「財神」是 CC BY-ND，不能改。Thingiverse / MyMiniFactory 上的财神要么下不到，要么是非商业授权。Meshy 的社区模型要登录。所以殿里的行人和财神是本页按已确认的仙宫概念做的原创模型：交领广袖、玉色缘边、束髻，以及坐着的红袍长须财神。它们不是扫描雕塑，近看仍比概念图简单。
 
 ## 财神像
 
