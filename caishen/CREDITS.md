@@ -1,54 +1,53 @@
 # 云阶财神殿 · 素材署名
 
-这一版用的是可核验的免费授权，没有商用游戏拆包，也没有 Sansa 的图或模型。财神像没有找到能下载的合规雕塑，是本页自己做的。
+这一版的殿、行人和财神是本页自己建的模型，不是把概念图贴在背景上，也没有用商用游戏的拆包。
 
-## 殿院、灯笼、香炉、钟、石栏
+## 本页原创模型
 
-- 名称：Imperial China Palace and Garden（整院起步场景）
-- 作者：3D Assets（https://3dassets.dev/u/3dassets）
-- 页面：https://3dassets.dev/packs/imperial-china-palace-and-garden
-- 文件：https://cdn.3dassets.dev/assets/36222/v1/model.glb
-- 授权：CC0 1.0 Universal（https://creativecommons.org/publicdomain/zero/1.0/）
-- 说明：作者标明几何由 Claude Opus 5 辅助生成，纹样是虚构的，不对应任何真实宫殿。原文件没有贴图。本页把琉璃改成青绿、立柱改成朱红，并加了云海、远山和一座远桥的剪影，以及环境光、阴影和灯笼自发光。
+- 工具：Blender 4.0（自由软件），脚本在 `caishen/tools/build_celestial.py`
+- 殿宇：重檐庑殿的筒瓦、屋脊、斗拱、朱红柱、石阶和香炉。几何是本页写的，不是下载的宫殿包。
+- 行人：按头、躯干比例做的交领广袖。头是多块体素融合成的一张脸，再摆上眉眼。走和作揖靠骨骼空物体转动。
+- 财神：同样用体素融合出圆脸、鼻、耳，另有须、冠、袍上的云纹、元宝和聚宝盆。没有找到可以下载、授权又允许修改的财神雕塑，所以没有把别人的雕塑放进仓库。
+- 云纹、布纹法线是脚本画的。
 
-## 不再出场的角色文件
+## 石材贴图
 
-仓库里还留着 Quaternius 的 King.glb 与 Witch.glb（CC0，https://quaternius.com/packs/ultimatemodularcharacters.html 与 ultimatemodularwomen.html）。官方网盘当时超额，文件来自 https://github.com/trebeljahr/quaternius-showcase 。当前页面不再加载它们。出场的是本页原创汉服。
+- 名称：marble_01（1K）
+- 作者：Poly Haven
+- 页面：https://polyhaven.com/a/marble_01
+- 文件：https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_diff_1k.jpg 与对应的 nor_gl、rough
+- 授权：CC0
 
-## 环境光
+## 环境光反射
 
 - 名称：Kiara 1 Dawn，1K HDR
 - 作者：Greg Zaal
 - 页面：https://polyhaven.com/a/kiara_1_dawn
-- 文件：https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kiara_1_dawn_1k.hdr
 - 授权：CC0（Poly Haven）
+- 只用作金属反射，天空是本页自己的渐变，不是这张 HDR 的风景。
 
 ## 引擎
 
 - Three.js r170
 - 授权：MIT
-- 文件：`caishen/vendor/three.module.min.js` 与 `caishen/vendor/three/` 下的加载器和辉光通道
+- 文件：`caishen/vendor/three.module.min.js` 与 `caishen/vendor/three/`
 - 许可全文：`caishen/vendor/LICENSE-three.txt`
 - 版权：2010–2024 three.js authors
 
-## 汉服行人与财神
+## 仓库里还留着、当前页面不加载的文件
 
-没有找到可下载、授权合适、又够细致的汉服角色或财神雕塑。Sketchfab 上的「財神」是 CC BY-ND，不能改。Thingiverse / MyMiniFactory 上的财神要么下不到，要么是非商业授权。Meshy 的社区模型要登录。所以殿里的行人和财神是本页按已确认的仙宫概念做的原创模型：交领广袖、玉色缘边、束髻，以及坐着的红袍长须财神。它们不是扫描雕塑，近看仍比概念图简单。
+- `assets/palace.glb`：3D Assets「Imperial China Palace and Garden」，CC0。https://3dassets.dev/packs/imperial-china-palace-and-garden 上一版用过，这一版正殿不再加载它。
+- `assets/king.glb`、`assets/witch.glb`：Quaternius，CC0。官方包页面 https://quaternius.com 。当前行人不是这两个角色。
 
-## 财神像
+## 查过但不能用的财神雕塑
 
-没有把合规、可下载的财神雕塑放进仓库。查过的条目要么下不下来，要么授权不合：
-
-- Thingiverse「Chinese God of wealth」（stronghero，CC BY）页面返回 403，STL 没拿到。
-- Cults 上同一件是 CC BY，需要登录。
+- Sketchfab 上能对上的「財神」是 CC BY-ND，不能改。
+- Thingiverse「Chinese God of wealth」页面 403，文件没拿到。
 - MyMiniFactory「God of Money」是 CC BY-NC-SA，不能用。
-- Sketchfab 上能确认的中国建筑模型（Victor-Start《Chinese Luxury Estate》，CC BY）只有约六千面，而且下载要登录。
-
-所以财神像是本页用车削、挤出和 PBR 金属做的原创模型：圆脸、眉眼、胡须、乌纱翅、袍褶、元宝、如意、聚宝盆。它不是扫描雕塑，近看仍能看出是程序建模。
 
 ## 没有使用
 
-- 付费模型和市场素材
+- 付费模型和付费套餐
 - 商用游戏拆包
 - Sansa 的任何资源
-- 需要署名却没能核实作者的文件
+- 授权不明的下载

@@ -1,10 +1,8 @@
 /**
- * 云阶财神殿 · 三维竖切
- * 殿院：3D Assets「Imperial China Palace and Garden」，CC0。
- * 行人：Quaternius King / Witch，CC0，骨骼在、片段不在，走和作揖由本页驱动。
- * 天光：Poly Haven「Kiara 1 Dawn」，CC0，Greg Zaal。
- * 财神：本页原创车削模型。没有拿到可下载的合规雕塑。署名见 CREDITS.md。
- * 财运规则仍走 economy.js。
+ * 云阶财神殿 · 可走动的正殿竖切
+ * 殿、汉服、财神是本页用 Blender 建的原创网格（筒瓦、斗拱、体素融合的头和袍）。
+ * 石材贴图：Poly Haven marble_01，CC0。天光反射：Greg Zaal「Kiara 1 Dawn」，CC0。
+ * 财运规则仍走 economy.js。署名见 CREDITS.md。
  */
 import * as THREE from 'three';
 import { GLTFLoader } from './vendor/three/loaders/GLTFLoader.js';
@@ -55,7 +53,7 @@ function load() {
 
 let save = Object.assign({
   outfit: null, lifetime: 0, days: {}, once: {}, gild: [], wishes: [], charms: [],
-  notes: [], salt: Math.floor(Math.random() * 1e9), mute: false, helpSeen: false, px: 0, pz: 3
+  notes: [], salt: Math.floor(Math.random() * 1e9), mute: false, helpSeen: false, px: 0, pz: 9
 }, load());
 save.gild = save.gild || [];
 save.days = save.days || {};
@@ -97,28 +95,31 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile ? 1.15 : 1.
 renderer.setSize(window.innerWidth, window.innerHeight, false);
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 0.78;
+renderer.toneMappingExposure = 1.05;
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0xc9866a);
-scene.fog = new THREE.FogExp2(0xcbb59a, 0.016);
-const camera = new THREE.PerspectiveCamera(46, window.innerWidth / window.innerHeight, 0.08, 80);
+scene.background = new THREE.Color(0xf0d2ae);
+scene.fog = new THREE.FogExp2(0xf3d7b8, 0.012);
+const camera = new THREE.PerspectiveCamera(42, window.innerWidth / window.innerHeight, 0.08, 220);
 camera.position.set(0, 4, 12);
 
-const hemi = new THREE.HemisphereLight(0xffe2c4, 0x3a2a22, 0.35);
+const hemi = new THREE.HemisphereLight(0xffe7c8, 0x8a6a52, 0.55);
 scene.add(hemi);
-const sun = new THREE.DirectionalLight(0xfff1d8, 1.65);
-sun.position.set(-8, 18, 10);
+const sun = new THREE.DirectionalLight(0xfff3dd, 2.35);
+sun.position.set(-14, 24, 10);
 sun.castShadow = true;
 sun.shadow.mapSize.set(mobile ? 1024 : 2048, mobile ? 1024 : 2048);
 sun.shadow.camera.near = 1;
-sun.shadow.camera.far = 48;
-sun.shadow.camera.left = sun.shadow.camera.bottom = -18;
-sun.shadow.camera.right = sun.shadow.camera.top = 18;
+sun.shadow.camera.far = 60;
+sun.shadow.camera.left = sun.shadow.camera.bottom = -22;
+sun.shadow.camera.right = sun.shadow.camera.top = 22;
 sun.shadow.bias = -0.0004;
 scene.add(sun);
+const fill = new THREE.DirectionalLight(0xffc9a0, 0.45);
+fill.position.set(8, 6, -6);
+scene.add(fill);
 
 const avatar = new THREE.Group();
 const spawnX = Math.abs(save.px) < 14 ? save.px : 0;
@@ -142,7 +143,7 @@ let bloomPass = null;
 if (useBloom) {
   composer = new EffectComposer(renderer);
   composer.addPass(new RenderPass(scene, camera));
-  bloomPass = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.innerHeight), 0.16, 0.32, 0.96);
+  bloomPass = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.innerHeight), 0.22, 0.4, 0.86);
   composer.addPass(bloomPass);
 }
 
@@ -380,6 +381,59 @@ function buildStatue() {
 function applyGild() {
   const n = (save.gild || []).length / 8;
   statueGold.forEach((m) => { m.emissiveIntensity = 0.18 + n * 0.85; });
+  if (!statue) return;
+  statue.traverse((o) => {
+    if (!o.isMesh) return;
+    const mats = Array.isArray(o.material) ? o.material : [o.material];
+    mats.forEach((m) => {
+      if (m && /Gold|Halo|Brocade/.test(m.name || '')) m.emissiveIntensity = 0.12 + n * 0.85;
+    });
+  });
+}
+
+function dressSky() {
+  const c = document.createElement('canvas');
+  c.width = 8;
+  c.height = 256;
+  const g = c.getContext('2d');
+  const grd = g.createLinearGradient(0, 0, 0, 256);
+  grd.addColorStop(0, '#8eb7d2');
+  grd.addColorStop(0.38, '#f0c99a');
+  grd.addColorStop(0.62, '#f7e3c6');
+  grd.addColorStop(1, '#f3e6d4');
+  g.fillStyle = grd;
+  g.fillRect(0, 0, 8, 256);
+  const tex = new THREE.CanvasTexture(c);
+  tex.colorSpace = THREE.SRGBColorSpace;
+  scene.add(new THREE.Mesh(
+    new THREE.SphereGeometry(150, 28, 18),
+    new THREE.MeshBasicMaterial({ map: tex, side: THREE.BackSide, depthWrite: false, fog: false })
+  ));
+  const puff = document.createElement('canvas');
+  puff.width = puff.height = 128;
+  const pg = puff.getContext('2d');
+  const rad = pg.createRadialGradient(64, 70, 6, 64, 64, 62);
+  rad.addColorStop(0, 'rgba(255,252,248,.92)');
+  rad.addColorStop(0.55, 'rgba(255,248,240,.45)');
+  rad.addColorStop(1, 'rgba(255,248,240,0)');
+  pg.fillStyle = rad;
+  pg.beginPath();
+  pg.ellipse(64, 72, 54, 36, 0, 0, Math.PI * 2);
+  pg.fill();
+  const ct = new THREE.CanvasTexture(puff);
+  ct.colorSpace = THREE.SRGBColorSpace;
+  const mat = new THREE.MeshBasicMaterial({ map: ct, transparent: true, depthWrite: false, side: THREE.DoubleSide });
+  const count = mobile ? 16 : 28;
+  for (let i = 0; i < count; i++) {
+    const w = 7 + (i % 5) * 2.4;
+    const mesh = new THREE.Mesh(new THREE.PlaneGeometry(w, w * 0.42), mat);
+    const ang = (i / count) * Math.PI * 2;
+    const rads = 12 + (i % 6) * 2.8;
+    mesh.position.set(Math.cos(ang) * rads, -1.35 - (i % 4) * 0.55, Math.sin(ang) * rads * 0.72 + 3);
+    mesh.rotation.x = -Math.PI / 2.4;
+    mesh.renderOrder = -1;
+    scene.add(mesh);
+  }
 }
 
 const smokeMat = new THREE.SpriteMaterial({
@@ -517,26 +571,68 @@ function buildHanfu(outfit) {
   return g;
 }
 
+let yuanbaoTemplate = null;
 async function showCharacter(outfit) {
+  const female = outfit.robe % 2 === 1;
+  const url = female ? 'assets/hanfu_f.glb' : 'assets/hanfu_m.glb';
+  if (!models[url]) models[url] = await loader.loadAsync(url);
   avatar.children.slice().forEach((ch) => avatar.remove(ch));
-  const fig = buildHanfu(outfit);
+  const fig = models[url].scene.clone(true);
+  const limbs = {};
+  const rest = {};
+  const robeHex = female ? 0xe7b2b0 : 0xf4efe4;
+  const trimHex = (female
+    ? [0x8eaa8c, 0xc4556a, 0x2f8f78, 0x2456a6, 0x1a1a1a, 0xc4552a, 0xd4a017]
+    : [0x1f7a6c, 0x8e2430, 0x1c6b4a, 0x2456a6, 0x1a1a1a, 0xc4552a, 0xd4a017])[outfit.palette % 7];
+  fig.traverse((o) => {
+    if (o.name) limbs[o.name] = o;
+    if (!o.isMesh) return;
+    o.castShadow = true;
+    o.receiveShadow = true;
+    o.frustumCulled = false;
+    const mats = Array.isArray(o.material) ? o.material : [o.material];
+    o.material = mats.map((m) => {
+      const c = m.clone();
+      if (c.name === 'Robe') c.color.setHex(robeHex);
+      if (c.name === 'Trim') c.color.setHex(trimHex);
+      if (c.name === 'Skin') c.color.setHex(SKIN[outfit.skin % SKIN.length]);
+      if (c.name === 'Hair') c.color.setHex(HAIR[outfit.hairColor % HAIR.length]);
+      return c;
+    });
+    if (o.material.length === 1) o.material = o.material[0];
+  });
+  ['thighL', 'thighR', 'sleevePivotL', 'sleevePivotR', 'chest', 'head', 'skirt'].forEach((n) => {
+    if (limbs[n]) rest[n] = { x: limbs[n].rotation.x, y: limbs[n].rotation.y, z: limbs[n].rotation.z };
+  });
+  fig.userData.rest = rest;
+  fig.traverse((o) => { if (o.name === 'Hanfu') o.position.set(0, 0, 0); });
   avatar.add(fig);
-  avatar.userData.limbs = fig.userData.limbs;
+  avatar.userData.limbs = limbs;
 }
 
-function pose(moving, bowing, phase, t) {
+function pose(moving, bow, phase, t) {
   const L = avatar.userData.limbs;
-  if (!L) return;
+  const fig = avatar.children[0];
+  if (!L || !fig || !fig.userData.rest) return;
+  const rest = fig.userData.rest;
   const s = Math.sin(phase);
-  const swing = reduceMotion ? s * 0.2 : s * 0.5;
-  L.thighL.rotation.x = moving ? swing : 0;
-  L.thighR.rotation.x = moving ? -swing : 0;
-  L.sleeveL.rotation.x = bowing ? 0.9 : (moving ? -s * 0.4 : Math.sin(t * 1.3) * 0.05);
-  L.sleeveR.rotation.x = bowing ? 0.9 : (moving ? s * 0.4 : Math.sin(t * 1.3) * 0.05);
-  L.sleeveL.rotation.z = bowing ? 0.4 : 0.15;
-  L.sleeveR.rotation.z = bowing ? -0.4 : -0.15;
-  L.chest.rotation.x = bowing ? 0.62 : Math.sin(t * 1.5) * 0.02;
-  L.head.rotation.x = bowing ? 0.45 : 0;
+  const swing = reduceMotion ? 0.22 : 0.55;
+  const add = (n, x, y, z) => {
+    const r = rest[n];
+    if (!L[n] || !r) return;
+    L[n].rotation.x = r.x + (x || 0);
+    L[n].rotation.y = r.y + (y || 0);
+    L[n].rotation.z = r.z + (z || 0);
+  };
+  add('thighL', moving && bow < 0.2 ? s * swing : 0);
+  add('thighR', moving && bow < 0.2 ? -s * swing : 0);
+  const sleeveL = THREE.MathUtils.lerp(moving ? -s * 0.35 : Math.sin(t * 1.2) * 0.04, 1.05, bow);
+  const sleeveR = THREE.MathUtils.lerp(moving ? s * 0.35 : Math.sin(t * 1.2 + 0.6) * 0.04, 1.05, bow);
+  add('sleevePivotL', sleeveL, 0, bow * 0.35);
+  add('sleevePivotR', sleeveR, 0, -bow * 0.35);
+  add('chest', THREE.MathUtils.lerp(Math.sin(t * 1.3) * 0.015, 0.8, bow));
+  add('head', bow * 0.45);
+  add('skirt', 0, moving ? Math.sin(phase * 0.5) * 0.05 : 0, 0);
 }
 
 function addCloudSea() {
@@ -618,48 +714,53 @@ function dressPalace(root) {
   });
 }
 
+const _burnerPos = new THREE.Vector3(0, 0.9, 8.5);
 const raycaster = new THREE.Raycaster();
 const _down = new THREE.Vector3(0, -1, 0);
 const _origin = new THREE.Vector3();
 const _wallDir = new THREE.Vector3();
 const _n = new THREE.Vector3();
+function chainName(obj) {
+  let name = '';
+  let p = obj;
+  while (p) { name += ' ' + (p.name || ''); p = p.parent; }
+  return name;
+}
 function groundAt(x, z) {
   if (!palace) return 0;
-  _origin.set(x, 4.2, z);
+  _origin.set(x, 6.2, z);
   raycaster.set(_origin, _down);
-  raycaster.far = 6;
+  raycaster.far = 8;
   const hits = raycaster.intersectObject(palace, true);
   for (let i = 0; i < hits.length; i++) {
-    if (hits[i].point.y < 2.3) return hits[i].point.y;
+    if (!/Walk/.test(chainName(hits[i].object))) continue;
+    if (hits[i].point.y < 2.6) return hits[i].point.y;
   }
   return 0;
 }
 function blockedMove(x, z, mx, mz) {
-  if (Math.abs(x + mx) > 15.4 || z + mz > 15.6 || z + mz < -15.4) return true;
+  if (Math.abs(x + mx) > 14.2 || z + mz > 14.2 || z + mz < -6.4) return true;
   if (!palace) return false;
-  _origin.set(x, groundAt(x, z) + 1.25, z);
+  _origin.set(x, groundAt(x, z) + 1.15, z);
   _wallDir.set(mx, 0, mz);
   if (_wallDir.lengthSq() < 1e-8) return false;
   _wallDir.normalize();
   raycaster.set(_origin, _wallDir);
-  raycaster.far = 0.34;
+  raycaster.far = 0.42;
   const targets = statue ? [palace, statue] : [palace];
   const hits = raycaster.intersectObjects(targets, true);
-  let blocked = false;
   for (let i = 0; i < hits.length; i++) {
     const h = hits[i];
     if (!h.face) continue;
     _n.copy(h.face.normal).transformDirection(h.object.matrixWorld);
-    if (Math.abs(_n.y) > 0.55) continue;
-    let p = h.object;
-    let name = '';
-    while (p) { name += ' ' + (p.name || ''); p = p.parent; }
-    if (/lantern|peony|bamboo|plum|lotus|bonsai|banner|pennant|blossom|scroll|cushion|tea|guqin|parasol|dummy|well/i.test(name)) continue;
+    if (Math.abs(_n.y) > 0.62) continue;
+    const name = chainName(h.object);
+    if (/Decor|Walk|Roof|Glaze|tiles|Cloak/i.test(name)) continue;
+    if (!/Block|Caishen|GodRobe|Throne|Basin|Hand/.test(name)) continue;
     lastHit = name.trim();
-    blocked = true;
-    break;
+    return true;
   }
-  return blocked;
+  return false;
 }
 let lastHit = '';
 
@@ -718,7 +819,7 @@ function openJournal() {
   openSheet('<h2>手帐</h2><p>累计财运 <b>' + (save.lifetime || 0) + '</b> · 今日 <b>' + (d.earned || 0) + '/' + eco.DAILY_CAP + '</b> · 金雨 <b>' + (d.coins || 0) + '/' + eco.COIN_MAX + '</b></p><div class="bar"><i style="width:' + Math.min(100, (save.lifetime || 0) / eco.GOLD_AT * 100) + '%"></i></div><p class="muted">贴金身在累计 ' + eco.GOLD_AT + ' 时永久打开，不扣分。这是游戏分数。云阶殿是虚构的。</p><button type="button" data-close>合上</button>');
 }
 function openCredits() {
-  openSheet('<h2>署名</h2><p>殿院：3D Assets，Imperial China Palace and Garden，CC0。本页改成青绿琉璃、朱红和泥金。</p><p>行人与财神：本页原创。没有下到可改的汉服角色或财神雕塑。</p><p>天光：Greg Zaal，Kiara 1 Dawn，Poly Haven，CC0。</p><p>引擎：Three.js r170，MIT。</p><p class="muted">完整链接在 caishen/CREDITS.md。没有付费素材，也没有 Sansa。</p><button type="button" data-close>合上</button>');
+  openSheet('<h2>署名</h2><p>殿宇、汉服和财神是本页用 Blender 做的原创模型。石材是 Poly Haven 的 marble_01，CC0。</p><p>天光反射：Greg Zaal，Kiara 1 Dawn，Poly Haven，CC0。</p><p>引擎：Three.js r170，MIT。</p><p class="muted">完整链接在 caishen/CREDITS.md。没有付费素材，也没有 Sansa。</p><button type="button" data-close>合上</button>');
 }
 function openWardrobe() {
   const o = save.outfit;
@@ -751,12 +852,10 @@ function openGoldLock() {
 }
 
 const spots = [
-  { id: 'incense', x: -4.2, z: -1.2, r: 1.7, label: () => ensureDay().done.incense ? '香还燃着' : '按住上香', hold: 'incense' },
-  { id: 'bell', x: -10.2, z: -2, r: 1.6, label: () => '敲钟', press: 'bell' },
-  { id: 'bow', x: 0, z: -8.6, r: 1.8, label: () => '按住作揖', hold: 'bow' },
-  { id: 'rain', x: -5.2, z: 1.7, r: 1.6, label: () => '坐下，等金雨', press: 'rain' },
-  { id: 'mirror', x: 3.5, z: 6, r: 1.6, label: () => '衣冠', press: 'mirror' },
-  { id: 'gild', x: 0.8, z: -9.4, r: 1.5, label: () => (save.lifetime || 0) >= eco.GOLD_AT ? '贴一片金' : '金身未开', press: 'gild' }
+  { id: 'incense', x: 0, z: 8.5, r: 1.9, label: () => ensureDay().done.incense ? '香还燃着' : '按住上香', hold: 'incense' },
+  { id: 'bow', x: 0, z: -1.35, r: 2.4, label: () => '按住作揖', hold: 'bow' },
+  { id: 'mirror', x: 3.6, z: 10.2, r: 1.7, label: () => '衣冠', press: 'mirror' },
+  { id: 'gild', x: 1.15, z: -2.4, r: 1.7, label: () => (save.lifetime || 0) >= eco.GOLD_AT ? '贴一片金' : '金身未开', press: 'gild' }
 ];
 function nearest() {
   let best = null, bestD = 1e9;
@@ -790,12 +889,29 @@ function pressSpot(s) {
 }
 const gifts = [];
 function scatterIngots() {
-  const from = new THREE.Vector3(0, 3.05, -9.2);
-  for (let i = 0; i < 7; i++) {
-    const m = new THREE.Mesh(yuanbaoGeo(0.7), goldMat(0.55, false));
-    const start = from.clone().add(new THREE.Vector3((i - 3) * 0.22, (i % 3) * 0.08, 0.4));
+  const origins = [];
+  if (statue) {
+    statue.traverse((o) => {
+      if (o.name === 'SpawnL' || o.name === 'SpawnR') {
+        const p = new THREE.Vector3();
+        o.getWorldPosition(p);
+        origins.push(p);
+      }
+    });
+  }
+  if (!origins.length) origins.push(new THREE.Vector3(0, 3.2, -2.6));
+  for (let i = 0; i < 6; i++) {
+    let m;
+    if (yuanbaoTemplate) {
+      m = yuanbaoTemplate.clone(true);
+      m.scale.setScalar(0.42);
+    } else {
+      m = new THREE.Mesh(yuanbaoGeo(0.7), goldMat(0.7, false));
+    }
+    const start = origins[i % origins.length].clone().add(new THREE.Vector3((i - 2.5) * 0.18, 0.12 * (i % 3), 0.15));
     m.position.copy(start);
-    m.userData = { t: -i * 0.05, from: start, to: avatar.position.clone() };
+    m.userData = { born: performance.now() + i * 90, from: start, to: avatar.position.clone() };
+    m.traverse((o) => { if (o.isMesh) { o.castShadow = true; o.frustumCulled = false; } });
     scene.add(m);
     gifts.push(m);
   }
@@ -889,6 +1005,7 @@ window.addEventListener('resize', () => {
 window.addEventListener('pagehide', persist);
 
 let camLock = null;
+let bowPose = 0;
 const camPos = new THREE.Vector3();
 const clock = new THREE.Clock();
 let phase = 0;
@@ -939,8 +1056,9 @@ function frame() {
     phase += dt * (reduceMotion ? 4 : 8);
   }
   avatar.position.y = THREE.MathUtils.damp(avatar.position.y, groundAt(avatar.position.x, avatar.position.z), 10, dt);
-  const bowing = hold === 'bow';
-  pose(moving, bowing, phase, t);
+  if (hold === 'bow') bowPose = 1;
+  else bowPose = Math.max(0, bowPose - dt * 0.45);
+  pose(moving, bowPose, phase, t);
 
   if (hold) {
     holdT = (performance.now() - holdStart) / 1000;
@@ -991,9 +1109,9 @@ function frame() {
     s.material.opacity = Math.max(0, 1 - s.userData.life * 1.6);
     if (s.userData.life > 0.7) { scene.remove(s); sparkles.splice(i, 1); }
   }
-  if (ensureDay().done.incense && Math.random() < dt * 6) {
+  if (ensureDay().done.incense && Math.random() < dt * 8) {
     const s = new THREE.Sprite(smokeMat.clone());
-    s.position.set(-4.2 + (Math.random() - 0.5) * 0.2, 1.5, -1.2);
+    s.position.set(_burnerPos.x + (Math.random() - 0.5) * 0.15, _burnerPos.y + 1.05, _burnerPos.z);
     s.scale.setScalar(0.25);
     s.userData = { life: 0 };
     scene.add(s);
@@ -1010,14 +1128,13 @@ function frame() {
 
   for (let i = gifts.length - 1; i >= 0; i--) {
     const m = gifts[i];
-    m.userData.t += dt * 0.42;
-    const u = Math.max(0, Math.min(1, m.userData.t));
+    const u = Math.max(0, Math.min(1, (performance.now() - m.userData.born) / 1600));
     const ease = u * u * (3 - 2 * u);
     const home = avatar.position.clone();
     home.y += 1.15;
     m.userData.to.lerp(home, 0.35);
     m.position.lerpVectors(m.userData.from, m.userData.to, ease);
-    m.position.y += Math.sin(u * Math.PI) * 1.35;
+    m.position.y += Math.sin(u * Math.PI) * 1.7;
     m.rotation.y += dt * 4;
     m.rotation.z += dt * 2;
     if (u >= 1) {
@@ -1026,7 +1143,7 @@ function frame() {
     }
   }
 
-  if (ready && !ensureDay().done.checkin && avatar.position.z < 12) reward(eco.grant(save, today, 'checkin'));
+  if (ready && !ensureDay().done.checkin && avatar.position.z < 13.6 && avatar.position.z > -6) reward(eco.grant(save, today, 'checkin'));
 
   const n = nearest();
   if (!n || sheetOpen) actBtn.hidden = true;
@@ -1040,7 +1157,7 @@ function frame() {
     camera.lookAt(camLock.target);
   } else {
     const yaw = avatar.rotation.y;
-    camPos.set(avatar.position.x - Math.sin(yaw) * 5.2, avatar.position.y + 3.15, avatar.position.z - Math.cos(yaw) * 5.2);
+    camPos.set(avatar.position.x - Math.sin(yaw) * 6.4, avatar.position.y + 2.7, avatar.position.z - Math.cos(yaw) * 6.4);
     camera.position.lerp(camPos, 1 - Math.pow(0.0015, dt));
     camera.lookAt(avatar.position.x, avatar.position.y + 1.25, avatar.position.z);
   }
@@ -1051,30 +1168,45 @@ hud();
 requestAnimationFrame(frame);
 
 async function boot() {
+  dressSky();
   say('殿宇正在展开');
   const rgbe = new RGBELoader();
   const hdrP = rgbe.loadAsync('assets/kiara_1_dawn_1k.hdr').then((tex) => {
     tex.mapping = THREE.EquirectangularReflectionMapping;
     const pmrem = new THREE.PMREMGenerator(renderer);
     scene.environment = pmrem.fromEquirectangular(tex).texture;
-    scene.background = tex;
-    scene.backgroundBlurriness = 0.25;
-    scene.backgroundIntensity = 0.38;
-    scene.environmentIntensity = 0.65;
+    scene.environmentIntensity = 1.05;
     pmrem.dispose();
   }).catch(() => { say('天光没载上，仍用日光。'); });
-  const palaceP = loader.loadAsync('assets/palace.glb').then((gltf) => {
+  const palaceP = loader.loadAsync('assets/hall.glb').then((gltf) => {
     palace = gltf.scene;
-    dressPalace(palace);
+    palace.traverse((o) => {
+      if (o.isMesh) {
+        o.castShadow = !mobile || !/Decor|Roof|Peak|Bridge/.test(o.name || '');
+        o.receiveShadow = true;
+      }
+    });
     scene.add(palace);
+    let burner = null;
+    palace.traverse((o) => { if (!burner && /Burner/.test(o.name || '') && o.isMesh) burner = o; });
+    if (burner) {
+      burner.getWorldPosition(_burnerPos);
+    }
   });
-  await Promise.all([hdrP, palaceP]);
-  addCloudSea();
-  buildStatue();
-  applyGild();
-  const hallSign = plaque('财神殿', 2.4, 0.72);
-  hallSign.position.set(0, 4.6, -1.15);
-  scene.add(hallSign);
+  const godP = loader.loadAsync('assets/caishen_god.glb').then((gltf) => {
+    statue = gltf.scene;
+    statue.traverse((o) => { if (o.name === 'Caishen') o.position.set(0, 0, 0); });
+    statue.position.set(0, 1.62, -3.55);
+    statue.traverse((o) => {
+      if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; o.frustumCulled = false; }
+    });
+    scene.add(statue);
+    const halo = new THREE.PointLight(0xffc56a, 6, 9, 2);
+    halo.position.set(0, 4.5, -3.3);
+    scene.add(halo);
+  });
+  const yuanP = loader.loadAsync('assets/yuanbao.glb').then((gltf) => { yuanbaoTemplate = gltf.scene; });
+  await Promise.all([hdrP, palaceP, godP, yuanP]);
   await showCharacter(save.outfit);
   avatar.position.y = groundAt(avatar.position.x, avatar.position.z);
   ready = true;
