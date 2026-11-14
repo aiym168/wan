@@ -7,13 +7,13 @@
 <meta http-equiv="Cache-Control" content="no-transform">
 <meta name="applicable-device" content="pc,mobile">
 <title>免费云阶财神殿 - 走进去逛的民俗小游戏 - 工具站大全</title>
-<meta name="description" content="云阶财神殿是一座虚构的民俗小游戏：自己走路穿过山门、庭院和正殿，上香、作揖、敲钟、扫地、擦供桌、添灯油、供花、挂灯笼，坐下接一场金雨。财运只是游戏分数，存在你的浏览器里，不预测发财，也不收款。">
+<meta name="description" content="云阶财神殿是一座虚构的三维民俗小游戏：自己走进庭院和正殿，上香、作揖、敲钟，坐下接一场金雨。财运只是游戏分数，存在你的浏览器里，不预测发财，也不收款。">
 <meta name="keywords" content="云阶财神殿,财神殿小游戏,线上民俗,上香,作揖,敲钟,祈福签,免费小游戏">
 <link rel="canonical" href="https://wan.is-my.app/caishen/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="工具站大全">
 <meta property="og:title" content="免费云阶财神殿 - 走进去逛的民俗小游戏">
-<meta property="og:description" content="自己走路逛一座虚构的财神殿：上香、敲钟、扫地、贴金、接金雨。财运只是游戏分数，不收款，不预测发财。">
+<meta property="og:description" content="自己走路逛一座虚构的三维财神殿：上香、敲钟、作揖、接金雨。财运只是游戏分数，不收款，不预测发财。">
 <meta property="og:url" content="https://wan.is-my.app/caishen/">
 <meta property="og:image" content="https://wan.is-my.app/caishen/og.png">
 <meta property="og:image:width" content="1200">
@@ -81,12 +81,13 @@ button:focus-visible, a:focus-visible, textarea:focus-visible { outline: 3px sol
 <p id="live" aria-live="polite"></p>
 <section class="seo">
   <h1>云阶财神殿</h1>
-  <p>一座虚构的民俗小游戏。用键盘或摇杆走进山门、侧殿、殿后和正殿，靠近香炉、钟、供桌和蒲团才会出现对应的事。财运值是游戏分数，存在本地，不能换成钱，也不预测发财、还债或中奖。没有功德箱。</p>
+  <p>一座虚构的三维民俗小游戏。用键盘或摇杆走进庭院和正殿，靠近香炉、钟和财神才会出现对应的事。财运值是游戏分数，存在本地，不能换成钱，也不预测发财、还债或中奖。没有功德箱。</p>
 </section>
 <noscript><p>云阶财神殿需要打开 JavaScript。这是免费的民俗小游戏，财运只是游戏分数。</p></noscript>
 <script src="economy.js"></script>
-<script src="world.js"></script>
-<script src="view.js"></script>
-<script src="game.js"></script>
+<script type="importmap">
+{"imports":{"three":"./vendor/three.module.min.js"}}
+</script>
+<script type="module" src="main3d.js"></script>
 </body>
 </html>
